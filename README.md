@@ -7,3 +7,8 @@ quarto is pretty legit
 [Igors blog](https://github.com/ibab/babushk.in/blob/master/templates/post-item.html)
 
 [docs](https://quarto.org/docs/reference/projects/websites.html)
+
+## How To
+
+cd into main directory and run
+`quarto preview .`
