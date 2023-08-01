@@ -202,5 +202,8 @@
   },
   "library/crypto/blockchains/solana/events/mango.qmd": {
     "mango.html": "81931313"
+  },
+  "library/physics/superconductor/lk99.qmd": {
+    "lk99.html": "1b039500"
   }
 }

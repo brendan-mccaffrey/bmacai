@@ -775,5 +775,54 @@
     "title": "Hyperliquid",
     "section": "(Potentially) New Funding Rate Formula:",
     "text": "(Potentially) New Funding Rate Formula:\n\\[F = P + \\text{clamp}(r - P - , r_c, r_c)\\] where - F = Funding Rate - P = Average Premium Index - r = interest rate - r_c = clamp rate (e.g. 0.03%, the max/min funding rate as decided by exchange)\nOne important distinction is that Hyperliquid uses a constant 6000 USD notional value when computing the impact bid and ask prices for the premium.\nInsurance Fund\n\nPortion of trading fees (once turned on) will go here.\nEntirely automated in L1 logic (not discretionary insurance spending)\nIn rare event no one liquidates position (my early question), fund will take over and slowly deleverage it.\n\n“Note that auto-deleveraging has never happened on Hyperliquid to date. However, it is an important final safeguard on the solvency of the platform. There is a strict invariant that under all operation, a user who has no open positions will not socialize any losses of the platform.” - Yea, unless the insurance fund gets rinsed lol.\nMarket Making\n\nIf you’re interested in market making, reach out via Telegram @HyperliquidX We should show interest\n\nVaults\nAnyone can make their account a “vault” which is essentially a copy-trade program. Creator earns additional 10% (makes sense) - I like this, introduces a good social element that was missing from GMX and CEX’s\nHistorical Data\n\nIs available as compressed csv files link"
+  },
+  {
+    "objectID": "library/physics/superconductor/lk99.html",
+    "href": "library/physics/superconductor/lk99.html",
+    "title": "LK-99",
+    "section": "",
+    "text": "Original paper(s) is(are) released twice, the first time (suspected to rush to beat the second) with only 3 authors, making the team eligible for a noble prize.\n\nThe First Room-Temperature Ambient-Pressure Superconductor\n\nPeople rush to replicate the study/results.\n\nFirst-principles study on the electronic structure of \\(Pb_{10−x}Cu_x(PO_4)_6O (x=0, 1)\\)\nSynthesis of possible room temperature superconductor \\(LK-99:Pb_9Cu(PO_4)_6O\\)\n\nA theoretical explanation for LK-99 is released on July 31, 2023, by Sinead Griffin out of Berkeley.\n\nOrigin of correlated isolated flat bands in copper-substituted lead phosphate apatite.\n\nDouglas Natelson published a blog post expressing a pessemistic view on the whole debacle.\nA (failed?) replication attempt out of Beijing; shows semiconductor behavior, not super\n\nSemiconducting transport in \\(Pb_{10-x}Cu_x(PO_4)_6O\\) sintered from \\(Pb_2SO_5\\) and \\(Cu_3P\\)"
+  },
+  {
+    "objectID": "library/physics/superconductor/lk99.html#tldr-as-of-august-1-2023",
+    "href": "library/physics/superconductor/lk99.html#tldr-as-of-august-1-2023",
+    "title": "LK-99",
+    "section": "",
+    "text": "Since 1999, a tiny group of Korean scientists, working in obscurity and in their off-time, pursue the dying wishes of their materials professor who has his own theory about room temperature and pressure superconductors, a century-defining material, the holy grail of materials science and an instant Nobel prize.\nA week ago, one of them went rogue and published a paper describing how to produce their substance, LK-99, which may or not be this holy grail material. It requires no exotic materials or equipment to reproduce, but the paper omits a lot of detail about the specifics of the synthesis.\nThey accompany it with pictures and a video. There are mistakes in the paper, but they authors say they are trivial, will be fixed, and all of them stand by their claims, even as they feud with each other.\nThis kicks off a world-wide race to deboonk or reproduce. US, Chinese, Japanese, and Indian labs all drop what they’re doing and give LK-99 a shot. One guy at a startup in California tries on his own as well, and 10,000 people tune in to watch a Twitch stream of a webcam pointed at a kiln. The process takes a few days.\nA Russian anime catgirl joins the fracas, ruthlessly making fun of both the original Korean scientists for their bizarre methodology, and of Western/Chinese labs for simply following the steps without understanding what they do. She applies the Soviet technique of ignoring the steps outlined and instead trying to figure out what they actually do, and comes up with her own procedure using shit just laying around her apartment.\nShe produces a small grain of the floaty rock, takes a picture but refuses to take a video, and mercilessly ridicules everybody who keeps asking her for more proofs because it was so easy to do, they should just be doing it themselves if they weren’t mediocre westoids. She’s catty and great."
+  },
+  {
+    "objectID": "library/physics/superconductor/lk99.html#original-paper",
+    "href": "library/physics/superconductor/lk99.html#original-paper",
+    "title": "LK-99",
+    "section": "Original Paper",
+    "text": "Original Paper\nThe First Room-Tempurature Ambient-Pressure Superconductor\nSynthesis of possible room temperature superconductor \\(LK-99:Pb_9Cu(PO_4)_6O\\)\nA theoretical explanation for LK-99 is released on August 31, 2023, by Sinead Griffin out of Berkeley."
+  },
+  {
+    "objectID": "library/physics/superconductor/lk99.html#discussion",
+    "href": "library/physics/superconductor/lk99.html#discussion",
+    "title": "LK-99",
+    "section": "Discussion",
+    "text": "Discussion\nDouglas Natelson published a blog post expressing a pessemistic view on the whole debacle."
+  },
+  {
+    "objectID": "library/physics/superconductor/lk99.html#sequence-of-events",
+    "href": "library/physics/superconductor/lk99.html#sequence-of-events",
+    "title": "LK-99",
+    "section": "Sequence of Events",
+    "text": "Sequence of Events"
+  },
+  {
+    "objectID": "library/physics/superconductor/lk99.html#overview",
+    "href": "library/physics/superconductor/lk99.html#overview",
+    "title": "LK-99",
+    "section": "",
+    "text": "Original paper(s) is(are) released twice, the first time (suspected to rush to beat the second) with only 3 authors, making the team eligible for a noble prize.\n\nThe First Room-Temperature Ambient-Pressure Superconductor\n\nPeople rush to replicate the study/results.\n\nFirst-principles study on the electronic structure of \\(Pb_{10−x}Cu_x(PO_4)_6O (x=0, 1)\\)\nSynthesis of possible room temperature superconductor \\(LK-99:Pb_9Cu(PO_4)_6O\\)\n\nA theoretical explanation for LK-99 is released on July 31, 2023, by Sinead Griffin out of Berkeley.\n\nOrigin of correlated isolated flat bands in copper-substituted lead phosphate apatite.\n\nDouglas Natelson published a blog post expressing a pessemistic view on the whole debacle.\nA (failed?) replication attempt out of Beijing; shows semiconductor behavior, not super\n\nSemiconducting transport in \\(Pb_{10-x}Cu_x(PO_4)_6O\\) sintered from \\(Pb_2SO_5\\) and \\(Cu_3P\\)"
+  },
+  {
+    "objectID": "library/physics/superconductor/lk99.html#tldr-on-the-drama-as-of-august-1-2023",
+    "href": "library/physics/superconductor/lk99.html#tldr-on-the-drama-as-of-august-1-2023",
+    "title": "LK-99",
+    "section": "TLDR on the drama as of August 1, 2023",
+    "text": "TLDR on the drama as of August 1, 2023\nSince 1999, a tiny group of Korean scientists, working in obscurity and in their off-time, pursue the dying wishes of their materials professor who has his own theory about room temperature and pressure superconductors, a century-defining material, the holy grail of materials science and an instant Nobel prize.\nA week ago, one of them went rogue and published a paper describing how to produce their substance, LK-99, which may or not be this holy grail material. It requires no exotic materials or equipment to reproduce, but the paper omits a lot of detail about the specifics of the synthesis.\nThey accompany it with pictures and a video. There are mistakes in the paper, but they authors say they are trivial, will be fixed, and all of them stand by their claims, even as they feud with each other.\nThis kicks off a world-wide race to deboonk or reproduce. US, Chinese, Japanese, and Indian labs all drop what they’re doing and give LK-99 a shot. One guy at a startup in California tries on his own as well, and 10,000 people tune in to watch a Twitch stream of a webcam pointed at a kiln. The process takes a few days.\nA Russian anime catgirl joins the fracas, ruthlessly making fun of both the original Korean scientists for their bizarre methodology, and of Western/Chinese labs for simply following the steps without understanding what they do. She applies the Soviet technique of ignoring the steps outlined and instead trying to figure out what they actually do, and comes up with her own procedure using shit just laying around her apartment.\nShe produces a small grain of the floaty rock, takes a picture but refuses to take a video, and mercilessly ridicules everybody who keeps asking her for more proofs because it was so easy to do, they should just be doing it themselves if they weren’t mediocre westoids. She’s catty and great."
   }
 ]
