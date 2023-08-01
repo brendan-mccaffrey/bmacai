@@ -28,7 +28,8 @@ website:
     contents: library
     alignment: left
   page-footer: 
-    left: "Copyright 2023, Brendan McCaffrey" 
+    left: "Copyright 2023, Brendan McCaffrey"
+    center: "$x^{14}$" 
     right: 
       - icon: github
         href: https://github.com/brendan-mccaffrey
