@@ -1,0 +1,6 @@
+---
+title: "Example Post 1"
+author: "Tristan O'Malley"
+date: "2023-07-24"
+categories: [news]
+---

@@ -1,0 +1,12 @@
+---
+title: "Bitcoin"
+description: "All pairse lord Satoshi"
+page-layout: full
+---
+
+- [Bitcoin: A Peer to Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
+- [Bitcoin Lightning Network](https://lightning.network/lightning-network-paper.pdf)
+- [Segregated Witness Benefits](https://bitcoincore.org/en/2016/01/26/segwit-benefits/#efficiency-gains-when-not-verifying-signatures)
+- [Vulnerability](https://invdos.net/paper/CVE-2018-17145.pdf) | [tweet](https://twitter.com/pcaversaccio/status/1627631035017052163?s=20)
+
+Explorer | [btcscan](https://btcscan.org/)

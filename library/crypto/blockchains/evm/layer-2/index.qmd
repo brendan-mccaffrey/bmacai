@@ -1,0 +1,10 @@
+---
+title: "Layer 2 Rollups"
+description: "Rollups are blockchains that are dependent on another blockchain for consensus/security"
+page-layout: full
+---
+
+- [Vitalik: An Incomplete Guide to Rollups](https://vitalik.ca/general/2021/01/05/rollup.html)
+- [A Rollup-Centric Ethereum Roadmap](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698)
+- [Arbitrum: Scalable, Private Smart Contracts](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-kalodner.pdf)
+- [Vitalik: An Incomplete Guide to Rollups](https://vitalik.ca/general/2021/01/05/rollup.html)

@@ -1,0 +1,8 @@
+---
+title: "History of AI"
+author: "Brendan McCaffrey"
+date: "2023-08-31"
+categories: [code, software, ai]
+---
+
+This is a History of AI.

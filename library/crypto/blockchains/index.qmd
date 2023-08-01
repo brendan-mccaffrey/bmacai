@@ -1,0 +1,30 @@
+---
+title: "Blockchains"
+description: "All things directly related to Ethereum"
+page-layout: full
+---
+
+## Early Contributions / Papers
+
+- David Chaum, 1983 [Electronic Cash](https://sceweb.sce.uhcl.edu/yang/teaching/csci5234WebSecurityFall2011/Chaum-blind-signatures.PDF)
+- David Chaum, 1985 [Security without Identification](https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf)
+- Dr. Douglas Jackson and Barry K. Downey, 1996 [E-Gold](https://cs.stanford.edu/people/eroberts/cs201/projects/2010-11/Bitcoins/e-gold.html)
+- Wei Dai, 1998 [b-money](http://www.weidai.com/bmoney.txt)
+- Nick Szabo, 1998 [Bit Gold](https://nakamotoinstitute.org/bit-gold/)
+
+## Whitepapers
+
+- [Bitcoin](https://bitcoin.org/bitcoin.pdf)
+- [Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform](https://ethereum.org/669c9e2e2027310b6b3cdce6e1c52962/Ethereum_Whitepaper_-_Buterin_2014.pdf)
+- [Ethereum: A Secure Decentralized Generalized Transaction Ledger](https://gavwood.com/paper.pdf)
+- [Zerocash: Decentralized Anonymous Payments from Bitcoin](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6956581)
+- [Cosmos: Internet of Blockchains](https://api-new.whitepaper.io/documents/pdf?id=BJNXW5ZnU)
+- [Solana: A new Architecture for a High Performance Blockchain](https://solana.com/solana-whitepaper.pdf)
+- [Cardano](https://api-new.whitepaper.io/documents/pdf?id=HkUIhFWhL)
+- [Algorand: Scaling Byzantine Agreements for Cryptocurrencies](https://people.csail.mit.edu/nickolai/papers/gilad-algorand-eprint.pdf)
+- [Avalanche Platform](https://assets.website-files.com/5d80307810123f5ffbb34d6e/6008d7bbf8b10d1eb01e7e16_Avalanche%20Platform%20Whitepaper.pdf)
+- [The Spacemesh Protocol](https://drive.google.com/file/d/18I9GPebWqgpvusI1kMnAB9nayBbL-1qN/view)
+
+## Recent, General
+
+- [The Tie: Solving the Blockchain Trilemma](https://research.thetie.io/blockchain-trilemma/#on-chain)

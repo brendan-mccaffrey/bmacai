@@ -1,0 +1,18 @@
+---
+title: "Solana"
+description: "Soylano chain"
+page-layout: full
+---
+
+
+- [How will Solana Improve its Stability?](https://medium.com/chorus-one/how-will-solana-improve-its-stability-6d4b0ba41866)
+
+### Fee Markets
+
+- [Priority Fees Github Issue](https://github.com/solana-labs/solana/issues/22820)
+- [Dune Query: % of Sol Txs with Fee above base](https://dune.com/queries/1111217/1898826)
+
+### The Solana Validator
+
+- [Firedancer: A New Client by Jump](https://jumpcrypto.com/jump-crypto-sets-out-to-build-new-validator-client-for-the-solana-blockchain-to-increase-the-throughput-and-reliability-of-the-network/)
+- [Validator Economics on Solana](https://medium.com/chorus-one/exploring-validator-economics-on-solana-cb1498a3aef6)

@@ -1,0 +1,7 @@
+---
+title: "Ethereum Virtual Machine"
+description: "All things directly related to the EVM"
+page-layout: full
+---
+
+- [Ethereum Data Structures](https://arxiv.org/pdf/2108.05513.pdf)

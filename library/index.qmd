@@ -1,0 +1,9 @@
+---
+title: "Library"  
+page-layout: full
+title-block-banner: false
+---
+
+Welcome to my library.
+
+You may find books, articles, and curated research documents spanning many topics.

@@ -1,0 +1,206 @@
+{
+  "index.qmd": {
+    "index.html": "9b129e9f"
+  },
+  "about.qmd": {
+    "about.html": "12cfdb0f"
+  },
+  "library/posts/post-with-code/index.qmd": {
+    "index.html": "0fb48896"
+  },
+  "library/posts/welcome/index.qmd": {
+    "index.html": "36223701"
+  },
+  "library/index.qmd": {
+    "index.html": "0cc947a9"
+  },
+  "library/about.qmd": {
+    "about.html": "7eed83dd"
+  },
+  "writes/posts/post-with-code/index.qmd": {
+    "index.html": "98736ee3"
+  },
+  "writes/posts/welcome/index.qmd": {
+    "index.html": "8ac248ab"
+  },
+  "writes/index.qmd": {
+    "index.html": "7711488b"
+  },
+  "writes/about.qmd": {
+    "about.html": "b6e45ef4"
+  },
+  "reads/posts/post-with-code/index.qmd": {
+    "index.html": "f4f02369"
+  },
+  "reads/posts/welcome/index.qmd": {
+    "index.html": "17e7fdee"
+  },
+  "reads/index.qmd": {
+    "index.html": "3ed72b58"
+  },
+  "writes/posts/example-post/index.qmd": {
+    "index.html": "e1a719ec"
+  },
+  "reads/posts/software/ai/history-of-ai/history-of-ai.qmd": {
+    "history-of-ai.html": "6e69857a"
+  },
+  "reads/posts/finance/quant-trading/quant-trading.qmd": {
+    "quant-trading.html": "2c39b312"
+  },
+  "reads/posts/finance/finance-101/finance-101.qmd": {
+    "finance-101.html": "4edfc547"
+  },
+  "reads/posts/software/crypto/ethena/ethena.qmd": {
+    "ethena.html": "819fd8a7"
+  },
+  "reads/categories/software/crypto/ethena/ethena.qmd": {
+    "ethena.html": "c7ee379c"
+  },
+  "reads/categories/software/ai/history-of-ai/history-of-ai.qmd": {
+    "history-of-ai.html": "47cb75b1"
+  },
+  "reads/categories/finance/posts/quant-trading/quant-trading.qmd": {
+    "quant-trading.html": "3e70bf19"
+  },
+  "reads/categories/finance/posts/finance-101/finance-101.qmd": {
+    "finance-101.html": "30f63155"
+  },
+  "reads/categories/finance/index.qmd": {
+    "index.html": "6b95aa7a"
+  },
+  "reads/categories/software/software.qmd": {
+    "software.html": "dbe7150a"
+  },
+  "reads/categories/software/index.qmd": {
+    "index.html": "82891f88"
+  },
+  "reads/software/crypto/ethena/ethena.qmd": {
+    "ethena.html": "3c785956"
+  },
+  "reads/software/index.qmd": {
+    "index.html": "8a3319e5"
+  },
+  "reads/software/ai/history-of-ai/history-of-ai.qmd": {
+    "history-of-ai.html": "c7b05fda"
+  },
+  "reads/finance/posts/quant-trading/quant-trading.qmd": {
+    "quant-trading.html": "bb789a15"
+  },
+  "reads/finance/posts/finance-101/finance-101.qmd": {
+    "finance-101.html": "f0746e00"
+  },
+  "reads/finance/index.qmd": {
+    "index.html": "25129eef"
+  },
+  "reads/EXAMPLE/EXAMPLE.qmd": {
+    "EXAMPLE.html": "6c2dd094"
+  },
+  "library/EXAMPLE/EXAMPLE.qmd": {
+    "EXAMPLE.html": "cb1efd2c"
+  },
+  "library/software/crypto/ethena/ethena.qmd": {
+    "ethena.html": "558a1c9d"
+  },
+  "library/software/crypto/index.qmd": {
+    "index.html": "586cb4c5"
+  },
+  "library/software/index.qmd": {
+    "index.html": "e13f6ef5"
+  },
+  "library/software/ai/history-of-ai/history-of-ai.qmd": {
+    "history-of-ai.html": "903d7b37"
+  },
+  "library/reads/straussian-moment.qmd": {
+    "straussian-moment.html": "1fe240b7"
+  },
+  "library/finance/posts/quant-trading/quant-trading.qmd": {
+    "quant-trading.html": "9fa6cb42"
+  },
+  "library/finance/posts/finance-101/finance-101.qmd": {
+    "finance-101.html": "f94eae05"
+  },
+  "library/finance/index.qmd": {
+    "index.html": "ef819009"
+  },
+  "library/topics/software/crypto/ethena/ethena.qmd": {
+    "ethena.html": "22c8a814"
+  },
+  "library/topics/software/crypto/index.qmd": {
+    "index.html": "e679276b"
+  },
+  "library/topics/software/index.qmd": {
+    "index.html": "77d47362"
+  },
+  "library/topics/software/ai/history-of-ai/history-of-ai.qmd": {
+    "history-of-ai.html": "ef23de36"
+  },
+  "library/topics/finance/posts/quant-trading/quant-trading.qmd": {
+    "quant-trading.html": "bc834e2d"
+  },
+  "library/topics/finance/posts/finance-101/finance-101.qmd": {
+    "finance-101.html": "0e01f5c0"
+  },
+  "library/topics/finance/index.qmd": {
+    "index.html": "4e5f38fc"
+  },
+  "library/finance/quant-trading/quant-trading.qmd": {
+    "quant-trading.html": "78bbef68"
+  },
+  "library/finance/finance-101/finance-101.qmd": {
+    "finance-101.html": "f45d308d"
+  },
+  "library/crypto/blockchain-protocols/ethena/ethena.qmd": {
+    "ethena.html": "0641fa56"
+  },
+  "library/crypto/mev/overview.qmd": {
+    "overview.html": "b7606f69"
+  },
+  "library/crypto/blockchains/evm/ethereum.qmd": {
+    "ethereum.html": "c190d059"
+  },
+  "library/crypto/blockchains/index.qmd": {
+    "index.html": "fc9b5b23"
+  },
+  "library/crypto/blockchains/evm/layer-2/index.qmd": {
+    "index.html": "f791b948"
+  },
+  "library/crypto/blockchains/evm/index.qmd": {
+    "index.html": "fd2a165e"
+  },
+  "library/crypto/blockchains/solana/index.qmd": {
+    "index.html": "eeeb098f"
+  },
+  "library/crypto/blockchains/bitcoin/index.qmd": {
+    "index.html": "052eb6ef"
+  },
+  "library/crypto/blockchains/consensus.qmd": {
+    "consensus.html": "de5f114f"
+  },
+  "library/crypto/blockchains/evm/ethereum/index.qmd": {
+    "index.html": "ccdfe1ff"
+  },
+  "library/crypto/blockchains/bitcoin/btc-core.qmd": {
+    "btc-core.html": "e9572519"
+  },
+  "library/crypto/blockchains/bitcoin/versions.qmd": {
+    "versions.html": "622690f0"
+  },
+  "library/crypto/blockchains/bitcoin/versions.md": {
+    "versions.html": "977d5ae8"
+  },
+  "library/crypto/apps/ethena/ethena.qmd": {
+    "ethena.html": "61e98070"
+  },
+  "library/crypto/cex/index.qmd": {
+    "index.html": "6e3deff9"
+  },
+  "library/crypto/blockchains/bitcoin/ordinals.qmd": {
+    "ordinals.html": "e212903b"
+  },
+  "library/crypto/apps/hyperliquid/index.qmd": {
+    "index.html": "7707d682"
+  },
+  "library/crypto/blockchains/solana/events/mango.qmd": {
+    "mango.html": "81931313"
+  }
+}

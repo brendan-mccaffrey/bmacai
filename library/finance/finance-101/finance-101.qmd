@@ -1,0 +1,9 @@
+---
+title: "Finance 101"
+author: "Brendan McCaffrey"
+date: "2023-07-31"
+subtitle: Intro to Finance
+# categories: [finance]
+---
+
+This is a background on finance

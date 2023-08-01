@@ -1,0 +1,81 @@
+[
+  {
+    "listing": "/library/index.html",
+    "items": []
+  },
+  {
+    "listing": "/writes/index.html",
+    "items": [
+      "/writes/posts/post-with-code/index.html",
+      "/writes/posts/welcome/index.html",
+      "/writes/posts/example-post/index.html"
+    ]
+  },
+  {
+    "listing": "/reads/index.html",
+    "items": [
+      "/reads/finance/index.html",
+      "/reads/software/index.html"
+    ]
+  },
+  {
+    "listing": "/reads/categories/finance/index.html",
+    "items": [
+      "/reads/categories/finance/posts/quant-trading/quant-trading.html",
+      "/reads/categories/finance/posts/finance-101/finance-101.html"
+    ]
+  },
+  {
+    "listing": "/reads/categories/software/software.html",
+    "items": []
+  },
+  {
+    "listing": "/reads/categories/software/index.html",
+    "items": []
+  },
+  {
+    "listing": "/reads/finance/index.html",
+    "items": [
+      "/reads/finance/posts/quant-trading/quant-trading.html",
+      "/reads/finance/posts/finance-101/finance-101.html"
+    ]
+  },
+  {
+    "listing": "/reads/software/index.html",
+    "items": []
+  },
+  {
+    "listing": "/library/finance/index.html",
+    "items": [
+      "/library/finance/posts/quant-trading/quant-trading.html",
+      "/library/finance/posts/finance-101/finance-101.html"
+    ]
+  },
+  {
+    "listing": "/library/software/crypto/index.html",
+    "items": []
+  },
+  {
+    "listing": "/library/software/index.html",
+    "items": [
+      "/library/software/crypto/index.html"
+    ]
+  },
+  {
+    "listing": "/library/topics/finance/index.html",
+    "items": [
+      "/library/topics/finance/posts/quant-trading/quant-trading.html",
+      "/library/topics/finance/posts/finance-101/finance-101.html"
+    ]
+  },
+  {
+    "listing": "/library/topics/software/index.html",
+    "items": [
+      "/library/topics/software/crypto/index.html"
+    ]
+  },
+  {
+    "listing": "/library/topics/software/crypto/index.html",
+    "items": []
+  }
+]

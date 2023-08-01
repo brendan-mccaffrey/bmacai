@@ -1,0 +1,117 @@
+/* css styles */
+
+/* Brendan Basic */
+
+html {
+    display: table;
+    margin: auto;
+}
+
+@media (min-width: 992px) {
+    .navbar-container {
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+}
+
+.navbar-title {
+    font-weight: bolder;
+    color: #000
+}
+
+.breadcrumb {
+    display: none
+}
+
+/* button.navbar-toggler {
+    background: #eee;
+    border-radius: 10px;
+    padding: 10px;
+} */
+
+.navbar-collapse.collapse.show {
+    background: #eee;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#quarto-sidebar.show {
+    border-radius: 10px;
+    padding: 5%;
+}
+
+main {
+    padding: 5vw;
+}
+
+img {
+    justify-self: center;
+    margin: auto;
+}
+
+.img-fluid {
+    align-self: center;
+    margin: auto;
+}
+
+.description {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 12vh;
+    width: 90vw;
+}
+
+.sidebar.margin-sidebar {
+    margin-top: 8vh;
+}
+
+h1 {
+    text-align: center;
+    padding: 2vh;
+}
+
+.sidebar-navigation li a {
+    text-decoration: none;
+    color: #212529
+}
+
+/* #quarto-sidebar {
+    padding-left: 0;
+} */
+
+.sidebar-link.active {
+    color: #00de64 !important;
+}
+
+.sidebar-item-container:hover {
+    color: #00de64 !important;
+}
+
+a {
+    color: #337ab7;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #20e0e0;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: #337ab7;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* a:visited {
+    color: #1e496d;
+    background-color: transparent;
+    text-decoration: none;
+} */

@@ -1,0 +1,43 @@
+---
+title: "Consensus"
+description: "All things Byzantine Fault Tolerant: Research and implementations of consensus mechanisms."
+page-layout: full
+---
+
+## Whitepapers
+
+- [Tendermint: Consensus without Mining](https://tendermint.com/static/docs/tendermint.pdf)
+- [DFINITY Consensus System](https://cryptogurukul-com.b-cdn.net/wp-content/uploads/2021/08/dfinity-consensus.pdf)
+- [Ripple Protocol Consensus Algorithm](https://ripple.com/files/ripple_consensus_whitepaper.pdf)
+- [Avalanche Consensus](https://assets.website-files.com/5d80307810123f5ffbb34d6e/6009805681b416f34dcae012_Avalanche%20Consensus%20Whitepaper.pdf)
+- [Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus](https://arxiv.org/pdf/2105.11827.pdf)
+- [Cosmos without Tendermint](https://www.paradigm.xyz/2022/07/experiment-narwhal-bullshark-cosmos-stack)
+- [The Honey Badger of BFT Protocols](https://eprint.iacr.org/2016/199.pdf)
+- [Hashgraph Protocol: Efficient ABFT](https://hedera.com/hh-ieee_coins_paper-200516.pdf)
+- [Byzantine Ordered Consensus without Byzantine Oligarchy](https://www.cs.cornell.edu/lorenzo/papers/Zhang20Byzantine.pdf)
+- [BEAT: Asynchronous BFT Made Practical](https://www.csee.umbc.edu/~hbzhang/files/beat.pdf)
+
+## Research
+
+- [Long Range Attacks on PoS](https://www.youtube.com/watch?v=-uxHoEfxXC4)
+- [Casper the Friendly Finality Gadget](https://arxiv.org/abs/1710.09437)
+- [Combining GHOST and Casper](https://arxiv.org/abs/2003.03052)
+- [Beacon Chain Casper Mini-Spec](https://ethresear.ch/t/beacon-chain-casper-mini-spec/2760/17)
+- [Mitigating Balancing Attacks on LMD GHOST](https://notes.ethereum.org/@vbuterin/lmd_ghost_mitigation)
+- [zkCasper](https://research.polytope.technology/zkcasper): SNARK based scheme for verifying the Ethereum's Casper FFG consensus proofs
+
+## Consensus Attacks
+
+- [Two Attacks on Proof-of-Stake GHOST/Ethereum](https://arxiv.org/pdf/2203.01315.pdf)
+- [Three Attacks on Proof-of-Stake Ethereum](https://arxiv.org/abs/2110.10086)
+- [Balancing Attack on Gasper](https://ethresear.ch/t/a-balancing-attack-on-gasper-the-current-candidate-for-eth2s-beacon-chain/8079)
+- [Discouragement Attacks](https://eth2book.info/capella/part2/incentives/rewards/#discouragement-attacks)
+- [Vitalik Paper](https://github.com/ethereum/research/blob/master/papers/discouragement/discouragement.pdf)
+- [Discouragement Attacks](https://github.com/ethereum/research/blob/master/papers/discouragement/discouragement.pdf)
+
+## Events
+
+**May 12, 2023:** Ethereum Consensus Issues
+
+- [tweet one](https://twitter.com/potuz1/status/1657031082749861891?s=20)
+- [tweet two](https://twitter.com/TaylerUSA/status/1656840323392208899)

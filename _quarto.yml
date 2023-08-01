@@ -1,0 +1,51 @@
+project:
+  type: website
+
+website:
+  title: "bmac"
+  search: false
+  favicon: media/favicon.ico
+  # site-url: "https://bmac.ai"
+  # google-analytics: "UA-XXXXXXXX"
+  twitter-card: 
+    image: "media/bg.jpeg"
+  navbar: 
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: library
+        text: Reads
+      - href: writes/index.qmd
+        text: Writes
+    right:
+      - icon: github
+        href: https://github.com/brendan-mccaffrey
+      - icon: twitter 
+        href: https://twitter.com/0xbmac
+  sidebar: 
+    style: "docked"
+    contents: library
+    alignment: left
+  page-footer: 
+    left: "Copyright 2023, Brendan McCaffrey" 
+    right: 
+      - icon: github
+        href: https://github.com/brendan-mccaffrey
+      - icon: twitter 
+        href: https://twitter.com/0xbmac
+format:
+  html:
+    theme: simplex
+    css: styles.css
+    # toc: true
+
+
+# Fav Themes
+# - litera
+# - simplex
+# - header of lux
+# - morph interesting
+# - spacelab
+
+
