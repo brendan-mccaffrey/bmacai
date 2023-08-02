@@ -205,5 +205,8 @@
   },
   "library/physics/superconductor/lk99.qmd": {
     "lk99.html": "1b039500"
+  },
+  "library/physics/superconductor/index.qmd": {
+    "index.html": "fc2c38a7"
   }
 }
