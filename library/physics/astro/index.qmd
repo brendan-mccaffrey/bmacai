@@ -1,0 +1,11 @@
+---
+title: "Astrophysics & Cosmology"
+description: "Look to the stars"
+page-layout: full
+---
+
+
+- [Planck 2018 Results, Cosmological Parameters](https://arxiv.org/abs/1807.06209)
+- [Webb Telescope finds surprising evidence of well-formed early galaxies](https://twitter.com/WKCosmo/status/1629868261490737153?s=20)
+- [A Black Hole’s Orbiting Ring of Light Could Encrypt Its Inner Secrets](https://www.quantamagazine.org/black-holes-ring-of-light-could-encrypt-its-inner-secrets-20220908/)
+- [Holography of the Photon Ring](https://arxiv.org/abs/2205.05064)

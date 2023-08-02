@@ -4,6 +4,15 @@ description: "Despite the recent hype, superconductivity is older than ya mom"
 page-layout: full
 ---
 
+## Resources
+
+- [Piezoelectricity-induced Room Temperature Superconductor](https://patents.google.com/patent/US20190058105A1/en)
+- [Michael S Fuhrer: History of room-tempurature superconductors](https://twitter.com/MichaelSFuhrer/status/1686644227885944833?s=20)
+- [Steven Kivelson | Superconductivity and Quantum Mechanics at the Macro-Scale, Part 1 of 2](https://www.youtube.com/watch?v=Yx666k2XH8E)
+- [Steven Kivelson | Superconductivity and Quantum Mechanics at the Macro-Scale, Part 2 of 2](https://www.youtube.com/watch?v=ROwLS0cKUN4)
+
+## Summary
+
 Superconductivity is a macro-quantum state wherein a material displays (effectively) zero resistivity. (SUMMARIZE PT 1 1:09)
 
 A phenomenal overview of the phenomenon, from first principles, can be found on youtube.

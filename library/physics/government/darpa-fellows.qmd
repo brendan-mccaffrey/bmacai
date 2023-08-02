@@ -1,0 +1,35 @@
+---
+title: "DARPA Fellows"
+description: "Probably worth keeping an eye on these people"
+page-layout: full
+---
+
+## Allegra A. Beal Cohen
+
+Dr. Allegra A. Beal Cohen joined DARPA in January 2023 as part of the first cohort of DARPA Innovation Fellows. Prior to joining DARPA, Beal Cohen was a DARPA I2O postdoctoral fellow at the University of Florida. She worked on the DARPA Habitus program where she modeled agricultural value chains, conducted qualitative interviews with domain experts, and built a tool for partially automating knowledge engineering. She was selected as a DARPA Early Riser for her work on knowledge engineering.
+
+Beal Cohen earned her doctorate degree from the University of Florida as an National Science Foundation Graduate Research Fellow, where she modeled intra-household bargaining and social norms in agriculture. She earned her Bachelor of Science degree in symbolic systems from Stanford University.
+
+## Rebecca Chmiel
+
+Dr. Rebecca Chmiel joined DARPA in January 2023 as part of the first cohort of DARPA Innovation Fellows. She received her Bachelor of Arts in chemistry and environmental studies from Colby College and her doctorate from the Massachusetts Institute of Technology and the Woods Hole Oceanographic Institution in marine biogeochemistry, and her research focused on the interactions between trace metal nutrients and marine phytoplankton. She has participated in four ocean research expeditions totaling over seven months at sea, and received the Antarctica Service Medal as part of her oceanographic fieldwork.
+
+## Alex Place
+
+Dr. Alex Place joined DARPA in January 2023 as part of the first cohort of DARPA Innovation Fellows. He received his Bachelor of Science in physics from the California Institute of Technology and his doctorate in electrical and computer engineering and materials science from Princeton University. His dissertation focused on improving the lifetimes of superconducting qubits, the building block of many industrial quantum computing efforts. He has also spent time developing nanoelectromechanical systems, novel solar cell designs, and medical devices.
+
+## LT Krishnan Rajagopalan, USN
+
+Lt. Krishnan (Krish) Rajagopalan joined DARPA in March 2023 as part of the first cohort of DARPA Innovation Fellows. As a Navy Explosive Ordnance Disposal (EOD) Officer, he has led units of unmanned underwater vehicle operators and EOD divers tasked with countering explosive hazards underwater. He also served as a requirements officer on the staff of the Chief of Naval Operations and, most recently, as the operations officer at Expeditionary Exploitation Unit ONE (EXU-1). Rajagopalan is a qualified EOD Technician and Navy Diving Officer. He received a Bachelor of Science in operations research from the U.S. Naval Academy and a Master of Science in operations research from the Massachusetts Institute of Technology (MIT), where he was an MIT Lincoln Laboratory Military Fellow.
+
+## Graham H. Reid
+
+Dr. Graham Reid joined DARPA in June 2023 as part of the second cohort of DARPA Innovation Fellows. Reid received a Bachelor of Arts in physics from Kenyon College and a doctorate from University of Maryland, College Park. His dissertation research, conducted at NIST as a guest researcher through the Joint Quantum Institute, used ultracold atoms to study topological physics in dynamically evolving quantum systems.
+
+## René M. Xavier
+
+Dr. René Xavier joined DARPA in June 2023 as part of the second cohort of DARPA Innovation Fellows. Xavier recently graduated from Florida Atlantic University, where she conducted research at the Harbor Branch Oceanographic Institute using shotgun metagenomics to analyze the biosynthesis of marine natural products. She received her Bachelor of Science in molecular, cellular, and developmental biology from the University of Washington in Seattle and was awarded a Fulbright Fellowship to study the regulation of reactive oxygen species at the Czech Institute of Experimental Botany in Prague. Prior to her academic career, she served as a nuclear electrician in the U.S. Navy where she was decorated with multiple honors including the Humanitarian Ribbon for her relief efforts during Hurricane Katrina.
+
+## Alessandra M. Zito
+
+Dr. Alessandra (Allie) Zito joined DARPA in June 2023 as part of the second cohort of DARPA Innovation Fellows. Zito received her Bachelor of Arts in chemistry and French language and literature from Johns Hopkins University and her doctorate in chemistry from the University of California, Irvine. Her graduate work focused on synthesizing and characterizing redox-active organic and inorganic molecules to be used for electrochemical carbon dioxide capture and concentration. She also has research experience in investigating catalyst loading on carbon aerogels, homogeneous and heterogeneous CO2 reduction catalysis, and electrode design for supercapacitors.

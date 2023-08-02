@@ -1,0 +1,11 @@
+---
+title: "Computation"
+description: "Quantum Computation: I prefer my bits quantum"
+page-layout: full
+---
+
+## Resources
+
+- [Quantum Hamiltonian-Based Models & the Variational Quantum Thermalizer Algorithm](https://arxiv.org/pdf/1910.02071.pdf)
+- [Limitations of optimization algorithms on noisy quantum devices](https://www.nature.com/articles/s41567-021-01356-3)
+- [Variational Quantum Thermalization](https://deep-1645.medium.com/variational-quantum-thermalization-and-the-future-of-quantum-thermodynamics-75ee9916ec3c)

@@ -1,0 +1,17 @@
+---
+title: "Quantum"
+description: "Quantum Physics: Where the secrets lie"
+page-layout: full
+---
+
+## Resources
+
+- [MIT Quantum Physics I](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/lecture-videos/)
+- [MIT Relatavistic Quantum Field Theory I](https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2008/)
+- [MIT Relatavistic Quantum Field Theory II](https://ocw.mit.edu/courses/8-324-relativistic-quantum-field-theory-ii-fall-2010/)
+- [Langrangian and Hamiltonian Mechanics](https://www.youtube.com/watch?v=0DHNGtsmmH8)
+- [Introductory Minicourse to AdS/CFT](https://www.ictp-saifr.org/ads-cft2023/) | [youtube](https://www.youtube.com/playlist?list=PLg0_ydgtbHGH0FIZzD97RVU8K0DA9vI-Q)
+
+
+[Quantum Field Theory](field-theory/effective-or-fundamental.qmd)
+

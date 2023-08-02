@@ -208,5 +208,50 @@
   },
   "library/physics/superconductor/index.qmd": {
     "index.html": "fc2c38a7"
+  },
+  "library/physics/unification/string-theory/index.qmd": {
+    "index.html": "64e55aba"
+  },
+  "library/physics/unification/index.qmd": {
+    "index.html": "59f4bae4"
+  },
+  "library/physics/government/pentagon/pleads-fifth-exotic-materials.qmd": {
+    "pleads-fifth-exotic-materials.html": "043d769f"
+  },
+  "library/physics/government/index.qmd": {
+    "index.html": "51c7316b"
+  },
+  "library/physics/government/darpa-fellows.qmd": {
+    "darpa-fellows.html": "0195aa71"
+  },
+  "library/physics/relativity/index.qmd": {
+    "index.html": "449093ab"
+  },
+  "library/physics/electromagnetism/superconductor/lk99.qmd": {
+    "lk99.html": "68bf108d"
+  },
+  "library/physics/electromagnetism/superconductor/index.qmd": {
+    "index.html": "71738d2c"
+  },
+  "library/physics/electromagnetism/index.qmd": {
+    "index.html": "92872f71"
+  },
+  "library/physics/uap/index.qmd": {
+    "index.html": "c1ce54ac"
+  },
+  "library/physics/uap/people.qmd": {
+    "people.html": "d2004919"
+  },
+  "library/physics/astro/index.qmd": {
+    "index.html": "c0a37050"
+  },
+  "library/physics/quantum/field-theory/effective-or-fundamental.qmd": {
+    "effective-or-fundamental.html": "3976b728"
+  },
+  "library/physics/quantum/index.qmd": {
+    "index.html": "b7c49289"
+  },
+  "library/physics/quantum/compute/index.qmd": {
+    "index.html": "7969352f"
   }
 }

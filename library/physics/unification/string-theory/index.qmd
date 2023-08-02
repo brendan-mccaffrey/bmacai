@@ -1,0 +1,9 @@
+---
+title: "String Theory"
+description: "Possibily the biggest waste of human intelligence in recent history"
+page-layout: full
+---
+
+## Resources
+
+- [Magic, mystery or matrix? A conversation with string theorist Edward Witten](https://www.joachim-herz-stiftung.de/en/about-us/prices/hamburg-prize-for-theoretical-physics/edward-witten)

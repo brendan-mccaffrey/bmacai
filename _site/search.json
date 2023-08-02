@@ -831,5 +831,257 @@
     "title": "Superconductors",
     "section": "",
     "text": "Superconductivity is a macro-quantum state wherein a material displays (effectively) zero resistivity. (SUMMARIZE PT 1 1:09)\nA phenomenal overview of the phenomenon, from first principles, can be found on youtube.\nSteven Kivelson | Superconductivity and Quantum Mechanics at the Macro-Scale\n\nPart 1 of 2\nPart 2 of 2\n\nBelow is practically nothing more than a summary of these lectures, plus some wikipedia content."
+  },
+  {
+    "objectID": "library/physics/quantum/compute/index.html",
+    "href": "library/physics/quantum/compute/index.html",
+    "title": "Computation",
+    "section": "",
+    "text": "Quantum Hamiltonian-Based Models & the Variational Quantum Thermalizer Algorithm\nLimitations of optimization algorithms on noisy quantum devices\nVariational Quantum Thermalization"
+  },
+  {
+    "objectID": "library/physics/quantum/compute/index.html#resources",
+    "href": "library/physics/quantum/compute/index.html#resources",
+    "title": "Computation",
+    "section": "",
+    "text": "Quantum Hamiltonian-Based Models & the Variational Quantum Thermalizer Algorithm\nLimitations of optimization algorithms on noisy quantum devices\nVariational Quantum Thermalization"
+  },
+  {
+    "objectID": "library/physics/quantum/field-theory/effective-or-fundamental.html",
+    "href": "library/physics/quantum/field-theory/effective-or-fundamental.html",
+    "title": "Fundamental?",
+    "section": "",
+    "text": "The Quantum Theory of Fields: Effective or Fundamental?\n\nvideo\ncorresponding article\nQuantum Field Theory was born just pertaining to the electromagnetic field.\nWhen expanding this theory, it seemed it couldn’t be trusted at high energies. (Decline)\nLate 1940s, there was a new optimizing with the invention of a relatavistic perturbation theory, where the infinities could be absorbed into a redefinition of parameters like mass and charge of the electron. People thought this was sweeping problems under the rug, but it also may have been a way of selecting good theories (renormalizable theories).\nFor example, theere’s nothing in the symmetries of quantum electrodynamics which rules out putting a term in the field equations (or Lagrangian), which could make the magnetic moment of the electron anything you want. This would make the mass of the electron -1, which means the theory is not renormalizable, and thus shows invalid.\nLate 1960s and early 70s, the standard model came to fruition - this was the renaissance of Quantum Field theory. But there were still doubts whether this was a fundamental theory or an effective one.\nQuantum Field Theory & Einsteinian Physics may be low energy approximations of a more fundamental theory."
+  },
+  {
+    "objectID": "library/physics/uap/people.html#hal-puthoff",
+    "href": "library/physics/uap/people.html#hal-puthoff",
+    "title": "UAP People",
+    "section": "Hal Puthoff",
+    "text": "Hal Puthoff\nDr. Harold E. Puthoff is the co-founder and Vice President of Science and Technology of TTS Academy. Since 1985, Dr. Puthoff has served as President and CEO of EarthTech International, Inc. (ETI), and Director of the Institute for Advanced Studies at Austin (IASA). He has published numerous papers on electron-beam devices, lasers and space propulsion and has patents issued in the laser, communications, and energy fields. Dr. Puthoff’s professional background spans more than five decades of research at General Electric, Sperry, the National Security Agency, Stanford University and SRI International. Dr. Puthoff regularly advises NASA , the Department of Defense and intelligence communities, corporations and foundations on leading-edge technologies and future technology trends. He earned his Ph.D. from Stanford University in 1967 and won a Who’s Who Lifetime Achievement in 2017 that recognizes individuals that have achieved greatness in their industry and have excelled in their field for at least 20 years.\nLecture 2018\n\nvideo\nwriteup\nIRVA-SSE 2018\n\n2021 SCU AAP Conference Keynote by Hal Putoff\n\nvideo"
+  },
+  {
+    "objectID": "library/physics/uap/people.html#salvatore-pais",
+    "href": "library/physics/uap/people.html#salvatore-pais",
+    "title": "UAP People",
+    "section": "Salvatore Pais",
+    "text": "Salvatore Pais\n\nDr. Salvatore Pais | Intuitive Science, Conscious Universe & The Philosophy of Physics"
+  },
+  {
+    "objectID": "library/physics/uap/people.html#richard-griffiths",
+    "href": "library/physics/uap/people.html#richard-griffiths",
+    "title": "UAP People",
+    "section": "Richard Griffiths",
+    "text": "Richard Griffiths\nRichard Griffiths serves as Affiliate Faculty at University of Hawaii at Hilo, Physics and Astronomy. He leads the team that solved a gravitational lens phenomenon.\n\narticle\npaper"
+  },
+  {
+    "objectID": "library/physics/electromagnetism/index.html",
+    "href": "library/physics/electromagnetism/index.html",
+    "title": "Electromagnetism",
+    "section": "",
+    "text": "Dr. Salvatore Pais | Intuitive Science, Conscious Universe & The Philosophy of Physics"
+  },
+  {
+    "objectID": "library/physics/electromagnetism/index.html#resources",
+    "href": "library/physics/electromagnetism/index.html#resources",
+    "title": "Electromagnetism",
+    "section": "",
+    "text": "Dr. Salvatore Pais | Intuitive Science, Conscious Universe & The Philosophy of Physics"
+  },
+  {
+    "objectID": "library/physics/electromagnetism/superconductor/lk99.html",
+    "href": "library/physics/electromagnetism/superconductor/lk99.html",
+    "title": "LK-99",
+    "section": "",
+    "text": "Original paper(s) is(are) released twice, the first time (suspected to rush to beat the second) with only 3 authors, making the team eligible for a noble prize.\n\nThe First Room-Temperature Ambient-Pressure Superconductor\n\nPeople rush to replicate the study/results.\n\nFirst-principles study on the electronic structure of \\(Pb_{10−x}Cu_x(PO_4)_6O (x=0, 1)\\)\nSynthesis of possible room temperature superconductor \\(LK-99:Pb_9Cu(PO_4)_6O\\)\n\nA theoretical explanation for LK-99 is released on July 31, 2023, by Sinead Griffin out of Berkeley.\n\nOrigin of correlated isolated flat bands in copper-substituted lead phosphate apatite.\n\nDouglas Natelson published a blog post expressing a pessemistic view on the whole debacle.\nA (failed?) replication attempt out of Beijing; shows semiconductor behavior, not super\n\nSemiconducting transport in \\(Pb_{10-x}Cu_x(PO_4)_6O\\) sintered from \\(Pb_2SO_5\\) and \\(Cu_3P\\)"
+  },
+  {
+    "objectID": "library/physics/electromagnetism/superconductor/lk99.html#overview",
+    "href": "library/physics/electromagnetism/superconductor/lk99.html#overview",
+    "title": "LK-99",
+    "section": "",
+    "text": "Original paper(s) is(are) released twice, the first time (suspected to rush to beat the second) with only 3 authors, making the team eligible for a noble prize.\n\nThe First Room-Temperature Ambient-Pressure Superconductor\n\nPeople rush to replicate the study/results.\n\nFirst-principles study on the electronic structure of \\(Pb_{10−x}Cu_x(PO_4)_6O (x=0, 1)\\)\nSynthesis of possible room temperature superconductor \\(LK-99:Pb_9Cu(PO_4)_6O\\)\n\nA theoretical explanation for LK-99 is released on July 31, 2023, by Sinead Griffin out of Berkeley.\n\nOrigin of correlated isolated flat bands in copper-substituted lead phosphate apatite.\n\nDouglas Natelson published a blog post expressing a pessemistic view on the whole debacle.\nA (failed?) replication attempt out of Beijing; shows semiconductor behavior, not super\n\nSemiconducting transport in \\(Pb_{10-x}Cu_x(PO_4)_6O\\) sintered from \\(Pb_2SO_5\\) and \\(Cu_3P\\)"
+  },
+  {
+    "objectID": "library/physics/electromagnetism/superconductor/lk99.html#tldr-on-the-drama-as-of-august-1-2023",
+    "href": "library/physics/electromagnetism/superconductor/lk99.html#tldr-on-the-drama-as-of-august-1-2023",
+    "title": "LK-99",
+    "section": "TLDR on the drama as of August 1, 2023",
+    "text": "TLDR on the drama as of August 1, 2023\nSince 1999, a tiny group of Korean scientists, working in obscurity and in their off-time, pursue the dying wishes of their materials professor who has his own theory about room temperature and pressure superconductors, a century-defining material, the holy grail of materials science and an instant Nobel prize.\nA week ago, one of them went rogue and published a paper describing how to produce their substance, LK-99, which may or not be this holy grail material. It requires no exotic materials or equipment to reproduce, but the paper omits a lot of detail about the specifics of the synthesis.\nThey accompany it with pictures and a video. There are mistakes in the paper, but they authors say they are trivial, will be fixed, and all of them stand by their claims, even as they feud with each other.\nThis kicks off a world-wide race to deboonk or reproduce. US, Chinese, Japanese, and Indian labs all drop what they’re doing and give LK-99 a shot. One guy at a startup in California tries on his own as well, and 10,000 people tune in to watch a Twitch stream of a webcam pointed at a kiln. The process takes a few days.\nA Russian anime catgirl joins the fracas, ruthlessly making fun of both the original Korean scientists for their bizarre methodology, and of Western/Chinese labs for simply following the steps without understanding what they do. She applies the Soviet technique of ignoring the steps outlined and instead trying to figure out what they actually do, and comes up with her own procedure using shit just laying around her apartment.\nShe produces a small grain of the floaty rock, takes a picture but refuses to take a video, and mercilessly ridicules everybody who keeps asking her for more proofs because it was so easy to do, they should just be doing it themselves if they weren’t mediocre westoids. She’s catty and great."
+  },
+  {
+    "objectID": "library/physics/government/darpa-fellows.html",
+    "href": "library/physics/government/darpa-fellows.html",
+    "title": "DARPA Fellows",
+    "section": "",
+    "text": "Dr. Allegra A. Beal Cohen joined DARPA in January 2023 as part of the first cohort of DARPA Innovation Fellows. Prior to joining DARPA, Beal Cohen was a DARPA I2O postdoctoral fellow at the University of Florida. She worked on the DARPA Habitus program where she modeled agricultural value chains, conducted qualitative interviews with domain experts, and built a tool for partially automating knowledge engineering. She was selected as a DARPA Early Riser for her work on knowledge engineering.\nBeal Cohen earned her doctorate degree from the University of Florida as an National Science Foundation Graduate Research Fellow, where she modeled intra-household bargaining and social norms in agriculture. She earned her Bachelor of Science degree in symbolic systems from Stanford University."
+  },
+  {
+    "objectID": "library/physics/government/darpa-fellows.html#allegra-a.-beal-cohen",
+    "href": "library/physics/government/darpa-fellows.html#allegra-a.-beal-cohen",
+    "title": "DARPA Fellows",
+    "section": "",
+    "text": "Dr. Allegra A. Beal Cohen joined DARPA in January 2023 as part of the first cohort of DARPA Innovation Fellows. Prior to joining DARPA, Beal Cohen was a DARPA I2O postdoctoral fellow at the University of Florida. She worked on the DARPA Habitus program where she modeled agricultural value chains, conducted qualitative interviews with domain experts, and built a tool for partially automating knowledge engineering. She was selected as a DARPA Early Riser for her work on knowledge engineering.\nBeal Cohen earned her doctorate degree from the University of Florida as an National Science Foundation Graduate Research Fellow, where she modeled intra-household bargaining and social norms in agriculture. She earned her Bachelor of Science degree in symbolic systems from Stanford University."
+  },
+  {
+    "objectID": "library/physics/government/darpa-fellows.html#rebecca-chmiel",
+    "href": "library/physics/government/darpa-fellows.html#rebecca-chmiel",
+    "title": "DARPA Fellows",
+    "section": "Rebecca Chmiel",
+    "text": "Rebecca Chmiel\nDr. Rebecca Chmiel joined DARPA in January 2023 as part of the first cohort of DARPA Innovation Fellows. She received her Bachelor of Arts in chemistry and environmental studies from Colby College and her doctorate from the Massachusetts Institute of Technology and the Woods Hole Oceanographic Institution in marine biogeochemistry, and her research focused on the interactions between trace metal nutrients and marine phytoplankton. She has participated in four ocean research expeditions totaling over seven months at sea, and received the Antarctica Service Medal as part of her oceanographic fieldwork."
+  },
+  {
+    "objectID": "library/physics/government/darpa-fellows.html#alex-place",
+    "href": "library/physics/government/darpa-fellows.html#alex-place",
+    "title": "DARPA Fellows",
+    "section": "Alex Place",
+    "text": "Alex Place\nDr. Alex Place joined DARPA in January 2023 as part of the first cohort of DARPA Innovation Fellows. He received his Bachelor of Science in physics from the California Institute of Technology and his doctorate in electrical and computer engineering and materials science from Princeton University. His dissertation focused on improving the lifetimes of superconducting qubits, the building block of many industrial quantum computing efforts. He has also spent time developing nanoelectromechanical systems, novel solar cell designs, and medical devices."
+  },
+  {
+    "objectID": "library/physics/government/darpa-fellows.html#lt-krishnan-rajagopalan-usn",
+    "href": "library/physics/government/darpa-fellows.html#lt-krishnan-rajagopalan-usn",
+    "title": "DARPA Fellows",
+    "section": "LT Krishnan Rajagopalan, USN",
+    "text": "LT Krishnan Rajagopalan, USN\nLt. Krishnan (Krish) Rajagopalan joined DARPA in March 2023 as part of the first cohort of DARPA Innovation Fellows. As a Navy Explosive Ordnance Disposal (EOD) Officer, he has led units of unmanned underwater vehicle operators and EOD divers tasked with countering explosive hazards underwater. He also served as a requirements officer on the staff of the Chief of Naval Operations and, most recently, as the operations officer at Expeditionary Exploitation Unit ONE (EXU-1). Rajagopalan is a qualified EOD Technician and Navy Diving Officer. He received a Bachelor of Science in operations research from the U.S. Naval Academy and a Master of Science in operations research from the Massachusetts Institute of Technology (MIT), where he was an MIT Lincoln Laboratory Military Fellow."
+  },
+  {
+    "objectID": "library/physics/government/darpa-fellows.html#graham-h.-reid",
+    "href": "library/physics/government/darpa-fellows.html#graham-h.-reid",
+    "title": "DARPA Fellows",
+    "section": "Graham H. Reid",
+    "text": "Graham H. Reid\nDr. Graham Reid joined DARPA in June 2023 as part of the second cohort of DARPA Innovation Fellows. Reid received a Bachelor of Arts in physics from Kenyon College and a doctorate from University of Maryland, College Park. His dissertation research, conducted at NIST as a guest researcher through the Joint Quantum Institute, used ultracold atoms to study topological physics in dynamically evolving quantum systems."
+  },
+  {
+    "objectID": "library/physics/government/darpa-fellows.html#rené-m.-xavier",
+    "href": "library/physics/government/darpa-fellows.html#rené-m.-xavier",
+    "title": "DARPA Fellows",
+    "section": "René M. Xavier",
+    "text": "René M. Xavier\nDr. René Xavier joined DARPA in June 2023 as part of the second cohort of DARPA Innovation Fellows. Xavier recently graduated from Florida Atlantic University, where she conducted research at the Harbor Branch Oceanographic Institute using shotgun metagenomics to analyze the biosynthesis of marine natural products. She received her Bachelor of Science in molecular, cellular, and developmental biology from the University of Washington in Seattle and was awarded a Fulbright Fellowship to study the regulation of reactive oxygen species at the Czech Institute of Experimental Botany in Prague. Prior to her academic career, she served as a nuclear electrician in the U.S. Navy where she was decorated with multiple honors including the Humanitarian Ribbon for her relief efforts during Hurricane Katrina."
+  },
+  {
+    "objectID": "library/physics/government/darpa-fellows.html#alessandra-m.-zito",
+    "href": "library/physics/government/darpa-fellows.html#alessandra-m.-zito",
+    "title": "DARPA Fellows",
+    "section": "Alessandra M. Zito",
+    "text": "Alessandra M. Zito\nDr. Alessandra (Allie) Zito joined DARPA in June 2023 as part of the second cohort of DARPA Innovation Fellows. Zito received her Bachelor of Arts in chemistry and French language and literature from Johns Hopkins University and her doctorate in chemistry from the University of California, Irvine. Her graduate work focused on synthesizing and characterizing redox-active organic and inorganic molecules to be used for electrochemical carbon dioxide capture and concentration. She also has research experience in investigating catalyst loading on carbon aerogels, homogeneous and heterogeneous CO2 reduction catalysis, and electrode design for supercapacitors."
+  },
+  {
+    "objectID": "library/physics/government/pentagon/pleads-fifth-exotic-materials.html",
+    "href": "library/physics/government/pentagon/pleads-fifth-exotic-materials.html",
+    "title": "Pentagon Pleads the Fifth",
+    "section": "",
+    "text": "Pentagon Unable To Confirm Or Deny Discovery Of Materials Originating From Non-Human Intelligences Or Unknown Origin Within Secretive Programs\narticle"
+  },
+  {
+    "objectID": "library/physics/government/pentagon/pleads-fifth-exotic-materials.html#summary",
+    "href": "library/physics/government/pentagon/pleads-fifth-exotic-materials.html#summary",
+    "title": "Pentagon Pleads the Fifth",
+    "section": "Summary",
+    "text": "Summary\nThe blog post discusses the Pentagon’s inability to confirm or deny whether its UFO office, known as the All-domain Anomaly Resolution Office (AARO), has discovered any verifiable information to substantiate claims that any current or former U.S. programs have had possession or reverse-engineered materials from non-human intelligences or unknown origin. The Department of Defense (DoD) spokesperson, Susan Gough, stated that the AARO has not discovered any verifiable information to substantiate such claims. However, she declined to comment further on whether the term “extraterrestrial” could extend to materials of unknown origin or non-human intelligences."
+  },
+  {
+    "objectID": "library/physics/government/pentagon/pleads-fifth-exotic-materials.html#notes",
+    "href": "library/physics/government/pentagon/pleads-fifth-exotic-materials.html#notes",
+    "title": "Pentagon Pleads the Fifth",
+    "section": "Notes",
+    "text": "Notes\n\nAll-domain Anomaly Resolution Office (AARO): The AARO is the Pentagon’s UFO office. It is currently unable to confirm or deny whether it has discovered any verifiable information to substantiate claims that any current or former U.S. programs have had possession or reverse-engineered materials from non-human intelligences or unknown origin.\nDepartment of Defense (DoD) Stance: The DoD spokesperson, Susan Gough, stated that the AARO has not discovered any verifiable information to substantiate such claims. However, she declined to comment further on whether the term “extraterrestrial” could extend to materials of unknown origin or non-human intelligences.\nAccess to Information: Gough confirmed that the AARO has not been denied access to any U.S. government program, past or present, during the course of its work. She also stated that the AARO may receive all UAP-related information, including any classified national security information involving military, intelligence, and intelligence-related activities, at all levels of classification regardless of any restrictive access controls, special access programs, or compartmented access programs.\nTitle 50 Authorities: Gough addressed the issue of Title 50 authorities, stating that such authorities are unrelated to the AARO’s ability to receive all UAP-related information through authorized disclosures.\nPublic Affairs Policies: Gough explained that it is DoD policy that all interactions with the news media at the Department level, including press queries, are coordinated with the Office of the Assistant to the Secretary of Defense for Public Affairs. She also noted that her portfolio includes UAP, AARO, and the Office of the Under Secretary of Defense for Intelligence & Security, as well as other issues and offices.\nWhistleblower Trust: The blog post mentions that the AARO, which currently reports to the Office of the Under Secretary of Defense for Intelligence & Security, is not trusted by numerous whistleblowers. The issue may stem from the AARO’s proximity to the OUSDI&S, which has previously been criticized for allegedly persecuting whistleblowers.\nConclusion: The blog post concludes by noting that the National Defense Authorization Act of 2023 means that the AARO should report directly to Deputy Secretary of Defense, Kathleen Hicks, and the Principal Deputy Director of National Intelligence on all operational and security matters relating to the AARO. However, there is no indication that this has been implemented yet."
+  },
+  {
+    "objectID": "library/physics/unification/string-theory/index.html",
+    "href": "library/physics/unification/string-theory/index.html",
+    "title": "String Theory",
+    "section": "",
+    "text": "Magic, mystery or matrix? A conversation with string theorist Edward Witten"
+  },
+  {
+    "objectID": "library/physics/unification/string-theory/index.html#resources",
+    "href": "library/physics/unification/string-theory/index.html#resources",
+    "title": "String Theory",
+    "section": "",
+    "text": "Magic, mystery or matrix? A conversation with string theorist Edward Witten"
+  },
+  {
+    "objectID": "library/physics/unification/index.html",
+    "href": "library/physics/unification/index.html",
+    "title": "Unification",
+    "section": "",
+    "text": "Unitarity"
+  },
+  {
+    "objectID": "library/physics/unification/index.html#resources",
+    "href": "library/physics/unification/index.html#resources",
+    "title": "Unification",
+    "section": "",
+    "text": "Unitarity"
+  },
+  {
+    "objectID": "library/physics/government/index.html",
+    "href": "library/physics/government/index.html",
+    "title": "Government",
+    "section": "",
+    "text": "Making Muons for Scientific Discovery, National Security\nX-65 | Control of Revolutionary Aircraft with Novel Effectors (CRANE)\nAn Evening With Director of National Intelligence Avril Haines\nThe new Schumer-Rounds Amendment (“UAP Disclosure Act”) was added to the FY 2024 National Defense Authorization Act (S. 2226) without objection.\n\nPentagon Unable To Confirm Or Deny Discovery Of Materials Originating From Non-Human Intelligences Or Unknown Origin Within Secretive Programs"
+  },
+  {
+    "objectID": "library/physics/government/index.html#resources",
+    "href": "library/physics/government/index.html#resources",
+    "title": "Government",
+    "section": "",
+    "text": "Making Muons for Scientific Discovery, National Security\nX-65 | Control of Revolutionary Aircraft with Novel Effectors (CRANE)\nAn Evening With Director of National Intelligence Avril Haines\nThe new Schumer-Rounds Amendment (“UAP Disclosure Act”) was added to the FY 2024 National Defense Authorization Act (S. 2226) without objection.\n\nPentagon Unable To Confirm Or Deny Discovery Of Materials Originating From Non-Human Intelligences Or Unknown Origin Within Secretive Programs"
+  },
+  {
+    "objectID": "library/physics/electromagnetism/superconductor/index.html",
+    "href": "library/physics/electromagnetism/superconductor/index.html",
+    "title": "Superconductors",
+    "section": "",
+    "text": "Piezoelectricity-induced Room Temperature Superconductor\nMichael S Fuhrer: History of room-tempurature superconductors\nSteven Kivelson | Superconductivity and Quantum Mechanics at the Macro-Scale, Part 1 of 2\nSteven Kivelson | Superconductivity and Quantum Mechanics at the Macro-Scale, Part 2 of 2"
+  },
+  {
+    "objectID": "library/physics/electromagnetism/superconductor/index.html#resources",
+    "href": "library/physics/electromagnetism/superconductor/index.html#resources",
+    "title": "Superconductors",
+    "section": "",
+    "text": "Piezoelectricity-induced Room Temperature Superconductor\nMichael S Fuhrer: History of room-tempurature superconductors\nSteven Kivelson | Superconductivity and Quantum Mechanics at the Macro-Scale, Part 1 of 2\nSteven Kivelson | Superconductivity and Quantum Mechanics at the Macro-Scale, Part 2 of 2"
+  },
+  {
+    "objectID": "library/physics/electromagnetism/superconductor/index.html#summary",
+    "href": "library/physics/electromagnetism/superconductor/index.html#summary",
+    "title": "Superconductors",
+    "section": "Summary",
+    "text": "Summary\nSuperconductivity is a macro-quantum state wherein a material displays (effectively) zero resistivity. (SUMMARIZE PT 1 1:09)\nA phenomenal overview of the phenomenon, from first principles, can be found on youtube.\nSteven Kivelson | Superconductivity and Quantum Mechanics at the Macro-Scale\n\nPart 1 of 2\nPart 2 of 2\n\nBelow is practically nothing more than a summary of these lectures, plus some wikipedia content."
+  },
+  {
+    "objectID": "library/physics/uap/index.html",
+    "href": "library/physics/uap/index.html",
+    "title": "UAP",
+    "section": "",
+    "text": "Advanced Space Propulsion Based on Vacuum Engineering\nNovel Ni-Doped Bismuth–Magnesium Tantalate Pyrochlores: Structural and Electrical Properties, Thermal Expansion, X-ray Photoelectron Spectroscopy, and Near-Edge X-ray Absorption Fine Structure Spectra\nFew-layer bismuth selenide cathode for low-temperature quasi-solid-state aqueous zinc metal batteries\nFaster than Light Travel\nWarp Drives Part 1: Problem Statement and Insights\nCould superconductors transmute electromagnetic radiation into gravitational waves?\nPolarizable Vacuum “Metric Engineering” Approach to GR-Type Effects\nSuperconductors as quantum transducers and antennas for gravitational and electromagnetic radiation\nThe Case for UFO Secrecy\nAvalon Project\nAureon: At the Intersection of Energy and Matter | history\n\nChapel Hill Conference\n\nChapel Hill Conference\nBehind the Scenes Chapel Hill\nThe Role of Gravitation in Physics\n\nTo The Stars Academy\n\nTo The Stars Academy purchases exotic “assets” for $35,000\nMagnesium-Zinc-Bismuth (MgZn/Bi) material, allegedly recovered from a Rowsell crash, has several interesting physics properties."
+  },
+  {
+    "objectID": "library/physics/uap/index.html#resources",
+    "href": "library/physics/uap/index.html#resources",
+    "title": "UAP",
+    "section": "",
+    "text": "Advanced Space Propulsion Based on Vacuum Engineering\nNovel Ni-Doped Bismuth–Magnesium Tantalate Pyrochlores: Structural and Electrical Properties, Thermal Expansion, X-ray Photoelectron Spectroscopy, and Near-Edge X-ray Absorption Fine Structure Spectra\nFew-layer bismuth selenide cathode for low-temperature quasi-solid-state aqueous zinc metal batteries\nFaster than Light Travel\nWarp Drives Part 1: Problem Statement and Insights\nCould superconductors transmute electromagnetic radiation into gravitational waves?\nPolarizable Vacuum “Metric Engineering” Approach to GR-Type Effects\nSuperconductors as quantum transducers and antennas for gravitational and electromagnetic radiation\nThe Case for UFO Secrecy\nAvalon Project\nAureon: At the Intersection of Energy and Matter | history\n\nChapel Hill Conference\n\nChapel Hill Conference\nBehind the Scenes Chapel Hill\nThe Role of Gravitation in Physics\n\nTo The Stars Academy\n\nTo The Stars Academy purchases exotic “assets” for $35,000\nMagnesium-Zinc-Bismuth (MgZn/Bi) material, allegedly recovered from a Rowsell crash, has several interesting physics properties."
+  },
+  {
+    "objectID": "library/physics/astro/index.html",
+    "href": "library/physics/astro/index.html",
+    "title": "Astrophysics & Cosmology",
+    "section": "",
+    "text": "Planck 2018 Results, Cosmological Parameters\nWebb Telescope finds surprising evidence of well-formed early galaxies\nA Black Hole’s Orbiting Ring of Light Could Encrypt Its Inner Secrets\nHolography of the Photon Ring"
+  },
+  {
+    "objectID": "library/physics/quantum/index.html",
+    "href": "library/physics/quantum/index.html",
+    "title": "Quantum",
+    "section": "",
+    "text": "MIT Quantum Physics I\nMIT Relatavistic Quantum Field Theory I\nMIT Relatavistic Quantum Field Theory II\nLangrangian and Hamiltonian Mechanics\nIntroductory Minicourse to AdS/CFT | youtube\n\nQuantum Field Theory"
+  },
+  {
+    "objectID": "library/physics/quantum/index.html#resources",
+    "href": "library/physics/quantum/index.html#resources",
+    "title": "Quantum",
+    "section": "",
+    "text": "MIT Quantum Physics I\nMIT Relatavistic Quantum Field Theory I\nMIT Relatavistic Quantum Field Theory II\nLangrangian and Hamiltonian Mechanics\nIntroductory Minicourse to AdS/CFT | youtube\n\nQuantum Field Theory"
   }
 ]
