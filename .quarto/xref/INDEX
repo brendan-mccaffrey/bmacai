@@ -253,5 +253,17 @@
   },
   "library/physics/quantum/compute/index.qmd": {
     "index.html": "7969352f"
+  },
+  "library/crypto/blockchains/evm/tooling.qmd": {
+    "tooling.html": "ae0f501e"
+  },
+  "library/health/cognition/index.qmd": {
+    "index.html": "533a28ab"
+  },
+  "library/finance/trading/trades/JGByields/index.qmd": {
+    "index.html": "73f954b6"
+  },
+  "library/finance/trading/trades/comstock/index.qmd": {
+    "index.html": "326a7bb5"
   }
 }

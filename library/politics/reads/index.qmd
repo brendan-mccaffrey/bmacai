@@ -1,0 +1,7 @@
+---
+title: "Reads"
+description: "Books, essays, and articles related to politics"
+page-layout: full
+---
+
+- Peter Thiel: [Straussian Moment](/library/pdfs/straussian_moment.pdf)

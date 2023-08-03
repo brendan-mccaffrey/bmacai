@@ -478,7 +478,7 @@
   {
     "objectID": "library/crypto/blockchains/evm/index.html",
     "href": "library/crypto/blockchains/evm/index.html",
-    "title": "Ethereum Virtual Machine",
+    "title": "EVM",
     "section": "",
     "text": "Ethereum Data Structures"
   },
@@ -1083,5 +1083,54 @@
     "title": "Quantum",
     "section": "",
     "text": "MIT Quantum Physics I\nMIT Relatavistic Quantum Field Theory I\nMIT Relatavistic Quantum Field Theory II\nLangrangian and Hamiltonian Mechanics\nIntroductory Minicourse to AdS/CFT | youtube\n\nQuantum Field Theory"
+  },
+  {
+    "objectID": "library/health/cognition/index.html",
+    "href": "library/health/cognition/index.html",
+    "title": "Cognition",
+    "section": "",
+    "text": "Olfactory enrichment (aroma therapy) at night produces improvements in both cognitive and neural functioning.\nOvernight olfactory enrichment using an odorant diffuser improves memory and modifies the uncinate fasciculus in older adults\nResults: A statistically significant 226% improvement was observed in the enriched group compared to the control group on the Rey Auditory Verbal Learning Test and improved functioning was observed in the left uncinate fasciculus, as assessed by mean diffusivity.\nConclusion: Minimal olfactory enrichment administered at night produces improvements in both cognitive and neural functioning. Thus, olfactory enrichment may provide an effective and low-effort pathway to improved brain health."
+  },
+  {
+    "objectID": "library/crypto/blockchains/evm/tooling.html",
+    "href": "library/crypto/blockchains/evm/tooling.html",
+    "title": "Tools",
+    "section": "",
+    "text": "Solidity Decompiler"
+  },
+  {
+    "objectID": "library/crypto/blockchains/evm/index.html#resources",
+    "href": "library/crypto/blockchains/evm/index.html#resources",
+    "title": "EVM",
+    "section": "",
+    "text": "Ethereum Data Structures"
+  },
+  {
+    "objectID": "library/finance/trading/trades/comstock/index.html",
+    "href": "library/finance/trading/trades/comstock/index.html",
+    "title": "LODE",
+    "section": "",
+    "text": "July 7, 2023 LODE Report"
+  },
+  {
+    "objectID": "library/finance/trading/trades/comstock/index.html#resources",
+    "href": "library/finance/trading/trades/comstock/index.html#resources",
+    "title": "LODE",
+    "section": "",
+    "text": "July 7, 2023 LODE Report"
+  },
+  {
+    "objectID": "library/finance/trading/trades/JGByields/index.html",
+    "href": "library/finance/trading/trades/JGByields/index.html",
+    "title": "JGB Rates",
+    "section": "",
+    "text": "Bloomberg Page"
+  },
+  {
+    "objectID": "library/finance/trading/trades/JGByields/index.html#resources",
+    "href": "library/finance/trading/trades/JGByields/index.html#resources",
+    "title": "JGB Rates",
+    "section": "",
+    "text": "Bloomberg Page"
   }
 ]
