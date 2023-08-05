@@ -265,5 +265,29 @@
   },
   "library/finance/trading/trades/comstock/index.qmd": {
     "index.html": "326a7bb5"
+  },
+  "library/health/covid/vaccine.qmd": {
+    "vaccine.html": "dfbb4638"
+  },
+  "library/health/covid/index.qmd": {
+    "index.html": "f9e177f6"
+  },
+  "library/health/covid/psyop.qmd": {
+    "psyop.html": "77a9a3c8"
+  },
+  "library/politics/index.qmd": {
+    "index.html": "1f45eb2a"
+  },
+  "library/politics/deep-state.qmd": {
+    "deep-state.html": "2c00a7e7"
+  },
+  "library/politics/reads/index.qmd": {
+    "index.html": "437e2213"
+  },
+  "library/politics/corruption/biden.qmd": {
+    "biden.html": "142657cf"
+  },
+  "library/environment/climate/index.qmd": {
+    "index.html": "b9cb17be"
   }
 }

@@ -4,5 +4,8 @@ description: "A list of useful resources for EVM tooling"
 page-layout: full
 ---
 
+## Resources
 
 [Solidity Decompiler](https://ethervm.io/decompile)
+
+[Solidity Data Representation](https://ethdebug.github.io/solidity-data-representation/)

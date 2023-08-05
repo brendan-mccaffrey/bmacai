@@ -1,0 +1,9 @@
+---
+title: "covid"
+description: "SARS-CoV-2"
+page-layout: full
+---
+
+## Resources
+
+- [Circulating Spike Protein Detected in Post–COVID-19 mRNA Vaccine Myocarditis](https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.122.061025#:~:text=We%20discovered%20that%20individuals%20who,immune%20activation%20with%20cytokine%20release)
