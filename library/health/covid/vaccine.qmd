@@ -52,3 +52,9 @@ There's more vax myo mechanisms like inflammasome or apoptosis. But you said the
 [Circulating Spike Protein Detected in Post–COVID-19 mRNA Vaccine Myocarditis](https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.122.061025#:~:text=We%20discovered%20that%20individuals%20who,immune%20activation%20with%20cytokine%20release)
 
 ---
+
+## mRNA Platform
+
+[Excerpt from Brett Weinstein](https://twitter.com/RefugeOfSinner5/status/1688378353584046080?s=20)
+
+> The mRNA platform is brilliant. But it has a giant gaping flaw in it, which is; Any cell of yours that produces a foreign protein, will be targetted by your immune system and destroyed. You will create an autoimmune disorder. When it works. How do you keep it out of your heart. Not by coding it in a lipid nanoparticle. So, they had no way to deliver it safely to market.  So then they had a pandemic, the emergency allowed them to do it. This technology, in my opinion, was at least 3 decades  out from being usefully and safely deployed at all, if at all. They did not want to wait,  this crisis gave them the opportunity not to wait. And now, they will blame the spike protein, we picked the wrong protein. When in actual fact there are 2 problems, the spike protein and the platform itself.

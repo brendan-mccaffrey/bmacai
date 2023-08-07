@@ -1,0 +1,27 @@
+---
+title: "ULAT-1"
+description: "Convincing documents of a retreived craft in the 40s"
+page-layout: full
+---
+
+## Resources
+
+[Wordpress article](https://digitalseance.wordpress.com/2011/12/14/project-white-hot/)
+
+```
+The following elements were analyzed and found to exist in the small neutronic power plant that was found inside ULAT-l:
+
+a.    UF6 in metallic form;
+b.    hydrogen-fluoride gas;
+c.    water and uranium tetra fluoride;
+d.    powdered magnesium and potassium chlorate,
+e.    metal similar to lead with a chocolate brown color;
+f.   U-235 in metallic form;
+g.   plastic-like material similar to NE 102,
+h.    Beryllium,
+i.    Pure aluminium;
+j.   Thorium isotope material;
+j.   Plutonium powder.
+```
+
+> The only evidence or circuitry found on the motor was thin plastic-like sheets fashioned like platters embossed on the exterior of the spherically-shaped casing coated by a thin film or pure silver. Under high power magnification it was observed a series of fine grid-like lines intersecting groups of dots arranged in circular patterns.

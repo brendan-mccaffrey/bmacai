@@ -1,0 +1,5 @@
+---
+title: "Fission"
+description: "Nuclear Fusion, first generation nuclear energy source (and weapon)"
+page-layout: full
+---
