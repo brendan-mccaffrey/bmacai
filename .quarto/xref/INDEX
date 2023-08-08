@@ -292,5 +292,41 @@
   },
   "library/crypto/events/2023/08/ygg.qmd": {
     "ygg.html": "8de0fa2b"
+  },
+  "library/physics/government/nuclear.qmd": {
+    "nuclear.html": "8ff3c681"
+  },
+  "library/physics/nuclear-energy/fission.qmd": {
+    "fission.html": "5b96b683"
+  },
+  "library/physics/nuclear-energy/fusion.qmd": {
+    "fusion.html": "1fc8efba"
+  },
+  "library/physics/uap/1940s/index.qmd": {
+    "index.html": "3c6d8ce5"
+  },
+  "library/physics/uap/ULAT-1/white-hot.qmd": {
+    "white-hot.html": "7bb5d534"
+  },
+  "library/physics/uap/ULAT-1/index.qmd": {
+    "index.html": "df67edd4"
+  },
+  "library/physics/astro/webb.qmd": {
+    "webb.html": "5398a6e4"
+  },
+  "library/physics/electromagnetism/mhd/index.qmd": {
+    "index.html": "9e6d20cd"
+  },
+  "library/physics/uap/early/index.qmd": {
+    "index.html": "cd5e82f2"
+  },
+  "library/software/ai/bio/index.qmd": {
+    "index.html": "7169b96a"
+  },
+  "library/politics/corruption/index.qmd": {
+    "index.html": "fadefab3"
+  },
+  "library/environment/animals/index.qmd": {
+    "index.html": "699848c5"
   }
 }

@@ -46,10 +46,7 @@
   },
   {
     "listing": "/library/finance/index.html",
-    "items": [
-      "/library/finance/posts/quant-trading/quant-trading.html",
-      "/library/finance/posts/finance-101/finance-101.html"
-    ]
+    "items": []
   },
   {
     "listing": "/library/software/crypto/index.html",

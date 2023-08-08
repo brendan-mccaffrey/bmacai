@@ -242,7 +242,7 @@
     "href": "library/finance/index.html",
     "title": "Finance",
     "section": "",
-    "text": "Quant Trading\n\n\n\n\n\n\n\n\n\n\n\n\nAug 31, 2023\n\n\nBrendan McCaffrey\n\n\n\n\n\n\n  \n\n\n\n\nFinance 101\n\n\nIntro to Finance\n\n\n\n\n\n\n\n\n\nJul 31, 2023\n\n\nBrendan McCaffrey\n\n\n\n\n\n\nNo matching items"
+    "text": "No matching items"
   },
   {
     "objectID": "library/finance/posts/quant-trading/quant-trading.html",
@@ -704,7 +704,7 @@
     "href": "library/crypto/blockchains/index.html#recent-general",
     "title": "Blockchains",
     "section": "Recent, General",
-    "text": "Recent, General\n\nThe Tie: Solving the Blockchain Trilemma"
+    "text": "Recent, General\n\nThe Tie: Solving the Blockchain Trilemma\nEndgame: Proof of Governance"
   },
   {
     "objectID": "library/crypto/blockchains/consensus.html#consensus-attacks",
@@ -854,53 +854,18 @@
     "text": "The Quantum Theory of Fields: Effective or Fundamental?\n\nvideo\ncorresponding article\nQuantum Field Theory was born just pertaining to the electromagnetic field.\nWhen expanding this theory, it seemed it couldn’t be trusted at high energies. (Decline)\nLate 1940s, there was a new optimizing with the invention of a relatavistic perturbation theory, where the infinities could be absorbed into a redefinition of parameters like mass and charge of the electron. People thought this was sweeping problems under the rug, but it also may have been a way of selecting good theories (renormalizable theories).\nFor example, theere’s nothing in the symmetries of quantum electrodynamics which rules out putting a term in the field equations (or Lagrangian), which could make the magnetic moment of the electron anything you want. This would make the mass of the electron -1, which means the theory is not renormalizable, and thus shows invalid.\nLate 1960s and early 70s, the standard model came to fruition - this was the renaissance of Quantum Field theory. But there were still doubts whether this was a fundamental theory or an effective one.\nQuantum Field Theory & Einsteinian Physics may be low energy approximations of a more fundamental theory."
   },
   {
-    "objectID": "library/physics/uap/people.html#hal-puthoff",
-    "href": "library/physics/uap/people.html#hal-puthoff",
-    "title": "UAP People",
-    "section": "Hal Puthoff",
-    "text": "Hal Puthoff\nDr. Harold E. Puthoff is the co-founder and Vice President of Science and Technology of TTS Academy. Since 1985, Dr. Puthoff has served as President and CEO of EarthTech International, Inc. (ETI), and Director of the Institute for Advanced Studies at Austin (IASA). He has published numerous papers on electron-beam devices, lasers and space propulsion and has patents issued in the laser, communications, and energy fields. Dr. Puthoff’s professional background spans more than five decades of research at General Electric, Sperry, the National Security Agency, Stanford University and SRI International. Dr. Puthoff regularly advises NASA , the Department of Defense and intelligence communities, corporations and foundations on leading-edge technologies and future technology trends. He earned his Ph.D. from Stanford University in 1967 and won a Who’s Who Lifetime Achievement in 2017 that recognizes individuals that have achieved greatness in their industry and have excelled in their field for at least 20 years.\nLecture 2018\n\nvideo\nwriteup\nIRVA-SSE 2018\n\n2021 SCU AAP Conference Keynote by Hal Putoff\n\nvideo"
-  },
-  {
-    "objectID": "library/physics/uap/people.html#salvatore-pais",
-    "href": "library/physics/uap/people.html#salvatore-pais",
-    "title": "UAP People",
-    "section": "Salvatore Pais",
-    "text": "Salvatore Pais\n\nDr. Salvatore Pais | Intuitive Science, Conscious Universe & The Philosophy of Physics"
-  },
-  {
-    "objectID": "library/physics/uap/people.html#richard-griffiths",
-    "href": "library/physics/uap/people.html#richard-griffiths",
-    "title": "UAP People",
-    "section": "Richard Griffiths",
-    "text": "Richard Griffiths\nRichard Griffiths serves as Affiliate Faculty at University of Hawaii at Hilo, Physics and Astronomy. He leads the team that solved a gravitational lens phenomenon.\n\narticle\npaper"
-  },
-  {
-    "objectID": "library/physics/electromagnetism/index.html",
-    "href": "library/physics/electromagnetism/index.html",
-    "title": "Electromagnetism",
-    "section": "",
-    "text": "Dr. Salvatore Pais | Intuitive Science, Conscious Universe & The Philosophy of Physics"
-  },
-  {
-    "objectID": "library/physics/electromagnetism/index.html#resources",
-    "href": "library/physics/electromagnetism/index.html#resources",
-    "title": "Electromagnetism",
-    "section": "",
-    "text": "Dr. Salvatore Pais | Intuitive Science, Conscious Universe & The Philosophy of Physics"
-  },
-  {
     "objectID": "library/physics/electromagnetism/superconductor/lk99.html",
     "href": "library/physics/electromagnetism/superconductor/lk99.html",
     "title": "LK-99",
     "section": "",
-    "text": "Original paper(s) is(are) released twice, the first time (suspected to rush to beat the second) with only 3 authors, making the team eligible for a noble prize.\n\nThe First Room-Temperature Ambient-Pressure Superconductor\n\nPeople rush to replicate the study/results.\n\nFirst-principles study on the electronic structure of \\(Pb_{10−x}Cu_x(PO_4)_6O (x=0, 1)\\)\nSynthesis of possible room temperature superconductor \\(LK-99:Pb_9Cu(PO_4)_6O\\)\n\nA theoretical explanation for LK-99 is released on July 31, 2023, by Sinead Griffin out of Berkeley.\n\nOrigin of correlated isolated flat bands in copper-substituted lead phosphate apatite.\n\nDouglas Natelson published a blog post expressing a pessemistic view on the whole debacle.\nA (failed?) replication attempt out of Beijing; shows semiconductor behavior, not super\n\nSemiconducting transport in \\(Pb_{10-x}Cu_x(PO_4)_6O\\) sintered from \\(Pb_2SO_5\\) and \\(Cu_3P\\)"
+    "text": "Superconductivity is a magic phenomenon that permits leviatation, lossless energy transfer & storage, and countless other beautiful technologies to exist. There are known materials who are superconductors at low tempuratures, and the room tempurature superconductor has been a holy grail of materials science for many decades.\nIn July, 2023, a pre-print journal out of South Korea claimed to have discovered the “First Room-Temperature Ambient-Pressure Superconductor”. The paper generated a ton of excitement, a newfound interest in materials science, and much discussion of room temp SC implications.\n…but the paper is (and always has been) just noise."
   },
   {
     "objectID": "library/physics/electromagnetism/superconductor/lk99.html#overview",
     "href": "library/physics/electromagnetism/superconductor/lk99.html#overview",
     "title": "LK-99",
     "section": "",
-    "text": "Original paper(s) is(are) released twice, the first time (suspected to rush to beat the second) with only 3 authors, making the team eligible for a noble prize.\n\nThe First Room-Temperature Ambient-Pressure Superconductor\n\nPeople rush to replicate the study/results.\n\nFirst-principles study on the electronic structure of \\(Pb_{10−x}Cu_x(PO_4)_6O (x=0, 1)\\)\nSynthesis of possible room temperature superconductor \\(LK-99:Pb_9Cu(PO_4)_6O\\)\n\nA theoretical explanation for LK-99 is released on July 31, 2023, by Sinead Griffin out of Berkeley.\n\nOrigin of correlated isolated flat bands in copper-substituted lead phosphate apatite.\n\nDouglas Natelson published a blog post expressing a pessemistic view on the whole debacle.\nA (failed?) replication attempt out of Beijing; shows semiconductor behavior, not super\n\nSemiconducting transport in \\(Pb_{10-x}Cu_x(PO_4)_6O\\) sintered from \\(Pb_2SO_5\\) and \\(Cu_3P\\)"
+    "text": "July 22:\n\nThe First Room-Temperature Ambient-Pressure Superconductor\nOriginal paper(s) is(are) released twice, the first time (suspected to rush to beat the second) with only 3 authors, making the team eligible for a noble prize.\n\nJuly 26:\n\nI predict the superconductor hype (“we are so fucking back”) is all noise.\n\nJuly 27:\n\nDouglas Natelson publishes a blog post expressing a pessemistic view on the whole debacle.\nCondensed Matter Theory Center deconstructs “the non-experimental parts of the Korean room temp SC claims.”\n\nHype ensues, and magnifies, as people rush to replicate the study/results.\nJuly 29:\n\nFirst-principles study on the electronic structure of \\(Pb_{10−x}Cu_x(PO_4)_6O (x=0, 1)\\)\n\nJuly 31:\n\nSynthesis of possible room temperature superconductor \\(LK-99:Pb_9Cu(PO_4)_6O\\)\n\nA (failed?) replication attempt out of Beijing; shows semiconductor behavior, not super\n\nSemiconducting transport in \\(Pb_{10-x}Cu_x(PO_4)_6O\\) sintered from \\(Pb_2SO_5\\) and \\(Cu_3P\\)\n\nAugust 4:\nA theoretical explanation for LK-99 is released on July 31, 2023, by Sinead Griffin out of Berkeley.\n\nOrigin of correlated isolated flat bands in copper-substituted lead phosphate apatite.\n\nAugust 6:\nGroup claims/proves LK-99 is a ferromagnet (NOT a superconductor)\n\nFerromagnetic half levitation of LK-99-like synthetic samples"
   },
   {
     "objectID": "library/physics/electromagnetism/superconductor/lk99.html#tldr-on-the-drama-as-of-august-1-2023",
@@ -1048,27 +1013,6 @@
     "title": "Superconductors",
     "section": "Summary",
     "text": "Summary\nSuperconductivity is a macro-quantum state wherein a material displays (effectively) zero resistivity. (SUMMARIZE PT 1 1:09)\nA phenomenal overview of the phenomenon, from first principles, can be found on youtube.\nSteven Kivelson | Superconductivity and Quantum Mechanics at the Macro-Scale\n\nPart 1 of 2\nPart 2 of 2\n\nBelow is practically nothing more than a summary of these lectures, plus some wikipedia content."
-  },
-  {
-    "objectID": "library/physics/uap/index.html",
-    "href": "library/physics/uap/index.html",
-    "title": "UAP",
-    "section": "",
-    "text": "My take, in a few sentences:\nThe UAP phenomenon is extraordinary. There are two primary candidate explanations.\nI believe both are at play. Confidence level: 10%"
-  },
-  {
-    "objectID": "library/physics/uap/index.html#resources",
-    "href": "library/physics/uap/index.html#resources",
-    "title": "UAP",
-    "section": "Resources",
-    "text": "Resources\n\nAdvanced Space Propulsion Based on Vacuum Engineering\nNovel Ni-Doped Bismuth–Magnesium Tantalate Pyrochlores: Structural and Electrical Properties, Thermal Expansion, X-ray Photoelectron Spectroscopy, and Near-Edge X-ray Absorption Fine Structure Spectra\nFew-layer bismuth selenide cathode for low-temperature quasi-solid-state aqueous zinc metal batteries\nFaster than Light Travel\nWarp Drives Part 1: Problem Statement and Insights\nCould superconductors transmute electromagnetic radiation into gravitational waves?\nPolarizable Vacuum “Metric Engineering” Approach to GR-Type Effects\nSuperconductors as quantum transducers and antennas for gravitational and electromagnetic radiation\nThe Case for UFO Secrecy\nAvalon Project\nAureon: At the Intersection of Energy and Matter | history\n\nChapel Hill Conference\n\nChapel Hill Conference\nBehind the Scenes Chapel Hill\nThe Role of Gravitation in Physics\n\nTo The Stars Academy\n\nTo The Stars Academy purchases exotic “assets” for $35,000\nMagnesium-Zinc-Bismuth (MgZn/Bi) material, allegedly recovered from a Rowsell crash, has several interesting physics properties."
-  },
-  {
-    "objectID": "library/physics/astro/index.html",
-    "href": "library/physics/astro/index.html",
-    "title": "Astrophysics & Cosmology",
-    "section": "",
-    "text": "Planck 2018 Results, Cosmological Parameters\nWebb Telescope finds surprising evidence of well-formed early galaxies\nA Black Hole’s Orbiting Ring of Light Could Encrypt Its Inner Secrets\nHolography of the Photon Ring"
   },
   {
     "objectID": "library/physics/quantum/index.html",
@@ -1251,5 +1195,201 @@
     "title": "YGG Manipulation",
     "section": "",
     "text": "August 7\n9:04 am YGG in top 3 volume, followed by shitcoins with negative funding (heavy shorts)\nHsaka’s Take | tweet\nAug 6, 7:04am YGG “looking spicy” says Nik’s quant\nReported at 9:52am Binance increased the funding rate settlement frequency from 8 hours to 2 hours\nReminder that 2018 scam pumps were even crazier\n\nso much commentary and ‘hate’ on the YGG situation when people don’t remember the summer of 2022 where we had 10x pumps in 1 minute on shitcoins. oh sweet children you haven’t experienced the true depths of market manipulation yet"
+  },
+  {
+    "objectID": "library/health/covid/vaccine.html#mrna-platform",
+    "href": "library/health/covid/vaccine.html#mrna-platform",
+    "title": "mRNA Vaccine",
+    "section": "mRNA Platform",
+    "text": "mRNA Platform\nExcerpt from Brett Weinstein\n\nThe mRNA platform is brilliant. But it has a giant gaping flaw in it, which is; Any cell of yours that produces a foreign protein, will be targetted by your immune system and destroyed. You will create an autoimmune disorder. When it works. How do you keep it out of your heart. Not by coding it in a lipid nanoparticle. So, they had no way to deliver it safely to market. So then they had a pandemic, the emergency allowed them to do it. This technology, in my opinion, was at least 3 decades out from being usefully and safely deployed at all, if at all. They did not want to wait, this crisis gave them the opportunity not to wait. And now, they will blame the spike protein, we picked the wrong protein. When in actual fact there are 2 problems, the spike protein and the platform itself."
+  },
+  {
+    "objectID": "library/physics/electromagnetism/superconductor/lk99.html#asides",
+    "href": "library/physics/electromagnetism/superconductor/lk99.html#asides",
+    "title": "LK-99",
+    "section": "Asides",
+    "text": "Asides\nAuthor of the original paper, Hyun-Tak Kim, from 2018\nWhy does BCS theory fail to explain superconductivity at high temperatures?"
+  },
+  {
+    "objectID": "library/physics/electromagnetism/superconductor/lk99.html#tldr",
+    "href": "library/physics/electromagnetism/superconductor/lk99.html#tldr",
+    "title": "LK-99",
+    "section": "",
+    "text": "Superconductivity is a magic phenomenon that permits leviatation, lossless energy transfer & storage, and countless other beautiful technologies to exist. There are known materials who are superconductors at low tempuratures, and the room tempurature superconductor has been a holy grail of materials science for many decades.\nIn July, 2023, a pre-print journal out of South Korea claimed to have discovered the “First Room-Temperature Ambient-Pressure Superconductor”. The paper generated a ton of excitement, a newfound interest in materials science, and much discussion of room temp SC implications.\n…but the paper is (and always has been) just noise."
+  },
+  {
+    "objectID": "library/physics/electromagnetism/superconductor/lk99.html#timeline",
+    "href": "library/physics/electromagnetism/superconductor/lk99.html#timeline",
+    "title": "LK-99",
+    "section": "Timeline",
+    "text": "Timeline\nJuly 22:\n\nThe First Room-Temperature Ambient-Pressure Superconductor\nOriginal paper(s) is(are) released twice, the first time (suspected to rush to beat the second) with only 3 authors, making the team eligible for a noble prize.\n\nJuly 26:\n\nI predict the superconductor hype (“we are so fucking back”) is all noise.\n\nJuly 27:\n\nDouglas Natelson publishes a blog post expressing a pessemistic view on the whole debacle.\nCondensed Matter Theory Center deconstructs “the non-experimental parts of the Korean room temp SC claims.”\n\nHype ensues, and magnifies, as people rush to replicate the study/results.\nJuly 29:\n\nFirst-principles study on the electronic structure of \\(Pb_{10−x}Cu_x(PO_4)_6O (x=0, 1)\\)\n\nJuly 31:\n\nSynthesis of possible room temperature superconductor \\(LK-99:Pb_9Cu(PO_4)_6O\\)\n\nA (failed?) replication attempt out of Beijing; shows semiconductor behavior, not super\n\nSemiconducting transport in \\(Pb_{10-x}Cu_x(PO_4)_6O\\) sintered from \\(Pb_2SO_5\\) and \\(Cu_3P\\)\n\nAugust 4:\nA theoretical explanation for LK-99 is released on July 31, 2023, by Sinead Griffin out of Berkeley.\n\nOrigin of correlated isolated flat bands in copper-substituted lead phosphate apatite.\n\nAugust 6:\nGroup claims/proves LK-99 is a ferromagnet (NOT a superconductor)\n\nFerromagnetic half levitation of LK-99-like synthetic samples"
+  },
+  {
+    "objectID": "library/physics/electromagnetism/index.html",
+    "href": "library/physics/electromagnetism/index.html",
+    "title": "Electromagnetism",
+    "section": "",
+    "text": "Dr. Salvatore Pais | Intuitive Science, Conscious Universe & The Philosophy of Physics"
+  },
+  {
+    "objectID": "library/physics/electromagnetism/index.html#resources",
+    "href": "library/physics/electromagnetism/index.html#resources",
+    "title": "Electromagnetism",
+    "section": "",
+    "text": "Dr. Salvatore Pais | Intuitive Science, Conscious Universe & The Philosophy of Physics"
+  },
+  {
+    "objectID": "library/physics/electromagnetism/mhd/index.html",
+    "href": "library/physics/electromagnetism/mhd/index.html",
+    "title": "MHD",
+    "section": "",
+    "text": "Magnetohydrodynamic (MHD) Propulsion\n\nMagnetohydrodynamic drive\nApplication of Pulsed Electrical Fields for Advanced Cooling and Water Recovery in Coal-Fired Power Plant\nRunaway electrons during subnanosecond breakdowns in high-pressure gases\nLow-Temperature Atmospheric Pressure Plasma Processes for “Green” Third Generation Photovoltaics\nElectromagnetic Radiation: Ionizing and Non-ionizing\nAre Virtual Particles Less Real?\nRF Helicon-based Inductive Plasma Thruster (IPT) Design for an Atmosphere-Breathing Electric Propulsion System (ABEP)\nElectrothermal instability\nPulsed inductive thruster\nNASA Pulsed Inductive Thruster\nOn the performance of electrohydrodynamic propulsion\nElectrohydrodynamic thrust for in-atmosphere propulsion\nA Model of an Ideal Electrohydrodynamic Thruster\nModelling and simulation of plasma thrusters for electric propulsion technologies\nElectrohydrodynamic Drying Characteristics of Agar Gel\nModeling of Electrohydrodynamic (EHD) Plasma Thrusters: Optimization of Physical and Geometrical Parameters\nReview on the History, Research, and Applications of Electrohydrodynamics\nSuccessful experiments on an external MHD Accelerator\nMHD Air Breathing Propulsion and Power for Aerospace Applications\nNew Magnetohydrodynamic (MHD) Lift Concept for More Efficient Missions to Mars and Neptune\nGENERAL CONSIDERATIONS OF MHO ACCELERATION FOR AERODYNAMIC TESTING\nAnalysis of the Magnetohydrodynamic Behavior of the Fully Developed Flow of Conducting Fluid\nSpace-based laser-driven MHD generator [microform] : feasibility study\nWeak Solutions to Ideal MHD"
+  },
+  {
+    "objectID": "library/physics/electromagnetism/mhd/index.html#resources",
+    "href": "library/physics/electromagnetism/mhd/index.html#resources",
+    "title": "MHD",
+    "section": "",
+    "text": "Magnetohydrodynamic (MHD) Propulsion\n\nMagnetohydrodynamic drive\nApplication of Pulsed Electrical Fields for Advanced Cooling and Water Recovery in Coal-Fired Power Plant\nRunaway electrons during subnanosecond breakdowns in high-pressure gases\nLow-Temperature Atmospheric Pressure Plasma Processes for “Green” Third Generation Photovoltaics\nElectromagnetic Radiation: Ionizing and Non-ionizing\nAre Virtual Particles Less Real?\nRF Helicon-based Inductive Plasma Thruster (IPT) Design for an Atmosphere-Breathing Electric Propulsion System (ABEP)\nElectrothermal instability\nPulsed inductive thruster\nNASA Pulsed Inductive Thruster\nOn the performance of electrohydrodynamic propulsion\nElectrohydrodynamic thrust for in-atmosphere propulsion\nA Model of an Ideal Electrohydrodynamic Thruster\nModelling and simulation of plasma thrusters for electric propulsion technologies\nElectrohydrodynamic Drying Characteristics of Agar Gel\nModeling of Electrohydrodynamic (EHD) Plasma Thrusters: Optimization of Physical and Geometrical Parameters\nReview on the History, Research, and Applications of Electrohydrodynamics\nSuccessful experiments on an external MHD Accelerator\nMHD Air Breathing Propulsion and Power for Aerospace Applications\nNew Magnetohydrodynamic (MHD) Lift Concept for More Efficient Missions to Mars and Neptune\nGENERAL CONSIDERATIONS OF MHO ACCELERATION FOR AERODYNAMIC TESTING\nAnalysis of the Magnetohydrodynamic Behavior of the Fully Developed Flow of Conducting Fluid\nSpace-based laser-driven MHD generator [microform] : feasibility study\nWeak Solutions to Ideal MHD"
+  },
+  {
+    "objectID": "library/physics/electromagnetism/mhd/index.html#summary",
+    "href": "library/physics/electromagnetism/mhd/index.html#summary",
+    "title": "MHD",
+    "section": "Summary",
+    "text": "Summary\nMagnetohydrodynamics (MHD), also known as hydromagnetics, is a field in physics that studies the dynamics of electrically conducting fluids, particularly the interaction between magnetic fields and such fluids. These fluids could be plasma, liquid metals, or even seawater. MHD is a synthesis of fluid dynamics and electromagnetism.\nThe governing equations of MHD are the Navier-Stokes equations (in the limit of high Reynolds number) coupled with Maxwell’s equations. In the ideal MHD approximation, effects such as resistivity and viscosity are neglected, leading to a relatively simple set of governing equations:\n\nContinuity Equation: This equation ensures the conservation of mass.\n∂ρ/∂t + ∇·(ρv) = 0\nMomentum Equation: Combines Newton’s second law and the Lorentz force, accounting for the forces due to pressure gradients, gravity, and electromagnetic fields. In the absence of viscosity, this simplifies to:\nρ(∂v/∂t + v·∇v) = -∇p + ρg + (J×B)\nInduction Equation: Describes how the magnetic field evolves over time, given the fluid’s velocity and existing magnetic field.\n∂B/∂t = ∇×(v×B)\nEnergy Equation: This equation describes the conservation of energy, which is usually taken in the form of the first law of thermodynamics.\nAmpère’s Law with Maxwell’s Addition:\n∇×B = μ0J\nJ is the current density vector, B is the magnetic field, and μ0 is the magnetic permeability.\n\nIn these equations, ρ represents fluid density, v fluid velocity, p pressure, g gravitational acceleration, J current density, and B magnetic field.\nMHD has a wide range of applications, from studying astrophysical phenomena such as solar flares and accretion disks, to engineering applications like nuclear fusion research, liquid metal cooling in reactors, and even potential propulsion systems.\nHowever, real-world situations often involve non-ideal MHD where effects such as resistivity cannot be ignored. Understanding these effects often requires incorporating the full set of Maxwell’s equations and solving them alongside the fluid dynamics equations, which makes for a much more complex computational problem. In some non-ideal MHD scenarios, magnetic reconnection, turbulence, and other instabilities can occur, which are active research areas in this field."
+  },
+  {
+    "objectID": "library/physics/uap/early/index.html",
+    "href": "library/physics/uap/early/index.html",
+    "title": "Early",
+    "section": "",
+    "text": "Majestic Documents\nKey OSINT UAP Resources\nIPU Report, Authorized by Allen Dulles\nMAJESTIC 12\nFBI says this document is fake\nGovernment Accountability Office says “MJ12” Fabricated, 1995\nArchives.gov, however, admits existence\n\nSearches were made of the indexes to the NSC’s Policy Paper and Meeting Minute files under the subjects MJ-12, majestic, unidentified flying objects, UFO, flying saucers,extraterrestrial biological entities and Aquarius. These searches were all negative with the exception of a “Memorandum for General Twining, from Robert Cutler, Special Assistant to the President, Subject:”NCS/MJ-12 Special Studies Project” dated July 14, 1954. The memorandum, one page, refers to a briefing to take place on July 16. The memorandum does not identify MJ-12 or the purpose of the briefing.\n\nBlack Vault: Majestic"
+  },
+  {
+    "objectID": "library/physics/uap/early/index.html#sources",
+    "href": "library/physics/uap/early/index.html#sources",
+    "title": "Early",
+    "section": "",
+    "text": "Majestic Documents\nKey OSINT UAP Resources\nIPU Report, Authorized by Allen Dulles\nMAJESTIC 12\nFBI says this document is fake\nGovernment Accountability Office says “MJ12” Fabricated, 1995\nArchives.gov, however, admits existence\n\nSearches were made of the indexes to the NSC’s Policy Paper and Meeting Minute files under the subjects MJ-12, majestic, unidentified flying objects, UFO, flying saucers,extraterrestrial biological entities and Aquarius. These searches were all negative with the exception of a “Memorandum for General Twining, from Robert Cutler, Special Assistant to the President, Subject:”NCS/MJ-12 Special Studies Project” dated July 14, 1954. The memorandum, one page, refers to a briefing to take place on July 16. The memorandum does not identify MJ-12 or the purpose of the briefing.\n\nBlack Vault: Majestic"
+  },
+  {
+    "objectID": "library/physics/uap/early/index.html#unordered-stuff",
+    "href": "library/physics/uap/early/index.html#unordered-stuff",
+    "title": "Early",
+    "section": "",
+    "text": "Majestic Documents\nKey OSINT UAP Resources\nIPU Report, Authorized by Allen Dulles\nMAJESTIC 12\nFBI says this document is fake\nGovernment Accountability Office says “MJ12” Fabricated, 1995\nArchives.gov, however, admits existence\n\nSearches were made of the indexes to the NSC’s Policy Paper and Meeting Minute files under the subjects MJ-12, majestic, unidentified flying objects, UFO, flying saucers,extraterrestrial biological entities and Aquarius. These searches were all negative with the exception of a “Memorandum for General Twining, from Robert Cutler, Special Assistant to the President, Subject:”NCS/MJ-12 Special Studies Project” dated July 14, 1954. The memorandum, one page, refers to a briefing to take place on July 16. The memorandum does not identify MJ-12 or the purpose of the briefing.\n\nBlack Vault: Majestic"
+  },
+  {
+    "objectID": "library/physics/uap/early/index.html#ulat-1",
+    "href": "library/physics/uap/early/index.html#ulat-1",
+    "title": "Early",
+    "section": "ULAT-1",
+    "text": "ULAT-1\nWordpress article\nThe following elements were analyzed and found to exist in the small neutronic power plant that was found inside ULAT-l:\n\na.    UF6 in metallic form;\nb.    hydrogen-fluoride gas;\nc.    water and uranium tetra fluoride;\nd.    powdered magnesium and potassium chlorate,\ne.    metal similar to lead with a chocolate brown color;\nf.   U-235 in metallic form;\ng.   plastic-like material similar to NE 102,\nh.    Beryllium,\ni.    Pure aluminium;\nj.   Thorium isotope material;\nj.   Plutonium powder.\n\nThe only evidence or circuitry found on the motor was thin plastic-like sheets fashioned like platters embossed on the exterior of the spherically-shaped casing coated by a thin film or pure silver. Under high power magnification it was observed a series of fine grid-like lines intersecting groups of dots arranged in circular patterns."
+  },
+  {
+    "objectID": "library/physics/uap/early/index.html#project-white-hot",
+    "href": "library/physics/uap/early/index.html#project-white-hot",
+    "title": "Early",
+    "section": "Project White Hot",
+    "text": "Project White Hot\nPROJECT ‘WHITE HOT’ Mission Assessment of Recovered Lenticular Aerodyne Objects\nGeneral Nathan Twining Briefing document for President Eisenhower\nPART 1. PROJECT WHITE HOT INTELLIGENCE ESTIMATE (PRELIMINARY)\nLANDING ZONE NO, 1 Socorro, New Mexico–the unidentified lenticular-shaped Aerodyne which has been designated ULAT-1, has been evaluated as a non air breathing aircraft of unknown origin. Totally lacking conventional wing, fuselage, nacelle, control, and fuel systems strongly indicates it is not Russian.\nConsultation with Paperclip specialists concur. Aerodynamic features exhibited in ULAT-1 represents a very high degree of engineering and sophistication not seen in this country.\nDimensional homogeneity study cannot explain how this craft sustains load and lift factors necessary for flight.\nThe power plant does not even remotely resemble any conventional type now in use. Lacking any discernible intake or exhaust features, it is the opinion of AMC and ONR that this craft was designed to operate outside of the earth’s atmosphere.\nThe unconventional conclusions reached by members of this fact finding mission remain tentative at this time. Some members have expressed the view that ULAT-1 may be the product of an advanced culture from another planet that is much older than ours and has utilized their science and intellect for interplanetary space travel. It is not precisely known if the occupants purposely had the objective of exploration and of curiosity or with the intent of surveying for other reasons. So far, no hostile action or intent has been observed since they made their presence known.\nGiven the fact that our atomic bomb tests, atmospheric exploration with rockets, and XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXed in New Mexico, could have precipitated the events that led to the incident and subsequent actions taken by the military.\nOperating under the assumption that the fallen object was a long-range Russian reconnaissance platform collecting aerial photographic intelligence data military intelligence personnel were a instructed to secure the craft, debris and any occupants as rapidly as possible.\nConcerns over possible exposure to civilian of unknown biological and chemical agents dictated the quarantine measures taken.\nRadiation hazards were assumed and protective measures were taken as well.\nIn the interest or National Security priorities it was necessary to detain civilian witnesses for interrogation to satisfy intelligence requirements and quash rumors that could alert potential espionage agents known to be in the vicinity.\nSeveral bodies were discovered.\nBecause on-site medical personnel were unsure of the physiological make up of the occupants, special preparations and preservation methods were employed. Autopsy information obtained so far suggests that the occupants mimic the features associated with Orientals.\nOutwardly, they appear human-like with but one exception, autopsy notes mention a rarely observed XXXXXXXXXXXXXXXXXXXXXXXXXXXXXs present which supports the premise that these beings originate from another planet.\nPART TWO TECHNICAL EVALUATION (PRELIMINARY) ULAT-1\nUpon close examination of the exterior surfaces of the craft’s fuselage, metallurgists found the the skin to be of a ferrous metal white in color. The metal exhibits all the characteristics of high grade steel. It was determined that the steel was cold-formed and heat created.\n\nTensile strength was estimated in excess of 50,000 pounds per square inch. Shear tests give the metal a durability rating above 175,000 pounds per square inch, making this fuselage extremely strong and heat resistant.\nStatic and pressure flow simulations were impressive. The low profile ration of 6-1 gives the aerodyne a great advantage in overcoming the restrictions of the boundary layer effect in high performance operations.\nSpan flanges are constructed in unusual kinematic design which is believed to allow strain relief at supersonic speeds. There were no visible signs of plate-stiffeners, there were no fasteners, weld, rivets, or fittings, holding the fuselage together.\nLack of wings, flaps, stabilizers, and surface central features, suggests that the craft is a lifting body.\nThere are no air intakes for exhaust.\nThere are no cables\nThere are no identifiable electronics (wiring, ignition, lights, instrument, compartment, engine, motors, vacuum tubes, solenoids, generators, heaters, etc.)\nThe power-plant, (severely damaged) XXXXXXXXXXXXXXXXXx neutronic engine. XXXXXXXXXXXXXXXXXXXXXx detected heavy water and deuterium (light hydrogen) elements appeared to be the primary ignitor. A series of coils and heavy magnets connected to the neutronic engine via an oddly arranged group of electrodes (actually not yet identified) appears to be the active force. One small motor was examined. It is encased in a pure aluminium capsule directly underneath the main compartment. There is a small exhaust aperture attached that was what can only be described as an helicoid mechanism XXXXXXXXXXXXXXXXXXXXX. The auxiliary motor may be articulated.\n\nAdvertisement\n\nNavigation and engine controls may be activated by tactile manipulation. Viewing may have been achieved by form of television imagery. Symbolic notation appears to be the form of flight and control indicators. Flat panels of unknown metal has been suggested as a device associated with the operation of the aerodyne was discovered and analyzed. It’s mode of operation and purpose is unknown.\nThe absence of provisions, berthing compartments and storage areas, suggest the notion that this craft may be a short range reconnaissance platform. The only recognizable features XXXXXXXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nMode of operation of operation is believed to be instrumentation and suggests that the aerodyne from reconstruction from available wreckage XXXXXXXXXXXXXXXXXX biosensory and optical stimuli for these reasons:\n\nabsence of indicator signals Absence of any circular dials Absence of linear dials or moving pointers Absence of counters Absence of scopes No mechanical signal indicators 12. There were identifiable control types found among the assortment of artefacts that would indicate the operation of the propulsion unit was manually activated – no knobs, push buttons, toggle switches, levers, balls, handwheels, hand-cranks, or foot pedals were observed in the interior space of the flight cabin.\n\nThe apparent lack of additional clothing and equipment reinforces the belief that the occupants were engaged in a purely exploratory flight.\nIt is not presently known if electromagnetic radiation effects from the power plant had contributed to pilot error or death before impact. If inadequate shielding was the primary cause of pilot error XXXXXXXXXXXXXXs detected.\nIt is believed by some of the crash inspection personnel that sudden decompression and change in atmospheric pressure may have contributed to pilot error. Clothing removed from occupants do not resemble any pressure suit currently being tested by the Army or the Navy for high altitude experiments. Since temperature and humidity factors for the occupants is unknown, it is impossible to determine if decompression and temperature changed affected circulatory and dexterity functions. Although it is believed the occupants may have been overcome by some yet undiscovered pollutant or noxious fumes originating inside the craft.\nRotation or rapid oscillation could have been a contributing factor in pilot error. It is not known if organic effects played a part either since medical data is non-existent in which to make any judgment as to exact cause of death or machine failure.\nThe most probable cause of the crash is believed to be excessive acceleration combined with steep descent. The seating arrangement was transversely designed about the vertical axis of the occupants in a positive direction of flight. The panels removed from the craft resemble the ones taken from the occupants, suggesting a symbionic relationship between operator and the function of the aerodyne’s operation. A very tentative working theory was expressed by the scientific members of the inspection team that pilot-aerodyne interaction may occur via electronic-nonword symbols perceived through the tactile manipulation of the fingers feeding impulses to the brain and visa versa. All of which may suggest a non-inert quality or the materials existent as being a product or artificial intelligence.\nThe following elements were analyzed and found to exist in the small neutronic power plant that was found inside ULAT-l:\n\n\nUF6 in metallic form;\nhydrogen-fluoride gas;\nwater and uranium tetra fluoride;\npowdered magnesium and potassium chlorate,\nmetal similar to lead with a chocolate brown color;\nU-235 in metallic form;\nplastic-like material similar to NE 102,\nBeryllium,\nPure aluminium;\nThorium isotope material;\nPlutonium powder.\n\n\nScientists from Los Alamos and Sandia Base were alarmed that the power plant could possibly function as a bomb if the elements described above were processed in similar fashion as was done for the lens and shot-gun detonators. This originally was the first conclusion. After further evaluation, it was determined that since no recognizable firing circuits were identified, the threat or detonation did not exist.\nThe only evidence or circuitry found on the motor was thin plastic-like sheets fashioned like platters embossed on the exterior of the spherically-shaped casing coated by a thin film or pure silver. Under high power magnification it was observed a series of fine grid-like lines intersecting groups of dots arranged in circular patterns.\n\nPART III SCIENTIFIC PROBABILITIES\n\nBased on all available evidence collected from recovered exhibits currently under study by AHC, AFSWP, NEPA, AEC, ONA, NACA, JBDB, RAND, USAAF SAG. and MIT, are deemed extraterrestrial in nature. This conclusion was reached as a result of comparisons of artifacts XXXXXXXXXXXXXXXXXX discovery in 1941. The technology is outside the scope of US science, even that of German rocket and aircraft development.\nInterplanetary space travel is possible provided adequate funding, necessary resources are made available, and national interest is piqued.\nOur solar system is not unique. Chances are favorable for intelligent life on other planets notwithstanding similar development not unlike our own.\nBeing that our culture is relatively young (in relation to the cosmic scale), it is possible that other cultures may have developed faster, or are much older and have avoided the pitfalls common in our historical and scientific development.\nHuman origins may not be constrained to one planet. Our genus may be found among solar systems similar to our own.\nThe laws of physics and genetics may have a genesis in a higher, structured order than once previously thought.\n\nPART IV POLITICAL CONSIDERATIONS\nGiven the existing political climate in the US and the unstable conditions in Europe, it is the considered opinion of the members, that if the Administration went public with the information as found in this report now, the results would be damaging, even fatal to the world Political structure as it now exists. The following considerations were reviewed and debated, which led the mission to the following opinions:\n\nPublic trust of the political institutions may be eroded and possibly be held in disrepute.\nA complete revisioning make take place as institutions of higher learning thus calling into question the certainty of scientific knowledge.\nThe ability of the Armed Forces to secure National Security would be put in jeopardy and possibly lead to undue public fear and disorder.\nHistory and religion in the political context would probably suffer the most damage causing unprecedented upheaval in social and psychological well-being.\nPolitical repercussions may occur in our diplomatic efforts of containing the Communist threat to our democratic interests.\nIf such an announcement were made by the current Administration, it could be perceived by opposing party as a trick, laying open to accusations of unethetical (sic) posturing and manipulation of the public’s mind.\n\nPART V NATIONAL SECURITY STRUCTURE\nWith the passage of the National Security Act of 1947 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXas presented an unprecedented situation regarding maintaining secrecy related to the information contained in this report.\nIn the early months of 1942, up until the present, intrusions of unidentified aircraft have occasionally been documented, but there has been no serious investigations by the intelligence arm of the Government. Even the recovery case of 1941 did not create a unified intelligence effort to exploit possible technological gains with the exception of the Manhattan Project. We now have an opportunity to extend our technology beyond the threshold that we have achieved, XXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXX. Aside from technological gains, we face an even greater challenge, that of learning the intent of such a presence. There are questions that remain unanswered, such as: What forces face us? What kind of defense do we have? Where do they come from and what kind of weapons do they possess? Where can we stage our forces in advance, XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX How wide a front? How many craft can we expect? And XXXXXXXXXXX XXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXX\nThe members of the mission are prepared to submit a separate report on just this problem alone. And it would take a dozen volumes to explain how these problems should be met.\nOur only point, however, is that a combined intelligence and research operation would be a vast, intricate, covertly planned marshaling of resources, human and material, to solve a specific, clearly defined problem.\nWe have to find effective methods of persuasion with other government agencies without creating a sense of impending doom. The first task is to carefully appraise the problem. The second is to evaluate the known resources and probable strategy of the visitors. The third is to inventory our own ways and means, ascertain how much resources we can bring to bear, and how fast. The third is to devise our strategic plan. And last is to work out with infinite pains the tactical details and the myriad secondary problems of funding and security.\nIt is the unanimous opinion of the members that Operation MAJESTIC TWELVE be a fully funded ant operational TOP SECRET Research and Development intelligence gathering agency. It is also recommended that a panel of experts be appointed to chair and oversee the functions and operations of said agency. It’s members should have appropriate security clearances and full cooperation XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXX XXXXXXXX XXXXXXXXXXXXXXXXX XXXXXXXXXXX the National Security Council, the Pentagon, XXXXXXXht, XXXXXXXXXXXXXXXXXXXXX Joint Intelligence Committee, Joint Intelligence Objectives Agency, Central Intelligence Agency, Atomic Energy Commission, Joint Research and Development Board, Army Security Agency, and the National Advisory Board on Aeronautics.\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXgy are highlighted:\n\nPropeller driven bomber aircraft and jet engines, armed with conventional and atomic bombs.\nJet fighter aircraft, including some of super­sonic speed, armed with rockets and guns.\nPropeller-driven aircraft, valued for their endurance. .\nGuided anti-aircraft missiles, and radar-guided anti-aircraft guns.\nShort and medium-range guided missiles. Drone aircraft.\nAtomic charges, in bombs, missiles and torpedoes.\n\nIn the arena of nuclear weapons we feel there is a certain advantage to be gained XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX. It is speculated by some that if reduced size and miniature circuitry were introduced into the proposed hydrogen bomb program, it would give US Strategic Air Forces a great deterrence capability over the Russians. Current studies at MIT of micro-electronics taken from ULAT-1 may give us the strategic advantage so desired. It is strongly recommended that funding be allocated in this area.\nThere is a good chance that the Russians may try to make use of the flying saucer scare by public news media and diplomatic means of a technological breakthrough in aircraft and missile development. We feel that such a disclosure would certainly cause great embarrassment to our elected officials and to the military, not to mention the panic felt by the citizenry. To counter such a threat, it is recommended that a counterintelligence program be drawn up and held in abeyance if at such time the situation should present itself. It might be suggested that we should make a preempted use of these objects for the purpose of psychological warfare once the true nature of these objects are known and understood.\nTo further assist and aid all MAJCOM in the US and overseas, it is recommended that a standard intelligence reporting system be implemented through standard reporting channels with technical data forwarding instructions. At present, there are no specific intelligence guidelines available to military commanders in dealing with sightings and material evidence collection. It would be advisable for the respective Secretaries of the Armed Forces to devise a security policy of plausible denial, if and when the public becomes aware of the reality of these objects and the interest of the military of such incidents.\nIn conclusion, for reasons of national security and the public well being, the US must be perceived as being the top of the heap and every effort must be made to insure that there is, and never has been, a threat to the country."
+  },
+  {
+    "objectID": "library/physics/uap/index.html",
+    "href": "library/physics/uap/index.html",
+    "title": "UAP",
+    "section": "",
+    "text": "My take, in a few sentences:\nThe UAP phenomenon is extraordinary. There are two primary candidate explanations.\nI believe both are at play. Confidence level: 10%"
+  },
+  {
+    "objectID": "library/physics/uap/index.html#resources",
+    "href": "library/physics/uap/index.html#resources",
+    "title": "UAP",
+    "section": "Resources",
+    "text": "Resources\n\nGood github repo: UAP Resources\nThe Case for UFO Secrecy\nAvalon Project\nAureon: At the Intersection of Energy and Matter | history\n\nChapel Hill Conference\n\nChapel Hill Conference\nBehind the Scenes Chapel Hill\nThe Role of Gravitation in Physics\n\nTo The Stars Academy\n\nTo The Stars Academy purchases exotic “assets” for $35,000\nMagnesium-Zinc-Bismuth (MgZn/Bi) material, allegedly recovered from a Rowsell crash, has several interesting physics properties."
+  },
+  {
+    "objectID": "library/physics/uap/index.html#government-archive",
+    "href": "library/physics/uap/index.html#government-archive",
+    "title": "UAP",
+    "section": "Government Archive",
+    "text": "Government Archive\nProject BLUE BOOK - UFOs\nFBI says this document is fake"
+  },
+  {
+    "objectID": "library/physics/uap/index.html#speculative-tech",
+    "href": "library/physics/uap/index.html#speculative-tech",
+    "title": "UAP",
+    "section": "Speculative Tech",
+    "text": "Speculative Tech\n\nAdvanced Space Propulsion Based on Vacuum Engineering\nNovel Ni-Doped Bismuth–Magnesium Tantalate Pyrochlores: Structural and Electrical Properties, Thermal Expansion, X-ray Photoelectron Spectroscopy, and Near-Edge X-ray Absorption Fine Structure Spectra\nFew-layer bismuth selenide cathode for low-temperature quasi-solid-state aqueous zinc metal batteries\nFaster than Light Travel\nWarp Drives Part 1: Problem Statement and Insights\nCould superconductors transmute electromagnetic radiation into gravitational waves?\nPolarizable Vacuum “Metric Engineering” Approach to GR-Type Effects\nSuperconductors as quantum transducers and antennas for gravitational and electromagnetic radiation"
+  },
+  {
+    "objectID": "library/politics/corruption/index.html#ukraine",
+    "href": "library/politics/corruption/index.html#ukraine",
+    "title": "Corruption",
+    "section": "Ukraine",
+    "text": "Ukraine\n\nUN, Zakharov\nThe son of Alexander Zakharov, mastermind of Russia’s killer drones that attack civilians in Ukraine, is now interning at the U.N.’s disarmament institute. UNIDIR says he was selected through a “competitive and transparent recruitment process…on the basis of his qualifications, skills and experience for the position.”\nTribune de Geneve: “The presence of Zakharov’s son in Geneva implies that Switzerland issued him with a visa, which is compulsory for Russian nationals wishing to enter and stay in the country. When questioned, the Swiss State Secretariat for Migration would not comment on the case. Alexander Zakharov’s son did not respond to our messages.”\n\ntweet\narticle"
+  },
+  {
+    "objectID": "library/software/ai/bio/index.html",
+    "href": "library/software/ai/bio/index.html",
+    "title": "AI x Bio",
+    "section": "",
+    "text": "Molecular recordings by directed CRISPR spacer acquisition\nReasons to be Grateful for Biotechnology"
+  },
+  {
+    "objectID": "library/software/ai/bio/index.html#resources",
+    "href": "library/software/ai/bio/index.html#resources",
+    "title": "AI x Bio",
+    "section": "",
+    "text": "Molecular recordings by directed CRISPR spacer acquisition\nReasons to be Grateful for Biotechnology"
+  },
+  {
+    "objectID": "library/environment/animals/index.html",
+    "href": "library/environment/animals/index.html",
+    "title": "Animals",
+    "section": "",
+    "text": "The Barbary lion is one of the most spectacular beasts ever to have walked the face of the Earth. Known as the Berber lion, the North African lion, the Egyptian lion and the Atlas lion, this is one of history’s most famous animals.\nIn the vast deserts and mountains of the Barbary coast in North Africa, the Barbary lions once roamed freely. With their distinctly dark manes, they were thought to have been one of the largest lion species to have ever existed. These majestic creatures captured the imagination of many, and their historical significance reaches far back into antiquity.\nBarbary lions were not only remarkable for their appearance but also for their role in history. These same lions were regularly captured by hunters for the brutal games held in the Roman colosseum. Known as “Damnatio ad bestias” in Latin, this practice was a form of capital punishment where condemned prisoners were executed by Barbary lions and other large cats. The lions’ presence in such events added to their mythos and perpetuated their fame.\nThe decline of the Barbary lion population began with the expansion of the Arab empire from 632 to 1258, leading to the end of the Islamic Golden Age after the Siege of Baghdad by the Mongols. Survivors of that turbulent period claimed that “the waters of the Tigris ran black with ink from the enormous quantities of books flung into the river and red from the blood of the scientists and philosophers killed.” Amidst the turmoil in the region and as empires crumbled and fell, the Barbary lions managed to persist until the arrival of European colonists in the 19th century.\nDuring this time, big-game hunting gained popularity, and it proved to be devastating for the already dwindling lion population. As a result, sightings of Barbary lions became scarce, and not a single one was reported from 1901 to 1910. By the 1920s, most scientists believed that they had become extinct in the wild.\nThere were a few reported sightings in subsequent decades, offering glimmers of hope that some may have survived. In 1948, there was a reported sighting in Morocco, and in 1958, another sighting was claimed in a heavily forested area near the city of Sétif in Algeria. However, the forest was destroyed during the Algerian War in the same year, further exacerbating the challenges faced by these noble creatures.\nToday, approximately 100 captive lions possess the genes of the Barbary lions, but none of them are pure descendants. While these lions carry a part of their ancestral legacy, the extinction of the Barbary lions in the wild serves as a stark reminder of the consequences of human actions on the delicate balance of nature. The story of the Barbary lion stands as a poignant testament to the importance of conservation efforts to protect and preserve the incredible diversity of life on our planet.\n\ntweet\ndiscovery article"
+  },
+  {
+    "objectID": "library/environment/animals/index.html#barbery-lions",
+    "href": "library/environment/animals/index.html#barbery-lions",
+    "title": "Animals",
+    "section": "",
+    "text": "The Barbary lion is one of the most spectacular beasts ever to have walked the face of the Earth. Known as the Berber lion, the North African lion, the Egyptian lion and the Atlas lion, this is one of history’s most famous animals.\nIn the vast deserts and mountains of the Barbary coast in North Africa, the Barbary lions once roamed freely. With their distinctly dark manes, they were thought to have been one of the largest lion species to have ever existed. These majestic creatures captured the imagination of many, and their historical significance reaches far back into antiquity.\nBarbary lions were not only remarkable for their appearance but also for their role in history. These same lions were regularly captured by hunters for the brutal games held in the Roman colosseum. Known as “Damnatio ad bestias” in Latin, this practice was a form of capital punishment where condemned prisoners were executed by Barbary lions and other large cats. The lions’ presence in such events added to their mythos and perpetuated their fame.\nThe decline of the Barbary lion population began with the expansion of the Arab empire from 632 to 1258, leading to the end of the Islamic Golden Age after the Siege of Baghdad by the Mongols. Survivors of that turbulent period claimed that “the waters of the Tigris ran black with ink from the enormous quantities of books flung into the river and red from the blood of the scientists and philosophers killed.” Amidst the turmoil in the region and as empires crumbled and fell, the Barbary lions managed to persist until the arrival of European colonists in the 19th century.\nDuring this time, big-game hunting gained popularity, and it proved to be devastating for the already dwindling lion population. As a result, sightings of Barbary lions became scarce, and not a single one was reported from 1901 to 1910. By the 1920s, most scientists believed that they had become extinct in the wild.\nThere were a few reported sightings in subsequent decades, offering glimmers of hope that some may have survived. In 1948, there was a reported sighting in Morocco, and in 1958, another sighting was claimed in a heavily forested area near the city of Sétif in Algeria. However, the forest was destroyed during the Algerian War in the same year, further exacerbating the challenges faced by these noble creatures.\nToday, approximately 100 captive lions possess the genes of the Barbary lions, but none of them are pure descendants. While these lions carry a part of their ancestral legacy, the extinction of the Barbary lions in the wild serves as a stark reminder of the consequences of human actions on the delicate balance of nature. The story of the Barbary lion stands as a poignant testament to the importance of conservation efforts to protect and preserve the incredible diversity of life on our planet.\n\ntweet\ndiscovery article"
+  },
+  {
+    "objectID": "library/physics/government/index.html#directed-energy",
+    "href": "library/physics/government/index.html#directed-energy",
+    "title": "Government",
+    "section": "Directed Energy",
+    "text": "Directed Energy\n\nD-Wave and Davidson Technologies Introduce New Innovations to Advance National Defense Efforts"
+  },
+  {
+    "objectID": "library/physics/astro/index.html",
+    "href": "library/physics/astro/index.html",
+    "title": "Astrophysics & Cosmology",
+    "section": "",
+    "text": "James Webb Images\n\nPlanck 2018 Results, Cosmological Parameters\nWebb Telescope finds surprising evidence of well-formed early galaxies\nA Black Hole’s Orbiting Ring of Light Could Encrypt Its Inner Secrets\nHolography of the Photon Ring\n\nSun blasts out highest-energy radiation ever recorded, raising questions for solar physics - article - Discovery of Gamma Rays from the Quiescent Sun with HAWC"
+  },
+  {
+    "objectID": "library/physics/astro/index.html#awesome",
+    "href": "library/physics/astro/index.html#awesome",
+    "title": "Astrophysics & Cosmology",
+    "section": "",
+    "text": "James Webb Images\n\nPlanck 2018 Results, Cosmological Parameters\nWebb Telescope finds surprising evidence of well-formed early galaxies\nA Black Hole’s Orbiting Ring of Light Could Encrypt Its Inner Secrets\nHolography of the Photon Ring\n\nSun blasts out highest-energy radiation ever recorded, raising questions for solar physics - article - Discovery of Gamma Rays from the Quiescent Sun with HAWC"
+  },
+  {
+    "objectID": "library/physics/astro/webb.html",
+    "href": "library/physics/astro/webb.html",
+    "title": "James Webb",
+    "section": "",
+    "text": "10 galaxies that existed just 830 million years after the Big Bang\nThe seven galaxies highlighted in this image from the NASA/ESA/CSA Telescope have been confirmed to be at a distance that astronomers refer to as redshift 7.9, which correlates to 650 million years after the big bang. This makes them the earliest galaxies yet to be spectroscopically confirmed as part of a developing cluster."
+  },
+  {
+    "objectID": "library/physics/astro/webb.html#resources",
+    "href": "library/physics/astro/webb.html#resources",
+    "title": "James Webb",
+    "section": "",
+    "text": "10 galaxies that existed just 830 million years after the Big Bang\nThe seven galaxies highlighted in this image from the NASA/ESA/CSA Telescope have been confirmed to be at a distance that astronomers refer to as redshift 7.9, which correlates to 650 million years after the big bang. This makes them the earliest galaxies yet to be spectroscopically confirmed as part of a developing cluster."
   }
 ]

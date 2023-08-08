@@ -12,3 +12,7 @@ page-layout: full
 - [The new Schumer-Rounds Amendment ("UAP Disclosure Act") was added to the FY 2024 National Defense Authorization Act (S. 2226) without objection.](https://douglasjohnson.ghost.io/senate-intelligence-bill-gives-holders-of-non-earth-origin-six-months/)
 
 [Pentagon Unable To Confirm Or Deny Discovery Of Materials Originating From Non-Human Intelligences Or Unknown Origin Within Secretive Programs](pentagon/pleads-fifth-exotic-materials.qmd)
+
+## Directed Energy
+
+- [D-Wave and Davidson Technologies Introduce New Innovations to Advance National Defense Efforts](https://www.dwavesys.com/company/newsroom/press-release/d-wave-and-davidson-technologies-introduce-new-innovations-to-advance-national-defense-efforts/)

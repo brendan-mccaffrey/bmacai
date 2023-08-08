@@ -28,3 +28,5 @@ page-layout: full
 ## Recent, General
 
 - [The Tie: Solving the Blockchain Trilemma](https://research.thetie.io/blockchain-trilemma/#on-chain)
+
+- [Endgame: Proof of Governance](https://dba.mirror.xyz/UTPfxWe65dYrUu_RJX-5VkAJypFRyw3AZh6m0dRXYZk)

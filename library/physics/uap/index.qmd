@@ -9,23 +9,15 @@ My take, in a few sentences:
 The UAP phenomenon is extraordinary. There are two primary candidate explanations.
 
 1) Fermi's paradox is solved - the aliens are here (and they always have been)
-2) This is a deep international government psyop.
+2) This is a deep international government psyop
 
 I believe both are at play. Confidence level: 10%
 
 
 ## Resources
 
-[Github of Resources](https://github.com/richgel999/uap_resources)
+- Good github repo: [UAP Resources](https://github.com/richgel999/uap_resources)
 
-- [Advanced Space Propulsion Based on Vacuum Engineering](https://arxiv.org/pdf/1204.2184.pdf)
-- [Novel Ni-Doped Bismuth–Magnesium Tantalate Pyrochlores: Structural and Electrical Properties, Thermal Expansion, X-ray Photoelectron Spectroscopy, and Near-Edge X-ray Absorption Fine Structure Spectra](https://pubs.acs.org/doi/10.1021/acsomega.1c02969)
-- [Few-layer bismuth selenide cathode for low-temperature quasi-solid-state aqueous zinc metal batteries](https://www.nature.com/articles/s41467-022-28380-y)
-- [Faster than Light Travel](https://www.researchgate.net/profile/Gary-Bennett-2/publication/316559378_Faster-than-light_travel_to_the_stars/links/5ea0d7d3458515ec3aff1485/Faster-than-light-travel-to-the-stars.pdf)
-- [Warp Drives Part 1: Problem Statement and Insights](http://reprints.gravitywaves.com/Warp/Murad-2005_APC001256.pdf)
-- [Could superconductors transmute electromagnetic radiation into gravitational waves?](https://freerepublic.com/focus/f-chat/686516/posts)
-- [Polarizable Vacuum “Metric Engineering” Approach to GR-Type Effects](http://www.earthtech.org/publications/Mitre%20Conference.pdf)
-- [Superconductors as quantum transducers and antennas for gravitational and electromagnetic radiation](https://arxiv.org/abs/gr-qc/0204012)
 - [The Case for UFO Secrecy](https://peterlevenda.substack.com/p/for-fuchs-sake)
 - [Avalon Project](https://avalon.law.yale.edu/)
 - [Aureon: At the Intersection of Energy and Matter](https://aureon.ca/) | [history](https://www.safireproject.com/about-us/historical.html)
@@ -40,6 +32,19 @@ To The Stars Academy
 
 - [To The Stars Academy purchases exotic "assets" for $35,000](https://www.sec.gov/Archives/edgar/data/1710274/000114420419046318/tv530141_ex6-22.htm)
 - [Magnesium-Zinc-Bismuth (MgZn/Bi) material, allegedly recovered from a Rowsell crash, has several interesting physics properties.](https://tothestars.media/blogs/press-and-news/material-of-interest-magnesium-zinc-bismuth)
+
+## Speculative Tech
+
+- [Advanced Space Propulsion Based on Vacuum Engineering](https://arxiv.org/pdf/1204.2184.pdf)
+- [Novel Ni-Doped Bismuth–Magnesium Tantalate Pyrochlores: Structural and Electrical Properties, Thermal Expansion, X-ray Photoelectron Spectroscopy, and Near-Edge X-ray Absorption Fine Structure Spectra](https://pubs.acs.org/doi/10.1021/acsomega.1c02969)
+- [Few-layer bismuth selenide cathode for low-temperature quasi-solid-state aqueous zinc metal batteries](https://www.nature.com/articles/s41467-022-28380-y)
+- [Faster than Light Travel](https://www.researchgate.net/profile/Gary-Bennett-2/publication/316559378_Faster-than-light_travel_to_the_stars/links/5ea0d7d3458515ec3aff1485/Faster-than-light-travel-to-the-stars.pdf)
+- [Warp Drives Part 1: Problem Statement and Insights](http://reprints.gravitywaves.com/Warp/Murad-2005_APC001256.pdf)
+- [Could superconductors transmute electromagnetic radiation into gravitational waves?](https://freerepublic.com/focus/f-chat/686516/posts)
+- [Polarizable Vacuum “Metric Engineering” Approach to GR-Type Effects](http://www.earthtech.org/publications/Mitre%20Conference.pdf)
+- [Superconductors as quantum transducers and antennas for gravitational and electromagnetic radiation](https://arxiv.org/abs/gr-qc/0204012)
+
+
 
 ## Government Archive
 

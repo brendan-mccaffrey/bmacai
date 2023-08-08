@@ -13,3 +13,7 @@ page-layout: full
 - [Webb Telescope finds surprising evidence of well-formed early galaxies](https://twitter.com/WKCosmo/status/1629868261490737153?s=20)
 - [A Black Hole’s Orbiting Ring of Light Could Encrypt Its Inner Secrets](https://www.quantamagazine.org/black-holes-ring-of-light-could-encrypt-its-inner-secrets-20220908/)
 - [Holography of the Photon Ring](https://arxiv.org/abs/2205.05064)
+
+Sun blasts out highest-energy radiation ever recorded, raising questions for solar physics
+- [article](https://www.space.com/sun-blasts-highest-energy-radiation-ever-recorded-raising-questions-solar-physics)
+- [Discovery of Gamma Rays from the Quiescent Sun with HAWC](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.051201)

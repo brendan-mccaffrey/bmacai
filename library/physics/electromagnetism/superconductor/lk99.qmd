@@ -1,45 +1,65 @@
 ---
 title: "LK-99"
-description: "Following the story of the (alleged) first room-tempurature ambient-pressure superconductor"
+description: "The story of the (alleged) first room-tempurature ambient-pressure superconductor"
 page-layout: full
 ---
 
-## Overview
+## TLDR
 
-Original paper(s) is(are) released twice, the first time (suspected to rush to beat the second) with only 3 authors, making the team eligible for a noble prize.
+Superconductivity is a magic phenomenon that permits leviatation, lossless energy transfer & storage, and countless other beautiful technologies to exist. There are known materials who are superconductors at low tempuratures, and the room tempurature superconductor has been a holy grail of materials science for many decades.
+
+In July, 2023, a pre-print journal out of South Korea claimed to have discovered the "First Room-Temperature Ambient-Pressure Superconductor". The paper generated a ton of excitement, a newfound interest in materials science, and much discussion of room temp SC implications.
+
+...but the paper is (and always has been) just noise.
+
+
+## Timeline
+
+July 22: 
 
 - [The First Room-Temperature Ambient-Pressure Superconductor](https://arxiv.org/abs/2307.12008)
+- Original paper(s) is(are) released twice, the first time (suspected to rush to beat the second) with only 3 authors, making the team eligible for a noble prize.
 
-People rush to replicate the study/results.
+July 26: 
+
+- [I predict](https://twitter.com/0xbmac/status/1684338975459233792?s=20) the superconductor hype ("we are so fucking back") is all noise.
+
+July 27: 
+
+- Douglas Natelson publishes a [blog post](http://nanoscale.blogspot.com/2023/07/condensed-matter-on-public-stage-and.html) expressing a pessemistic view on the whole debacle.
+- Condensed Matter Theory Center deconstructs ["the non-experimental parts of the Korean room temp SC claims."](https://twitter.com/condensed_the/status/1684551820293681153?s=20)
+
+Hype ensues, and magnifies, as people rush to replicate the study/results.
+
+July 29: 
 
 - [First-principles study on the electronic structure of $Pb_{10−x}Cu_x(PO_4)_6O (x=0, 1)$](https://arxiv.org/abs/2307.16040)
+
+July 31: 
+
 - [Synthesis of possible room temperature superconductor $LK-99:Pb_9Cu(PO_4)_6O$](https://arxiv.org/abs/2307.16402)
-
-A theoretical explanation for LK-99 is [released](https://twitter.com/sineatrix/status/1686182852667572224) on July 31, 2023, by [Sinead Griffin](https://twitter.com/sineatrix) out of Berkeley.
-
-- [Origin of correlated isolated flat bands in copper-substituted lead phosphate apatite.](https://arxiv.org/pdf/2307.16892.pdf)
-
-[Douglas Natelson](https://www.blogger.com/profile/13340091255404229559) published a [blog post](http://nanoscale.blogspot.com/2023/07/condensed-matter-on-public-stage-and.html) expressing a pessemistic view on the whole debacle.
 
 A (failed?) replication attempt out of Beijing; shows semiconductor behavior, not super
 
 - [Semiconducting transport in $Pb_{10-x}Cu_x(PO_4)_6O$ sintered from $Pb_2SO_5$ and $Cu_3P$](https://arxiv.org/ftp/arxiv/papers/2307/2307.16802.pdf)
 
+August 4: 
 
-## TLDR on the drama as of August 1, 2023
+A theoretical explanation for LK-99 is [released](https://twitter.com/sineatrix/status/1686182852667572224) on July 31, 2023, by [Sinead Griffin](https://twitter.com/sineatrix) out of Berkeley.
 
-Since 1999, a tiny group of Korean scientists, working in obscurity and in their off-time, pursue the dying wishes of their materials professor who has his own theory about room temperature and pressure superconductors, a century-defining material, the holy grail of materials science and an instant Nobel prize.
+- [Origin of correlated isolated flat bands in copper-substituted lead phosphate apatite.](https://arxiv.org/pdf/2307.16892.pdf)
 
-A week ago, one of them went rogue and published a paper describing how to produce their substance, LK-99, which may or not be this holy grail material. It requires no exotic materials or equipment to reproduce, but the paper omits a lot of detail about the specifics of the synthesis.
+August 6: 
 
-They accompany it with pictures and a video. There are mistakes in the paper, but they authors say they are trivial, will be fixed, and all of them stand by their claims, even as they feud with each other.
+Group claims/proves LK-99 is a ferromagnet (NOT a superconductor)
 
-This kicks off a world-wide race to deboonk or reproduce. US, Chinese, Japanese, and Indian labs all drop what they're doing and give LK-99 a shot. One guy at a startup in California tries on his own as well, and 10,000 people tune in to watch a Twitch stream of a webcam pointed at a kiln. The process takes a few days.
+- [Ferromagnetic half levitation of LK-99-like synthetic samples](https://arxiv.org/abs/2308.03110)
 
-A Russian anime catgirl joins the fracas, ruthlessly making fun of both the original Korean scientists for their bizarre methodology, and of Western/Chinese labs for simply following the steps without understanding what they do. She applies the Soviet technique of ignoring the steps outlined and instead trying to figure out what they actually do, and comes up with her own procedure using shit just laying around her apartment.
+## Asides
 
-She produces a small grain of the floaty rock, takes a picture but refuses to take a video, and mercilessly ridicules everybody who keeps asking her for more proofs because it was so easy to do, they should just be doing it themselves if they weren't mediocre westoids. She's catty and great.
+Author of the original paper, Hyun-Tak Kim, from 2018
 
+[Why does BCS theory fail to explain superconductivity at high temperatures?](https://www.quora.com/Why-does-BCS-theory-fail-to-explain-superconductivity-at-high-temperatures/answer/Hyun-Tak-Kim-1?srid=5GeDe)
 
 
 

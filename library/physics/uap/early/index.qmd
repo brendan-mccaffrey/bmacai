@@ -1,9 +1,52 @@
 ---
-title: "Project White Hot"
-description: "Nearly impossible to confirm validity"
+title: "Early"
+description: "The Rabbit Hole is, in fact, extremely deep."
 page-layout: full
 ---
 
+## Unordered Stuff
+
+[Majestic Documents](https://majesticdocuments.com/documents/majestic-documents/documents-dated-prior-to-1948/)
+
+[Key OSINT UAP Resources](https://github.com/richgel999/uap_resources/tree/main)
+
+[IPU Report, Authorized by Allen Dulles](https://majesticdocuments.com/pdf/ipu_report.pdf)
+
+MAJESTIC 12
+
+FBI says this document is [fake](https://vault.fbi.gov/Majestic%2012)
+
+Government Accountability Office says "MJ12" Fabricated, [1995](https://www.gao.gov/assets/154832.pdf)
+
+Archives.gov, however, [admits existence](https://www.archives.gov/research/military/air-force/ufos)
+
+> Searches were made of the indexes to the NSC's Policy Paper and Meeting Minute files under the subjects MJ-12, majestic, unidentified flying objects, UFO, flying saucers,extraterrestrial biological entities and Aquarius. These searches were all negative with the exception of a "Memorandum for General Twining, from Robert Cutler, Special Assistant to the President, Subject: "NCS/MJ-12 Special Studies Project" dated July 14, 1954. The memorandum, one page, refers to a briefing to take place on July 16. The memorandum does not identify MJ-12 or the purpose of the briefing.
+
+Black Vault: [Majestic](https://documents.theblackvault.com/documents/fbifiles/majestic.pdf)
+
+## ULAT-1
+
+[Wordpress article](https://digitalseance.wordpress.com/2011/12/14/project-white-hot/)
+
+```
+The following elements were analyzed and found to exist in the small neutronic power plant that was found inside ULAT-l:
+
+a.    UF6 in metallic form;
+b.    hydrogen-fluoride gas;
+c.    water and uranium tetra fluoride;
+d.    powdered magnesium and potassium chlorate,
+e.    metal similar to lead with a chocolate brown color;
+f.   U-235 in metallic form;
+g.   plastic-like material similar to NE 102,
+h.    Beryllium,
+i.    Pure aluminium;
+j.   Thorium isotope material;
+j.   Plutonium powder.
+```
+
+> The only evidence or circuitry found on the motor was thin plastic-like sheets fashioned like platters embossed on the exterior of the spherically-shaped casing coated by a thin film or pure silver. Under high power magnification it was observed a series of fine grid-like lines intersecting groups of dots arranged in circular patterns.
+
+## Project White Hot
 
 PROJECT
 ‘WHITE HOT’
