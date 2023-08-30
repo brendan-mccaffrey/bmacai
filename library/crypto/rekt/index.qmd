@@ -1,0 +1,11 @@
+---
+title: "Rekt"
+description: "Crypto Hacks, Rugs, and Exploits"
+page-layout: full
+---
+
+## Resources
+
+- [Rekt Leaderboard](https://rekt.news/leaderboard/)
+- Chainalysis [2022 Crypto Crime Report](https://blockbr.com.br/wp-content/uploads/2022/06/2022-crypto-crime-report.pdf)
+- Timeline of [breahces, frauds and scams](https://crystalblockchain.com/security-breaches-and-fraud-involving-crypto/)
