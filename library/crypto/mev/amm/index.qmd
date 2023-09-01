@@ -11,11 +11,41 @@ page-layout: full
 
 ## Strategies
 
-### Sandwiching
+### Incoming Swap
+
+#### Sandwiching
 
 1. Incoming buy, deliver bundle {mybuy, buy, mysell}
 2. Incoming sell (requires inventory), deliver bundle {mysell, sell, mybuy} (JaredFromSubway's claim to fame and riches)
 
-### JIT Liquidity
+#### JIT Liquidity
 
-Incoming transaction, frontrun it with a large liquidity position at the optimal tick (simulate slippage price)
+Incoming transaction, frontrun it with a large liquidity position at the optimal tick bounds
+
+#### JIT + Sandwich Combo
+
+This is the optimal strategy assuming negligible gas fees
+
+1. Incoming buy: frontrun buy, add LP, victim buy, remove LP, backrun sell
+2. Incoming sell: opposite
+
+Resources on it: [tweet 1](https://twitter.com/0x94305/status/1621186967898656770)
+
+Example bot executing this [etherscan](https://etherscan.io/address/0x0000Cd00001700b10049DfC947103E00E1C62683)
+
+List of examples in prod [tweet](https://twitter.com/Vervious/status/1696234947483226509?s=20)
+
+### Incoming Liquidity Provision Position
+
+#### LP Addition
+
+Incoming LP Addition, deliver bundle {mybuy, lpAdd, mysell}
+- since liquidity is greater during sell, face less slippage
+- net sell price > net buy price
+
+#### LP Removal
+
+Incoming LP Removal, deliver bundle {mysell, lpRemove, mybuy}
+- since liquidity is greater during buy, face less slippage. End up with more tokens than you started with.
+- net sell price < net buy price
+

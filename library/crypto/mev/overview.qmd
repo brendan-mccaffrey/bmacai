@@ -66,6 +66,12 @@ page-layout: full
 
 - MEVconomics Playlist | [youtube](https://www.youtube.com/playlist?list=PLXzKMXK2aHh7bW0j2dhpnLNiIJIMnPgsD)
 
+- Stanford Blockchain Conference [(SBC'23)](https://cbr.stanford.edu/sbc23/)
+- Recordings: [Day 1](https://www.youtube.com/watch?v=E4YkppHQZgw) | [Day 2](https://www.youtube.com/watch?v=Nx5bgyJ7SJ4) | [Day 3](https://www.youtube.com/watch?v=NFJWy8oyVS0)
+
+
+- [MEV Workshop at SBC'23](https://collective.flashbots.net/t/the-mev-workshop-at-the-science-of-blockchain-conference-2023-mev-sbc-23/2038) | [Recording](https://www.youtube.com/watch?v=sAleMbjWHew)
+
 
 
 ### Protocols, and Implementation Resources
