@@ -1,0 +1,21 @@
+---
+title: "MEV on AMMs"
+description: "Extracting value from swaps with automated market makers"
+page-layout: full
+---
+
+## Papers & Research
+
+- [Automated Market Making and Arbitrage Profits in the Presence of Fees](https://moallemi.com/ciamac/papers/lvr-fee-model-2023.pdf)
+- JaredFromSubway.eth's Access Lists | [etherscan](https://etherscan.io/tx/0xd0e3759e51642568364776b4f389805323b2f3dd17a07ef2c53d3ffd6bb022d4#accesslist)
+
+## Strategies
+
+### Sandwiching
+
+1. Incoming buy, deliver bundle {mybuy, buy, mysell}
+2. Incoming sell (requires inventory), deliver bundle {mysell, sell, mybuy} (JaredFromSubway's claim to fame and riches)
+
+### JIT Liquidity
+
+Incoming transaction, frontrun it with a large liquidity position at the optimal tick (simulate slippage price)

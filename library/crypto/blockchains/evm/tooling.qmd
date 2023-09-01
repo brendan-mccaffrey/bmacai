@@ -1,11 +1,14 @@
 ---
-title: "Tools"
+title: "Tools & Resources"
 description: "A list of useful resources for EVM tooling"
 page-layout: full
 ---
 
+## Tools
+
+- [Solidity Decompiler (interface)](https://ethervm.io/decompile)
+- [Heimdall-rs](https://github.com/Jon-Becker/heimdall-rs) an advanced EVM smart contract toolkit specializing in bytecode analysis
+
 ## Resources
 
-[Solidity Decompiler](https://ethervm.io/decompile)
-
-[Solidity Data Representation](https://ethdebug.github.io/solidity-data-representation/)
+- [Solidity Data Representation](https://ethdebug.github.io/solidity-data-representation/)

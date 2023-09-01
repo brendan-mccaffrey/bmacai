@@ -1,0 +1,18 @@
+---
+title: "Physiology"
+description: "On how the human body functions"
+page-layout: full
+---
+
+## Reads
+
+Why does one stick their tongue out when performing a meticulous task with hand tools? Why do tennis players (and martial artist) shout alongside their movements? On the innate linking of the hands and mouth: 
+- [The Hidden Brain Connections Between Our Hands and Tongues](https://www.quantamagazine.org/the-hidden-brain-connections-between-our-hands-and-tongues-20230828/)
+- [Effect of Syllable Articulation on Precision and Power Grip Performance](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0053061)
+- [The initiation of a hand grip is delayed by silently reading an incompatible syllable](https://www.researchsquare.com/article/rs-2239067/v1)
+- [Motor and visual-motor functions of the premotor cortex](https://www.semanticscholar.org/paper/Motor-and-visual-motor-functions-of-the-premotor-Rizzolatti/72f51dca7a5abd0e7d7fc7846142f27e32715f51)
+- [Complex Movements Evoked by Microstimulation of Precentral Cortex](https://www.sciencedirect.com/science/article/pii/S0896627302006980)
+
+Motor proficiency predicts linguistic ability
+
+- [Language as a Tool: Motor Proficiency Using a Tool Predicts Individual Linguistic Abilities](https://www.frontiersin.org/articles/10.3389/fpsyg.2019.01639/full)

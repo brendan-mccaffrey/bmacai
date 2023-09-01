@@ -4,37 +4,16 @@ description: "An overview of miner extractable value"
 page-layout: full
 ---
 
-Studying Flash Loan Attacks
-- [paper](https://t.co/PpoqupGAe1)
+## Dashboards & Tools
 
-MEV by Galaxy Digital | Pt 2
-- [blog](https://www.galaxy.com/research/whitepapers/mev-the-rise-of-the-builders/)
+- [ZeroMEV Explorer](https://zeromev.org/)
+- [EigenPhi: Arbitrage Dashboard](https://eigenphi.io/)
+- [MEV Boost](https://boost.flashbots.net/#block-6163a685d84444a9be309d26f18b4b2f)
+- [Manifold Freelay](https://github.com/manifoldfinance/mev-freelay)
 
-Modular MEV Write-up
-- [blog](https://t.co/4mHc6NuVtm)
+## Research
 
-[Performant routing and latency benchmarking for Ethereum RPC and Relay Service Providers](https://hackmd.io/@manifoldx/draft-perf-relay)
-
-High Granularity Cex Data
-- [tardis.dev](https://docs.tardis.dev/api/getting-started)
-
-MEV in Fixed Price Auctions
-- [paper](https://arxiv.org/abs/2303.04242)
-- [tweet](https://twitter.com/facu_zeta/status/1633860626773671936?s=20)
-
-MEV Boost Capella Upgrades
-- [article](https://flashbots.notion.site/MEV-Boost-Capella-Upgrades-00cea01704794f6eb4f792c55b69c441)
-
-MEVconomics Playlist
-- [youtube](https://www.youtube.com/playlist?list=PLXzKMXK2aHh7bW0j2dhpnLNiIJIMnPgsD)
-
-Frontier Research
-- [website](https://frontier.tech/)
-
-[So you want to run a builder?](https://github.com/flashbots/mev-boost/issues/145)
-
-
-## Early Research
+### Early Research
 
 - [Enter the Hydra](https://eprint.iacr.org/2017/1090.pdf)
 - [The Cost of Decentralization in 0x and EtherDelta](https://hackingdistributed.com/2017/08/13/cost-of-decent/)
@@ -45,30 +24,39 @@ Frontier Research
 - [Ethereum is a Dark Forest](https://medium.com/@danrobinson/ethereum-is-a-dark-forest-ecc5f0505dff)
 - [Flashbots: Frontrunning the MEV Crisis](https://medium.com/flashbots/frontrunning-the-mev-crisis-40629a613752)
 
+### General
 
-## Dashboards
+- Studying Flash Loan Attacks | [paper](https://t.co/PpoqupGAe1)
 
-- [ZeroMEV Explorer](https://zeromev.org/)
-- [EigenPhi: Arbitrage Dashboard](https://eigenphi.io/)
+- MEV by Galaxy Digital | [Blog Pt 2](https://www.galaxy.com/research/whitepapers/mev-the-rise-of-the-builders/)
 
-## Research
+- Modular MEV [Write-up](https://t.co/4mHc6NuVtm)
+
+- [Performant routing and latency benchmarking for Ethereum RPC and Relay Service Providers](https://hackmd.io/@manifoldx/draft-perf-relay)
+
+- High Granularity Cex Data | [tardis.dev](https://docs.tardis.dev/api/getting-started)
+
+- MEV in Fixed Price Auctions | [paper](https://arxiv.org/abs/2303.04242) | [tweet](https://twitter.com/facu_zeta/status/1633860626773671936?s=20)
+
+- MEV Boost Capella Upgrades | [article](https://flashbots.notion.site/MEV-Boost-Capella-Upgrades-00cea01704794f6eb4f792c55b69c441)
+
+- Frontier Research | [website](https://frontier.tech/)
+
+- [So you want to run a builder?](https://github.com/flashbots/mev-boost/issues/145)
 
 - [How to Fix Ethereum's MEV Problem](https://www.coindesk.com/markets/2021/07/27/how-to-fix-ethereums-mev-problem-and-give-traders-the-best-price/)
 - [MEV in ETH2 - An Early Exploration](https://hackmd.io/@flashbots/mev-in-eth2)
 - [Improving PoS Economic Security via MEV Redistribution](http://people.eecs.berkeley.edu/~ksk/files/MEV_Redistribution.pdf)
 - [Towards a Theory of MEV I](https://people.eecs.berkeley.edu/~ksk/files/MEV_CFMM.pdf)
 
-### Flashbots Research
-
 - [Flashbots Research Repository](https://github.com/flashbots/mev-boost/wiki/Research#open-questions)
-- [MEV Boost](https://boost.flashbots.net/#block-6163a685d84444a9be309d26f18b4b2f)
 
 ### MEV-Boost / Proposer-Builder Separation
 
 - [Proposer Boost Considerations](https://notes.ethereum.org/@casparschwa/H1T0k7b85)
 - [MEV-Boost Plan](https://github.com/flashbots/mev-boost/wiki/The-Plan-(tm))
 
-## Videos & Talks
+### Videos & Talks
 
 - [MEV Day](https://flashbots.notion.site/flashbots/mev-day-836f88806995412dabc1c7bb7ce4e830)
     - [Video Recap](https://www.youtube.com/playlist?list=PLRHMe0bxkuel3w3C7P_WVvp9ShLi3HKRI)
@@ -76,8 +64,11 @@ Frontier Research
 - [Encode x Wintermute: MEV with Robert Miller](https://youtu.be/W3GOGesPKlw)
 - [Stanford MEV Workshop Recording](https://www.youtube.com/watch?v=5JmER64a0Xk)
 
+- MEVconomics Playlist | [youtube](https://www.youtube.com/playlist?list=PLXzKMXK2aHh7bW0j2dhpnLNiIJIMnPgsD)
 
-## Protocols, and Implementation Resources
+
+
+### Protocols, and Implementation Resources
 
 Uniswap V3 Book
 - [docs](https://uniswapv3book.com/docs/milestone_4/factory-contract/) 
@@ -109,4 +100,3 @@ FBAs (frequent batch auctions) are a nerd snipe
 JaredFromSubway.eth's Access Lists
 - [etherscan](https://etherscan.io/tx/0xd0e3759e51642568364776b4f389805323b2f3dd17a07ef2c53d3ffd6bb022d4#accesslist)
 
-[Manifold Freelay](https://github.com/manifoldfinance/mev-freelay)
