@@ -74,5 +74,13 @@
   {
     "listing": "/library/topics/software/crypto/index.html",
     "items": []
+  },
+  {
+    "listing": "/library/social/finance/index.html",
+    "items": []
+  },
+  {
+    "listing": "/library/social-sciences/finance/index.html",
+    "items": []
   }
 ]

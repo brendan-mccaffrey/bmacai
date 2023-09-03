@@ -1,9 +1,0 @@
----
-title: "Relativity"
-description: "Einstein GOATed fs"
-page-layout: full
----
-
-Only Harmonic Springs and Gravity produce periodic motions
-
-- [tweet](https://twitter.com/gabrielpeyre/status/1646015289023422464?s=20)

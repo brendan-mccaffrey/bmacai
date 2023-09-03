@@ -57,6 +57,12 @@
     ],
     "library/topics/finance/index.qmd": [
       "posts"
+    ],
+    "library/social/finance/index.qmd": [
+      "posts"
+    ],
+    "library/social-sciences/finance/index.qmd": [
+      "posts"
     ]
   }
 }

@@ -1,0 +1,8 @@
+---
+title: "Example Page Title"
+author: "Brendan McCaffrey"
+date: "2023-07-31"
+subtitle: An example subtitle
+---
+
+This is a background on finance

@@ -328,5 +328,407 @@
   },
   "library/environment/animals/index.qmd": {
     "index.html": "699848c5"
+  },
+  "library/crypto/rekt/index.qmd": {
+    "index.html": "750a5458"
+  },
+  "library/crypto/mev/amm/index.qmd": {
+    "index.html": "91ad8d80"
+  },
+  "library/health/physiology/index.qmd": {
+    "index.html": "909b1004"
+  },
+  "library/software/coding/rust/index.qmd": {
+    "index.html": "b83794bd"
+  },
+  "library/physics/black-holes/index.qmd": {
+    "index.html": "d1ffd96c"
+  },
+  "library/life/health/cognition/index.qmd": {
+    "index.html": "2df44122"
+  },
+  "library/life/health/physiology/index.qmd": {
+    "index.html": "71bd30e0"
+  },
+  "library/life/health/covid/vaccine.qmd": {
+    "vaccine.html": "41497e65"
+  },
+  "library/life/health/covid/index.qmd": {
+    "index.html": "1d927aa1"
+  },
+  "library/life/health/covid/psyop.qmd": {
+    "psyop.html": "d8f88c07"
+  },
+  "library/life/environment/animals/index.qmd": {
+    "index.html": "2a4b3544"
+  },
+  "library/life/environment/climate/index.qmd": {
+    "index.html": "4f8a2cf4"
+  },
+  "library/social/politics/index.qmd": {
+    "index.html": "8cf2596d"
+  },
+  "library/social/politics/deep-state.qmd": {
+    "deep-state.html": "74d46d6d"
+  },
+  "library/social/politics/reads/index.qmd": {
+    "index.html": "fa1687d5"
+  },
+  "library/social/politics/corruption/index.qmd": {
+    "index.html": "8d43a516"
+  },
+  "library/social/politics/corruption/biden.qmd": {
+    "biden.html": "1f0c1029"
+  },
+  "library/social/finance/quant-trading/quant-trading.qmd": {
+    "quant-trading.html": "adea4aa8"
+  },
+  "library/social/finance/index.qmd": {
+    "index.html": "537fe4da"
+  },
+  "library/social/finance/trading/trades/JGByields/index.qmd": {
+    "index.html": "61c7f729"
+  },
+  "library/social/finance/trading/trades/comstock/index.qmd": {
+    "index.html": "088bca0f"
+  },
+  "library/social/finance/finance-101/finance-101.qmd": {
+    "finance-101.html": "8278702b"
+  },
+  "library/nat-sci/crypto/rekt/index.qmd": {
+    "index.html": "c28dcf29"
+  },
+  "library/nat-sci/crypto/events/2023/08/ygg.qmd": {
+    "ygg.html": "85e33ad9"
+  },
+  "library/nat-sci/crypto/apps/hyperliquid/index.qmd": {
+    "index.html": "0072408a"
+  },
+  "library/nat-sci/crypto/apps/ethena/ethena.qmd": {
+    "ethena.html": "eba10f67"
+  },
+  "library/nat-sci/crypto/cex/index.qmd": {
+    "index.html": "52f11bc6"
+  },
+  "library/nat-sci/crypto/blockchains/solana/index.qmd": {
+    "index.html": "ccea3d35"
+  },
+  "library/nat-sci/crypto/blockchains/solana/events/mango.qmd": {
+    "mango.html": "ef8c160d"
+  },
+  "library/nat-sci/crypto/blockchains/index.qmd": {
+    "index.html": "736d5c27"
+  },
+  "library/nat-sci/crypto/blockchains/bitcoin/btc-core.qmd": {
+    "btc-core.html": "166518ad"
+  },
+  "library/nat-sci/crypto/blockchains/bitcoin/versions.qmd": {
+    "versions.html": "e25da087"
+  },
+  "library/nat-sci/crypto/blockchains/bitcoin/ordinals.qmd": {
+    "ordinals.html": "640191fe"
+  },
+  "library/nat-sci/crypto/blockchains/bitcoin/index.qmd": {
+    "index.html": "0e821d93"
+  },
+  "library/nat-sci/crypto/blockchains/consensus.qmd": {
+    "consensus.html": "7be6388f"
+  },
+  "library/nat-sci/crypto/blockchains/evm/tooling.qmd": {
+    "tooling.html": "77fc7f04"
+  },
+  "library/nat-sci/crypto/blockchains/evm/index.qmd": {
+    "index.html": "7cd4d756"
+  },
+  "library/nat-sci/crypto/blockchains/evm/layer-2/index.qmd": {
+    "index.html": "1c1afdae"
+  },
+  "library/nat-sci/crypto/blockchains/evm/ethereum/index.qmd": {
+    "index.html": "0d3777d7"
+  },
+  "library/nat-sci/crypto/mev/overview.qmd": {
+    "overview.html": "28eb19a5"
+  },
+  "library/nat-sci/crypto/mev/amm/index.qmd": {
+    "index.html": "3e0319cc"
+  },
+  "library/nat-sci/software/ai/bio/index.qmd": {
+    "index.html": "3239103e"
+  },
+  "library/nat-sci/software/ai/history-of-ai/history-of-ai.qmd": {
+    "history-of-ai.html": "fa335ce1"
+  },
+  "library/nat-sci/software/coding/rust/index.qmd": {
+    "index.html": "c3d91a97"
+  },
+  "library/nat-sci/physics/unification/string-theory/index.qmd": {
+    "index.html": "76148dcb"
+  },
+  "library/nat-sci/physics/unification/index.qmd": {
+    "index.html": "38292d75"
+  },
+  "library/nat-sci/physics/black-holes/index.qmd": {
+    "index.html": "adff6a82"
+  },
+  "library/nat-sci/physics/government/pentagon/pleads-fifth-exotic-materials.qmd": {
+    "pleads-fifth-exotic-materials.html": "a1541bbc"
+  },
+  "library/nat-sci/physics/government/index.qmd": {
+    "index.html": "edfecbe9"
+  },
+  "library/nat-sci/physics/government/darpa-fellows.qmd": {
+    "darpa-fellows.html": "43a56395"
+  },
+  "library/nat-sci/physics/government/nuclear.qmd": {
+    "nuclear.html": "b823f7dc"
+  },
+  "library/nat-sci/physics/relativity/index.qmd": {
+    "index.html": "9fdabda4"
+  },
+  "library/nat-sci/physics/electromagnetism/superconductor/lk99.qmd": {
+    "lk99.html": "be632c70"
+  },
+  "library/nat-sci/physics/electromagnetism/superconductor/index.qmd": {
+    "index.html": "062a5df6"
+  },
+  "library/nat-sci/physics/electromagnetism/index.qmd": {
+    "index.html": "4772e7bb"
+  },
+  "library/nat-sci/physics/electromagnetism/mhd/index.qmd": {
+    "index.html": "0853dc92"
+  },
+  "library/nat-sci/physics/nuclear-energy/fission.qmd": {
+    "fission.html": "e1cb74c4"
+  },
+  "library/nat-sci/physics/nuclear-energy/fusion.qmd": {
+    "fusion.html": "1de9e7d7"
+  },
+  "library/nat-sci/physics/uap/early/index.qmd": {
+    "index.html": "0965fe13"
+  },
+  "library/nat-sci/physics/uap/index.qmd": {
+    "index.html": "fdbeed7a"
+  },
+  "library/nat-sci/physics/uap/people.qmd": {
+    "people.html": "1b083b38"
+  },
+  "library/nat-sci/physics/astro/index.qmd": {
+    "index.html": "ffc6b443"
+  },
+  "library/nat-sci/physics/astro/webb.qmd": {
+    "webb.html": "7b07a704"
+  },
+  "library/nat-sci/physics/quantum/field-theory/effective-or-fundamental.qmd": {
+    "effective-or-fundamental.html": "0967fc99"
+  },
+  "library/nat-sci/physics/quantum/index.qmd": {
+    "index.html": "f902910b"
+  },
+  "library/nat-sci/physics/quantum/compute/index.qmd": {
+    "index.html": "789b2d15"
+  },
+  "library/natural-sciences/crypto/rekt/index.qmd": {
+    "index.html": "8ef2bd1a"
+  },
+  "library/natural-sciences/crypto/events/2023/08/ygg.qmd": {
+    "ygg.html": "2a82b505"
+  },
+  "library/natural-sciences/crypto/apps/hyperliquid/index.qmd": {
+    "index.html": "7969dc34"
+  },
+  "library/natural-sciences/crypto/apps/ethena/ethena.qmd": {
+    "ethena.html": "c0b684a3"
+  },
+  "library/natural-sciences/crypto/cex/index.qmd": {
+    "index.html": "bfce347c"
+  },
+  "library/natural-sciences/crypto/blockchains/solana/index.qmd": {
+    "index.html": "53b98a9c"
+  },
+  "library/natural-sciences/crypto/blockchains/solana/events/mango.qmd": {
+    "mango.html": "ab52662f"
+  },
+  "library/natural-sciences/crypto/blockchains/index.qmd": {
+    "index.html": "7aa67189"
+  },
+  "library/natural-sciences/crypto/blockchains/bitcoin/btc-core.qmd": {
+    "btc-core.html": "c6843659"
+  },
+  "library/natural-sciences/crypto/blockchains/bitcoin/versions.qmd": {
+    "versions.html": "ac5753f5"
+  },
+  "library/natural-sciences/crypto/blockchains/bitcoin/ordinals.qmd": {
+    "ordinals.html": "bc15effb"
+  },
+  "library/natural-sciences/crypto/blockchains/bitcoin/index.qmd": {
+    "index.html": "c4792e7e"
+  },
+  "library/natural-sciences/crypto/blockchains/consensus.qmd": {
+    "consensus.html": "6361df67"
+  },
+  "library/natural-sciences/crypto/blockchains/evm/tooling.qmd": {
+    "tooling.html": "680a130f"
+  },
+  "library/natural-sciences/crypto/blockchains/evm/index.qmd": {
+    "index.html": "65e2d513"
+  },
+  "library/natural-sciences/crypto/blockchains/evm/layer-2/index.qmd": {
+    "index.html": "712ca978"
+  },
+  "library/natural-sciences/crypto/blockchains/evm/ethereum/index.qmd": {
+    "index.html": "f5946e1f"
+  },
+  "library/natural-sciences/crypto/mev/overview.qmd": {
+    "overview.html": "03bd3356"
+  },
+  "library/natural-sciences/crypto/mev/amm/index.qmd": {
+    "index.html": "d7e1ed64"
+  },
+  "library/natural-sciences/software/ai/bio/index.qmd": {
+    "index.html": "a3708086"
+  },
+  "library/natural-sciences/software/ai/history-of-ai/history-of-ai.qmd": {
+    "history-of-ai.html": "77caae3d"
+  },
+  "library/natural-sciences/software/coding/rust/index.qmd": {
+    "index.html": "0f77b8a1"
+  },
+  "library/natural-sciences/physics/unification/string-theory/index.qmd": {
+    "index.html": "9f648920"
+  },
+  "library/natural-sciences/physics/unification/index.qmd": {
+    "index.html": "baf7b958"
+  },
+  "library/natural-sciences/physics/black-holes/index.qmd": {
+    "index.html": "5ee11169"
+  },
+  "library/natural-sciences/physics/government/pentagon/pleads-fifth-exotic-materials.qmd": {
+    "pleads-fifth-exotic-materials.html": "89645428"
+  },
+  "library/natural-sciences/physics/government/index.qmd": {
+    "index.html": "a60c233e"
+  },
+  "library/natural-sciences/physics/government/darpa-fellows.qmd": {
+    "darpa-fellows.html": "4b7f146e"
+  },
+  "library/natural-sciences/physics/government/nuclear.qmd": {
+    "nuclear.html": "bec02d77"
+  },
+  "library/natural-sciences/physics/relativity/index.qmd": {
+    "index.html": "6b726707"
+  },
+  "library/natural-sciences/physics/electromagnetism/superconductor/lk99.qmd": {
+    "lk99.html": "81719ed2"
+  },
+  "library/natural-sciences/physics/electromagnetism/superconductor/index.qmd": {
+    "index.html": "8809a7c9"
+  },
+  "library/natural-sciences/physics/electromagnetism/index.qmd": {
+    "index.html": "044cc292"
+  },
+  "library/natural-sciences/physics/electromagnetism/mhd/index.qmd": {
+    "index.html": "2f2ffe95"
+  },
+  "library/natural-sciences/physics/nuclear-energy/fission.qmd": {
+    "fission.html": "cbfc6547"
+  },
+  "library/natural-sciences/physics/nuclear-energy/fusion.qmd": {
+    "fusion.html": "e7f7748c"
+  },
+  "library/natural-sciences/physics/uap/early/index.qmd": {
+    "index.html": "7d8738ad"
+  },
+  "library/natural-sciences/physics/uap/index.qmd": {
+    "index.html": "fccface9"
+  },
+  "library/natural-sciences/physics/uap/people.qmd": {
+    "people.html": "e0c6cc3f"
+  },
+  "library/natural-sciences/physics/astro/index.qmd": {
+    "index.html": "aa8645fb"
+  },
+  "library/natural-sciences/physics/astro/webb.qmd": {
+    "webb.html": "69bd9600"
+  },
+  "library/natural-sciences/physics/quantum/field-theory/effective-or-fundamental.qmd": {
+    "effective-or-fundamental.html": "84684885"
+  },
+  "library/natural-sciences/physics/quantum/index.qmd": {
+    "index.html": "7a755982"
+  },
+  "library/natural-sciences/physics/quantum/compute/index.qmd": {
+    "index.html": "43929b8d"
+  },
+  "library/life-sciences/health/cognition/index.qmd": {
+    "index.html": "e6c6f0e2"
+  },
+  "library/life-sciences/health/physiology/index.qmd": {
+    "index.html": "ded13121"
+  },
+  "library/life-sciences/health/covid/vaccine.qmd": {
+    "vaccine.html": "59a1a6d0"
+  },
+  "library/life-sciences/health/covid/index.qmd": {
+    "index.html": "2d9b945e"
+  },
+  "library/life-sciences/health/covid/psyop.qmd": {
+    "psyop.html": "bf666ea1"
+  },
+  "library/life-sciences/environment/animals/index.qmd": {
+    "index.html": "c1acb3ee"
+  },
+  "library/life-sciences/environment/climate/index.qmd": {
+    "index.html": "c3bc07ad"
+  },
+  "library/social-sciences/politics/index.qmd": {
+    "index.html": "8ef8a245"
+  },
+  "library/social-sciences/politics/deep-state.qmd": {
+    "deep-state.html": "12f6d8a4"
+  },
+  "library/social-sciences/politics/reads/index.qmd": {
+    "index.html": "b56f6bd2"
+  },
+  "library/social-sciences/politics/corruption/index.qmd": {
+    "index.html": "6c3a5ed0"
+  },
+  "library/social-sciences/politics/corruption/biden.qmd": {
+    "biden.html": "5c12280d"
+  },
+  "library/social-sciences/finance/quant-trading/quant-trading.qmd": {
+    "quant-trading.html": "5d5ed370"
+  },
+  "library/social-sciences/finance/index.qmd": {
+    "index.html": "416dbc57"
+  },
+  "library/social-sciences/finance/trading/trades/JGByields/index.qmd": {
+    "index.html": "37675d2d"
+  },
+  "library/social-sciences/finance/trading/trades/comstock/index.qmd": {
+    "index.html": "3c2a8980"
+  },
+  "library/social-sciences/finance/finance-101/finance-101.qmd": {
+    "finance-101.html": "85e36f84"
+  },
+  "library/social-sciences/geopolitics/index.qmd": {
+    "index.html": "515b56df"
+  },
+  "library/social-sciences/geopolitics/deep-state.qmd": {
+    "deep-state.html": "ccaa0977"
+  },
+  "library/social-sciences/geopolitics/reads/index.qmd": {
+    "index.html": "4e5e4e42"
+  },
+  "library/social-sciences/geopolitics/corruption/index.qmd": {
+    "index.html": "ff37d629"
+  },
+  "library/social-sciences/geopolitics/corruption/biden.qmd": {
+    "biden.html": "69937325"
+  },
+  "library/natural-sciences/software/virtual-machines/index.qmd": {
+    "index.html": "811d3f3c"
+  },
+  "TEMPLATE.qmd": {
+    "TEMPLATE.html": "763c4a0d"
   }
 }

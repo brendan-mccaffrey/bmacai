@@ -1,0 +1,201 @@
+---
+title: Virtual Machines
+author: "Brendan McCaffrey"
+subtitle: How to build a virtual machine
+---
+
+## Part 1 | VM Basic Operations
+
+### Prerequisites
+
+1. Basic C++ knowledge
+2. Essentials of Interpretation 
+
+Need to know basic C++. For example, pointers
+
+```c++
+int x = 10;     // value 10
+int* px = &x;   // address 5, pointing to value 10
+*px;            // 10
+```
+
+No build system: plain .h files and the single .cpp file
+
+```c++
+// compile
+clang++ ./eva-vm.cpp -o ./eva-vm
+// execute
+./eva-vm -e '(var x 10) x'
+> 10
+./eva-vm -f ~/test.eva
+> 10
+```
+
+---
+
+`clang++` is the C++ frontend for the Clang compiler. Clang is a compiler front end for the C, C++, Objective-C, and Objective-C++ programming languages. It uses the LLVM compiler infrastructure as its back end and is designed to act as a drop-in replacement for the GCC (GNU Compiler Collection).
+
+Some features and characteristics of `clang++` and the Clang project include:
+
+1. **Performance**: Clang aims to provide faster compile times than other compilers, like GCC, especially in incremental builds.
+2. **Diagnostics**: Clang is known for its clear and concise diagnostics (error and warning messages). It often provides a more detailed explanation and sometimes even suggests fixes for the issues.
+3. **Modular Design**: Clang is designed to be highly modular, which has facilitated tools built on top of it. This design is particularly beneficial for creating custom tooling around the compiler.
+4. **Compatibility**: Clang aims to be compatible with GCC, meaning that most GCC-valid code should compile with Clang without changes.
+5. **Integrated Static Analyzer**: Clang includes a static analysis tool that can detect various types of bugs in the source code.
+
+To use `clang++` to compile a C++ program, you might issue a command like:
+```
+clang++ -o my_program my_program.cpp
+```
+
+Where `-o my_program` specifies the name of the output executable and `my_program.cpp` is the source file to be compiled.
+
+---
+
+### Languages
+
+- Interpreted Languages vs Compiled Languages
+
+A language must be interpreted to yield an output. You may interpret a program $P_1$ to yield output, or compile it into another language (program) $P_2$, which has an interpreter to yield an output.
+
+
+The AST interpreter defines the high level semantics.
+
+#### Static time
+
+`print "hello"` -> tokenizer (lexical anlysis) -> Tokens -> Parser (syntatic analysis) -> AST
+
+$\downarrow$
+
+#### Runtime
+
+Interpreter (runtime semantics) -> result
+
+
+#### Bytecode Interpreter
+
+This is the virtual machine
+
+Source code is compiled to bytecode.
+
+- less memory needed
+- fast eval
+- but hard to read by humans
+
+Thats why we need disassembly
+
+"LLVM... custom bytecode.. looks very similar to python bytecode"
+
+### Implementation
+
+1. Parse the program
+
+2. Compile the program to bytecode
+
+set instruction pointer to the beginning, and begin loop.
+
+For byte, behave accordingly
+
+## MUCH TODO
+
+Stack
+OpCodes
+Value Definititons: how do we handle numbers, floats, strings?
+
+
+Look into the LLVM
+
+
+## Glossary
+
+### EVM vs LLVM
+
+The Ethereum Virtual Machine (EVM) is not based on LLVM. They are designed for different purposes, and their architectures and functionalities reflect these distinct goals. 
+
+1. **EVM (Ethereum Virtual Machine)**:
+   - The EVM is a stack-based virtual machine designed to execute bytecode produced by the compilation of smart contracts written in higher-level languages like Solidity or Vyper. These smart contracts run on the Ethereum blockchain.
+   - The EVM operates in a sandboxed environment, ensuring that smart contracts cannot affect the host system or other contracts negatively. It also has a unique gas-based execution model, where every operation consumes a certain amount of "gas" to prevent infinite loops or overly resource-consuming operations.
+
+2. **LLVM**:
+   - LLVM, on the other hand, is a compiler framework designed to generate optimized machine code for a wide range of architectures from higher-level languages like C, C++, Rust, and others.
+   - It's modular, allowing for various optimizations and transformations on its intermediate representation (IR) before the code is finally compiled to machine code for specific architectures.
+
+While the EVM and LLVM are designed for different purposes and do not share a direct relationship, there have been some projects and discussions in the Ethereum community about leveraging LLVM tools or components for specific tasks. For example:
+
+- **eWASM (Ethereum WebAssembly)**: Ethereum has considered a shift from its current EVM bytecode to a WebAssembly-based system called eWASM. WebAssembly (Wasm) has some ties to the LLVM ecosystem, as LLVM can be used to compile code to Wasm. While eWASM would bring Ethereum closer to technologies associated with LLVM, it's not a direct usage of LLVM in the EVM.
+
+- **SOLL Project**: There was a project known as SOLL that aimed to use LLVM to compile Solidity and YUL (an intermediate language for Ethereum) into EVM and eWASM bytecode. It was more of an experimental endeavor and wasn't a mainstream compiler choice for Ethereum developers.
+
+In summary, while the core EVM isn't based on LLVM or directly inspired by it, the broader Ethereum ecosystem has explored and continues to explore synergies with LLVM and related technologies.
+
+### Sandboxed VMs
+
+Certainly! Let's start with a foundational understanding of "sandboxing" and then delve into an example comparing a non-sandboxed VM to the EVM.
+
+**Sandboxing** is a security mechanism used to run code in a restricted environment, isolating it from the broader system. In this isolated space, the code's potential to cause harm or interfere with other processes is severely limited. The sandbox acts like a protective bubble that restricts access to system resources, data, and functionalities.
+
+### Non-Sandboxed VM: Java Virtual Machine (JVM)
+
+While the JVM has security mechanisms and can run code in a sandboxed environment (especially applets in older web browsers), it can also run non-sandboxed applications. This means Java applications, when given permissions, can access the filesystem, network, and more.
+
+**Malicious Example in a Non-Sandboxed JVM Environment**:
+
+Suppose you download a Java application and run it without any security restrictions. This application contains the following code snippet:
+
+```java
+import java.io.*;
+public class MaliciousApp {
+    public static void main(String[] args) {
+        try {
+            File file = new File("/important/system/file.txt");
+            if (file.delete()) {
+                System.out.println("File deleted successfully");
+            } else {
+                System.out.println("Failed to delete the file");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+This Java application attempts to delete an "important" system file. If run without restrictions, it can harm or disrupt the system.
+
+### Sandboxed VM: Ethereum Virtual Machine (EVM)
+
+The EVM is designed explicitly to be sandboxed. Smart contracts on the Ethereum network can only perform a set of predefined operations and cannot directly access the system's resources, such as the filesystem, network, or other external entities, except through the defined Ethereum protocol.
+
+**Why the Malicious Code Can't Affect the Host in EVM**:
+
+Let's assume a similar intention with a hypothetical smart contract trying to delete a file from the system:
+
+```solidity
+pragma solidity ^0.8.0;
+
+contract MaliciousContract {
+    function deleteFile() public {
+        // Hypothetical and invalid code
+        system("rm /important/system/file.txt");
+    }
+}
+```
+
+This code won't work in EVM because:
+
+1. The EVM doesn't have a `system` call or anything similar.
+2. Smart contracts can't directly access the host file system, network, or other system resources.
+3. The EVM can only do what's defined in the Ethereum protocol, such as transfer ether, emit events, and interact with other contracts.
+
+The EVM's sandboxing ensures that, regardless of the intentions of the smart contract, it cannot do anything outside its defined capabilities. Even if a contract is maliciously designed or has a vulnerability, the damage is generally limited to the contract's logic or its interactions within the Ethereum ecosystem, rather than the broader system running the EVM.
+
+## IDEAS
+
+VM specifically optimized for GPU hardware
+specifically designed for matrix multiplication / AI operations
+specifically designed for complex applications, like AR/VR
+
+## NOTES
+
+[This video](https://www.youtube.com/watch?v=dNlaq49tQuY) at 3:30 he does an incredible introspection of the process of the VM
+
