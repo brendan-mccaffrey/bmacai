@@ -4,6 +4,9 @@ author: "Brendan McCaffrey"
 subtitle: How to build a virtual machine
 ---
 
+[Building a VM](https://www.youtube.com/watch?v=dNlaq49tQuY&list=PLGNbPb3dQJ_446PjTYQ0mCn2OGoHSKraB&index=5)
+[Intro to RISC-V Architecture](https://www.youtube.com/watch?v=m8DqCTogb8w)
+
 ## Part 1 | VM Basic Operations
 
 ### Prerequisites
