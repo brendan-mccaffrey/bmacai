@@ -6,6 +6,8 @@ subtitle: How to build a virtual machine
 
 [Building a VM](https://www.youtube.com/watch?v=dNlaq49tQuY&list=PLGNbPb3dQJ_446PjTYQ0mCn2OGoHSKraB&index=5)
 [Intro to RISC-V Architecture](https://www.youtube.com/watch?v=m8DqCTogb8w)
+[Write your own Virtual Machine](https://www.jmeiners.com/lc3-vm/)
+[How to create your own virtual machine](https://www.codeproject.com/Articles/43176/How-to-create-your-own-virtual-machine)
 
 ## Part 1 | VM Basic Operations
 
