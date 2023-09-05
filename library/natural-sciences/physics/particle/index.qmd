@@ -1,0 +1,8 @@
+---
+title: Particle Physics
+description: idk yet
+---
+
+## Resources
+
+[Lie Algebras in Particle Physics](https://library.oapen.org/handle/20.500.12657/50876)

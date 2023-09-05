@@ -1,0 +1,13 @@
+---
+title: Maths
+description: The universal language
+---
+
+## General
+
+[Advice to a Young Mathematician](https://assets.press.princeton.edu/releases/gowers/gowers_VIII_6.pdf)
+
+
+### Group Theory
+
+[Lie Algebras in Particle Physics](https://library.oapen.org/handle/20.500.12657/50876)

@@ -1,7 +1,6 @@
 ---
 title: "Rekt"
 description: "Crypto Hacks, Rugs, and Exploits"
-page-layout: full
 ---
 
 ## Resources

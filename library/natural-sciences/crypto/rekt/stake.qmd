@@ -1,0 +1,19 @@
+---
+title: "Stake"
+description: "Crypto betting site... rekt"
+---
+
+
+### Timeline
+
+[First](https://etherscan.io/tx/0xdddb1d16f97209971ef9256d0b83d5f840eaddbbbbd7a04b5702b4fb7254b857) and [second](https://etherscan.io/tx/0x98610e0a20b5ebb08c40e78b4d2271ae1fbd4fc3b8783b1bb7a5687918fad54e) transactions
+
+Peckshield Alert | [tweet](https://twitter.com/peckshield/status/1698697721342042621?s=20)
+
+Flow of Funds Diagram | [tweet](https://twitter.com/tayvano_/status/1698713232532467837?s=20)
+
+Stake [statement](https://twitter.com/Stake/status/1698746766076588057?s=20)
+
+### Overview
+
+ETH, BSC, and Polygon affected
