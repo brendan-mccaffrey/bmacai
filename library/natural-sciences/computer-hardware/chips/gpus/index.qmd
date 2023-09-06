@@ -1,0 +1,10 @@
+---
+title: GPU
+description: What is the graphics processing unit?
+---
+
+Highest level, the Graphics Processing Unit. This is a parallel processor. CPUs on the other hand, have a single processor for sequential processing.
+
+Apple's GPU cores are split into 16 execution units, where each of these has 8 algorithmic logic units (ALUs).
+
+When NVIDIA says they have "8960 CUDA Cores" this is referring to ALUs. ALUs are the fundamental operating units.
