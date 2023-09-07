@@ -1,0 +1,6 @@
+---
+title: Physics
+description: General items
+---
+
+[Einstein, Barcelona, Symmetry & Cosmology: The Birth of an Equation for the Universe](https://arxiv.org/pdf/2309.02477.pdf)
