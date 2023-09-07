@@ -1,7 +1,21 @@
 ---
-title: Depositing Cash
+title: Cash Management
 description: You have a large amount of cash. How do you get it into the traditional banking system?
 ---
+
+## Acquiring a large amount of cash
+
+Generally, it is a crime to engage in virtually any type of financial transaction if a person conducted the transaction with knowledge that the funds were the proceeds of “criminal activity” and if the government can prove the proceeds were derived from a “specified unlawful activity”.  Criminal activity can be a violation of any criminal law – federal, state, local, or foreign.  Specified unlawful activities are set forth in the statute and include over 200 types of U.S. crimes, from drug trafficking, terrorism, and fraud, to crimes traditionally associated with organised crime, and certain foreign crimes, as discussed below in question 1.3.
+
+The government does not need to prove that the person conducting the money laundering transaction knew that the proceeds were from a specified form of illegal activity.
+
+Knowledge can be based on wilful blindness or conscious indifference – failure to inquire when faced with red flags for illegal activity.  Additionally, knowledge can be based on a government “sting” or subterfuge, where government agents represent that funds are the proceeds of illegal activity. 
+
+Under Section 1956, the transaction can be: (1) with the intent to promote the carrying on of the specified unlawful activity; (2) with the intent to engage in U.S. tax evasion or to file a false tax return; (3) knowing the transaction is in whole or in part to disguise the nature, location, source, ownership or control of the proceeds of a specified unlawful activity; or (4) with the intent to avoid a transaction reporting requirement under federal or state law.
+
+Section 1956 also criminalises the transportation or transmission of funds or monetary instruments (cash or negotiable instruments or securities in bearer form): (1) with the intent to promote the carrying out of a specific unlawful activity; or (2) knowing the funds or monetary instruments represent the proceeds of a specified unlawful activity and the transmission or transportation is designed in whole or in part to conceal or disguise the nature, location, source, ownership or control of the proceeds of the specified unlawful activity.
+
+Under Section 1957, it is a crime to knowingly engage in a financial transaction in property derived from specified unlawful activity through a U.S. bank or other “financial institution”, or a foreign bank (in an amount greater than $10,000).  Financial institution is broadly defined with reference to the Bank Secrecy Act (“BSA”) statutory definition of financial institution (31 U.S.C. § 5312(a)(2)), and includes not just banks but a wide range of other financial businesses, including securities broker-dealers, insurance companies, non-bank finance companies, and casinos.
 
 ## The ATM Approach
 
