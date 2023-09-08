@@ -1,8 +1,40 @@
 ---
 title: Computer Hardware
-subtitle: CPUs GPUs and the likes
+subtitle: CPUs, GPUs, and the likes
+table-of-contents: true
 ---
 
+## CPU
+
+CPUs are designed for serialized execution: fault tolerant, low latency
+
+A CPU has a large control unit, a few ALUs, and usually only 8 to 16 cores. A GPU, on the other hand, can feature 11,000 cores.
+
+*TODO: more content coming soon*
+
+## GPU
+
+Graphics Processing Units are designed for parallel procesing: high throughout, less control logic.
+
+Apple's GPU cores are split into 16 execution units, where each of these has 8 algorithmic logic units (ALUs). When NVIDIA says they have "8960 CUDA Cores" this is referring to ALUs. ALUs are the fundamental operating units.
+
+CUDA is a software framework by NVIDIA to simplify parallelization.
+
+### NVIDIA 
+
+[Supercut Presentation, July 2023](https://www.youtube.com/watch?v=0EIwhvqCX1c)
+
+The HGX H100 H100 has 35,000 components and 8 Hopper GPUs. It weighs 60 pounds, and costs $200,000. The compute tray is the first computer with a transformer engine in it.
+
+There's 2 fundamental trends: CPU scaling has ended, and AI has begun (accelerated computing). the tipping point, NVIDIA GPU utilization is high.
+
+**Comparison: $10mm**
+
+- 960 CPUs, consumes 11GWh, 1x LLM
+- 48 GPUs, consumes 3.2 GWh, 44x LLM (performance)
+
+
+## RISC Architecture
 
 RISC (Reduced Instruction Set Computer) is a design philosophy for CPUs, emphasizing a small and simple set of instructions that execute in a single clock cycle. RISC-V, on the other hand, is a specific, open-standard instruction set architecture (ISA) based on the RISC principles.
 
@@ -23,7 +55,6 @@ While these architectures might share some high-level concepts with RISC — lik
 RISC-V, given its open nature, is seeing exploration beyond traditional CPUs. There are projects and discussions around using RISC-V principles in GPU design or other specialized hardware accelerators. However, as of my last training data in September 2021, RISC-V's primary traction is in the CPU space, from microcontrollers to more powerful processors.
 
 In conclusion, while RISC and RISC-V are primarily associated with CPUs, the principles and architectures are versatile. The GPU world has its architectures optimized for its specific tasks, but the lines between these domains are evolving, and there's potential for overlap in the future.
-
 
 ### Designing a VM for GPUs
 

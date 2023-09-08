@@ -8,6 +8,8 @@ quarto is pretty legit
 
 [docs](https://quarto.org/docs/reference/projects/websites.html)
 
+[rstudio cheatsheet](https://rstudio.github.io/cheatsheets/html/quarto.html)
+
 ## How To
 
 cd into main directory and run

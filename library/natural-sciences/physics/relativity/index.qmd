@@ -3,6 +3,32 @@ title: "Relativity"
 description: "Einstein GOATed fs"
 ---
 
-Only Harmonic Springs and Gravity produce periodic motions
+### Einstein Field Equation
 
-- [tweet](https://twitter.com/gabrielpeyre/status/1646015289023422464?s=20)
+- [paper](https://www.damtp.cam.ac.uk/user/tong/gr/four.pdf)
+
+The Einstein field equation is a fundamental equation in general relativity that relates the geometry of spacetime to the distribution of matter and energy. The equation is given by:
+
+$$R_{\mu\nu} - \frac{1}{2}R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}$$
+
+where $R_{\mu\nu}$ is the Ricci curvature tensor, $R$ is the scalar curvature, $g_{\mu\nu}$ is the metric tensor, $\Lambda$ is the cosmological constant, $G$ is the gravitational constant, $c$ is the speed of light, and $T_{\mu\nu}$ is the stress-energy tensor.
+
+The Ricci curvature tensor $R_{\mu\nu}$ is a measure of the curvature of spacetime, and is related to the distribution of matter and energy through the stress-energy tensor $T_{\mu\nu}$. The scalar curvature $R$ is a measure of the overall curvature of spacetime, and is related to the Ricci curvature tensor through the Einstein field equation.
+
+The metric tensor $g_{\mu\nu}$ is a mathematical object that describes the geometry of spacetime. It specifies the distances between nearby points in spacetime and is used to calculate the curvature of spacetime. The cosmological constant $\Lambda$ is a parameter that was introduced by Einstein to allow for a static universe, but it is now thought to describe the energy density of the vacuum.
+
+The stress-energy tensor $T_{\mu\nu}$ describes the distribution of matter and energy in spacetime. It includes contributions from matter, radiation, and other forms of energy. The equation states that the curvature of spacetime is related to the distribution of matter and energy through the stress-energy tensor.
+
+In summary, the Einstein field equation is a fundamental equation in general relativity that relates the geometry of spacetime to the distribution of matter and energy. It is a mathematical expression of the idea that matter and energy warp spacetime, and that the curvature of spacetime determines the motion of matter and energy.
+
+### Minkowski Metric
+
+In physics, the Minkowski metric (also known as the Minkowski spacetime or the Minkowski metric tensor) is a mathematical tool used to describe spacetime in special relativity. It is named after the German mathematician Hermann Minkowski, who developed the concept of spacetime as a four-dimensional manifold with a metric in the early 20th century.
+
+The Minkowski metric describes the geometry of spacetime in special relativity. It is a mathematical object that assigns a distance or interval between two events in spacetime. In the Minkowski metric, the interval between two events is defined by:
+
+$$ds^2 = -c^2 dt^2 + dx^2 + dy^2 + dz^2$$
+
+where $ds$ is the spacetime interval between two events, $c$ is the speed of light, $dt$ is the time interval between the two events, and $dx$, $dy$, and $dz$ are the three spatial intervals between the two events. The minus sign in front of the $c^2 dt^2$ term ensures that the interval is negative for timelike separations, which represent events that can be causally connected, and positive for spacelike separations, which represent events that cannot be causally connected. The Minkowski metric has a signature of (-, +, +, +), which means that the time interval has the opposite sign compared to the spatial intervals.
+
+The Minkowski metric is a special case of the more general metric tensor used in general relativity. In general relativity, the metric tensor is a function of the curvature of spacetime caused by matter and energy, and it is used to describe the gravitational field. However, in special relativity, where there is no gravitational field, the metric tensor is simply the Minkowski metric, and it describes the flat spacetime of special relativity.

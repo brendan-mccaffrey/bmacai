@@ -1,0 +1,26 @@
+---
+title: "Nuclear"
+description: "Fusion, Fission, and more"
+---
+
+## Nuclear
+
+- [Stockpile Stewardship and Management Plan (SSMP)](https://www.energy.gov/nnsa/articles/stockpile-stewardship-and-management-plan-ssmp)
+
+## Fission
+
+TODO
+
+## Fusion 
+
+#### December 5, 2023 (announced Dec. 13)
+
+- [Press Conference: Secretary Granholm & DOE leaders Announced Fusion Breakthrough by DOE National Lab](https://www.youtube.com/watch?v=K2ktAL4rGuY)
+- [LLNL Release](https://www.llnl.gov/news/igniting-future-hundreds-gather-celebrate-historic-fusion-achievement)
+- [LLNL Video](https://www.youtube.com/watch?v=71gqaFoix1w)
+
+The U.S. Department of Energy (DOE) and DOE’s National Nuclear Security Administration (NNSA) today (Dec. 13) announced the achievement of fusion ignition at Lawrence Livermore National Laboratory (LLNL) — a major scientific breakthrough decades in the making that will pave the way for advancements in national defense and the future of clean power. On Dec. 5, a team at LLNL’s National Ignition Facility (NIF) conducted the first controlled fusion experiment in history to reach this milestone, also known as scientific energy breakeven, meaning it produced more energy from fusion than the laser energy used to drive it. 
+
+#### August 6, 2023 
+
+[US scientists repeat fusion ignition breakthrough for 2nd time](https://www.reuters.com/business/energy/us-scientists-repeat-fusion-power-breakthrough-ft-2023-08-06/)

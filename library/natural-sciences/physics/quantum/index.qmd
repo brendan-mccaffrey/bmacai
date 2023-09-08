@@ -1,18 +1,28 @@
+--- 
+title: Quantum Physics
+
 ---
-title: "Quantum"
-description: "Quantum Physics: Where the secrets lie"
-page-layout: full
----
 
-## Resources
+### Standard Dirac Equation
 
-- [MIT Quantum Physics I](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/lecture-videos/)
-- [MIT Relatavistic Quantum Field Theory I](https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2008/)
-- [MIT Relatavistic Quantum Field Theory II](https://ocw.mit.edu/courses/8-324-relativistic-quantum-field-theory-ii-fall-2010/)
-- [Langrangian and Hamiltonian Mechanics](https://www.youtube.com/watch?v=0DHNGtsmmH8)
-- [Introductory Minicourse to AdS/CFT](https://www.ictp-saifr.org/ads-cft2023/) | [youtube](https://www.youtube.com/playlist?list=PLg0_ydgtbHGH0FIZzD97RVU8K0DA9vI-Q)
+- [paper](https://www.researchgate.net/publication/340664785_THE_DIRAC_EQUATION_AND_ITS_INTERPRETATIONS)
 
-- [David Gross: Fifty Years of Quantum Chromodynamics (The Theory of The Strong Nuclear Force)](https://www.youtube.com/watch?v=8Ms5-Wk-IPU&t=1521s)
+The standard Dirac equation is a fundamental equation in relativistic quantum mechanics that describes the behavior of spin-1/2 particles such as electrons. It was first proposed by Paul Dirac in 1928 and has since played a central role in many areas of physics.
 
-[Quantum Field Theory: Effective or Fundamental?](field-theory/effective-or-fundamental.qmd)
+The Dirac equation takes the form:
 
+$$(i\gamma^\mu\partial_\mu - m)\psi = 0$$
+
+where $\psi$ is a four-component spinor that describes the wave function of the particle, $m$ is the mass of the particle, $\partial_\mu$ is the four-dimensional partial derivative with respect to the spacetime coordinates $x^\mu = (ct,x,y,z)$, and $\gamma^\mu$ are a set of four matrices known as the Dirac gamma matrices.
+
+The gamma matrices satisfy the following properties:
+
+$${\gamma^\mu,\gamma^\nu} = 2\eta^{\mu\nu}I_4$$
+
+where $\eta^{\mu\nu}$ is the Minkowski metric with signature $(+,-,-,-)$, and $I_4$ is the $4\times 4$ identity matrix. The gamma matrices also satisfy the property:
+
+$$\gamma^\mu\gamma^\nu + \gamma^\nu\gamma^\mu = 2\eta^{\mu\nu}I_4$$
+
+The Dirac equation is a relativistic wave equation that describes the dynamics of a spin-1/2 particle in the presence of an electromagnetic field. It predicts the existence of spin and spin magnetic moment for the particle, which are experimentally confirmed.
+
+The four components of the Dirac spinor $\psi$ correspond to the particle's spin and helicity. The solutions to the Dirac equation are classified by their energy, momentum, and spin. The Dirac equation has a rich and complex mathematical structure, and has played a key role in many areas of physics, including particle physics, quantum field theory, condensed matter physics, and astrophysics.

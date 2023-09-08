@@ -1,9 +1,0 @@
----
-title: "Unification"
-description: "Finding an agreement between Einsteinian and Quantum Physics"
-page-layout: full
----
-
-## Resources
-
-- [Unitarity](https://www.quantamagazine.org/physicists-rewrite-a-quantum-rule-that-clashes-with-our-universe-20220926/)

@@ -730,5 +730,80 @@
   },
   "TEMPLATE.qmd": {
     "TEMPLATE.html": "763c4a0d"
+  },
+  "library/natural-sciences/crypto/rekt/stake.qmd": {
+    "stake.html": "7c8e1436"
+  },
+  "library/natural-sciences/crypto/mev/index.qmd": {
+    "index.html": "91531673"
+  },
+  "library/natural-sciences/computer-hardware/chips/gpus/nvidia.qmd": {
+    "nvidia.html": "d492cfa2"
+  },
+  "library/natural-sciences/computer-hardware/chips/gpus/index.qmd": {
+    "index.html": "a92be757"
+  },
+  "library/natural-sciences/computer-hardware/index.qmd": {
+    "index.html": "918926ce"
+  },
+  "library/natural-sciences/maths/index.qmd": {
+    "index.html": "d7f48c6d"
+  },
+  "library/natural-sciences/physics/index.qmd": {
+    "index.html": "79edc604"
+  },
+  "library/natural-sciences/physics/particle/index.qmd": {
+    "index.html": "6c430f51"
+  },
+  "library/life-sciences/biology/cells.qmd": {
+    "cells.html": "9511c01e"
+  },
+  "library/life/deposit-cash.qmd": {
+    "deposit-cash.html": "b6e7c7d7"
+  },
+  "library/social-sciences/events/maui-fire/index.qmd": {
+    "index.html": "557445d9"
+  },
+  "library/natural-sciences/physics/cosmology.qmd": {
+    "cosmology.html": "06109c6f"
+  },
+  "library/natural-sciences/physics/energy/fusion.qmd": {
+    "fusion.html": "b437893e"
+  },
+  "library/natural-sciences/physics/energy/index.qmd": {
+    "index.html": "6f1ea220"
+  },
+  "library/natural-sciences/physics/classical/papers/energetics-of-turbulent-fluids.qmd": {
+    "energetics-of-turbulent-fluids.html": "3372f8c5"
+  },
+  "library/natural-sciences/physics/classical/papers/index.qmd": {
+    "index.html": "6e8d49d9"
+  },
+  "library/natural-sciences/physics/mysteries.qmd": {
+    "mysteries.html": "87807790"
+  },
+  "library/natural-sciences/physics/unification/geometric-unity.qmd": {
+    "geometric-unity.html": "485bad8e"
+  },
+  "library/natural-sciences/physics/unification/string-theory.qmd": {
+    "string-theory.html": "d1aa1e3d"
+  },
+  "library/natural-sciences/physics/government/darpa/fellows.qmd": {
+    "fellows.html": "c256b962"
+  },
+  "library/natural-sciences/physics/nuclear/index.qmd": {
+    "index.html": "fe9e63e5"
+  },
+  "library/natural-sciences/physics/field-theory/effective-or-fundamental.qmd": {
+    "effective-or-fundamental.html": "b2ab64ed"
+  },
+  "library/natural-sciences/physics/field-theory/index.qmd": {
+    "index.html": "ed6056f6"
+  },
+  "library/natural-sciences/physics/classical/fluid-dynamics.qmd": {
+    "fluid-dynamics.html": "464213ff"
+  },
+  "library/natural-sciences/physics/maths/index.qmd": {
+    "index.html": "4d70ed97"
   }
 }

@@ -1,6 +1,162 @@
 ---
 title: Physics
-description: General items
+description: All things physics
+table-of-contents: true
 ---
 
-[Einstein, Barcelona, Symmetry & Cosmology: The Birth of an Equation for the Universe](https://arxiv.org/pdf/2309.02477.pdf)
+## Learn
+
+- [MIT Quantum Physics I](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/lecture-videos/)
+- [Relatavistic Quantum Field Theory I](https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2008/)
+- [Relatavistic Quantum Field Theory II](https://ocw.mit.edu/courses/8-324-relativistic-quantum-field-theory-ii-fall-2010/)
+- [Langrangian and Hamiltonian Mechanics](https://www.youtube.com/watch?v=0DHNGtsmmH8)
+- [Introductory Minicourse to AdS/CFT](https://www.ictp-saifr.org/ads-cft2023/) | [video](https://www.youtube.com/playlist?list=PLg0_ydgtbHGH0FIZzD97RVU8K0DA9vI-Q)
+
+## Uncategorized
+
+- [Gravitational Machines](https://arxiv.org/pdf/2305.10470.pdf)
+- [Warp Drive Patent by Google?](https://patents.google.com/patent/US20060144035)
+- [TASI 2023: Aspects of Symmetry](https://www.youtube.com/playlist?list=PL1TnhG8zyyNxnhHGZze1tAlYrXTXwxhn0)
+- [The 8 Fallacies of Assembly Theory](https://hectorzenil.medium.com/test-8f0be54817c4)
+- [Physics of the Analytic S-Matrix](https://arxiv.org/abs/2306.05395)
+- [My Encounters - as a Physicist - with Mathematics](https://pubs.aip.org/physicstoday/article-abstract/49/2/28/408873/My-Encounters-as-a-Physicist-with?redirectedFrom=fulltext)
+- [World from Eyes, Reconstruct 3D Scene from Someone's Eyeball](https://t.co/zoqliCEews)
+- [American Elements](https://www.americanelements.com/manganese-platinum-alloy-12339-83-2#section-properties)
+- [Ed Witten Interview](https://www.joachim-herz-stiftung.de/en/about-us/prices/hamburg-prize-for-theoretical-physics/edward-witten)
+- [Unitarity](https://www.quantamagazine.org/physicists-rewrite-a-quantum-rule-that-clashes-with-our-universe-20220926/)
+
+## Classical Physics
+
+- [Thermodynamics of Information](https://arxiv.org/pdf/2306.12447.pdf)
+
+### Turbulence
+
+- [Energetics of Turbulent Fluids](./classical/papers/energetics-of-turbulent-fluids.qmd)
+
+## Electromagnetism
+
+### Magnetohydrodynamics
+
+[Magnetohydrodynamics (MHD)](./electromagnetism/mhd/index.qmd), also known as hydromagnetics, is a field in physics that studies the dynamics of electrically conducting fluids, particularly the interaction between magnetic fields and such fluids. These fluids could be plasma, liquid metals, or even seawater. MHD is a synthesis of fluid dynamics and electromagnetism. The governing equations of MHD are the Navier-Stokes equations (in the limit of high Reynolds number) coupled with Maxwell's equations.
+
+- [Magnetohydrodynamic drive](https://en.wikipedia.org/wiki/Magnetohydrodynamic_drive)
+- [Application of Pulsed Electrical Fields for Advanced Cooling and Water Recovery in Coal-Fired Power Plant](https://www.researchgate.net/publication/255215568_Application_of_Pulsed_Electrical_Fields_for_Advanced_Cooling_and_Water_Recovery_in_Coal-Fired_Power_Plant)
+- [Runaway electrons during subnanosecond breakdowns in high-pressure gases](https://www.researchgate.net/publication/309215727_Runaway_electrons_during_subnanosecond_breakdowns_in_high-pressure_gases)
+- [Low-Temperature Atmospheric Pressure Plasma Processes for “Green” Third Generation Photovoltaics](https://www.researchgate.net/publication/290955747_Low-Temperature_Atmospheric_Pressure_Plasma_Processes_for_Green_Third_Generation_Photovoltaics)
+- [Electromagnetic Radiation: Ionizing and Non-ionizing](https://remm.hhs.gov/radiationspectrum.htm)
+- [Are Virtual Particles Less Real?](http://philsci-archive.pitt.edu/15858/1/Jaeger%20Are%20Virtual%20Particles%20Less%20Real_%20entropy-21-00141-v3.pdf)
+- [RF Helicon-based Inductive Plasma Thruster (IPT) Design for an Atmosphere-Breathing Electric Propulsion System (ABEP)](https://arxiv.org/pdf/2007.06397.pdf)
+- [Electrothermal instability](https://en.wikipedia.org/wiki/Electrothermal_instability)
+- [Pulsed inductive thruster](https://en.wikipedia.org/wiki/Pulsed_inductive_thruster)
+- [NASA Pulsed Inductive Thruster](https://ntrs.nasa.gov/api/citations/19930023164/downloads/19930023164.pdf)
+- [On the performance of electrohydrodynamic propulsion](https://royalsocietypublishing.org/doi/abs/10.1098/rspa.2012.0623)
+- [Electrohydrodynamic thrust for in-atmosphere propulsion](https://hal.science/hal-01660600/document)
+- [A Model of an Ideal Electrohydrodynamic Thruster](https://www.researchgate.net/publication/235189622_A_Model_of_an_Ideal_Electrohydrodynamic_Thruster)
+- [Modelling and simulation of plasma thrusters for electric propulsion technologies](https://www.researchgate.net/publication/325286116_Modelling_and_simulation_of_plasma_thrusters_for_electric_propulsion_technologies)
+- [Electrohydrodynamic Drying Characteristics of Agar Gel](https://www.jstage.jst.go.jp/article/fstr/5/2/5_2_132/_pdf/-char/ja)
+- [Modeling of Electrohydrodynamic (EHD) Plasma Thrusters: Optimization of Physical and Geometrical Parameters](https://www.mdpi.com/2076-3417/12/3/1637/htm)
+- [Review on the History, Research, and Applications of Electrohydrodynamics](https://ieeexplore.ieee.org/document/6714477)
+- [Successful experiments on an external MHD Accelerator](https://www.jp-petit.org/science/2013/Princeton_2013.pdf)
+- [MHD Air Breathing Propulsion and Power for Aerospace Applications](https://www.dia.mil/FOIA/FOIA-Electronic-Reading-Room/FileId/170038/)
+- [New Magnetohydrodynamic (MHD) Lift Concept for More Efficient Missions to Mars and Neptune](https://ntrs.nasa.gov/api/citations/20210024776/downloads/AIAA%20SciTech%20Paper%20New%20MHD%20Lift_Control%20ID%203582166%20ver2021-12-02.pdf)
+- [GENERAL CONSIDERATIONS OF MHO ACCELERATION FOR AERODYNAMIC TESTING](https://apps.dtic.mil/sti/pdfs/AD0453419.pdf)
+- [Analysis of the Magnetohydrodynamic Behavior of the Fully Developed Flow of Conducting Fluid](https://www.mdpi.com/1996-1073/14/9/2463)
+- [Space-based laser-driven MHD generator [microform] : feasibility study](https://searchworks.stanford.edu/view/3069472)
+- [Weak Solutions to Ideal MHD](https://www.ias.edu/sites/default/files/MHD-IASfinal.pdf)
+
+
+## Relativity
+
+- [Lecture Notes on Holographic Renomalization](https://arxiv.org/abs/hep-th/0209067)
+- [AdS/CFT correspondence and Geometry (Hamilton-Jacobi approach to holographic renormalization)](https://arxiv.org/abs/hep-th/0404176)
+- [EPFL Lectures on General Relativity as a Quantum Field Theory](https://arxiv.org/abs/1702.00319)
+- [General Relativity as a Perturbative Quantum Field Theory](https://blogs.umass.edu/grqft/)
+- [Effective Field Physics (EFT) Methods of General Relativity](https://pirsa.org/23060072)
+- [Harmonic Springs and Gravity](https://twitter.com/gabrielpeyre/status/1646015289023422464?s=20)
+- [The Role of Gravitation in Physics](https://edition-open-sources.org/media/sources/5/Sources5.pdf)
+
+### Cosmology
+
+- [The Pseudo-Conformal Universe: Scale Invariance from Spontaneous Breaking of Conformal Symmetry](https://arxiv.org/abs/1106.1428)
+- [Einstein, Barcelona, Symmetry & Cosmology: The Birth of an Equation for the Universe](https://arxiv.org/pdf/2309.02477.pdf)
+- [Seeing the Gravitational Wave Universe](https://arxiv.org/abs/2211.05148)
+- [NASA Selects 5 Missions for 2024 Total Solar Eclipse](https://www.nasa.gov/feature/goddard/2023/sun/science-in-the-shadows-nasa-selects-5-experiments-for-2024-total-solar-eclipse)
+- [James Webb Images](https://esawebb.org/images/)
+- [Planck 2018 Results, Cosmological Parameters](https://arxiv.org/abs/1807.06209)
+- [Webb Telescope finds surprising evidence of well-formed early galaxies](https://twitter.com/WKCosmo/status/1629868261490737153?s=20)
+- [Holography of the Photon Ring](https://arxiv.org/abs/2205.05064)
+- [Sun blasts out highest-energy radiation ever recorded, raising questions for solar physics](https://www.space.com/sun-blasts-highest-energy-radiation-ever-recorded-raising-questions-solar-physics)
+- [Discovery of Gamma Rays from the Quiescent Sun with HAWC](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.051201)
+- [10 galaxies that existed just 830 million years after the Big Bang](https://esawebb.org/images/aspire1/)
+The seven galaxies highlighted in [this image](https://esawebb.org/images/protocluster-1/) from the NASA/ESA/CSA Telescope have been confirmed to be at a distance that astronomers refer to as redshift 7.9, which correlates to 650 million years after the big bang. This makes them the earliest galaxies yet to be spectroscopically confirmed as part of a developing cluster.
+
+### Black Holes
+
+- [Black Holes Evade Heat Death](https://www.quantamagazine.org/in-new-paradox-black-holes-appear-to-evade-heat-death-20230606/) 
+- [Effective Action for the Hawking Process](https://arxiv.org/pdf/2306.09019.pdf)
+- [Supermassive Black Hole Binary](https://arxiv.org/abs/2306.11310)
+- [Probing Supermassive Black Hole Merges and Stalling with Pulsar Timing Arrays](https://arxiv.org/abs/1901.06785)
+- [Abell 1201: detection of an ultramassive black hole in a strong gravitational lens](https://academic.oup.com/mnras/article/521/3/3298/7085506)
+- [Math Proof Draws New Boundaries Around Black Hole Formation](https://arxiv.org/pdf/2301.08270.pdf)
+    - [Quanta article](https://www.quantamagazine.org/math-proof-draws-new-boundaries-around-black-hole-formation-20230816/)
+- [A Black Hole’s Orbiting Ring of Light Could Encrypt Its Inner Secrets](https://www.quantamagazine.org/black-holes-ring-of-light-could-encrypt-its-inner-secrets-20220908/)
+
+## Quantum Physics
+
+- [The Dirac Equation and its Interpretations](https://www.researchgate.net/publication/340664785_THE_DIRAC_EQUATION_AND_ITS_INTERPRETATIONS)
+- [David Gross: Fifty Years of Quantum Chromodynamics (The Theory of The Strong Nuclear Force)](https://www.youtube.com/watch?v=8Ms5-Wk-IPU&t=1521s)
+- [Testing a discrete model for quantum spin with two sequential Stern-Gerlach detectors and photon Fock states](https://arxiv.org/abs/2304.13535)
+- [Claim: The apparent randomness in wave function collapse is a consequence of coarse-graining an underlying deterministic, non-unitary but norm-preserving evolution.](https://arxiv.org/abs/2305.06706)
+- [Why Bohr was wrong in his response to EPR](https://arxiv.org/abs/2305.06859)
+- [Richard Feynman: Simulating physics with computers (quantum)](https://link.springer.com/article/10.1007/BF02650179)
+- [Resolving Key Issues In Quantum Mechanics While Simultaneously Debunking Every UFO Case In History](https://deep-1645.medium.com/resolving-key-issues-in-quantum-mechanics-while-simultaneously-debunking-every-ufo-case-in-history-3a743585ed9c)
+- [Experimental test of local observer-independence](https://arxiv.org/pdf/1902.05080.pdf)
+- [Spontaneous localisation from a coarse-grained deterministic and non-unitary dynamics](https://arxiv.org/abs/2305.06706)
+- [Killing Horizons Decohere Quantum Superpositions](https://arxiv.org/pdf/2301.00026.pdf)
+- [Fermionic matter-wave quantum optics with cold-atom impurity models](https://arxiv.org/abs/2305.11610)
+- [Variational Quantum Thermalization and the Future of Quantum Thermodynamics](https://deep-1645.medium.com/variational-quantum-thermalization-and-the-future-of-quantum-thermodynamics-75ee9916ec3c)
+- [A New Century of Quantum Physics](https://www.nature.com/articles/s42254-023-00600-4)
+- [Arrival Time in Quantum Mechanics](https://arxiv.org/abs/2306.07679)
+
+### Quantum Computing
+
+- [Quantum Hamiltonian-Based Models & the Variational Quantum Thermalizer Algorithm](https://arxiv.org/pdf/1910.02071.pdf)
+- [Limitations of optimization algorithms on noisy quantum devices](https://www.nature.com/articles/s41567-021-01356-3)
+- [Variational Quantum Thermalization](https://deep-1645.medium.com/variational-quantum-thermalization-and-the-future-of-quantum-thermodynamics-75ee9916ec3c)
+
+## Particle Physics
+
+- [Observation of an excess of di-charmonium events in the four-muon final state with the ATLAS detector](https://arxiv.org/abs/2304.08962)
+- [Lie Algebras in Particle Physics](https://library.oapen.org/handle/20.500.12657/50876)
+
+## Field Theory
+
+- [Quantum Field Theory: Effective or Fundamental?](field-theory/effective-or-fundamental.qmd)
+- [Brief History of Guage Field Physics](https://twitter.com/VergaraLautaro/status/1631617236057063424)
+- [The Unreasonable Effectiveness of Quantum Field Theory](https://arxiv.org/abs/hep-th/9602122)
+- [Introduction to Genralized Global Symmetries in QFT and Particle Physics](https://arxiv.org/abs/2306.00912)
+- [Lectures on Field Theory and the Standard Model: A Symmetry-Oriented Approach](https://arxiv.org/abs/2306.08097)
+- [Scattering Amplitudes in Quantum Field Theory](https://arxiv.org/abs/2306.05976)
+- [General Relativity as a Perturbative Quantum Field Theory](https://blogs.umass.edu/grqft/)
+- [EPFL Lectures on General Relativity as a Quantum Field Theory](https://arxiv.org/abs/1702.00319)
+
+### Dark Matter and Dark Energy
+
+- [Interacting Dark Matter - Phenomenology and Implications for Cosmology](https://www.youtube.com/watch?v=lzUNr-0E8Us)
+- [New shape of parity-violating graviton non-Gaussianity](https://arxiv.org/abs/2303.05178) | [Explainer](https://twitter.com/MMylova/status/1634015492775002112?s=20)
+
+## Unity
+
+- [Basics of Quantum Gravity](https://indico.cern.ch/event/1279592/)
+- [Perturbative Quantum Gravity](https://www.youtube.com/watch?v=ik0C-xTnK-k&list=PL9ec4tkG1qrjDAad0-EHxyEPw1KcxxT68&index=6)
+
+### ER=EPR
+
+- [Sarfatti's 1975 version of ER=EPR](https://twitter.com/JackSarfatti/status/1646315546630316033?s=20)
+
+### String Theory
+
+- [On Unitarity of Tree-Level String Amplitudes](https://arxiv.org/abs/2201.11575)
+
+
+

@@ -4,7 +4,7 @@ description: "Magnetohydrodynamics (MHD) & Magnetohydrodynamic Propulsion"
 page-layout: full
 ---
 
-## Resources
+## Magnetohydrodynamics
 
 Magnetohydrodynamic (MHD) Propulsion
 

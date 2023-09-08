@@ -2676,16 +2676,16 @@
   {
     "objectID": "library/natural-sciences/physics/quantum/index.html",
     "href": "library/natural-sciences/physics/quantum/index.html",
-    "title": "Quantum",
+    "title": "Quantum Physics",
     "section": "",
-    "text": "MIT Quantum Physics I\nMIT Relatavistic Quantum Field Theory I\nMIT Relatavistic Quantum Field Theory II\nLangrangian and Hamiltonian Mechanics\nIntroductory Minicourse to AdS/CFT | youtube\nDavid Gross: Fifty Years of Quantum Chromodynamics (The Theory of The Strong Nuclear Force)\n\nQuantum Field Theory: Effective or Fundamental?"
+    "text": "Standard Dirac Equation\n\npaper\n\nThe standard Dirac equation is a fundamental equation in relativistic quantum mechanics that describes the behavior of spin-1/2 particles such as electrons. It was first proposed by Paul Dirac in 1928 and has since played a central role in many areas of physics.\nThe Dirac equation takes the form:\n\\[(i\\gamma^\\mu\\partial_\\mu - m)\\psi = 0\\]\nwhere \\(\\psi\\) is a four-component spinor that describes the wave function of the particle, \\(m\\) is the mass of the particle, \\(\\partial_\\mu\\) is the four-dimensional partial derivative with respect to the spacetime coordinates \\(x^\\mu = (ct,x,y,z)\\), and \\(\\gamma^\\mu\\) are a set of four matrices known as the Dirac gamma matrices.\nThe gamma matrices satisfy the following properties:\n\\[{\\gamma^\\mu,\\gamma^\\nu} = 2\\eta^{\\mu\\nu}I_4\\]\nwhere \\(\\eta^{\\mu\\nu}\\) is the Minkowski metric with signature \\((+,-,-,-)\\), and \\(I_4\\) is the \\(4\\times 4\\) identity matrix. The gamma matrices also satisfy the property:\n\\[\\gamma^\\mu\\gamma^\\nu + \\gamma^\\nu\\gamma^\\mu = 2\\eta^{\\mu\\nu}I_4\\]\nThe Dirac equation is a relativistic wave equation that describes the dynamics of a spin-1/2 particle in the presence of an electromagnetic field. It predicts the existence of spin and spin magnetic moment for the particle, which are experimentally confirmed.\nThe four components of the Dirac spinor \\(\\psi\\) correspond to the particle’s spin and helicity. The solutions to the Dirac equation are classified by their energy, momentum, and spin. The Dirac equation has a rich and complex mathematical structure, and has played a key role in many areas of physics, including particle physics, quantum field theory, condensed matter physics, and astrophysics."
   },
   {
     "objectID": "library/natural-sciences/physics/quantum/index.html#resources",
     "href": "library/natural-sciences/physics/quantum/index.html#resources",
     "title": "Quantum",
     "section": "",
-    "text": "MIT Quantum Physics I\nMIT Relatavistic Quantum Field Theory I\nMIT Relatavistic Quantum Field Theory II\nLangrangian and Hamiltonian Mechanics\nIntroductory Minicourse to AdS/CFT | youtube\nDavid Gross: Fifty Years of Quantum Chromodynamics (The Theory of The Strong Nuclear Force)\n\nQuantum Field Theory: Effective or Fundamental?"
+    "text": "MIT Quantum Physics I\nMIT Relatavistic Quantum Field Theory I\nMIT Relatavistic Quantum Field Theory II\nIntroductory Minicourse to AdS/CFT | youtube"
   },
   {
     "objectID": "library/natural-sciences/physics/astro/webb.html",
@@ -2811,14 +2811,14 @@
     "href": "library/natural-sciences/physics/government/index.html",
     "title": "Government",
     "section": "",
-    "text": "Making Muons for Scientific Discovery, National Security\nX-65 | Control of Revolutionary Aircraft with Novel Effectors (CRANE)\nAn Evening With Director of National Intelligence Avril Haines\nThe new Schumer-Rounds Amendment (“UAP Disclosure Act”) was added to the FY 2024 National Defense Authorization Act (S. 2226) without objection.\n\nPentagon Unable To Confirm Or Deny Discovery Of Materials Originating From Non-Human Intelligences Or Unknown Origin Within Secretive Programs"
+    "text": "Making Muons for Scientific Discovery, National Security\nX-65 | Control of Revolutionary Aircraft with Novel Effectors (CRANE)\nAn Evening With Director of National Intelligence Avril Haines\nThe new Schumer-Rounds Amendment (“UAP Disclosure Act”) was added to the FY 2024 National Defense Authorization Act (S. 2226) without objection.\nPentagon Unable To Confirm Or Deny Discovery Of Materials Originating From Non-Human Intelligences Or Unknown Origin Within Secretive Programs"
   },
   {
     "objectID": "library/natural-sciences/physics/government/index.html#resources",
     "href": "library/natural-sciences/physics/government/index.html#resources",
     "title": "Government",
     "section": "",
-    "text": "Making Muons for Scientific Discovery, National Security\nX-65 | Control of Revolutionary Aircraft with Novel Effectors (CRANE)\nAn Evening With Director of National Intelligence Avril Haines\nThe new Schumer-Rounds Amendment (“UAP Disclosure Act”) was added to the FY 2024 National Defense Authorization Act (S. 2226) without objection.\n\nPentagon Unable To Confirm Or Deny Discovery Of Materials Originating From Non-Human Intelligences Or Unknown Origin Within Secretive Programs"
+    "text": "Making Muons for Scientific Discovery, National Security\nX-65 | Control of Revolutionary Aircraft with Novel Effectors (CRANE)\nAn Evening With Director of National Intelligence Avril Haines\nThe new Schumer-Rounds Amendment (“UAP Disclosure Act”) was added to the FY 2024 National Defense Authorization Act (S. 2226) without objection.\nPentagon Unable To Confirm Or Deny Discovery Of Materials Originating From Non-Human Intelligences Or Unknown Origin Within Secretive Programs"
   },
   {
     "objectID": "library/natural-sciences/physics/government/index.html#directed-energy",
@@ -2832,7 +2832,7 @@
     "href": "library/natural-sciences/physics/black-holes/index.html",
     "title": "Black Holes",
     "section": "",
-    "text": "Math Proof Draws New Boundaries Around Black Hole Formation\n\nQuanta article\nPaper"
+    "text": "[Quanta article]"
   },
   {
     "objectID": "library/natural-sciences/physics/unification/string-theory/index.html",
@@ -3175,7 +3175,7 @@
     "href": "library/natural-sciences/crypto/blockchains/solana/index.html",
     "title": "Solana",
     "section": "",
-    "text": "How will Solana Improve its Stability?\n\n\nFee Markets\n\nPriority Fees Github Issue\nDune Query: % of Sol Txs with Fee above base\n\n\n\nThe Solana Validator\n\nFiredancer: A New Client by Jump\nValidator Economics on Solana"
+    "text": "How will Solana Improve its Stability?"
   },
   {
     "objectID": "library/natural-sciences/crypto/blockchains/index.html",
@@ -3322,7 +3322,7 @@
     "href": "library/natural-sciences/physics/government/pentagon/pleads-fifth-exotic-materials.html",
     "title": "Pentagon Pleads the Fifth",
     "section": "",
-    "text": "Pentagon Unable To Confirm Or Deny Discovery Of Materials Originating From Non-Human Intelligences Or Unknown Origin Within Secretive Programs\narticle"
+    "text": "Pentagon Unable To Confirm Or Deny Discovery Of Materials Originating From Non-Human Intelligences Or Unknown Origin Within Secretive Programs"
   },
   {
     "objectID": "library/natural-sciences/physics/government/pentagon/pleads-fifth-exotic-materials.html#summary",
@@ -3399,21 +3399,21 @@
     "href": "library/natural-sciences/physics/relativity/index.html",
     "title": "Relativity",
     "section": "",
-    "text": "Only Harmonic Springs and Gravity produce periodic motions\n\ntweet"
+    "text": "Einstein Field Equation\n\npaper\n\nThe Einstein field equation is a fundamental equation in general relativity that relates the geometry of spacetime to the distribution of matter and energy. The equation is given by:\n\\[R_{\\mu\\nu} - \\frac{1}{2}R g_{\\mu\\nu} + \\Lambda g_{\\mu\\nu} = \\frac{8\\pi G}{c^4} T_{\\mu\\nu}\\]\nwhere \\(R_{\\mu\\nu}\\) is the Ricci curvature tensor, \\(R\\) is the scalar curvature, \\(g_{\\mu\\nu}\\) is the metric tensor, \\(\\Lambda\\) is the cosmological constant, \\(G\\) is the gravitational constant, \\(c\\) is the speed of light, and \\(T_{\\mu\\nu}\\) is the stress-energy tensor.\nThe Ricci curvature tensor \\(R_{\\mu\\nu}\\) is a measure of the curvature of spacetime, and is related to the distribution of matter and energy through the stress-energy tensor \\(T_{\\mu\\nu}\\). The scalar curvature \\(R\\) is a measure of the overall curvature of spacetime, and is related to the Ricci curvature tensor through the Einstein field equation.\nThe metric tensor \\(g_{\\mu\\nu}\\) is a mathematical object that describes the geometry of spacetime. It specifies the distances between nearby points in spacetime and is used to calculate the curvature of spacetime. The cosmological constant \\(\\Lambda\\) is a parameter that was introduced by Einstein to allow for a static universe, but it is now thought to describe the energy density of the vacuum.\nThe stress-energy tensor \\(T_{\\mu\\nu}\\) describes the distribution of matter and energy in spacetime. It includes contributions from matter, radiation, and other forms of energy. The equation states that the curvature of spacetime is related to the distribution of matter and energy through the stress-energy tensor.\nIn summary, the Einstein field equation is a fundamental equation in general relativity that relates the geometry of spacetime to the distribution of matter and energy. It is a mathematical expression of the idea that matter and energy warp spacetime, and that the curvature of spacetime determines the motion of matter and energy.\n\n\nMinkowski Metric\nIn physics, the Minkowski metric (also known as the Minkowski spacetime or the Minkowski metric tensor) is a mathematical tool used to describe spacetime in special relativity. It is named after the German mathematician Hermann Minkowski, who developed the concept of spacetime as a four-dimensional manifold with a metric in the early 20th century.\nThe Minkowski metric describes the geometry of spacetime in special relativity. It is a mathematical object that assigns a distance or interval between two events in spacetime. In the Minkowski metric, the interval between two events is defined by:\n\\[ds^2 = -c^2 dt^2 + dx^2 + dy^2 + dz^2\\]\nwhere \\(ds\\) is the spacetime interval between two events, \\(c\\) is the speed of light, \\(dt\\) is the time interval between the two events, and \\(dx\\), \\(dy\\), and \\(dz\\) are the three spatial intervals between the two events. The minus sign in front of the \\(c^2 dt^2\\) term ensures that the interval is negative for timelike separations, which represent events that can be causally connected, and positive for spacelike separations, which represent events that cannot be causally connected. The Minkowski metric has a signature of (-, +, +, +), which means that the time interval has the opposite sign compared to the spatial intervals.\nThe Minkowski metric is a special case of the more general metric tensor used in general relativity. In general relativity, the metric tensor is a function of the curvature of spacetime caused by matter and energy, and it is used to describe the gravitational field. However, in special relativity, where there is no gravitational field, the metric tensor is simply the Minkowski metric, and it describes the flat spacetime of special relativity."
   },
   {
     "objectID": "library/natural-sciences/physics/electromagnetism/superconductor/index.html",
     "href": "library/natural-sciences/physics/electromagnetism/superconductor/index.html",
     "title": "Superconductors",
     "section": "",
-    "text": "Piezoelectricity-induced Room Temperature Superconductor\nMichael S Fuhrer: History of room-tempurature superconductors\nSteven Kivelson | Superconductivity and Quantum Mechanics at the Macro-Scale, Part 1 of 2\nSteven Kivelson | Superconductivity and Quantum Mechanics at the Macro-Scale, Part 2 of 2"
+    "text": "Piezoelectricity-induced Room Temperature Superconductor\nMichael S Fuhrer: History of room-tempurature superconductors\nSteven Kivelson | Superconductivity and Quantum Mechanics at the Macro-Scale, Part 1 of 2\nSteven Kivelson | Superconductivity and Quantum Mechanics at the Macro-Scale, Part 2 of 2\nCould superconductors transmute electromagnetic radiation into gravitational waves?\nSuperconductors as quantum transducers and antennas for gravitational and electromagnetic radiation\nCould superconductors transmute electromagnetic radiation into gravitational waves?"
   },
   {
     "objectID": "library/natural-sciences/physics/electromagnetism/superconductor/index.html#resources",
     "href": "library/natural-sciences/physics/electromagnetism/superconductor/index.html#resources",
     "title": "Superconductors",
     "section": "",
-    "text": "Piezoelectricity-induced Room Temperature Superconductor\nMichael S Fuhrer: History of room-tempurature superconductors\nSteven Kivelson | Superconductivity and Quantum Mechanics at the Macro-Scale, Part 1 of 2\nSteven Kivelson | Superconductivity and Quantum Mechanics at the Macro-Scale, Part 2 of 2"
+    "text": "Piezoelectricity-induced Room Temperature Superconductor\nMichael S Fuhrer: History of room-tempurature superconductors\nSteven Kivelson | Superconductivity and Quantum Mechanics at the Macro-Scale, Part 1 of 2\nSteven Kivelson | Superconductivity and Quantum Mechanics at the Macro-Scale, Part 2 of 2\nCould superconductors transmute electromagnetic radiation into gravitational waves?\nSuperconductors as quantum transducers and antennas for gravitational and electromagnetic radiation\nCould superconductors transmute electromagnetic radiation into gravitational waves?"
   },
   {
     "objectID": "library/natural-sciences/physics/electromagnetism/superconductor/index.html#summary",
@@ -3476,21 +3476,21 @@
     "href": "library/natural-sciences/physics/uap/index.html#resources",
     "title": "UAP",
     "section": "Resources",
-    "text": "Resources\n\nGood github repo: UAP Resources\nThe Case for UFO Secrecy\nAvalon Project\nAureon: At the Intersection of Energy and Matter | history\n\nChapel Hill Conference\n\nChapel Hill Conference\nBehind the Scenes Chapel Hill\nThe Role of Gravitation in Physics\n\nTo The Stars Academy\n\nTo The Stars Academy purchases exotic “assets” for $35,000\nMagnesium-Zinc-Bismuth (MgZn/Bi) material, allegedly recovered from a Rowsell crash, has several interesting physics properties."
+    "text": "Resources\n\nUAP Resources: GH Repo\nThe Case for UFO Secrecy\nAureon: At the Intersection of Energy and Matter\n\nhistory\n\nAvalon Project\n\nProject Avalon Resources\n\nChapel Hill Conference\n\nBehind the Scenes Chapel Hill\nThe Role of Gravitation in Physics\n\nTo The Stars Academy purchases exotic “assets” for $35,000\nMagnesium-Zinc-Bismuth (MgZn/Bi) material, allegedly recovered from a Rowsell crash, has several interesting physics properties.\nExtraterrestrial Metals\n\narticle\n\nHal Putoff Lecture - June 2018\n\nwriteup\nIRVA-SSE 2018\n\nMatthew Szydagis Interview\nBrian Gaensler Presentation\nUFO Blueshift: Hal Putoff\n2021 SCU AAP Conference Keynote by Hal Putoff\n2020 Transition Talks\nArea 51 Guard Stories (not necessarily “real talk”)\nCaponi Case\nApollo 20\n\nApollo 20 is known as a canceled NASA mission, part of the Apollo program. William Rutledge, the Apollo 20 Commander for the USAF (August 1976), claims that the mission did in fact happen, but it was classified.\n\nJaques Vallee Talk\nBrian Keating, Garry Nolan, Avi Loeb\nProgress in Post-Quantum Mechanics\nJack Sarfatti - Cafe Trieste, The Bohemians & Warp Drive Physics\nVallee Fastwalker Notes\nDGRAV Seminar Series: Nonlinearities in Black-Hole Ringdowns"
   },
   {
     "objectID": "library/natural-sciences/physics/uap/index.html#speculative-tech",
     "href": "library/natural-sciences/physics/uap/index.html#speculative-tech",
     "title": "UAP",
     "section": "Speculative Tech",
-    "text": "Speculative Tech\n\nAdvanced Space Propulsion Based on Vacuum Engineering\nNovel Ni-Doped Bismuth–Magnesium Tantalate Pyrochlores: Structural and Electrical Properties, Thermal Expansion, X-ray Photoelectron Spectroscopy, and Near-Edge X-ray Absorption Fine Structure Spectra\nFew-layer bismuth selenide cathode for low-temperature quasi-solid-state aqueous zinc metal batteries\nFaster than Light Travel\nWarp Drives Part 1: Problem Statement and Insights\nCould superconductors transmute electromagnetic radiation into gravitational waves?\nPolarizable Vacuum “Metric Engineering” Approach to GR-Type Effects\nSuperconductors as quantum transducers and antennas for gravitational and electromagnetic radiation"
+    "text": "Speculative Tech"
   },
   {
     "objectID": "library/natural-sciences/physics/uap/index.html#government-archive",
     "href": "library/natural-sciences/physics/uap/index.html#government-archive",
     "title": "UAP",
     "section": "Government Archive",
-    "text": "Government Archive\nProject BLUE BOOK - UFOs\nFBI says this document is fake"
+    "text": "Government Archive\n\nProject BLUE BOOK - UFOs\nMajestic Documents\nKey OSINT UAP Resources\nIPU Report, Authorized by Allen Dulles\n\n\nMajestic 12\nFBI says this document is fake\nGovernment Accountability Office says “MJ12” Fabricated, 1995\nArchives.gov, however, admits existence\n\nSearches were made of the indexes to the NSC’s Policy Paper and Meeting Minute files under the subjects MJ-12, majestic, unidentified flying objects, UFO, flying saucers,extraterrestrial biological entities and Aquarius. These searches were all negative with the exception of a “Memorandum for General Twining, from Robert Cutler, Special Assistant to the President, Subject:”NCS/MJ-12 Special Studies Project” dated July 14, 1954. The memorandum, one page, refers to a briefing to take place on July 16. The memorandum does not identify MJ-12 or the purpose of the briefing.\n\nBlack Vault: Majestic\n\n\nULAT-1\nWordpress article\nThe following elements were analyzed and found to exist in the small neutronic power plant that was found inside ULAT-l:\n\na.    UF6 in metallic form;\nb.    hydrogen-fluoride gas;\nc.    water and uranium tetra fluoride;\nd.    powdered magnesium and potassium chlorate,\ne.    metal similar to lead with a chocolate brown color;\nf.   U-235 in metallic form;\ng.   plastic-like material similar to NE 102,\nh.    Beryllium,\ni.    Pure aluminium;\nj.   Thorium isotope material;\nj.   Plutonium powder.\n\nThe only evidence or circuitry found on the motor was thin plastic-like sheets fashioned like platters embossed on the exterior of the spherically-shaped casing coated by a thin film or pure silver. Under high power magnification it was observed a series of fine grid-like lines intersecting groups of dots arranged in circular patterns."
   },
   {
     "objectID": "library/natural-sciences/physics/astro/index.html",
@@ -3630,14 +3630,14 @@
     "href": "library/social-sciences/geopolitics/corruption/biden.html",
     "title": "Biden Family",
     "section": "",
-    "text": "Viktor Shokin: the Ukrainian prosecutor that Biden accused of being corrupt and had removed.\nIn this video he responds to accusations that his investigation into Burisma was dormant or that he was corrupt, plaining why he was removed as prosecutor.\nHe accuses the Obama Admin of using Ukraine. He says exactly what he thinks of Joe Biden. The State Department has refused to let him come to America to tell his story.\nInterview"
+    "text": "Viktor Shokin: the Ukrainian prosecutor that Biden accused of being corrupt and had removed.\nIn this video he responds to accusations that his investigation into Burisma was dormant or that he was corrupt, plaining why he was removed as prosecutor.\nHe accuses the Obama Admin of using Ukraine. He says exactly what he thinks of Joe Biden. The State Department has refused to let him come to America to tell his story.\nInterview\nMorgan Stanley 2014 Report Overview of Wakpamni Series 2014 Bonds"
   },
   {
     "objectID": "library/social-sciences/geopolitics/corruption/biden.html#burisma",
     "href": "library/social-sciences/geopolitics/corruption/biden.html#burisma",
     "title": "Biden Family",
     "section": "",
-    "text": "Viktor Shokin: the Ukrainian prosecutor that Biden accused of being corrupt and had removed.\nIn this video he responds to accusations that his investigation into Burisma was dormant or that he was corrupt, plaining why he was removed as prosecutor.\nHe accuses the Obama Admin of using Ukraine. He says exactly what he thinks of Joe Biden. The State Department has refused to let him come to America to tell his story.\nInterview"
+    "text": "Viktor Shokin: the Ukrainian prosecutor that Biden accused of being corrupt and had removed.\nIn this video he responds to accusations that his investigation into Burisma was dormant or that he was corrupt, plaining why he was removed as prosecutor.\nHe accuses the Obama Admin of using Ukraine. He says exactly what he thinks of Joe Biden. The State Department has refused to let him come to America to tell his story.\nInterview\nMorgan Stanley 2014 Report Overview of Wakpamni Series 2014 Bonds"
   },
   {
     "objectID": "library/social-sciences/geopolitics/reads/index.html",
@@ -3693,14 +3693,14 @@
     "href": "library/natural-sciences/software/virtual-machines/index.html",
     "title": "Virtual Machines",
     "section": "",
-    "text": "Basic C++ knowledge\nEssentials of Interpretation\n\nNeed to know basic C++. For example, pointers\nint x = 10;     // value 10\nint* px = &x;   // address 5, pointing to value 10\n*px;            // 10\nNo build system: plain .h files and the single .cpp file\n// compile\nclang++ ./eva-vm.cpp -o ./eva-vm\n// execute\n./eva-vm -e '(var x 10) x'\n&gt; 10\n./eva-vm -f ~/test.eva\n&gt; 10\n\nclang++ is the C++ frontend for the Clang compiler. Clang is a compiler front end for the C, C++, Objective-C, and Objective-C++ programming languages. It uses the LLVM compiler infrastructure as its back end and is designed to act as a drop-in replacement for the GCC (GNU Compiler Collection).\nSome features and characteristics of clang++ and the Clang project include:\n\nPerformance: Clang aims to provide faster compile times than other compilers, like GCC, especially in incremental builds.\nDiagnostics: Clang is known for its clear and concise diagnostics (error and warning messages). It often provides a more detailed explanation and sometimes even suggests fixes for the issues.\nModular Design: Clang is designed to be highly modular, which has facilitated tools built on top of it. This design is particularly beneficial for creating custom tooling around the compiler.\nCompatibility: Clang aims to be compatible with GCC, meaning that most GCC-valid code should compile with Clang without changes.\nIntegrated Static Analyzer: Clang includes a static analysis tool that can detect various types of bugs in the source code.\n\nTo use clang++ to compile a C++ program, you might issue a command like:\nclang++ -o my_program my_program.cpp\nWhere -o my_program specifies the name of the output executable and my_program.cpp is the source file to be compiled.\n\n\n\n\n\nInterpreted Languages vs Compiled Languages\n\nA language must be interpreted to yield an output. You may interpret a program \\(P_1\\) to yield output, or compile it into another language (program) \\(P_2\\), which has an interpreter to yield an output.\nThe AST interpreter defines the high level semantics.\n\n\nprint \"hello\" -&gt; tokenizer (lexical anlysis) -&gt; Tokens -&gt; Parser (syntatic analysis) -&gt; AST\n\\(\\downarrow\\)\n\n\n\nInterpreter (runtime semantics) -&gt; result\n\n\n\nThis is the virtual machine\nSource code is compiled to bytecode.\n\nless memory needed\nfast eval\nbut hard to read by humans\n\nThats why we need disassembly\n“LLVM… custom bytecode.. looks very similar to python bytecode”\n\n\n\n\n\nParse the program\nCompile the program to bytecode\n\nset instruction pointer to the beginning, and begin loop.\nFor byte, behave accordingly"
+    "text": "Building a VM Intro to RISC-V Architecture Write your own Virtual Machine How to create your own virtual machine"
   },
   {
     "objectID": "library/natural-sciences/software/virtual-machines/index.html#part-1-vm-basic-operations",
     "href": "library/natural-sciences/software/virtual-machines/index.html#part-1-vm-basic-operations",
     "title": "Virtual Machines",
-    "section": "",
-    "text": "Basic C++ knowledge\nEssentials of Interpretation\n\nNeed to know basic C++. For example, pointers\nint x = 10;     // value 10\nint* px = &x;   // address 5, pointing to value 10\n*px;            // 10\nNo build system: plain .h files and the single .cpp file\n// compile\nclang++ ./eva-vm.cpp -o ./eva-vm\n// execute\n./eva-vm -e '(var x 10) x'\n&gt; 10\n./eva-vm -f ~/test.eva\n&gt; 10\n\nclang++ is the C++ frontend for the Clang compiler. Clang is a compiler front end for the C, C++, Objective-C, and Objective-C++ programming languages. It uses the LLVM compiler infrastructure as its back end and is designed to act as a drop-in replacement for the GCC (GNU Compiler Collection).\nSome features and characteristics of clang++ and the Clang project include:\n\nPerformance: Clang aims to provide faster compile times than other compilers, like GCC, especially in incremental builds.\nDiagnostics: Clang is known for its clear and concise diagnostics (error and warning messages). It often provides a more detailed explanation and sometimes even suggests fixes for the issues.\nModular Design: Clang is designed to be highly modular, which has facilitated tools built on top of it. This design is particularly beneficial for creating custom tooling around the compiler.\nCompatibility: Clang aims to be compatible with GCC, meaning that most GCC-valid code should compile with Clang without changes.\nIntegrated Static Analyzer: Clang includes a static analysis tool that can detect various types of bugs in the source code.\n\nTo use clang++ to compile a C++ program, you might issue a command like:\nclang++ -o my_program my_program.cpp\nWhere -o my_program specifies the name of the output executable and my_program.cpp is the source file to be compiled.\n\n\n\n\n\nInterpreted Languages vs Compiled Languages\n\nA language must be interpreted to yield an output. You may interpret a program \\(P_1\\) to yield output, or compile it into another language (program) \\(P_2\\), which has an interpreter to yield an output.\nThe AST interpreter defines the high level semantics.\n\n\nprint \"hello\" -&gt; tokenizer (lexical anlysis) -&gt; Tokens -&gt; Parser (syntatic analysis) -&gt; AST\n\\(\\downarrow\\)\n\n\n\nInterpreter (runtime semantics) -&gt; result\n\n\n\nThis is the virtual machine\nSource code is compiled to bytecode.\n\nless memory needed\nfast eval\nbut hard to read by humans\n\nThats why we need disassembly\n“LLVM… custom bytecode.. looks very similar to python bytecode”\n\n\n\n\n\nParse the program\nCompile the program to bytecode\n\nset instruction pointer to the beginning, and begin loop.\nFor byte, behave accordingly"
+    "section": "Part 1 | VM Basic Operations",
+    "text": "Part 1 | VM Basic Operations\n\nPrerequisites\n\nBasic C++ knowledge\nEssentials of Interpretation\n\nNeed to know basic C++. For example, pointers\nint x = 10;     // value 10\nint* px = &x;   // address 5, pointing to value 10\n*px;            // 10\nNo build system: plain .h files and the single .cpp file\n// compile\nclang++ ./eva-vm.cpp -o ./eva-vm\n// execute\n./eva-vm -e '(var x 10) x'\n&gt; 10\n./eva-vm -f ~/test.eva\n&gt; 10\n\nclang++ is the C++ frontend for the Clang compiler. Clang is a compiler front end for the C, C++, Objective-C, and Objective-C++ programming languages. It uses the LLVM compiler infrastructure as its back end and is designed to act as a drop-in replacement for the GCC (GNU Compiler Collection).\nSome features and characteristics of clang++ and the Clang project include:\n\nPerformance: Clang aims to provide faster compile times than other compilers, like GCC, especially in incremental builds.\nDiagnostics: Clang is known for its clear and concise diagnostics (error and warning messages). It often provides a more detailed explanation and sometimes even suggests fixes for the issues.\nModular Design: Clang is designed to be highly modular, which has facilitated tools built on top of it. This design is particularly beneficial for creating custom tooling around the compiler.\nCompatibility: Clang aims to be compatible with GCC, meaning that most GCC-valid code should compile with Clang without changes.\nIntegrated Static Analyzer: Clang includes a static analysis tool that can detect various types of bugs in the source code.\n\nTo use clang++ to compile a C++ program, you might issue a command like:\nclang++ -o my_program my_program.cpp\nWhere -o my_program specifies the name of the output executable and my_program.cpp is the source file to be compiled.\n\n\n\nLanguages\n\nInterpreted Languages vs Compiled Languages\n\nA language must be interpreted to yield an output. You may interpret a program \\(P_1\\) to yield output, or compile it into another language (program) \\(P_2\\), which has an interpreter to yield an output.\nThe AST interpreter defines the high level semantics.\n\nStatic time\nprint \"hello\" -&gt; tokenizer (lexical anlysis) -&gt; Tokens -&gt; Parser (syntatic analysis) -&gt; AST\n\\(\\downarrow\\)\n\n\nRuntime\nInterpreter (runtime semantics) -&gt; result\n\n\nBytecode Interpreter\nThis is the virtual machine\nSource code is compiled to bytecode.\n\nless memory needed\nfast eval\nbut hard to read by humans\n\nThats why we need disassembly\n“LLVM… custom bytecode.. looks very similar to python bytecode”\n\n\n\nImplementation\n\nParse the program\nCompile the program to bytecode\n\nset instruction pointer to the beginning, and begin loop.\nFor byte, behave accordingly"
   },
   {
     "objectID": "library/natural-sciences/software/virtual-machines/index.html#much-todo",
@@ -3729,5 +3729,789 @@
     "title": "Virtual Machines",
     "section": "NOTES",
     "text": "NOTES\nThis video at 3:30 he does an incredible introspection of the process of the VM"
+  },
+  {
+    "objectID": "library/social-sciences/events/maui-fire/index.html",
+    "href": "library/social-sciences/events/maui-fire/index.html",
+    "title": "Maui Fire",
+    "section": "",
+    "text": "“Residents are being ROYALLY screwed by local, state, and federal governments” tweet\n\nTowns are being fortified\nResidents are becoming impoverished\nGov’t put many out of work\nFederal aid is impossible to get\nNo statement on missing/dead children count\nOfficial counts of total missing keeps changing and suspiciously seems to involve lies\nResidents being arrested in visiting their homes\nGov’t is suspected of hiding something"
+  },
+  {
+    "objectID": "library/life/deposit-cash.html",
+    "href": "library/life/deposit-cash.html",
+    "title": "Cash Management",
+    "section": "",
+    "text": "Generally, it is a crime to engage in virtually any type of financial transaction if a person conducted the transaction with knowledge that the funds were the proceeds of “criminal activity” and if the government can prove the proceeds were derived from a “specified unlawful activity”. Criminal activity can be a violation of any criminal law – federal, state, local, or foreign. Specified unlawful activities are set forth in the statute and include over 200 types of U.S. crimes, from drug trafficking, terrorism, and fraud, to crimes traditionally associated with organised crime, and certain foreign crimes, as discussed below in question 1.3.\nThe government does not need to prove that the person conducting the money laundering transaction knew that the proceeds were from a specified form of illegal activity.\nKnowledge can be based on wilful blindness or conscious indifference – failure to inquire when faced with red flags for illegal activity. Additionally, knowledge can be based on a government “sting” or subterfuge, where government agents represent that funds are the proceeds of illegal activity.\nUnder Section 1956, the transaction can be: (1) with the intent to promote the carrying on of the specified unlawful activity; (2) with the intent to engage in U.S. tax evasion or to file a false tax return; (3) knowing the transaction is in whole or in part to disguise the nature, location, source, ownership or control of the proceeds of a specified unlawful activity; or (4) with the intent to avoid a transaction reporting requirement under federal or state law.\nSection 1956 also criminalises the transportation or transmission of funds or monetary instruments (cash or negotiable instruments or securities in bearer form): (1) with the intent to promote the carrying out of a specific unlawful activity; or (2) knowing the funds or monetary instruments represent the proceeds of a specified unlawful activity and the transmission or transportation is designed in whole or in part to conceal or disguise the nature, location, source, ownership or control of the proceeds of the specified unlawful activity.\nUnder Section 1957, it is a crime to knowingly engage in a financial transaction in property derived from specified unlawful activity through a U.S. bank or other “financial institution”, or a foreign bank (in an amount greater than $10,000). Financial institution is broadly defined with reference to the Bank Secrecy Act (“BSA”) statutory definition of financial institution (31 U.S.C. § 5312(a)(2)), and includes not just banks but a wide range of other financial businesses, including securities broker-dealers, insurance companies, non-bank finance companies, and casinos."
+  },
+  {
+    "objectID": "library/life/deposit-cash.html#acquiring-a-large-amount-of-cash",
+    "href": "library/life/deposit-cash.html#acquiring-a-large-amount-of-cash",
+    "title": "Cash Management",
+    "section": "",
+    "text": "Generally, it is a crime to engage in virtually any type of financial transaction if a person conducted the transaction with knowledge that the funds were the proceeds of “criminal activity” and if the government can prove the proceeds were derived from a “specified unlawful activity”. Criminal activity can be a violation of any criminal law – federal, state, local, or foreign. Specified unlawful activities are set forth in the statute and include over 200 types of U.S. crimes, from drug trafficking, terrorism, and fraud, to crimes traditionally associated with organised crime, and certain foreign crimes, as discussed below in question 1.3.\nThe government does not need to prove that the person conducting the money laundering transaction knew that the proceeds were from a specified form of illegal activity.\nKnowledge can be based on wilful blindness or conscious indifference – failure to inquire when faced with red flags for illegal activity. Additionally, knowledge can be based on a government “sting” or subterfuge, where government agents represent that funds are the proceeds of illegal activity.\nUnder Section 1956, the transaction can be: (1) with the intent to promote the carrying on of the specified unlawful activity; (2) with the intent to engage in U.S. tax evasion or to file a false tax return; (3) knowing the transaction is in whole or in part to disguise the nature, location, source, ownership or control of the proceeds of a specified unlawful activity; or (4) with the intent to avoid a transaction reporting requirement under federal or state law.\nSection 1956 also criminalises the transportation or transmission of funds or monetary instruments (cash or negotiable instruments or securities in bearer form): (1) with the intent to promote the carrying out of a specific unlawful activity; or (2) knowing the funds or monetary instruments represent the proceeds of a specified unlawful activity and the transmission or transportation is designed in whole or in part to conceal or disguise the nature, location, source, ownership or control of the proceeds of the specified unlawful activity.\nUnder Section 1957, it is a crime to knowingly engage in a financial transaction in property derived from specified unlawful activity through a U.S. bank or other “financial institution”, or a foreign bank (in an amount greater than $10,000). Financial institution is broadly defined with reference to the Bank Secrecy Act (“BSA”) statutory definition of financial institution (31 U.S.C. § 5312(a)(2)), and includes not just banks but a wide range of other financial businesses, including securities broker-dealers, insurance companies, non-bank finance companies, and casinos."
+  },
+  {
+    "objectID": "library/life/deposit-cash.html#the-atm-approach",
+    "href": "library/life/deposit-cash.html#the-atm-approach",
+    "title": "Cash Management",
+    "section": "The ATM Approach",
+    "text": "The ATM Approach\n\nStep 1 | Buy an ATM\nATM Global Phone: (877) 286-1755 https://atmglobal.net/ *We got permission from Douglas to use the call for this video.\nNational ATM Systems Phone: (803) 786-1900 https://www.nasatm.com/\nOcean ATM Phone: (877) 538-2860 https://oceanatm.com\nAmerica’s ATM Phone: (877) 475-1104 https://americanatm.com\nATM Money Machine Phone: (609) 641-7300 https://www.atmmoneymachine.com\nStep-by-Step Guide\nThese companies deliver a machine to your location (machines ~$2,500), and have installers come to set it up ($350 for installation). This takes about 2 weeks.\nI know the guy who owns the restaurant Ella Funt in Soho. Something like this would be perfect.\n\n\nStep 2 | Set it up\nAll ATMs must be connected to the processing server and have a power outlet. There are three optional connections: 1. Hardwire Internet Line 2. Phoneline 3. Purchase an ATM Wireless Box\nYou can not connect to wireless internet in the business, you must hardwire into the internet via an ethernet jack or run an ethernet cord from the modem to the ATM.\n\n\nStep 3 | Paperwork\nThen you fill out some forms with the ATM company (“Exhibit 2, Exhibit 3, W9”) that do basic background checks: if you have any fraud in your past, etc.\nThe paperwork will give you your own unique merchant ID, which allows you into the processing server. We handle getting this licensing done for you.\nConnect your account with them to a (business) bank account. The ATM company sets up an interface for you to monitor transactions, get notifications that the cash balance is low, etc."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/particle/index.html",
+    "href": "library/natural-sciences/physics/particle/index.html",
+    "title": "Particle Physics",
+    "section": "",
+    "text": "Yukawa Coupling\nThe coupling used with the Higgs field to create a fundamental mass is the Yukawa coupling. In the Standard Model of particle physics, the Higgs field interacts with fermions (particles with half-integer spin, such as quarks and leptons) through the Yukawa coupling. The Yukawa coupling is a term in the Lagrangian of the Standard Model that describes the interaction between the Higgs field and fermions.\nThe Yukawa coupling takes the form:\n\\[\\mathcal{L}_{Yuk} = -y_f \\bar{f}_L \\Phi f_R + h.c.\\]\nwhere \\(y_f\\) is the Yukawa coupling constant for the fermion \\(f\\), \\(\\bar{f}_L\\) is the left-handed component of the fermion field, \\(\\Phi\\) is the Higgs field, and \\(f_R\\) is the right-handed component of the fermion field. The left-handed and right-handed components of the fermion field transform differently under the electroweak gauge group, and this leads to a mass term for the fermion after the Higgs field acquires a vacuum expectation value.\nThe Yukawa coupling is responsible for generating the masses of the fermions in the Standard Model. The strength of the coupling determines the mass of the fermion - the larger the Yukawa coupling, the larger the mass of the fermion. The Yukawa couplings have been measured experimentally and are one of the key parameters of the Standard Model.\n\n\nFermions\nFermions are a type of elementary particle that obey the Fermi-Dirac statistics, which dictate their behavior under quantum mechanics. They are named after Enrico Fermi, an Italian physicist who made significant contributions to the development of the theory of quantum mechanics.\nFermions are one of the two fundamental types of particles in the universe, the other being bosons. While bosons have integer values of spin, fermions have half-integer values of spin. This fundamental difference between fermions and bosons has important implications for their behavior under different physical conditions.\nFermions are subject to the Pauli exclusion principle, which states that no two fermions can occupy the same quantum state simultaneously. This means that if two fermions have the same set of quantum numbers, they cannot occupy the same energy level and must occupy different energy levels instead. This principle has important implications for the behavior of fermions in systems with many particles, such as atoms and solids.\nFermions include particles such as electrons, protons, and neutrons, which make up the matter in the universe. They also include other elementary particles, such as quarks and leptons, which are the building blocks of matter. The behavior of fermions is essential to many areas of physics, including condensed matter physics, particle physics, and cosmology."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/particle/index.html#resources",
+    "href": "library/natural-sciences/physics/particle/index.html#resources",
+    "title": "Particle Physics",
+    "section": "",
+    "text": "Lie Algebras in Particle Physics"
+  },
+  {
+    "objectID": "library/natural-sciences/maths/index.html",
+    "href": "library/natural-sciences/maths/index.html",
+    "title": "Maths",
+    "section": "",
+    "text": "Advice to a Young Mathematician\n\n\nLie Algebras in Particle Physics"
+  },
+  {
+    "objectID": "library/natural-sciences/maths/index.html#general",
+    "href": "library/natural-sciences/maths/index.html#general",
+    "title": "Maths",
+    "section": "",
+    "text": "Advice to a Young Mathematician\n\n\nLie Algebras in Particle Physics"
+  },
+  {
+    "objectID": "library/natural-sciences/computer-hardware/index.html",
+    "href": "library/natural-sciences/computer-hardware/index.html",
+    "title": "Computer Hardware",
+    "section": "",
+    "text": "CPUs are designed for serialized execution: fault tolerant, low latency\nA CPU has a large control unit, a few ALUs, and usually only 8 to 16 cores. A GPU, on the other hand, can feature 11,000 cores.\nTODO: more content coming soon"
+  },
+  {
+    "objectID": "library/natural-sciences/computer-hardware/chips/gpus/nvidia.html",
+    "href": "library/natural-sciences/computer-hardware/chips/gpus/nvidia.html",
+    "title": "Nvidia GPU",
+    "section": "",
+    "text": "Supercut\nThe HGX H100 H100 has 35,000 components and 8 Hopper GPUs. It weighs 60 pounds, and costs $200,000. The compute tray is the first computer with a transformer engine in it.\nThere’s 2 fundamental trends: CPU scaling has ended, and AI has begun (accelerated computing). the tipping point, NVIDIA GPU utilization is high.\nComparison: $10mm\n\n960 CPUs, consumes 11GWh, 1x LLM\n48 GPUs, consumes 3.2 GWh, 44x LLM (performance)\n\n\n\n\nHGX H100\nGrace Hopper Superchip\nNVLINK Switch\n\nThe Super GPU: The Grace Hopper Supercomputer\nGrace Hopper Superchip X 8 NVLINK Switch x3 X 32 NVLINK Switch x36 = 256 Grace Hopper Superchips, 1 ExaFLOPS Transformer Engine, 144TB GPU Memory\n150 mi optical fiber, 2,112 60mm fans, 70k CFM, 40k lbs, 1GPU"
+  },
+  {
+    "objectID": "library/natural-sciences/computer-hardware/chips/gpus/nvidia.html#july-2023-presentation",
+    "href": "library/natural-sciences/computer-hardware/chips/gpus/nvidia.html#july-2023-presentation",
+    "title": "Nvidia GPU",
+    "section": "",
+    "text": "Supercut\nThe HGX H100 H100 has 35,000 components and 8 Hopper GPUs. It weighs 60 pounds, and costs $200,000. The compute tray is the first computer with a transformer engine in it.\nThere’s 2 fundamental trends: CPU scaling has ended, and AI has begun (accelerated computing). the tipping point, NVIDIA GPU utilization is high.\nComparison: $10mm\n\n960 CPUs, consumes 11GWh, 1x LLM\n48 GPUs, consumes 3.2 GWh, 44x LLM (performance)\n\n\n\n\nHGX H100\nGrace Hopper Superchip\nNVLINK Switch\n\nThe Super GPU: The Grace Hopper Supercomputer\nGrace Hopper Superchip X 8 NVLINK Switch x3 X 32 NVLINK Switch x36 = 256 Grace Hopper Superchips, 1 ExaFLOPS Transformer Engine, 144TB GPU Memory\n150 mi optical fiber, 2,112 60mm fans, 70k CFM, 40k lbs, 1GPU"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchains/index.html#privacy",
+    "href": "library/natural-sciences/crypto/blockchains/index.html#privacy",
+    "title": "Blockchains",
+    "section": "Privacy",
+    "text": "Privacy\nBlockchain Privacy and Rgulatory Compliance: Towards a Practical Equilibrium"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchains/solana/index.html#partnerships",
+    "href": "library/natural-sciences/crypto/blockchains/solana/index.html#partnerships",
+    "title": "Solana",
+    "section": "Partnerships",
+    "text": "Partnerships\n\nVisa expands stablecoin settlement capabilities with Circle’s USDC utilizing the Solana blockchain.\n\n\nFee Markets\n\nPriority Fees Github Issue\nDune Query: % of Sol Txs with Fee above base\n\n\n\nThe Solana Validator\n\nFiredancer: A New Client by Jump\nValidator Economics on Solana"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/rekt/stake.html",
+    "href": "library/natural-sciences/crypto/rekt/stake.html",
+    "title": "Stake",
+    "section": "",
+    "text": "Timeline\nFirst and second transactions\nPeckshield Alert | tweet\nFlow of Funds Diagram | tweet\nStake statement\n\n\nOverview\nETH, BSC, and Polygon affected"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/mev/index.html",
+    "href": "library/natural-sciences/crypto/mev/index.html",
+    "title": "Overview",
+    "section": "",
+    "text": "ZeroMEV Explorer\nEigenPhi: Arbitrage Dashboard\nMEV Boost\nManifold Freelay\nMempool Dumpster"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/mev/index.html#dashboards-tools",
+    "href": "library/natural-sciences/crypto/mev/index.html#dashboards-tools",
+    "title": "Overview",
+    "section": "",
+    "text": "ZeroMEV Explorer\nEigenPhi: Arbitrage Dashboard\nMEV Boost\nManifold Freelay\nMempool Dumpster"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/mev/index.html#research",
+    "href": "library/natural-sciences/crypto/mev/index.html#research",
+    "title": "Overview",
+    "section": "Research",
+    "text": "Research\n\nEarly Research\n\nEnter the Hydra\nThe Cost of Decentralization in 0x and EtherDelta\nFlash Boys 2.0\nOrder-Fairness for Byzantine Consensus\nThemis: Fast, Strong Order-Fairness in Byzantine Consensus\nMEV… Wat Do?\nEthereum is a Dark Forest\nFlashbots: Frontrunning the MEV Crisis\n\n\n\nGeneral\n\nStudying Flash Loan Attacks | paper\nMEV by Galaxy Digital | Blog Pt 2\nModular MEV Write-up\nPerformant routing and latency benchmarking for Ethereum RPC and Relay Service Providers\nHigh Granularity Cex Data | tardis.dev\nMEV in Fixed Price Auctions | paper | tweet\nMEV Boost Capella Upgrades | article\nFrontier Research | website\nSo you want to run a builder?\nHow to Fix Ethereum’s MEV Problem\nMEV in ETH2 - An Early Exploration\nImproving PoS Economic Security via MEV Redistribution\nTowards a Theory of MEV I\nFlashbots Research Repository\n\n\n\nMEV-Boost / Proposer-Builder Separation\n\nProposer Boost Considerations\nMEV-Boost Plan\n\n\n\nVideos & Talks\n\nMEV Day\n\nVideo Recap\n\nEncode x Wintermute: MEV with Robert Miller\nStanford MEV Workshop Recording\nMEVconomics Playlist | youtube\nStanford Blockchain Conference (SBC’23)\nRecordings: Day 1 | Day 2 | Day 3\nMEV Workshop at SBC’23 | Recording\n\n\n\nProtocols, and Implementation Resources\nUniswap V3 Book - docs\nAutomated Market Making and Arbitrage Profits in the Presence of Fees - paper\nMEV Capturing AMM - proposal\nTime to Bribe: Measuring Block Construction Markets - paper\nA Framework for Building Searchers - article\nSomeone’s Mega-resource on MEV - notion\nRunning MEV-Relay at Scale - notion\nLatency Arms Race - post\nFBAs (frequent batch auctions) are a nerd snipe - tweet\nJaredFromSubway.eth’s Access Lists - etherscan"
+  },
+  {
+    "objectID": "library/natural-sciences/computer-hardware/chips/gpus/index.html",
+    "href": "library/natural-sciences/computer-hardware/chips/gpus/index.html",
+    "title": "GPU",
+    "section": "",
+    "text": "Highest level, the Graphics Processing Unit. This is a parallel processor. CPUs on the other hand, have a single processor for sequential processing.\nApple’s GPU cores are split into 16 execution units, where each of these has 8 algorithmic logic units (ALUs).\nWhen NVIDIA says they have “8960 CUDA Cores” this is referring to ALUs. ALUs are the fundamental operating units."
+  },
+  {
+    "objectID": "library/natural-sciences/computer-hardware/chips/gpus/index.html#overview",
+    "href": "library/natural-sciences/computer-hardware/chips/gpus/index.html#overview",
+    "title": "GPU",
+    "section": "",
+    "text": "Highest level, the Graphics Processing Unit. This is a parallel processor. CPUs on the other hand, have a single processor for sequential processing.\nApple’s GPU cores are split into 16 execution units, where each of these has 8 algorithmic logic units (ALUs).\nWhen NVIDIA says they have “8960 CUDA Cores” this is referring to ALUs. ALUs are the fundamental operating units."
+  },
+  {
+    "objectID": "library/natural-sciences/computer-hardware/chips/gpus/index.html#vs-cpus",
+    "href": "library/natural-sciences/computer-hardware/chips/gpus/index.html#vs-cpus",
+    "title": "GPU",
+    "section": "Vs CPUs",
+    "text": "Vs CPUs\nGPUs are designed for parallel procesing: high throughout, less control logic\nCPUs are designed for serialized execution: fault tolerant, low latency\nA CPU has a large control unit, a few ALUs, and usually only 8 to 16 cores. A GPU, on the other hand, can feature 11,000 cores.\nParallelizable problems are good for a GPU.\n- scalarize a large set of vectors"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/index.html",
+    "href": "library/natural-sciences/physics/index.html",
+    "title": "Physics",
+    "section": "",
+    "text": "MIT Quantum Physics I\nRelatavistic Quantum Field Theory I\nRelatavistic Quantum Field Theory II\nLangrangian and Hamiltonian Mechanics\nIntroductory Minicourse to AdS/CFT | video"
+  },
+  {
+    "objectID": "library/life-sciences/biology/cells.html",
+    "href": "library/life-sciences/biology/cells.html",
+    "title": "Cells",
+    "section": "",
+    "text": "The structure of a cell is wildly oversimplified | tweet"
+  },
+  {
+    "objectID": "library/natural-sciences/computer-hardware/chips/gpus/index.html#cuda-framwork",
+    "href": "library/natural-sciences/computer-hardware/chips/gpus/index.html#cuda-framwork",
+    "title": "GPU",
+    "section": "CUDA Framwork",
+    "text": "CUDA Framwork\nA software framework by NVIDIA to simplify parallelization."
+  },
+  {
+    "objectID": "library/natural-sciences/computer-hardware/index.html#cpus-vs-gpus",
+    "href": "library/natural-sciences/computer-hardware/index.html#cpus-vs-gpus",
+    "title": "Computer Hardware",
+    "section": "CPUs vs GPUs",
+    "text": "CPUs vs GPUs\nGPUs are designed for parallel procesing: high throughout, less control logic\nCPUs are designed for serialized execution: fault tolerant, low latency\nA CPU has a large control unit, a few ALUs, and usually only 8 to 16 cores. A GPU, on the other hand, can feature 11,000 cores.\nParallelizable problems are good for a GPU."
+  },
+  {
+    "objectID": "library/natural-sciences/computer-hardware/index.html#risc",
+    "href": "library/natural-sciences/computer-hardware/index.html#risc",
+    "title": "Computer Hardware",
+    "section": "RISC",
+    "text": "RISC\nRISC (Reduced Instruction Set Computer) is a design philosophy for CPUs, emphasizing a small and simple set of instructions that execute in a single clock cycle. RISC-V, on the other hand, is a specific, open-standard instruction set architecture (ISA) based on the RISC principles.\nWhile RISC and RISC-V are primarily associated with CPUs, the concepts and ISAs can be applied elsewhere. In fact, with the advent of more versatile computing platforms and the demand for specialized hardware accelerators, the lines between CPUs, GPUs, and other processing units can sometimes blur.\nGPUs and RISC: GPUs (Graphics Processing Units) have a different historical design lineage than CPUs. While CPUs are designed for general-purpose tasks and can handle a wide variety of operations in sequence, GPUs are designed for parallelism, optimized for executing the same operation on a large number of data elements simultaneously. This design is especially suitable for graphics rendering tasks, where, for instance, the same shading operation might be applied to millions of pixels.\nThat said, modern GPUs have evolved and can handle more general-purpose tasks. This field, known as GPGPU (General-Purpose computing on Graphics Processing Units), has grown in prominence, especially with applications in scientific computing, machine learning, etc.\nThe instruction set architectures for GPUs are typically proprietary to the manufacturer: - NVIDIA GPUs use an architecture known as CUDA (Compute Unified Device Architecture). - AMD GPUs use architectures like GCN (Graphics Core Next) or RDNA.\nWhile these architectures might share some high-level concepts with RISC — like the importance of efficiency and streamlined operations — they’re not RISC architectures in the traditional sense.\nRISC-V and GPUs: RISC-V, given its open nature, is seeing exploration beyond traditional CPUs. There are projects and discussions around using RISC-V principles in GPU design or other specialized hardware accelerators. However, as of my last training data in September 2021, RISC-V’s primary traction is in the CPU space, from microcontrollers to more powerful processors.\nIn conclusion, while RISC and RISC-V are primarily associated with CPUs, the principles and architectures are versatile. The GPU world has its architectures optimized for its specific tasks, but the lines between these domains are evolving, and there’s potential for overlap in the future.\n\nDesigning a VM for GPUs\nDesigning a virtual machine (VM) specifically optimized for GPUs and AI operations is not just a sensible idea, but it’s also a direction in which some sectors of the tech industry are heading. Let’s explore why this is a compelling notion and what features or characteristics such a VM might possess.\n\n\nRationale:\n\nSpecialized Operations: AI operations, especially deep learning, involve a lot of matrix multiplications and tensor operations. Traditional VMs are not optimized for these.\nMassive Parallelism: GPUs are inherently parallel and can handle thousands of threads simultaneously. A VM designed with this in mind would cater to this strength.\nMemory Management: Deep learning models, especially larger ones, can consume significant amounts of memory. Effective and efficient memory management tailored for these operations can greatly boost performance.\nInteroperability: AI frameworks and libraries are vast and varied (TensorFlow, PyTorch, ONNX, etc.). A VM optimized for AI could provide native support or efficient bridges for these frameworks.\n\n\n\nFeatures/Characteristics:\n\nTensor Operations: First-class support for tensor operations would be a fundamental feature. This means native operations for matrix multiplications, convolutions, etc., optimized for the VM.\nDynamic Scheduling: Given the parallel nature of GPUs, the VM should be capable of dynamically scheduling tasks based on GPU workloads, ensuring maximum hardware utilization.\nMemory Hierarchies: GPUs have various memory types (global, shared, local, constant). The VM should manage these efficiently, allocating memory based on access patterns and tensor sizes.\nCustom Instruction Sets: The VM’s bytecode or intermediate representation might have custom instructions tailored for common AI patterns and operations.\nJust-In-Time (JIT) Compilation: To squeeze out maximum performance, the VM could utilize JIT compilation, translating bytecode to GPU instructions on the fly, with optimizations based on the actual data and model being processed.\nHardware Acceleration: Besides standard GPU operations, there could be support for AI-specific hardware accelerators or ASICs (like Google’s TPUs).\nNative Libraries: Integrated support for popular deep learning libraries or primitives, ensuring optimized performance without redundant operations.\nSafety and Security: With AI models being deployed in critical applications, features to ensure model integrity, data privacy, and secure execution would be essential.\nPortability: One of the core benefits of a VM is portability. The VM should ensure that AI models run consistently across various GPU architectures and versions.\nInteroperability Bridges: Efficient connectors or bridges to interact with popular AI frameworks, ensuring smooth deployment without significant model rewrites.\nDebugging and Profiling: Built-in tools for performance profiling, debugging, and visualization, catering specifically to AI operations.\n\nIn essence, the idea of a virtual machine optimized for GPUs and AI operations seeks to bridge the gap between high-level AI frameworks and the raw power of GPU hardware. While creating such a VM is a non-trivial task and demands deep integration between software and hardware, the potential benefits in terms of performance, security, and portability make it a compelling direction for the future of AI infrastructure.\nAs of my last update in September 2021, there isn’t a mainstream “virtual machine” tailored explicitly for GPUs in the same way that the Java Virtual Machine (JVM) or the Ethereum Virtual Machine (EVM) are for their respective domains. However, there are platforms and runtime environments optimized for GPU operations, especially in the context of AI/ML.\nSome of these platforms and their unique features include:\n\nCUDA (Compute Unified Device Architecture):\n\nDeveloper & Manufacturer: NVIDIA\nUnique Features:\n\nProvides a parallel computing platform and API model.\nIncorporates the CUDA Instruction Set Architecture (ISA) and the parallel compute engine in NVIDIA GPUs.\nSupports various high-level programming languages like C, C++, and Fortran.\n\nUse Cases: General GPU-accelerated computing, scientific simulations, deep learning training & inference.\n\nTensorRT:\n\nDeveloper & Manufacturer: NVIDIA\nUnique Features:\n\nHigh-performance deep learning inference optimizer and runtime.\nReduces the model size for faster inferencing.\nProvides INT8 and FP16 optimizations for production deployments.\n\nUse Cases: Optimizing and deploying deep learning models for production environments, especially on NVIDIA GPUs.\n\nROCm (Radeon Open Compute):\n\nDeveloper & Manufacturer: AMD\nUnique Features:\n\nOpen-source platform for GPU-enabled HPC (High Performance Computing) computing.\nSupports a range of machine learning frameworks like TensorFlow and PyTorch.\n\nUse Cases: GPU-accelerated computing on AMD GPUs, scientific simulations, AI/ML training & inference.\n\nDirectML:\n\nDeveloper: Microsoft\nUnique Features:\n\nPart of the DirectX family, providing a low-level API for ML.\nHardware-accelerated and works with any DirectX 12-compatible GPU.\n\nUse Cases: GPU-accelerated ML inference in Windows applications.\n\n\nThese platforms are more akin to runtime environments than traditional “virtual machines.” Still, they are optimized for GPU operations, and they play a role similar to VMs by providing a bridge between high-level code and low-level hardware instructions.\nMain Benefits of GPU-optimized Platforms: 1. Performance: Accelerate computations that can be parallelized, dramatically reducing the time required for tasks like training deep learning models. 2. Efficiency: Better utilization of available GPU resources, ensuring that the hardware’s full capabilities are harnessed. 3. Portability: In some cases (like CUDA to some extent), the platform provides an abstraction over the hardware, allowing code to run on different GPU architectures (within limits and considering vendor lock-ins). 4. Integration with Popular Tools: Many of these platforms offer integrations with popular ML frameworks, making it easier to transition from research to production.\nHowever, it’s essential to understand that while these platforms provide the tools and runtime for GPU-optimized operations, they don’t function as “virtual machines” in the traditional sense of emulating a complete computing environment. They are closer to specialized compilers and runtime environments."
+  },
+  {
+    "objectID": "library/natural-sciences/computer-hardware/index.html#gpu",
+    "href": "library/natural-sciences/computer-hardware/index.html#gpu",
+    "title": "Computer Hardware",
+    "section": "GPU",
+    "text": "GPU\nGraphics Processing Units are designed for parallel procesing: high throughout, less control logic.\nApple’s GPU cores are split into 16 execution units, where each of these has 8 algorithmic logic units (ALUs). When NVIDIA says they have “8960 CUDA Cores” this is referring to ALUs. ALUs are the fundamental operating units.\nCUDA is a software framework by NVIDIA to simplify parallelization.\n\nNVIDIA\nSupercut Presentation, July 2023\nThe HGX H100 H100 has 35,000 components and 8 Hopper GPUs. It weighs 60 pounds, and costs $200,000. The compute tray is the first computer with a transformer engine in it.\nThere’s 2 fundamental trends: CPU scaling has ended, and AI has begun (accelerated computing). the tipping point, NVIDIA GPU utilization is high.\nComparison: $10mm\n\n960 CPUs, consumes 11GWh, 1x LLM\n48 GPUs, consumes 3.2 GWh, 44x LLM (performance)"
+  },
+  {
+    "objectID": "library/natural-sciences/computer-hardware/index.html#cuda-framwork",
+    "href": "library/natural-sciences/computer-hardware/index.html#cuda-framwork",
+    "title": "Computer Hardware",
+    "section": "CUDA Framwork",
+    "text": "CUDA Framwork\nCUDA is a software framework by NVIDIA to simplify parallelization."
+  },
+  {
+    "objectID": "library/natural-sciences/computer-hardware/index.html#cpus",
+    "href": "library/natural-sciences/computer-hardware/index.html#cpus",
+    "title": "Computer Hardware",
+    "section": "",
+    "text": "CPUs are designed for serialized execution: fault tolerant, low latency\nA CPU has a large control unit, a few ALUs, and usually only 8 to 16 cores. A GPU, on the other hand, can feature 11,000 cores.\nTODO: more content coming soon"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/index.html#part-a",
+    "href": "library/natural-sciences/physics/index.html#part-a",
+    "title": "Physics",
+    "section": "",
+    "text": "Einstein, Barcelona, Symmetry & Cosmology: The Birth of an Equation for the Universe\nBrief History of Guage Field Physics\nNew shape of parity-violating graviton non-Gaussianity | Explainer"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/index.html#part-b",
+    "href": "library/natural-sciences/physics/index.html#part-b",
+    "title": "Physics",
+    "section": "Part B",
+    "text": "Part B"
+  },
+  {
+    "objectID": "library/natural-sciences/computer-hardware/index.html#cpu",
+    "href": "library/natural-sciences/computer-hardware/index.html#cpu",
+    "title": "Computer Hardware",
+    "section": "",
+    "text": "CPUs are designed for serialized execution: fault tolerant, low latency\nA CPU has a large control unit, a few ALUs, and usually only 8 to 16 cores. A GPU, on the other hand, can feature 11,000 cores.\nTODO: more content coming soon"
+  },
+  {
+    "objectID": "library/natural-sciences/computer-hardware/index.html#risc-architecture",
+    "href": "library/natural-sciences/computer-hardware/index.html#risc-architecture",
+    "title": "Computer Hardware",
+    "section": "RISC Architecture",
+    "text": "RISC Architecture\nRISC (Reduced Instruction Set Computer) is a design philosophy for CPUs, emphasizing a small and simple set of instructions that execute in a single clock cycle. RISC-V, on the other hand, is a specific, open-standard instruction set architecture (ISA) based on the RISC principles.\nWhile RISC and RISC-V are primarily associated with CPUs, the concepts and ISAs can be applied elsewhere. In fact, with the advent of more versatile computing platforms and the demand for specialized hardware accelerators, the lines between CPUs, GPUs, and other processing units can sometimes blur.\nGPUs and RISC: GPUs (Graphics Processing Units) have a different historical design lineage than CPUs. While CPUs are designed for general-purpose tasks and can handle a wide variety of operations in sequence, GPUs are designed for parallelism, optimized for executing the same operation on a large number of data elements simultaneously. This design is especially suitable for graphics rendering tasks, where, for instance, the same shading operation might be applied to millions of pixels.\nThat said, modern GPUs have evolved and can handle more general-purpose tasks. This field, known as GPGPU (General-Purpose computing on Graphics Processing Units), has grown in prominence, especially with applications in scientific computing, machine learning, etc.\nThe instruction set architectures for GPUs are typically proprietary to the manufacturer: - NVIDIA GPUs use an architecture known as CUDA (Compute Unified Device Architecture). - AMD GPUs use architectures like GCN (Graphics Core Next) or RDNA.\nWhile these architectures might share some high-level concepts with RISC — like the importance of efficiency and streamlined operations — they’re not RISC architectures in the traditional sense.\nRISC-V and GPUs: RISC-V, given its open nature, is seeing exploration beyond traditional CPUs. There are projects and discussions around using RISC-V principles in GPU design or other specialized hardware accelerators. However, as of my last training data in September 2021, RISC-V’s primary traction is in the CPU space, from microcontrollers to more powerful processors.\nIn conclusion, while RISC and RISC-V are primarily associated with CPUs, the principles and architectures are versatile. The GPU world has its architectures optimized for its specific tasks, but the lines between these domains are evolving, and there’s potential for overlap in the future.\n\nDesigning a VM for GPUs\nDesigning a virtual machine (VM) specifically optimized for GPUs and AI operations is not just a sensible idea, but it’s also a direction in which some sectors of the tech industry are heading. Let’s explore why this is a compelling notion and what features or characteristics such a VM might possess.\n\n\nRationale:\n\nSpecialized Operations: AI operations, especially deep learning, involve a lot of matrix multiplications and tensor operations. Traditional VMs are not optimized for these.\nMassive Parallelism: GPUs are inherently parallel and can handle thousands of threads simultaneously. A VM designed with this in mind would cater to this strength.\nMemory Management: Deep learning models, especially larger ones, can consume significant amounts of memory. Effective and efficient memory management tailored for these operations can greatly boost performance.\nInteroperability: AI frameworks and libraries are vast and varied (TensorFlow, PyTorch, ONNX, etc.). A VM optimized for AI could provide native support or efficient bridges for these frameworks.\n\n\n\nFeatures/Characteristics:\n\nTensor Operations: First-class support for tensor operations would be a fundamental feature. This means native operations for matrix multiplications, convolutions, etc., optimized for the VM.\nDynamic Scheduling: Given the parallel nature of GPUs, the VM should be capable of dynamically scheduling tasks based on GPU workloads, ensuring maximum hardware utilization.\nMemory Hierarchies: GPUs have various memory types (global, shared, local, constant). The VM should manage these efficiently, allocating memory based on access patterns and tensor sizes.\nCustom Instruction Sets: The VM’s bytecode or intermediate representation might have custom instructions tailored for common AI patterns and operations.\nJust-In-Time (JIT) Compilation: To squeeze out maximum performance, the VM could utilize JIT compilation, translating bytecode to GPU instructions on the fly, with optimizations based on the actual data and model being processed.\nHardware Acceleration: Besides standard GPU operations, there could be support for AI-specific hardware accelerators or ASICs (like Google’s TPUs).\nNative Libraries: Integrated support for popular deep learning libraries or primitives, ensuring optimized performance without redundant operations.\nSafety and Security: With AI models being deployed in critical applications, features to ensure model integrity, data privacy, and secure execution would be essential.\nPortability: One of the core benefits of a VM is portability. The VM should ensure that AI models run consistently across various GPU architectures and versions.\nInteroperability Bridges: Efficient connectors or bridges to interact with popular AI frameworks, ensuring smooth deployment without significant model rewrites.\nDebugging and Profiling: Built-in tools for performance profiling, debugging, and visualization, catering specifically to AI operations.\n\nIn essence, the idea of a virtual machine optimized for GPUs and AI operations seeks to bridge the gap between high-level AI frameworks and the raw power of GPU hardware. While creating such a VM is a non-trivial task and demands deep integration between software and hardware, the potential benefits in terms of performance, security, and portability make it a compelling direction for the future of AI infrastructure.\nAs of my last update in September 2021, there isn’t a mainstream “virtual machine” tailored explicitly for GPUs in the same way that the Java Virtual Machine (JVM) or the Ethereum Virtual Machine (EVM) are for their respective domains. However, there are platforms and runtime environments optimized for GPU operations, especially in the context of AI/ML.\nSome of these platforms and their unique features include:\n\nCUDA (Compute Unified Device Architecture):\n\nDeveloper & Manufacturer: NVIDIA\nUnique Features:\n\nProvides a parallel computing platform and API model.\nIncorporates the CUDA Instruction Set Architecture (ISA) and the parallel compute engine in NVIDIA GPUs.\nSupports various high-level programming languages like C, C++, and Fortran.\n\nUse Cases: General GPU-accelerated computing, scientific simulations, deep learning training & inference.\n\nTensorRT:\n\nDeveloper & Manufacturer: NVIDIA\nUnique Features:\n\nHigh-performance deep learning inference optimizer and runtime.\nReduces the model size for faster inferencing.\nProvides INT8 and FP16 optimizations for production deployments.\n\nUse Cases: Optimizing and deploying deep learning models for production environments, especially on NVIDIA GPUs.\n\nROCm (Radeon Open Compute):\n\nDeveloper & Manufacturer: AMD\nUnique Features:\n\nOpen-source platform for GPU-enabled HPC (High Performance Computing) computing.\nSupports a range of machine learning frameworks like TensorFlow and PyTorch.\n\nUse Cases: GPU-accelerated computing on AMD GPUs, scientific simulations, AI/ML training & inference.\n\nDirectML:\n\nDeveloper: Microsoft\nUnique Features:\n\nPart of the DirectX family, providing a low-level API for ML.\nHardware-accelerated and works with any DirectX 12-compatible GPU.\n\nUse Cases: GPU-accelerated ML inference in Windows applications.\n\n\nThese platforms are more akin to runtime environments than traditional “virtual machines.” Still, they are optimized for GPU operations, and they play a role similar to VMs by providing a bridge between high-level code and low-level hardware instructions.\nMain Benefits of GPU-optimized Platforms: 1. Performance: Accelerate computations that can be parallelized, dramatically reducing the time required for tasks like training deep learning models. 2. Efficiency: Better utilization of available GPU resources, ensuring that the hardware’s full capabilities are harnessed. 3. Portability: In some cases (like CUDA to some extent), the platform provides an abstraction over the hardware, allowing code to run on different GPU architectures (within limits and considering vendor lock-ins). 4. Integration with Popular Tools: Many of these platforms offer integrations with popular ML frameworks, making it easier to transition from research to production.\nHowever, it’s essential to understand that while these platforms provide the tools and runtime for GPU-optimized operations, they don’t function as “virtual machines” in the traditional sense of emulating a complete computing environment. They are closer to specialized compilers and runtime environments."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/index.html#learn",
+    "href": "library/natural-sciences/physics/index.html#learn",
+    "title": "Physics",
+    "section": "",
+    "text": "MIT Quantum Physics I\nRelatavistic Quantum Field Theory I\nRelatavistic Quantum Field Theory II\nLangrangian and Hamiltonian Mechanics\nIntroductory Minicourse to AdS/CFT | video"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/index.html#papers",
+    "href": "library/natural-sciences/physics/index.html#papers",
+    "title": "Physics",
+    "section": "Papers",
+    "text": "Papers\n\nCosmology\n\nThe Pseudo-Conformal Universe: Scale Invariance from Spontaneous Breaking of Conformal Symmetry\nEinstein, Barcelona, Symmetry & Cosmology: The Birth of an Equation for the Universe\n\n\nBlack Holes\n\nBlack Holes Evade Heat Death\nEffective Action for the Hawking Process\nSupermassive Black Hole Binary\n\n\n\nDark Matter and Dark Energy\n\nInteracting Dark Matter - Phenomenology and Implications for Cosmology\n\n\n\nBig Bang\n\nBrief History of Guage Field Physics\nNew shape of parity-violating graviton non-Gaussianity | Explainer To achieve your desired format, we’ll take the title of each entry and link it to the corresponding URL. Let’s do this:\nWarp Drive Patent by Google?\nSarfatti’s 1975 version of ER=EPR\nHarmonic Springs and Gravity\nObservation of an excess of di-charmonium events in the four-muon final state with the ATLAS detector\nTesting a discrete model for quantum spin with two sequential Stern-Gerlach detectors and photon Fock states\nLecture Notes on Holographic Renomalization\nAdS/CFT correspondence and Geometry (Hamilton-Jacobi approach to holographic renormalization)\nClaim: The apparent randomness in wave function collapse is a consequence of coarse-graining an underlying deterministic, non-unitary but norm-preserving evolution.\nThe 8 Fallacies of Assembly Theory\nWhy Bohr was wrong in his response to EPR\nRichard Feynman: Simulating physics with computers (quantum)\nResolving Key Issues In Quantum Mechanics While Simultaneously Debunking Every UFO Case In History\nExperimental test of local observer-independence\nSpontaneous localisation from a coarse-grained deterministic and non-unitary dynamics\nKilling Horizons Decohere Quantum Superpositions \nFermionic matter-wave quantum optics with cold-atom impurity models\nThe Unreasonable Effectiveness of Quantum Field Theory\nGravitational Machines\nIntroduction to Genralized Global Symmetries in QFT and Particle Physics\nPhysics of the Analytic S-Matrix\nOn Unitarity of Tree-Level String Amplitudes\nTASI 2023: Aspects of Symmetry\nScattering Amplitudes in Quantum Field Theory\nA New Century of Quantum Physics\nArrival Time in Quantum Mechanics\nEPFL Lectures on General Relativity as a Quantum Field Theory\nGeneral Relativity as a Perturbative Quantum Field Theory\nlecture 1\nBasics of Quantum Gravity\nMy Encounters - as a Physicist - with Mathematics\nLectures on Field Theory and the Standard Model: A Symmetry-Oriented Approach\nVariational Quantum Thermalization and the Future of Quantum Thermodynamics\nWorld from Eyes, Reconstruct 3D Scene from Someone’s Eyeball\nAmerican Elements\nEffective Field Physics (EFT) Methods of General Relativity\nNeutron Guns\nThermodynamics od Information\nSeeing the Gravitational Wave Universe\nProbing Supermassive Black Hole Merges and Stalling with Pulsar Timing Arrays\nAbell 1201: detection of an ultramassive black hole in a strong gravitational lens\nNASA Selects 5 Missions for 2024 Total Solar Eclipse\nSelf-entrainment of a population of coupled non-linear oscillators\nEd Witten Interview\nThe NERN Conference\nExploring the Behavior of Matter under Extreme Conditions\nOn the Origin of Supermassive Black Holes\n3D mapping and volumetric analysis of solid tumours\nNeural Architecture and Interpretation of Brain Function\nIntroduction to Quantum Computing \nThe Intuitive Guide to Quantum Computing"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/cosmology.html",
+    "href": "library/natural-sciences/physics/cosmology.html",
+    "title": "Cosmology",
+    "section": "",
+    "text": "The Pseudo-Conformal Universe: Scale Invariance from Spontaneous Breaking of Conformal Symmetry"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/cosmology.html#uncategorized",
+    "href": "library/natural-sciences/physics/cosmology.html#uncategorized",
+    "title": "Cosmology",
+    "section": "",
+    "text": "The Pseudo-Conformal Universe: Scale Invariance from Spontaneous Breaking of Conformal Symmetry"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/cosmology.html#black-holes",
+    "href": "library/natural-sciences/physics/cosmology.html#black-holes",
+    "title": "Cosmology",
+    "section": "Black Holes",
+    "text": "Black Holes\n\nBlack Holes Evade Heat Death\nEffective Action for the Hawking Process\nSupermassive Black Hole Binary"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/cosmology.html#big-bang",
+    "href": "library/natural-sciences/physics/cosmology.html#big-bang",
+    "title": "Cosmology",
+    "section": "Big Bang",
+    "text": "Big Bang"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/cosmology.html#dark-matter-and-dark-energy",
+    "href": "library/natural-sciences/physics/cosmology.html#dark-matter-and-dark-energy",
+    "title": "Cosmology",
+    "section": "Dark Matter and Dark Energy",
+    "text": "Dark Matter and Dark Energy\n\nInteracting Dark Matter - Phenomenology and Implications for Cosmology"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/index.html#quantum-physics",
+    "href": "library/natural-sciences/physics/index.html#quantum-physics",
+    "title": "Physics",
+    "section": "Quantum Physics",
+    "text": "Quantum Physics\n\nThe Dirac Equation and its Interpretations\nDavid Gross: Fifty Years of Quantum Chromodynamics (The Theory of The Strong Nuclear Force)\nTesting a discrete model for quantum spin with two sequential Stern-Gerlach detectors and photon Fock states\nClaim: The apparent randomness in wave function collapse is a consequence of coarse-graining an underlying deterministic, non-unitary but norm-preserving evolution.\nWhy Bohr was wrong in his response to EPR\nRichard Feynman: Simulating physics with computers (quantum)\nResolving Key Issues In Quantum Mechanics While Simultaneously Debunking Every UFO Case In History\nExperimental test of local observer-independence\nSpontaneous localisation from a coarse-grained deterministic and non-unitary dynamics\nKilling Horizons Decohere Quantum Superpositions\nFermionic matter-wave quantum optics with cold-atom impurity models\nVariational Quantum Thermalization and the Future of Quantum Thermodynamics\nA New Century of Quantum Physics\nArrival Time in Quantum Mechanics\n\n\nQuantum Computing\n\nQuantum Hamiltonian-Based Models & the Variational Quantum Thermalizer Algorithm\nLimitations of optimization algorithms on noisy quantum devices\nVariational Quantum Thermalization"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/index.html#cosmology",
+    "href": "library/natural-sciences/physics/index.html#cosmology",
+    "title": "Physics",
+    "section": "Cosmology",
+    "text": "Cosmology\n\nThe Pseudo-Conformal Universe: Scale Invariance from Spontaneous Breaking of Conformal Symmetry\nEinstein, Barcelona, Symmetry & Cosmology: The Birth of an Equation for the Universe\n\n\nBlack Holes\n\nBlack Holes Evade Heat Death\nEffective Action for the Hawking Process\nSupermassive Black Hole Binary\n\n\n\nDark Matter and Dark Energy\n\nInteracting Dark Matter - Phenomenology and Implications for Cosmology\nNew shape of parity-violating graviton non-Gaussianity | Explainer\n\n\n\nBig Bang\n\nWarp Drive Patent by Google?\nSarfatti’s 1975 version of ER=EPR\nHarmonic Springs and Gravity\nObservation of an excess of di-charmonium events in the four-muon final state with the ATLAS detector\nLecture Notes on Holographic Renomalization\nAdS/CFT correspondence and Geometry (Hamilton-Jacobi approach to holographic renormalization)\nThe 8 Fallacies of Assembly Theory\n\n(https://missing-link.com) \n\nGravitational Machines\nPhysics of the Analytic S-Matrix\nOn Unitarity of Tree-Level String Amplitudes\nTASI 2023: Aspects of Symmetry\nScattering Amplitudes in Quantum Field Theory\nA New Century of Quantum Physics\nArrival Time in Quantum Mechanics\nEPFL Lectures on General Relativity as a Quantum Field Theory\nGeneral Relativity as a Perturbative Quantum Field Theory\nlecture 1\nBasics of Quantum Gravity\nMy Encounters - as a Physicist - with Mathematics\nWorld from Eyes, Reconstruct 3D Scene from Someone’s Eyeball\nAmerican Elements\nEffective Field Physics (EFT) Methods of General Relativity\nNeutron Guns\nThermodynamics od Information\nSeeing the Gravitational Wave Universe\nProbing Supermassive Black Hole Merges and Stalling with Pulsar Timing Arrays\nAbell 1201: detection of an ultramassive black hole in a strong gravitational lens\nNASA Selects 5 Missions for 2024 Total Solar Eclipse\nSelf-entrainment of a population of coupled non-linear oscillators\nEd Witten Interview\nThe NERN Conference\nExploring the Behavior of Matter under Extreme Conditions\nOn the Origin of Supermassive Black Holes\n3D mapping and volumetric analysis of solid tumours\nNeural Architecture and Interpretation of Brain Function\nIntroduction to Quantum Computing \nThe Intuitive Guide to Quantum Computing"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/index.html#classical-physics",
+    "href": "library/natural-sciences/physics/index.html#classical-physics",
+    "title": "Physics",
+    "section": "Classical Physics",
+    "text": "Classical Physics\n\nThermodynamics of Information\n\n\nTurbulence\n\nEnergetics of Turbulent Fluids"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/index.html#relativity",
+    "href": "library/natural-sciences/physics/index.html#relativity",
+    "title": "Physics",
+    "section": "Relativity",
+    "text": "Relativity\n\nLecture Notes on Holographic Renomalization\nAdS/CFT correspondence and Geometry (Hamilton-Jacobi approach to holographic renormalization)\nEPFL Lectures on General Relativity as a Quantum Field Theory\nGeneral Relativity as a Perturbative Quantum Field Theory\nEffective Field Physics (EFT) Methods of General Relativity\nHarmonic Springs and Gravity\nThe Role of Gravitation in Physics\n\n\nCosmology\n\nThe Pseudo-Conformal Universe: Scale Invariance from Spontaneous Breaking of Conformal Symmetry\nEinstein, Barcelona, Symmetry & Cosmology: The Birth of an Equation for the Universe\nSeeing the Gravitational Wave Universe\nNASA Selects 5 Missions for 2024 Total Solar Eclipse\nJames Webb Images\nPlanck 2018 Results, Cosmological Parameters\nWebb Telescope finds surprising evidence of well-formed early galaxies\nHolography of the Photon Ring\nSun blasts out highest-energy radiation ever recorded, raising questions for solar physics\nDiscovery of Gamma Rays from the Quiescent Sun with HAWC\n10 galaxies that existed just 830 million years after the Big Bang The seven galaxies highlighted in this image from the NASA/ESA/CSA Telescope have been confirmed to be at a distance that astronomers refer to as redshift 7.9, which correlates to 650 million years after the big bang. This makes them the earliest galaxies yet to be spectroscopically confirmed as part of a developing cluster.\n\n\n\nBlack Holes\n\nBlack Holes Evade Heat Death\nEffective Action for the Hawking Process\nSupermassive Black Hole Binary\nProbing Supermassive Black Hole Merges and Stalling with Pulsar Timing Arrays\nAbell 1201: detection of an ultramassive black hole in a strong gravitational lens\nMath Proof Draws New Boundaries Around Black Hole Formation\n\nQuanta article\n\nA Black Hole’s Orbiting Ring of Light Could Encrypt Its Inner Secrets"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/index.html#uncategorized",
+    "href": "library/natural-sciences/physics/index.html#uncategorized",
+    "title": "Physics",
+    "section": "Uncategorized",
+    "text": "Uncategorized\n\nGravitational Machines\nWarp Drive Patent by Google?\nTASI 2023: Aspects of Symmetry\nThe 8 Fallacies of Assembly Theory\nPhysics of the Analytic S-Matrix\nMy Encounters - as a Physicist - with Mathematics\nWorld from Eyes, Reconstruct 3D Scene from Someone’s Eyeball\nAmerican Elements\nEd Witten Interview\nUnitarity"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/index.html#unity",
+    "href": "library/natural-sciences/physics/index.html#unity",
+    "title": "Physics",
+    "section": "Unity",
+    "text": "Unity\n\nBasics of Quantum Gravity\nPerturbative Quantum Gravity\n\n\nER=EPR\n\nSarfatti’s 1975 version of ER=EPR\n\n\n\nString Theory\n\nOn Unitarity of Tree-Level String Amplitudes"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/index.html#weapons",
+    "href": "library/natural-sciences/physics/index.html#weapons",
+    "title": "Physics",
+    "section": "Weapons",
+    "text": "Weapons"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/index.html#particle-physics",
+    "href": "library/natural-sciences/physics/index.html#particle-physics",
+    "title": "Physics",
+    "section": "Particle Physics",
+    "text": "Particle Physics\n\nObservation of an excess of di-charmonium events in the four-muon final state with the ATLAS detector\nLie Algebras in Particle Physics"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/index.html#field-theory",
+    "href": "library/natural-sciences/physics/index.html#field-theory",
+    "title": "Physics",
+    "section": "Field Theory",
+    "text": "Field Theory\n\nQuantum Field Theory: Effective or Fundamental?\nBrief History of Guage Field Physics\nThe Unreasonable Effectiveness of Quantum Field Theory\nIntroduction to Genralized Global Symmetries in QFT and Particle Physics\nLectures on Field Theory and the Standard Model: A Symmetry-Oriented Approach\nScattering Amplitudes in Quantum Field Theory\nGeneral Relativity as a Perturbative Quantum Field Theory\nEPFL Lectures on General Relativity as a Quantum Field Theory\n\n\nDark Matter and Dark Energy\n\nInteracting Dark Matter - Phenomenology and Implications for Cosmology\nNew shape of parity-violating graviton non-Gaussianity | Explainer"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/energy/fusion.html",
+    "href": "library/natural-sciences/physics/energy/fusion.html",
+    "title": "Fusion",
+    "section": "",
+    "text": "Stockpile Stewardship and Management Plan (SSMP)"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/energy/fusion.html#fusion-weapon-overview",
+    "href": "library/natural-sciences/physics/energy/fusion.html#fusion-weapon-overview",
+    "title": "Fusion",
+    "section": "",
+    "text": "A thermonuclear weapon, fusion weapon or hydrogen bomb (H bomb) is a second-generation nuclear weapon design. Its greater sophistication affords it vastly greater destructive power than first-generation nuclear bombs, a more compact size, a lower mass, or a combination of these benefits. Characteristics of nuclear fusion reactions make possible the use of non-fissile depleted uranium as the weapon’s main fuel, thus allowing more efficient use of scarce fissile material such as uranium-235 \\((^{235}U)\\) or plutonium-239 \\((^{239}Pu)\\)\nThe first full-scale thermonuclear test was carried out by the United States in 1952; the concept has since been employed by most of the world’s nuclear powers in the design of their weapons.\nModern fusion weapons consist essentially of two main components: a nuclear fission primary stage (fueled by \\(^{235}U\\) or \\(^{239}Pu\\)) and a separate nuclear fusion secondary stage containing thermonuclear fuel: the heavy hydrogen isotopes deuterium and tritium, or in modern weapons lithium deuteride. For this reason, thermonuclear weapons are often colloquially called hydrogen bombs or H-bombs."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/energy/fusion.html#energy-sources",
+    "href": "library/natural-sciences/physics/energy/fusion.html#energy-sources",
+    "title": "Fusion",
+    "section": "Energy Sources",
+    "text": "Energy Sources\n\nBreakthroughs\n\nDecember 5, 2023 (announced Dec. 13)\n\nPress Conference: Secretary Granholm & DOE leaders Announced Fusion Breakthrough by DOE National Lab\nLLNL Release\nLLNL Video\n\nThe U.S. Department of Energy (DOE) and DOE’s National Nuclear Security Administration (NNSA) today (Dec. 13) announced the achievement of fusion ignition at Lawrence Livermore National Laboratory (LLNL) — a major scientific breakthrough decades in the making that will pave the way for advancements in national defense and the future of clean power. On Dec. 5, a team at LLNL’s National Ignition Facility (NIF) conducted the first controlled fusion experiment in history to reach this milestone, also known as scientific energy breakeven, meaning it produced more energy from fusion than the laser energy used to drive it.\n\n\nAugust 6, 2023\nUS scientists repeat fusion ignition breakthrough for 2nd time"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/government/index.html#darpa",
+    "href": "library/natural-sciences/physics/government/index.html#darpa",
+    "title": "Government",
+    "section": "DARPA",
+    "text": "DARPA\n\nFellows 2023"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/energy/fusion.html#nuclear",
+    "href": "library/natural-sciences/physics/energy/fusion.html#nuclear",
+    "title": "Fusion",
+    "section": "",
+    "text": "Stockpile Stewardship and Management Plan (SSMP)"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/energy/fusion.html#fission",
+    "href": "library/natural-sciences/physics/energy/fusion.html#fission",
+    "title": "Fusion",
+    "section": "Fission",
+    "text": "Fission\nTODO"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/energy/fusion.html#fusion",
+    "href": "library/natural-sciences/physics/energy/fusion.html#fusion",
+    "title": "Fusion",
+    "section": "Fusion",
+    "text": "Fusion\n\nA Fusion Weapon: Overview\nA thermonuclear weapon, fusion weapon or hydrogen bomb (H bomb) is a second-generation nuclear weapon design. Its greater sophistication affords it vastly greater destructive power than first-generation nuclear bombs, a more compact size, a lower mass, or a combination of these benefits. Characteristics of nuclear fusion reactions make possible the use of non-fissile depleted uranium as the weapon’s main fuel, thus allowing more efficient use of scarce fissile material such as uranium-235 \\((^{235}U)\\) or plutonium-239 \\((^{239}Pu)\\)\nThe first full-scale thermonuclear test was carried out by the United States in 1952; the concept has since been employed by most of the world’s nuclear powers in the design of their weapons.\nModern fusion weapons consist essentially of two main components: a nuclear fission primary stage (fueled by \\(^{235}U\\) or \\(^{239}Pu\\)) and a separate nuclear fusion secondary stage containing thermonuclear fuel: the heavy hydrogen isotopes deuterium and tritium, or in modern weapons lithium deuteride. For this reason, thermonuclear weapons are often colloquially called hydrogen bombs or H-bombs.\n\n\nFusion energy\n\nDecember 5, 2023 (announced Dec. 13)\n\nPress Conference: Secretary Granholm & DOE leaders Announced Fusion Breakthrough by DOE National Lab\nLLNL Release\nLLNL Video\n\nThe U.S. Department of Energy (DOE) and DOE’s National Nuclear Security Administration (NNSA) today (Dec. 13) announced the achievement of fusion ignition at Lawrence Livermore National Laboratory (LLNL) — a major scientific breakthrough decades in the making that will pave the way for advancements in national defense and the future of clean power. On Dec. 5, a team at LLNL’s National Ignition Facility (NIF) conducted the first controlled fusion experiment in history to reach this milestone, also known as scientific energy breakeven, meaning it produced more energy from fusion than the laser energy used to drive it.\n\n\nAugust 6, 2023\nUS scientists repeat fusion ignition breakthrough for 2nd time"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/energy/fusion.html#fusion-energy",
+    "href": "library/natural-sciences/physics/energy/fusion.html#fusion-energy",
+    "title": "Fusion",
+    "section": "Fusion energy",
+    "text": "Fusion energy\n\nDecember 5, 2023 (announced Dec. 13)\n\nPress Conference: Secretary Granholm & DOE leaders Announced Fusion Breakthrough by DOE National Lab\nLLNL Release\nLLNL Video\n\nThe U.S. Department of Energy (DOE) and DOE’s National Nuclear Security Administration (NNSA) today (Dec. 13) announced the achievement of fusion ignition at Lawrence Livermore National Laboratory (LLNL) — a major scientific breakthrough decades in the making that will pave the way for advancements in national defense and the future of clean power. On Dec. 5, a team at LLNL’s National Ignition Facility (NIF) conducted the first controlled fusion experiment in history to reach this milestone, also known as scientific energy breakeven, meaning it produced more energy from fusion than the laser energy used to drive it.\n\n\nAugust 6, 2023\nUS scientists repeat fusion ignition breakthrough for 2nd time"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/government/index.html#advanced-weapons",
+    "href": "library/natural-sciences/physics/government/index.html#advanced-weapons",
+    "title": "Government",
+    "section": "Advanced Weapons",
+    "text": "Advanced Weapons\n\nDirected Energy\n\nD-Wave and Davidson Technologies Introduce New Innovations to Advance National Defense Efforts\n\n\n\nNeutron Guns\n\nNeutron Guns\n\n\n\nA Fusion Weapon: Overview\nA thermonuclear weapon, fusion weapon or hydrogen bomb (H bomb) is a second-generation nuclear weapon design. Its greater sophistication affords it vastly greater destructive power than first-generation nuclear bombs, a more compact size, a lower mass, or a combination of these benefits. Characteristics of nuclear fusion reactions make possible the use of non-fissile depleted uranium as the weapon’s main fuel, thus allowing more efficient use of scarce fissile material such as uranium-235 \\((^{235}U)\\) or plutonium-239 \\((^{239}Pu)\\)\nThe first full-scale thermonuclear test was carried out by the United States in 1952; the concept has since been employed by most of the world’s nuclear powers in the design of their weapons.\nModern fusion weapons consist essentially of two main components: a nuclear fission primary stage (fueled by \\(^{235}U\\) or \\(^{239}Pu\\)) and a separate nuclear fusion secondary stage containing thermonuclear fuel: the heavy hydrogen isotopes deuterium and tritium, or in modern weapons lithium deuteride. For this reason, thermonuclear weapons are often colloquially called hydrogen bombs or H-bombs."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/energy/index.html",
+    "href": "library/natural-sciences/physics/energy/index.html",
+    "title": "Nuclear",
+    "section": "",
+    "text": "Stockpile Stewardship and Management Plan (SSMP)"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/energy/index.html#nuclear",
+    "href": "library/natural-sciences/physics/energy/index.html#nuclear",
+    "title": "Nuclear",
+    "section": "",
+    "text": "Stockpile Stewardship and Management Plan (SSMP)"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/energy/index.html#fission",
+    "href": "library/natural-sciences/physics/energy/index.html#fission",
+    "title": "Nuclear",
+    "section": "Fission",
+    "text": "Fission\nTODO"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/energy/index.html#fusion",
+    "href": "library/natural-sciences/physics/energy/index.html#fusion",
+    "title": "Nuclear",
+    "section": "Fusion",
+    "text": "Fusion\n\nDecember 5, 2023 (announced Dec. 13)\n\nPress Conference: Secretary Granholm & DOE leaders Announced Fusion Breakthrough by DOE National Lab\nLLNL Release\nLLNL Video\n\nThe U.S. Department of Energy (DOE) and DOE’s National Nuclear Security Administration (NNSA) today (Dec. 13) announced the achievement of fusion ignition at Lawrence Livermore National Laboratory (LLNL) — a major scientific breakthrough decades in the making that will pave the way for advancements in national defense and the future of clean power. On Dec. 5, a team at LLNL’s National Ignition Facility (NIF) conducted the first controlled fusion experiment in history to reach this milestone, also known as scientific energy breakeven, meaning it produced more energy from fusion than the laser energy used to drive it.\n\n\nAugust 6, 2023\nUS scientists repeat fusion ignition breakthrough for 2nd time"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/government/index.html#exotic-material",
+    "href": "library/natural-sciences/physics/government/index.html#exotic-material",
+    "title": "Government",
+    "section": "Exotic Material",
+    "text": "Exotic Material\n\nPentagon pleads the fifth"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/index.html#electromagnetism",
+    "href": "library/natural-sciences/physics/index.html#electromagnetism",
+    "title": "Physics",
+    "section": "Electromagnetism",
+    "text": "Electromagnetism\n\nMagnetohydrodynamics\nMagnetohydrodynamics (MHD), also known as hydromagnetics, is a field in physics that studies the dynamics of electrically conducting fluids, particularly the interaction between magnetic fields and such fluids. These fluids could be plasma, liquid metals, or even seawater. MHD is a synthesis of fluid dynamics and electromagnetism. The governing equations of MHD are the Navier-Stokes equations (in the limit of high Reynolds number) coupled with Maxwell’s equations.\n\nMagnetohydrodynamic drive\nApplication of Pulsed Electrical Fields for Advanced Cooling and Water Recovery in Coal-Fired Power Plant\nRunaway electrons during subnanosecond breakdowns in high-pressure gases\nLow-Temperature Atmospheric Pressure Plasma Processes for “Green” Third Generation Photovoltaics\nElectromagnetic Radiation: Ionizing and Non-ionizing\nAre Virtual Particles Less Real?\nRF Helicon-based Inductive Plasma Thruster (IPT) Design for an Atmosphere-Breathing Electric Propulsion System (ABEP)\nElectrothermal instability\nPulsed inductive thruster\nNASA Pulsed Inductive Thruster\nOn the performance of electrohydrodynamic propulsion\nElectrohydrodynamic thrust for in-atmosphere propulsion\nA Model of an Ideal Electrohydrodynamic Thruster\nModelling and simulation of plasma thrusters for electric propulsion technologies\nElectrohydrodynamic Drying Characteristics of Agar Gel\nModeling of Electrohydrodynamic (EHD) Plasma Thrusters: Optimization of Physical and Geometrical Parameters\nReview on the History, Research, and Applications of Electrohydrodynamics\nSuccessful experiments on an external MHD Accelerator\nMHD Air Breathing Propulsion and Power for Aerospace Applications\nNew Magnetohydrodynamic (MHD) Lift Concept for More Efficient Missions to Mars and Neptune\nGENERAL CONSIDERATIONS OF MHO ACCELERATION FOR AERODYNAMIC TESTING\nAnalysis of the Magnetohydrodynamic Behavior of the Fully Developed Flow of Conducting Fluid\nSpace-based laser-driven MHD generator [microform] : feasibility study\nWeak Solutions to Ideal MHD"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/index.html#magnetohydrodynamics",
+    "href": "library/natural-sciences/physics/index.html#magnetohydrodynamics",
+    "title": "Physics",
+    "section": "Magnetohydrodynamics",
+    "text": "Magnetohydrodynamics\nMagnetohydrodynamics (MHD), also known as hydromagnetics, is a field in physics that studies the dynamics of electrically conducting fluids, particularly the interaction between magnetic fields and such fluids. These fluids could be plasma, liquid metals, or even seawater. MHD is a synthesis of fluid dynamics and electromagnetism. The governing equations of MHD are the Navier-Stokes equations (in the limit of high Reynolds number) coupled with Maxwell’s equations.\n\nMagnetohydrodynamic drive\nApplication of Pulsed Electrical Fields for Advanced Cooling and Water Recovery in Coal-Fired Power Plant\nRunaway electrons during subnanosecond breakdowns in high-pressure gases\nLow-Temperature Atmospheric Pressure Plasma Processes for “Green” Third Generation Photovoltaics\nElectromagnetic Radiation: Ionizing and Non-ionizing\nAre Virtual Particles Less Real?\nRF Helicon-based Inductive Plasma Thruster (IPT) Design for an Atmosphere-Breathing Electric Propulsion System (ABEP)\nElectrothermal instability\nPulsed inductive thruster\nNASA Pulsed Inductive Thruster\nOn the performance of electrohydrodynamic propulsion\nElectrohydrodynamic thrust for in-atmosphere propulsion\nA Model of an Ideal Electrohydrodynamic Thruster\nModelling and simulation of plasma thrusters for electric propulsion technologies\nElectrohydrodynamic Drying Characteristics of Agar Gel\nModeling of Electrohydrodynamic (EHD) Plasma Thrusters: Optimization of Physical and Geometrical Parameters\nReview on the History, Research, and Applications of Electrohydrodynamics\nSuccessful experiments on an external MHD Accelerator\nMHD Air Breathing Propulsion and Power for Aerospace Applications\nNew Magnetohydrodynamic (MHD) Lift Concept for More Efficient Missions to Mars and Neptune\nGENERAL CONSIDERATIONS OF MHO ACCELERATION FOR AERODYNAMIC TESTING\nAnalysis of the Magnetohydrodynamic Behavior of the Fully Developed Flow of Conducting Fluid\nSpace-based laser-driven MHD generator [microform] : feasibility study\nWeak Solutions to Ideal MHD"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/electromagnetism/mhd/index.html#magnetohydrodynamics",
+    "href": "library/natural-sciences/physics/electromagnetism/mhd/index.html#magnetohydrodynamics",
+    "title": "MHD",
+    "section": "",
+    "text": "Magnetohydrodynamic (MHD) Propulsion\n\nMagnetohydrodynamic drive\nApplication of Pulsed Electrical Fields for Advanced Cooling and Water Recovery in Coal-Fired Power Plant\nRunaway electrons during subnanosecond breakdowns in high-pressure gases\nLow-Temperature Atmospheric Pressure Plasma Processes for “Green” Third Generation Photovoltaics\nElectromagnetic Radiation: Ionizing and Non-ionizing\nAre Virtual Particles Less Real?\nRF Helicon-based Inductive Plasma Thruster (IPT) Design for an Atmosphere-Breathing Electric Propulsion System (ABEP)\nElectrothermal instability\nPulsed inductive thruster\nNASA Pulsed Inductive Thruster\nOn the performance of electrohydrodynamic propulsion\nElectrohydrodynamic thrust for in-atmosphere propulsion\nA Model of an Ideal Electrohydrodynamic Thruster\nModelling and simulation of plasma thrusters for electric propulsion technologies\nElectrohydrodynamic Drying Characteristics of Agar Gel\nModeling of Electrohydrodynamic (EHD) Plasma Thrusters: Optimization of Physical and Geometrical Parameters\nReview on the History, Research, and Applications of Electrohydrodynamics\nSuccessful experiments on an external MHD Accelerator\nMHD Air Breathing Propulsion and Power for Aerospace Applications\nNew Magnetohydrodynamic (MHD) Lift Concept for More Efficient Missions to Mars and Neptune\nGENERAL CONSIDERATIONS OF MHO ACCELERATION FOR AERODYNAMIC TESTING\nAnalysis of the Magnetohydrodynamic Behavior of the Fully Developed Flow of Conducting Fluid\nSpace-based laser-driven MHD generator [microform] : feasibility study\nWeak Solutions to Ideal MHD"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/government/index.html#weapons",
+    "href": "library/natural-sciences/physics/government/index.html#weapons",
+    "title": "Government",
+    "section": "Weapons",
+    "text": "Weapons\n\nDirected Energy\n\nD-Wave and Davidson Technologies Introduce New Innovations to Advance National Defense Efforts\n\n\n\nNeutron Guns\n\nNeutron Guns\n\n\n\nA Fusion Weapon: Overview\nA thermonuclear weapon, fusion weapon or hydrogen bomb (H bomb) is a second-generation nuclear weapon design. Its greater sophistication affords it vastly greater destructive power than first-generation nuclear bombs, a more compact size, a lower mass, or a combination of these benefits. Characteristics of nuclear fusion reactions make possible the use of non-fissile depleted uranium as the weapon’s main fuel, thus allowing more efficient use of scarce fissile material such as uranium-235 \\((^{235}U)\\) or plutonium-239 \\((^{239}Pu)\\)\nThe first full-scale thermonuclear test was carried out by the United States in 1952; the concept has since been employed by most of the world’s nuclear powers in the design of their weapons.\nModern fusion weapons consist essentially of two main components: a nuclear fission primary stage (fueled by \\(^{235}U\\) or \\(^{239}Pu\\)) and a separate nuclear fusion secondary stage containing thermonuclear fuel: the heavy hydrogen isotopes deuterium and tritium, or in modern weapons lithium deuteride. For this reason, thermonuclear weapons are often colloquially called hydrogen bombs or H-bombs."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/government/index.html#remote-viewing",
+    "href": "library/natural-sciences/physics/government/index.html#remote-viewing",
+    "title": "Government",
+    "section": "Remote Viewing",
+    "text": "Remote Viewing\n\nRemote Viewing Wiki\nClairvoyance Wiki\nIngo Swann and Hal Puthoff Remote Viewing Training of Turhuck, 1981-06\nStanford Expirment\nColombia Uni\nNSA Report\nStargate Project\nIngo Swann: a person\nCIA Database on Ingo Swann\nCREST\nMiracles of Mind\nRemote Viewing secrets: A Handbook"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/classical/papers/energetics-of-turbulent-fluids.html",
+    "href": "library/natural-sciences/physics/classical/papers/energetics-of-turbulent-fluids.html",
+    "title": "Energetics of Turbulent Fluids",
+    "section": "",
+    "text": "Draft paper by Justin Beroz.\nHere are the notes I took while reading the paper:"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/classical/papers/energetics-of-turbulent-fluids.html#beroz",
+    "href": "library/natural-sciences/physics/classical/papers/energetics-of-turbulent-fluids.html#beroz",
+    "title": "Energetics of Turbulent Fluids",
+    "section": "Beroz",
+    "text": "Beroz\nWhat sort of world would we live in without turbulence? - blog - This relates to his claims on liquid energy transport. Sure, the theory is there, but there’s a few subtle assumptions in the theory that put a wrench in the practicality of his claims (aka, Jacob’s intuition was correct in being speculative of the efficiency claims). - “…and assuming the average flow to be steady and approximately two dimensional, can be expresses as…” - “…To determine these constant we need to include two boundary conditions for our river velocity…”\nSolving one of physics’ ‘last great mysteries’ with a new, huge, wind tunnel - paper - 10% of world electricity devoted to overcoming turbulence\nMacro-Quantum Behavior - MIT video - Veritasium video"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/classical/papers/index.html",
+    "href": "library/natural-sciences/physics/classical/papers/index.html",
+    "title": "Fluid Dynamics",
+    "section": "",
+    "text": "TODO"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/electromagnetism/superconductor/index.html#lk-99",
+    "href": "library/natural-sciences/physics/electromagnetism/superconductor/index.html#lk-99",
+    "title": "Superconductors",
+    "section": "LK-99",
+    "text": "LK-99\nThe story of the (alleged) first room-tempurature ambient-pressure superconductor\n\nTLDR\nSuperconductivity is a magic phenomenon that permits leviatation, lossless energy transfer & storage, and countless other beautiful technologies to exist. There are known materials who are superconductors at low tempuratures, and the room tempurature superconductor has been a holy grail of materials science for many decades.\nIn July, 2023, a pre-print journal out of South Korea claimed to have discovered the “First Room-Temperature Ambient-Pressure Superconductor”. The paper generated a ton of excitement, a newfound interest in materials science, and much discussion of room temp SC implications.\n…but the paper is (and always has been) just noise.\n\n\nTimeline\nJuly 22:\n\nThe First Room-Temperature Ambient-Pressure Superconductor\nOriginal paper(s) is(are) released twice, the first time (suspected to rush to beat the second) with only 3 authors, making the team eligible for a noble prize.\n\nJuly 26:\n\nI predict the superconductor hype (“we are so fucking back”) is all noise.\n\nJuly 27:\n\nDouglas Natelson publishes a blog post expressing a pessemistic view on the whole debacle.\nCondensed Matter Theory Center deconstructs “the non-experimental parts of the Korean room temp SC claims.”\n\nHype ensues, and magnifies, as people rush to replicate the study/results.\nJuly 29:\n\nFirst-principles study on the electronic structure of \\(Pb_{10−x}Cu_x(PO_4)_6O (x=0, 1)\\)\n\nJuly 31:\n\nSynthesis of possible room temperature superconductor \\(LK-99:Pb_9Cu(PO_4)_6O\\)\n\nA (failed?) replication attempt out of Beijing; shows semiconductor behavior, not super\n\nSemiconducting transport in \\(Pb_{10-x}Cu_x(PO_4)_6O\\) sintered from \\(Pb_2SO_5\\) and \\(Cu_3P\\)\n\nAugust 4:\nA theoretical explanation for LK-99 is released on July 31, 2023, by Sinead Griffin out of Berkeley.\n\nOrigin of correlated isolated flat bands in copper-substituted lead phosphate apatite.\n\nAugust 6:\nGroup claims/proves LK-99 is a ferromagnet (NOT a superconductor)\n\nFerromagnetic half levitation of LK-99-like synthetic samples"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/electromagnetism/superconductor/index.html#asides",
+    "href": "library/natural-sciences/physics/electromagnetism/superconductor/index.html#asides",
+    "title": "Superconductors",
+    "section": "Asides",
+    "text": "Asides\nAuthor of the original paper, Hyun-Tak Kim, from 2018\nWhy does BCS theory fail to explain superconductivity at high temperatures?"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/mysteries.html",
+    "href": "library/natural-sciences/physics/mysteries.html",
+    "title": "Mysteries",
+    "section": "",
+    "text": "Dark energy: 69%\nDark matter: 26%\nOrdinary matter: 5%\n\nDark matter/energy appears to constitute 85% of the universe’s matter content (e=mc^2). This substance does not admit, absorb, or reflect light. It’s presence is inferred from gravitational effects on visible matter."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/mysteries.html#the-nature-of-dark-matter",
+    "href": "library/natural-sciences/physics/mysteries.html#the-nature-of-dark-matter",
+    "title": "Mysteries",
+    "section": "",
+    "text": "Dark energy: 69%\nDark matter: 26%\nOrdinary matter: 5%\n\nDark matter/energy appears to constitute 85% of the universe’s matter content (e=mc^2). This substance does not admit, absorb, or reflect light. It’s presence is inferred from gravitational effects on visible matter."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/mysteries.html#quantum-gravity",
+    "href": "library/natural-sciences/physics/mysteries.html#quantum-gravity",
+    "title": "Mysteries",
+    "section": "Quantum Gravity",
+    "text": "Quantum Gravity\nThere is no reconciliation between quantum mechanics and general relativity. The former describes the universe at the smallest scales, while the latter describes the universe at the largest scales. The two theories are seemingly incompatible, and this problem has become the focal point in the search for a “theory of everything”."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/mysteries.html#the-measurement-problem-in-quantum-mechanics",
+    "href": "library/natural-sciences/physics/mysteries.html#the-measurement-problem-in-quantum-mechanics",
+    "title": "Mysteries",
+    "section": "The Measurement Problem in Quantum Mechanics",
+    "text": "The Measurement Problem in Quantum Mechanics\nQuantum mechanics predicts outcomes only probabilisticly, and superpositions decohere upon measurement. The process of measurement is described differently from other physical processes. This raises deep questions about the nature of reality and consciousness in the physical world."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/mysteries.html#matter-antimatter-asymmetry",
+    "href": "library/natural-sciences/physics/mysteries.html#matter-antimatter-asymmetry",
+    "title": "Mysteries",
+    "section": "Matter Antimatter Asymmetry",
+    "text": "Matter Antimatter Asymmetry\nThe Big Bang should have produced equal amounts of matter and antimatter, which would have then annihilated each other. However, the universe is made almost entirely of matter. This asymmetry is not explained by the Standard Model."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/mysteries.html#neutrino-masses-and-mixing-angles",
+    "href": "library/natural-sciences/physics/mysteries.html#neutrino-masses-and-mixing-angles",
+    "title": "Mysteries",
+    "section": "Neutrino Masses and Mixing Angles",
+    "text": "Neutrino Masses and Mixing Angles\nNeutrinos are elementary particles that only weakly interact with matter. Experiments have shown that neutrinos have mass and can change their type as they travel, but the origin of their mass and precise values of the mixing angles are unknown. Mixing angles are the parameters that describe the transformation of neutrinos from one type to another."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/mysteries.html#strong-charge-parity-problem",
+    "href": "library/natural-sciences/physics/mysteries.html#strong-charge-parity-problem",
+    "title": "Mysteries",
+    "section": "Strong Charge-Parity Problem",
+    "text": "Strong Charge-Parity Problem\nCharge-parity (CP) symmetry states that the laws of physics should remain the same if a particle is replaced by its antiparticle (charge conjugation) and then its spacial coordinates are inverted (parity inversion). However, in storng interaction (one of the four fundamental fources), this symmetry isnt violated as much as the current theory predicts. This is known as the strong CP problem.\n\nThe strong force holds together things that have the same charge - this is stronger than the electromagnetic force, and is why atoms with protons (and more importantly quarks) don’t fly apart."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/mysteries.html#cosmic-inflation",
+    "href": "library/natural-sciences/physics/mysteries.html#cosmic-inflation",
+    "title": "Mysteries",
+    "section": "Cosmic Inflation",
+    "text": "Cosmic Inflation\nWe believe the universe is acceleratingly expanding, but we don’t know why."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/mysteries.html#the-problem-of-time",
+    "href": "library/natural-sciences/physics/mysteries.html#the-problem-of-time",
+    "title": "Mysteries",
+    "section": "The Problem of Time",
+    "text": "The Problem of Time\nIn QM, time is a background parameter, and the flow of time is universal and absolute. In GR, time is one aspect of spacetime and is relative and dynamical. There is no compatability between these two."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/maths/index.html",
+    "href": "library/natural-sciences/physics/maths/index.html",
+    "title": "Physics Maths",
+    "section": "",
+    "text": "Donaldson Theory\nDonaldson theory is a branch of mathematics that is concerned with the topology of four-dimensional manifolds. It is named after Simon Donaldson, a British mathematician who made significant contributions to the field in the 1980s.\nThe central problem in Donaldson theory is to understand the topology of four-dimensional manifolds using differential geometry and algebraic topology. Specifically, the theory focuses on the study of vector bundles and connections on these manifolds, and how they can be used to classify different types of four-dimensional manifolds.\nOne of the key results in Donaldson theory is Donaldson’s theorem, which states that the intersection form of a smooth, closed, simply-connected four-dimensional manifold can be recovered from its Seiberg-Witten invariants. The Seiberg-Witten invariants are a set of numbers that can be associated with a four-dimensional manifold and its spin-c structure. They were introduced by Edward Witten and Nathan Seiberg in the mid-1990s and have proven to be a powerful tool in the study of four-dimensional manifolds.\nDonaldson theory has applications in a variety of fields, including physics, where it has been used to study the topology of spacetime in string theory and other areas of theoretical physics. It has also had significant impact in pure mathematics, inspiring further research in the fields of algebraic geometry, topology, and differential geometry."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/nuclear/index.html",
+    "href": "library/natural-sciences/physics/nuclear/index.html",
+    "title": "Nuclear",
+    "section": "",
+    "text": "Stockpile Stewardship and Management Plan (SSMP)"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/nuclear/index.html#nuclear",
+    "href": "library/natural-sciences/physics/nuclear/index.html#nuclear",
+    "title": "Nuclear",
+    "section": "",
+    "text": "Stockpile Stewardship and Management Plan (SSMP)"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/nuclear/index.html#fission",
+    "href": "library/natural-sciences/physics/nuclear/index.html#fission",
+    "title": "Nuclear",
+    "section": "Fission",
+    "text": "Fission\nTODO"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/nuclear/index.html#fusion",
+    "href": "library/natural-sciences/physics/nuclear/index.html#fusion",
+    "title": "Nuclear",
+    "section": "Fusion",
+    "text": "Fusion\n\nDecember 5, 2023 (announced Dec. 13)\n\nPress Conference: Secretary Granholm & DOE leaders Announced Fusion Breakthrough by DOE National Lab\nLLNL Release\nLLNL Video\n\nThe U.S. Department of Energy (DOE) and DOE’s National Nuclear Security Administration (NNSA) today (Dec. 13) announced the achievement of fusion ignition at Lawrence Livermore National Laboratory (LLNL) — a major scientific breakthrough decades in the making that will pave the way for advancements in national defense and the future of clean power. On Dec. 5, a team at LLNL’s National Ignition Facility (NIF) conducted the first controlled fusion experiment in history to reach this milestone, also known as scientific energy breakeven, meaning it produced more energy from fusion than the laser energy used to drive it.\n\n\nAugust 6, 2023\nUS scientists repeat fusion ignition breakthrough for 2nd time"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/unification/string-theory.html",
+    "href": "library/natural-sciences/physics/unification/string-theory.html",
+    "title": "String Theory",
+    "section": "",
+    "text": "Magic, mystery or matrix? A conversation with string theorist Edward Witten"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/unification/string-theory.html#resources",
+    "href": "library/natural-sciences/physics/unification/string-theory.html#resources",
+    "title": "String Theory",
+    "section": "",
+    "text": "Magic, mystery or matrix? A conversation with string theorist Edward Witten"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/unification/geometric-unity.html",
+    "href": "library/natural-sciences/physics/unification/geometric-unity.html",
+    "title": "Geometric Unity",
+    "section": "",
+    "text": "This is notes on a lecture by Eric Weinstein on the topic of geometric unity. The lecture is available here.\nI am first watching this lecture without a proper background in tensor calculus, dirac notation, or differential geometry. My plan is first to listen, ponder curiously, explore the topics which I need to learn, and return once I’m able to independently generate an opinion with conviction."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/unification/geometric-unity.html#response-discussion",
+    "href": "library/natural-sciences/physics/unification/geometric-unity.html#response-discussion",
+    "title": "Geometric Unity",
+    "section": "Response & Discussion",
+    "text": "Response & Discussion\n\nTimothy Nguyen and Theo Polya’s Response to GU"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/government/darpa/fellows.html",
+    "href": "library/natural-sciences/physics/government/darpa/fellows.html",
+    "title": "DARPA Fellows",
+    "section": "",
+    "text": "Dr. Allegra A. Beal Cohen joined DARPA in January 2023 as part of the first cohort of DARPA Innovation Fellows. Prior to joining DARPA, Beal Cohen was a DARPA I2O postdoctoral fellow at the University of Florida. She worked on the DARPA Habitus program where she modeled agricultural value chains, conducted qualitative interviews with domain experts, and built a tool for partially automating knowledge engineering. She was selected as a DARPA Early Riser for her work on knowledge engineering.\nBeal Cohen earned her doctorate degree from the University of Florida as an National Science Foundation Graduate Research Fellow, where she modeled intra-household bargaining and social norms in agriculture. She earned her Bachelor of Science degree in symbolic systems from Stanford University."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/government/darpa/fellows.html#allegra-a.-beal-cohen",
+    "href": "library/natural-sciences/physics/government/darpa/fellows.html#allegra-a.-beal-cohen",
+    "title": "DARPA Fellows",
+    "section": "",
+    "text": "Dr. Allegra A. Beal Cohen joined DARPA in January 2023 as part of the first cohort of DARPA Innovation Fellows. Prior to joining DARPA, Beal Cohen was a DARPA I2O postdoctoral fellow at the University of Florida. She worked on the DARPA Habitus program where she modeled agricultural value chains, conducted qualitative interviews with domain experts, and built a tool for partially automating knowledge engineering. She was selected as a DARPA Early Riser for her work on knowledge engineering.\nBeal Cohen earned her doctorate degree from the University of Florida as an National Science Foundation Graduate Research Fellow, where she modeled intra-household bargaining and social norms in agriculture. She earned her Bachelor of Science degree in symbolic systems from Stanford University."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/government/darpa/fellows.html#rebecca-chmiel",
+    "href": "library/natural-sciences/physics/government/darpa/fellows.html#rebecca-chmiel",
+    "title": "DARPA Fellows",
+    "section": "Rebecca Chmiel",
+    "text": "Rebecca Chmiel\nDr. Rebecca Chmiel joined DARPA in January 2023 as part of the first cohort of DARPA Innovation Fellows. She received her Bachelor of Arts in chemistry and environmental studies from Colby College and her doctorate from the Massachusetts Institute of Technology and the Woods Hole Oceanographic Institution in marine biogeochemistry, and her research focused on the interactions between trace metal nutrients and marine phytoplankton. She has participated in four ocean research expeditions totaling over seven months at sea, and received the Antarctica Service Medal as part of her oceanographic fieldwork."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/government/darpa/fellows.html#alex-place",
+    "href": "library/natural-sciences/physics/government/darpa/fellows.html#alex-place",
+    "title": "DARPA Fellows",
+    "section": "Alex Place",
+    "text": "Alex Place\nDr. Alex Place joined DARPA in January 2023 as part of the first cohort of DARPA Innovation Fellows. He received his Bachelor of Science in physics from the California Institute of Technology and his doctorate in electrical and computer engineering and materials science from Princeton University. His dissertation focused on improving the lifetimes of superconducting qubits, the building block of many industrial quantum computing efforts. He has also spent time developing nanoelectromechanical systems, novel solar cell designs, and medical devices."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/government/darpa/fellows.html#lt-krishnan-rajagopalan-usn",
+    "href": "library/natural-sciences/physics/government/darpa/fellows.html#lt-krishnan-rajagopalan-usn",
+    "title": "DARPA Fellows",
+    "section": "LT Krishnan Rajagopalan, USN",
+    "text": "LT Krishnan Rajagopalan, USN\nLt. Krishnan (Krish) Rajagopalan joined DARPA in March 2023 as part of the first cohort of DARPA Innovation Fellows. As a Navy Explosive Ordnance Disposal (EOD) Officer, he has led units of unmanned underwater vehicle operators and EOD divers tasked with countering explosive hazards underwater. He also served as a requirements officer on the staff of the Chief of Naval Operations and, most recently, as the operations officer at Expeditionary Exploitation Unit ONE (EXU-1). Rajagopalan is a qualified EOD Technician and Navy Diving Officer. He received a Bachelor of Science in operations research from the U.S. Naval Academy and a Master of Science in operations research from the Massachusetts Institute of Technology (MIT), where he was an MIT Lincoln Laboratory Military Fellow."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/government/darpa/fellows.html#graham-h.-reid",
+    "href": "library/natural-sciences/physics/government/darpa/fellows.html#graham-h.-reid",
+    "title": "DARPA Fellows",
+    "section": "Graham H. Reid",
+    "text": "Graham H. Reid\nDr. Graham Reid joined DARPA in June 2023 as part of the second cohort of DARPA Innovation Fellows. Reid received a Bachelor of Arts in physics from Kenyon College and a doctorate from University of Maryland, College Park. His dissertation research, conducted at NIST as a guest researcher through the Joint Quantum Institute, used ultracold atoms to study topological physics in dynamically evolving quantum systems."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/government/darpa/fellows.html#rené-m.-xavier",
+    "href": "library/natural-sciences/physics/government/darpa/fellows.html#rené-m.-xavier",
+    "title": "DARPA Fellows",
+    "section": "René M. Xavier",
+    "text": "René M. Xavier\nDr. René Xavier joined DARPA in June 2023 as part of the second cohort of DARPA Innovation Fellows. Xavier recently graduated from Florida Atlantic University, where she conducted research at the Harbor Branch Oceanographic Institute using shotgun metagenomics to analyze the biosynthesis of marine natural products. She received her Bachelor of Science in molecular, cellular, and developmental biology from the University of Washington in Seattle and was awarded a Fulbright Fellowship to study the regulation of reactive oxygen species at the Czech Institute of Experimental Botany in Prague. Prior to her academic career, she served as a nuclear electrician in the U.S. Navy where she was decorated with multiple honors including the Humanitarian Ribbon for her relief efforts during Hurricane Katrina."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/government/darpa/fellows.html#alessandra-m.-zito",
+    "href": "library/natural-sciences/physics/government/darpa/fellows.html#alessandra-m.-zito",
+    "title": "DARPA Fellows",
+    "section": "Alessandra M. Zito",
+    "text": "Alessandra M. Zito\nDr. Alessandra (Allie) Zito joined DARPA in June 2023 as part of the second cohort of DARPA Innovation Fellows. Zito received her Bachelor of Arts in chemistry and French language and literature from Johns Hopkins University and her doctorate in chemistry from the University of California, Irvine. Her graduate work focused on synthesizing and characterizing redox-active organic and inorganic molecules to be used for electrochemical carbon dioxide capture and concentration. She also has research experience in investigating catalyst loading on carbon aerogels, homogeneous and heterogeneous CO2 reduction catalysis, and electrode design for supercapacitors."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/field-theory/effective-or-fundamental.html",
+    "href": "library/natural-sciences/physics/field-theory/effective-or-fundamental.html",
+    "title": "Fundamental?",
+    "section": "",
+    "text": "The Quantum Theory of Fields: Effective or Fundamental?\n\nvideo\ncorresponding article\nQuantum Field Theory was born just pertaining to the electromagnetic field.\nWhen expanding this theory, it seemed it couldn’t be trusted at high energies. (Decline)\nLate 1940s, there was a new optimizing with the invention of a relatavistic perturbation theory, where the infinities could be absorbed into a redefinition of parameters like mass and charge of the electron. People thought this was sweeping problems under the rug, but it also may have been a way of selecting good theories (renormalizable theories).\nFor example, theere’s nothing in the symmetries of quantum electrodynamics which rules out putting a term in the field equations (or Lagrangian), which could make the magnetic moment of the electron anything you want. This would make the mass of the electron -1, which means the theory is not renormalizable, and thus shows invalid.\nLate 1960s and early 70s, the standard model came to fruition - this was the renaissance of Quantum Field theory. But there were still doubts whether this was a fundamental theory or an effective one.\nQuantum Field Theory & Einsteinian Physics may be low energy approximations of a more fundamental theory."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/classical/fluid-dynamics.html",
+    "href": "library/natural-sciences/physics/classical/fluid-dynamics.html",
+    "title": "Fluid Dynamics",
+    "section": "",
+    "text": "TODO"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/uap/people.html",
+    "href": "library/natural-sciences/physics/uap/people.html",
+    "title": "UAP People",
+    "section": "",
+    "text": "He knows something for sure\n\n\n\nDr. Harold E. Puthoff is the co-founder and Vice President of Science and Technology of TTS Academy. Since 1985, Dr. Puthoff has served as President and CEO of EarthTech International, Inc. (ETI), and Director of the Institute for Advanced Studies at Austin (IASA). He has published numerous papers on electron-beam devices, lasers and space propulsion and has patents issued in the laser, communications, and energy fields. Dr. Puthoff’s professional background spans more than five decades of research at General Electric, Sperry, the National Security Agency, Stanford University and SRI International. Dr. Puthoff regularly advises NASA , the Department of Defense and intelligence communities, corporations and foundations on leading-edge technologies and future technology trends. He earned his Ph.D. from Stanford University in 1967 and won a Who’s Who Lifetime Achievement in 2017 that recognizes individuals that have achieved greatness in their industry and have excelled in their field for at least 20 years.\nLecture 2018\n\nvideo\nwriteup\nIRVA-SSE 2018\n\n2021 SCU AAP Conference Keynote by Hal Putoff\n\nvideo\n\n\n\n\n\nDr. Salvatore Pais | Intuitive Science, Conscious Universe & The Philosophy of Physics\n\n\n\n\nRichard Griffiths serves as Affiliate Faculty at University of Hawaii at Hilo, Physics and Astronomy. He leads the team that solved a gravitational lens phenomenon.\n\narticle\npaper\n\n\n\n\nHis theory:\n\nWarp drive of Tic Tacs in US Navy Close Encounters is the conversion of near field virtual photons-metamaterial quasiparticle hybrids (excitons, polaritons) into near field virtual graviton-hybrids inside the metamaterial fuselage in large numbers forming Glauber macro-quantum coherent “room temperature” superfluid/superconducting pumped non-equilibrium emergent Frohlich-Floquet phases dissipating small amounts of heat and requiring small amounts of external electric power."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/uap/people.html#jim-simons",
+    "href": "library/natural-sciences/physics/uap/people.html#jim-simons",
+    "title": "UAP People",
+    "section": "",
+    "text": "He knows something for sure"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/uap/index.html#early",
+    "href": "library/natural-sciences/physics/uap/index.html#early",
+    "title": "UAP",
+    "section": "Early",
+    "text": "Early\n\nAncient Depictions\nCrucifixtion of Christ \nMiracle of the Snow \nThe Madonna with Saint Giovannino \nTriumph of Summer Tapestry, 1538 \nIsrael, Put Your Hope in the Lord, 1600s\nThe Baptism of Christ, 1710"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/uap/index.html#unordered-stuff",
+    "href": "library/natural-sciences/physics/uap/index.html#unordered-stuff",
+    "title": "UAP",
+    "section": "Unordered Stuff",
+    "text": "Unordered Stuff\nMajestic Documents\nKey OSINT UAP Resources\nIPU Report, Authorized by Allen Dulles"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/uap/index.html#ulat-1",
+    "href": "library/natural-sciences/physics/uap/index.html#ulat-1",
+    "title": "UAP",
+    "section": "ULAT-1",
+    "text": "ULAT-1\nWordpress article\nThe following elements were analyzed and found to exist in the small neutronic power plant that was found inside ULAT-l:\n\na.    UF6 in metallic form;\nb.    hydrogen-fluoride gas;\nc.    water and uranium tetra fluoride;\nd.    powdered magnesium and potassium chlorate,\ne.    metal similar to lead with a chocolate brown color;\nf.   U-235 in metallic form;\ng.   plastic-like material similar to NE 102,\nh.    Beryllium,\ni.    Pure aluminium;\nj.   Thorium isotope material;\nj.   Plutonium powder.\n\nThe only evidence or circuitry found on the motor was thin plastic-like sheets fashioned like platters embossed on the exterior of the spherically-shaped casing coated by a thin film or pure silver. Under high power magnification it was observed a series of fine grid-like lines intersecting groups of dots arranged in circular patterns."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/uap/index.html#project-white-hot",
+    "href": "library/natural-sciences/physics/uap/index.html#project-white-hot",
+    "title": "UAP",
+    "section": "Project White Hot",
+    "text": "Project White Hot\nPROJECT ‘WHITE HOT’ Mission Assessment of Recovered Lenticular Aerodyne Objects\nGeneral Nathan Twining Briefing document for President Eisenhower\nPART 1. PROJECT WHITE HOT INTELLIGENCE ESTIMATE (PRELIMINARY)\nLANDING ZONE NO, 1 Socorro, New Mexico–the unidentified lenticular-shaped Aerodyne which has been designated ULAT-1, has been evaluated as a non air breathing aircraft of unknown origin. Totally lacking conventional wing, fuselage, nacelle, control, and fuel systems strongly indicates it is not Russian.\nConsultation with Paperclip specialists concur. Aerodynamic features exhibited in ULAT-1 represents a very high degree of engineering and sophistication not seen in this country.\nDimensional homogeneity study cannot explain how this craft sustains load and lift factors necessary for flight.\nThe power plant does not even remotely resemble any conventional type now in use. Lacking any discernible intake or exhaust features, it is the opinion of AMC and ONR that this craft was designed to operate outside of the earth’s atmosphere.\nThe unconventional conclusions reached by members of this fact finding mission remain tentative at this time. Some members have expressed the view that ULAT-1 may be the product of an advanced culture from another planet that is much older than ours and has utilized their science and intellect for interplanetary space travel. It is not precisely known if the occupants purposely had the objective of exploration and of curiosity or with the intent of surveying for other reasons. So far, no hostile action or intent has been observed since they made their presence known.\nGiven the fact that our atomic bomb tests, atmospheric exploration with rockets, and XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXed in New Mexico, could have precipitated the events that led to the incident and subsequent actions taken by the military.\nOperating under the assumption that the fallen object was a long-range Russian reconnaissance platform collecting aerial photographic intelligence data military intelligence personnel were a instructed to secure the craft, debris and any occupants as rapidly as possible.\nConcerns over possible exposure to civilian of unknown biological and chemical agents dictated the quarantine measures taken.\nRadiation hazards were assumed and protective measures were taken as well.\nIn the interest or National Security priorities it was necessary to detain civilian witnesses for interrogation to satisfy intelligence requirements and quash rumors that could alert potential espionage agents known to be in the vicinity.\nSeveral bodies were discovered.\nBecause on-site medical personnel were unsure of the physiological make up of the occupants, special preparations and preservation methods were employed. Autopsy information obtained so far suggests that the occupants mimic the features associated with Orientals.\nOutwardly, they appear human-like with but one exception, autopsy notes mention a rarely observed XXXXXXXXXXXXXXXXXXXXXXXXXXXXXs present which supports the premise that these beings originate from another planet.\nPART TWO TECHNICAL EVALUATION (PRELIMINARY) ULAT-1\nUpon close examination of the exterior surfaces of the craft’s fuselage, metallurgists found the the skin to be of a ferrous metal white in color. The metal exhibits all the characteristics of high grade steel. It was determined that the steel was cold-formed and heat created.\n\nTensile strength was estimated in excess of 50,000 pounds per square inch. Shear tests give the metal a durability rating above 175,000 pounds per square inch, making this fuselage extremely strong and heat resistant.\nStatic and pressure flow simulations were impressive. The low profile ration of 6-1 gives the aerodyne a great advantage in overcoming the restrictions of the boundary layer effect in high performance operations.\nSpan flanges are constructed in unusual kinematic design which is believed to allow strain relief at supersonic speeds. There were no visible signs of plate-stiffeners, there were no fasteners, weld, rivets, or fittings, holding the fuselage together.\nLack of wings, flaps, stabilizers, and surface central features, suggests that the craft is a lifting body.\nThere are no air intakes for exhaust.\nThere are no cables\nThere are no identifiable electronics (wiring, ignition, lights, instrument, compartment, engine, motors, vacuum tubes, solenoids, generators, heaters, etc.)\nThe power-plant, (severely damaged) XXXXXXXXXXXXXXXXXx neutronic engine. XXXXXXXXXXXXXXXXXXXXXx detected heavy water and deuterium (light hydrogen) elements appeared to be the primary ignitor. A series of coils and heavy magnets connected to the neutronic engine via an oddly arranged group of electrodes (actually not yet identified) appears to be the active force. One small motor was examined. It is encased in a pure aluminium capsule directly underneath the main compartment. There is a small exhaust aperture attached that was what can only be described as an helicoid mechanism XXXXXXXXXXXXXXXXXXXXX. The auxiliary motor may be articulated.\n\nAdvertisement\n\nNavigation and engine controls may be activated by tactile manipulation. Viewing may have been achieved by form of television imagery. Symbolic notation appears to be the form of flight and control indicators. Flat panels of unknown metal has been suggested as a device associated with the operation of the aerodyne was discovered and analyzed. It’s mode of operation and purpose is unknown.\nThe absence of provisions, berthing compartments and storage areas, suggest the notion that this craft may be a short range reconnaissance platform. The only recognizable features XXXXXXXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nMode of operation of operation is believed to be instrumentation and suggests that the aerodyne from reconstruction from available wreckage XXXXXXXXXXXXXXXXXX biosensory and optical stimuli for these reasons:\n\nabsence of indicator signals Absence of any circular dials Absence of linear dials or moving pointers Absence of counters Absence of scopes No mechanical signal indicators 12. There were identifiable control types found among the assortment of artefacts that would indicate the operation of the propulsion unit was manually activated – no knobs, push buttons, toggle switches, levers, balls, handwheels, hand-cranks, or foot pedals were observed in the interior space of the flight cabin.\n\nThe apparent lack of additional clothing and equipment reinforces the belief that the occupants were engaged in a purely exploratory flight.\nIt is not presently known if electromagnetic radiation effects from the power plant had contributed to pilot error or death before impact. If inadequate shielding was the primary cause of pilot error XXXXXXXXXXXXXXs detected.\nIt is believed by some of the crash inspection personnel that sudden decompression and change in atmospheric pressure may have contributed to pilot error. Clothing removed from occupants do not resemble any pressure suit currently being tested by the Army or the Navy for high altitude experiments. Since temperature and humidity factors for the occupants is unknown, it is impossible to determine if decompression and temperature changed affected circulatory and dexterity functions. Although it is believed the occupants may have been overcome by some yet undiscovered pollutant or noxious fumes originating inside the craft.\nRotation or rapid oscillation could have been a contributing factor in pilot error. It is not known if organic effects played a part either since medical data is non-existent in which to make any judgment as to exact cause of death or machine failure.\nThe most probable cause of the crash is believed to be excessive acceleration combined with steep descent. The seating arrangement was transversely designed about the vertical axis of the occupants in a positive direction of flight. The panels removed from the craft resemble the ones taken from the occupants, suggesting a symbionic relationship between operator and the function of the aerodyne’s operation. A very tentative working theory was expressed by the scientific members of the inspection team that pilot-aerodyne interaction may occur via electronic-nonword symbols perceived through the tactile manipulation of the fingers feeding impulses to the brain and visa versa. All of which may suggest a non-inert quality or the materials existent as being a product or artificial intelligence.\nThe following elements were analyzed and found to exist in the small neutronic power plant that was found inside ULAT-l:\n\n\nUF6 in metallic form;\nhydrogen-fluoride gas;\nwater and uranium tetra fluoride;\npowdered magnesium and potassium chlorate,\nmetal similar to lead with a chocolate brown color;\nU-235 in metallic form;\nplastic-like material similar to NE 102,\nBeryllium,\nPure aluminium;\nThorium isotope material;\nPlutonium powder.\n\n\nScientists from Los Alamos and Sandia Base were alarmed that the power plant could possibly function as a bomb if the elements described above were processed in similar fashion as was done for the lens and shot-gun detonators. This originally was the first conclusion. After further evaluation, it was determined that since no recognizable firing circuits were identified, the threat or detonation did not exist.\nThe only evidence or circuitry found on the motor was thin plastic-like sheets fashioned like platters embossed on the exterior of the spherically-shaped casing coated by a thin film or pure silver. Under high power magnification it was observed a series of fine grid-like lines intersecting groups of dots arranged in circular patterns.\n\nPART III SCIENTIFIC PROBABILITIES\n\nBased on all available evidence collected from recovered exhibits currently under study by AHC, AFSWP, NEPA, AEC, ONA, NACA, JBDB, RAND, USAAF SAG. and MIT, are deemed extraterrestrial in nature. This conclusion was reached as a result of comparisons of artifacts XXXXXXXXXXXXXXXXXX discovery in 1941. The technology is outside the scope of US science, even that of German rocket and aircraft development.\nInterplanetary space travel is possible provided adequate funding, necessary resources are made available, and national interest is piqued.\nOur solar system is not unique. Chances are favorable for intelligent life on other planets notwithstanding similar development not unlike our own.\nBeing that our culture is relatively young (in relation to the cosmic scale), it is possible that other cultures may have developed faster, or are much older and have avoided the pitfalls common in our historical and scientific development.\nHuman origins may not be constrained to one planet. Our genus may be found among solar systems similar to our own.\nThe laws of physics and genetics may have a genesis in a higher, structured order than once previously thought.\n\nPART IV POLITICAL CONSIDERATIONS\nGiven the existing political climate in the US and the unstable conditions in Europe, it is the considered opinion of the members, that if the Administration went public with the information as found in this report now, the results would be damaging, even fatal to the world Political structure as it now exists. The following considerations were reviewed and debated, which led the mission to the following opinions:\n\nPublic trust of the political institutions may be eroded and possibly be held in disrepute.\nA complete revisioning make take place as institutions of higher learning thus calling into question the certainty of scientific knowledge.\nThe ability of the Armed Forces to secure National Security would be put in jeopardy and possibly lead to undue public fear and disorder.\nHistory and religion in the political context would probably suffer the most damage causing unprecedented upheaval in social and psychological well-being.\nPolitical repercussions may occur in our diplomatic efforts of containing the Communist threat to our democratic interests.\nIf such an announcement were made by the current Administration, it could be perceived by opposing party as a trick, laying open to accusations of unethetical (sic) posturing and manipulation of the public’s mind.\n\nPART V NATIONAL SECURITY STRUCTURE\nWith the passage of the National Security Act of 1947 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXas presented an unprecedented situation regarding maintaining secrecy related to the information contained in this report.\nIn the early months of 1942, up until the present, intrusions of unidentified aircraft have occasionally been documented, but there has been no serious investigations by the intelligence arm of the Government. Even the recovery case of 1941 did not create a unified intelligence effort to exploit possible technological gains with the exception of the Manhattan Project. We now have an opportunity to extend our technology beyond the threshold that we have achieved, XXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXX. Aside from technological gains, we face an even greater challenge, that of learning the intent of such a presence. There are questions that remain unanswered, such as: What forces face us? What kind of defense do we have? Where do they come from and what kind of weapons do they possess? Where can we stage our forces in advance, XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX How wide a front? How many craft can we expect? And XXXXXXXXXXX XXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXX\nThe members of the mission are prepared to submit a separate report on just this problem alone. And it would take a dozen volumes to explain how these problems should be met.\nOur only point, however, is that a combined intelligence and research operation would be a vast, intricate, covertly planned marshaling of resources, human and material, to solve a specific, clearly defined problem.\nWe have to find effective methods of persuasion with other government agencies without creating a sense of impending doom. The first task is to carefully appraise the problem. The second is to evaluate the known resources and probable strategy of the visitors. The third is to inventory our own ways and means, ascertain how much resources we can bring to bear, and how fast. The third is to devise our strategic plan. And last is to work out with infinite pains the tactical details and the myriad secondary problems of funding and security.\nIt is the unanimous opinion of the members that Operation MAJESTIC TWELVE be a fully funded ant operational TOP SECRET Research and Development intelligence gathering agency. It is also recommended that a panel of experts be appointed to chair and oversee the functions and operations of said agency. It’s members should have appropriate security clearances and full cooperation XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXX XXXXXXXX XXXXXXXXXXXXXXXXX XXXXXXXXXXX the National Security Council, the Pentagon, XXXXXXXht, XXXXXXXXXXXXXXXXXXXXX Joint Intelligence Committee, Joint Intelligence Objectives Agency, Central Intelligence Agency, Atomic Energy Commission, Joint Research and Development Board, Army Security Agency, and the National Advisory Board on Aeronautics.\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXgy are highlighted:\n\nPropeller driven bomber aircraft and jet engines, armed with conventional and atomic bombs.\nJet fighter aircraft, including some of super­sonic speed, armed with rockets and guns.\nPropeller-driven aircraft, valued for their endurance. .\nGuided anti-aircraft missiles, and radar-guided anti-aircraft guns.\nShort and medium-range guided missiles. Drone aircraft.\nAtomic charges, in bombs, missiles and torpedoes.\n\nIn the arena of nuclear weapons we feel there is a certain advantage to be gained XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX. It is speculated by some that if reduced size and miniature circuitry were introduced into the proposed hydrogen bomb program, it would give US Strategic Air Forces a great deterrence capability over the Russians. Current studies at MIT of micro-electronics taken from ULAT-1 may give us the strategic advantage so desired. It is strongly recommended that funding be allocated in this area.\nThere is a good chance that the Russians may try to make use of the flying saucer scare by public news media and diplomatic means of a technological breakthrough in aircraft and missile development. We feel that such a disclosure would certainly cause great embarrassment to our elected officials and to the military, not to mention the panic felt by the citizenry. To counter such a threat, it is recommended that a counterintelligence program be drawn up and held in abeyance if at such time the situation should present itself. It might be suggested that we should make a preempted use of these objects for the purpose of psychological warfare once the true nature of these objects are known and understood.\nTo further assist and aid all MAJCOM in the US and overseas, it is recommended that a standard intelligence reporting system be implemented through standard reporting channels with technical data forwarding instructions. At present, there are no specific intelligence guidelines available to military commanders in dealing with sightings and material evidence collection. It would be advisable for the respective Secretaries of the Armed Forces to devise a security policy of plausible denial, if and when the public becomes aware of the reality of these objects and the interest of the military of such incidents.\nIn conclusion, for reasons of national security and the public well being, the US must be perceived as being the top of the heap and every effort must be made to insure that there is, and never has been, a threat to the country."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/uap/index.html#technology",
+    "href": "library/natural-sciences/physics/uap/index.html#technology",
+    "title": "UAP",
+    "section": "Technology",
+    "text": "Technology\n\nFaster than Light Travel\nWarp Drives Part 1: Problem Statement and Insights\nCould superconductors transmute electromagnetic radiation into gravitational waves?\nPolarizable Vacuum “Metric Engineering” Approach to GR-Type Effects\nNeed to get this on dark web! Summary of Chapel Hill Conf\nBehind the Scenes Chapel Hill\nThe Role of Gravitation in Physics\nAn Evening With Director of National Intelligence Avril Haines\nAdvanced Space Propulsion Based on Vacuum Engineering\nNovel Ni-Doped Bismuth–Magnesium Tantalate Pyrochlores: Structural and Electrical Properties, Thermal Expansion, X-ray Photoelectron Spectroscopy, and Near-Edge X-ray Absorption Fine Structure Spectra\nFew-layer bismuth selenide cathode for low-temperature quasi-solid-state aqueous zinc metal batteries\nFaster than Light Travel\nWarp Drives Part 1: Problem Statement and Insights\nCould superconductors transmute electromagnetic radiation into gravitational waves?\nPolarizable Vacuum “Metric Engineering” Approach to GR-Type Effects\nSuperconductors as quantum transducers and antennas for gravitational and electromagnetic radiation"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/uap/index.html#majestic-12",
+    "href": "library/natural-sciences/physics/uap/index.html#majestic-12",
+    "title": "UAP",
+    "section": "Majestic 12",
+    "text": "Majestic 12\nFBI says this document is fake\nGovernment Accountability Office says “MJ12” Fabricated, 1995\nArchives.gov, however, admits existence\n\nSearches were made of the indexes to the NSC’s Policy Paper and Meeting Minute files under the subjects MJ-12, majestic, unidentified flying objects, UFO, flying saucers,extraterrestrial biological entities and Aquarius. These searches were all negative with the exception of a “Memorandum for General Twining, from Robert Cutler, Special Assistant to the President, Subject:”NCS/MJ-12 Special Studies Project” dated July 14, 1954. The memorandum, one page, refers to a briefing to take place on July 16. The memorandum does not identify MJ-12 or the purpose of the briefing.\n\nBlack Vault: Majestic"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/uap/index.html#ancient-depictions",
+    "href": "library/natural-sciences/physics/uap/index.html#ancient-depictions",
+    "title": "UAP",
+    "section": "Ancient Depictions",
+    "text": "Ancient Depictions\nCrucifixtion of Christ \nMiracle of the Snow \nThe Madonna with Saint Giovannino \nTriumph of Summer Tapestry, 1538 \nIsrael, Put Your Hope in the Lord, 1600s\nThe Baptism of Christ, 1710"
+  },
+  {
+    "objectID": "library/natural-sciences/physics/uap/people.html#jack-sarfatti",
+    "href": "library/natural-sciences/physics/uap/people.html#jack-sarfatti",
+    "title": "UAP People",
+    "section": "Jack Sarfatti",
+    "text": "Jack Sarfatti\nHis theory:\n\nWarp drive of Tic Tacs in US Navy Close Encounters is the conversion of near field virtual photons-metamaterial quasiparticle hybrids (excitons, polaritons) into near field virtual graviton-hybrids inside the metamaterial fuselage in large numbers forming Glauber macro-quantum coherent “room temperature” superfluid/superconducting pumped non-equilibrium emergent Frohlich-Floquet phases dissipating small amounts of heat and requiring small amounts of external electric power."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/uap/people.html#people",
+    "href": "library/natural-sciences/physics/uap/people.html#people",
+    "title": "UAP People",
+    "section": "",
+    "text": "He knows something for sure\n\n\n\nDr. Harold E. Puthoff is the co-founder and Vice President of Science and Technology of TTS Academy. Since 1985, Dr. Puthoff has served as President and CEO of EarthTech International, Inc. (ETI), and Director of the Institute for Advanced Studies at Austin (IASA). He has published numerous papers on electron-beam devices, lasers and space propulsion and has patents issued in the laser, communications, and energy fields. Dr. Puthoff’s professional background spans more than five decades of research at General Electric, Sperry, the National Security Agency, Stanford University and SRI International. Dr. Puthoff regularly advises NASA , the Department of Defense and intelligence communities, corporations and foundations on leading-edge technologies and future technology trends. He earned his Ph.D. from Stanford University in 1967 and won a Who’s Who Lifetime Achievement in 2017 that recognizes individuals that have achieved greatness in their industry and have excelled in their field for at least 20 years.\nLecture 2018\n\nvideo\nwriteup\nIRVA-SSE 2018\n\n2021 SCU AAP Conference Keynote by Hal Putoff\n\nvideo\n\n\n\n\n\nDr. Salvatore Pais | Intuitive Science, Conscious Universe & The Philosophy of Physics\n\n\n\n\nRichard Griffiths serves as Affiliate Faculty at University of Hawaii at Hilo, Physics and Astronomy. He leads the team that solved a gravitational lens phenomenon.\n\narticle\npaper\n\n\n\n\nHis theory:\n\nWarp drive of Tic Tacs in US Navy Close Encounters is the conversion of near field virtual photons-metamaterial quasiparticle hybrids (excitons, polaritons) into near field virtual graviton-hybrids inside the metamaterial fuselage in large numbers forming Glauber macro-quantum coherent “room temperature” superfluid/superconducting pumped non-equilibrium emergent Frohlich-Floquet phases dissipating small amounts of heat and requiring small amounts of external electric power."
+  },
+  {
+    "objectID": "library/natural-sciences/physics/uap/index.html#people",
+    "href": "library/natural-sciences/physics/uap/index.html#people",
+    "title": "UAP",
+    "section": "People",
+    "text": "People\n\nJim Simons\nHe knows something for sure\n\n\nHal Puthoff\nDr. Harold E. Puthoff is the co-founder and Vice President of Science and Technology of TTS Academy. Since 1985, Dr. Puthoff has served as President and CEO of EarthTech International, Inc. (ETI), and Director of the Institute for Advanced Studies at Austin (IASA). He has published numerous papers on electron-beam devices, lasers and space propulsion and has patents issued in the laser, communications, and energy fields. Dr. Puthoff’s professional background spans more than five decades of research at General Electric, Sperry, the National Security Agency, Stanford University and SRI International. Dr. Puthoff regularly advises NASA , the Department of Defense and intelligence communities, corporations and foundations on leading-edge technologies and future technology trends. He earned his Ph.D. from Stanford University in 1967 and won a Who’s Who Lifetime Achievement in 2017 that recognizes individuals that have achieved greatness in their industry and have excelled in their field for at least 20 years.\nLecture 2018\n\nvideo\nwriteup\nIRVA-SSE 2018\n\n2021 SCU AAP Conference Keynote by Hal Putoff\n\nvideo\n\n\n\nSalvatore Pais\n\nDr. Salvatore Pais | Intuitive Science, Conscious Universe & The Philosophy of Physics\n\n\n\nRichard Griffiths\nRichard Griffiths serves as Affiliate Faculty at University of Hawaii at Hilo, Physics and Astronomy. He leads the team that solved a gravitational lens phenomenon.\n\narticle\npaper\n\n\n\nJack Sarfatti\nHis theory:\n\nWarp drive of Tic Tacs in US Navy Close Encounters is the conversion of near field virtual photons-metamaterial quasiparticle hybrids (excitons, polaritons) into near field virtual graviton-hybrids inside the metamaterial fuselage in large numbers forming Glauber macro-quantum coherent “room temperature” superfluid/superconducting pumped non-equilibrium emergent Frohlich-Floquet phases dissipating small amounts of heat and requiring small amounts of external electric power."
   }
 ]
