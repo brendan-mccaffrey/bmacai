@@ -820,5 +820,20 @@
   },
   "library/life-sciences/health/cold-exposure.qmd": {
     "cold-exposure.html": "54bc4fcf"
+  },
+  "library/natural-sciences/crypto/rekt/mango.qmd": {
+    "mango.html": "6c592f29"
+  },
+  "library/natural-sciences/crypto/rekt/ygg.qmd": {
+    "ygg.html": "e29c21da"
+  },
+  "library/natural-sciences/crypto/apps/hyperliquid.qmd": {
+    "hyperliquid.html": "1a318265"
+  },
+  "library/life-sciences/health/nutrition/nutrition.qmd": {
+    "nutrition.html": "0a5ece2f"
+  },
+  "writes/posts/blockchain-privacy/index.qmd": {
+    "index.html": "c5ae045f"
   }
 }

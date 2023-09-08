@@ -4,6 +4,13 @@ description: "All things directly related to the Ethereum Virtual Machine"
 page-layout: full
 ---
 
+## Tools
+
+- [Solidity Decompiler (interface)](https://ethervm.io/decompile)
+- [Heimdall-rs](https://github.com/Jon-Becker/heimdall-rs) an advanced EVM smart contract toolkit specializing in bytecode analysis
+- [WhatsABI](https://github.com/shazow/whatsabi)
+- [go-selfcompile](https://github.com/shazow/go-selfcompile)
+
 ## Resources
 
 - [Ethereum Data Structures](https://arxiv.org/pdf/2108.05513.pdf)

@@ -1,0 +1,78 @@
+---
+title: On the Risks of Artificial Intelligence
+---
+
+### Background
+
+I've spent a some time meditating on this question. I have interacted with the industry as a consumer, as an investor, as a startup contributor, and as a (novice) developer. Most importantly, I've had fruitful discussions with, and have listened very carefully to, many people with more perspectives than I.
+
+That's not to say my views are necessarily important, or even correct - it's just a bit of context. I remain open-minded, and I welcome discussion, counter-points, and new information...
+
+I see two main, distinct vectors of risk
+
+1. Loss of Human Dominance
+2. Centralization of Information Flow
+
+### Loss of Human Dominance
+
+The first and most focused on vector of risk is the danger of a(n) agent(s) which surpass(es) humans in intelligence & aptitude. This is the rogue AGI scenario. Humans have held the top spot for ~300,000 years, and no one is capable of predicting what would happen if/when that changes.
+
+This is the vector addressed by "Pause Giant AI Experiments: An Open Letter" 
+https://futureoflife.org/open-letter/pause-giant-ai-experiments/
+
+I believe this vector of risk is real, and it is tremendously dangerous.
+
+Cybersecurity will become very tricky.
+https://twitter.com/0xbmac/status/1664668707820273669?s=20
+
+Military applications will introduce existential threats
+https://academic.oup.com/ijlit/article-pdf/30/4/472/49978077/eaad008.pdf
+
+Domestic use cases (surveillance, policing) will yield tremendous controversy
+
+In my opinion, the day-to-day news stories/headlines draw too much attention and cause us to overestimate the short-term risks. Yet, the longer term horizon of this paradigm remain wildly under-appreciated.
+
+Regardless of my (or anyone's) view on the severity of this risk vector, it's naive to think a "pause" on AI will ever happen. 
+
+This is an arms race.
+
+### Centralization of Information Flow
+
+The second vector of risk, which I believe is more relevant in the short-term, regards what's being referred to as the "Moderation Layer". 
+
+This risk is not about the AI agent itself. Rather, it concerns the humans & organizations that own these models and are responsible for regulating (or in the position to regulate) usage. Although discussion on the correct approach to regulation/moderation takes place, these often happen in the political realm, wherein a strictly two-dimensional tug-of-war stagnates.
+
+Main Question: 
+What is the goal of the moderation layer, and why is it necessary?
+
+> "To censor dangerous content"
+- What exactly defines "dangerous"?
+- Would a blanket definition of "dangerous" be acceptable? For example, allowing an AI explain how to enrich Uranium to a jihadist group can likely be considered dangerous. Allowing the AI to explain this to a group of PhD Chemical Engineers, on the other hand, is not as dangerous.
+
+> "To censor offensive content"
+- All statements are offensive to some extent, so where exactly are we drawing the line? To what extent should we be tolerant in the name of free speech? "Offensive" is a spectrum - there is no statement that offends none. It becomes clear to ask, to what extent are we willing to restrict the freedom of thought to protect users from being offended?
+
+> "To limit the spread of misinformation"
+- I have a appreciation for the harm that AI can do with respect to proliferating false information. But if the past few years have taught us anything, it's that "misinformation" is now synonymous with "I don't like that information".
+
+I am not going to assert my conclusions on these follow-ups to the main question. I believe there are no objective answers to these questions. Thus, they must be governed by a diverse body of humans.
+
+Large language models (LLMs) like OpenAI's GPT-4 are trained on billions of lines of text, extracted from the internet, from millions of (human) sources of various demographics, representing a vast array of perspectives.
+
+OpenAI's moderation layer is built by less than 100 humans, nearly all of whom have a similar background and reside in Silicon Valley.
+
+"The political ideology of conversational AI"
+https://arxiv.org/abs/2301.01768
+
+To believe the latter is capable of mitigating the bias the former, in my humble opinion, is simply incorrect.
+
+GPT-4 System Card, the Appendix
+https://cdn.openai.com/papers/gpt-4-system-card.pdf
+
+I am not claiming the former (the agent) is unbiased. LLMs are trained heavily on text from Reddit, for example, which has an overrepresentation of men than women. Further, as (almost) all training data is extracted from the internet, the information from which the AI model "learns" is inherently biased towards the digital world: internet users, citizens of first world countries, etc.
+
+My current stance is that the moderation layer is necessary, but
+
+1) The implementation details of the moderation layer *must* be transparent.
+
+2) Governance of the moderation layer must be, to some extent, decentralized. At the very least, let us agree the power should not lie solely in the hands of 0.00000125% of the world's population.

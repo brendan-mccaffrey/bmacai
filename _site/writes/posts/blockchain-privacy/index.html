@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="All things directly related to the Ethereum Virtual Machine">
+<meta name="author" content="Brendan McCaffrey">
+<meta name="dcterms.date" content="2022-07-24">
 
-<title>bmac - EVM</title>
+<title>bmac - Blockchain != Privacy</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,18 +25,18 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<link href="../../../../../media/favicon.ico" rel="icon">
-<script src="../../../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<link href="../../../media/favicon.ico" rel="icon">
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -54,21 +55,21 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../../../../../styles.css">
-<meta name="twitter:title" content="bmac - EVM">
-<meta name="twitter:description" content="All things directly related to the Ethereum Virtual Machine">
+<link rel="stylesheet" href="../../../styles.css">
+<meta name="twitter:title" content="bmac - Blockchain != Privacy">
+<meta name="twitter:description" content="">
 <meta name="twitter:image" content="media/bg.jpeg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar docked nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../../../../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">bmac</span>
     </a>
   </div>
@@ -78,15 +79,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../../../index.html" rel="" target="">
+    <a class="nav-link" href="../../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../../library" rel="" target="">
+    <a class="nav-link" href="../../../library" rel="" target="">
  <span class="menu-text">Reads</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../../writes/index.html" rel="" target="">
+    <a class="nav-link" href="../../../writes/index.html" rel="" target="">
  <span class="menu-text">Writes</span></a>
   </li>  
 </ul>
@@ -112,21 +113,21 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../../../library/index.html">Library</a></li><li class="breadcrumb-item"><a href="../../../../../library/natural-sciences/computer-hardware/index.html">Natural Sciences</a></li><li class="breadcrumb-item"><a href="../../../../../library/natural-sciences/crypto/cex/index.html">Crypto</a></li><li class="breadcrumb-item"><a href="../../../../../library/natural-sciences/crypto/blockchains/index.html">Blockchains</a></li><li class="breadcrumb-item"><a href="../../../../../library/natural-sciences/crypto/blockchains/evm/index.html">EVM</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Blockchain != Privacy</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../../library/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../library/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Library</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -144,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/life/deposit-cash.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/life/deposit-cash.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cash Management</span></a>
   </div>
 </li>
@@ -161,13 +162,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/life-sciences/environment/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/life-sciences/environment/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Environment</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/life-sciences/biology/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/life-sciences/biology/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Biology</span></a>
   </div>
 </li>
@@ -182,25 +183,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/life-sciences/health/cold-exposure.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/life-sciences/health/cold-exposure.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cold Exposure</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/life-sciences/health/cognition/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/life-sciences/health/cognition/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cognition</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/life-sciences/health/physiology/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/life-sciences/health/physiology/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Physiology</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/life-sciences/health/covid/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/life-sciences/health/covid/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Covid-19</span></a>
   </div>
 </li>
@@ -215,7 +216,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/life-sciences/health/nutrition/nutrition.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/life-sciences/health/nutrition/nutrition.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Nutrition</span></a>
   </div>
 </li>
@@ -227,37 +228,37 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false">
  <span class="menu-text">Natural Sciences</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/computer-hardware/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/computer-hardware/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Computer Hardware</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/maths/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/maths/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Maths</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false">
  <span class="menu-text">Crypto</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth3 show">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/crypto/cex/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/crypto/cex/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">CEXs</span></a>
   </div>
 </li>
@@ -272,7 +273,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/crypto/apps/hyperliquid.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/crypto/apps/hyperliquid.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Hyperliquid</span></a>
   </div>
 </li>
@@ -287,7 +288,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/crypto/apps/ethena/ethena.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/crypto/apps/ethena/ethena.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ethena Labs</span></a>
   </div>
 </li>
@@ -297,7 +298,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../../library/natural-sciences/crypto/rekt/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../library/natural-sciences/crypto/rekt/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Rekt</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -306,19 +307,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/crypto/rekt/mango.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/crypto/rekt/mango.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Mango Markets REKT</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/crypto/rekt/stake.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/crypto/rekt/stake.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Stake</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/crypto/rekt/ygg.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/crypto/rekt/ygg.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">YGG REKT</span></a>
   </div>
 </li>
@@ -326,22 +327,22 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../../library/natural-sciences/crypto/blockchains/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../library/natural-sciences/crypto/blockchains/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blockchains</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth4 show">  
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/crypto/blockchains/consensus.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/crypto/blockchains/consensus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Consensus</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../../library/natural-sciences/crypto/blockchains/solana/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../library/natural-sciences/crypto/blockchains/solana/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Solana</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -359,7 +360,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth6 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/crypto/blockchains/solana/events/mango.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/crypto/blockchains/solana/events/mango.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Mango Rekt</span></a>
   </div>
 </li>
@@ -369,7 +370,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../../library/natural-sciences/crypto/blockchains/bitcoin/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../library/natural-sciences/crypto/blockchains/bitcoin/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Bitcoin</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -378,7 +379,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/crypto/blockchains/bitcoin/btc-core.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/crypto/blockchains/bitcoin/btc-core.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Running Bitcoin Core</span></a>
   </div>
 </li>
@@ -386,22 +387,22 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../../library/natural-sciences/crypto/blockchains/evm/index.html" class="sidebar-item-text sidebar-link active">
+            <a href="../../../library/natural-sciences/crypto/blockchains/evm/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">EVM</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth5 show">  
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/crypto/blockchains/evm/layer-2/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/crypto/blockchains/evm/layer-2/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Layer 2 Rollups</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/crypto/blockchains/evm/ethereum/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/crypto/blockchains/evm/ethereum/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ethereum</span></a>
   </div>
 </li>
@@ -411,7 +412,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../../library/natural-sciences/crypto/mev/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../library/natural-sciences/crypto/mev/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -420,7 +421,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/crypto/mev/amm/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/crypto/mev/amm/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">MEV on AMMs</span></a>
   </div>
 </li>
@@ -430,7 +431,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../../library/natural-sciences/physics/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../library/natural-sciences/physics/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Physics</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -439,49 +440,49 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/physics/relativity/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/physics/relativity/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Relativity</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/physics/nuclear/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/physics/nuclear/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Nuclear</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/physics/maths/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/physics/maths/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Physics Maths</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/physics/uap/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/physics/uap/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">UAP</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/physics/particle/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/physics/particle/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Particle Physics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/physics/quantum/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/physics/quantum/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Quantum Physics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/physics/materials.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/physics/materials.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Materials Physics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/physics/mysteries.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/physics/mysteries.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Mysteries</span></a>
   </div>
 </li>
@@ -496,7 +497,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-18" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/physics/classical/fluid-dynamics.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/physics/classical/fluid-dynamics.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Fluid Dynamics</span></a>
   </div>
 </li>
@@ -511,7 +512,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-19" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/physics/classical/papers/energetics-of-turbulent-fluids.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/physics/classical/papers/energetics-of-turbulent-fluids.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Energetics of Turbulent Fluids</span></a>
   </div>
 </li>
@@ -521,7 +522,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../../library/natural-sciences/physics/government/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../library/natural-sciences/physics/government/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Government</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -539,7 +540,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-21" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/physics/government/darpa/fellows.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/physics/government/darpa/fellows.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">DARPA Fellows</span></a>
   </div>
 </li>
@@ -556,7 +557,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-22" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/physics/government/pentagon/pleads-fifth-exotic-materials.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/physics/government/pentagon/pleads-fifth-exotic-materials.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Pentagon Pleads the Fifth</span></a>
   </div>
 </li>
@@ -566,7 +567,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../../library/natural-sciences/physics/electromagnetism/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../library/natural-sciences/physics/electromagnetism/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Electromagnetism</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-23" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -575,13 +576,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-23" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/physics/electromagnetism/superconductor/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/physics/electromagnetism/superconductor/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Superconductors</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/physics/electromagnetism/mhd/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/physics/electromagnetism/mhd/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">MHD</span></a>
   </div>
 </li>
@@ -598,7 +599,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-24" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/physics/field-theory/effective-or-fundamental.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/physics/field-theory/effective-or-fundamental.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Fundamental?</span></a>
   </div>
 </li>
@@ -615,13 +616,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-25" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/physics/unification/geometric-unity.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/physics/unification/geometric-unity.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Geometric Unity</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/physics/unification/string-theory.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/physics/unification/string-theory.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">String Theory</span></a>
   </div>
 </li>
@@ -640,7 +641,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-26" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/software/virtual-machines/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/software/virtual-machines/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Virtual Machines</span></a>
   </div>
 </li>
@@ -655,7 +656,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-27" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/software/ai/bio/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/software/ai/bio/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">AI x Bio</span></a>
   </div>
 </li>
@@ -670,7 +671,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-28" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/software/ai/history-of-ai/history-of-ai.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/software/ai/history-of-ai/history-of-ai.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">History of AI</span></a>
   </div>
 </li>
@@ -689,7 +690,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-29" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/natural-sciences/software/programming/rust/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/natural-sciences/software/programming/rust/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Rust Language</span></a>
   </div>
 </li>
@@ -710,7 +711,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-30" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/reads/straussian-moment.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/reads/straussian-moment.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Straussian Moment</span></a>
   </div>
 </li>
@@ -736,7 +737,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-32" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/social-sciences/events/maui-fire/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/social-sciences/events/maui-fire/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Maui Fire</span></a>
   </div>
 </li>
@@ -744,7 +745,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../../library/social-sciences/geopolitics/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../library/social-sciences/geopolitics/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Geopolitics</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-33" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -753,19 +754,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-33" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/social-sciences/geopolitics/deep-state.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/social-sciences/geopolitics/deep-state.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Deep State</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/social-sciences/geopolitics/reads/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/social-sciences/geopolitics/reads/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Reads</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../../library/social-sciences/geopolitics/corruption/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../library/social-sciences/geopolitics/corruption/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Corruption</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-34" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -774,7 +775,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-34" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/social-sciences/geopolitics/corruption/biden.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/social-sciences/geopolitics/corruption/biden.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Biden Family</span></a>
   </div>
 </li>
@@ -784,7 +785,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../../library/social-sciences/finance/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../library/social-sciences/finance/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Finance</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-35" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -802,7 +803,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-36" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/social-sciences/finance/finance-101/finance-101.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/social-sciences/finance/finance-101/finance-101.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Finance 101</span></a>
   </div>
 </li>
@@ -819,7 +820,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-37" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/social-sciences/finance/quant-trading/quant-trading.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/social-sciences/finance/quant-trading/quant-trading.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Quant Trading</span></a>
   </div>
 </li>
@@ -845,13 +846,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-39" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/social-sciences/finance/trading/trades/JGByields/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/social-sciences/finance/trading/trades/JGByields/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">JGB Rates</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../../library/social-sciences/finance/trading/trades/comstock/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../library/social-sciences/finance/trading/trades/comstock/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">LODE</span></a>
   </div>
 </li>
@@ -872,27 +873,35 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">EVM</h1>
+<h1 class="title">Blockchain != Privacy</h1>
   <div class="quarto-categories">
     <div class="quarto-category">crypto</div>
-    <div class="quarto-category">ethereum</div>
+    <div class="quarto-category">blockchain</div>
+    <div class="quarto-category">privacy</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    All things directly related to the Ethereum Virtual Machine
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Brendan McCaffrey </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 24, 2022</p>
+    </div>
+  </div>
   
     
   </div>
@@ -900,20 +909,59 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="tools" class="level2">
-<h2 class="anchored" data-anchor-id="tools">Tools</h2>
-<ul>
-<li><a href="https://ethervm.io/decompile">Solidity Decompiler (interface)</a></li>
-<li><a href="https://github.com/Jon-Becker/heimdall-rs">Heimdall-rs</a> an advanced EVM smart contract toolkit specializing in bytecode analysis</li>
-<li><a href="https://github.com/shazow/whatsabi">WhatsABI</a></li>
-<li><a href="https://github.com/shazow/go-selfcompile">go-selfcompile</a></li>
-</ul>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>There exists a common misconception that privacy is an inherent feature to blockchain protocols. Below, I explain how current blockchain implementations do <em>not</em> guarantee privacy. In fact, today’s blockchain protocols introduce an <em>unprecedented</em> ability for the powerful to surveil the weak.</p>
 </section>
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<section id="cypherpunks" class="level2">
+<h2 class="anchored" data-anchor-id="cypherpunks">Cypherpunks</h2>
+<p>The commonality of this misconception may be explained, at least in part, by the founding culture associated with blockchain technology. Blockchain technology emerged in the late 20th century from several key innovations in the field of cryptography, the same field from which the manifestation of informational privacy (encryption), was pioneered.</p>
+<p>The <em>Cypherpunks</em> were a group of cryptographic enthusiasts who advocated for the use of cryptography and similar methods as ways to achieve societal and political change. Founded in the early 1990s, the movement has been most active during the 1990s “cryptowars” and following the 2011 internet spring. The Cypherpunks forecasted the coming age of digital information, and saw cryptography as a means of preserving fundamental individual rights, such privacy and self-sovereignty. Members of this group include Roger Dingledine, co-founder of the Tor Project, Julian Assange, founder of Wikileaks, and perhaps most notably, Satoshi Nakamoto, the pseudonymous creator of Bitcoin.</p>
+<p>Many of the protocols, algorithms, and applications developed by the Cypherpunks were centered around privacy. Bitcoin was not.</p>
+</section>
+<section id="the-genesis-case-study-bitcoin" class="level2">
+<h2 class="anchored" data-anchor-id="the-genesis-case-study-bitcoin">The Genesis Case Study, Bitcoin</h2>
+<section id="pseudonymity-anonymity" class="level4">
+<h4 class="anchored" data-anchor-id="pseudonymity-anonymity">Pseudonymity != Anonymity</h4>
+<p>In October of 2008, an <a href="https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html">email</a> from Satoshi Nakamoto was sent to the <a href="https://en.wikipedia.org/wiki/Cypherpunk#:~:text=For%20a%20time%2C%20the%20cypherpunks,referred%20to%20as%20a%20mailbomber.">cypherpunk</a> email list, titled “Bitcoin P2P e-cash paper”.</p>
+<p>Participation in the Bitcoin network only requires a public/private keypair (ECDSA for Version 1). There is no support for “accounts” or “profiles” which include other metadata, such as name, email, address, etc. Thus, the Bitcoin network is inherently pseudonymous, where the pseudonyms are Bitcoin addresses (smaller hashed versions of the public key). On the Bitcoin network, all transactions are published to and stored on the public ledger (this allows for Bitcoin’s distributed consensus), making intra-network forensics trivial. I.e. it is trivial to retreive the entire financial history of <code>1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</code>, and verifiably gather information on all transactions involving this address, neighboring addresses, etc.</p>
+<p>Still, it remains theoretically possible to use Bitcoin anonymously. A Bitcoin user may rely on proper operational security (OpSec) techniques to ensure his/her Bitcoin pseudonym remains entirely disjunct from his/her “real” or government identity. In the early days of Bitcoin, the majority of participants did successfully maintain anonymity through proper OpSec - accessing the network through VPNs, public WiFi hotspots, remote SSH tunneling, etc.</p>
+<p>One factor contributing to the early success of anonymity was the fact that the earliest users of Bitcoin were often well-versed in digital OpSec. Early users generated and custodied their keypairs on a local and/or secure machine because they were familiar with ECDSA encryption, and they executed Bitcoin payments under anonymous identities on secure e-commerce platforms, accessed through secure dark-web browsers, like Tor.</p>
+<p>Another factor contributing to Bitcoin’s early privacy, however, is that the technology remained siloed in it’s earliest years, segregated from regulated financial infrastructure, and “under the radar” of intelligence organizations. For example, the creator and operator of one of the most prolific darknet Bitcoin marketplaces, the Silk Road, was identified and arrested in 2013, after just two years of successfully maintaining anonymity through pseudonymity.</p>
+<p>The key realization here is that Bitcoin offers a <em>permissionless</em> and <em>censorship-resistant</em> method of transacting value - nothing else. In order to protect one’s identity in the applications of Bitcoin, one must rely on the other components of the technology stack to provide the privacy guarantees to maintain anonymity. Any if any <em>single</em> OpSec mistake were to be made, <em>everything</em> about the user’s pseudonym could be revealed.</p>
+<p>The consequences of Bitcoin’s intra-network transparency were difficult to identify in its early life - Bitcoin <em>seemed</em> privacy-preserving. Fast-forward 13 years, however, and the ability to surveil couldn’t be more clear.</p>
+<p>According to recent reports, approximately 46 million Americans (~22% of US population) own some form of Bitcoin. Out of this, it’s estimated that at least 8/10 purchased and/or hold their Bitcoin through a KYC’d account on a custodied platform, such as Coinbase, Crypto[dot]com, or Robinhood. From this alone, the Bitcoin-specific financial information off nearly all US persons (not just the ones with KYC’d accounts) is effectively public. These entities are obligated to release Customer data if provoked on legal grounds, and sophisticated players can retreive this information even in the case Coinbase were to remain non-compliant.</p>
+<p>The Bitcoin protocol, when integrated with 3rd party KYC applications (as it is today and will be throughout the foreseeable future), is a near-perfect protocol for financial surveillance.</p>
+</section>
+</section>
+<section id="turing-complete-blockchains" class="level2">
+<h2 class="anchored" data-anchor-id="turing-complete-blockchains">Turing-Complete Blockchains</h2>
+<section id="turing-complete-computation-weak-privacy-infinite-surveillance" class="level4">
+<h4 class="anchored" data-anchor-id="turing-complete-computation-weak-privacy-infinite-surveillance">Turing-Complete Computation + Weak Privacy = Infinite Surveillance</h4>
+<p>In the section above, I have only discussed the (lack of) privacy offered by Bitcoin - I have not argued for whether these facts are “good” or “bad”. Perhaps this was all part of Satoshi’s grand vision, and it is ethically optimal for financial settlement infrastructure to offer complete transparency. I will continue to avoid the question of good or bad as it pertains to Bitcoin, because I, myself, am not certain in my stance.</p>
+<p>When the question extends to Turing-Complete networks, however, I have enough convinction to argue that zero-privacy guarantees are suboptimal.</p>
+<p>In 2014, a novel smart contract based, Turing-Complete blockchain protocol called Ethereum was <a href="https://ethereum.org/669c9e2e2027310b6b3cdce6e1c52962/Ethereum_Whitepaper_-_Buterin_2014.pdf">introduced</a>. Ethereum allowed for arbitrary code executions, enabling application development beyond just the transfer of the native asset. Over the past several years, there has been an explosion of Ethereum application development. From domain name services to gaming/social apps, these applications span beyond just payments - logging data, provoking external program executions, developing on-chain reputation/identity, and establishing organizational structures of accounts.</p>
+<blockquote class="blockquote">
+<p>Power tends to corrupt; absolute power corrupts absolutely</p>
+</blockquote>
+<p>Just like Bitcoin, all data associated with Ethereum transactions, by default, are stored on the public ledger in plaintext for anyone to view. With countless “decentralized” profile-based applications, the connection between an on-chain pseudonym and corresponding government identity is increasingly inevitable. Additionally, every action, transaction, and application interaction performed on Ethereum further develops the user’s on-chain reputation, permanently documented on Ethereum’s immutable global ledger. Even if the goal was not to maintain a distinction between on-chain and “real” identities, a lack of privacy for the on-chain identity inevitably approaches a lack of privacy in real life.</p>
 <ul>
-<li><a href="https://arxiv.org/pdf/2108.05513.pdf">Ethereum Data Structures</a></li>
+<li>Calling an Uber</li>
+<li>Buying an engagement ring (or organizing a surprise party)</li>
+<li>Any healthcare-related activites</li>
 </ul>
+<p>Upon meditating on the consequences of an extension of this paradigm, one may encounter a seemingly endless array of dystopian scenarios.</p>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>As Vitalik Buterin <a href="https://blog.ethereum.org/2016/01/15/privacy-on-the-blockchain">voiced</a>, the “Holy Grail” blockchain technology would allow users to benefit from the security of a blockchain, using a decentralized network to process the transactions, but “encrypting” the data in such a way that even though everything is being computed in plain sight, the underlying “meaning” of the information is completely obfuscated.</p>
+<p>Today’s blockchains lack privacy because distributed consensus mechanisms rely on the verifiability of blockchain data, which currently requires plaintext data. There exist exciting fields of cryptographic research in pursuit of solving this issue - my personal favorites are Zero Knowledge Proofs (ZKPs) and Fully Homomorphic Encryption (FHE).</p>
+<p>However, the integration of privacy-enabling primitives is time-sensitive. Deferring essential features to later appensions to the technology often results in <a href="https://cryptoslate.com/circle-blacklists-all-tornado-cash-eth-addresses-effectively-freezing-usdc/">weaker guarantees</a> of the respective features. Additionally, as societal adoption increases over time, the community is more likely to <a href="https://www.theglobeandmail.com/canada/article-if-you-dont-know-youre-a-slave-how-do-you-fight-to-be-free/">become distanced</a> from <a href="https://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf">the ethos</a> from which the technology was birthed.</p>
+<blockquote class="blockquote">
+<p>From my earliest days I had a passion for science. But science, the exercise of the supreme power of the human intellect, was always linked in my mind with benefit to people. I saw science as being in harmony with humanity. I did not imagine that the second half of my life would be spent on efforts to avert a mortal danger to humanity created by science.</p>
+</blockquote>
+<p>I hope the topic of privacy remains at the forefront of blockchain research. We must actively ensure that the innovation of distributed computing serves to benefit society: for this is not guaranteed.</p>
 
 
 </section>

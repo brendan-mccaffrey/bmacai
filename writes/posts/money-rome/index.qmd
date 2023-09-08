@@ -1,0 +1,47 @@
+---
+title: Money in Ancient Rome
+description: A case study on the history of money
+---
+
+
+## Context
+
+By the 6th century B.C., Western money standards began to converge around the use of stamped metal coins. One of the earliest dominant currencies was the Athenian silver tetradrachm, which gained dominance over the gold/silver coins issued by Persia and other western empires of the time. Aside from the economic success and naval hegemony of ancient Athens, factors contributing to the currency's success were large circulating supply, fine quality, and unchanging appearance. Nevertheless, the “dominance” of Athenian money was limited, as dozens of currencies remained in use in local circulation.
+
+## The Rise of Rome, and the Globalization of Money
+
+Following the rise of the Roman Empire, the introduction of the Roman silver denarius around 211 B.C. marked a turning point in Western money. The denarius effectively fixed the previously-fluctuating relationship between silver and bronze, with one silver denarius (containing ~4.5g of silver) exchangeable for 10 bronze asses, (the as was a bronze coin of the time). Gold was used less frequently, until Julius Ceasar standardized the gold aureus (8g of gold) to 25 denarii. The success of Roman imperialism expanded adoption of the aureus/denarius/as standard farther than any currency prior. Rome effectively established the (Western) globalization of hard money.
+
+These currencies and their respective exchange rates remained impressively stable through the turmoil caused by the assassination of Julius Ceasar in 44 B.C. Many historians credit the strength of Roman money as a crucial foundation for the 200-year golden age of Rome, known as the Pax Romana, which lasted from 27 B.C. to 170 A.D.
+
+## Coin Clipping: The Beginning of the End
+
+Around the middle of the Pax Romana, however, Emperor Nero made a monetary decision that, in retrospect, appears to mark the beginning of the end of Roman economic prowess. When faced with increasing government expenditures, Emperor Nero became the first to engage in what is known as coin clipping: the emperor would recall the coins then mint them into a new coin with a lower metallic content but with the same face value. This is currency debasement - it marked the introduction of government-induced inflation in Rome.
+
+It's important to note that currency debasement proved to be successful in the short term. The decision to begin coin clipping may be responsible for successfully extending the period of Roman peace, as over the reign of the next several Emperors, economic prosperity and peace continued as inflation remained below half a percent.
+
+Over the next two hundred years, however, it became clear that the temporary relief provided by currency debasement (coin clipping) would eventually demand further debasement. Rome was permanently prohibited from returning to a non-inflationary economy, and thus engaged in a vicious cycle:
+
+currency debasement → price increases → price controls → further debasement
+
+In the long run, coin clipping only increased the magnitude of the problems Emperor Nero set to solve. This cycle ravaged Rome through centuries of political and economic instability, until Constantine managed to restore stability through significant monetary reform.
+
+## Hard Money to the Rescue… Too Late
+
+Constantine issued the gold solidus in 312 A.D. at a weight of 4.55 grams, permanently replacing the aureus. The solidus was worth 275,000 debased denarii, which now contained ~5% silver, down from the original 95%.
+
+Constantine required the fixed weight of the solidus, without debasement, which finally established Roman economic stability.
+
+The recovery of the Roman economy came too late, as continuing foreign invasions led to the collapse of the Western Roman Empire. However, the gold solidus was so successful that it remained the currency of the Byzantine Empire (Eastern Rome) centuries after the fall of the Western Empire. To this day, the gold solidus remains a candidate for the most successful currency in the history of the world.
+
+### Sources
+
+[Inflation Under the Roman Empire](https://www.jstor.org/stable/2591810)
+
+[Money and Prices in the Ancient Roman Empire](https://dspace.mit.edu/bitstream/handle/1721.1/63816/moneypricesinear00kess.pdf)
+
+[Money and Exchange in the Roman World](https://www.jstor.org/stable/299412)
+
+[The Monetary Systems of the Roman Empire from Diocletian to Theodosius I](https://www.jstor.org/stable/42663245)
+
+[Rome: A Thousand Years of Monetary History](https://numismatics.org/rome-a-thousand-years-of-monetary-history/)

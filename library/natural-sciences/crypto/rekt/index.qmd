@@ -17,3 +17,7 @@ SharedStake sgETH contract has been exploited for 102 ETH and sgETH has been inf
 
 [Hacker Address 1](https://etherscan.io/address/0xBbAc1508f8A505D5383a1E945d63b26D7ed7A414)
 [Hacker Address 2](https://etherscan.io/address/0x1261aed405f2865d55a055561e3ec25c3fe32de0)
+
+### Slope Wallet
+
+- [Slope Finance Wallet Exploit: Otter Security](https://osec.io/reports/slope-investigation-report.pdf)
