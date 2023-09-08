@@ -13,7 +13,7 @@ title: Cold Exposure
 - [Short-term cold exposure supports human Treg induction in vivo](https://doi.org/10.1016/j.molmet.2019.08.002)
 - [Differences between men and women](https://www.researchgate.net/profile/Marius-Brazaitis/publication/265684623_Gender-specific_cold_responses_induce_a_similar_body-cooling_rate_but_different_neuroendocrine_and_immune_responses/links/5b1e8a82aca272021cf6420a/Gender-specific-cold-responses-induce-a-similar-body-cooling-rate-but-different-neuroendocrine-and-immune-responses.pdf)
 
-## The Cold Hard Facts
+### Background
 
 The use of cold-water immersion has a long and rich history. The beneficial effects on human physiology have been recorded as far back as 3500BC [@Wang Et Al.](https://link.springer.com/article/10.1007/s00701-006-0747-z), with the Edwin Smith Papyrus (the most ancient medical text known to date) making references to cold being used for therapeutic purposes. The Ancient Greeks utilized cold-water therapies, as recorded by Hippocrates in the fourth century BC. And even the Golden Age of Rome featured cold-water immersion as treatment for fever, advocated for by Roman Physician Claudius Galen in the second century AD [@Allan Et Al.](https://doi.org/10.1007/s00421-022-04915-5). It was only until recently, however, that modern science began to explore the underlying physiological processes behind the power of the cold. 
 

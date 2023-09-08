@@ -835,5 +835,20 @@
   },
   "writes/posts/blockchain-privacy/index.qmd": {
     "index.html": "c5ae045f"
+  },
+  "library/social-sciences/geopolitics/ukraine/psyop.qmd": {
+    "psyop.html": "71601aa1"
+  },
+  "writes/posts/money-rome/index.qmd": {
+    "index.html": "b61516f0"
+  },
+  "writes/posts/on-ai/index.qmd": {
+    "index.html": "dfb9dbbf"
+  },
+  "library/life-sciences/health/nutrition/index.qmd": {
+    "index.html": "6f2cd733"
+  },
+  "library/natural-sciences/software/ai/index.qmd": {
+    "index.html": "2c3f8822"
   }
 }

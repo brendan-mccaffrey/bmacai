@@ -3,11 +3,108 @@ title: Maths
 description: The universal language
 ---
 
+## Learn
+
+- [UPenn Math 114 (Single Variable Calculus)](https://www.youtube.com/watch?v=5m0VJ7FTn54&list=PL6UiEGS6WoUk8xJxOtLEs4rq5Ff9lSl25)
+- [MIT Single Variable Calculus](https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010)
+- [MIT Multivariable Calculus](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010)
+- [UPenn Math 240 (Multi Variable Calculus)](https://www.youtube.com/watch?v=Y6SYkfVdoio&list=PL6UiEGS6WoUk42atmsXOWkohKJA3UbvDL)
+- [Differential Equations Textbook](https://twitter.com/curiouswavefn/status/1627741837233631232?s=20)
+- [MIT Differential Equations](https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011)
+- [MIT OCW Probability and Random Variables](https://ocw.mit.edu/courses/18-440-probability-and-random-variables-spring-2014)
+- [MIT Linear Algebra](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011)
+- [MIT Topics in Mathematics with Applications in Finance](https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/pages/syllabus/)
+- [Polyak-Łojasiewicz Inequality](https://t.co/dfTWCrCBXC) 
+    - Generalizes strong convexity, and a simple condition to ensure linear convergence of gradient descent even for non-convex functions.
+- [The Prime Number Maze](https://www.fq.math.ca/Scanned/40-3/paulsen.pdf)
+- [The Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
+- [Algorithmic Game Theory](https://www.cs.cmu.edu/~sandholm/cs15-892F13/algorithmic-game-theory.pdf)
+- [Ergodic Theory](https://math.berkeley.edu/~fengt/ergodic_theory.pdf)
+- [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)
+- [Operations Research: Applications and Algorithms](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)
+
+
 ## General
 
 [Advice to a Young Mathematician](https://assets.press.princeton.edu/releases/gowers/gowers_VIII_6.pdf)
 
+### Graph Theory
+
+- [New Proof Shows That ‘Expander’ Graphs Synchronize](https://www.quantamagazine.org/new-proof-shows-that-expander-graphs-synchronize-20230724/)
 
 ### Group Theory
 
 [Lie Algebras in Particle Physics](https://library.oapen.org/handle/20.500.12657/50876)
+
+### Synchronization
+
+- [Scientists Discover Exotic New Patterns of Synchronization](https://www.quantamagazine.org/physicists-discover-exotic-patterns-of-synchronization-20190404/)
+- [Self-entrainment of a population of coupled non-linear oscillators](https://link.springer.com/chapter/10.1007/BFb0013365)
+- [Cluster synchronization and isolated desynchronization in complex networks with symmetries](https://www.nature.com/articles/ncomms5079)
+- [Incoherence-Mediated Remote Synchronization](https://arxiv.org/pdf/1703.10621.pdf)
+- [Synchronization in chaotic systems](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.64.821)
+- [Symmetric States Requiring System Asymmetry](https://arxiv.org/abs/1608.05419)
+
+Synchronization is a phenomenon in which multiple oscillating or rhythmic elements lock into a single rhythm. Scientists have discovered new forms of synchronization, called chimeras, that are more complex and intricate than previously known patterns. Chimeras are characterized by the coexistence of synchronized and unsynchronized regions in a single system. The discovery of chimeras has opened up new possibilities for understanding and controlling synchronization in a wide range of real-world systems. For example, chimeras could be used to design new communication networks that are more robust to noise and disruptions. The article also discusses the history of synchronization research and the challenges that scientists face in understanding and predicting the behavior of synchronized systems. It concludes by discussing the potential applications of chimeras in a variety of fields, including biology, engineering, and economics.
+
+The discovery of chimeras was made possible by advances in computational power and mathematical modeling. Chimeras have been observed in a variety of natural systems, including fireflies, heart cells, and neural networks. Scientists are still learning about the rules that govern the formation and behavior of chimeras. Chimeras have the potential to be used to design new communication networks, control traffic flow, and improve the efficiency of energy systems.
+
+
+
+### Fractional Calculus
+
+[What is Fractional Calculus](https://www.cantorsparadise.com/fractional-calculus-48192f4e9c9f)
+
+*Differential calculus was invented independently by Isaac Newton and Gottfried Leibniz and it was understood that the notion of the derivative of nth order, that is, applying the differentiation operation n times in succession, was meaningful. In a 1695 letter, l’Hopital asked Leibniz about the possibility that n could be something other than an integer, such as n=1/2. Leibniz responded that “It will lead to a paradox, from which one day useful consequences will be drawn.” Leibniz was correct, but it would not be centuries until it became clear just how correct he was.*
+
+*This article will investigate the question of what it could possibly mean to do something like take a 1/2 order derivative, and so introduce the theory of the fractional calculus.*
+
+**Summary**
+
+The blog post discusses the concept of fractional calculus, a mathematical field that explores the idea of derivatives and integrals of non-integer order. The concept was first proposed by Gottfried Leibniz in a response to a question from l’Hopital about the possibility of a derivative of order 1/2. The post explains the theory behind fractional calculus, its properties, and its applications, using the Riemann-Liouville integral and derivative as examples.
+
+1. Fractional Calculus: Fractional calculus is the branch of mathematical analysis that investigates the possibility of taking derivatives and integrals of any real number order, not just integer order.
+
+2. Intuition: The concept of fractional calculus arises from the idea of interpreting differentiation and integration as transformations that continuously transform a function into its nth derivative or antiderivative.
+
+3. Fractional Integral and Derivative: The most natural place to start with fractional calculus is with Cauchy’s formula for repeated integration. The generalization of the factorial function in this formula is the gamma function, which allows for the definition of the left Riemann-Liouville integral, a valid operator for integration to fractional order.
+
+4. Differintegral Operator: The differintegral operator is a combination of the fractional integral and derivative, which can continuously transform between functions.
+
+5. Properties: Fractional calculus has unique properties, such as nonlocality, which means that the value of a fractional derivative at a point depends on an entire range of values, not just that point. This property makes fractional calculus useful for modeling physical phenomena with memory effects.
+Fractional Derivatives of Basic Functions: The fractional derivatives of power functions, sine function, and exponential function are discussed.
+
+6. Interpretation: The interpretation of fractional operators in a geometric or physical sense is still an area of active research.
+Applications: An example of the application of fractional calculus is in solving the tautochrone problem, which involves finding a curve such that the time taken by a bead to slide down the curve is independent of the initial height.
+
+7. Conclusion: Fractional calculus is a result of pushing the boundaries of existing theories to work with extreme or unusual cases. It is a field with potential for new discoveries in mathematics and science.
+
+### Fourier Transformations
+
+The Fourier Transform is a mathematical technique that transforms a function of time, a signal, into a function of frequency. It's a way to represent a signal in terms of its constituent frequencies, much like a musical chord can be expressed as the amplitudes of its constituent notes. 
+
+The Fourier Transform can be applied to a wide variety of fields, including physics, engineering, signal processing, image analysis, and data compression.
+
+Formally, for a continuous signal, the Fourier Transform `F(w)` of a function `f(t)` is given by the integral:
+
+```
+F(w) = ∫ f(t) e^-iwt dt
+```
+
+Here:
+
+- `w` is the frequency,
+- `t` is time,
+- `i` is the imaginary unit, 
+- `e` is the base of the natural logarithm,
+- and `∫` denotes integration over all time from `-∞` to `+∞`.
+
+The inverse Fourier Transform, which transforms back from the frequency domain to the time domain, is given by:
+
+```
+f(t) = (1/2π) ∫ F(w) e^iwt dw
+```
+
+Note that in practice, many signals are discrete rather than continuous, and the Discrete Fourier Transform (DFT) or its faster version, the Fast Fourier Transform (FFT), are used.
+
+The Fourier Transform and its variants are used in a wide variety of applications. For example, in audio processing, it can be used to identify the different frequencies present in a sound. In image processing, it can be used for operations like blurring an image or removing noise. In physics, it can be used to solve differential equations.

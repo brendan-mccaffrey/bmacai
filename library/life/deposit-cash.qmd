@@ -3,7 +3,7 @@ title: Cash Management
 description: You have a large amount of cash. How do you get it into the traditional banking system?
 ---
 
-## Acquiring a large amount of cash
+## The Legality of Wiring Money for Cash
 
 Generally, it is a crime to engage in virtually any type of financial transaction if a person conducted the transaction with knowledge that the funds were the proceeds of “criminal activity” and if the government can prove the proceeds were derived from a “specified unlawful activity”.  Criminal activity can be a violation of any criminal law – federal, state, local, or foreign.  Specified unlawful activities are set forth in the statute and include over 200 types of U.S. crimes, from drug trafficking, terrorism, and fraud, to crimes traditionally associated with organised crime, and certain foreign crimes, as discussed below in question 1.3.
 
@@ -17,9 +17,12 @@ Section 1956 also criminalises the transportation or transmission of funds or mo
 
 Under Section 1957, it is a crime to knowingly engage in a financial transaction in property derived from specified unlawful activity through a U.S. bank or other “financial institution”, or a foreign bank (in an amount greater than $10,000).  Financial institution is broadly defined with reference to the Bank Secrecy Act (“BSA”) statutory definition of financial institution (31 U.S.C. § 5312(a)(2)), and includes not just banks but a wide range of other financial businesses, including securities broker-dealers, insurance companies, non-bank finance companies, and casinos.
 
-## The ATM Approach
+## What to do with a lot of cash
 
-### Step 1 | Buy an ATM
+
+### The ATM Approach
+
+**Step 1 | Buy an ATM**
 
 ATM Global 
 Phone: (877) 286-1755
@@ -43,13 +46,11 @@ Phone: (609) 641-7300
 https://www.atmmoneymachine.com
 
 
-[Step-by-Step Guide](https://www.atmmoneymachine.com/wp-content/uploads/2018/06/Start-ATM-company-step-by-step.pdf)
-
 These companies deliver a machine to your location (machines ~$2,500), and have installers come to set it up ($350 for installation). This takes about 2 weeks. 
 
-I know the guy who owns the restaurant Ella Funt in Soho. Something like this would be perfect.
+Put it at a friends restaurant or something.
 
-### Step 2 | Set it up
+**Step 2 | Set it up**
 
 All ATMs must be connected to the processing server and have a power outlet. There are three optional connections:
 1. Hardwire Internet Line
@@ -58,7 +59,7 @@ All ATMs must be connected to the processing server and have a power outlet. The
 
 You can not connect to wireless internet in the business, you must hardwire into the internet via an ethernet jack or run an ethernet cord from the modem to the ATM. 
 
-### Step 3 | Paperwork
+**Step 3 | Paperwork**
 
 Then you fill out some forms with the ATM company ("Exhibit 2, Exhibit 3, W9") that do basic background checks: if you have any fraud in your past, etc.
 
