@@ -1,0 +1,18 @@
+---
+title: Biology
+---
+
+## Resources
+
+- [The Simlarity Metric: Clustering by Compression](https://www.researchgate.net/publication/224743569_Clustering_by_compression)
+
+### Assembly Theory
+
+- [Assembly Theory, 1985](https://www.infoamerica.org/documentos_pdf/bennett.pdf)
+- [Limitations of Assembly Theory](https://arxiv.org/abs/2210.00901)
+- [8 Fallacies of Assembly Theory](https://hectorzenil.medium.com/test-8f0be54817c4)
+- [On the Salient Misunderstandings of Assembly Theory (assembly is good)](https://colemathis.github.io/blog/2022-10-25-SalientMisunderstandings)
+
+### Cells
+
+- [The structure of a cell is wildly oversimplified](https://twitter.com/peiferlabunc/status/1698670039086367121?s=20)

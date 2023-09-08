@@ -1,5 +1,5 @@
 ---
-title: "covid"
+title: Covid-19
 description: "SARS-CoV-2"
 page-layout: full
 ---
@@ -7,3 +7,116 @@ page-layout: full
 ## Resources
 
 - [Circulating Spike Protein Detected in Post–COVID-19 mRNA Vaccine Myocarditis](https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.122.061025#:~:text=We%20discovered%20that%20individuals%20who,immune%20activation%20with%20cytokine%20release)
+- [Australia Senate Hearing: Pfizer representative admits that they don't understand the mechanism by which the vaccine causes myocarditis](https://twitter.com/DrEliDavid/status/1687533886816067584?s=20) 
+- [Dr. Robert Malone Twitter Ban Details](https://kanekoa.substack.com/p/the-powerful-pfizer-presentation)
+- [Covid Care Alliance: More Harm Than Good](https://www.canadiancovidcarealliance.org/wp-content/uploads/2021/12/The-COVID-19-Inoculations-More-Harm-Than-Good-REV-Dec-16-2021.pdf)
+  - [Video](https://rumble.com/vqx3kb-the-pfizer-inoculations-do-more-harm-than-good.html)
+- [Bivalent Covid-19 Vaccines — A Cautionary Tale](https://www.nejm.org/doi/full/10.1056/NEJMp2215780?query=TOC&cid=NEJM%20eToc,%20February%209,%202023%20DM1983578_NEJM_Non_Subscriber&bid=1404083904)
+- [Protection of mRNA vaccines against hospitalized COVID-19](https://escholarship.org/content/qt2kf9s474/qt2kf9s474.pdf)
+- [Pharma Rackateering](https://twitter.com/SpartaJustice/status/1627570174353195008?s=20)
+- [Israel Ministry of Health released Pfizer Agreement](https://twitter.com/DrEliDavid/status/1627745366253703192?s=20)
+  - They first claimed they "couldn't find it"
+    - [Article](https://rtmag.co.il/english/we-can%E2%80%99t-locate-a-signed-agreement-with-pfizer-did-the-netanyahu-government-and-the-israeli-moh-mislead-the-israeli-public-and-the-world-new-documents-reveal-%E2%80%93-the-deal-between-israel-and-pfizer-was-signed-before-their-covid-19-vaccine-even-received-emergency-use-authorization-from-the-fda)
+    - [Document](https://govextra.gov.il/media/30806/11221-moh-pfizer-collaboration-agreement-redacted.pdf)
+    - [Administrative Appeal](https://tolaatmish.s3.eu-central-1.amazonaws.com/ugc/15789-09-22/2729.pdf)
+- [New Zealand 2022 Data](https://pharmafiles.substack.com/p/new-zealands-2022-data-is-out)
+- [Methodist Hospital threatened their doctors](https://twitter.com/TheChiefNerd/status/1631316909369991168?s=20) 
+    - "You cannot report adverse reactions to these vaccines"
+- [More dishonest statements about boosters by the FDA's Marks and Califf](https://vinayprasadmdmph.substack.com/p/more-dishonest-statements-about-boosters)
+- [Risk of Myocarditis in Boys 18-39](https://www.medrxiv.org/content/10.1101/2022.02.08.22270635v1)
+- Vaccine on Birthing
+  - [Article 1](https://alexberenson.substack.com/p/urgent-stillbirths-nearly-doubled)
+  - [Article 2 / Correction](https://alexberenson.substack.com/p/urgent-updatecorrection-to-previous)
+- [How Britons are dying in their tens of thousands](https://www.express.co.uk/news/uk/1769290/deaths-ONS-data-brits-covid-pandemic)
+    - but no one knows why: From May to December last year, there were 32,441 excess deaths in England and Wales, excluding deaths from Covid
+
+### Horse Dewormer
+
+**A necessary Narrative for FDA emergency Authorization**
+
+FDA emergency authorization of a vaccine/medicinal treatment, by law, cannot be administered if an existing medication is provably effective in reducing the risks associated with the disease/virus.
+
+## Psyop
+
+### Germany
+
+- [Interview with German MEP, Christine Anderson](https://t.co/XSDIgRLm4Y)
+
+Governments around the world used outright psychological warfare—targeted even at children—to terrify their populations into submission with Covid tyranny, in a way that was globally coordinated.
+
+"In Germany, there was a manual on how to get the people to do what the government wanted them to do to adhere to these restrictions. They outlined [that] even though kids are at no risk of Covid, we have to make them afraid [that] if they catch it, and then they infect their grandparents, they're responsible for having killed their grandparents."
+
+## mRNA Vaccine
+
+> The mRNA platform is brilliant. But it has a giant gaping flaw in it, which is; Any cell of yours that produces a foreign protein, will be targetted by your immune system and destroyed. You will create an autoimmune disorder. When it works. How do you keep it out of your heart. Not by coding it in a lipid nanoparticle. So, they had no way to deliver it safely to market.  So then they had a pandemic, the emergency allowed them to do it. This technology, in my opinion, was at least 3 decades  out from being usefully and safely deployed at all, if at all. They did not want to wait,  this crisis gave them the opportunity not to wait. And now, they will blame the spike protein, we picked the wrong protein. When in actual fact there are 2 problems, the spike protein and the platform itself. - Brett Weinstein
+
+### Myocarditis/Pericarditis
+
+---
+
+Different virus vs vax myocarditis mechanisms isn't just theory. Here's why you're correct in real life.
+
+### TIMING
+
+a. Virus myocarditis
+As Offit said, SARS2 viral myocarditis most often manifests as *post-viral myocarditis* due to *molecular mimicry*.
+
+This means a *few to several weeks* after covid infection (ie symptoms/viral load were already gone weeks or 1-2 months ago), there is Ab/T crossreactivity (mimicry) to self-antigens in heart cells.
+
+This mechanism is most often mild, good prognosis.
+
+To clarify, SARS2 viral *fulminant myocarditis*, which can occur in *days to a week* after covid infection, is *very rare*. Initial covid presentation with fulminant myocarditis is so rare and unusual, it's a case report. Almost all SARS2 viral myocarditis is post-viral and mild.
+
+b. Vax myocarditis
+Most often occurs *days to 1 week* after 2nd vax dose. Also occurs after *1st vax dose* or booster.
+
+This timing is *atypical* of mimicry. Rather, this timing is textbook for a primary or secondary *direct immune cell attack* on mRNA-transfected heart cells.
+
+Offit knows all this. He's obviously pulling a "limited hangout". Pfizer will copy what Offit says.
+
+If politicians were honest, they'd ask if mechanisms are the same (mimicry) for both virus and vax myo, then why are the timing and severity distinctly different for virus vs vax myo?
+
+### Serum Vax Spike
+
+- [Circulating Spike Protein Detected in Post–COVID-19 mRNA Vaccine Myocarditis](https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.122.061025#:~:text=We%20discovered%20that%20individuals%20who,immune%20activation%20with%20cytokine%20release)
+
+There's a high correlation of vax spike found in serum (blood) of vax myocarditis. Vax controls showed no serum vax spike.
+
+Importantly, Ab/T immunoprofiling of vax myocarditis patients were *indistinguishable* from vax controls (ie no unusual autoantibodies or autoreactive T cells (no mimicry signs)).
+
+This is more evidence that in vax myo, your immune cells are killing your own heart cells that look virus-infected.
+
+There's more vax myo mechanisms like inflammasome or apoptosis. But you said the main vax myo mechanism perfectly."
+
+
+
+## The Effect of Mandatory Masks on Autism in Children
+
+> But hopefully, this [mask mandate in schools] will be a temporary thing, temporary enough that it [masks] doesn't have any lasting negative impact on them [children]. - Anthony Fauci, August 9 2021
+
+- [Recognition of Faces: An Approach to the Study of Autism](https://acamh.onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-7610.1978.tb00468.x)
+    - Two age groups of normal, autistic and subnormal children were tested for their ability to recognize the faces of peers from isolated facial features and inverted photographs. The normal and subnormal subjects found the upper regions of the face most helpful for identification, whereas the younger autistic children found the lower features more helpful. The older autistic children showed no specific reliance on any one area, but were found to have error scores as low as those of the younger autistic children on the recognition of lower parts and error scores as low as the; controls on recognizing upper portions. The results are discussed and are found to favour a hypothesis in which the autistic child's familiarity with the mouth and/or eye areas is related to a cognitive deficit which affects the processing of both verbal and non-verbal interpersonal communication.
+
+- American Academy of Pediatrics [Poster, Highlighting the Importance of Facial Expressions for Children](https://pbs.twimg.com/media/FbHRUtuUEAEq6GB?format=jpg&name=medium)
+    - They later were swallowed by the narrative, and made a [public statement](https://twitter.com/AmerAcadPeds/status/1563241284935958530?s=20) that in-school masks does not affect children (hypocritical)
+- [Visual Impairment: Its Effect on Cognitive Development and Behavior](http://www.intellectualdisability.info/physical-health/articles/visual-impairment-its-effect-on-cognitive-development-and-behaviour)
+- [Infants Deploy Selective Attention to the Mouth of a Talking Face when Learning Speech](https://www.pnas.org/doi/full/10.1073/pnas.1114783109)
+    - The mechanisms underlying the acquisition of speech-production ability in human infancy are not well understood. We tracked 4–12-mo-old English-learning infants’ and adults’ eye gaze while they watched and listened to a female reciting a monologue either in their native (English) or nonnative (Spanish) language. We found that infants shifted their attention from the eyes to the mouth between 4 and 8 mo of age regardless of language and then began a shift back to the eyes at 12 mo in response to native but not nonnative speech. We posit that the first shift enables infants to gain access to redundant audiovisual speech cues that enable them to learn their native speech forms and that the second shift reflects growing native-language expertise that frees them to shift attention to the eyes to gain access to social cues. On this account, 12-mo-old infants do not shift attention to the eyes when exposed to nonnative speech because increasing native-language expertise and perceptual narrowing make it more difficult to process nonnative speech and require them to continue to access redundant audiovisual cues. Overall, the current findings demonstrate that the development of speech production capacity relies on changes in selective audiovisual attention and that this depends critically on early experience.
+
+- [Understanding the Impact of Face Masks on the Processing of Facial Identity, Emotion, Age, and Gender](https://www.frontiersin.org/articles/10.3389/fpsyg.2021.743793/full)
+    - This is not even about children in particular, but illustrates how it may be detremential to young people in a learning phase
+    - Abstract Result: The results revealed that masks hindered the perception of virtually all tested facial dimensions (i.e., emotion, gender, age, and identity), interfering with normal speed and accuracy of categorization. We also found that the unwarranted effects of masks were not due to holistic processes, because the Face Inversion Effect (FIE) was generally not larger with unmasked compared with masked faces. Moreover, we found that the impact of masks is not automatic and that under some contexts observers can control at least part of their detrimental effects.
+
+- [Face masks reduce emotion-recognition accuracy and perceived closeness](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8064590/)
+    - Again, this was on adults, because you wouldn't be able to publish your findings in 2021 if you exposed what it does to children
+
+*IMPORTANT*
+
+- [Emotion comprehension between 3 and 11 years: Developmental periods and hierarchical organization](https://www.tandfonline.com/doi/abs/10.1080/17405620344000022)
+- [Darwin's Contributions of our Understanding of Emotional Expressions](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2781895/)
+- [Infants deploy selective attention to the mouth of a talking face when learning speech](https://www.pnas.org/doi/10.1073/pnas.1114783109)
+- [Potential Impact of the COVID-19 Pandemic on Communication and Language Skills in Children](https://journals.sagepub.com/doi/full/10.1177/0194599820978247)
+- [Effect of face mask and noise on word recognition by children and adults](https://web.archive.org/web/20211121024652/https://exlingsociety.com/images/ExLing-2021/ExLing_2021_preliminary_proceedings.pdf)
+    - This PDF was taken off the web! I am linking it through Wayback machine
+- [The puzzle of Autism in the time of COVID-19 pandemic: “Light it up Blue”](https://www.researchgate.net/profile/Ismail-Dergaa/publication/352350126_The_puzzle_of_Autism_in_the_time_of_COVID-19_pandemic_Light_it_up_Blue/links/60c4563a299bf1949f4e81dc/The-puzzle-of-Autism-in-the-time-of-COVID-19-pandemic-Light-it-up-Blue.pdf)
+    - "... Barriers to essential services such as speech and occupational therapies, combined with loss of routine and predictability has widened the gap between needs and provided care. Parents, teachers and health care should aim to work collectively for a broadened approach that is child/parent centered to compensate for most of disrupted vital support and services"

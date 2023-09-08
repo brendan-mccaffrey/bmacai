@@ -32,3 +32,23 @@ $$ds^2 = -c^2 dt^2 + dx^2 + dy^2 + dz^2$$
 where $ds$ is the spacetime interval between two events, $c$ is the speed of light, $dt$ is the time interval between the two events, and $dx$, $dy$, and $dz$ are the three spatial intervals between the two events. The minus sign in front of the $c^2 dt^2$ term ensures that the interval is negative for timelike separations, which represent events that can be causally connected, and positive for spacelike separations, which represent events that cannot be causally connected. The Minkowski metric has a signature of (-, +, +, +), which means that the time interval has the opposite sign compared to the spatial intervals.
 
 The Minkowski metric is a special case of the more general metric tensor used in general relativity. In general relativity, the metric tensor is a function of the curvature of spacetime caused by matter and energy, and it is used to describe the gravitational field. However, in special relativity, where there is no gravitational field, the metric tensor is simply the Minkowski metric, and it describes the flat spacetime of special relativity.
+
+## Black Hole Discussion
+
+#### Equation for a Rotating Black Hole
+
+$$
+\begin{aligned}
+d s^2= & -\left(1-\frac{2 m r}{r^2+a^2 \cos ^2 \theta}\right)\left(d v-a \sin ^2 \theta d \tilde{\phi}\right)^2 \\
+& +2\left(d v-a \sin ^2 \theta d \tilde{\phi}\right)\left(d r-a \sin ^2 \theta d \tilde{\phi}\right) \\
+& +\left(r^2+a^2 \cos ^2 \theta\right)\left(d \theta^2+\sin ^2 \theta d \tilde{\phi}^2\right)
+\end{aligned}
+$$
+
+> You can't take the reference frame of light. In every reference frame the light speed is the same, so "in the reference frame of light" makes no sense because there time is stopped. The EH can't be seen on oo because for an observer between PS and EH there are a finite number of oscillations of his time reference from PS to EH
+The assumption that the universe could rotate leads to a complication of all physical laws. We would get that there then has to be a rotation axis of the universe and that all rules are different with relation to that axis so that speed along the rotation direction can exceed c with any multiple without problems of inertia. This is similar to the Hubble expansion with the difference of an absolute rotation axis. That is why I reject both assumptions. It makes no sense to assume that space rotates. We rotate inside space. It also makes no sense to assume that space expands. We shrink inside space.
+The big one, space, is invariant, flat, not rotating, not translating, not curving. The small, what is inside space, rotates, translates, changes size. The only property of space that has a variation is that the propagation speed of light depends on the mass/energy density distribution in space.
+
+> Isn't it easier for Hawking radiation to escape if black holes have hair? So it's not perfectly curved there. How does this equation differ from the superfluid quantum gravity spinning vortice(s) model of black holes?
+
+> @bgreene marveled about the beauty of the equation. He didn't gave a judgement about its validity. I gave an explanation on what assumptions are needed to allow this metric equation to be applicable. You come with the concept of a radiating BH. That only asks wether a particle pair of matter and antimatter could split such that one falks into, and one escapes the BH. But since the propagation speed of light at the EH is equal to the EH nothing moves there. So a hairy EH would assume that this propagation speed distribution is not smooth. This then should lead to particle wave functions to start from "stand still" and move outward. Such phenomen would need a different metric equation, but would not alter the beauty of the equation that @bgreene mentioned.

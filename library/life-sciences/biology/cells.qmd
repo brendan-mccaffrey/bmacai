@@ -1,6 +1,0 @@
----
-title: Cells
-description: The building blocks of every organism
----
-
-The structure of a cell is wildly oversimplified | [tweet](https://twitter.com/peiferlabunc/status/1698670039086367121?s=20)

@@ -805,5 +805,20 @@
   },
   "library/natural-sciences/physics/maths/index.qmd": {
     "index.html": "4d70ed97"
+  },
+  "library/natural-sciences/software/programming/rust/index.qmd": {
+    "index.html": "5cedb0ee"
+  },
+  "library/natural-sciences/physics/materials.qmd": {
+    "materials.html": "1deaa9d5"
+  },
+  "library/life-sciences/environment/index.qmd": {
+    "index.html": "34374736"
+  },
+  "library/life-sciences/biology/index.qmd": {
+    "index.html": "fd86cffa"
+  },
+  "library/life-sciences/health/cold-exposure.qmd": {
+    "cold-exposure.html": "54bc4fcf"
   }
 }
