@@ -1,0 +1,31 @@
+---
+title: Field Theory
+---
+
+### Gauge Groups
+
+In physics and mathematics, a gauge group is a group of transformations that preserves the fundamental properties of a physical or mathematical system. Gauge groups are important in both classical and quantum field theories, as well as in the study of differential geometry and topology.
+
+In the context of physics, gauge groups are used to describe the symmetries of a physical system. For example, in electromagnetism, the gauge group is the group of local phase transformations that leave the electromagnetic potential and field strength unchanged. Similarly, in the theory of the strong force, the gauge group is the group of local color transformations that leave the quark-gluon field strength unchanged.
+
+In mathematics, gauge groups arise in the study of connections on vector bundles over a manifold. The gauge group is the group of transformations of the connection that leave the curvature of the connection invariant. These groups play an important role in the study of the topology and geometry of manifolds, and have applications in areas such as mathematical physics, algebraic geometry, and topology.
+
+One of the key features of gauge groups is that the physical or mathematical properties of a system are invariant under gauge transformations. This means that different gauge choices can be made for the same physical or mathematical system, without affecting its essential properties. This property is known as gauge invariance and is a fundamental concept in many areas of physics and mathematics.
+
+### Yang-Mills
+
+The Yang-Mills theory is a quantum field theory that describes the behavior of particles known as gauge bosons, which mediate the strong nuclear force. The theory is based on the idea of local gauge symmetry, which means that the fundamental equations of the theory are invariant under certain transformations of the fields that describe the particles.
+
+The Yang-Mills equations describe the behavior of the gauge bosons, which are particles that transmit the strong force between quarks. The equations involve a set of mathematical terms that describe the interactions between the gauge bosons and the quarks.
+
+The Yang-Mills equations are based on a set of mathematical objects known as gauge fields, which describe the behavior of the gauge bosons. The gauge fields are represented by a set of matrices, which are used to calculate the interactions between the gauge bosons and the quarks.
+
+The equations are formulated using the mathematical concept of a gauge group, which describes the possible transformations that can be made to the gauge fields. In the case of the strong force, the gauge group is called SU(3), which stands for special unitary group of degree 3.
+
+The Yang-Mills equations involve two terms: the kinetic term and the interaction term. The kinetic term describes the free motion of the gauge bosons, while the interaction term describes the interactions between the gauge bosons and the quarks.
+
+The kinetic term involves the gauge field strength tensor, which is a mathematical object that describes the strength of the gauge field at each point in spacetime. The interaction term involves the coupling constant, which is a parameter that describes the strength of the interaction between the gauge bosons and the quarks.
+
+The Yang-Mills equations are highly non-linear and require advanced mathematical techniques to solve. They are also closely related to the concept of gauge invariance, which means that the equations are invariant under certain transformations of the gauge fields.
+
+Overall, the Yang-Mills theory provides a mathematical framework for describing the behavior of the strong nuclear force, which is one of the four fundamental forces of nature. The theory has been extensively tested and is an important component of the Standard Model of particle physics, which describes the behavior of all known elementary particles and their interactions.
