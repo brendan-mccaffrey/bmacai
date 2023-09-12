@@ -4,12 +4,14 @@ description: "Soylano chain"
 page-layout: full
 ---
 
+## The Tech
 
 - [How will Solana Improve its Stability?](https://medium.com/chorus-one/how-will-solana-improve-its-stability-6d4b0ba41866)
 
 ## Partnerships
 
 - [Visa expands stablecoin settlement capabilities with Circle's USDC utilizing the Solana blockchain.](https://www.businesswire.com/news/home/20230905549860/en/Visa-Expands-Stablecoin-Settlement-Capabilities-to-Merchant-Acquirers)
+- Via: [A deep dive on Solana, a high performance blockchain network](https://usa.visa.com/solutions/crypto/deep-dive-on-solana.html)
 
 ### Fee Markets
 
