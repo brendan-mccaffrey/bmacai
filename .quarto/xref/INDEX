@@ -850,5 +850,35 @@
   },
   "library/natural-sciences/software/ai/index.qmd": {
     "index.html": "2c3f8822"
+  },
+  "library/natural-sciences/ai/tools.qmd": {
+    "tools.html": "024648d9"
+  },
+  "library/natural-sciences/ai/index.qmd": {
+    "index.html": "e4ff568f"
+  },
+  "library/natural-sciences/ai/tech.qmd": {
+    "tech.html": "30859be1"
+  },
+  "library/natural-sciences/ai/history-of-ai/history-of-ai.qmd": {
+    "history-of-ai.html": "b17dd9a0"
+  },
+  "library/natural-sciences/finance/quant-trading/quant-trading.qmd": {
+    "quant-trading.html": "cc1851e8"
+  },
+  "library/natural-sciences/finance/index.qmd": {
+    "index.html": "20ceb7bf"
+  },
+  "library/natural-sciences/finance/trading/trades/JGByields/index.qmd": {
+    "index.html": "765ffac0"
+  },
+  "library/natural-sciences/finance/trading/trades/comstock/index.qmd": {
+    "index.html": "f8ee61dd"
+  },
+  "library/natural-sciences/finance/finance-101/finance-101.qmd": {
+    "finance-101.html": "c802e85f"
+  },
+  "library/social-sciences/events/9-11/index.qmd": {
+    "index.html": "72782c5f"
   }
 }

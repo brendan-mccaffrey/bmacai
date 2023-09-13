@@ -63,6 +63,9 @@
     ],
     "library/social-sciences/finance/index.qmd": [
       "posts"
+    ],
+    "library/natural-sciences/finance/index.qmd": [
+      "posts"
     ]
   }
 }
