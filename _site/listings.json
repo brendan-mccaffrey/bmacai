@@ -6,12 +6,9 @@
   {
     "listing": "/writes/index.html",
     "items": [
-      "/writes/posts/money-rome/index.html",
       "/writes/posts/on-ai/index.html",
-      "/writes/posts/post-with-code/index.html",
-      "/writes/posts/welcome/index.html",
-      "/writes/posts/example-post/index.html",
-      "/writes/posts/blockchain-privacy/index.html"
+      "/writes/posts/blockchain-privacy/index.html",
+      "/writes/posts/money-rome/index.html"
     ]
   },
   {

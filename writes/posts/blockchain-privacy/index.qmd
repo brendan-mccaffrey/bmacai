@@ -1,9 +1,13 @@
 ---
 title: Blockchain != Privacy
-author: Brendan McCaffrey
-date: 2022-07-24
-categories: [crypto, blockchain, privacy]
+author: Brendan
+date: "2022-07-24"
+image: "image.jpeg"
+sidebar: false
+page-layout: full
 ---
+
+Pseudonymity converges to identifiability. 
 
 ## Introduction
 

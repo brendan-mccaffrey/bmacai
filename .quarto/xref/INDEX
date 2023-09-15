@@ -907,5 +907,8 @@
   },
   "library/natural-sciences/physics/materials/index.qmd": {
     "index.html": "eb1b2bf3"
+  },
+  "writes/posts/welcome-example/index.qmd": {
+    "index.html": "8cdead34"
   }
 }

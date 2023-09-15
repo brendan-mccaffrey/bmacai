@@ -12,4 +12,3 @@ listing:
   filter-ui: false
 ---
 
-Coming soon... (eventually)

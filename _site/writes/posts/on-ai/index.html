@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Brendan">
+<meta name="dcterms.date" content="2022-12-16">
 
-<title>bmac - On the Risks of Artificial Intelligence</title>
+<title>bmac - On the Risks of AI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -54,13 +56,13 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta name="twitter:title" content="bmac - On the Risks of Artificial Intelligence">
+<meta name="twitter:title" content="bmac - On the Risks of AI">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="media/bg.jpeg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar docked nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -106,800 +108,37 @@ ul.task-list li input[type="checkbox"] {
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">On the Risks of Artificial Intelligence</li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../../library/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Library</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
- <span class="menu-text">Life</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/life/deposit-cash.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cash Management</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
- <span class="menu-text">Life Sciences</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/life-sciences/environment/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Environment</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/life-sciences/biology/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Biology</span></a>
-  </div>
-</li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
- <span class="menu-text">Health</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth3 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/life-sciences/health/cold-exposure.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cold Exposure</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/life-sciences/health/cognition/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cognition</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/life-sciences/health/physiology/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Physiology</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/life-sciences/health/covid/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Covid-19</span></a>
-  </div>
-</li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
- <span class="menu-text">Nutrition</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth4 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/life-sciences/health/nutrition/nutrition.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Nutrition</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false">
- <span class="menu-text">Natural Sciences</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/computer-hardware/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Computer Hardware</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/maths/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Maths</span></a>
-  </div>
-</li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false">
- <span class="menu-text">Crypto</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth3 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/crypto/cex/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">CEXs</span></a>
-  </div>
-</li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="false">
- <span class="menu-text">Apps</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth4 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/crypto/apps/hyperliquid.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Hyperliquid</span></a>
-  </div>
-</li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="false">
- <span class="menu-text">Ethena</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth5 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/crypto/apps/ethena/ethena.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Ethena Labs</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../../library/natural-sciences/crypto/rekt/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Rekt</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth4 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/crypto/rekt/mango.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Mango Markets REKT</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/crypto/rekt/stake.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Stake</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/crypto/rekt/ygg.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">YGG REKT</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../../library/natural-sciences/crypto/blockchains/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Blockchains</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth4 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/crypto/blockchains/consensus.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Consensus</span></a>
-  </div>
-</li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../../library/natural-sciences/crypto/blockchains/solana/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Solana</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth5 ">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" aria-expanded="false">
- <span class="menu-text">Events</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth6 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/crypto/blockchains/solana/events/mango.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Mango Rekt</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../../library/natural-sciences/crypto/blockchains/bitcoin/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Bitcoin</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth5 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/crypto/blockchains/bitcoin/btc-core.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Running Bitcoin Core</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../../library/natural-sciences/crypto/blockchains/evm/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">EVM</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth5 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/crypto/blockchains/evm/layer-2/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Layer 2 Rollups</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/crypto/blockchains/evm/ethereum/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Ethereum</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../../library/natural-sciences/crypto/mev/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth4 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/crypto/mev/amm/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">MEV on AMMs</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../../library/natural-sciences/physics/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Physics</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth3 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/physics/relativity/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Relativity</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/physics/nuclear/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Nuclear</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/physics/maths/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Physics Maths</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/physics/uap/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">UAP</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/physics/particle/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Particle Physics</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/physics/quantum/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Quantum Physics</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/physics/materials.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Materials Physics</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/physics/mysteries.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Mysteries</span></a>
-  </div>
-</li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" aria-expanded="false">
- <span class="menu-text">Classical</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-18" class="collapse list-unstyled sidebar-section depth4 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/physics/classical/fluid-dynamics.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Fluid Dynamics</span></a>
-  </div>
-</li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" aria-expanded="false">
- <span class="menu-text">Papers</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-19" class="collapse list-unstyled sidebar-section depth5 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/physics/classical/papers/energetics-of-turbulent-fluids.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Energetics of Turbulent Fluids</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../../library/natural-sciences/physics/government/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Government</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-20" class="collapse list-unstyled sidebar-section depth4 ">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" aria-expanded="false">
- <span class="menu-text">Darpa</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-21" class="collapse list-unstyled sidebar-section depth5 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/physics/government/darpa/fellows.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">DARPA Fellows</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" aria-expanded="false">
- <span class="menu-text">Pentagon</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-22" class="collapse list-unstyled sidebar-section depth5 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/physics/government/pentagon/pleads-fifth-exotic-materials.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Pentagon Pleads the Fifth</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../../library/natural-sciences/physics/electromagnetism/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Electromagnetism</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-23" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-23" class="collapse list-unstyled sidebar-section depth4 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/physics/electromagnetism/superconductor/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Superconductors</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/physics/electromagnetism/mhd/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">MHD</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-24" aria-expanded="false">
- <span class="menu-text">Index</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-24" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-24" class="collapse list-unstyled sidebar-section depth4 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/physics/field-theory/effective-or-fundamental.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Fundamental?</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-25" aria-expanded="false">
- <span class="menu-text">Unification</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-25" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-25" class="collapse list-unstyled sidebar-section depth4 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/physics/unification/geometric-unity.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Geometric Unity</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/physics/unification/string-theory.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">String Theory</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-26" aria-expanded="false">
- <span class="menu-text">Software</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-26" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-26" class="collapse list-unstyled sidebar-section depth3 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/software/virtual-machines/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Virtual Machines</span></a>
-  </div>
-</li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-27" aria-expanded="false">
- <span class="menu-text">Ai</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-27" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-27" class="collapse list-unstyled sidebar-section depth4 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/software/ai/bio/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">AI x Bio</span></a>
-  </div>
-</li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-28" aria-expanded="false">
- <span class="menu-text">History of Ai</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-28" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-28" class="collapse list-unstyled sidebar-section depth5 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/software/ai/history-of-ai/history-of-ai.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">History of AI</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-29" aria-expanded="false">
- <span class="menu-text">Programming</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-29" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-29" class="collapse list-unstyled sidebar-section depth4 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/natural-sciences/software/programming/rust/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Rust Language</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-30" aria-expanded="false">
- <span class="menu-text">Reads</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-30" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-30" class="collapse list-unstyled sidebar-section depth2 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/reads/straussian-moment.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Straussian Moment</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-31" aria-expanded="false">
- <span class="menu-text">Social Sciences</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-31" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-31" class="collapse list-unstyled sidebar-section depth2 ">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-32" aria-expanded="false">
- <span class="menu-text">Events</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-32" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-32" class="collapse list-unstyled sidebar-section depth3 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/social-sciences/events/maui-fire/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Maui Fire</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../../library/social-sciences/geopolitics/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Geopolitics</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-33" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-33" class="collapse list-unstyled sidebar-section depth3 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/social-sciences/geopolitics/deep-state.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Deep State</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/social-sciences/geopolitics/reads/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Reads</span></a>
-  </div>
-</li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../../library/social-sciences/geopolitics/corruption/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Corruption</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-34" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-34" class="collapse list-unstyled sidebar-section depth4 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/social-sciences/geopolitics/corruption/biden.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Biden Family</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-35" aria-expanded="false">
- <span class="menu-text">Ukraine</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-35" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-35" class="collapse list-unstyled sidebar-section depth4 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/social-sciences/geopolitics/ukraine/psyop.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Ukraine Psyop</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../../library/social-sciences/finance/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Finance</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-36" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-36" class="collapse list-unstyled sidebar-section depth3 ">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-37" aria-expanded="false">
- <span class="menu-text">Finance 101</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-37" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-37" class="collapse list-unstyled sidebar-section depth4 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/social-sciences/finance/finance-101/finance-101.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Finance 101</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-38" aria-expanded="false">
- <span class="menu-text">Quant Trading</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-38" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-38" class="collapse list-unstyled sidebar-section depth4 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/social-sciences/finance/quant-trading/quant-trading.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Quant Trading</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-39" aria-expanded="false">
- <span class="menu-text">Trading</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-39" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-39" class="collapse list-unstyled sidebar-section depth4 ">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-40" aria-expanded="false">
- <span class="menu-text">Trades</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-40" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-40" class="collapse list-unstyled sidebar-section depth5 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/social-sciences/finance/trading/trades/JGByields/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">JGB Rates</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../library/social-sciences/finance/trading/trades/comstock/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">LODE</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">On the Risks of Artificial Intelligence</h1>
+<h1 class="title">On the Risks of AI</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Brendan </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 16, 2022</p>
+    </div>
+  </div>
   
     
   </div>
@@ -907,6 +146,7 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<p>There exist distinct risks related to AI. Each posing a different severity and relevant on a different timeline.</p>
 <section id="background" class="level3">
 <h3 class="anchored" data-anchor-id="background">Background</h3>
 <p>I’ve spent a some time meditating on this question. I have interacted with the industry as a consumer, as an investor, as a startup contributor, and as a (novice) developer. Most importantly, I’ve had fruitful discussions with, and have listened very carefully to, many people with more perspectives than I.</p>
@@ -920,35 +160,45 @@ ul.task-list li input[type="checkbox"] {
 <section id="loss-of-human-dominance" class="level3">
 <h3 class="anchored" data-anchor-id="loss-of-human-dominance">Loss of Human Dominance</h3>
 <p>The first and most focused on vector of risk is the danger of a(n) agent(s) which surpass(es) humans in intelligence &amp; aptitude. This is the rogue AGI scenario. Humans have held the top spot for ~300,000 years, and no one is capable of predicting what would happen if/when that changes.</p>
-<p>This is the vector addressed by “Pause Giant AI Experiments: An Open Letter” https://futureoflife.org/open-letter/pause-giant-ai-experiments/</p>
+<p>This is the vector addressed by <a href="https://futureoflife.org/open-letter/pause-giant-ai-experiments/">“Pause Giant AI Experiments: An Open Letter”</a></p>
 <p>I believe this vector of risk is real, and it is tremendously dangerous.</p>
-<p>Cybersecurity will become very tricky. https://twitter.com/0xbmac/status/1664668707820273669?s=20</p>
-<p>Military applications will introduce existential threats https://academic.oup.com/ijlit/article-pdf/30/4/472/49978077/eaad008.pdf</p>
-<p>Domestic use cases (surveillance, policing) will yield tremendous controversy</p>
-<p>In my opinion, the day-to-day news stories/headlines draw too much attention and cause us to overestimate the short-term risks. Yet, the longer term horizon of this paradigm remain wildly under-appreciated.</p>
-<p>Regardless of my (or anyone’s) view on the severity of this risk vector, it’s naive to think a “pause” on AI will ever happen.</p>
+<ul>
+<li>Cybersecurity will become <a href="https://twitter.com/0xbmac/status/1664668707820273669?s=20">very tricky</a>.</li>
+<li>Military applications will introduce <a href="https://academic.oup.com/ijlit/article-pdf/30/4/472/49978077/eaad008.pdf">existential threats</a></li>
+<li>Domestic use cases (surveillance, policing) will yield tremendous controversy</li>
+</ul>
+<p>In my opinion, the day-to-day news stories/headlines draw too much attention and cause us to overestimate the short-term risks. Yet, the longer term horizon of this paradigm remain wildly under-appreciated. Regardless of the severity of this risk vector, a “pause” on AI will never happen.</p>
 <p>This is an arms race.</p>
 </section>
 <section id="centralization-of-information-flow" class="level3">
 <h3 class="anchored" data-anchor-id="centralization-of-information-flow">Centralization of Information Flow</h3>
 <p>The second vector of risk, which I believe is more relevant in the short-term, regards what’s being referred to as the “Moderation Layer”.</p>
 <p>This risk is not about the AI agent itself. Rather, it concerns the humans &amp; organizations that own these models and are responsible for regulating (or in the position to regulate) usage. Although discussion on the correct approach to regulation/moderation takes place, these often happen in the political realm, wherein a strictly two-dimensional tug-of-war stagnates.</p>
-<p>Main Question: What is the goal of the moderation layer, and why is it necessary?</p>
+<p><strong>Main Question:</strong></p>
+<p><em>What is the goal of the moderation layer, and why is it necessary?</em></p>
 <blockquote class="blockquote">
-<p>“To censor dangerous content” - What exactly defines “dangerous”? - Would a blanket definition of “dangerous” be acceptable? For example, allowing an AI explain how to enrich Uranium to a jihadist group can likely be considered dangerous. Allowing the AI to explain this to a group of PhD Chemical Engineers, on the other hand, is not as dangerous.</p>
+<p>“To censor dangerous content”</p>
 </blockquote>
+<p>What exactly defines “dangerous”? Would a blanket definition of “dangerous” be acceptable? For example, allowing an AI explain how to enrich Uranium to a jihadist group can likely be considered dangerous. Allowing the AI to explain this to a group of PhD Chemical Engineers, on the other hand, is not as dangerous.</p>
 <blockquote class="blockquote">
-<p>“To censor offensive content” - All statements are offensive to some extent, so where exactly are we drawing the line? To what extent should we be tolerant in the name of free speech? “Offensive” is a spectrum - there is no statement that offends none. It becomes clear to ask, to what extent are we willing to restrict the freedom of thought to protect users from being offended?</p>
+<p>“To censor offensive content”</p>
 </blockquote>
+<p>All statements are offensive to some extent, so where exactly are we drawing the line? To what extent should we be tolerant in the name of free speech? “Offensive” is a spectrum - there is no statement that offends none. It becomes clear to ask, to what extent are we willing to restrict the freedom of thought to protect users from being offended?</p>
 <blockquote class="blockquote">
-<p>“To limit the spread of misinformation” - I have a appreciation for the harm that AI can do with respect to proliferating false information. But if the past few years have taught us anything, it’s that “misinformation” is now synonymous with “I don’t like that information”.</p>
+<p>“To limit the spread of misinformation”</p>
 </blockquote>
-<p>I am not going to assert my conclusions on these follow-ups to the main question. I believe there are no objective answers to these questions. Thus, they must be governed by a diverse body of humans.</p>
-<p>Large language models (LLMs) like OpenAI’s GPT-4 are trained on billions of lines of text, extracted from the internet, from millions of (human) sources of various demographics, representing a vast array of perspectives.</p>
-<p>OpenAI’s moderation layer is built by less than 100 humans, nearly all of whom have a similar background and reside in Silicon Valley.</p>
-<p>“The political ideology of conversational AI” https://arxiv.org/abs/2301.01768</p>
-<p>To believe the latter is capable of mitigating the bias the former, in my humble opinion, is simply incorrect.</p>
-<p>GPT-4 System Card, the Appendix https://cdn.openai.com/papers/gpt-4-system-card.pdf</p>
+<p>I have an appreciation for the harm that AI can do with respect to proliferating false information. But if the past few years have taught us anything, it’s that “misinformation” is now synonymous with “I don’t like that information”.</p>
+<ul>
+<li>Large language models (LLMs) like OpenAI’s GPT-4 are trained on billions of lines of text, extracted from the internet, from millions of (human) sources of various demographics, representing a vast array of perspectives.</li>
+<li>OpenAI’s moderation layer is built by less than 100 humans, nearly all of whom have a similar background and reside in Silicon Valley.
+<ul>
+<li><a href="https://arxiv.org/abs/2301.01768">“The political ideology of conversational AI”</a></li>
+</ul></li>
+</ul>
+<p>To believe the latter is capable of mitigating the bias the former, in my humble opinion, is misled.</p>
+<ul>
+<li><em>See</em> <a href="https://cdn.openai.com/papers/gpt-4-system-card.pdf">GPT-4 System Card, the Appendix</a></li>
+</ul>
 <p>I am not claiming the former (the agent) is unbiased. LLMs are trained heavily on text from Reddit, for example, which has an overrepresentation of men than women. Further, as (almost) all training data is extracted from the internet, the information from which the AI model “learns” is inherently biased towards the digital world: internet users, citizens of first world countries, etc.</p>
 <p>My current stance is that the moderation layer is necessary, but</p>
 <ol type="1">
