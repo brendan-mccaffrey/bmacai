@@ -1,0 +1,93 @@
+---
+title: "Running Bitcoin Core"
+description: "How to run a Bitcoin full node. I have decided to run a node 5 minutes ago, so I am making this tutorial as I go. Let's see how long it takes."
+page-layout: full
+---
+
+## Resources
+
+- [Neat Resource](https://bitcoin.org/en/full-node#other-linux-daemon)
+- [Complete List of Commands](https://developer.bitcoin.org/reference/rpc/)
+
+How to run a Bitcoin full node. I have decided to run a node 5 minutes ago, so I am making this tutorial as I go. Let's see how long it takes.
+
+## Short Version
+
+```bash
+# download software
+wget https://bitcoincore.org/bin/bitcoin-core-24.0.1/
+# extract contents
+sudo tar -C /usr/local -xzf bitcoin-24.0.1-x86_64-linux-gnu.tar.gz
+# install extracted contents to local bin
+sudo install -m 0755 -o root -g root -t /usr/local/bin /usr/local/bitcoin-24.0.1/bin/*
+# check version
+bitcoind --version
+# start the software
+bitcoind -daemon -txindex
+# check status
+bitcoin-cli -getinfo
+# check block count
+bitcoin-cli getblockcount
+# stop the software
+bitcoin-cli stop
+```
+
+## Full Version
+
+### Step 1: Download Bitcoin Core
+
+As of today (Feb 11, 2023), the latest version of Bitcoin Core is 24.0.1. You can find the download links [here](https://bitcoincore.org/bin/bitcoin-core-24.0.1/)
+
+1) Copy the link address of the version you need - I am running Linux Ubuntu so I will use the x86_64-linux-gnu.tar.gz
+
+```bash
+wget https://bitcoincore.org/bin/bitcoin-core-24.0.1/
+```
+
+2) Extract the contents
+
+```bash
+sudo tar -C /usr/local -xzf bitcoin-24.0.1-x86_64-linux-gnu.tar.gz
+```
+
+This downloads the contents into `/usr/local/` directory
+
+### Step 2: Install Bitcoin from Downloaded Contents
+
+Run this command (idk the details who cares)
+
+```bash
+sudo install -m 0755 -o root -g root -t /usr/local/bin /usr/local/bitcoin-24.0.1/bin/*
+```
+
+### Step 3: Run Bitcoin Core
+
+```bash
+bitcoind -daemon
+```
+
+You can check the progress of syncing with `bitcoin-cli -getinfo`
+
+This should produce something that looks like this
+
+```bash
+ubuntu@REDACTED:~$ bitcoin-cli -getinfo
+Chain: main
+Blocks: 235213
+Headers: 775994
+Verification progress: ▒░░░░░░░░░░░░░░░░░░░░ 2.1719%
+Difficulty: 10076292.88341872
+
+Network: in 0, out 10, total 10
+Version: 240001
+Time offset (s): -1
+Proxies: n/a
+Min tx relay fee rate (BTC/kvB): 0.00001000
+```
+
+Compare "blocks" with the latest block on the chain.
+
+## Done
+
+All in all, it took me 34 minutes to figure this out. 
+

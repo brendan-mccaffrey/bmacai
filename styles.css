@@ -81,10 +81,6 @@ h1 {
     color: #212529;
 }
 
-/* #quarto-sidebar {
-    padding-left: 0;
-} */
-
 .sidebar-link.active {
     color: #00de64 !important;
 }
@@ -110,9 +106,3 @@ a:active {
     background-color: transparent;
     text-decoration: none;
 }
-
-/* a:visited {
-    color: #1e496d;
-    background-color: transparent;
-    text-decoration: none;
-} */

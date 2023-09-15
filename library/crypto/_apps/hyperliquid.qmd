@@ -1,0 +1,121 @@
+---
+title: Hyperliquid
+---
+
+Hyperliquid is an orderbook perpetual futures app-chain DEX, designed to function like a CEX.
+
+### Overview
+
+The DEX runs on the Hyperliquid L1
+
+- Tendermint SDK (Cosmos consensus)
+    - proof of stake
+    - state transition logic built in rust
+- 20,000 "orders" per second. 
+    - is this different than transactions? likely yes, as they can batch n orders into 1 tx
+    - researching improving throughput
+- block latency (block time) "< 1 second"
+- No plans for general purpose smart contracts
+
+### Questions / Interesting Things
+
+Validator set
+- important for oracle, which is *everything* in a perpetual futures exchange
+- is this the same validator set for the bridge?
+- how decentralized is it? We obviously don't really care because these guys are legit (and would prob use a CEX by them), but they could be attacked like Wormhole (bridge validator attack) or Mango (oracle manipulation attack) if not configured properly.
+
+Latency
+- They have the ability to be best co-located (same racks) - do they do this? I'm not sure they would/do, only because the PR could cost more than the actualy advantage.
+- Could we get lowest latency?
+
+### Notes
+
+**Latency**
+
+Co-located client median rsponse time 0.2 sec, 99th percentile 0.9 sec
+
+**API** 
+
+Single API server that allows clients to make automated requests (trading algos, etc)
+- Available [here](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api)
+
+**Clearinghouse**
+
+Positions are cross-margin by default, with isolated margin as an option.
+- this makes me bullish the liquidator vault
+
+**Oracle**
+
+Validators publish oracle prices every 3 second, "mark price" used for liquidations, TP/SL orders. 
+Calculation is a weighted average
+- Binance: weight 3
+- OKX: weight 2
+- Kraken: weight 2
+- Huobi: weight 1
+
+Final mark price is stake-weighted median of each validator's submitted prices.
+
+**Fees**
+
+Gas and trading fees are ZERO in mainnet closed alpha
+- My bet: This changes upon mainnet launch, wherein the fees are paid in $HLQ, the native token
+
+**Liquidations**
+
+Anyone can call to liquidate someone when they are under their maintenance margin (1% for 100x leverage). The liquidator must have enough margin to take over the positions and margin of the liquidated account.
+
+"Currently the only way to profit from liquidations is through the liquidator vault." In other words, it doesn't pay to be the one to call the liquidation. What incentivized liquidations to occur then? I guess it's like "taking" the underwater position *plus* their margin (which is sub 1%). If someone gets to 0 margin, then liquidator is no lnger incentivized? Hmmmm.
+
+**Funding**
+
+- Funding is paid once every 8 hours.
+- Interest rate component is 0.01% every 8 hours (11.6% APR) paid to short.
+
+## Current (widely accepted) Funding Rate Formula:
+$$F = P + \text{clamp}(r - P, r_c, r_c)$$
+where
+- F = Funding Rate
+- P = Average Premium Index
+- r = interest rate
+- r_c = clamp rate (e.g. 0.03%, the max/min funding rate as decided by exchange)
+
+## (Potentially) New Funding Rate Formula:
+$$F = P + \text{clamp}(r - P - , r_c, r_c)$$
+where
+- F = Funding Rate
+- P = Average Premium Index
+- r = interest rate
+- r_c = clamp rate (e.g. 0.03%, the max/min funding rate as decided by exchange)
+
+One important distinction is that Hyperliquid uses a constant 6000 USD notional value when computing the impact bid and ask prices for the premium.
+
+**Insurance Fund**
+
+- Portion of trading fees (once turned on) will go here.
+- Entirely automated in L1 logic (not discretionary insurance spending)
+- In rare event no one liquidates position (my early question), fund will take over and slowly deleverage it.
+
+"Note that auto-deleveraging has never happened on Hyperliquid to date. However, it is an important final safeguard on the solvency of the platform. There is a strict invariant that under all operation, a user who has no open positions will not socialize any losses of the platform."
+- Yea, unless the insurance fund gets rinsed lol.
+
+**Market Making**
+
+> If you’re interested in market making, reach out via Telegram @HyperliquidX
+We should show interest
+
+**Vaults**
+
+Anyone can make their account a "vault" which is essentially a copy-trade program. Creator earns additional 10% (makes sense)
+- I like this, introduces a good social element that was missing from GMX and CEX's
+
+**Historical Data**
+
+- Is available as compressed csv files [link](https://hyperliquid.gitbook.io/hyperliquid-docs/historical-data)
+
+
+
+
+
+
+
+

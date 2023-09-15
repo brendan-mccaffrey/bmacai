@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Physics is law. All else is recommendation.">
+
+<title>bmac - Physics</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<link href="../../media/favicon.ico" rel="icon">
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="bmac - Physics">
+<meta name="twitter:description" content="Physics is law. All else is recommendation.">
+<meta name="twitter:image" content="media/bg.jpeg">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">bmac</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../library/index.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Reads</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../writes/index.html" rel="" target="">
+ <span class="menu-text">Writes</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/brendan-mccaffrey" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/0xbmac" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../library/index.html">Library</a></li><li class="breadcrumb-item"><a href="../../library/physics/index.html">Physics</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Library</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/ai/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">AI</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+ <span class="menu-text">Computing</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/computing/classical/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Classical</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/computing/quantum/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quantum</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+ <span class="menu-text">Crypto</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/cex/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CEXs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+ <span class="menu-text">Apps</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/apps/hyperliquid.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hyperliquid</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
+ <span class="menu-text">Ethena</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/apps/ethena/ethena.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ethena Labs</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/crypto/rekt/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rekt</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/rekt/mango.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mango Markets REKT</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/rekt/stake.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Stake</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/rekt/ygg.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">YGG REKT</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/crypto/blockchains/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Blockchains</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/blockchains/consensus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Consensus</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/crypto/blockchains/solana/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Solana</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="false">
+ <span class="menu-text">Events</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth5 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/blockchains/solana/events/mango.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mango Rekt</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/crypto/blockchains/bitcoin/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bitcoin</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/blockchains/bitcoin/btc-core.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Running Bitcoin Core</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/crypto/blockchains/evm/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">EVM</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/blockchains/evm/layer-2/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Layer 2 Rollups</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/blockchains/evm/ethereum/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ethereum</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/crypto/mev/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/mev/amm/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">MEV on AMMs</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/maths/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Maths</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/maths/physics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Maths x Physics</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/finance/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Finance</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="false">
+ <span class="menu-text">Finance 101</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/finance/finance-101/finance-101.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Finance 101</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" aria-expanded="false">
+ <span class="menu-text">Quant Trading</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/finance/quant-trading/quant-trading.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quant Trading</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" aria-expanded="false">
+ <span class="menu-text">Trading</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" aria-expanded="false">
+ <span class="menu-text">Trades</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-18" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/finance/trading/trades/JGByields/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">JGB Rates</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/finance/trading/trades/comstock/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LODE</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/physics/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Physics</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-19" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/unification/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Grand Unification</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/materials/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Materials Physics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/astrophysics/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Astrophysics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/relativity/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/nuclear/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Nuclear</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/electromagnetism/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Electromagnetism</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/field-theory/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Field Theory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/classical/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Classical</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/uap/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">UAP</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/particle/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Particle Physics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/quantum/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quantum Physics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/mysteries.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mysteries</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/physics/government/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Government</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-20" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" aria-expanded="false">
+ <span class="menu-text">Darpa</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-21" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/government/darpa/fellows.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">DARPA Fellows</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" aria-expanded="false">
+ <span class="menu-text">Pentagon</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-22" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/government/pentagon/pleads-fifth-exotic-materials.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pentagon Pleads the Fifth</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-23" aria-expanded="false">
+ <span class="menu-text">Reads</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-23" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-23" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/reads/straussian-moment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Straussian Moment</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-24" aria-expanded="false">
+ <span class="menu-text">Social Sciences</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-24" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-24" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-25" aria-expanded="false">
+ <span class="menu-text">Events</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-25" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-25" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/social-sciences/events/9-11/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9/11</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/social-sciences/events/maui-fire/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Maui Fire</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/social-sciences/geopolitics/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Geopolitics</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-26" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-26" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/social-sciences/geopolitics/deep-state.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Deep State</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/social-sciences/geopolitics/corruption/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Corruption</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-27" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-27" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/social-sciences/geopolitics/corruption/biden.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Biden Family</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-28" aria-expanded="false">
+ <span class="menu-text">Ukraine</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-28" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-28" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/social-sciences/geopolitics/ukraine/psyop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ukraine Psyop</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-29" aria-expanded="false">
+ <span class="menu-text">Software</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-29" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-29" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/software/chrome-extension/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chrome Extensions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/software/virtual-machines/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Virtual Machines</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-30" aria-expanded="false">
+ <span class="menu-text">Languages</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-30" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-30" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/software/languages/rust/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rust</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#classical-physics" id="toc-classical-physics" class="nav-link active" data-scroll-target="#classical-physics">Classical Physics</a></li>
+  <li><a href="#astrophysics" id="toc-astrophysics" class="nav-link" data-scroll-target="#astrophysics">Astrophysics</a></li>
+  <li><a href="#electromagnetism" id="toc-electromagnetism" class="nav-link" data-scroll-target="#electromagnetism">Electromagnetism</a>
+  <ul class="collapse">
+  <li><a href="#primary-subdomains-2" id="toc-primary-subdomains-2" class="nav-link" data-scroll-target="#primary-subdomains-2">Primary Subdomains</a></li>
+  <li><a href="#fields-of-application-2" id="toc-fields-of-application-2" class="nav-link" data-scroll-target="#fields-of-application-2">Fields of Application</a></li>
+  <li><a href="#additional-notes-2" id="toc-additional-notes-2" class="nav-link" data-scroll-target="#additional-notes-2">Additional Notes</a></li>
+  </ul></li>
+  <li><a href="#materials-physics" id="toc-materials-physics" class="nav-link" data-scroll-target="#materials-physics">Materials Physics</a></li>
+  <li><a href="#particle-physics" id="toc-particle-physics" class="nav-link" data-scroll-target="#particle-physics">Particle Physics</a></li>
+  <li><a href="#field-theory" id="toc-field-theory" class="nav-link" data-scroll-target="#field-theory">Field Theory</a></li>
+  <li><a href="#relativity" id="toc-relativity" class="nav-link" data-scroll-target="#relativity">Relativity</a></li>
+  <li><a href="#quantum-physics" id="toc-quantum-physics" class="nav-link" data-scroll-target="#quantum-physics">Quantum Physics</a></li>
+  <li><a href="#grand-unification" id="toc-grand-unification" class="nav-link" data-scroll-target="#grand-unification">Grand Unification</a></li>
+  <li><a href="#random" id="toc-random" class="nav-link" data-scroll-target="#random">Random</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Physics</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">physics</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Physics is law. All else is recommendation.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>This page provides a brief overview of each subdomain of physics. Each header is a link to the page which explores the respective domain further.</p>
+<section id="classical-physics" class="level2">
+<h2 class="anchored" data-anchor-id="classical-physics"><a href="../../library/physics/classical/index.html">Classical Physics</a></h2>
+<p>Classical Physics encompasses the theories and principles that describe the natural world in terms of macroscopic scales and speeds much slower than the speed of light. It is the framework in which forces, energy, and matter interact and is often considered to be the classical limit of more advanced theories, such as quantum mechanics and general relativity.</p>
+<section id="primary-subdomains" class="level5">
+<h5 class="anchored" data-anchor-id="primary-subdomains"><strong>Primary Subdomains</strong></h5>
+<ol type="1">
+<li><strong>Newtonian Mechanics</strong>: Study of forces and motions based on Isaac Newton’s three laws.</li>
+<li><strong>Classical Electrodynamics</strong>: Description of electric and magnetic fields and their interaction with matter, typically framed using Maxwell’s equations.</li>
+<li><strong>Thermodynamics</strong>: Study of heat transfer and the principles governing energy transformations.</li>
+<li><strong>Optics</strong>: Study of the behavior and properties of light, including its interactions with matter.</li>
+<li><strong>Acoustics</strong>: Study of the production, transmission, and effects of sound waves.</li>
+<li><strong>Fluid Mechanics</strong>: Study of fluids (liquids and gases) in motion or at rest.</li>
+<li><strong>Lagrangian and Hamiltonian Mechanics</strong>: Advanced formulations of classical mechanics that provide alternative approaches to describing systems.</li>
+</ol>
+</section>
+<section id="fields-of-application" class="level5">
+<h5 class="anchored" data-anchor-id="fields-of-application"><strong>Fields of Application</strong></h5>
+<ol type="1">
+<li><strong>Engineering</strong>: For designing mechanical systems, electrical circuits, and thermodynamic processes.</li>
+<li><strong>Astronomy</strong>: For celestial mechanics and basic calculations regarding heavenly bodies.</li>
+<li><strong>Geophysics</strong>: In studying phenomena like earthquakes and atmospheric science.</li>
+<li><strong>Medicine</strong>: In medical imaging and biomechanics.</li>
+<li><strong>Environmental Science</strong>: For understanding weather patterns and fluid flows in natural systems.</li>
+<li><strong>Materials Science</strong>: In studying the mechanical properties of materials.</li>
+</ol>
+</section>
+<section id="additional-notes" class="level5">
+<h5 class="anchored" data-anchor-id="additional-notes"><strong>Additional Notes</strong></h5>
+<ul>
+<li>Classical Physics provides the foundation upon which modern physics (e.g., quantum mechanics, relativity) is built.</li>
+<li>Despite its limitations at very high speeds or microscopic scales, classical physics is exceptionally accurate for a broad range of everyday applications.</li>
+</ul>
+<p>This category aims to provide a comprehensive understanding of the physical principles that govern our everyday world and serves as a foundation for other, more specialized fields in physics.</p>
+</section>
+</section>
+<section id="astrophysics" class="level2">
+<h2 class="anchored" data-anchor-id="astrophysics"><a href="../../library/physics/astrophysics/index.html">Astrophysics</a></h2>
+<p>Astrophysics is a branch of astronomy that applies the principles of physics and mathematics to understand the fundamental workings of the universe. It aims to explain the behavior and characteristics of astronomical objects, from stars and planets to galaxies and the entire universe itself.</p>
+<section id="primary-subdomains-1" class="level5">
+<h5 class="anchored" data-anchor-id="primary-subdomains-1"><strong>Primary Subdomains</strong></h5>
+<ol type="1">
+<li><strong>Cosmology</strong> - The study of the origin, structure, and eventual fate of the universe.</li>
+<li><strong>Stellar Astrophysics</strong> - Focuses on the physical properties and life cycles of stars.</li>
+<li><strong>Galactic and Extragalactic Astronomy</strong> - Study of galaxies and structures beyond our galaxy.</li>
+<li><strong>Planetary Science</strong> - Study of planets, both within our solar system and beyond (exoplanets).</li>
+<li><strong>High-Energy Astrophysics</strong> - Investigates phenomena that occur at extremely high energies, such as black holes, neutron stars, and gamma-ray bursts.</li>
+<li><strong>Astrobiology</strong> - The study of the origin, evolution, and possibility of life elsewhere in the universe.</li>
+<li><strong>Observational Astrophysics</strong> - Focuses on the data collection and interpretation, often via telescopes and other instruments.</li>
+<li><strong>Theoretical Astrophysics</strong> - Concerned with developing theoretical models to describe astrophysical objects and phenomena.</li>
+</ol>
+</section>
+<section id="fields-of-application-1" class="level5">
+<h5 class="anchored" data-anchor-id="fields-of-application-1"><strong>Fields of Application</strong></h5>
+<ol type="1">
+<li><strong>Aerospace Engineering</strong> - The understanding of celestial mechanics is crucial for space missions.</li>
+<li><strong>Climate Studies</strong> - Understanding the Sun’s impact on Earth’s climate.</li>
+<li><strong>Computer Science</strong> - Data from astrophysical observations often require sophisticated algorithms for interpretation.</li>
+<li><strong>Public Policy &amp; Education</strong> - Findings in astrophysics often inform science policy and are popular subjects for educational outreach.</li>
+</ol>
+</section>
+<section id="additional-notes-1" class="level5">
+<h5 class="anchored" data-anchor-id="additional-notes-1"><strong>Additional Notes</strong></h5>
+<ul>
+<li>Astrophysics is highly interdisciplinary, often overlapping with particle physics, general relativity, and quantum mechanics to explain phenomena like dark matter, dark energy, and black holes.</li>
+<li>Due to the advancement in technology, there’s been a significant increase in the discovery rate of exoplanets, leading to more sub-specializations within the field.</li>
+<li>A number of Nobel Prizes have been awarded for astrophysical research, highlighting its importance and impact on our understanding of the universe.</li>
+</ul>
+<p>This category serves as an essential foundation for understanding the complexities of the universe, helping to answer fundamental questions related to our existence and the nature of reality itself.</p>
+</section>
+</section>
+<section id="electromagnetism" class="level2">
+<h2 class="anchored" data-anchor-id="electromagnetism"><a href="../../library/physics/electromagnetism/index.html">Electromagnetism</a></h2>
+<p>Electromagnetism is one of the four fundamental forces in nature, governing the behavior of electrically charged particles and their interactions through electric and magnetic fields. It unifies electricity and magnetism into a single theory, initially formulated by James Clerk Maxwell in the 19th century. This theory is described by Maxwell’s equations, which provide the mathematical foundation for understanding electromagnetic phenomena.</p>
+<section id="primary-subdomains-2" class="level3">
+<h3 class="anchored" data-anchor-id="primary-subdomains-2">Primary Subdomains</h3>
+<ol type="1">
+<li><strong>Electrostatics</strong>: Study of electric charges at rest and electric fields.</li>
+<li><strong>Magnetostatics</strong>: Study of magnetic fields in systems with steady currents.</li>
+<li><strong>Electrodynamics</strong>: Study of time-dependent electric and magnetic fields, often involving moving charges.</li>
+<li><strong>Optics</strong>: Study of light as an electromagnetic wave, including reflection, refraction, and diffraction.</li>
+<li><strong>Microwave Engineering</strong>: Study of the electromagnetic waves in the microwave frequency range.</li>
+<li><strong>Plasma Physics</strong>: Study of charged particles and fluids interacting with self-consistent electric and magnetic fields.</li>
+</ol>
+</section>
+<section id="fields-of-application-2" class="level3">
+<h3 class="anchored" data-anchor-id="fields-of-application-2">Fields of Application</h3>
+<ol type="1">
+<li><strong>Electrical Engineering</strong>: Design and analysis of electrical systems.</li>
+<li><strong>Communications</strong>: Antenna design, signal processing, and wireless transmission.</li>
+<li><strong>Medical Imaging</strong>: MRI and X-ray technologies.</li>
+<li><strong>Material Science</strong>: Study of electrical, magnetic, and optical properties of materials.</li>
+<li><strong>Environmental Monitoring</strong>: Geophysical and atmospheric studies.</li>
+<li><strong>Energy Production</strong>: Power generation and transmission.</li>
+</ol>
+</section>
+<section id="additional-notes-2" class="level3">
+<h3 class="anchored" data-anchor-id="additional-notes-2">Additional Notes</h3>
+<p>Electromagnetism also serves as a cornerstone for more advanced theories in physics, such as Quantum Electrodynamics (QED) and the Standard Model of particle physics. It is crucial for understanding a broad range of phenomena, from the interaction of subatomic particles to the large-scale behavior of galaxies.</p>
+</section>
+</section>
+<section id="materials-physics" class="level2">
+<h2 class="anchored" data-anchor-id="materials-physics"><a href="../../library/physics/materials/index.html">Materials Physics</a></h2>
+<p>Materials Physics is a subfield of condensed matter physics that focuses on the study of materials and their properties at the microscopic or atomic level. This branch of physics aims to understand how the individual components (atoms, molecules, etc.) of a material contribute to its macroscopic properties like strength, electrical conductivity, and thermal properties. Materials physics seeks not just to understand existing materials but also to predict and create new materials with desired properties.</p>
+<section id="primary-subdomains-3" class="level5">
+<h5 class="anchored" data-anchor-id="primary-subdomains-3"><strong>Primary Subdomains</strong></h5>
+<ol type="1">
+<li><strong>Electronic Properties of Solids:</strong> Study of electrical, magnetic, and optical properties of solid materials.</li>
+<li><strong>Mechanical Properties:</strong> Exploration of strength, elasticity, and other mechanical properties of materials.</li>
+<li><strong>Magnetic Materials:</strong> Study of ferromagnetism, antiferromagnetism, and various other kinds of magnetic ordering.</li>
+<li><strong>Polymer Physics:</strong> Understanding the physical properties of polymers.</li>
+<li><strong>Nano-materials:</strong> Study of materials at the nanometer scale, often involving nano-particles, nano-composites, and nano-porous materials.</li>
+<li><strong>Bio-materials:</strong> Study of materials that interact with biological systems.</li>
+<li><strong>Superconductivity:</strong> Understanding materials that exhibit zero electrical resistance.</li>
+<li><strong>Photonic and Optoelectronic Materials:</strong> Materials designed to manipulate and utilize light (photons).</li>
+<li><strong>Semiconductors:</strong> Materials that have a conductivity between conductors and insulators.</li>
+</ol>
+</section>
+<section id="fields-of-application-3" class="level5">
+<h5 class="anchored" data-anchor-id="fields-of-application-3"><strong>Fields of Application</strong></h5>
+<ol type="1">
+<li><strong>Aerospace:</strong> Creation of materials that can withstand extreme conditions.</li>
+<li><strong>Electronics:</strong> Development of more efficient semiconductors, conductors, and insulators.</li>
+<li><strong>Energy:</strong> Materials for better energy storage like batteries and supercapacitors.</li>
+<li><strong>Medicine:</strong> Development of bio-compatible materials.</li>
+<li><strong>Telecommunications:</strong> Optoelectronic materials for better data transmission.</li>
+<li><strong>Environmental Science:</strong> Materials for pollution control and environmental remediation.</li>
+</ol>
+</section>
+<section id="additional-notes-3" class="level5">
+<h5 class="anchored" data-anchor-id="additional-notes-3"><strong>Additional Notes</strong></h5>
+<p>Materials physics often overlaps with materials science, chemistry, and engineering in interdisciplinary research and applications. Advances in this field often rely on cutting-edge techniques in computational physics, quantum mechanics, and statistical mechanics.</p>
+</section>
+</section>
+<section id="particle-physics" class="level2">
+<h2 class="anchored" data-anchor-id="particle-physics"><a href="../../library/physics/particle/index.html">Particle Physics</a></h2>
+<p>Particle Physics is the branch of physics that studies the nature and behavior of subatomic particles. These include elementary particles, such as electrons, quarks, and photons, as well as composite particles like protons, neutrons, and atomic nuclei. The field aims to understand the fundamental constituents of matter and the forces that act between them.</p>
+<section id="primary-subdomains-4" class="level5">
+<h5 class="anchored" data-anchor-id="primary-subdomains-4"><strong>Primary Subdomains</strong></h5>
+<ol type="1">
+<li><strong>Elementary Particle Physics</strong>: Study of fundamental, indivisible particles like electrons, quarks, and bosons.</li>
+<li><strong>Hadron Physics</strong>: Focuses on particles made of quarks, such as protons and neutrons, and their interactions.</li>
+<li><strong>Nuclear Physics</strong>: While closely related, this subdomain studies the behavior of atomic nuclei in detail.</li>
+<li><strong>Astroparticle Physics</strong>: Studies particles in astronomical contexts; often overlaps with cosmology.</li>
+<li><strong>Cosmic-Ray Physics</strong>: Investigates the high-energy particles that originate from space and strike the Earth.</li>
+<li><strong>Quantum Chromodynamics (QCD)</strong>: The study of the strong force, one of the fundamental forces of nature, and how it acts on quarks and gluons.</li>
+<li><strong>Electroweak Theory</strong>: Combines electromagnetism and the weak nuclear force into a single theory.</li>
+</ol>
+</section>
+<section id="fields-of-application-4" class="level5">
+<h5 class="anchored" data-anchor-id="fields-of-application-4"><strong>Fields of Application</strong></h5>
+<ol type="1">
+<li><strong>Medical Imaging</strong>: Particle detectors similar to those in physics experiments are used in medical imaging technologies.</li>
+<li><strong>Astronomy and Cosmology</strong>: Understanding particle interactions is crucial for understanding cosmic phenomena.</li>
+<li><strong>Material Science</strong>: Manipulation of particles at the atomic and subatomic levels can lead to new materials with unique properties.</li>
+<li><strong>Energy Sector</strong>: Understanding subatomic particles could potentially unlock new energy sources or methods for energy production.</li>
+</ol>
+</section>
+<section id="additional-notes-4" class="level5">
+<h5 class="anchored" data-anchor-id="additional-notes-4"><strong>Additional Notes</strong></h5>
+<p>Particle physics often requires large-scale experiments and particle accelerators like the Large Hadron Collider (LHC) to test theories and discover new particles. The field has deep connections with quantum mechanics and relativity and often overlaps with other domains in physics and even other disciplines like cosmology and astrophysics. It is a rapidly evolving field, and recent advancements often lead to practical applications in various industries.</p>
+</section>
+</section>
+<section id="field-theory" class="level2">
+<h2 class="anchored" data-anchor-id="field-theory"><a href="../../library/physics/field-theory/index.html">Field Theory</a></h2>
+<p>Field Theory is a branch of physics that deals with the study of fields, which are functions that assign a value to each point in space and time. In physics, fields are used to represent various physical quantities such as electromagnetic fields, gravitational fields, and quantum fields. The concept of a field is instrumental in describing how forces act at a distance and how particles interact with each other.</p>
+<section id="primary-subdomains-5" class="level5">
+<h5 class="anchored" data-anchor-id="primary-subdomains-5"><strong>Primary Subdomains</strong></h5>
+<ol type="1">
+<li><strong>Classical Field Theory</strong>: Includes electromagnetic fields and gravitational fields in the context of General Relativity.</li>
+<li><strong>Quantum Field Theory (QFT)</strong>: Merges quantum mechanics and special relativity to study interactions in particle physics.</li>
+<li><strong>Gauge Theory</strong>: A type of field theory where fields are formulated in terms of gauge-invariant quantities.</li>
+<li><strong>Conformal Field Theory</strong>: Deals with fields that are invariant under conformal transformations, often used in the study of critical phenomena.</li>
+<li><strong>Topological Field Theory</strong>: Concerned with fields that have topological invariants.</li>
+<li><strong>Effective Field Theory</strong>: An approximate theory to describe physics at a particular length scale.</li>
+</ol>
+</section>
+<section id="fields-of-application-5" class="level5">
+<h5 class="anchored" data-anchor-id="fields-of-application-5"><strong>Fields of Application</strong></h5>
+<ol type="1">
+<li><strong>Particle Physics</strong>: Quantum Field Theory is the foundation for the Standard Model.</li>
+<li><strong>Cosmology</strong>: Field theories like General Relativity are essential for understanding the universe’s large-scale structure.</li>
+<li><strong>Condensed Matter Physics</strong>: Field theoretical methods are used to understand many-body systems and phase transitions.</li>
+<li><strong>Quantum Computing</strong>: Quantum field theoretical methods are sometimes used in algorithms and understanding quantum computation.</li>
+<li><strong>Electrical Engineering</strong>: Classical electromagnetic field theory is essential for the design and understanding of electrical circuits, antennas, etc.</li>
+</ol>
+</section>
+<section id="additional-notes-5" class="level5">
+<h5 class="anchored" data-anchor-id="additional-notes-5"><strong>Additional Notes</strong></h5>
+<p>Field Theory often intersects with other areas of physics and mathematics, like statistical mechanics and group theory, to offer a more complete understanding of physical phenomena. The mathematics involved can be highly abstract, involving advanced topics in differential geometry, topology, and algebra.</p>
+</section>
+</section>
+<section id="relativity" class="level2">
+<h2 class="anchored" data-anchor-id="relativity"><a href="../../library/physics/relativity/index.html">Relativity</a></h2>
+<p>The theory of relativity fundamentally changed our understanding of space, time, and gravity. Developed primarily by Albert Einstein, it comes in two main forms: Special Relativity and General Relativity. Special Relativity focuses on the physics of objects moving at constant velocity, particularly those close to the speed of light, and describes how time dilation and length contraction occur. General Relativity extends these concepts to accelerating frames and introduces a revolutionary explanation for gravity as the curvature of spacetime caused by mass.</p>
+<section id="primary-subdomains-6" class="level5">
+<h5 class="anchored" data-anchor-id="primary-subdomains-6"><strong>Primary Subdomains</strong></h5>
+<ol type="1">
+<li><strong>Special Relativity</strong>: Deals with inertial frames and high-speed phenomena.
+<ul>
+<li>Time Dilation</li>
+<li>Length Contraction</li>
+<li>Lorentz Transformation</li>
+<li>Relativistic Energy-Momentum</li>
+</ul></li>
+<li><strong>General Relativity</strong>: Focuses on gravity and accelerating (non-inertial) frames.
+<ul>
+<li>Gravitational Fields and Curved Spacetime</li>
+<li>Black Holes</li>
+<li>Cosmological Models</li>
+<li>Gravitational Waves</li>
+</ul></li>
+<li><strong>Experimental Tests of Relativity</strong>: Confirmations and challenges to relativistic predictions.
+<ul>
+<li>Gravitational Lensing</li>
+<li>Time Dilation in Particle Accelerators</li>
+<li>Tests of the Equivalence Principle</li>
+</ul></li>
+</ol>
+</section>
+<section id="fields-of-application-6" class="level5">
+<h5 class="anchored" data-anchor-id="fields-of-application-6"><strong>Fields of Application</strong></h5>
+<ul>
+<li><strong>Astrophysics</strong>: Understanding celestial bodies like black holes, neutron stars, and the large-scale structure of the universe.</li>
+<li><strong>Global Positioning Systems (GPS)</strong>: Accounting for relativistic effects to achieve precise location data.</li>
+<li><strong>Particle Physics</strong>: Managing particles at high speeds in accelerators.</li>
+<li><strong>Cosmology</strong>: Explaining the Big Bang, cosmic inflation, and the fate of the universe.</li>
+<li><strong>Gravitational Wave Astronomy</strong>: Detecting and interpreting gravitational waves.</li>
+</ul>
+</section>
+<section id="additional-notes-6" class="level5">
+<h5 class="anchored" data-anchor-id="additional-notes-6"><strong>Additional Notes</strong></h5>
+<ul>
+<li>The equations of relativity reduce to Newtonian equations at speeds much lower than the speed of light, demonstrating a natural continuity in physical laws.</li>
+<li>Special Relativity has implications for the unification of electromagnetism into a single theory, often termed as the “electroweak” interaction.</li>
+<li>General Relativity, while incredibly successful at explaining large scale phenomena, is still incompatible with quantum mechanics. The reconciliation of these two theories is an open problem in theoretical physics, often referred to as the quest for a Theory of Everything (ToE).</li>
+</ul>
+<p>By categorizing articles under this section, readers can gain an in-depth understanding of one of the most groundbreaking and far-reaching theories in physics.</p>
+</section>
+</section>
+<section id="quantum-physics" class="level2">
+<h2 class="anchored" data-anchor-id="quantum-physics"><a href="../../library/physics/quantum/index.html">Quantum Physics</a></h2>
+<p>Quantum Physics, also known as Quantum Mechanics, is a branch of physics that deals with phenomena on the atomic and subatomic scales. It departs from classical physics, which fails to describe these systems accurately. Quantum physics introduces the concept of quantized energy levels, wave-particle duality, and probabilities as fundamental aspects of physical systems.</p>
+<section id="primary-subdomains-7" class="level5">
+<h5 class="anchored" data-anchor-id="primary-subdomains-7"><strong>Primary Subdomains</strong></h5>
+<ol type="1">
+<li><strong>Quantum Mechanics</strong>: The foundational theory describing basic quantum systems.</li>
+<li><strong>Quantum Field Theory</strong>: Extends quantum mechanics to systems with varying particle numbers, incorporating special relativity.</li>
+<li><strong>Quantum Computing</strong>: The study of how to perform computation using quantum-mechanical phenomena.</li>
+<li><strong>Quantum Information Theory</strong>: Deals with the quantification and manipulation of quantum information.</li>
+<li><strong>Quantum Optics</strong>: The study of the interactions between light and matter in the quantum regime.</li>
+<li><strong>Quantum Cryptography</strong>: Concerned with securing communication information using quantum phenomena.</li>
+<li><strong>Condensed Matter Physics</strong>: Examines quantum effects in solid and liquid systems.</li>
+<li><strong>Quantum Thermodynamics</strong>: Investigates the laws of thermodynamics in the realm of quantum systems.</li>
+</ol>
+</section>
+<section id="fields-of-application-7" class="level5">
+<h5 class="anchored" data-anchor-id="fields-of-application-7"><strong>Fields of Application</strong></h5>
+<ol type="1">
+<li><strong>Technology</strong>: Semiconductor devices, lasers, and quantum computers.</li>
+<li><strong>Medicine</strong>: MRI technology and future applications in quantum healthcare.</li>
+<li><strong>Telecommunications</strong>: Secure communication through quantum cryptography.</li>
+<li><strong>Material Science</strong>: Discovery and design of new materials with desired properties.</li>
+<li><strong>Finance and Optimization</strong>: Quantum algorithms for solving complex optimization problems.</li>
+</ol>
+</section>
+<section id="additional-notes-7" class="level5">
+<h5 class="anchored" data-anchor-id="additional-notes-7"><strong>Additional Notes</strong></h5>
+<p>Quantum Physics often intersects with other branches of physics like statistical mechanics, cosmology, and general relativity, creating interdisciplinary subdomains like quantum cosmology and quantum gravity. It is also a field that is philosophically rich, touching upon fundamental questions about the nature of reality, causality, and information.</p>
+</section>
+</section>
+<section id="grand-unification" class="level2">
+<h2 class="anchored" data-anchor-id="grand-unification"><a href="../../library/physics/unification/index.html">Grand Unification</a></h2>
+<p>The quest for a Theory of Everything (ToE) in physics is an endeavor to unify all fundamental forces and fields under a single, coherent theoretical framework. The primary goal is to reconcile quantum mechanics, which describes the forces of electromagnetism, weak nuclear force, and strong nuclear force, with general relativity, which describes gravity. Unification theories aim to provide a more elegant and simplified explanation for the complexities of the universe.</p>
+<section id="primary-subdomains-8" class="level5">
+<h5 class="anchored" data-anchor-id="primary-subdomains-8"><strong>Primary Subdomains</strong></h5>
+<ol type="1">
+<li>Grand Unified Theories (GUTs) - These theories attempt to unify the electromagnetic, weak, and strong forces.</li>
+<li>Quantum Gravity - Theoretical frameworks like Loop Quantum Gravity and String Theory fall under this category, aiming to reconcile quantum mechanics with general relativity.</li>
+<li>Supersymmetry - A proposed extension of the standard space-time symmetries to unify fermions and bosons.</li>
+<li>Higher-Dimensional Theories - Such as Kaluza-Klein theory, which posits extra spatial dimensions to unify forces.</li>
+<li>Preon Theories - These hypothesize that quarks and leptons are made of more fundamental particles.</li>
+<li>Cosmological Implications - Including models that address the Big Bang, inflation, and the fate of the universe within the framework of unification theories.</li>
+</ol>
+</section>
+<section id="fields-of-application-8" class="level5">
+<h5 class="anchored" data-anchor-id="fields-of-application-8"><strong>Fields of Application</strong></h5>
+<ol type="1">
+<li>High Energy Physics - Particle accelerators and colliders often test predictions made by unification theories.</li>
+<li>Cosmology - The origins and large-scale structure of the universe could be better understood through a ToE.</li>
+<li>Quantum Computing - Understanding the unified forces could potentially unlock new computational paradigms.</li>
+<li>Astrophysics - Phenomena like black holes and neutron stars are better understood in the context of a unified theory.</li>
+</ol>
+</section>
+<section id="additional-notes-8" class="level5">
+<h5 class="anchored" data-anchor-id="additional-notes-8"><strong>Additional Notes</strong></h5>
+<ul>
+<li>No single unification theory has been universally accepted or proven yet, although String Theory is often cited as a leading candidate.</li>
+<li>Experimental verification remains a challenge due to the extreme conditions required to test these theories, often beyond current technological capabilities.</li>
+<li>Philosophical implications also abound, particularly questions around determinism, free will, and the nature of reality itself.</li>
+</ul>
+<p>This category sits at the intersection of several fundamental areas in physics and represents the cutting edge of our understanding of the physical universe.</p>
+</section>
+</section>
+<section id="random" class="level2">
+<h2 class="anchored" data-anchor-id="random">Random</h2>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PL1TnhG8zyyNxnhHGZze1tAlYrXTXwxhn0">TASI 2023: Aspects of Symmetry</a></li>
+<li><a href="https://hectorzenil.medium.com/test-8f0be54817c4">The 8 Fallacies of Assembly Theory</a></li>
+<li><a href="https://arxiv.org/abs/2306.05395">Physics of the Analytic S-Matrix</a></li>
+<li><a href="https://t.co/zoqliCEews">World from Eyes, Reconstruct 3D Scene from Someone’s Eyeball</a></li>
+<li><a href="https://www.joachim-herz-stiftung.de/en/about-us/prices/hamburg-prize-for-theoretical-physics/edward-witten">Ed Witten Interview</a></li>
+<li><a href="https://www.quantamagazine.org/physicists-rewrite-a-quantum-rule-that-clashes-with-our-universe-20220926/">Unitarity</a></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Copyright 2023, Brendan McCaffrey</div>   
+    <div class="nav-footer-center"><span class="math inline">\(x^{14}\)</span></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/brendan-mccaffrey">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/0xbmac">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

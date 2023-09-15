@@ -1,6 +1,0 @@
----
-title: "About"
-sidebar: false
----
-
-About this site.

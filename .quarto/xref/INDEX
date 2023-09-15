@@ -910,5 +910,77 @@
   },
   "writes/posts/welcome-example/index.qmd": {
     "index.html": "8cdead34"
+  },
+  "library/ai/index.qmd": {
+    "index.html": "501575c8"
+  },
+  "library/ai/history-of-ai/index.qmd": {
+    "index.html": "ae20e773"
+  },
+  "library/crypto/rekt/mango.qmd": {
+    "mango.html": "6b683f98"
+  },
+  "library/crypto/rekt/stake.qmd": {
+    "stake.html": "e6ab2371"
+  },
+  "library/crypto/rekt/ygg.qmd": {
+    "ygg.html": "444c3d24"
+  },
+  "library/crypto/apps/hyperliquid.qmd": {
+    "hyperliquid.html": "4cb0d25e"
+  },
+  "library/crypto/mev/index.qmd": {
+    "index.html": "89c176cc"
+  },
+  "library/software/chrome-extension/index.qmd": {
+    "index.html": "3c8ea7a2"
+  },
+  "library/software/languages/rust/index.qmd": {
+    "index.html": "c8d75770"
+  },
+  "library/software/virtual-machines/index.qmd": {
+    "index.html": "67c28aaf"
+  },
+  "library/maths/physics.qmd": {
+    "physics.html": "440096fb"
+  },
+  "library/maths/index.qmd": {
+    "index.html": "5f81d211"
+  },
+  "library/computing/classical/index.qmd": {
+    "index.html": "de229017"
+  },
+  "library/computing/quantum/index.qmd": {
+    "index.html": "fcf43128"
+  },
+  "library/physics/government/darpa/fellows.qmd": {
+    "fellows.html": "374195ed"
+  },
+  "library/physics/materials/index.qmd": {
+    "index.html": "e6a3862a"
+  },
+  "library/physics/astrophysics/index.qmd": {
+    "index.html": "4baab31f"
+  },
+  "library/physics/nuclear/index.qmd": {
+    "index.html": "23b8a320"
+  },
+  "library/physics/field-theory/index.qmd": {
+    "index.html": "f7e52851"
+  },
+  "library/physics/mysteries.qmd": {
+    "mysteries.html": "a4df1e5b"
+  },
+  "library/physics/index.qmd": {
+    "index.html": "89557e31"
+  },
+  "library/physics/classical/index.qmd": {
+    "index.html": "f7569000"
+  },
+  "library/physics/particle/index.qmd": {
+    "index.html": "b43ee4fe"
+  },
+  "library/crypto/apps/ethena/index.qmd": {
+    "index.html": "c248cdd5"
   }
 }

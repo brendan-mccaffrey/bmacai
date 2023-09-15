@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="The universal language">
+
+<title>bmac - Maths</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<link href="../../media/favicon.ico" rel="icon">
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="bmac - Maths">
+<meta name="twitter:description" content="The universal language">
+<meta name="twitter:image" content="media/bg.jpeg">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">bmac</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../library/index.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Reads</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../writes/index.html" rel="" target="">
+ <span class="menu-text">Writes</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/brendan-mccaffrey" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/0xbmac" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../library/index.html">Library</a></li><li class="breadcrumb-item"><a href="../../library/maths/index.html">Maths</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Library</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/ai/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">AI</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+ <span class="menu-text">Computing</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/computing/classical/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Classical</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/computing/quantum/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quantum</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+ <span class="menu-text">Crypto</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/cex/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CEXs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+ <span class="menu-text">Apps</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/apps/hyperliquid.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hyperliquid</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
+ <span class="menu-text">Ethena</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/apps/ethena/ethena.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ethena Labs</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/crypto/rekt/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rekt</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/rekt/mango.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mango Markets REKT</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/rekt/stake.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Stake</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/rekt/ygg.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">YGG REKT</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/crypto/blockchains/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Blockchains</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/blockchains/consensus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Consensus</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/crypto/blockchains/solana/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Solana</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="false">
+ <span class="menu-text">Events</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth5 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/blockchains/solana/events/mango.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mango Rekt</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/crypto/blockchains/bitcoin/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bitcoin</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/blockchains/bitcoin/btc-core.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Running Bitcoin Core</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/crypto/blockchains/evm/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">EVM</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/blockchains/evm/layer-2/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Layer 2 Rollups</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/blockchains/evm/ethereum/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ethereum</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/crypto/mev/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/mev/amm/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">MEV on AMMs</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/maths/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Maths</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/maths/physics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Maths x Physics</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/finance/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Finance</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="false">
+ <span class="menu-text">Finance 101</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/finance/finance-101/finance-101.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Finance 101</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" aria-expanded="false">
+ <span class="menu-text">Quant Trading</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/finance/quant-trading/quant-trading.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quant Trading</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" aria-expanded="false">
+ <span class="menu-text">Trading</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" aria-expanded="false">
+ <span class="menu-text">Trades</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-18" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/finance/trading/trades/JGByields/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">JGB Rates</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/finance/trading/trades/comstock/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LODE</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/physics/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Physics</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-19" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/unification/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Grand Unification</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/materials/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Materials Physics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/astrophysics/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Astrophysics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/relativity/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/nuclear/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Nuclear</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/electromagnetism/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Electromagnetism</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/field-theory/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Field Theory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/classical/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Classical</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/uap/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">UAP</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/particle/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Particle Physics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/quantum/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quantum Physics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/mysteries.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mysteries</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/physics/government/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Government</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-20" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" aria-expanded="false">
+ <span class="menu-text">Darpa</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-21" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/government/darpa/fellows.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">DARPA Fellows</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" aria-expanded="false">
+ <span class="menu-text">Pentagon</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-22" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/government/pentagon/pleads-fifth-exotic-materials.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pentagon Pleads the Fifth</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-23" aria-expanded="false">
+ <span class="menu-text">Reads</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-23" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-23" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/reads/straussian-moment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Straussian Moment</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-24" aria-expanded="false">
+ <span class="menu-text">Social Sciences</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-24" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-24" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-25" aria-expanded="false">
+ <span class="menu-text">Events</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-25" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-25" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/social-sciences/events/9-11/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9/11</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/social-sciences/events/maui-fire/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Maui Fire</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/social-sciences/geopolitics/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Geopolitics</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-26" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-26" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/social-sciences/geopolitics/deep-state.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Deep State</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/social-sciences/geopolitics/corruption/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Corruption</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-27" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-27" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/social-sciences/geopolitics/corruption/biden.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Biden Family</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-28" aria-expanded="false">
+ <span class="menu-text">Ukraine</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-28" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-28" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/social-sciences/geopolitics/ukraine/psyop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ukraine Psyop</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-29" aria-expanded="false">
+ <span class="menu-text">Software</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-29" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-29" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/software/chrome-extension/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chrome Extensions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/software/virtual-machines/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Virtual Machines</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-30" aria-expanded="false">
+ <span class="menu-text">Languages</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-30" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-30" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/software/languages/rust/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rust</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#general" id="toc-general" class="nav-link active" data-scroll-target="#general">General</a></li>
+  <li><a href="#calculus" id="toc-calculus" class="nav-link" data-scroll-target="#calculus">Calculus</a>
+  <ul class="collapse">
+  <li><a href="#fractional-calculus" id="toc-fractional-calculus" class="nav-link" data-scroll-target="#fractional-calculus">Fractional Calculus</a></li>
+  </ul></li>
+  <li><a href="#differential-equations" id="toc-differential-equations" class="nav-link" data-scroll-target="#differential-equations">Differential Equations</a></li>
+  <li><a href="#linear-algebra" id="toc-linear-algebra" class="nav-link" data-scroll-target="#linear-algebra">Linear Algebra</a></li>
+  <li><a href="#probability-and-statistics" id="toc-probability-and-statistics" class="nav-link" data-scroll-target="#probability-and-statistics">Probability and Statistics</a></li>
+  <li><a href="#finance-and-economics" id="toc-finance-and-economics" class="nav-link" data-scroll-target="#finance-and-economics">Finance and Economics</a></li>
+  <li><a href="#optimization" id="toc-optimization" class="nav-link" data-scroll-target="#optimization">Optimization</a></li>
+  <li><a href="#physics-and-mathematical-physics" id="toc-physics-and-mathematical-physics" class="nav-link" data-scroll-target="#physics-and-mathematical-physics">Physics and Mathematical Physics</a></li>
+  <li><a href="#advanced-topics" id="toc-advanced-topics" class="nav-link" data-scroll-target="#advanced-topics">Advanced Topics</a>
+  <ul class="collapse">
+  <li><a href="#topology" id="toc-topology" class="nav-link" data-scroll-target="#topology">Topology</a></li>
+  <li><a href="#graph-theory" id="toc-graph-theory" class="nav-link" data-scroll-target="#graph-theory">Graph Theory</a></li>
+  <li><a href="#group-theory" id="toc-group-theory" class="nav-link" data-scroll-target="#group-theory">Group Theory</a></li>
+  <li><a href="#synchronization" id="toc-synchronization" class="nav-link" data-scroll-target="#synchronization">Synchronization</a></li>
+  <li><a href="#fourier-transformations" id="toc-fourier-transformations" class="nav-link" data-scroll-target="#fourier-transformations">Fourier Transformations</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Maths</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">math</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    The universal language
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="general" class="level2">
+<h2 class="anchored" data-anchor-id="general">General</h2>
+<ul>
+<li><a href="https://assets.press.princeton.edu/releases/gowers/gowers_VIII_6.pdf">Advice to a Young Mathematician</a></li>
+<li><a href="https://explained-from-first-principles.com/">Explained from First Principles</a></li>
+</ul>
+</section>
+<section id="calculus" class="level2">
+<h2 class="anchored" data-anchor-id="calculus">Calculus</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=5m0VJ7FTn54&amp;list=PL6UiEGS6WoUk8xJxOtLEs4rq5Ff9lSl25">UPenn Math 114 (Single Variable Calculus)</a></li>
+<li><a href="https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010">MIT Single Variable Calculus</a></li>
+<li><a href="https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010">MIT Multivariable Calculus</a></li>
+<li><a href="https://www.youtube.com/watch?v=Y6SYkfVdoio&amp;list=PL6UiEGS6WoUk42atmsXOWkohKJA3UbvDL">UPenn Math 240 (Multi Variable Calculus)</a></li>
+</ul>
+<section id="fractional-calculus" class="level3">
+<h3 class="anchored" data-anchor-id="fractional-calculus">Fractional Calculus</h3>
+<ul>
+<li><a href="https://www.cantorsparadise.com/fractional-calculus-48192f4e9c9f">What is Fractional Calculus</a></li>
+</ul>
+<p><strong>Summary</strong></p>
+<p>The blog post discusses the concept of fractional calculus, a mathematical field that explores the idea of derivatives and integrals of non-integer order. The concept was first proposed by Gottfried Leibniz in a response to a question from l’Hopital about the possibility of a derivative of order 1/2. The post explains the theory behind fractional calculus, its properties, and its applications, using the Riemann-Liouville integral and derivative as examples.</p>
+<ul>
+<li><p><strong>Fractional Calculus</strong>: Fractional calculus is the branch of mathematical analysis that investigates the possibility of taking derivatives and integrals of any real number order, not just integer order.</p></li>
+<li><p><strong>Intuition</strong>: The concept of fractional calculus arises from the idea of interpreting differentiation and integration as transformations that continuously transform a function into its nth derivative or antiderivative.</p></li>
+<li><p><strong>Fractional Integral and Derivative</strong>: The most natural place to start with fractional calculus is with Cauchy’s formula for repeated integration. The generalization of the factorial function in this formula is the gamma function, which allows for the definition of the left Riemann-Liouville integral, a valid operator for integration to fractional order.</p></li>
+<li><p><strong>Differintegral Operator</strong>: The differintegral operator is a combination of the fractional integral and derivative, which can continuously transform between functions.</p></li>
+<li><p><strong>Properties</strong>: Fractional calculus has unique properties, such as nonlocality, which means that the value of a fractional derivative at a point depends on an entire range of values, not just that point. This property makes fractional calculus useful for modeling physical phenomena with memory effects.</p></li>
+<li><p><strong>Fractional Derivatives of Basic Functions</strong>: The fractional derivatives of power functions, sine function, and exponential function are discussed.</p></li>
+<li><p><strong>Interpretation</strong>: The interpretation of fractional operators in a geometric or physical sense is still an area of active research.</p></li>
+<li><p><strong>Applications</strong>: An example of the application of fractional calculus is in solving the tautochrone problem, which involves finding a curve such that the time taken by a bead to slide down the curve is independent of the initial height.</p></li>
+<li><p><strong>Conclusion</strong>: Fractional calculus is a result of pushing the boundaries of existing theories to work with extreme or unusual cases. It is a field with potential for new discoveries in mathematics and science.</p></li>
+</ul>
+</section>
+</section>
+<section id="differential-equations" class="level2">
+<h2 class="anchored" data-anchor-id="differential-equations">Differential Equations</h2>
+<ul>
+<li><a href="https://twitter.com/curiouswavefn/status/1627741837233631232?s=20">Differential Equations Textbook</a></li>
+<li><a href="https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011">MIT Differential Equations</a></li>
+</ul>
+</section>
+<section id="linear-algebra" class="level2">
+<h2 class="anchored" data-anchor-id="linear-algebra">Linear Algebra</h2>
+<ul>
+<li><a href="https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011">MIT Linear Algebra</a></li>
+<li><a href="https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf">The Matrix Cookbook</a></li>
+</ul>
+</section>
+<section id="probability-and-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="probability-and-statistics">Probability and Statistics</h2>
+<ul>
+<li><a href="https://ocw.mit.edu/courses/18-440-probability-and-random-variables-spring-2014">MIT OCW Probability and Random Variables</a></li>
+</ul>
+</section>
+<section id="finance-and-economics" class="level2">
+<h2 class="anchored" data-anchor-id="finance-and-economics">Finance and Economics</h2>
+<ul>
+<li><a href="https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/pages/syllabus/">MIT Topics in Mathematics with Applications in Finance</a></li>
+<li><a href="https://www.cs.cmu.edu/~sandholm/cs15-892F13/algorithmic-game-theory.pdf">Algorithmic Game Theory</a></li>
+</ul>
+</section>
+<section id="optimization" class="level2">
+<h2 class="anchored" data-anchor-id="optimization">Optimization</h2>
+<ul>
+<li><a href="https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf">Convex Optimization</a></li>
+<li><a href="https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf">Operations Research: Applications and Algorithms</a></li>
+</ul>
+</section>
+<section id="physics-and-mathematical-physics" class="level2">
+<h2 class="anchored" data-anchor-id="physics-and-mathematical-physics">Physics and Mathematical Physics</h2>
+</section>
+<section id="advanced-topics" class="level2">
+<h2 class="anchored" data-anchor-id="advanced-topics">Advanced Topics</h2>
+<ul>
+<li><a href="https://www.fq.math.ca/Scanned/40-3/paulsen.pdf">The Prime Number Maze</a></li>
+<li><a href="https://math.berkeley.edu/~fengt/ergodic_theory.pdf">Ergodic Theory</a></li>
+<li><a href="https://t.co/dfTWCrCBXC">Polyak-Łojasiewicz Inequality</a>
+<ul>
+<li>Generalizes strong convexity, and a simple condition to ensure linear convergence of gradient descent even for non-convex functions.</li>
+</ul></li>
+</ul>
+<section id="topology" class="level3">
+<h3 class="anchored" data-anchor-id="topology">Topology</h3>
+<ul>
+<li><a href="https://online.fliphtml5.com/avac/ixfy/#p=4">Topology and modern analysis</a></li>
+</ul>
+</section>
+<section id="graph-theory" class="level3">
+<h3 class="anchored" data-anchor-id="graph-theory">Graph Theory</h3>
+<ul>
+<li><a href="https://www.quantamagazine.org/new-proof-shows-that-expander-graphs-synchronize-20230724/">New Proof Shows That ‘Expander’ Graphs Synchronize</a></li>
+</ul>
+</section>
+<section id="group-theory" class="level3">
+<h3 class="anchored" data-anchor-id="group-theory">Group Theory</h3>
+</section>
+<section id="synchronization" class="level3">
+<h3 class="anchored" data-anchor-id="synchronization">Synchronization</h3>
+<ul>
+<li><a href="https://www.quantamagazine.org/physicists-discover-exotic-patterns-of-synchronization-20190404/">Scientists Discover Exotic New Patterns of Synchronization</a></li>
+<li><a href="https://link.springer.com/chapter/10.1007/BFb0013365">Self-entrainment of a population of coupled non-linear oscillators</a></li>
+<li><a href="https://www.nature.com/articles/ncomms5079">Cluster synchronization and isolated desynchronization in complex networks with symmetries</a></li>
+<li><a href="https://arxiv.org/pdf/1703.10621.pdf">Incoherence-Mediated Remote Synchronization</a></li>
+<li><a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.64.821">Synchronization in chaotic systems</a></li>
+<li><a href="https://arxiv.org/abs/1608.05419">Symmetric States Requiring System Asymmetry</a></li>
+</ul>
+<p>Synchronization is a phenomenon in which multiple oscillating or rhythmic elements lock into a single rhythm. Scientists have discovered new forms of synchronization, called chimeras, that are more complex and intricate than previously known patterns. Chimeras are characterized by the coexistence of synchronized and unsynchronized regions in a single system. The discovery of chimeras has opened up new possibilities for understanding and controlling synchronization in a wide range of real-world systems. For example, chimeras could be used to design new communication networks that are more robust to noise and disruptions. The article also discusses the history of synchronization research and the challenges that scientists face in understanding and predicting the behavior of synchronized systems. It concludes by discussing the potential applications of chimeras in a variety of fields, including biology, engineering, and economics.</p>
+<p>The discovery of chimeras was made possible by advances in computational power and mathematical modeling. Chimeras have been observed in a variety of natural systems, including fireflies, heart cells, and neural networks. Scientists are still learning about the rules that govern the formation and behavior of chimeras. Chimeras have the potential to be used to design new communication networks, control traffic flow, and improve the efficiency of energy systems.</p>
+</section>
+<section id="fourier-transformations" class="level3">
+<h3 class="anchored" data-anchor-id="fourier-transformations">Fourier Transformations</h3>
+<p>The Fourier Transform is a mathematical technique that transforms a function of time, a signal, into a function of frequency. It’s a way to represent a signal in terms of its constituent frequencies, much like a musical chord can be expressed as the amplitudes of its constituent notes.</p>
+<p>The Fourier Transform can be applied to a wide variety of fields, including physics, engineering, signal processing, image analysis, and data compression.</p>
+<p>Formally, for a continuous signal, the Fourier Transform <code>F(w)</code> of a function <code>f(t)</code> is given by the integral:</p>
+<pre><code>F(w) = ∫ f(t) e^-iwt dt</code></pre>
+<p>Here:</p>
+<ul>
+<li><code>w</code> is the frequency,</li>
+<li><code>t</code> is time,</li>
+<li><code>i</code> is the imaginary unit,</li>
+<li><code>e</code> is the base of the natural logarithm,</li>
+<li>and <code>∫</code> denotes integration over all time from <code>-∞</code> to <code>+∞</code>.</li>
+</ul>
+<p>The inverse Fourier Transform, which transforms back from the frequency domain to the time domain, is given by:</p>
+<pre><code>f(t) = (1/2π) ∫ F(w) e^iwt dw</code></pre>
+<p>Note that in practice, many signals are discrete rather than continuous, and the Discrete Fourier Transform (DFT) or its faster version, the Fast Fourier Transform (FFT), are used.</p>
+<p>The Fourier Transform and its variants are used in a wide variety of applications. For example, in audio processing, it can be used to identify the different frequencies present in a sound. In image processing, it can be used for operations like blurring an image or removing noise. In physics, it can be used to solve differential equations.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Copyright 2023, Brendan McCaffrey</div>   
+    <div class="nav-footer-center"><span class="math inline">\(x^{14}\)</span></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/brendan-mccaffrey">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/0xbmac">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

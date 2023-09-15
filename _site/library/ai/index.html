@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>bmac - AI</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<link href="../../media/favicon.ico" rel="icon">
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="bmac - AI">
+<meta name="twitter:image" content="media/bg.jpeg">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">bmac</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../library/index.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Reads</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../writes/index.html" rel="" target="">
+ <span class="menu-text">Writes</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/brendan-mccaffrey" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/0xbmac" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../library/index.html">Library</a></li><li class="breadcrumb-item"><a href="../../library/ai/index.html">AI</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Library</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/ai/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">AI</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+ <span class="menu-text">Computing</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/computing/classical/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Classical</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/computing/quantum/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quantum</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+ <span class="menu-text">Crypto</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/cex/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CEXs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+ <span class="menu-text">Apps</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/apps/hyperliquid.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hyperliquid</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
+ <span class="menu-text">Ethena</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/apps/ethena/ethena.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ethena Labs</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/crypto/rekt/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rekt</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/rekt/mango.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mango Markets REKT</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/rekt/stake.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Stake</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/rekt/ygg.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">YGG REKT</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/crypto/blockchains/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Blockchains</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/blockchains/consensus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Consensus</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/crypto/blockchains/solana/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Solana</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="false">
+ <span class="menu-text">Events</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth5 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/blockchains/solana/events/mango.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mango Rekt</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/crypto/blockchains/bitcoin/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bitcoin</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/blockchains/bitcoin/btc-core.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Running Bitcoin Core</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/crypto/blockchains/evm/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">EVM</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/blockchains/evm/layer-2/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Layer 2 Rollups</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/blockchains/evm/ethereum/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ethereum</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/crypto/mev/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/crypto/mev/amm/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">MEV on AMMs</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/maths/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Maths</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/maths/physics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Maths x Physics</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/finance/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Finance</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="false">
+ <span class="menu-text">Finance 101</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/finance/finance-101/finance-101.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Finance 101</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" aria-expanded="false">
+ <span class="menu-text">Quant Trading</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/finance/quant-trading/quant-trading.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quant Trading</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" aria-expanded="false">
+ <span class="menu-text">Trading</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" aria-expanded="false">
+ <span class="menu-text">Trades</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-18" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/finance/trading/trades/JGByields/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">JGB Rates</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/finance/trading/trades/comstock/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LODE</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/physics/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Physics</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-19" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/unification/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Grand Unification</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/materials/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Materials Physics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/astrophysics/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Astrophysics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/relativity/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/nuclear/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Nuclear</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/electromagnetism/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Electromagnetism</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/field-theory/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Field Theory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/classical/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Classical</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/uap/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">UAP</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/particle/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Particle Physics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/quantum/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quantum Physics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/mysteries.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mysteries</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/physics/government/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Government</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-20" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" aria-expanded="false">
+ <span class="menu-text">Darpa</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-21" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/government/darpa/fellows.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">DARPA Fellows</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" aria-expanded="false">
+ <span class="menu-text">Pentagon</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-22" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/physics/government/pentagon/pleads-fifth-exotic-materials.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pentagon Pleads the Fifth</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-23" aria-expanded="false">
+ <span class="menu-text">Reads</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-23" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-23" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/reads/straussian-moment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Straussian Moment</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-24" aria-expanded="false">
+ <span class="menu-text">Social Sciences</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-24" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-24" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-25" aria-expanded="false">
+ <span class="menu-text">Events</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-25" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-25" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/social-sciences/events/9-11/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9/11</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/social-sciences/events/maui-fire/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Maui Fire</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/social-sciences/geopolitics/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Geopolitics</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-26" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-26" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/social-sciences/geopolitics/deep-state.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Deep State</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../library/social-sciences/geopolitics/corruption/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Corruption</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-27" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-27" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/social-sciences/geopolitics/corruption/biden.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Biden Family</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-28" aria-expanded="false">
+ <span class="menu-text">Ukraine</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-28" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-28" class="collapse list-unstyled sidebar-section depth4 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/social-sciences/geopolitics/ukraine/psyop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ukraine Psyop</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-29" aria-expanded="false">
+ <span class="menu-text">Software</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-29" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-29" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/software/chrome-extension/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chrome Extensions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/software/virtual-machines/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Virtual Machines</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-30" aria-expanded="false">
+ <span class="menu-text">Languages</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-30" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-30" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../library/software/languages/rust/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rust</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#research" id="toc-research" class="nav-link active" data-scroll-target="#research">Research</a>
+  <ul class="collapse">
+  <li><a href="#general-ml-algorithms" id="toc-general-ml-algorithms" class="nav-link" data-scroll-target="#general-ml-algorithms">General ML &amp; Algorithms</a></li>
+  <li><a href="#nlp-and-llms" id="toc-nlp-and-llms" class="nav-link" data-scroll-target="#nlp-and-llms">NLP and LLMs</a></li>
+  <li><a href="#diffusion-models" id="toc-diffusion-models" class="nav-link" data-scroll-target="#diffusion-models">Diffusion Models</a></li>
+  <li><a href="#multimodal-models" id="toc-multimodal-models" class="nav-link" data-scroll-target="#multimodal-models">Multimodal Models</a></li>
+  <li><a href="#applications-miscellaneous" id="toc-applications-miscellaneous" class="nav-link" data-scroll-target="#applications-miscellaneous">Applications &amp; Miscellaneous</a></li>
+  <li><a href="#data-bias" id="toc-data-bias" class="nav-link" data-scroll-target="#data-bias">Data &amp; Bias</a></li>
+  <li><a href="#text-image" id="toc-text-image" class="nav-link" data-scroll-target="#text-image">Text &lt;&gt; Image</a></li>
+  <li><a href="#voice-and-audio" id="toc-voice-and-audio" class="nav-link" data-scroll-target="#voice-and-audio">Voice and Audio</a></li>
+  <li><a href="#biology" id="toc-biology" class="nav-link" data-scroll-target="#biology">Biology</a></li>
+  <li><a href="#other-topics" id="toc-other-topics" class="nav-link" data-scroll-target="#other-topics">Other Topics</a></li>
+  </ul></li>
+  <li><a href="#topics" id="toc-topics" class="nav-link" data-scroll-target="#topics">Topics</a>
+  <ul class="collapse">
+  <li><a href="#attention-a-huge-leap" id="toc-attention-a-huge-leap" class="nav-link" data-scroll-target="#attention-a-huge-leap">Attention: A Huge Leap</a></li>
+  <li><a href="#the-transformer-attention-is-all-you-need" id="toc-the-transformer-attention-is-all-you-need" class="nav-link" data-scroll-target="#the-transformer-attention-is-all-you-need">The Transformer “Attention is All You Need”</a></li>
+  <li><a href="#backpropogation" id="toc-backpropogation" class="nav-link" data-scroll-target="#backpropogation">Backpropogation</a></li>
+  <li><a href="#the-evolution-of-context-windows" id="toc-the-evolution-of-context-windows" class="nav-link" data-scroll-target="#the-evolution-of-context-windows">The Evolution of Context Windows</a></li>
+  </ul></li>
+  <li><a href="#a-history-of-ai" id="toc-a-history-of-ai" class="nav-link" data-scroll-target="#a-history-of-ai">A History of AI</a>
+  <ul class="collapse">
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">AI</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">artificial intelligence</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<!-- {{< include _philosophy.qmd >}} -->
+<section id="research" class="level2">
+<h2 class="anchored" data-anchor-id="research">Research</h2>
+<section id="general-ml-algorithms" class="level3">
+<h3 class="anchored" data-anchor-id="general-ml-algorithms">General ML &amp; Algorithms</h3>
+<ol type="1">
+<li><a href="https://arxiv.org/pdf/2210.14891.pdf">Broken Neural Scaling Laws</a></li>
+<li><a href="https://arxiv.org/pdf/2201.02177.pdf">Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets</a></li>
+<li><a href="https://www.nature.com/articles/s41586-022-05172-4">Deepmind: Discovering novel algorithms with AlphaTensor</a></li>
+<li><a href="https://arxiv.org/abs/2205.07000">PrefixRL: Optimization of Parallel Prefix Circuits using Deep Reinforcement Learning</a></li>
+</ol>
+</section>
+<section id="nlp-and-llms" class="level3">
+<h3 class="anchored" data-anchor-id="nlp-and-llms">NLP and LLMs</h3>
+<ol type="1">
+<li><a href="https://arxiv.org/abs/2301.00303">Retrieval-Enhanced Large Language Models</a></li>
+<li><a href="https://arxiv.org/abs/2203.15556">Training Compute-Optimal Large Language Models</a></li>
+<li><a href="https://arxiv.org/abs/2212.10561">Parsel: A Unified Natural Language Framework for Algorithmic Reasoning</a></li>
+<li><a href="https://arxiv.org/abs/2210.11610">Large Language Models can Self-Improve</a></li>
+<li><a href="https://arxiv.org/pdf/2206.07682.pdf">Emergent Abilities of Large Language Models</a></li>
+<li><a href="https://arxiv.org/pdf/2212.10560.pdf">Self-Instruct: Aligning Language Model with Self Generated Instructions</a></li>
+<li><a href="https://galactica.org/static/paper.pdf">Galactica: A Large Language Model for Science</a></li>
+<li><a href="https://t.co/ZFaP4PXTVv">OPT-IML: An instruction-tuned LLM for open-use</a></li>
+<li><a href="https://twitter.com/cwolferesearch/status/1613643034717028352">LLM Refinement Process, reduce mistakes</a></li>
+</ol>
+</section>
+<section id="diffusion-models" class="level3">
+<h3 class="anchored" data-anchor-id="diffusion-models">Diffusion Models</h3>
+<ol type="1">
+<li><a href="https://arxiv.org/abs/2112.10752">High Resolution Image Synthesis with Latent Diffusion Models</a></li>
+<li><a href="https://arxiv.org/abs/2006.11239">Denoising Diffusion Probabilistic Models</a></li>
+<li><a href="https://arxiv.org/abs/2010.02502">Denoising Diffusion Implicit Models</a></li>
+<li><a href="https://arxiv.org/abs/2202.09778">Pseudo Numerical Methods for Diffusion Models on Manifolds</a></li>
+<li><a href="https://arxiv.org/abs/2204.13902">Fast Sampling of Diffusion Models with Exponential Integrator</a></li>
+<li><a href="https://benanne.github.io/2023/01/09/diffusion-language.html">Diffusion Language Models</a></li>
+</ol>
+</section>
+<section id="multimodal-models" class="level3">
+<h3 class="anchored" data-anchor-id="multimodal-models">Multimodal Models</h3>
+<ol type="1">
+<li><a href="https://distill.pub/2021/multimodal-neurons/">Multimodal Neurons in Artificial Neural Networks</a></li>
+<li><a href="https://ai.facebook.com/research/cicero/">Meta: CICERO</a></li>
+<li><a href="https://openai.com/blog/vpt/">OpenAI: Learning to play Minecraft with video pre-training (VPT)</a></li>
+<li><a href="https://t.co/zVnIcSwMIW">Multimodal Deep Learning</a></li>
+</ol>
+</section>
+<section id="applications-miscellaneous" class="level3">
+<h3 class="anchored" data-anchor-id="applications-miscellaneous">Applications &amp; Miscellaneous</h3>
+<ol type="1">
+<li><a href="https://www.deepmind.com/blog/accelerating-fusion-science-through-learned-plasma-control">Deepmind: Accelerating fusion science through learned plasma control</a></li>
+<li><a href="https://arxiv.org/abs/2208.12242">Dreambooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation</a></li>
+<li><a href="https://arxiv.org/abs/2301.00942v1">Deep Learning and Computational Physics (Lecture Notes)</a></li>
+<li><a href="https://writings.stephenwolfram.com/2023/01/wolframalpha-as-the-way-to-bring-computational-knowledge-superpowers-to-chatgpt/">Wolfram Alpha x ChatGPT</a></li>
+</ol>
+</section>
+<section id="data-bias" class="level3">
+<h3 class="anchored" data-anchor-id="data-bias">Data &amp; Bias</h3>
+<ol type="1">
+<li><a href="https://t.co/yVKBfdjAZa">Adjusting Biased Samples</a></li>
+<li><a href="https://t.co/qZBhgSofuX">Data Distillation</a></li>
+</ol>
+</section>
+<section id="text-image" class="level3">
+<h3 class="anchored" data-anchor-id="text-image">Text &lt;&gt; Image</h3>
+<ol type="1">
+<li><a href="https://arxiv.org/abs/2208.01618">An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion</a></li>
+<li><a href="https://arxiv.org/abs/2102.12092">DALL-E: Zero-Shot Text-to-Image Generation</a></li>
+<li><a href="https://arxiv.org/abs/2209.14792">Make-A-Video: Text-to-Video Generation without Text-Video Data</a></li>
+<li><a href="https://github.com/salesforce/LAVIS/tree/main/projects/blip2">BLIP-2: Image to Text</a></li>
+</ol>
+</section>
+<section id="voice-and-audio" class="level3">
+<h3 class="anchored" data-anchor-id="voice-and-audio">Voice and Audio</h3>
+<ol type="1">
+<li><a href="https://arxiv.org/abs/2301.02111">VALL-E: Generate voice snippets with only a few seconds of input audio</a></li>
+<li><a href="https://arxiv.org/abs/2212.04356">Whisper: OpenAI Speech Recognition</a></li>
+</ol>
+</section>
+<section id="biology" class="level3">
+<h3 class="anchored" data-anchor-id="biology">Biology</h3>
+<ul>
+<li><a href="https://www.science.org/doi/10.1126/science.aaf1175">Molecular recordings by directed CRISPR spacer acquisition</a></li>
+<li><a href="https://www.readcodon.com/p/biotech-grateful">Reasons to be Grateful for Biotechnology</a></li>
+</ul>
+</section>
+<section id="other-topics" class="level3">
+<h3 class="anchored" data-anchor-id="other-topics">Other Topics</h3>
+<ol type="1">
+<li><a href="https://davidrozado.substack.com/p/political-bias-chatgpt">ChatGPT Political Biases</a></li>
+<li><a href="https://colab.research.google.com/github/mrm8488/shared_colab_notebooks/blob/master/3D_Photo_Inpainting_multiple_download.ipynb#scrollTo=5o-EIMeaghU0">3D Image Inpainting</a></li>
+<li><a href="https://twitter.com/tomgoldsteincs/status/1618287665006403585?s=20&amp;t=M3iFtvAjzAXtua_e1l-WzQ">Detecting Watermarks on GPT</a></li>
+<li><a href="https://github.com/google-research/tuning_playbook">Deep Learning Tuning Playbook</a></li>
+</ol>
+<!-- Topics -->
+</section>
+</section>
+<section id="topics" class="level2">
+<h2 class="anchored" data-anchor-id="topics">Topics</h2>
+<section id="attention-a-huge-leap" class="level3">
+<h3 class="anchored" data-anchor-id="attention-a-huge-leap">Attention: A Huge Leap</h3>
+<p>In 2014, an Attention mechanism was introduced by Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. This became the foundation for the Transformer. - <a href="https://arxiv.org/abs/1409.0473">Neural Machine Translation by Jointly Learning to Align and Translate</a> - <a href="https://arxiv.org/abs/1508.04025">ffective Approaches to Attention-based Neural Machine Translation</a></p>
+<p>The attention mechanism allows the model to assign different weights or importance to different parts of the input sequence when making predictions or generating output. Instead of relying solely on fixed-length vector representations or encoding the entire input sequence into a fixed-length representation, the attention mechanism enables the model to dynamically attend to relevant parts of the input at each step of the computation.</p>
+<p>In a typical attention mechanism, there are three main components:</p>
+<ol type="1">
+<li><p>Query: A query represents the current step or position in the output generation process. It is used to compare against different parts of the input sequence to determine their relevance.</p></li>
+<li><p>Key: The keys are representations of the different parts of the input sequence. These keys are compared to the query to measure their similarity or relevance.</p></li>
+<li><p>Value: The values are additional information associated with the input sequence parts. They provide the context or content that the model focuses on.</p></li>
+</ol>
+<p>The attention mechanism computes a similarity score between the query and each key, which determines the relevance or attention assigned to the corresponding value. These similarity scores are typically computed using dot products, additive or multiplicative operations, or neural networks.</p>
+<p>The resulting attention weights are used to weight the values associated with the input sequence parts. This weighted information is then combined or aggregated to provide a context-aware representation for the current step, allowing the model to focus more on relevant parts of the input.</p>
+<p>By incorporating attention mechanisms into deep learning models, they can effectively capture dependencies between different elements of the input sequence, improve performance on sequential tasks, and handle long-range dependencies more effectively than traditional fixed-length representations.</p>
+</section>
+<section id="the-transformer-attention-is-all-you-need" class="level3">
+<h3 class="anchored" data-anchor-id="the-transformer-attention-is-all-you-need">The Transformer “Attention is All You Need”</h3>
+<p>Paper published by a team at Google Brain. - <a href="https://arxiv.org/abs/1706.03762">Attention is All You Need</a></p>
+<p>The Transformer architecture is built on the idea of self-attention or scaled dot-product attention, which can be seen as an extension of the attention mechanism. In traditional sequence-to-sequence models, such as recurrent neural networks (RNNs), sequential information is processed step by step, which can be computationally expensive and hinder parallelization.</p>
+<p>The key innovation of the Transformer is that it replaces recurrent layers with self-attention layers. Self-attention allows the model to compute the relationships between all positions in the input sequence simultaneously. This means that each position can attend to any other position, capturing global dependencies in the sequence. By doing so, the Transformer can process inputs in parallel and handle long-range dependencies more effectively.</p>
+<p>The Transformer architecture consists of two main components: the encoder and the decoder. The encoder takes an input sequence and generates a sequence of contextualized representations, while the decoder takes the encoder’s output and generates the final output sequence.</p>
+<p>Within the encoder and decoder, the Transformer uses multi-head self-attention mechanisms. Instead of a single self-attention mechanism, multiple attention heads are employed to capture different types of information and attend to different parts of the input sequence simultaneously. This allows the model to focus on different aspects of the input and learn more diverse and expressive representations.</p>
+<p>The Transformer also introduces positional encoding, which provides information about the position of each element in the input sequence. Since self-attention lacks the notion of position, positional encoding enables the model to incorporate sequential information into its computations.</p>
+<p>The dominance of the Transformer architecture in modern AI can be attributed to several factors:</p>
+<ol type="1">
+<li><p>Parallelization: The self-attention mechanism in the Transformer enables parallel processing of inputs, making it highly efficient for training on modern hardware, such as graphics processing units (GPUs) or tensor processing units (TPUs).</p></li>
+<li><p>Long-range dependencies: The self-attention mechanism allows the Transformer to capture dependencies between distant positions in the input sequence, making it more effective in modeling long-range relationships compared to traditional recurrent architectures.</p></li>
+<li><p>Expressiveness: By employing multiple attention heads and capturing different types of information, the Transformer can learn more expressive and rich representations of the input data.</p></li>
+<li><p>Transferability: The Transformer has shown strong performance across a wide range of NLP tasks, such as machine translation, language understanding, text generation, and more. Its effectiveness and versatility have made it a popular choice and a basis for many state-of-the-art models.</p></li>
+</ol>
+<p>Overall, the Transformer’s ability to model global dependencies, parallelize computations, and learn expressive representations has contributed to its dominance in modern AI, particularly in the field of natural language processing.</p>
+</section>
+<section id="backpropogation" class="level3">
+<h3 class="anchored" data-anchor-id="backpropogation">Backpropogation</h3>
+<p>Backpropogation is an algorithm for training neural-networks, used to update its weights to minimize the ‘loss’</p>
+<ol type="1">
+<li>Network makes a prediction on a batch of input data</li>
+<li>Loss is calculated between predicted and actual output</li>
+<li>Gradient of the loss with respect to the weights are calculated using the chain rule of differentiation</li>
+<li>The gradients are used to update the weights in the opposite direction of the gradient, reducing the loss</li>
+<li>Repeat the process until the loss reaches a satisfactory level or a maximum number of iterations</li>
+</ol>
+</section>
+<section id="the-evolution-of-context-windows" class="level3">
+<h3 class="anchored" data-anchor-id="the-evolution-of-context-windows">The Evolution of Context Windows</h3>
+<section id="introduction" class="level5">
+<h5 class="anchored" data-anchor-id="introduction"><strong>Introduction</strong></h5>
+<p>The context window—the maximum sequence length that a model can process in a single pass—is a hot topic in the field of large language models. It serves as a critical constraint for tasks that require understanding or generating longer sequences of text. From OpenAI’s ambitious goal of one million tokens to Magic’s announcement of a 5M token model, and Anthropic’s 100K context window model, we’re witnessing a context-length party. But why stop there? This article explores novel techniques and architectures that aim to stretch or even potentially eliminate these limitations.</p>
+</section>
+<section id="tldr" class="level5">
+<h5 class="anchored" data-anchor-id="tldr"><strong>TL;DR</strong></h5>
+<ul>
+<li>Context window length limitations have been a bottleneck in the performance of large language models.</li>
+<li>Various tricks like SuperHOT, and architectures like RWKV and Hyena, are breaking these limitations.</li>
+<li>Each approach comes with its trade-offs, but the direction is clear: larger context windows are inevitable.</li>
+</ul>
+</section>
+<section id="the-superhot-method" class="level5">
+<h5 class="anchored" data-anchor-id="the-superhot-method"><strong>The SuperHOT Method</strong></h5>
+<p>About two weeks ago, an innovative trick called SuperHOT surfaced on 4-chan. The user claimed that dividing the model’s positional encoding by 4 could trick the model into working with lengths 4 times longer than its original setting. The trick gained enough traction to be cited in academic papers. Following this, an anonymous Reddit user improved upon the idea, using non-linear interpolation to further enhance the performance of these “stretched” models. However, such tricks are not without drawbacks; performance dips and hyperparameter tuning are among the issues.</p>
+</section>
+<section id="infinite-context-with-rwkv" class="level5">
+<h5 class="anchored" data-anchor-id="infinite-context-with-rwkv"><strong>Infinite Context with RWKV</strong></h5>
+<p>RWKV, known as the largest LSTM network in the world, is unique in its ability to theoretically offer an infinite context length. It ranks among the five best models in the Vicuna table and is one of the most used models on Huggingface. It’s not just good—it’s also cheap to run, operating at a lower computational cost than its Transformer counterparts.</p>
+</section>
+<section id="gpt-4-a-tangent-on-architecture" class="level5">
+<h5 class="anchored" data-anchor-id="gpt-4-a-tangent-on-architecture"><strong>GPT-4: A Tangent on Architecture</strong></h5>
+<p>The latest in the line of OpenAI’s GPT models, GPT-4 is a behemoth with eight different transformers and 220 billion parameters. Its architecture has sparked theories and speculation, some even suggesting that the model can dynamically change while running. It remains a remarkable but expensive framework, leading us to consider alternative architectures that can handle longer sequences more efficiently.</p>
+</section>
+<section id="goodbye-transformers-hello-hyena" class="level5">
+<h5 class="anchored" data-anchor-id="goodbye-transformers-hello-hyena"><strong>Goodbye Transformers, Hello Hyena</strong></h5>
+<p>Enter Hyena, a convolution-based architecture that recently outperformed a larger Transformer model. It promises monstrous sequence lengths, faster computation, and possibly even higher accuracy. Hyena’s secret sauce is its ability to learn a map from position encoding to filter values, enabling more context-aware processing without the computational intensity of Transformers.</p>
+<section id="the-core-trick-in-hyena" class="level6">
+<h6 class="anchored" data-anchor-id="the-core-trick-in-hyena"><strong>The Core Trick in Hyena</strong></h6>
+<p>Hyena generates filters based on positional encoding. These filters are then applied in a Toeplitz matrix, which mimics the function of a convolution operation. This unique architecture allows Hyena to be as “data-controlled” as possible, similar to how attention layers work in Transformers but at a fraction of the computational cost.</p>
+</section>
+</section>
+<section id="conclusion" class="level5">
+<h5 class="anchored" data-anchor-id="conclusion"><strong>Conclusion</strong></h5>
+<p>From tweaking positional encodings in the SuperHOT method to adopting entirely different architectures like RWKV and Hyena, the pursuit of longer context windows in large language models is more alive than ever. As we move forward, we can expect even more groundbreaking innovations that push the boundaries, opening new possibilities for applications that require understanding vast swaths of data in a single glance.</p>
+<hr>
+<p><strong>Further Reading</strong></p>
+<ul>
+<li><a href="https://arxiv.org/pdf/2112.06905.pdf">GLam: Mixture of Experts</a></li>
+<li><a href="https://arxiv.org/pdf/2101.03961.pdf">Switch Transformer</a></li>
+<li><a href="https://arxiv.org/pdf/2202.01169.pdf">Routed Language Models</a></li>
+<li><a href="https://arxiv.org/pdf/2208.03306.pdf">Branch-Train-Merge</a></li>
+<li><a href="https://arxiv.org/pdf/2202.01169.pdf">Scaling Laws of Expert Networks</a></li>
+<li><a href="https://arxiv.org/pdf/2303.14177.pdf">Combining Knowledge Domains in MoE Nets</a></li>
+<li><a href="https://arxiv.org/abs/2302.10866">Hyena Paper</a></li>
+<li><a href="https://hazyresearch.stanford.edu/blog">Hyena Blogs</a></li>
+</ul>
+<hr>
+
+<!-- ---
+title: History
+author: "Brendan McCaffrey"
+date: "2023-08-31"
+categories: [software, ai]
+table-of-contents: true
+--- -->
+</section>
+</section>
+</section>
+<section id="a-history-of-ai" class="level2">
+<h2 class="anchored" data-anchor-id="a-history-of-ai">A History of AI</h2>
+<section id="resources" class="level3">
+<h3 class="anchored" data-anchor-id="resources">Resources</h3>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence">Timeline of AI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_artificial_neural_networks">History of Artificial Neural Networks</a></li>
+<li><a href="https://people.idsia.ch/~juergen/deep-learning-history.html">Deep Learning History</a></li>
+</ul>
+<section id="the-perceptron" class="level4">
+<h4 class="anchored" data-anchor-id="the-perceptron">1958: The Perceptron</h4>
+Frank Rosenblatt invented the perceptron, an algorithm for pattern recognition, which is essentially a single-layer neural network.
+<p align="center">
+<img src="media/perceptron.png" style="width: 40%; margin: 1%">
+</p>
+<p>Shortly after, he went on to explore deeper, multilayer perceptrons. His MLPs had a non-learning first layer with randomized weights and an adaptive output layer. Although this was not yet deep learning, because only the last layer learned.</p>
+</section>
+<section id="first-deep-learning" class="level4">
+<h4 class="anchored" data-anchor-id="first-deep-learning">1965: First Deep Learning</h4>
+<p>Successful learning in deep feedforward network architectures started in 1965 in the Ukraine (back then the USSR) when Alexey Ivakhnenko &amp; Valentin Lapa introduced the first general, working learning algorithms for deep MLPs with arbitrarily many hidden layers (already containing the now popular multiplicative gates). A paper of 1971 already described a deep learning net with 8 layers, trained by their highly cited method which was still popular in the new millennium, especially in Eastern Europe, where much of Machine Learning was born.</p>
+</section>
+<section id="deep-learning-by-stochastic-gradient-descent" class="level4">
+<h4 class="anchored" data-anchor-id="deep-learning-by-stochastic-gradient-descent">1967-68: Deep Learning by Stochastic Gradient Descent</h4>
+<p>Ivakhnenko and Lapa (1965, see above) trained their deep networks layer by layer. In 1967, however, Shun-Ichi Amari suggested to train MLPs with many layers in non-incremental end-to-end fashion from scratch by stochastic gradient descent, a method proposed in 1951 by Robbins &amp; Monro.</p>
+<p>Amari’s implementation (with his student Saito) learned internal representations in a five layer MLP with two modifiable layers, which was trained to classify non-linearily separable pattern classes.</p>
+</section>
+<section id="rectified-linear-units-relus" class="level4">
+<h4 class="anchored" data-anchor-id="rectified-linear-units-relus">1969: Rectified Linear Units (ReLUs)</h4>
+<p>Kunihiko Fukushima introduced rectified linear units (ReLUs) for NNs (1969). They are now widely used in CNNs and other NNs.</p>
+</section>
+<section id="backpropagation" class="level4">
+<h4 class="anchored" data-anchor-id="backpropagation">1970: Backpropagation</h4>
+<p>Seppo Linnainmaa was the first to publish what’s now known as backpropagation, the famous algorithm for credit assignment in networks of differentiable nodes, also known as “reverse mode of automatic differentiation.” It is now the foundation of widely used NN software packages such as PyTorch and Google’s Tensorflow.</p>
+</section>
+<section id="recurrent-neural-networks" class="level4">
+<h4 class="anchored" data-anchor-id="recurrent-neural-networks">1972: Recurrent Neural Networks</h4>
+<p>Amari published a <a href="https://people.idsia.ch/~juergen/amari1972hopfield.pdf">paper</a> on Amari-Hopfield networks, which resemble what’s now known as Recurrent Neural Networks (RNNs).</p>
+</section>
+<section id="first-deep-convolutional-nn" class="level4">
+<h4 class="anchored" data-anchor-id="first-deep-convolutional-nn">1979: First Deep Convolutional NN</h4>
+<p>Computer Vision was revolutionized in the 2010s by a particular feedforward NN called the convolutional NN (CNN). The basic CNN architecture with alternating convolutional and downsampling layers is due to Kunihiko Fukushima, 1979. He called it Neocognitron.</p>
+</section>
+<section id="government-interest-funding" class="level4">
+<h4 class="anchored" data-anchor-id="government-interest-funding">1981: Government Interest &amp; Funding</h4>
+<ul>
+<li>The Japanese Ministry of International Trade and Industry set aside $850 million for the Fifth generation computer project.</li>
+<li>The UK began the £350 million Alvey project.</li>
+<li>DARPA founded the Strategic Computing Initiative and tripling its investment in AI between 1984 and 1988.</li>
+</ul>
+</section>
+<section id="hopfield-net" class="level4">
+<h4 class="anchored" data-anchor-id="hopfield-net">1982: Hopfield Net</h4>
+<ul>
+<li>Physicist John Hopfield was able to prove that a form of neural network (now called a “Hopfield net”) could learn and process information in a completely new way. This built on the Amari-Hopfield network from Amari’s 1972 publication</li>
+</ul>
+</section>
+<section id="a-spark-of-modern-ai" class="level4">
+<h4 class="anchored" data-anchor-id="a-spark-of-modern-ai">1985: A Spark of Modern AI</h4>
+Geoffrey Hinton “godfather of AI” invented the idea of multilayered neural networks, with nodes and weights. Node takes inputs and weights of inputs, outputs a signal if sum &gt; 0. - 1985 | <a href="https://www.cs.toronto.edu/~fritz/absps/cogscibm.pdf">A Learning Algorithm for Boltzmann Machines</a> - 1986 | <a href="https://www.nature.com/articles/323533a0">Learning representations by back-propagating errors</a>
+<p align="center">
+<img src="media/nn.png" style="width: 50%; margin: 1%">
+</p>
+<p>David E. Rumelhart demonstrated that backpropagation can yield useful internal representations in hidden layers of NNs. At least for supervised learning, backpropagation is generally more efficient than Amari’s above-mentioned deep learning through the more general SGD method (1967), which learned useful internal representations in NNs about 2 decades earlier</p>
+<p>Feng-hsiung Hsu begins development on Chess-playing expert system called ChipTest. In 1988 it was moved to IBM and renamed Deep Thought, and then renamed again in 1989 to Deep Blue.</p>
+</section>
+<section id="generative-adversarial-networks-curiosity" class="level4">
+<h4 class="anchored" data-anchor-id="generative-adversarial-networks-curiosity">1990: Generative Adversarial Networks / Curiosity**</h4>
+<p>Generative Adversarial Networks (GANs) are first published in 1990 in Munich under the moniker Artificial Curiosity. Two dueling NNs (a probabilistic generator and a predictor) are trying to maximize each other’s loss in a minimax game. The generator (called the controller) generates probabilistic outputs (using stochastic units like in the much later StyleGANs). The predictor (called the world model) sees the outputs of the controller and predicts environmental reactions to them. Using gradient descent, the predictor NN minimizes its error, while the generator NN tries to make outputs that maximize this error: one net’s loss is the other net’s gain</p>
+</section>
+<section id="unofficial-invention-of-the-transformer" class="level4">
+<h4 class="anchored" data-anchor-id="unofficial-invention-of-the-transformer">1991: (Unofficial) Invention of the Transformer</h4>
+<p>Jiirgen Schmidhuber <a href="https://people.idsia.ch/~juergen/FKI-147-91ocr.pdf">published</a> a paper describing an alternative to RNNs: A feedforward NN slowly learns by gradient descent to program the changes of the fast weights of another NN. Such Fast Weight Programmers (FWPs) can learn to memorize past data, too. In 1991, one of them computed its fast weight changes through additive outer products of self-invented activation patterns (now often called keys and values for self-attention). The very similar Transformers combine this with projections and softmax and are now widely used in natural language processing. For long input sequences, their efficiency was improved through Transformers with linearized self-attention whose core is formally equivalent to the 1991 Fast Weight Programmers.</p>
+</section>
+<section id="long-short-term-memory" class="level4">
+<h4 class="anchored" data-anchor-id="long-short-term-memory">1997: Long Short-Term Memory</h4>
+<p>Sepp Hochreiter and Jurgen Schmidhuber published Long Short-Term Memory, the most cited NN <a href="https://sferics.idsia.ch/pub/juergen/lstm.pdf">paper</a> of the 20th century. A later milestone was the “vanilla LSTM architecture” with forget gate — the LSTM variant of 1999-2000 that everybody is using today, e.g., in Google’s Tensorflow. Alex was lead author of our first successful application of LSTM to speech (2004). 2005 saw the first publication of LSTM with full backpropagation through time and of bi-directional LSTM (now widely used).</p>
+<p><strong>Also</strong> in 1997, Deep Blue beats Gary Kasparov in chess.</p>
+</section>
+<section id="imagenet" class="level4">
+<h4 class="anchored" data-anchor-id="imagenet">2009: ImageNet</h4>
+<p>ImageNet is created, a large visual database envisioned by Fei-Fei Li from Stanford University, who realized that the best machine learning algorithms wouldn’t work well if the data didn’t reflect the real world. For many, ImageNet was the catalyst for the AI boom of the 21st century.</p>
+</section>
+<section id="deepmind-google-x" class="level4">
+<h4 class="anchored" data-anchor-id="deepmind-google-x">2010: DeepMind &amp; Google X</h4>
+<p>X (formerly Google X) is an American semi-secret research and development facility and organization founded by Google in January 2010. X has its headquarters about a mile and a half from Alphabet’s corporate headquarters, the Googleplex, in Mountain View, California</p>
+<p>DeepMind was founded in the UK by Demis Hassabis, Shane Legg and Mustafa Suleyman in September 2010.</p>
+</section>
+<section id="google-brain" class="level4">
+<h4 class="anchored" data-anchor-id="google-brain">2011: Google Brain</h4>
+<p>The Google Brain project began in 2011 as a part-time research collaboration between Google fellow Jeff Dean, Google Researcher Greg Corrado, and Stanford University professor Andrew Ng. Google Brain started as a Google X project and became so successful that it was graduated back to Google: Astro Teller has said that Google Brain paid for the entire cost of Google X.</p>
+</section>
+<section id="image-recognition" class="level4">
+<h4 class="anchored" data-anchor-id="image-recognition">2012: Image Recognition</h4>
+Geoffrey Hinton tests artificial deep neural network on a widely used image recogniztion test, called ImageNet. AlexNet was the program, scored 75% success, way better than competitors. This generates a ton of hype, and sparks more funding/research in AI, particularly image recognition.
+<p align="center">
+<img src="media/image-rec.png" style="width: 50%; margin: 1%">
+</p>
+<p>In 2013, Geoffrey Hinton was acqui-hired by Google.</p>
+</section>
+<section id="attention-the-start-of-the-race" class="level4">
+<h4 class="anchored" data-anchor-id="attention-the-start-of-the-race">2014: Attention, the Start of the Race</h4>
+<p>The attention mechanism is introduced, which would became the foundation for the Transformer.</p>
+</section>
+<section id="openai" class="level4">
+<h4 class="anchored" data-anchor-id="openai">2015: OpenAI</h4>
+<p>In December 2015, Sam Altman, Greg Brockman, Reid Hoffman, Jessica Livingston, Peter Thiel, Elon Musk, Amazon Web Services (AWS), Infosys, and YC Research announced the formation of OpenAI and pledged over $1 billion to the venture.</p>
+<p>December 11, 2015 <a href="https://archive.is/RcWJF">announcement</a> by Greg Brockman and Ilya Sutskever.</p>
+</section>
+<section id="section" class="level4">
+<h4 class="anchored" data-anchor-id="section">2016</h4>
+<ul>
+<li><p>AlphaGo becomes supreme at Go</p></li>
+<li><p>Google Brain neural network learns secure encryption</p></li>
+</ul>
+<p>December 2016, OpenAI <a href="https://web.archive.org/web/20170101002022/http://www.theregister.co.uk/2016/12/05/openai_universe_reinforcement_learning/">released</a> “Universe”, a software platform for measuring and training an AI’s general intelligence across the world’s supply of games, websites, and other applications. Intended to be the reinforcement learning version of ImageNet.</p>
+</section>
+<section id="attention-is-all-you-need" class="level4">
+<h4 class="anchored" data-anchor-id="attention-is-all-you-need">2017: Attention is All You Need</h4>
+<p>The Google Brain team publishes a paper titled <a href="https://arxiv.org/abs/1706.03762">Attention is All You Need</a>, introducing the Transformer - which is now an essential ingredient in many cutting edge models, particularly LLMs.</p>
+<p>The key innovation is the idea of self-attention, a mechanism that allows the model to selectively choose which parts of the input to pay attention to rather than using the entire input equally.</p>
+<p>Transformers address RNN limitations by replacing recurrance with self attention. This weighs the importance of different parts of the input without having to maintain internal state. Much easier to parallize, and eliminates vanishing &amp; exploding gradient problem.</p>
+<p><strong>Also</strong> 2017, Tesla <a href="https://archive.is/WZaV6">poaches</a> deep learning expert Andrej Karpathy from OpenAI to be its new head of Autopilot Vision.</p>
+</section>
+<section id="section-1" class="level4">
+<h4 class="anchored" data-anchor-id="section-1">2018</h4>
+<ul>
+<li><p>OpenAI Charter is <a href="https://openai.com/charter">published</a>, which is later cited upon holding back powerful models like GPT-2.</p></li>
+<li><p>Elon <a href="https://openai.com/blog/openai-supporters">leaves</a> OpenAI In early 2018, Musk told Sam Altman, another OpenAI founder, that he believed the venture had fallen fatally behind Google, people familiar with the matter said. Musk proposed a possible solution: He would take control of OpenAI and run it himself.</p></li>
+</ul>
+<p>Altman and OpenAI’s other founders rejected Musk’s proposal. Musk, in turn, walked away from the company — and reneged on a massive planned donation. The fallout from that conflict, culminating in the announcement of Musk’s departure on Feb 20, 2018, would shape the industry that’s changing the world, and the company at the heart of it.</p>
+<p>February 20, 2018 <a href="https://openai.com/blog/openai-supporters">announcement</a> that Elon is departing. In the same month, OpenAI switched cloud providers from Amazon to Google, signing an agreement to spend at least $63 million with the tech giant over the next two years.</p>
+</section>
+<section id="section-2" class="level4">
+<h4 class="anchored" data-anchor-id="section-2">2019</h4>
+<ul>
+<li>OpenAI <a href="https://openai.com/blog/openai-lp">shifts</a> from nonprofit to ‘capped-profit’ to <a href="https://techcrunch.com/2019/03/11/openai-shifts-from-nonprofit-to-capped-profit-to-attract-capital/">attract capital</a>.</li>
+</ul>
+<p>July 2019, Microsoft <a href="https://openai.com/blog/microsoft-invests-in-and-partners-with-openai">invests</a> $1 billion in OpenAI to develop AI technologies on Microsoft Azure.</p>
+</section>
+<section id="section-3" class="level4">
+<h4 class="anchored" data-anchor-id="section-3">2020</h4>
+<p>October 2020, GPT-3 is <a href="https://web.archive.org/web/20201013163856/https://www.bloomberg.com/news/articles/2020-06-11/trillions-of-words-analyzed-openai-sets-loose-ai-language-colossus">released</a>.</p>
+</section>
+<section id="contd" class="level4">
+<h4 class="anchored" data-anchor-id="contd">Cont’d</h4>
+<p>OpenAI debtus DALL-E, text-to-image.</p>
+<p>December 2022, ChatGPT</p>
+</section>
+<section id="section-4" class="level4">
+<h4 class="anchored" data-anchor-id="section-4">2023</h4>
+<p>January 2023, Microsoft buys 49% of OpenAI at $29 billion valuation.</p>
+<p>March 14, 2023: GPT-4.</p>
+<p>May 2023, Governance of superintelligence blog <a href="https://openai.com/blog/governance-of-superintelligence">published</a></p>
+<p>July 24, 2023: <a href="https://www.evanmiller.org/attention-is-off-by-one.html">Attention is off by One</a></p>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Copyright 2023, Brendan McCaffrey</div>   
+    <div class="nav-footer-center"><span class="math inline">\(x^{14}\)</span></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/brendan-mccaffrey">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/0xbmac">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

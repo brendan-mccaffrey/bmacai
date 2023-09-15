@@ -14,7 +14,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: library
+      - href: library/index.qmd
         text: Reads
       - href: writes/index.qmd
         text: Writes

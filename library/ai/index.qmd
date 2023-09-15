@@ -1,0 +1,16 @@
+---
+title: AI
+table-of-contents: true
+--- 
+
+<!-- {{< include _philosophy.qmd >}} -->
+
+
+{{< include _research.qmd >}}
+
+
+<!-- Topics -->
+{{< include _topics.qmd >}}
+
+
+{{< include _history.qmd >}}
