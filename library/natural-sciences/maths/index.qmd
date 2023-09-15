@@ -67,9 +67,7 @@ The blog post discusses the concept of fractional calculus, a mathematical field
 - [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)
 - [Operations Research: Applications and Algorithms](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)
 
-## Physics and Mathematical Physics
-
-
+{{< include _physics.qmd >}}
 
 ## Advanced Topics
 
