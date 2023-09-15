@@ -2935,9 +2935,9 @@
   {
     "objectID": "library/natural-sciences/crypto/blockchains/consensus.html",
     "href": "library/natural-sciences/crypto/blockchains/consensus.html",
-    "title": "Consensus",
+    "title": "bmac",
     "section": "",
-    "text": "Tendermint: Consensus without Mining\nDFINITY Consensus System\nRipple Protocol Consensus Algorithm\nAvalanche Consensus\nNarwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus\nCosmos without Tendermint\nThe Honey Badger of BFT Protocols\nHashgraph Protocol: Efficient ABFT\nByzantine Ordered Consensus without Byzantine Oligarchy\nBEAT: Asynchronous BFT Made Practical"
+    "text": "All things Byzantine Fault Tolerant: Research and implementations of consensus mechanisms.\n\n\n\nTendermint: Consensus without Mining\nDFINITY Consensus System\nRipple Protocol Consensus Algorithm\nAvalanche Consensus\nNarwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus\nCosmos without Tendermint\nThe Honey Badger of BFT Protocols\nHashgraph Protocol: Efficient ABFT\nByzantine Ordered Consensus without Byzantine Oligarchy\nBEAT: Asynchronous BFT Made Practical\n\n\n\n\n\nLong Range Attacks on PoS\nCasper the Friendly Finality Gadget\nCombining GHOST and Casper\nBeacon Chain Casper Mini-Spec\nMitigating Balancing Attacks on LMD GHOST\nzkCasper: SNARK based scheme for verifying the Ethereum’s Casper FFG consensus proofs\n\n\n\n\n\nTwo Attacks on Proof-of-Stake GHOST/Ethereum\nThree Attacks on Proof-of-Stake Ethereum\nBalancing Attack on Gasper\nDiscouragement Attacks\nVitalik Paper\nDiscouragement Attacks"
   },
   {
     "objectID": "library/natural-sciences/crypto/blockchains/consensus.html#whitepapers",
@@ -2963,7 +2963,7 @@
   {
     "objectID": "library/natural-sciences/crypto/blockchains/consensus.html#events",
     "href": "library/natural-sciences/crypto/blockchains/consensus.html#events",
-    "title": "Consensus",
+    "title": "bmac",
     "section": "Events",
     "text": "Events\nMay 12, 2023: Ethereum Consensus Issues\n\ntweet one\ntweet two"
   },
@@ -5598,5 +5598,40 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchains/consensus.html#consensus",
+    "href": "library/natural-sciences/crypto/blockchains/consensus.html#consensus",
+    "title": "bmac",
+    "section": "",
+    "text": "All things Byzantine Fault Tolerant: Research and implementations of consensus mechanisms.\n\n\n\nTendermint: Consensus without Mining\nDFINITY Consensus System\nRipple Protocol Consensus Algorithm\nAvalanche Consensus\nNarwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus\nCosmos without Tendermint\nThe Honey Badger of BFT Protocols\nHashgraph Protocol: Efficient ABFT\nByzantine Ordered Consensus without Byzantine Oligarchy\nBEAT: Asynchronous BFT Made Practical\n\n\n\n\n\nLong Range Attacks on PoS\nCasper the Friendly Finality Gadget\nCombining GHOST and Casper\nBeacon Chain Casper Mini-Spec\nMitigating Balancing Attacks on LMD GHOST\nzkCasper: SNARK based scheme for verifying the Ethereum’s Casper FFG consensus proofs\n\n\n\n\n\nTwo Attacks on Proof-of-Stake GHOST/Ethereum\nThree Attacks on Proof-of-Stake Ethereum\nBalancing Attack on Gasper\nDiscouragement Attacks\nVitalik Paper\nDiscouragement Attacks"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchains/index.html#early-contributions",
+    "href": "library/natural-sciences/crypto/blockchains/index.html#early-contributions",
+    "title": "Blockchains",
+    "section": "",
+    "text": "David Chaum, 1983 Electronic Cash\nDavid Chaum, 1985 Security without Identification\nDr. Douglas Jackson and Barry K. Downey, 1996 E-Gold\nWei Dai, 1998 b-money\nNick Szabo, 1998 Bit Gold"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchains/index.html#layer-1-whitepapers",
+    "href": "library/natural-sciences/crypto/blockchains/index.html#layer-1-whitepapers",
+    "title": "Blockchains",
+    "section": "Layer 1 Whitepapers",
+    "text": "Layer 1 Whitepapers\n\nBitcoin\nEthereum: A Next-Generation Smart Contract and Decentralized Application Platform\nEthereum: A Secure Decentralized Generalized Transaction Ledger\nZerocash: Decentralized Anonymous Payments from Bitcoin\nCosmos: Internet of Blockchains\nSolana: A new Architecture for a High Performance Blockchain\nCardano\nAlgorand: Scaling Byzantine Agreements for Cryptocurrencies\nAvalanche Platform\nThe Spacemesh Protocol"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchains/index.html#consensus",
+    "href": "library/natural-sciences/crypto/blockchains/index.html#consensus",
+    "title": "Blockchains",
+    "section": "Consensus",
+    "text": "Consensus\nAll things Byzantine Fault Tolerant: Research and implementations of consensus mechanisms.\n\nWhitepapers\n\nTendermint: Consensus without Mining\nDFINITY Consensus System\nRipple Protocol Consensus Algorithm\nAvalanche Consensus\nNarwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus\nCosmos without Tendermint\nThe Honey Badger of BFT Protocols\nHashgraph Protocol: Efficient ABFT\nByzantine Ordered Consensus without Byzantine Oligarchy\nBEAT: Asynchronous BFT Made Practical\n\n\n\nResearch\n\nLong Range Attacks on PoS\nCasper the Friendly Finality Gadget\nCombining GHOST and Casper\nBeacon Chain Casper Mini-Spec\nMitigating Balancing Attacks on LMD GHOST\nzkCasper: SNARK based scheme for verifying the Ethereum’s Casper FFG consensus proofs\n\n\n\nAttacks\n\nTwo Attacks on Proof-of-Stake GHOST/Ethereum\nThree Attacks on Proof-of-Stake Ethereum\nBalancing Attack on Gasper\nDiscouragement Attacks\nVitalik Paper\nDiscouragement Attacks"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchains/index.html#events",
+    "href": "library/natural-sciences/crypto/blockchains/index.html#events",
+    "title": "Blockchains",
+    "section": "Events",
+    "text": "Events\nMay 12, 2023: Ethereum Consensus Issues\n\ntweet one\ntweet two"
   }
 ]

@@ -1,0 +1,7 @@
+## Early Contributions
+
+- David Chaum, 1983 [Electronic Cash](https://sceweb.sce.uhcl.edu/yang/teaching/csci5234WebSecurityFall2011/Chaum-blind-signatures.PDF)
+- David Chaum, 1985 [Security without Identification](https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf)
+- Dr. Douglas Jackson and Barry K. Downey, 1996 [E-Gold](https://cs.stanford.edu/people/eroberts/cs201/projects/2010-11/Bitcoins/e-gold.html)
+- Wei Dai, 1998 [b-money](http://www.weidai.com/bmoney.txt)
+- Nick Szabo, 1998 [Bit Gold](https://nakamotoinstitute.org/bit-gold/)
