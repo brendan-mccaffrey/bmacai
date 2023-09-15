@@ -487,14 +487,14 @@
     "href": "library/crypto/blockchains/evm/ethereum/index.html",
     "title": "Ethereum",
     "section": "",
-    "text": "Casper the Friendly Finality Gadget\nCombining GHOST and Casper\nBeacon Chain Casper Mini-Spec"
+    "text": "Solidity Decompiler (interface)\nHeimdall-rs an advanced EVM smart contract toolkit specializing in bytecode analysis\nWhatsABI\ngo-selfcompile"
   },
   {
     "objectID": "library/crypto/blockchains/evm/ethereum/index.html#consensus",
     "href": "library/crypto/blockchains/evm/ethereum/index.html#consensus",
     "title": "Ethereum",
-    "section": "",
-    "text": "Casper the Friendly Finality Gadget\nCombining GHOST and Casper\nBeacon Chain Casper Mini-Spec"
+    "section": "Consensus",
+    "text": "Consensus\n\nCasper the Friendly Finality Gadget\nCombining GHOST and Casper\nBeacon Chain Casper Mini-Spec"
   },
   {
     "objectID": "library/crypto/blockchains/evm/ethereum/index.html#consensus-attacks",
@@ -522,7 +522,7 @@
     "href": "library/crypto/blockchains/evm/ethereum/index.html#general",
     "title": "Ethereum",
     "section": "General",
-    "text": "General\nEthereum Inactivity Leak - documentation\nIntent Based Architectures and Their Risks - article\nAccount Abstraction in a Multichain Landscape - Part 1: Addresses - article\nAccount Abstraction Using Alt Mempool - article\nEIP-1153: Transient Storage - proposal\nTime to Bribe: Measuring Block Construction Markets - paper\n2FA ZK Rollups using SGX - article\nClient Bootnode Concerns - article\nCollecting Signatures for Faster Finality - article\nProof of Solvency - article\nState of Testnets - tweet\nEth Withdrawals FAQ - website\n100 Days After the Merge - see section “Looking ahead to Shanghai” - article\nWithdrawals after Shanghai - blog\nExecution Layer Meeting - video\nzkCasper: SNARK based scheme for verifying the Ethereum’s Casper FFG consensus proofs - article\nEthereum Data Structures - paper\nEth2Book: A lot of Good Info on Ethereum - documentation\nVitalik: An Incomplete Guide to Rollups - article\nA Rollup-Centric Ethereum Roadmap - article\nOfficial Merge Announcement - article\nValidator Withdrawal design - article\nVitalik: the roads not taken - article"
+    "text": "General\nEthereum Inactivity Leak - documentation\nIntent Based Architectures and Their Risks - article\nAccount Abstraction in a Multichain Landscape - Part 1: Addresses - article\nAccount Abstraction Using Alt Mempool - article\nEIP-1153: Transient Storage - proposal\nTime to Bribe: Measuring Block Construction Markets - paper\n2FA ZK Rollups using SGX - article\nClient Bootnode Concerns - article\nCollecting Signatures for Faster Finality - article\nProof of Solvency - article\nState of Testnets - tweet\nEth Withdrawals FAQ - website\n100 Days After the Merge - see section “Looking ahead to Shanghai” - article\nWithdrawals after Shanghai - blog\nExecution Layer Meeting - video\nzkCasper: SNARK based scheme for verifying the Ethereum’s Casper FFG consensus proofs - article\nEthereum Data Structures - paper\nEth2Book: A lot of Good Info on Ethereum - documentation\n\nA Rollup-Centric Ethereum Roadmap\n[article]\n\nOfficial Merge Announcement - article\nValidator Withdrawal design - article\nVitalik: the roads not taken - article"
   },
   {
     "objectID": "library/crypto/blockchains/bitcoin/index.html",
@@ -5910,23 +5910,23 @@
   {
     "objectID": "library/crypto/mev/index.html",
     "href": "library/crypto/mev/index.html",
-    "title": "Overview",
+    "title": "MEV",
     "section": "",
     "text": "ZeroMEV Explorer\nEigenPhi: Arbitrage Dashboard\nMEV Boost\nManifold Freelay\nMempool Dumpster"
   },
   {
     "objectID": "library/crypto/mev/index.html#dashboards-tools",
     "href": "library/crypto/mev/index.html#dashboards-tools",
-    "title": "Overview",
+    "title": "MEV",
     "section": "",
     "text": "ZeroMEV Explorer\nEigenPhi: Arbitrage Dashboard\nMEV Boost\nManifold Freelay\nMempool Dumpster"
   },
   {
     "objectID": "library/crypto/mev/index.html#research",
     "href": "library/crypto/mev/index.html#research",
-    "title": "Overview",
+    "title": "MEV",
     "section": "Research",
-    "text": "Research\n\nEarly Research\n\nEnter the Hydra\nThe Cost of Decentralization in 0x and EtherDelta\nFlash Boys 2.0\nOrder-Fairness for Byzantine Consensus\nThemis: Fast, Strong Order-Fairness in Byzantine Consensus\nMEV… Wat Do?\nEthereum is a Dark Forest\nFlashbots: Frontrunning the MEV Crisis\n\n\n\nGeneral\n\nStudying Flash Loan Attacks | paper\nMEV by Galaxy Digital | Blog Pt 2\nModular MEV Write-up\nPerformant routing and latency benchmarking for Ethereum RPC and Relay Service Providers\nHigh Granularity Cex Data | tardis.dev\nMEV in Fixed Price Auctions | paper | tweet\nMEV Boost Capella Upgrades | article\nFrontier Research | website\nSo you want to run a builder?\nHow to Fix Ethereum’s MEV Problem\nMEV in ETH2 - An Early Exploration\nImproving PoS Economic Security via MEV Redistribution\nTowards a Theory of MEV I\nFlashbots Research Repository\n\n\n\nMEV-Boost / Proposer-Builder Separation\n\nProposer Boost Considerations\nMEV-Boost Plan\n\n\n\nVideos & Talks\n\nMEV Day\n\nVideo Recap\n\nEncode x Wintermute: MEV with Robert Miller\nStanford MEV Workshop Recording\nMEVconomics Playlist | youtube\nStanford Blockchain Conference (SBC’23)\nRecordings: Day 1 | Day 2 | Day 3\nMEV Workshop at SBC’23 | Recording\n\n\n\nProtocols, and Implementation Resources\nUniswap V3 Book - docs\nAutomated Market Making and Arbitrage Profits in the Presence of Fees - paper\nMEV Capturing AMM - proposal\nTime to Bribe: Measuring Block Construction Markets - paper\nA Framework for Building Searchers - article\nSomeone’s Mega-resource on MEV - notion\nRunning MEV-Relay at Scale - notion\nLatency Arms Race - post\nFBAs (frequent batch auctions) are a nerd snipe - tweet\nJaredFromSubway.eth’s Access Lists - etherscan"
+    "text": "Research\n\nEarly Research\n\nEnter the Hydra\nThe Cost of Decentralization in 0x and EtherDelta\nFlash Boys 2.0\nOrder-Fairness for Byzantine Consensus\nThemis: Fast, Strong Order-Fairness in Byzantine Consensus\nMEV… Wat Do?\nEthereum is a Dark Forest\nFlashbots: Frontrunning the MEV Crisis\n\n\n\nMEV-Boost / Proposer-Builder Separation\n\nProposer Boost Considerations\nMEV-Boost Plan\n\n\n\nGeneral\n\nStudying Flash Loan Attacks\nMEV by Galaxy Digital\nModular MEV Write-up\nPerformant routing and latency benchmarking for Ethereum RPC and Relay Service Providers\nMEV in Fixed Price Auctions\nMEV Boost Capella Upgrades\nFrontier Research\nSo you want to run a builder?\nHow to Fix Ethereum’s MEV Problem\nMEV in ETH2 - An Early Exploration\nImproving PoS Economic Security via MEV Redistribution\nTowards a Theory of MEV I\nFlashbots Research Repository\nMEV Day\n\nVideo Recap\n\nEncode x Wintermute: MEV with Robert Miller\nStanford MEV Workshop Recording\nMEVconomics Youtube Playlist\nStanford Blockchain Conference (SBC’23)\n\nDay 1\nDay 2\nDay 3\n\nMEV Workshop at SBC’23\n\nRecording\n\n\n\n\nProtocols, and Implementation Resources\n\nUniswap V3 Book\nAutomated Market Making and Arbitrage Profits in the Presence of Fees\nMEV Capturing AMM\nTime to Bribe: Measuring Block Construction Markets\nA Framework for Building Searchers\nSomeone’s Mega-resource on MEV\nRunning MEV-Relay at Scale\nLatency Arms Race\nFBAs (frequent batch auctions) are a nerd snipe\nJaredFromSubway.eth’s Access Lists"
   },
   {
     "objectID": "library/crypto/blockchains/bitcoin/index.html#transaction-versions",
@@ -6465,7 +6465,7 @@
     "href": "library/ai/index.html#a-history-of-ai",
     "title": "AI",
     "section": "A History of AI",
-    "text": "A History of AI\n\nResources\n\nTimeline of AI\nHistory of Artificial Neural Networks\nDeep Learning History\n\n\n1958: The Perceptron\nFrank Rosenblatt invented the perceptron, an algorithm for pattern recognition, which is essentially a single-layer neural network.\n\n\n\nShortly after, he went on to explore deeper, multilayer perceptrons. His MLPs had a non-learning first layer with randomized weights and an adaptive output layer. Although this was not yet deep learning, because only the last layer learned.\n\n\n1965: First Deep Learning\nSuccessful learning in deep feedforward network architectures started in 1965 in the Ukraine (back then the USSR) when Alexey Ivakhnenko & Valentin Lapa introduced the first general, working learning algorithms for deep MLPs with arbitrarily many hidden layers (already containing the now popular multiplicative gates). A paper of 1971 already described a deep learning net with 8 layers, trained by their highly cited method which was still popular in the new millennium, especially in Eastern Europe, where much of Machine Learning was born.\n\n\n1967-68: Deep Learning by Stochastic Gradient Descent\nIvakhnenko and Lapa (1965, see above) trained their deep networks layer by layer. In 1967, however, Shun-Ichi Amari suggested to train MLPs with many layers in non-incremental end-to-end fashion from scratch by stochastic gradient descent, a method proposed in 1951 by Robbins & Monro.\nAmari’s implementation (with his student Saito) learned internal representations in a five layer MLP with two modifiable layers, which was trained to classify non-linearily separable pattern classes.\n\n\n1969: Rectified Linear Units (ReLUs)\nKunihiko Fukushima introduced rectified linear units (ReLUs) for NNs (1969). They are now widely used in CNNs and other NNs.\n\n\n1970: Backpropagation\nSeppo Linnainmaa was the first to publish what’s now known as backpropagation, the famous algorithm for credit assignment in networks of differentiable nodes, also known as “reverse mode of automatic differentiation.” It is now the foundation of widely used NN software packages such as PyTorch and Google’s Tensorflow.\n\n\n1972: Recurrent Neural Networks\nAmari published a paper on Amari-Hopfield networks, which resemble what’s now known as Recurrent Neural Networks (RNNs).\n\n\n1979: First Deep Convolutional NN\nComputer Vision was revolutionized in the 2010s by a particular feedforward NN called the convolutional NN (CNN). The basic CNN architecture with alternating convolutional and downsampling layers is due to Kunihiko Fukushima, 1979. He called it Neocognitron.\n\n\n1981: Government Interest & Funding\n\nThe Japanese Ministry of International Trade and Industry set aside $850 million for the Fifth generation computer project.\nThe UK began the £350 million Alvey project.\nDARPA founded the Strategic Computing Initiative and tripling its investment in AI between 1984 and 1988.\n\n\n\n1982: Hopfield Net\n\nPhysicist John Hopfield was able to prove that a form of neural network (now called a “Hopfield net”) could learn and process information in a completely new way. This built on the Amari-Hopfield network from Amari’s 1972 publication\n\n\n\n1985: A Spark of Modern AI\nGeoffrey Hinton “godfather of AI” invented the idea of multilayered neural networks, with nodes and weights. Node takes inputs and weights of inputs, outputs a signal if sum &gt; 0. - 1985 | A Learning Algorithm for Boltzmann Machines - 1986 | Learning representations by back-propagating errors\n\n\n\nDavid E. Rumelhart demonstrated that backpropagation can yield useful internal representations in hidden layers of NNs. At least for supervised learning, backpropagation is generally more efficient than Amari’s above-mentioned deep learning through the more general SGD method (1967), which learned useful internal representations in NNs about 2 decades earlier\nFeng-hsiung Hsu begins development on Chess-playing expert system called ChipTest. In 1988 it was moved to IBM and renamed Deep Thought, and then renamed again in 1989 to Deep Blue.\n\n\n1990: Generative Adversarial Networks / Curiosity**\nGenerative Adversarial Networks (GANs) are first published in 1990 in Munich under the moniker Artificial Curiosity. Two dueling NNs (a probabilistic generator and a predictor) are trying to maximize each other’s loss in a minimax game. The generator (called the controller) generates probabilistic outputs (using stochastic units like in the much later StyleGANs). The predictor (called the world model) sees the outputs of the controller and predicts environmental reactions to them. Using gradient descent, the predictor NN minimizes its error, while the generator NN tries to make outputs that maximize this error: one net’s loss is the other net’s gain\n\n\n1991: (Unofficial) Invention of the Transformer\nJiirgen Schmidhuber published a paper describing an alternative to RNNs: A feedforward NN slowly learns by gradient descent to program the changes of the fast weights of another NN. Such Fast Weight Programmers (FWPs) can learn to memorize past data, too. In 1991, one of them computed its fast weight changes through additive outer products of self-invented activation patterns (now often called keys and values for self-attention). The very similar Transformers combine this with projections and softmax and are now widely used in natural language processing. For long input sequences, their efficiency was improved through Transformers with linearized self-attention whose core is formally equivalent to the 1991 Fast Weight Programmers.\n\n\n1997: Long Short-Term Memory\nSepp Hochreiter and Jurgen Schmidhuber published Long Short-Term Memory, the most cited NN paper of the 20th century. A later milestone was the “vanilla LSTM architecture” with forget gate — the LSTM variant of 1999-2000 that everybody is using today, e.g., in Google’s Tensorflow. Alex was lead author of our first successful application of LSTM to speech (2004). 2005 saw the first publication of LSTM with full backpropagation through time and of bi-directional LSTM (now widely used).\nAlso in 1997, Deep Blue beats Gary Kasparov in chess.\n\n\n2009: ImageNet\nImageNet is created, a large visual database envisioned by Fei-Fei Li from Stanford University, who realized that the best machine learning algorithms wouldn’t work well if the data didn’t reflect the real world. For many, ImageNet was the catalyst for the AI boom of the 21st century.\n\n\n2010: DeepMind & Google X\nX (formerly Google X) is an American semi-secret research and development facility and organization founded by Google in January 2010. X has its headquarters about a mile and a half from Alphabet’s corporate headquarters, the Googleplex, in Mountain View, California\nDeepMind was founded in the UK by Demis Hassabis, Shane Legg and Mustafa Suleyman in September 2010.\n\n\n2011: Google Brain\nThe Google Brain project began in 2011 as a part-time research collaboration between Google fellow Jeff Dean, Google Researcher Greg Corrado, and Stanford University professor Andrew Ng. Google Brain started as a Google X project and became so successful that it was graduated back to Google: Astro Teller has said that Google Brain paid for the entire cost of Google X.\n\n\n2012: Image Recognition\nGeoffrey Hinton tests artificial deep neural network on a widely used image recogniztion test, called ImageNet. AlexNet was the program, scored 75% success, way better than competitors. This generates a ton of hype, and sparks more funding/research in AI, particularly image recognition.\n\n\n\nIn 2013, Geoffrey Hinton was acqui-hired by Google.\n\n\n2014: Attention, the Start of the Race\nThe attention mechanism is introduced, which would became the foundation for the Transformer.\n\n\n2015: OpenAI\nIn December 2015, Sam Altman, Greg Brockman, Reid Hoffman, Jessica Livingston, Peter Thiel, Elon Musk, Amazon Web Services (AWS), Infosys, and YC Research announced the formation of OpenAI and pledged over $1 billion to the venture.\nDecember 11, 2015 announcement by Greg Brockman and Ilya Sutskever.\n\n\n2016\n\nAlphaGo becomes supreme at Go\nGoogle Brain neural network learns secure encryption\n\nDecember 2016, OpenAI released “Universe”, a software platform for measuring and training an AI’s general intelligence across the world’s supply of games, websites, and other applications. Intended to be the reinforcement learning version of ImageNet.\n\n\n2017: Attention is All You Need\nThe Google Brain team publishes a paper titled Attention is All You Need, introducing the Transformer - which is now an essential ingredient in many cutting edge models, particularly LLMs.\nThe key innovation is the idea of self-attention, a mechanism that allows the model to selectively choose which parts of the input to pay attention to rather than using the entire input equally.\nTransformers address RNN limitations by replacing recurrance with self attention. This weighs the importance of different parts of the input without having to maintain internal state. Much easier to parallize, and eliminates vanishing & exploding gradient problem.\nAlso 2017, Tesla poaches deep learning expert Andrej Karpathy from OpenAI to be its new head of Autopilot Vision.\n\n\n2018\n\nOpenAI Charter is published, which is later cited upon holding back powerful models like GPT-2.\nElon leaves OpenAI In early 2018, Musk told Sam Altman, another OpenAI founder, that he believed the venture had fallen fatally behind Google, people familiar with the matter said. Musk proposed a possible solution: He would take control of OpenAI and run it himself.\n\nAltman and OpenAI’s other founders rejected Musk’s proposal. Musk, in turn, walked away from the company — and reneged on a massive planned donation. The fallout from that conflict, culminating in the announcement of Musk’s departure on Feb 20, 2018, would shape the industry that’s changing the world, and the company at the heart of it.\nFebruary 20, 2018 announcement that Elon is departing. In the same month, OpenAI switched cloud providers from Amazon to Google, signing an agreement to spend at least $63 million with the tech giant over the next two years.\n\n\n2019\n\nOpenAI shifts from nonprofit to ‘capped-profit’ to attract capital.\n\nJuly 2019, Microsoft invests $1 billion in OpenAI to develop AI technologies on Microsoft Azure.\n\n\n2020\nOctober 2020, GPT-3 is released.\n\n\nCont’d\nOpenAI debtus DALL-E, text-to-image.\nDecember 2022, ChatGPT\n\n\n2023\nJanuary 2023, Microsoft buys 49% of OpenAI at $29 billion valuation.\nMarch 14, 2023: GPT-4.\nMay 2023, Governance of superintelligence blog published\nJuly 24, 2023: Attention is off by One"
+    "text": "A History of AI\n\nResources\n\nTimeline of AI\nHistory of Artificial Neural Networks\nDeep Learning History\n\n\n\n1958: The Perceptron\nFrank Rosenblatt invented the perceptron, an algorithm for pattern recognition, which is essentially a single-layer neural network.\n\n\n\nShortly after, he went on to explore deeper, multilayer perceptrons. His MLPs had a non-learning first layer with randomized weights and an adaptive output layer. Although this was not yet deep learning, because only the last layer learned.\n\n\n1965: First Deep Learning\nSuccessful learning in deep feedforward network architectures started in 1965 in the Ukraine (back then the USSR) when Alexey Ivakhnenko & Valentin Lapa introduced the first general, working learning algorithms for deep MLPs with arbitrarily many hidden layers (already containing the now popular multiplicative gates). A paper of 1971 already described a deep learning net with 8 layers, trained by their highly cited method which was still popular in the new millennium, especially in Eastern Europe, where much of Machine Learning was born.\n\n\n1967-68: Deep Learning by Stochastic Gradient Descent\nIvakhnenko and Lapa (1965, see above) trained their deep networks layer by layer. In 1967, however, Shun-Ichi Amari suggested to train MLPs with many layers in non-incremental end-to-end fashion from scratch by stochastic gradient descent, a method proposed in 1951 by Robbins & Monro.\nAmari’s implementation (with his student Saito) learned internal representations in a five layer MLP with two modifiable layers, which was trained to classify non-linearily separable pattern classes.\n\n\n1969: Rectified Linear Units (ReLUs)\nKunihiko Fukushima introduced rectified linear units (ReLUs) for NNs (1969). They are now widely used in CNNs and other NNs.\n\n\n1970: Backpropagation\nSeppo Linnainmaa was the first to publish what’s now known as backpropagation, the famous algorithm for credit assignment in networks of differentiable nodes, also known as “reverse mode of automatic differentiation.” It is now the foundation of widely used NN software packages such as PyTorch and Google’s Tensorflow.\n\n\n1972: Recurrent Neural Networks\nAmari published a paper on Amari-Hopfield networks, which resemble what’s now known as Recurrent Neural Networks (RNNs).\n\n\n1979: First Deep Convolutional NN\nComputer Vision was revolutionized in the 2010s by a particular feedforward NN called the convolutional NN (CNN). The basic CNN architecture with alternating convolutional and downsampling layers is due to Kunihiko Fukushima, 1979. He called it Neocognitron.\n\n\n1981: Government Interest & Funding\n\nThe Japanese Ministry of International Trade and Industry set aside $850 million for the Fifth generation computer project.\nThe UK began the £350 million Alvey project.\nDARPA founded the Strategic Computing Initiative and tripling its investment in AI between 1984 and 1988.\n\n\n\n1982: Hopfield Net\n\nPhysicist John Hopfield was able to prove that a form of neural network (now called a “Hopfield net”) could learn and process information in a completely new way. This built on the Amari-Hopfield network from Amari’s 1972 publication\n\n\n\n1985: A Spark of Modern AI\nGeoffrey Hinton “godfather of AI” invented the idea of multilayered neural networks, with nodes and weights. Node takes inputs and weights of inputs, outputs a signal if sum &gt; 0. - 1985 | A Learning Algorithm for Boltzmann Machines - 1986 | Learning representations by back-propagating errors\n\n\n\nDavid E. Rumelhart demonstrated that backpropagation can yield useful internal representations in hidden layers of NNs. At least for supervised learning, backpropagation is generally more efficient than Amari’s above-mentioned deep learning through the more general SGD method (1967), which learned useful internal representations in NNs about 2 decades earlier\nFeng-hsiung Hsu begins development on Chess-playing expert system called ChipTest. In 1988 it was moved to IBM and renamed Deep Thought, and then renamed again in 1989 to Deep Blue.\n\n\n1990: Generative Adversarial Networks / Curiosity**\nGenerative Adversarial Networks (GANs) are first published in 1990 in Munich under the moniker Artificial Curiosity. Two dueling NNs (a probabilistic generator and a predictor) are trying to maximize each other’s loss in a minimax game. The generator (called the controller) generates probabilistic outputs (using stochastic units like in the much later StyleGANs). The predictor (called the world model) sees the outputs of the controller and predicts environmental reactions to them. Using gradient descent, the predictor NN minimizes its error, while the generator NN tries to make outputs that maximize this error: one net’s loss is the other net’s gain\n\n\n1991: (Unofficial) Invention of the Transformer\nJiirgen Schmidhuber published a paper describing an alternative to RNNs: A feedforward NN slowly learns by gradient descent to program the changes of the fast weights of another NN. Such Fast Weight Programmers (FWPs) can learn to memorize past data, too. In 1991, one of them computed its fast weight changes through additive outer products of self-invented activation patterns (now often called keys and values for self-attention). The very similar Transformers combine this with projections and softmax and are now widely used in natural language processing. For long input sequences, their efficiency was improved through Transformers with linearized self-attention whose core is formally equivalent to the 1991 Fast Weight Programmers.\n\n\n1997: Long Short-Term Memory\nSepp Hochreiter and Jurgen Schmidhuber published Long Short-Term Memory, the most cited NN paper of the 20th century. A later milestone was the “vanilla LSTM architecture” with forget gate — the LSTM variant of 1999-2000 that everybody is using today, e.g., in Google’s Tensorflow. Alex was lead author of our first successful application of LSTM to speech (2004). 2005 saw the first publication of LSTM with full backpropagation through time and of bi-directional LSTM (now widely used).\nAlso in 1997, Deep Blue beats Gary Kasparov in chess.\n\n\n2009: ImageNet\nImageNet is created, a large visual database envisioned by Fei-Fei Li from Stanford University, who realized that the best machine learning algorithms wouldn’t work well if the data didn’t reflect the real world. For many, ImageNet was the catalyst for the AI boom of the 21st century.\n\n\n2010: DeepMind & Google X\nX (formerly Google X) is an American semi-secret research and development facility and organization founded by Google in January 2010. X has its headquarters about a mile and a half from Alphabet’s corporate headquarters, the Googleplex, in Mountain View, California\nDeepMind was founded in the UK by Demis Hassabis, Shane Legg and Mustafa Suleyman in September 2010.\n\n\n2011: Google Brain\nThe Google Brain project began in 2011 as a part-time research collaboration between Google fellow Jeff Dean, Google Researcher Greg Corrado, and Stanford University professor Andrew Ng. Google Brain started as a Google X project and became so successful that it was graduated back to Google: Astro Teller has said that Google Brain paid for the entire cost of Google X.\n\n\n2012: Image Recognition\nGeoffrey Hinton tests artificial deep neural network on a widely used image recogniztion test, called ImageNet. AlexNet was the program, scored 75% success, way better than competitors. This generates a ton of hype, and sparks more funding/research in AI, particularly image recognition.\n\n\n\nIn 2013, Geoffrey Hinton was acqui-hired by Google.\n\n\n2014: Attention, the Start of the Race\nThe attention mechanism is introduced, which would became the foundation for the Transformer.\n\n\n2015: OpenAI\nIn December 2015, Sam Altman, Greg Brockman, Reid Hoffman, Jessica Livingston, Peter Thiel, Elon Musk, Amazon Web Services (AWS), Infosys, and YC Research announced the formation of OpenAI and pledged over $1 billion to the venture.\nDecember 11, 2015 announcement by Greg Brockman and Ilya Sutskever.\n\n\n2016\n\nAlphaGo becomes supreme at Go\nGoogle Brain neural network learns secure encryption\n\nDecember 2016, OpenAI released “Universe”, a software platform for measuring and training an AI’s general intelligence across the world’s supply of games, websites, and other applications. Intended to be the reinforcement learning version of ImageNet.\n\n\n2017: Attention is All You Need\nThe Google Brain team publishes a paper titled Attention is All You Need, introducing the Transformer - which is now an essential ingredient in many cutting edge models, particularly LLMs.\nThe key innovation is the idea of self-attention, a mechanism that allows the model to selectively choose which parts of the input to pay attention to rather than using the entire input equally.\nTransformers address RNN limitations by replacing recurrance with self attention. This weighs the importance of different parts of the input without having to maintain internal state. Much easier to parallize, and eliminates vanishing & exploding gradient problem.\nAlso 2017, Tesla poaches deep learning expert Andrej Karpathy from OpenAI to be its new head of Autopilot Vision.\n\n\n2018\n\nOpenAI Charter is published, which is later cited upon holding back powerful models like GPT-2.\nElon leaves OpenAI In early 2018, Musk told Sam Altman, another OpenAI founder, that he believed the venture had fallen fatally behind Google, people familiar with the matter said. Musk proposed a possible solution: He would take control of OpenAI and run it himself.\n\nAltman and OpenAI’s other founders rejected Musk’s proposal. Musk, in turn, walked away from the company — and reneged on a massive planned donation. The fallout from that conflict, culminating in the announcement of Musk’s departure on Feb 20, 2018, would shape the industry that’s changing the world, and the company at the heart of it.\nFebruary 20, 2018 announcement that Elon is departing. In the same month, OpenAI switched cloud providers from Amazon to Google, signing an agreement to spend at least $63 million with the tech giant over the next two years.\n\n\n2019\n\nOpenAI shifts from nonprofit to ‘capped-profit’ to attract capital.\n\nJuly 2019, Microsoft invests $1 billion in OpenAI to develop AI technologies on Microsoft Azure.\n\n\n2020\nOctober 2020, GPT-3 is released."
   },
   {
     "objectID": "library/crypto/apps/ethena/index.html",
@@ -6487,5 +6487,166 @@
     "title": "Running Bitcoin Core",
     "section": "Full Version",
     "text": "Full Version\n\nStep 1: Download Bitcoin Core\nAs of today (Feb 11, 2023), the latest version of Bitcoin Core is 24.0.1. You can find the download links here\n\nCopy the link address of the version you need - I am running Linux Ubuntu so I will use the x86_64-linux-gnu.tar.gz\n\nwget https://bitcoincore.org/bin/bitcoin-core-24.0.1/\n\nExtract the contents\n\nsudo tar -C /usr/local -xzf bitcoin-24.0.1-x86_64-linux-gnu.tar.gz\nThis downloads the contents into /usr/local/ directory\n\n\nStep 2: Install Bitcoin from Downloaded Contents\nRun this command (idk the details who cares)\nsudo install -m 0755 -o root -g root -t /usr/local/bin /usr/local/bitcoin-24.0.1/bin/*\n\n\nStep 3: Run Bitcoin Core\nbitcoind -daemon\nYou can check the progress of syncing with bitcoin-cli -getinfo\nThis should produce something that looks like this\nubuntu@REDACTED:~$ bitcoin-cli -getinfo\nChain: main\nBlocks: 235213\nHeaders: 775994\nVerification progress: ▒░░░░░░░░░░░░░░░░░░░░ 2.1719%\nDifficulty: 10076292.88341872\n\nNetwork: in 0, out 10, total 10\nVersion: 240001\nTime offset (s): -1\nProxies: n/a\nMin tx relay fee rate (BTC/kvB): 0.00001000\nCompare “blocks” with the latest block on the chain."
+  },
+  {
+    "objectID": "library/crypto/blockchains/index.html#early-contributions",
+    "href": "library/crypto/blockchains/index.html#early-contributions",
+    "title": "Blockchains",
+    "section": "",
+    "text": "David Chaum, 1983 Electronic Cash\nDavid Chaum, 1985 Security without Identification\nDr. Douglas Jackson and Barry K. Downey, 1996 E-Gold\nWei Dai, 1998 b-money\nNick Szabo, 1998 Bit Gold"
+  },
+  {
+    "objectID": "library/crypto/blockchains/index.html#consensus",
+    "href": "library/crypto/blockchains/index.html#consensus",
+    "title": "Blockchains",
+    "section": "Consensus",
+    "text": "Consensus\nAll things Byzantine Fault Tolerant: Research and implementations of consensus mechanisms.\n\nWhitepapers\n\nTendermint: Consensus without Mining\nDFINITY Consensus System\nRipple Protocol Consensus Algorithm\nAvalanche Consensus\nNarwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus\nCosmos without Tendermint\nThe Honey Badger of BFT Protocols\nHashgraph Protocol: Efficient ABFT\nByzantine Ordered Consensus without Byzantine Oligarchy\nBEAT: Asynchronous BFT Made Practical\n\n\n\nResearch\n\nLong Range Attacks on PoS\nCasper the Friendly Finality Gadget\nCombining GHOST and Casper\nBeacon Chain Casper Mini-Spec\nMitigating Balancing Attacks on LMD GHOST\nzkCasper: SNARK based scheme for verifying the Ethereum’s Casper FFG consensus proofs\n\n\n\nAttacks\n\nTwo Attacks on Proof-of-Stake GHOST/Ethereum\nThree Attacks on Proof-of-Stake Ethereum\nBalancing Attack on Gasper\nDiscouragement Attacks\nVitalik Paper\nDiscouragement Attacks"
+  },
+  {
+    "objectID": "library/crypto/blockchains/index.html#events",
+    "href": "library/crypto/blockchains/index.html#events",
+    "title": "Blockchains",
+    "section": "Events",
+    "text": "Events\nMay 12, 2023: Ethereum Consensus Issues\n\ntweet one\ntweet two"
+  },
+  {
+    "objectID": "library/crypto/blockchains/index.html#layer-1-whitepapers",
+    "href": "library/crypto/blockchains/index.html#layer-1-whitepapers",
+    "title": "Blockchains",
+    "section": "Layer 1 Whitepapers",
+    "text": "Layer 1 Whitepapers\n\nBitcoin\nEthereum: A Next-Generation Smart Contract and Decentralized Application Platform\nEthereum: A Secure Decentralized Generalized Transaction Ledger\nZerocash: Decentralized Anonymous Payments from Bitcoin\nCosmos: Internet of Blockchains\nSolana: A new Architecture for a High Performance Blockchain\nCardano\nAlgorand: Scaling Byzantine Agreements for Cryptocurrencies\nAvalanche Platform\nThe Spacemesh Protocol"
+  },
+  {
+    "objectID": "library/crypto/blockchains/evm/ethereum/index.html#layer-2-rollups",
+    "href": "library/crypto/blockchains/evm/ethereum/index.html#layer-2-rollups",
+    "title": "Ethereum",
+    "section": "Layer 2 Rollups",
+    "text": "Layer 2 Rollups\n\nGeneral\n\nVitalik: An Incomplete Guide to Rollups\nA Rollup-Centric Ethereum Roadmap\n\n\n\nArbitrum\n\nArbitrum: Scalable, Private Smart Contracts\n\n\n\nERC-4337\n\nWhat’s in an Account?"
+  },
+  {
+    "objectID": "library/crypto/blockchains/evm/ethereum/index.html#general-1",
+    "href": "library/crypto/blockchains/evm/ethereum/index.html#general-1",
+    "title": "Ethereum",
+    "section": "General",
+    "text": "General\n\nEthereum Inactivity Leak\nIntent Based Architectures and Their Risks\nAccount Abstraction in a Multichain Landscape - Part 1: Addresses\nAccount Abstraction Using Alt Mempool\nEIP-1153: Transient Storage\nTime to Bribe: Measuring Block Construction Markets\n2FA ZK Rollups using SGX\nClient Bootnode Concerns\nCollecting Signatures for Faster Finality\nProof of Solvency\nState of Testnets\nEth Withdrawals FAQ\n100 Days After the Merge\nWithdrawals after Shanghai\nExecution Layer Meeting\nzkCasper: SNARK based scheme for verifying the Ethereum’s Casper FFG consensus proofs\nEthereum Data Structures\nEth2Book: A lot of Good Info on Ethereum\nOfficial Merge Announcement"
+  },
+  {
+    "objectID": "library/crypto/blockchains/evm/ethereum/index.html#tools",
+    "href": "library/crypto/blockchains/evm/ethereum/index.html#tools",
+    "title": "Ethereum",
+    "section": "",
+    "text": "Solidity Decompiler (interface)\nHeimdall-rs an advanced EVM smart contract toolkit specializing in bytecode analysis\nWhatsABI\ngo-selfcompile"
+  },
+  {
+    "objectID": "library/crypto/blockchains/ethereum/index.html",
+    "href": "library/crypto/blockchains/ethereum/index.html",
+    "title": "Ethereum",
+    "section": "",
+    "text": "Solidity Decompiler (interface)\nHeimdall-rs an advanced EVM smart contract toolkit specializing in bytecode analysis\nWhatsABI\ngo-selfcompile"
+  },
+  {
+    "objectID": "library/crypto/blockchains/ethereum/index.html#tools",
+    "href": "library/crypto/blockchains/ethereum/index.html#tools",
+    "title": "Ethereum",
+    "section": "",
+    "text": "Solidity Decompiler (interface)\nHeimdall-rs an advanced EVM smart contract toolkit specializing in bytecode analysis\nWhatsABI\ngo-selfcompile"
+  },
+  {
+    "objectID": "library/crypto/blockchains/ethereum/index.html#consensus",
+    "href": "library/crypto/blockchains/ethereum/index.html#consensus",
+    "title": "Ethereum",
+    "section": "Consensus",
+    "text": "Consensus\n\nCasper the Friendly Finality Gadget\nCombining GHOST and Casper\nBeacon Chain Casper Mini-Spec"
+  },
+  {
+    "objectID": "library/crypto/blockchains/ethereum/index.html#consensus-attacks",
+    "href": "library/crypto/blockchains/ethereum/index.html#consensus-attacks",
+    "title": "Ethereum",
+    "section": "Consensus Attacks",
+    "text": "Consensus Attacks\n\nTwo Attacks on Proof-of-Stake GHOST/Ethereum\nThree Attacks on Proof-of-Stake Ethereum\nBalancing Attack on Gasper\nMitigating Balancing Attacks on LMD GHOST\nDiscouragement Attacks\nVitalik Paper\nDiscouragement Attacks"
+  },
+  {
+    "objectID": "library/crypto/blockchains/ethereum/index.html#proposer-builder-separation",
+    "href": "library/crypto/blockchains/ethereum/index.html#proposer-builder-separation",
+    "title": "Ethereum",
+    "section": "Proposer Builder Separation",
+    "text": "Proposer Builder Separation\n\nMEV-Boost Plan\nProposer Boost Considerations\nMEV-Boost in a Nutshell\nPBS Censorship Resistance\nState of research: increasing censorship resistance of transactions under PBS\nPBS Censorship-Resistance Alternatives\nCurrent crList Proposal"
+  },
+  {
+    "objectID": "library/crypto/blockchains/ethereum/index.html#sharding",
+    "href": "library/crypto/blockchains/ethereum/index.html#sharding",
+    "title": "Ethereum",
+    "section": "Sharding",
+    "text": "Sharding\n\nDanksharding\nPolynya on Danksharding\nNightshade: Near Protocol Sharding Design\nThe Tie: Danksharding"
+  },
+  {
+    "objectID": "library/crypto/blockchains/ethereum/index.html#layer-2-rollups",
+    "href": "library/crypto/blockchains/ethereum/index.html#layer-2-rollups",
+    "title": "Ethereum",
+    "section": "Layer 2 Rollups",
+    "text": "Layer 2 Rollups\n\nGeneral\n\nVitalik: An Incomplete Guide to Rollups\nA Rollup-Centric Ethereum Roadmap\n\n\n\nArbitrum\n\nArbitrum: Scalable, Private Smart Contracts\n\n\n\nERC-4337\n\nWhat’s in an Account?"
+  },
+  {
+    "objectID": "library/crypto/blockchains/ethereum/index.html#general-1",
+    "href": "library/crypto/blockchains/ethereum/index.html#general-1",
+    "title": "Ethereum",
+    "section": "General",
+    "text": "General\n\nEthereum Inactivity Leak\nIntent Based Architectures and Their Risks\nAccount Abstraction in a Multichain Landscape - Part 1: Addresses\nAccount Abstraction Using Alt Mempool\nEIP-1153: Transient Storage\nTime to Bribe: Measuring Block Construction Markets\n2FA ZK Rollups using SGX\nClient Bootnode Concerns\nCollecting Signatures for Faster Finality\nProof of Solvency\nState of Testnets\nEth Withdrawals FAQ\n100 Days After the Merge\nWithdrawals after Shanghai\nExecution Layer Meeting\nzkCasper: SNARK based scheme for verifying the Ethereum’s Casper FFG consensus proofs\nEthereum Data Structures\nEth2Book: A lot of Good Info on Ethereum\nOfficial Merge Announcement"
+  },
+  {
+    "objectID": "library/crypto/blockchains/index.html#tools",
+    "href": "library/crypto/blockchains/index.html#tools",
+    "title": "Ethereum",
+    "section": "Tools",
+    "text": "Tools\n\nSolidity Decompiler (interface)\nHeimdall-rs an advanced EVM smart contract toolkit specializing in bytecode analysis\nWhatsABI\ngo-selfcompile"
+  },
+  {
+    "objectID": "library/crypto/blockchains/index.html#consensus-1",
+    "href": "library/crypto/blockchains/index.html#consensus-1",
+    "title": "Ethereum",
+    "section": "Consensus",
+    "text": "Consensus\n\nCasper the Friendly Finality Gadget\nCombining GHOST and Casper\nBeacon Chain Casper Mini-Spec"
+  },
+  {
+    "objectID": "library/crypto/blockchains/index.html#consensus-attacks",
+    "href": "library/crypto/blockchains/index.html#consensus-attacks",
+    "title": "Ethereum",
+    "section": "Consensus Attacks",
+    "text": "Consensus Attacks\n\nTwo Attacks on Proof-of-Stake GHOST/Ethereum\nThree Attacks on Proof-of-Stake Ethereum\nBalancing Attack on Gasper\nMitigating Balancing Attacks on LMD GHOST\nDiscouragement Attacks\nVitalik Paper\nDiscouragement Attacks"
+  },
+  {
+    "objectID": "library/crypto/blockchains/index.html#proposer-builder-separation",
+    "href": "library/crypto/blockchains/index.html#proposer-builder-separation",
+    "title": "Ethereum",
+    "section": "Proposer Builder Separation",
+    "text": "Proposer Builder Separation\n\nMEV-Boost Plan\nProposer Boost Considerations\nMEV-Boost in a Nutshell\nPBS Censorship Resistance\nState of research: increasing censorship resistance of transactions under PBS\nPBS Censorship-Resistance Alternatives\nCurrent crList Proposal"
+  },
+  {
+    "objectID": "library/crypto/blockchains/index.html#sharding",
+    "href": "library/crypto/blockchains/index.html#sharding",
+    "title": "Ethereum",
+    "section": "Sharding",
+    "text": "Sharding\n\nDanksharding\nPolynya on Danksharding\nNightshade: Near Protocol Sharding Design\nThe Tie: Danksharding"
+  },
+  {
+    "objectID": "library/crypto/blockchains/index.html#layer-2-rollups",
+    "href": "library/crypto/blockchains/index.html#layer-2-rollups",
+    "title": "Blockchains",
+    "section": "Layer 2 Rollups",
+    "text": "Layer 2 Rollups\n\nGeneral\n\nVitalik: An Incomplete Guide to Rollups\nA Rollup-Centric Ethereum Roadmap\n\n\n\nArbitrum\n\nArbitrum: Scalable, Private Smart Contracts\n\n\nERC-4337\n\nWhat’s in an Account?\n\n\n\n\nGeneral\n\nEthereum Inactivity Leak\nIntent Based Architectures and Their Risks\nAccount Abstraction in a Multichain Landscape - Part 1: Addresses\nAccount Abstraction Using Alt Mempool\nEIP-1153: Transient Storage\nTime to Bribe: Measuring Block Construction Markets\n2FA ZK Rollups using SGX\nClient Bootnode Concerns\nCollecting Signatures for Faster Finality\nProof of Solvency\nState of Testnets\nEth Withdrawals FAQ\n100 Days After the Merge\nWithdrawals after Shanghai\nExecution Layer Meeting\nzkCasper: SNARK based scheme for verifying the Ethereum’s Casper FFG consensus proofs\nEthereum Data Structures\nEth2Book: A lot of Good Info on Ethereum\nOfficial Merge Announcement"
+  },
+  {
+    "objectID": "library/crypto/blockchains/index.html#general-1",
+    "href": "library/crypto/blockchains/index.html#general-1",
+    "title": "Ethereum",
+    "section": "General",
+    "text": "General\n\nEthereum Inactivity Leak\nIntent Based Architectures and Their Risks\nAccount Abstraction in a Multichain Landscape - Part 1: Addresses\nAccount Abstraction Using Alt Mempool\nEIP-1153: Transient Storage\nTime to Bribe: Measuring Block Construction Markets\n2FA ZK Rollups using SGX\nClient Bootnode Concerns\nCollecting Signatures for Faster Finality\nProof of Solvency\nState of Testnets\nEth Withdrawals FAQ\n100 Days After the Merge\nWithdrawals after Shanghai\nExecution Layer Meeting\nzkCasper: SNARK based scheme for verifying the Ethereum’s Casper FFG consensus proofs\nEthereum Data Structures\nEth2Book: A lot of Good Info on Ethereum\nOfficial Merge Announcement"
+  },
+  {
+    "objectID": "library/crypto/blockchains/index.html#ethereum",
+    "href": "library/crypto/blockchains/index.html#ethereum",
+    "title": "Blockchains",
+    "section": "Ethereum",
+    "text": "Ethereum\n\nTools\n\nSolidity Decompiler (interface)\nHeimdall-rs an advanced EVM smart contract toolkit specializing in bytecode analysis\nWhatsABI\ngo-selfcompile\n\n\n\nConsensus\n\nCasper the Friendly Finality Gadget\nCombining GHOST and Casper\nBeacon Chain Casper Mini-Spec\n\n\n\nConsensus Attacks\n\nTwo Attacks on Proof-of-Stake GHOST/Ethereum\nThree Attacks on Proof-of-Stake Ethereum\nBalancing Attack on Gasper\nMitigating Balancing Attacks on LMD GHOST\nDiscouragement Attacks\nVitalik Paper\nDiscouragement Attacks\n\n\n\nProposer Builder Separation\n\nMEV-Boost Plan\nProposer Boost Considerations\nMEV-Boost in a Nutshell\nPBS Censorship Resistance\nState of research: increasing censorship resistance of transactions under PBS\nPBS Censorship-Resistance Alternatives\nCurrent crList Proposal\n\n\n\nSharding\n\nDanksharding\nPolynya on Danksharding\nNightshade: Near Protocol Sharding Design\nThe Tie: Danksharding"
   }
 ]

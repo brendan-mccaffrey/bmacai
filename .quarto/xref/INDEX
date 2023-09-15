@@ -982,5 +982,8 @@
   },
   "library/crypto/apps/ethena/index.qmd": {
     "index.html": "c248cdd5"
+  },
+  "library/crypto/blockchains/ethereum/index.qmd": {
+    "index.html": "22b2826d"
   }
 }

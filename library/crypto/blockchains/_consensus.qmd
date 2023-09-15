@@ -1,10 +1,8 @@
----
-title: "Consensus"
-description: "All things Byzantine Fault Tolerant: Research and implementations of consensus mechanisms."
-page-layout: full
----
+## Consensus
 
-## Whitepapers
+All things Byzantine Fault Tolerant: Research and implementations of consensus mechanisms.
+
+### Whitepapers
 
 - [Tendermint: Consensus without Mining](https://tendermint.com/static/docs/tendermint.pdf)
 - [DFINITY Consensus System](https://cryptogurukul-com.b-cdn.net/wp-content/uploads/2021/08/dfinity-consensus.pdf)
@@ -17,7 +15,7 @@ page-layout: full
 - [Byzantine Ordered Consensus without Byzantine Oligarchy](https://www.cs.cornell.edu/lorenzo/papers/Zhang20Byzantine.pdf)
 - [BEAT: Asynchronous BFT Made Practical](https://www.csee.umbc.edu/~hbzhang/files/beat.pdf)
 
-## Research
+### Research
 
 - [Long Range Attacks on PoS](https://www.youtube.com/watch?v=-uxHoEfxXC4)
 - [Casper the Friendly Finality Gadget](https://arxiv.org/abs/1710.09437)
@@ -26,7 +24,7 @@ page-layout: full
 - [Mitigating Balancing Attacks on LMD GHOST](https://notes.ethereum.org/@vbuterin/lmd_ghost_mitigation)
 - [zkCasper](https://research.polytope.technology/zkcasper): SNARK based scheme for verifying the Ethereum's Casper FFG consensus proofs
 
-## Consensus Attacks
+### Attacks
 
 - [Two Attacks on Proof-of-Stake GHOST/Ethereum](https://arxiv.org/pdf/2203.01315.pdf)
 - [Three Attacks on Proof-of-Stake Ethereum](https://arxiv.org/abs/2110.10086)
