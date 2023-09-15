@@ -14,3 +14,8 @@ page-layout: full
 ## Resources
 
 - [Ethereum Data Structures](https://arxiv.org/pdf/2108.05513.pdf)
+- [Smart Contract Auditing Heuristics](https://github.com/OpenCoreCH/smart-contract-auditing-heuristics)
+
+### ERC-4337
+
+- [What's in an Account?](https://erc4337.mirror.xyz/vYwclVbG6CR1o8DOCWDj8cFVfFSJ07FhWTDgQ5NQROY)

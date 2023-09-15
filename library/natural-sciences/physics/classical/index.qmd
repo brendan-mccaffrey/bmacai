@@ -1,0 +1,14 @@
+---
+title: Classical
+description: Observing the world around us
+---
+
+## Resources
+
+- [Thermodynamics of Information](https://arxiv.org/pdf/2306.12447.pdf)
+- [Langrangian and Hamiltonian Mechanics](https://www.youtube.com/watch?v=0DHNGtsmmH8)
+
+
+### Energetics of Turbulent Fluids
+
+{{< include _energetics-of-turbulent-fluids.qmd >}}

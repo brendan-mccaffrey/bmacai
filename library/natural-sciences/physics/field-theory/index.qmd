@@ -2,6 +2,17 @@
 title: Field Theory
 ---
 
+## Resources
+
+- [Quantum Field Theory: Effective or Fundamental?](field-theory/effective-or-fundamental.qmd)
+- [Brief History of Guage Field Physics](https://twitter.com/VergaraLautaro/status/1631617236057063424)
+- [The Unreasonable Effectiveness of Quantum Field Theory](https://arxiv.org/abs/hep-th/9602122)
+- [Introduction to Genralized Global Symmetries in QFT and Particle Physics](https://arxiv.org/abs/2306.00912)
+- [Lectures on Field Theory and the Standard Model: A Symmetry-Oriented Approach](https://arxiv.org/abs/2306.08097)
+- [Scattering Amplitudes in Quantum Field Theory](https://arxiv.org/abs/2306.05976)
+- [General Relativity as a Perturbative Quantum Field Theory](https://blogs.umass.edu/grqft/)
+- [EPFL Lectures on General Relativity as a Quantum Field Theory](https://arxiv.org/abs/1702.00319)
+
 ### Gauge Groups
 
 In physics and mathematics, a gauge group is a group of transformations that preserves the fundamental properties of a physical or mathematical system. Gauge groups are important in both classical and quantum field theories, as well as in the study of differential geometry and topology.
@@ -29,3 +40,20 @@ The kinetic term involves the gauge field strength tensor, which is a mathematic
 The Yang-Mills equations are highly non-linear and require advanced mathematical techniques to solve. They are also closely related to the concept of gauge invariance, which means that the equations are invariant under certain transformations of the gauge fields.
 
 Overall, the Yang-Mills theory provides a mathematical framework for describing the behavior of the strong nuclear force, which is one of the four fundamental forces of nature. The theory has been extensively tested and is an important component of the Standard Model of particle physics, which describes the behavior of all known elementary particles and their interactions.
+
+## Quantum Field Theory
+
+- [Relatavistic Quantum Field Theory I](https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2008/)
+- [Relatavistic Quantum Field Theory II](https://ocw.mit.edu/courses/8-324-relativistic-quantum-field-theory-ii-fall-2010/)
+
+### Effective or Fundamental?
+
+This is a [talk](https://www.youtube.com/watch?v=1mQ0Yu2x9vE) given by Steven Weinberg, with a corresponsing article [Steven Weinberg: master builder of the Standard Model](https://cerncourier.com/a/steven-weinberg-master-builder-of-the-standard-model/). In the talk, he explores this question by analyzing the ups and downs of quantum field theory throughout its history.
+
+**Summary** 
+
+Quantum Field Theory was born just pertaining to the electromagnetic field. When expanding this theory, it seemed it couldn't be trusted at high energies. In the late 1940s, there was a new optimizing with the invention of a relatavistic perturbation theory, where the infinities could be absorbed into a redefinition of parameters like mass and charge of the electron. People thought this was sweeping problems under the rug, but it also may have been a way of selecting good theories (renormalizable theories). For example, theere's nothing in the symmetries of quantum electrodynamics which rules out putting a term in the field equations (or Lagrangian), which could make the magnetic moment of the electron anything you want. This would make the mass of the electron -1, which means the theory is not renormalizable, and thus shows invalid.
+
+In the late 1960s and early 70s, the standard model came to fruition - this was the renaissance of Quantum Field theory. But there were still doubts whether this was a fundamental theory or an effective one.
+
+Quantum Field Theory & Einsteinian Physics may be low energy approximations of a more fundamental theory.

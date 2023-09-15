@@ -1,0 +1,33 @@
+---
+title: Grand Unification
+description: Towards a theory of everything
+---
+
+## Resources
+
+- [Introductory Minicourse to AdS/CFT](https://www.ictp-saifr.org/ads-cft2023/) | [video](https://www.youtube.com/playlist?list=PLg0_ydgtbHGH0FIZzD97RVU8K0DA9vI-Q)
+- [Basics of Quantum Gravity](https://indico.cern.ch/event/1279592/)
+- [Perturbative Quantum Gravity](https://www.youtube.com/watch?v=ik0C-xTnK-k&list=PL9ec4tkG1qrjDAad0-EHxyEPw1KcxxT68&index=6)
+- [Gravitational Machines](https://arxiv.org/pdf/2305.10470.pdf)
+- [Warp Drive Patent by Google?](https://patents.google.com/patent/US20060144035)
+
+### ER = EPR
+
+- [Sarfatti's 1975 version of ER=EPR](https://twitter.com/JackSarfatti/status/1646315546630316033?s=20)
+
+The text discusses various concepts related to general relativity, quantum mechanics, and inertia. Key topics include Minkowski spacetime, Lorentz transformations, geodesics, the Levi-Civita connection, and the metric tensor \(guv\). The text also delves into the idea of "fake gravity" and "real gravity," challenging some traditional concepts and advocating for a nuanced understanding of these phenomena in both classical and quantum contexts.
+
+**Analysis**
+
+1. **Concepts**: The text navigates through an array of intricate concepts, making it a complex read even for those well-versed in physics. The various mathematical descriptions, like the metric tensor \(guv\) and Lorentz transformations, are standard topics in general relativity. Yet, the text introduces terminology like "fake gravity" and "real gravity," which could be speculative or controversial interpretations of these standard topics.
+2. **Controversies and Opinions**: The text seems to contain opinions, especially regarding the validity of other theories. Phrases like "That's DOO DOO!" and "bad physics in my opinion" indicate the author's subjective stance, making the piece less of a neutral, academic overview and more of an argumentative text.
+3. **Complexity**: While the text addresses educated readers familiar with physics, it assumes a high level of understanding of both general relativity and quantum mechanics. There is also an inclusion of other theories and ongoing debates within the field, making the text a dense read.
+4. **Clarity and Structure**: The text appears to be a collection of email exchanges or notes rather than a cohesive article. This makes it somewhat fragmented and potentially challenging to follow for those not already familiar with the specific debates or theories being discussed.
+
+Overall, the text attempts to explore the interplay between classical and quantum theories in understanding gravitation and inertia. However, the lack of a structured argument and the interjection of strong opinions could make it less accessible or convincing to a general audience of physicists.
+
+<!-- String Theory -->
+{{< include _string-theory.qmd >}}
+
+<!-- Geometric Unity -->
+{{< include _geometric-unity.qmd >}}

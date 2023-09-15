@@ -1,0 +1,61 @@
+Magnetohydrodynamics (MHD), also known as hydromagnetics, is a field in physics that studies the dynamics of electrically conducting fluids, particularly the interaction between magnetic fields and such fluids. These fluids could be plasma, liquid metals, or even seawater. MHD is a synthesis of fluid dynamics and electromagnetism. The governing equations of MHD are the Navier-Stokes equations (in the limit of high Reynolds number) coupled with Maxwell's equations.
+
+### Resources
+
+- [Magnetohydrodynamic drive](https://en.wikipedia.org/wiki/Magnetohydrodynamic_drive)
+- [Application of Pulsed Electrical Fields for Advanced Cooling and Water Recovery in Coal-Fired Power Plant](https://www.researchgate.net/publication/255215568_Application_of_Pulsed_Electrical_Fields_for_Advanced_Cooling_and_Water_Recovery_in_Coal-Fired_Power_Plant)
+- [Runaway electrons during subnanosecond breakdowns in high-pressure gases](https://www.researchgate.net/publication/309215727_Runaway_electrons_during_subnanosecond_breakdowns_in_high-pressure_gases)
+- [Low-Temperature Atmospheric Pressure Plasma Processes for “Green” Third Generation Photovoltaics](https://www.researchgate.net/publication/290955747_Low-Temperature_Atmospheric_Pressure_Plasma_Processes_for_Green_Third_Generation_Photovoltaics)
+- [Electromagnetic Radiation: Ionizing and Non-ionizing](https://remm.hhs.gov/radiationspectrum.htm)
+- [Are Virtual Particles Less Real?](http://philsci-archive.pitt.edu/15858/1/Jaeger%20Are%20Virtual%20Particles%20Less%20Real_%20entropy-21-00141-v3.pdf)
+- [RF Helicon-based Inductive Plasma Thruster (IPT) Design for an Atmosphere-Breathing Electric Propulsion System (ABEP)](https://arxiv.org/pdf/2007.06397.pdf)
+- [Electrothermal instability](https://en.wikipedia.org/wiki/Electrothermal_instability)
+- [Pulsed inductive thruster](https://en.wikipedia.org/wiki/Pulsed_inductive_thruster)
+- [NASA Pulsed Inductive Thruster](https://ntrs.nasa.gov/api/citations/19930023164/downloads/19930023164.pdf)
+- [On the performance of electrohydrodynamic propulsion](https://royalsocietypublishing.org/doi/abs/10.1098/rspa.2012.0623)
+- [Electrohydrodynamic thrust for in-atmosphere propulsion](https://hal.science/hal-01660600/document)
+- [A Model of an Ideal Electrohydrodynamic Thruster](https://www.researchgate.net/publication/235189622_A_Model_of_an_Ideal_Electrohydrodynamic_Thruster)
+- [Modelling and simulation of plasma thrusters for electric propulsion technologies](https://www.researchgate.net/publication/325286116_Modelling_and_simulation_of_plasma_thrusters_for_electric_propulsion_technologies)
+- [Electrohydrodynamic Drying Characteristics of Agar Gel](https://www.jstage.jst.go.jp/article/fstr/5/2/5_2_132/_pdf/-char/ja)
+- [Modeling of Electrohydrodynamic (EHD) Plasma Thrusters: Optimization of Physical and Geometrical Parameters](https://www.mdpi.com/2076-3417/12/3/1637/htm)
+- [Review on the History, Research, and Applications of Electrohydrodynamics](https://ieeexplore.ieee.org/document/6714477)
+- [Successful experiments on an external MHD Accelerator](https://www.jp-petit.org/science/2013/Princeton_2013.pdf)
+- [MHD Air Breathing Propulsion and Power for Aerospace Applications](https://www.dia.mil/FOIA/FOIA-Electronic-Reading-Room/FileId/170038/)
+- [New Magnetohydrodynamic (MHD) Lift Concept for More Efficient Missions to Mars and Neptune](https://ntrs.nasa.gov/api/citations/20210024776/downloads/AIAA%20SciTech%20Paper%20New%20MHD%20Lift_Control%20ID%203582166%20ver2021-12-02.pdf)
+- [GENERAL CONSIDERATIONS OF MHO ACCELERATION FOR AERODYNAMIC TESTING](https://apps.dtic.mil/sti/pdfs/AD0453419.pdf)
+- [Analysis of the Magnetohydrodynamic Behavior of the Fully Developed Flow of Conducting Fluid](https://www.mdpi.com/1996-1073/14/9/2463)
+- [Space-based laser-driven MHD generator [microform] : feasibility study](https://searchworks.stanford.edu/view/3069472)
+- [Weak Solutions to Ideal MHD](https://www.ias.edu/sites/default/files/MHD-IASfinal.pdf)
+
+
+### Summary
+
+Magnetohydrodynamics (MHD), also known as hydromagnetics, is a field in physics that studies the dynamics of electrically conducting fluids, particularly the interaction between magnetic fields and such fluids. These fluids could be plasma, liquid metals, or even seawater. MHD is a synthesis of fluid dynamics and electromagnetism.
+
+The governing equations of MHD are the Navier-Stokes equations (in the limit of high Reynolds number) coupled with Maxwell's equations. In the ideal MHD approximation, effects such as resistivity and viscosity are neglected, leading to a relatively simple set of governing equations:
+
+1. **Continuity Equation**: This equation ensures the conservation of mass.
+   
+   ∂ρ/∂t + ∇·(ρv) = 0
+
+2. **Momentum Equation**: Combines Newton's second law and the Lorentz force, accounting for the forces due to pressure gradients, gravity, and electromagnetic fields. In the absence of viscosity, this simplifies to:
+   
+   ρ(∂v/∂t + v·∇v) = -∇p + ρg + (J×B)
+
+3. **Induction Equation**: Describes how the magnetic field evolves over time, given the fluid's velocity and existing magnetic field.
+   
+   ∂B/∂t = ∇×(v×B)
+
+4. **Energy Equation**: This equation describes the conservation of energy, which is usually taken in the form of the first law of thermodynamics.
+
+5. **Ampère's Law with Maxwell's Addition**: 
+   
+   ∇×B = μ0J
+
+   J is the current density vector, B is the magnetic field, and μ0 is the magnetic permeability.
+
+In these equations, ρ represents fluid density, v fluid velocity, p pressure, g gravitational acceleration, J current density, and B magnetic field.
+
+MHD has a wide range of applications, from studying astrophysical phenomena such as solar flares and accretion disks, to engineering applications like nuclear fusion research, liquid metal cooling in reactors, and even potential propulsion systems.
+
+However, real-world situations often involve non-ideal MHD where effects such as resistivity cannot be ignored. Understanding these effects often requires incorporating the full set of Maxwell's equations and solving them alongside the fluid dynamics equations, which makes for a much more complex computational problem. In some non-ideal MHD scenarios, magnetic reconnection, turbulence, and other instabilities can occur, which are active research areas in this field.

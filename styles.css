@@ -64,6 +64,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     padding-top: 12vh;
     width: 90vw;
+    font-size: medium;
 }
 
 .sidebar.margin-sidebar {
@@ -77,7 +78,7 @@ h1 {
 
 .sidebar-navigation li a {
     text-decoration: none;
-    color: #212529
+    color: #212529;
 }
 
 /* #quarto-sidebar {

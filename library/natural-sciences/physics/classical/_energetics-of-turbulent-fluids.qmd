@@ -1,0 +1,68 @@
+
+*Energetics of Turbulent Fluids* is a draft paper by Justin Beroz.
+
+Here are the notes I took while reading the paper:
+
+### What is an eigenstate?
+
+In quantum mechanics, an eigenstate is a state of a quantum system that, when acted upon by an operator, produces a multiple of itself. The multiple is called the eigenvalue. In other words, an eigenstate is a state that has a definite value for a particular observable quantity.
+
+For example, the eigenstates of the position operator are all the possible states of a particle that have a definite position. The eigenstates of the momentum operator are all the possible states of a particle that have a definite momentum.
+
+Eigenstates are important in quantum mechanics because they allow us to calculate the probabilities of different outcomes for measurements of observable quantities. For example, if we know the eigenstates of the position operator for a particle, we can calculate the probability of finding the particle at a particular location.
+
+Eigenstates are also important in quantum computing because they can be used to store information. For example, if we know the eigenstates of the position operator for a particle, we can use the particle to store a bit of information by placing it in a particular location.
+
+Here are some examples of eigenstates:
+
+- The eigenstates of the position operator for a particle in a one-dimensional box are all the functions of the form sin(nπx/L), - where n is an integer and L is the length of the box.
+- The eigenstates of the momentum operator for a particle in a one-dimensional box are all the functions of the form exp(ipx/L), where p is a real number.
+- The eigenstates of the energy operator for a hydrogen atom are all the functions of the form ∣nlm⟩, where n, l, and m are integers.
+Eigenstates are a fundamental concept in quantum mechanics and they play an important role in many areas of physics, including quantum computing, quantum chemistry, and quantum field theory.
+
+### What are the Navier-Stokes Equations?
+
+The Navier-Stokes equations are a set of partial differential equations that describe the motion of viscous fluid substances. They were developed independently by French engineer and physicist Claude-Louis Navier and Anglo-Irish physicist and mathematician George Gabriel Stokes in the early 1800s. The equations are named after the two scientists.
+
+The Navier-Stokes equations are a set of four equations, one for each of the three spatial dimensions and one for time. The equations relate the velocity, pressure, and density of the fluid to the forces acting on it. The equations are nonlinear, which means that they cannot be solved analytically in general. Instead, they must be solved numerically using computer simulations.
+
+The Navier-Stokes equations are used in a wide variety of applications, including:
+
+Aeronautics: The Navier-Stokes equations are used to design airplanes, helicopters, and other aircraft.
+Marine engineering: The Navier-Stokes equations are used to design ships, submarines, and other marine vessels.
+Civil engineering: The Navier-Stokes equations are used to design bridges, dams, and other structures that must withstand the forces of fluid flow.
+Meteorology: The Navier-Stokes equations are used to model weather patterns and predict the behavior of the atmosphere.
+Oceanography: The Navier-Stokes equations are used to model ocean currents and predict the behavior of the oceans.
+The Navier-Stokes equations are one of the most important equations in physics. They are essential for understanding the motion of fluids, and they have a wide range of applications in engineering, meteorology, oceanography, and other fields.
+
+The Navier-Stokes equations are a Millennium Prize Problem, which means that the Clay Mathematics Institute has offered a $1,000,000 prize for the first correct solution to the problem. The problem is still unsolved, and it is one of the most difficult problems in mathematics.
+
+### What is the Kolmogorov energy cascade?
+
+The Kolmogorov energy cascade is a theory that describes the transfer of energy from large scales to small scales in turbulent flows. The theory was developed by Andrey Kolmogorov in the 1940s.
+
+The Kolmogorov energy cascade is based on the following assumptions:
+
+The turbulent flow is statistically homogeneous and isotropic. This means that the statistical properties of the flow are the same in all directions and at all points in the flow.
+The turbulent flow is in equilibrium. This means that the rate of energy input to the flow is equal to the rate of energy dissipation.
+The Kolmogorov energy cascade is a process by which energy is transferred from large scales to small scales in turbulent flows. The process is driven by the nonlinear interactions between the turbulent eddies. The large eddies break up into smaller eddies, which in turn break up into even smaller eddies. This process continues until the eddies are so small that they are dissipated by viscosity.
+
+The Kolmogorov energy cascade is a very important process in turbulent flows. It is responsible for the mixing of fluids, the transport of heat and momentum, and the generation of sound. The Kolmogorov energy cascade is also a very complex process, and there is still much that is not understood about it.
+
+The Kolmogorov energy cascade is named after Andrey Kolmogorov, a Russian mathematician who developed the theory in the 1940s. Kolmogorov was a pioneer in the study of turbulence, and his work has had a profound impact on our understanding of this complex phenomenon.
+
+## Beroz 
+
+What sort of world would we live in without turbulence?
+- [blog](https://www.callumatkinsononline.com/what-sort-of-world-would-we-live-in-without-turbulence/)
+- This relates to his claims on liquid energy transport. Sure, the theory is there, but there's a few subtle assumptions in the theory that put a wrench in the practicality of his claims (aka, Jacob's intuition was correct in being speculative of the efficiency claims).
+    - "...and assuming the average flow to be steady and approximately two dimensional, can be expresses as..."
+    - "...To determine these constant we need to include two boundary conditions for our river velocity..."
+
+Solving one of physics’ ‘last great mysteries’ with a new, huge, wind tunnel
+- [paper](Solving one of physics’ ‘last great mysteries’ with a new, huge, wind tunnel)
+- 10% of world electricity devoted to overcoming turbulence
+
+Macro-Quantum Behavior
+- [MIT video](https://m.youtube.com/watch?time_continue=1&v=nmC0ygr08tE&embeds_referring_euri=https%3A%2F%2Fwww.google.com%2F&source_ve_path=Mjg2NjY&feature=emb_logo)
+- [Veritasium video](https://www.youtube.com/watch?app=desktop&v=WIyTZDHuarQ)

@@ -1,9 +1,17 @@
 ---
 title: "Electromagnetism"
-description: "Maxwell was truly on to something"
-page-layout: full
+description: "Maxwell was truly one of the greats"
+table-of-contents: true
 ---
 
 ## Resources
 
 - [Dr. Salvatore Pais | Intuitive Science, Conscious Universe & The Philosophy of Physics](https://www.youtube.com/watch?v=7aCrznDR6mw)
+
+## Superconductivity
+
+{{< include _superconductivity.qmd >}}
+
+## Magnetohydrodynamics
+
+{{< include _mhd.qmd >}}

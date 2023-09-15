@@ -1,162 +1,251 @@
 ---
 title: Physics
-description: All things physics
+description: Physics is law. All else is recommendation.
 table-of-contents: true
 ---
 
-## Learn
+This page provides a brief overview of each subdomain of physics. Each header is a link to the page which explores the respective domain further.
 
-- [MIT Quantum Physics I](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/lecture-videos/)
-- [Relatavistic Quantum Field Theory I](https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2008/)
-- [Relatavistic Quantum Field Theory II](https://ocw.mit.edu/courses/8-324-relativistic-quantum-field-theory-ii-fall-2010/)
-- [Langrangian and Hamiltonian Mechanics](https://www.youtube.com/watch?v=0DHNGtsmmH8)
-- [Introductory Minicourse to AdS/CFT](https://www.ictp-saifr.org/ads-cft2023/) | [video](https://www.youtube.com/playlist?list=PLg0_ydgtbHGH0FIZzD97RVU8K0DA9vI-Q)
+## [Classical Physics](classical/index.qmd)
 
-## Uncategorized
+Classical Physics encompasses the theories and principles that describe the natural world in terms of macroscopic scales and speeds much slower than the speed of light. It is the framework in which forces, energy, and matter interact and is often considered to be the classical limit of more advanced theories, such as quantum mechanics and general relativity.
 
-- [Gravitational Machines](https://arxiv.org/pdf/2305.10470.pdf)
-- [Warp Drive Patent by Google?](https://patents.google.com/patent/US20060144035)
+##### **Primary Subdomains**
+
+1. **Newtonian Mechanics**: Study of forces and motions based on Isaac Newton's three laws.
+2. **Classical Electrodynamics**: Description of electric and magnetic fields and their interaction with matter, typically framed using Maxwell's equations.
+3. **Thermodynamics**: Study of heat transfer and the principles governing energy transformations.
+4. **Optics**: Study of the behavior and properties of light, including its interactions with matter.
+5. **Acoustics**: Study of the production, transmission, and effects of sound waves.
+6. **Fluid Mechanics**: Study of fluids (liquids and gases) in motion or at rest.
+7. **Lagrangian and Hamiltonian Mechanics**: Advanced formulations of classical mechanics that provide alternative approaches to describing systems.
+
+##### **Fields of Application**
+
+1. **Engineering**: For designing mechanical systems, electrical circuits, and thermodynamic processes.
+2. **Astronomy**: For celestial mechanics and basic calculations regarding heavenly bodies.
+3. **Geophysics**: In studying phenomena like earthquakes and atmospheric science.
+4. **Medicine**: In medical imaging and biomechanics.
+5. **Environmental Science**: For understanding weather patterns and fluid flows in natural systems.
+6. **Materials Science**: In studying the mechanical properties of materials.
+
+##### **Additional Notes**
+
+- Classical Physics provides the foundation upon which modern physics (e.g., quantum mechanics, relativity) is built.
+- Despite its limitations at very high speeds or microscopic scales, classical physics is exceptionally accurate for a broad range of everyday applications.
+
+This category aims to provide a comprehensive understanding of the physical principles that govern our everyday world and serves as a foundation for other, more specialized fields in physics.
+
+## [Astrophysics](astrophysics/index.qmd)
+
+Astrophysics is a branch of astronomy that applies the principles of physics and mathematics to understand the fundamental workings of the universe. It aims to explain the behavior and characteristics of astronomical objects, from stars and planets to galaxies and the entire universe itself.
+
+##### **Primary Subdomains**
+1. **Cosmology** - The study of the origin, structure, and eventual fate of the universe.
+2. **Stellar Astrophysics** - Focuses on the physical properties and life cycles of stars.
+3. **Galactic and Extragalactic Astronomy** - Study of galaxies and structures beyond our galaxy.
+4. **Planetary Science** - Study of planets, both within our solar system and beyond (exoplanets).
+5. **High-Energy Astrophysics** - Investigates phenomena that occur at extremely high energies, such as black holes, neutron stars, and gamma-ray bursts.
+6. **Astrobiology** - The study of the origin, evolution, and possibility of life elsewhere in the universe.
+7. **Observational Astrophysics** - Focuses on the data collection and interpretation, often via telescopes and other instruments.
+8. **Theoretical Astrophysics** - Concerned with developing theoretical models to describe astrophysical objects and phenomena.
+
+##### **Fields of Application**
+1. **Aerospace Engineering** - The understanding of celestial mechanics is crucial for space missions.
+2. **Climate Studies** - Understanding the Sun's impact on Earth's climate.
+3. **Computer Science** - Data from astrophysical observations often require sophisticated algorithms for interpretation.
+4. **Public Policy & Education** - Findings in astrophysics often inform science policy and are popular subjects for educational outreach.
+
+##### **Additional Notes**
+- Astrophysics is highly interdisciplinary, often overlapping with particle physics, general relativity, and quantum mechanics to explain phenomena like dark matter, dark energy, and black holes.
+- Due to the advancement in technology, there's been a significant increase in the discovery rate of exoplanets, leading to more sub-specializations within the field.
+- A number of Nobel Prizes have been awarded for astrophysical research, highlighting its importance and impact on our understanding of the universe.
+
+This category serves as an essential foundation for understanding the complexities of the universe, helping to answer fundamental questions related to our existence and the nature of reality itself.
+
+## [Electromagnetism](electromagnetism/index.qmd)
+
+Electromagnetism is one of the four fundamental forces in nature, governing the behavior of electrically charged particles and their interactions through electric and magnetic fields. It unifies electricity and magnetism into a single theory, initially formulated by James Clerk Maxwell in the 19th century. This theory is described by Maxwell's equations, which provide the mathematical foundation for understanding electromagnetic phenomena.
+
+### Primary Subdomains
+1. **Electrostatics**: Study of electric charges at rest and electric fields.
+2. **Magnetostatics**: Study of magnetic fields in systems with steady currents.
+3. **Electrodynamics**: Study of time-dependent electric and magnetic fields, often involving moving charges.
+4. **Optics**: Study of light as an electromagnetic wave, including reflection, refraction, and diffraction.
+5. **Microwave Engineering**: Study of the electromagnetic waves in the microwave frequency range.
+6. **Plasma Physics**: Study of charged particles and fluids interacting with self-consistent electric and magnetic fields.
+
+### Fields of Application
+1. **Electrical Engineering**: Design and analysis of electrical systems.
+2. **Communications**: Antenna design, signal processing, and wireless transmission.
+3. **Medical Imaging**: MRI and X-ray technologies.
+4. **Material Science**: Study of electrical, magnetic, and optical properties of materials.
+5. **Environmental Monitoring**: Geophysical and atmospheric studies.
+6. **Energy Production**: Power generation and transmission.
+
+### Additional Notes
+Electromagnetism also serves as a cornerstone for more advanced theories in physics, such as Quantum Electrodynamics (QED) and the Standard Model of particle physics. It is crucial for understanding a broad range of phenomena, from the interaction of subatomic particles to the large-scale behavior of galaxies.
+
+## [Materials Physics](materials/index.qmd)
+
+Materials Physics is a subfield of condensed matter physics that focuses on the study of materials and their properties at the microscopic or atomic level. This branch of physics aims to understand how the individual components (atoms, molecules, etc.) of a material contribute to its macroscopic properties like strength, electrical conductivity, and thermal properties. Materials physics seeks not just to understand existing materials but also to predict and create new materials with desired properties.
+
+##### **Primary Subdomains**
+1. **Electronic Properties of Solids:** Study of electrical, magnetic, and optical properties of solid materials.
+2. **Mechanical Properties:** Exploration of strength, elasticity, and other mechanical properties of materials.
+3. **Magnetic Materials:** Study of ferromagnetism, antiferromagnetism, and various other kinds of magnetic ordering.
+4. **Polymer Physics:** Understanding the physical properties of polymers.
+5. **Nano-materials:** Study of materials at the nanometer scale, often involving nano-particles, nano-composites, and nano-porous materials.
+6. **Bio-materials:** Study of materials that interact with biological systems.
+7. **Superconductivity:** Understanding materials that exhibit zero electrical resistance.
+8. **Photonic and Optoelectronic Materials:** Materials designed to manipulate and utilize light (photons).
+9. **Semiconductors:** Materials that have a conductivity between conductors and insulators.
+
+##### **Fields of Application**
+1. **Aerospace:** Creation of materials that can withstand extreme conditions.
+2. **Electronics:** Development of more efficient semiconductors, conductors, and insulators.
+3. **Energy:** Materials for better energy storage like batteries and supercapacitors.
+4. **Medicine:** Development of bio-compatible materials.
+5. **Telecommunications:** Optoelectronic materials for better data transmission.
+6. **Environmental Science:** Materials for pollution control and environmental remediation.
+
+##### **Additional Notes**
+Materials physics often overlaps with materials science, chemistry, and engineering in interdisciplinary research and applications. Advances in this field often rely on cutting-edge techniques in computational physics, quantum mechanics, and statistical mechanics.
+
+## [Particle Physics](particle/index.qmd)
+
+Particle Physics is the branch of physics that studies the nature and behavior of subatomic particles. These include elementary particles, such as electrons, quarks, and photons, as well as composite particles like protons, neutrons, and atomic nuclei. The field aims to understand the fundamental constituents of matter and the forces that act between them.
+
+##### **Primary Subdomains**
+1. **Elementary Particle Physics**: Study of fundamental, indivisible particles like electrons, quarks, and bosons.
+2. **Hadron Physics**: Focuses on particles made of quarks, such as protons and neutrons, and their interactions.
+3. **Nuclear Physics**: While closely related, this subdomain studies the behavior of atomic nuclei in detail.
+4. **Astroparticle Physics**: Studies particles in astronomical contexts; often overlaps with cosmology.
+5. **Cosmic-Ray Physics**: Investigates the high-energy particles that originate from space and strike the Earth.
+6. **Quantum Chromodynamics (QCD)**: The study of the strong force, one of the fundamental forces of nature, and how it acts on quarks and gluons.
+7. **Electroweak Theory**: Combines electromagnetism and the weak nuclear force into a single theory.
+
+##### **Fields of Application**
+1. **Medical Imaging**: Particle detectors similar to those in physics experiments are used in medical imaging technologies.
+2. **Astronomy and Cosmology**: Understanding particle interactions is crucial for understanding cosmic phenomena.
+3. **Material Science**: Manipulation of particles at the atomic and subatomic levels can lead to new materials with unique properties.
+4. **Energy Sector**: Understanding subatomic particles could potentially unlock new energy sources or methods for energy production.
+
+##### **Additional Notes**
+Particle physics often requires large-scale experiments and particle accelerators like the Large Hadron Collider (LHC) to test theories and discover new particles. The field has deep connections with quantum mechanics and relativity and often overlaps with other domains in physics and even other disciplines like cosmology and astrophysics. It is a rapidly evolving field, and recent advancements often lead to practical applications in various industries.
+
+## [Field Theory](field-theory/index.qmd)
+
+Field Theory is a branch of physics that deals with the study of fields, which are functions that assign a value to each point in space and time. In physics, fields are used to represent various physical quantities such as electromagnetic fields, gravitational fields, and quantum fields. The concept of a field is instrumental in describing how forces act at a distance and how particles interact with each other.
+
+##### **Primary Subdomains**
+1. **Classical Field Theory**: Includes electromagnetic fields and gravitational fields in the context of General Relativity.
+2. **Quantum Field Theory (QFT)**: Merges quantum mechanics and special relativity to study interactions in particle physics.
+3. **Gauge Theory**: A type of field theory where fields are formulated in terms of gauge-invariant quantities.
+4. **Conformal Field Theory**: Deals with fields that are invariant under conformal transformations, often used in the study of critical phenomena.
+5. **Topological Field Theory**: Concerned with fields that have topological invariants.
+6. **Effective Field Theory**: An approximate theory to describe physics at a particular length scale.
+  
+##### **Fields of Application**
+1. **Particle Physics**: Quantum Field Theory is the foundation for the Standard Model.
+2. **Cosmology**: Field theories like General Relativity are essential for understanding the universe's large-scale structure.
+3. **Condensed Matter Physics**: Field theoretical methods are used to understand many-body systems and phase transitions.
+4. **Quantum Computing**: Quantum field theoretical methods are sometimes used in algorithms and understanding quantum computation.
+5. **Electrical Engineering**: Classical electromagnetic field theory is essential for the design and understanding of electrical circuits, antennas, etc.
+
+##### **Additional Notes**
+Field Theory often intersects with other areas of physics and mathematics, like statistical mechanics and group theory, to offer a more complete understanding of physical phenomena. The mathematics involved can be highly abstract, involving advanced topics in differential geometry, topology, and algebra.
+
+## [Relativity](relativity/index.qmd)
+
+The theory of relativity fundamentally changed our understanding of space, time, and gravity. Developed primarily by Albert Einstein, it comes in two main forms: Special Relativity and General Relativity. Special Relativity focuses on the physics of objects moving at constant velocity, particularly those close to the speed of light, and describes how time dilation and length contraction occur. General Relativity extends these concepts to accelerating frames and introduces a revolutionary explanation for gravity as the curvature of spacetime caused by mass.
+
+##### **Primary Subdomains**
+1. **Special Relativity**: Deals with inertial frames and high-speed phenomena.
+   - Time Dilation
+   - Length Contraction
+   - Lorentz Transformation
+   - Relativistic Energy-Momentum
+2. **General Relativity**: Focuses on gravity and accelerating (non-inertial) frames.
+   - Gravitational Fields and Curved Spacetime
+   - Black Holes
+   - Cosmological Models
+   - Gravitational Waves
+3. **Experimental Tests of Relativity**: Confirmations and challenges to relativistic predictions.
+   - Gravitational Lensing
+   - Time Dilation in Particle Accelerators
+   - Tests of the Equivalence Principle
+
+##### **Fields of Application**
+- **Astrophysics**: Understanding celestial bodies like black holes, neutron stars, and the large-scale structure of the universe.
+- **Global Positioning Systems (GPS)**: Accounting for relativistic effects to achieve precise location data.
+- **Particle Physics**: Managing particles at high speeds in accelerators.
+- **Cosmology**: Explaining the Big Bang, cosmic inflation, and the fate of the universe.
+- **Gravitational Wave Astronomy**: Detecting and interpreting gravitational waves.
+
+##### **Additional Notes**
+- The equations of relativity reduce to Newtonian equations at speeds much lower than the speed of light, demonstrating a natural continuity in physical laws.
+- Special Relativity has implications for the unification of electromagnetism into a single theory, often termed as the "electroweak" interaction.
+- General Relativity, while incredibly successful at explaining large scale phenomena, is still incompatible with quantum mechanics. The reconciliation of these two theories is an open problem in theoretical physics, often referred to as the quest for a Theory of Everything (ToE).
+
+By categorizing articles under this section, readers can gain an in-depth understanding of one of the most groundbreaking and far-reaching theories in physics.
+
+## [Quantum Physics](quantum/index.qmd)
+
+Quantum Physics, also known as Quantum Mechanics, is a branch of physics that deals with phenomena on the atomic and subatomic scales. It departs from classical physics, which fails to describe these systems accurately. Quantum physics introduces the concept of quantized energy levels, wave-particle duality, and probabilities as fundamental aspects of physical systems.
+
+##### **Primary Subdomains**
+1. **Quantum Mechanics**: The foundational theory describing basic quantum systems.
+2. **Quantum Field Theory**: Extends quantum mechanics to systems with varying particle numbers, incorporating special relativity.
+3. **Quantum Computing**: The study of how to perform computation using quantum-mechanical phenomena.
+4. **Quantum Information Theory**: Deals with the quantification and manipulation of quantum information.
+5. **Quantum Optics**: The study of the interactions between light and matter in the quantum regime.
+6. **Quantum Cryptography**: Concerned with securing communication information using quantum phenomena.
+7. **Condensed Matter Physics**: Examines quantum effects in solid and liquid systems.
+8. **Quantum Thermodynamics**: Investigates the laws of thermodynamics in the realm of quantum systems.
+
+##### **Fields of Application**
+1. **Technology**: Semiconductor devices, lasers, and quantum computers.
+2. **Medicine**: MRI technology and future applications in quantum healthcare.
+3. **Telecommunications**: Secure communication through quantum cryptography.
+4. **Material Science**: Discovery and design of new materials with desired properties.
+5. **Finance and Optimization**: Quantum algorithms for solving complex optimization problems.
+
+##### **Additional Notes**
+Quantum Physics often intersects with other branches of physics like statistical mechanics, cosmology, and general relativity, creating interdisciplinary subdomains like quantum cosmology and quantum gravity. It is also a field that is philosophically rich, touching upon fundamental questions about the nature of reality, causality, and information.
+
+## [Grand Unification](unification/index.qmd)
+
+The quest for a Theory of Everything (ToE) in physics is an endeavor to unify all fundamental forces and fields under a single, coherent theoretical framework. The primary goal is to reconcile quantum mechanics, which describes the forces of electromagnetism, weak nuclear force, and strong nuclear force, with general relativity, which describes gravity. Unification theories aim to provide a more elegant and simplified explanation for the complexities of the universe.
+
+##### **Primary Subdomains**
+1. Grand Unified Theories (GUTs) - These theories attempt to unify the electromagnetic, weak, and strong forces.
+2. Quantum Gravity - Theoretical frameworks like Loop Quantum Gravity and String Theory fall under this category, aiming to reconcile quantum mechanics with general relativity.
+3. Supersymmetry - A proposed extension of the standard space-time symmetries to unify fermions and bosons.
+4. Higher-Dimensional Theories - Such as Kaluza-Klein theory, which posits extra spatial dimensions to unify forces.
+5. Preon Theories - These hypothesize that quarks and leptons are made of more fundamental particles.
+6. Cosmological Implications - Including models that address the Big Bang, inflation, and the fate of the universe within the framework of unification theories.
+
+##### **Fields of Application**
+1. High Energy Physics - Particle accelerators and colliders often test predictions made by unification theories.
+2. Cosmology - The origins and large-scale structure of the universe could be better understood through a ToE.
+3. Quantum Computing - Understanding the unified forces could potentially unlock new computational paradigms.
+4. Astrophysics - Phenomena like black holes and neutron stars are better understood in the context of a unified theory.
+
+##### **Additional Notes**
+- No single unification theory has been universally accepted or proven yet, although String Theory is often cited as a leading candidate.
+- Experimental verification remains a challenge due to the extreme conditions required to test these theories, often beyond current technological capabilities.
+- Philosophical implications also abound, particularly questions around determinism, free will, and the nature of reality itself.
+
+This category sits at the intersection of several fundamental areas in physics and represents the cutting edge of our understanding of the physical universe.
+
+
+## Random
+
 - [TASI 2023: Aspects of Symmetry](https://www.youtube.com/playlist?list=PL1TnhG8zyyNxnhHGZze1tAlYrXTXwxhn0)
 - [The 8 Fallacies of Assembly Theory](https://hectorzenil.medium.com/test-8f0be54817c4)
 - [Physics of the Analytic S-Matrix](https://arxiv.org/abs/2306.05395)
-- [My Encounters - as a Physicist - with Mathematics](https://pubs.aip.org/physicstoday/article-abstract/49/2/28/408873/My-Encounters-as-a-Physicist-with?redirectedFrom=fulltext)
 - [World from Eyes, Reconstruct 3D Scene from Someone's Eyeball](https://t.co/zoqliCEews)
-- [American Elements](https://www.americanelements.com/manganese-platinum-alloy-12339-83-2#section-properties)
 - [Ed Witten Interview](https://www.joachim-herz-stiftung.de/en/about-us/prices/hamburg-prize-for-theoretical-physics/edward-witten)
 - [Unitarity](https://www.quantamagazine.org/physicists-rewrite-a-quantum-rule-that-clashes-with-our-universe-20220926/)
-
-## Classical Physics
-
-- [Thermodynamics of Information](https://arxiv.org/pdf/2306.12447.pdf)
-
-### Turbulence
-
-- [Energetics of Turbulent Fluids](./classical/papers/energetics-of-turbulent-fluids.qmd)
-
-## Electromagnetism
-
-### Magnetohydrodynamics
-
-[Magnetohydrodynamics (MHD)](./electromagnetism/mhd/index.qmd), also known as hydromagnetics, is a field in physics that studies the dynamics of electrically conducting fluids, particularly the interaction between magnetic fields and such fluids. These fluids could be plasma, liquid metals, or even seawater. MHD is a synthesis of fluid dynamics and electromagnetism. The governing equations of MHD are the Navier-Stokes equations (in the limit of high Reynolds number) coupled with Maxwell's equations.
-
-- [Magnetohydrodynamic drive](https://en.wikipedia.org/wiki/Magnetohydrodynamic_drive)
-- [Application of Pulsed Electrical Fields for Advanced Cooling and Water Recovery in Coal-Fired Power Plant](https://www.researchgate.net/publication/255215568_Application_of_Pulsed_Electrical_Fields_for_Advanced_Cooling_and_Water_Recovery_in_Coal-Fired_Power_Plant)
-- [Runaway electrons during subnanosecond breakdowns in high-pressure gases](https://www.researchgate.net/publication/309215727_Runaway_electrons_during_subnanosecond_breakdowns_in_high-pressure_gases)
-- [Low-Temperature Atmospheric Pressure Plasma Processes for “Green” Third Generation Photovoltaics](https://www.researchgate.net/publication/290955747_Low-Temperature_Atmospheric_Pressure_Plasma_Processes_for_Green_Third_Generation_Photovoltaics)
-- [Electromagnetic Radiation: Ionizing and Non-ionizing](https://remm.hhs.gov/radiationspectrum.htm)
-- [Are Virtual Particles Less Real?](http://philsci-archive.pitt.edu/15858/1/Jaeger%20Are%20Virtual%20Particles%20Less%20Real_%20entropy-21-00141-v3.pdf)
-- [RF Helicon-based Inductive Plasma Thruster (IPT) Design for an Atmosphere-Breathing Electric Propulsion System (ABEP)](https://arxiv.org/pdf/2007.06397.pdf)
-- [Electrothermal instability](https://en.wikipedia.org/wiki/Electrothermal_instability)
-- [Pulsed inductive thruster](https://en.wikipedia.org/wiki/Pulsed_inductive_thruster)
-- [NASA Pulsed Inductive Thruster](https://ntrs.nasa.gov/api/citations/19930023164/downloads/19930023164.pdf)
-- [On the performance of electrohydrodynamic propulsion](https://royalsocietypublishing.org/doi/abs/10.1098/rspa.2012.0623)
-- [Electrohydrodynamic thrust for in-atmosphere propulsion](https://hal.science/hal-01660600/document)
-- [A Model of an Ideal Electrohydrodynamic Thruster](https://www.researchgate.net/publication/235189622_A_Model_of_an_Ideal_Electrohydrodynamic_Thruster)
-- [Modelling and simulation of plasma thrusters for electric propulsion technologies](https://www.researchgate.net/publication/325286116_Modelling_and_simulation_of_plasma_thrusters_for_electric_propulsion_technologies)
-- [Electrohydrodynamic Drying Characteristics of Agar Gel](https://www.jstage.jst.go.jp/article/fstr/5/2/5_2_132/_pdf/-char/ja)
-- [Modeling of Electrohydrodynamic (EHD) Plasma Thrusters: Optimization of Physical and Geometrical Parameters](https://www.mdpi.com/2076-3417/12/3/1637/htm)
-- [Review on the History, Research, and Applications of Electrohydrodynamics](https://ieeexplore.ieee.org/document/6714477)
-- [Successful experiments on an external MHD Accelerator](https://www.jp-petit.org/science/2013/Princeton_2013.pdf)
-- [MHD Air Breathing Propulsion and Power for Aerospace Applications](https://www.dia.mil/FOIA/FOIA-Electronic-Reading-Room/FileId/170038/)
-- [New Magnetohydrodynamic (MHD) Lift Concept for More Efficient Missions to Mars and Neptune](https://ntrs.nasa.gov/api/citations/20210024776/downloads/AIAA%20SciTech%20Paper%20New%20MHD%20Lift_Control%20ID%203582166%20ver2021-12-02.pdf)
-- [GENERAL CONSIDERATIONS OF MHO ACCELERATION FOR AERODYNAMIC TESTING](https://apps.dtic.mil/sti/pdfs/AD0453419.pdf)
-- [Analysis of the Magnetohydrodynamic Behavior of the Fully Developed Flow of Conducting Fluid](https://www.mdpi.com/1996-1073/14/9/2463)
-- [Space-based laser-driven MHD generator [microform] : feasibility study](https://searchworks.stanford.edu/view/3069472)
-- [Weak Solutions to Ideal MHD](https://www.ias.edu/sites/default/files/MHD-IASfinal.pdf)
-
-
-## Relativity
-
-- [Lecture Notes on Holographic Renomalization](https://arxiv.org/abs/hep-th/0209067)
-- [AdS/CFT correspondence and Geometry (Hamilton-Jacobi approach to holographic renormalization)](https://arxiv.org/abs/hep-th/0404176)
-- [EPFL Lectures on General Relativity as a Quantum Field Theory](https://arxiv.org/abs/1702.00319)
-- [General Relativity as a Perturbative Quantum Field Theory](https://blogs.umass.edu/grqft/)
-- [Effective Field Physics (EFT) Methods of General Relativity](https://pirsa.org/23060072)
-- [Harmonic Springs and Gravity](https://twitter.com/gabrielpeyre/status/1646015289023422464?s=20)
-- [The Role of Gravitation in Physics](https://edition-open-sources.org/media/sources/5/Sources5.pdf)
-
-### Cosmology
-
-- [The Pseudo-Conformal Universe: Scale Invariance from Spontaneous Breaking of Conformal Symmetry](https://arxiv.org/abs/1106.1428)
-- [Einstein, Barcelona, Symmetry & Cosmology: The Birth of an Equation for the Universe](https://arxiv.org/pdf/2309.02477.pdf)
-- [Seeing the Gravitational Wave Universe](https://arxiv.org/abs/2211.05148)
-- [NASA Selects 5 Missions for 2024 Total Solar Eclipse](https://www.nasa.gov/feature/goddard/2023/sun/science-in-the-shadows-nasa-selects-5-experiments-for-2024-total-solar-eclipse)
-- [James Webb Images](https://esawebb.org/images/)
-- [Planck 2018 Results, Cosmological Parameters](https://arxiv.org/abs/1807.06209)
-- [Webb Telescope finds surprising evidence of well-formed early galaxies](https://twitter.com/WKCosmo/status/1629868261490737153?s=20)
-- [Holography of the Photon Ring](https://arxiv.org/abs/2205.05064)
-- [Sun blasts out highest-energy radiation ever recorded, raising questions for solar physics](https://www.space.com/sun-blasts-highest-energy-radiation-ever-recorded-raising-questions-solar-physics)
-- [Discovery of Gamma Rays from the Quiescent Sun with HAWC](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.051201)
-- [10 galaxies that existed just 830 million years after the Big Bang](https://esawebb.org/images/aspire1/)
-The seven galaxies highlighted in [this image](https://esawebb.org/images/protocluster-1/) from the NASA/ESA/CSA Telescope have been confirmed to be at a distance that astronomers refer to as redshift 7.9, which correlates to 650 million years after the big bang. This makes them the earliest galaxies yet to be spectroscopically confirmed as part of a developing cluster.
-
-### Black Holes
-
-- [Black Holes Evade Heat Death](https://www.quantamagazine.org/in-new-paradox-black-holes-appear-to-evade-heat-death-20230606/) 
-- [Effective Action for the Hawking Process](https://arxiv.org/pdf/2306.09019.pdf)
-- [Supermassive Black Hole Binary](https://arxiv.org/abs/2306.11310)
-- [Probing Supermassive Black Hole Merges and Stalling with Pulsar Timing Arrays](https://arxiv.org/abs/1901.06785)
-- [Abell 1201: detection of an ultramassive black hole in a strong gravitational lens](https://academic.oup.com/mnras/article/521/3/3298/7085506)
-- [Math Proof Draws New Boundaries Around Black Hole Formation](https://arxiv.org/pdf/2301.08270.pdf)
-    - [Quanta article](https://www.quantamagazine.org/math-proof-draws-new-boundaries-around-black-hole-formation-20230816/)
-- [A Black Hole’s Orbiting Ring of Light Could Encrypt Its Inner Secrets](https://www.quantamagazine.org/black-holes-ring-of-light-could-encrypt-its-inner-secrets-20220908/)
-
-## Quantum Physics
-
-- [The Dirac Equation and its Interpretations](https://www.researchgate.net/publication/340664785_THE_DIRAC_EQUATION_AND_ITS_INTERPRETATIONS)
-- [David Gross: Fifty Years of Quantum Chromodynamics (The Theory of The Strong Nuclear Force)](https://www.youtube.com/watch?v=8Ms5-Wk-IPU&t=1521s)
-- [Testing a discrete model for quantum spin with two sequential Stern-Gerlach detectors and photon Fock states](https://arxiv.org/abs/2304.13535)
-- [Claim: The apparent randomness in wave function collapse is a consequence of coarse-graining an underlying deterministic, non-unitary but norm-preserving evolution.](https://arxiv.org/abs/2305.06706)
-- [Why Bohr was wrong in his response to EPR](https://arxiv.org/abs/2305.06859)
-- [Richard Feynman: Simulating physics with computers (quantum)](https://link.springer.com/article/10.1007/BF02650179)
-- [Resolving Key Issues In Quantum Mechanics While Simultaneously Debunking Every UFO Case In History](https://deep-1645.medium.com/resolving-key-issues-in-quantum-mechanics-while-simultaneously-debunking-every-ufo-case-in-history-3a743585ed9c)
-- [Experimental test of local observer-independence](https://arxiv.org/pdf/1902.05080.pdf)
-- [Spontaneous localisation from a coarse-grained deterministic and non-unitary dynamics](https://arxiv.org/abs/2305.06706)
-- [Killing Horizons Decohere Quantum Superpositions](https://arxiv.org/pdf/2301.00026.pdf)
-- [Fermionic matter-wave quantum optics with cold-atom impurity models](https://arxiv.org/abs/2305.11610)
-- [Variational Quantum Thermalization and the Future of Quantum Thermodynamics](https://deep-1645.medium.com/variational-quantum-thermalization-and-the-future-of-quantum-thermodynamics-75ee9916ec3c)
-- [A New Century of Quantum Physics](https://www.nature.com/articles/s42254-023-00600-4)
-- [Arrival Time in Quantum Mechanics](https://arxiv.org/abs/2306.07679)
-
-### Quantum Computing
-
-- [Quantum Hamiltonian-Based Models & the Variational Quantum Thermalizer Algorithm](https://arxiv.org/pdf/1910.02071.pdf)
-- [Limitations of optimization algorithms on noisy quantum devices](https://www.nature.com/articles/s41567-021-01356-3)
-- [Variational Quantum Thermalization](https://deep-1645.medium.com/variational-quantum-thermalization-and-the-future-of-quantum-thermodynamics-75ee9916ec3c)
-
-## Particle Physics
-
-- [Observation of an excess of di-charmonium events in the four-muon final state with the ATLAS detector](https://arxiv.org/abs/2304.08962)
-- [Lie Algebras in Particle Physics](https://library.oapen.org/handle/20.500.12657/50876)
-
-## Field Theory
-
-- [Quantum Field Theory: Effective or Fundamental?](field-theory/effective-or-fundamental.qmd)
-- [Brief History of Guage Field Physics](https://twitter.com/VergaraLautaro/status/1631617236057063424)
-- [The Unreasonable Effectiveness of Quantum Field Theory](https://arxiv.org/abs/hep-th/9602122)
-- [Introduction to Genralized Global Symmetries in QFT and Particle Physics](https://arxiv.org/abs/2306.00912)
-- [Lectures on Field Theory and the Standard Model: A Symmetry-Oriented Approach](https://arxiv.org/abs/2306.08097)
-- [Scattering Amplitudes in Quantum Field Theory](https://arxiv.org/abs/2306.05976)
-- [General Relativity as a Perturbative Quantum Field Theory](https://blogs.umass.edu/grqft/)
-- [EPFL Lectures on General Relativity as a Quantum Field Theory](https://arxiv.org/abs/1702.00319)
-
-### Dark Matter and Dark Energy
-
-- [Interacting Dark Matter - Phenomenology and Implications for Cosmology](https://www.youtube.com/watch?v=lzUNr-0E8Us)
-- [New shape of parity-violating graviton non-Gaussianity](https://arxiv.org/abs/2303.05178) | [Explainer](https://twitter.com/MMylova/status/1634015492775002112?s=20)
-
-## Unity
-
-- [Basics of Quantum Gravity](https://indico.cern.ch/event/1279592/)
-- [Perturbative Quantum Gravity](https://www.youtube.com/watch?v=ik0C-xTnK-k&list=PL9ec4tkG1qrjDAad0-EHxyEPw1KcxxT68&index=6)
-
-### ER=EPR
-
-- [Sarfatti's 1975 version of ER=EPR](https://twitter.com/JackSarfatti/status/1646315546630316033?s=20)
-
-### String Theory
-
-- [On Unitarity of Tree-Level String Amplitudes](https://arxiv.org/abs/2201.11575)
-
-
 

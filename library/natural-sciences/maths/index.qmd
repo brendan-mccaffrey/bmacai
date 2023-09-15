@@ -1,40 +1,96 @@
 ---
 title: Maths
 description: The universal language
+table-of-contents: true
 ---
 
-## Learn
+## General
+
+- [Advice to a Young Mathematician](https://assets.press.princeton.edu/releases/gowers/gowers_VIII_6.pdf)
+- [Explained from First Principles](https://explained-from-first-principles.com/)
+
+## Calculus
 
 - [UPenn Math 114 (Single Variable Calculus)](https://www.youtube.com/watch?v=5m0VJ7FTn54&list=PL6UiEGS6WoUk8xJxOtLEs4rq5Ff9lSl25)
 - [MIT Single Variable Calculus](https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010)
 - [MIT Multivariable Calculus](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010)
 - [UPenn Math 240 (Multi Variable Calculus)](https://www.youtube.com/watch?v=Y6SYkfVdoio&list=PL6UiEGS6WoUk42atmsXOWkohKJA3UbvDL)
+
+### Fractional Calculus
+
+- [What is Fractional Calculus](https://www.cantorsparadise.com/fractional-calculus-48192f4e9c9f)
+
+**Summary**
+
+The blog post discusses the concept of fractional calculus, a mathematical field that explores the idea of derivatives and integrals of non-integer order. The concept was first proposed by Gottfried Leibniz in a response to a question from l’Hopital about the possibility of a derivative of order 1/2. The post explains the theory behind fractional calculus, its properties, and its applications, using the Riemann-Liouville integral and derivative as examples.
+
+- **Fractional Calculus**: Fractional calculus is the branch of mathematical analysis that investigates the possibility of taking derivatives and integrals of any real number order, not just integer order.
+
+- **Intuition**: The concept of fractional calculus arises from the idea of interpreting differentiation and integration as transformations that continuously transform a function into its nth derivative or antiderivative.
+
+- **Fractional Integral and Derivative**: The most natural place to start with fractional calculus is with Cauchy’s formula for repeated integration. The generalization of the factorial function in this formula is the gamma function, which allows for the definition of the left Riemann-Liouville integral, a valid operator for integration to fractional order.
+
+- **Differintegral Operator**: The differintegral operator is a combination of the fractional integral and derivative, which can continuously transform between functions.
+
+- **Properties**: Fractional calculus has unique properties, such as nonlocality, which means that the value of a fractional derivative at a point depends on an entire range of values, not just that point. This property makes fractional calculus useful for modeling physical phenomena with memory effects.
+
+- **Fractional Derivatives of Basic Functions**: The fractional derivatives of power functions, sine function, and exponential function are discussed.
+
+- **Interpretation**: The interpretation of fractional operators in a geometric or physical sense is still an area of active research.
+
+- **Applications**: An example of the application of fractional calculus is in solving the tautochrone problem, which involves finding a curve such that the time taken by a bead to slide down the curve is independent of the initial height.
+
+- **Conclusion**: Fractional calculus is a result of pushing the boundaries of existing theories to work with extreme or unusual cases. It is a field with potential for new discoveries in mathematics and science.
+
+
+## Differential Equations
+
 - [Differential Equations Textbook](https://twitter.com/curiouswavefn/status/1627741837233631232?s=20)
 - [MIT Differential Equations](https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011)
-- [MIT OCW Probability and Random Variables](https://ocw.mit.edu/courses/18-440-probability-and-random-variables-spring-2014)
+
+## Linear Algebra
+
 - [MIT Linear Algebra](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011)
-- [MIT Topics in Mathematics with Applications in Finance](https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/pages/syllabus/)
-- [Polyak-Łojasiewicz Inequality](https://t.co/dfTWCrCBXC) 
-    - Generalizes strong convexity, and a simple condition to ensure linear convergence of gradient descent even for non-convex functions.
-- [The Prime Number Maze](https://www.fq.math.ca/Scanned/40-3/paulsen.pdf)
 - [The Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
+
+## Probability and Statistics
+
+- [MIT OCW Probability and Random Variables](https://ocw.mit.edu/courses/18-440-probability-and-random-variables-spring-2014)
+
+## Finance and Economics
+
+- [MIT Topics in Mathematics with Applications in Finance](https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/pages/syllabus/)
 - [Algorithmic Game Theory](https://www.cs.cmu.edu/~sandholm/cs15-892F13/algorithmic-game-theory.pdf)
-- [Ergodic Theory](https://math.berkeley.edu/~fengt/ergodic_theory.pdf)
+
+## Optimization
+
 - [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)
 - [Operations Research: Applications and Algorithms](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)
 
+## Physics and Mathematical Physics
 
-## General
 
-[Advice to a Young Mathematician](https://assets.press.princeton.edu/releases/gowers/gowers_VIII_6.pdf)
+
+## Advanced Topics
+
+- [The Prime Number Maze](https://www.fq.math.ca/Scanned/40-3/paulsen.pdf)
+- [Ergodic Theory](https://math.berkeley.edu/~fengt/ergodic_theory.pdf)
+- [Polyak-Łojasiewicz Inequality](https://t.co/dfTWCrCBXC) 
+    - Generalizes strong convexity, and a simple condition to ensure linear convergence of gradient descent even for non-convex functions.
+
+### Topology
+
+- [Topology and modern analysis](https://online.fliphtml5.com/avac/ixfy/#p=4)
+
 
 ### Graph Theory
 
 - [New Proof Shows That ‘Expander’ Graphs Synchronize](https://www.quantamagazine.org/new-proof-shows-that-expander-graphs-synchronize-20230724/)
 
+
 ### Group Theory
 
-[Lie Algebras in Particle Physics](https://library.oapen.org/handle/20.500.12657/50876)
+
 
 ### Synchronization
 
@@ -51,33 +107,6 @@ The discovery of chimeras was made possible by advances in computational power a
 
 
 
-### Fractional Calculus
-
-[What is Fractional Calculus](https://www.cantorsparadise.com/fractional-calculus-48192f4e9c9f)
-
-*Differential calculus was invented independently by Isaac Newton and Gottfried Leibniz and it was understood that the notion of the derivative of nth order, that is, applying the differentiation operation n times in succession, was meaningful. In a 1695 letter, l’Hopital asked Leibniz about the possibility that n could be something other than an integer, such as n=1/2. Leibniz responded that “It will lead to a paradox, from which one day useful consequences will be drawn.” Leibniz was correct, but it would not be centuries until it became clear just how correct he was.*
-
-*This article will investigate the question of what it could possibly mean to do something like take a 1/2 order derivative, and so introduce the theory of the fractional calculus.*
-
-**Summary**
-
-The blog post discusses the concept of fractional calculus, a mathematical field that explores the idea of derivatives and integrals of non-integer order. The concept was first proposed by Gottfried Leibniz in a response to a question from l’Hopital about the possibility of a derivative of order 1/2. The post explains the theory behind fractional calculus, its properties, and its applications, using the Riemann-Liouville integral and derivative as examples.
-
-1. Fractional Calculus: Fractional calculus is the branch of mathematical analysis that investigates the possibility of taking derivatives and integrals of any real number order, not just integer order.
-
-2. Intuition: The concept of fractional calculus arises from the idea of interpreting differentiation and integration as transformations that continuously transform a function into its nth derivative or antiderivative.
-
-3. Fractional Integral and Derivative: The most natural place to start with fractional calculus is with Cauchy’s formula for repeated integration. The generalization of the factorial function in this formula is the gamma function, which allows for the definition of the left Riemann-Liouville integral, a valid operator for integration to fractional order.
-
-4. Differintegral Operator: The differintegral operator is a combination of the fractional integral and derivative, which can continuously transform between functions.
-
-5. Properties: Fractional calculus has unique properties, such as nonlocality, which means that the value of a fractional derivative at a point depends on an entire range of values, not just that point. This property makes fractional calculus useful for modeling physical phenomena with memory effects.
-Fractional Derivatives of Basic Functions: The fractional derivatives of power functions, sine function, and exponential function are discussed.
-
-6. Interpretation: The interpretation of fractional operators in a geometric or physical sense is still an area of active research.
-Applications: An example of the application of fractional calculus is in solving the tautochrone problem, which involves finding a curve such that the time taken by a bead to slide down the curve is independent of the initial height.
-
-7. Conclusion: Fractional calculus is a result of pushing the boundaries of existing theories to work with extreme or unusual cases. It is a field with potential for new discoveries in mathematics and science.
 
 ### Fourier Transformations
 

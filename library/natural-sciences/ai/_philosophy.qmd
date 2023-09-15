@@ -1,0 +1,5 @@
+## Philosophy
+
+- [Asymptotically Unambitious Artificial General Intelligence](https://arxiv.org/abs/1905.12186)
+- We Still Don't Understand the Models We've Built
+  - ["Glitch Token"](https://www.alignmentforum.org/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation)

@@ -1,0 +1,25 @@
+---
+title: Astrophysics
+description: Astrophysics and Cosmology
+---
+
+## Cosmology
+
+- [The Pseudo-Conformal Universe: Scale Invariance from Spontaneous Breaking of Conformal Symmetry](https://arxiv.org/abs/1106.1428)
+- [Einstein, Barcelona, Symmetry & Cosmology: The Birth of an Equation for the Universe](https://arxiv.org/pdf/2309.02477.pdf)
+- [Seeing the Gravitational Wave Universe](https://arxiv.org/abs/2211.05148)
+- [NASA Selects 5 Missions for 2024 Total Solar Eclipse](https://www.nasa.gov/feature/goddard/2023/sun/science-in-the-shadows-nasa-selects-5-experiments-for-2024-total-solar-eclipse)
+- [James Webb Images](https://esawebb.org/images/)
+- [Planck 2018 Results, Cosmological Parameters](https://arxiv.org/abs/1807.06209)
+- [Webb Telescope finds surprising evidence of well-formed early galaxies](https://twitter.com/WKCosmo/status/1629868261490737153?s=20)
+- [Holography of the Photon Ring](https://arxiv.org/abs/2205.05064)
+- [Sun blasts out highest-energy radiation ever recorded, raising questions for solar physics](https://www.space.com/sun-blasts-highest-energy-radiation-ever-recorded-raising-questions-solar-physics)
+- [Discovery of Gamma Rays from the Quiescent Sun with HAWC](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.051201)
+- [10 galaxies that existed just 830 million years after the Big Bang](https://esawebb.org/images/aspire1/)
+The seven galaxies highlighted in [this image](https://esawebb.org/images/protocluster-1/) from the NASA/ESA/CSA Telescope have been confirmed to be at a distance that astronomers refer to as redshift 7.9, which correlates to 650 million years after the big bang. This makes them the earliest galaxies yet to be spectroscopically confirmed as part of a developing cluster.
+
+### Dark Matter and Dark Energy
+
+- [Interacting Dark Matter - Phenomenology and Implications for Cosmology](https://www.youtube.com/watch?v=lzUNr-0E8Us)
+- [New shape of parity-violating graviton non-Gaussianity](https://arxiv.org/abs/2303.05178) | [Explainer](https://twitter.com/MMylova/status/1634015492775002112?s=20)
+

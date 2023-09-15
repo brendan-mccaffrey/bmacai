@@ -1,0 +1,10 @@
+--- 
+title: Quantum
+description: Why did the quantum computer get kicked out of school? Because every time the teacher turned around, it was in a superposition of playing games and doing homework!
+---
+
+## Resources
+
+- [Quantum Hamiltonian-Based Models & the Variational Quantum Thermalizer Algorithm](https://arxiv.org/pdf/1910.02071.pdf)
+- [Limitations of optimization algorithms on noisy quantum devices](https://www.nature.com/articles/s41567-021-01356-3)
+- [Variational Quantum Thermalization](https://deep-1645.medium.com/variational-quantum-thermalization-and-the-future-of-quantum-thermodynamics-75ee9916ec3c)

@@ -1,0 +1,10 @@
+### Backpropogation
+
+Backpropogation is an algorithm for training neural-networks, used to update its weights to minimize the 'loss'
+
+1. Network makes a prediction on a batch of input data
+2. Loss is calculated between predicted and actual output
+3. Gradient of the loss with respect to the weights are calculated using the chain rule of differentiation
+4. The gradients are used to update the weights in the opposite direction of the gradient, reducing the loss
+5. Repeat the process until the loss reaches a satisfactory level or a maximum number of iterations
+

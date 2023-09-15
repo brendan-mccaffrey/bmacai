@@ -2,6 +2,12 @@
 title: Particle Physics
 ---
 
+## Resources
+
+- [Observation of an excess of di-charmonium events in the four-muon final state with the ATLAS detector](https://arxiv.org/abs/2304.08962)
+
+{{< include ../../maths/_lie-algebras-in-particle-physics.qmd >}}
+
 ### Yukawa Coupling
 
 The coupling used with the Higgs field to create a fundamental mass is the Yukawa coupling. In the Standard Model of particle physics, the Higgs field interacts with fermions (particles with half-integer spin, such as quarks and leptons) through the Yukawa coupling. The Yukawa coupling is a term in the Lagrangian of the Standard Model that describes the interaction between the Higgs field and fermions.

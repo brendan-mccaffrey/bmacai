@@ -880,5 +880,32 @@
   },
   "library/social-sciences/events/9-11/index.qmd": {
     "index.html": "72782c5f"
+  },
+  "library/natural-sciences/software/chrome-extension/index.qmd": {
+    "index.html": "2c3e83ce"
+  },
+  "library/natural-sciences/software/languages/rust/index.qmd": {
+    "index.html": "6408059d"
+  },
+  "library/natural-sciences/physics/classical/index.qmd": {
+    "index.html": "438aca2b"
+  },
+  "library/natural-sciences/maths/physics.qmd": {
+    "physics.html": "2f633e23"
+  },
+  "library/natural-sciences/computing/classical/index.qmd": {
+    "index.html": "6c37f98d"
+  },
+  "library/natural-sciences/physics/astrophysics/index.qmd": {
+    "index.html": "9321e47c"
+  },
+  "library/natural-sciences/ai/history-of-ai/index.qmd": {
+    "index.html": "004c07ef"
+  },
+  "library/natural-sciences/computing/quantum/index.qmd": {
+    "index.html": "7c13e702"
+  },
+  "library/natural-sciences/physics/materials/index.qmd": {
+    "index.html": "eb1b2bf3"
   }
 }

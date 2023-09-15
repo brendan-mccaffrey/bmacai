@@ -3,6 +3,24 @@ title: Quantum Physics
 
 ---
 
+## Resources
+
+- [MIT Quantum Physics I](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/lecture-videos/)
+- [The Dirac Equation and its Interpretations](https://www.researchgate.net/publication/340664785_THE_DIRAC_EQUATION_AND_ITS_INTERPRETATIONS)
+- [David Gross: Fifty Years of Quantum Chromodynamics (The Theory of The Strong Nuclear Force)](https://www.youtube.com/watch?v=8Ms5-Wk-IPU&t=1521s)
+- [Testing a discrete model for quantum spin with two sequential Stern-Gerlach detectors and photon Fock states](https://arxiv.org/abs/2304.13535)
+- [Claim: The apparent randomness in wave function collapse is a consequence of coarse-graining an underlying deterministic, non-unitary but norm-preserving evolution.](https://arxiv.org/abs/2305.06706)
+- [Why Bohr was wrong in his response to EPR](https://arxiv.org/abs/2305.06859)
+- [Richard Feynman: Simulating physics with computers (quantum)](https://link.springer.com/article/10.1007/BF02650179)
+- [Resolving Key Issues In Quantum Mechanics While Simultaneously Debunking Every UFO Case In History](https://deep-1645.medium.com/resolving-key-issues-in-quantum-mechanics-while-simultaneously-debunking-every-ufo-case-in-history-3a743585ed9c)
+- [Experimental test of local observer-independence](https://arxiv.org/pdf/1902.05080.pdf)
+- [Spontaneous localisation from a coarse-grained deterministic and non-unitary dynamics](https://arxiv.org/abs/2305.06706)
+- [Killing Horizons Decohere Quantum Superpositions](https://arxiv.org/pdf/2301.00026.pdf)
+- [Fermionic matter-wave quantum optics with cold-atom impurity models](https://arxiv.org/abs/2305.11610)
+- [Variational Quantum Thermalization and the Future of Quantum Thermodynamics](https://deep-1645.medium.com/variational-quantum-thermalization-and-the-future-of-quantum-thermodynamics-75ee9916ec3c)
+- [A New Century of Quantum Physics](https://www.nature.com/articles/s42254-023-00600-4)
+- [Arrival Time in Quantum Mechanics](https://arxiv.org/abs/2306.07679)
+
 ### Standard Dirac Equation
 
 - [paper](https://www.researchgate.net/publication/340664785_THE_DIRAC_EQUATION_AND_ITS_INTERPRETATIONS)
