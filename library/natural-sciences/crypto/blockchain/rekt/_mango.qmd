@@ -1,14 +1,11 @@
----
-title: "Mango Rekt"
-description: "Mango got Rekt by Market Manipulation on October 11, 2022"
-page-layout: full
----
 
-## Overview
+## Mango Rekt
+
+### Overview
 
 On October 11th, 2022, [Avraham Eisenberg](https://twitter.com/avi_eisen) and co conducted a ["highly profitable trade"](https://twitter.com/avi_eisen/status/1581326197241180160?s=20&t=a5u1dtV_DRe8Nl4p58N0_w), exploiting a poor liquidation implementation on [Mango Markets](https://mango.markets/), a DeFi application on the Solana network.
 
-## How it worked
+### How it worked
 
 Attacker had two accounts, let's call them account A and account B.
 
@@ -24,20 +21,17 @@ Attacker had two accounts, let's call them account A and account B.
 
 6. After the attack, the MNGO/USD spot market then traded down to $0.02, which put account A in the money. However, Mango protocol was effectively drained of all liquidity, so account A could not be paid out.
 
-## Summary
+### Summary
 
 Mango Markets were designed to give loans at a certain collateralization ratio (e.g. 400%), but they used the spot market as an oracle for "fair price" of the token. Thus, tokens with low liquidity could be easily manipulated such that the protocol believes "fair price" is multiples above what anyone would purchase the token at in free markets.
 
-## Future Mitigation
+### Future Mitigation
 
 Mitigating this type of attack is as simple as fixing the Oracle mechanism. For example, one could use a 24hr rolling average price to determine "fair value" for lending, which would make the market manipulator's attack much more difficult (must pump price for 24 hour rather than a few seconds).
 
-## Credits & Commentary
+### Further Reads
 
 - [Notice of Exploit by Otter Security](https://twitter.com/osec_io/status/1579969927020412929?s=20&t=AK8-AGc9O6k-Rfb1HSegXw)
-
 - [Early Analysis of What Happened](https://twitter.com/joshua_j_lim/status/1579987648546246658?s=20&t=AK8-AGc9O6k-Rfb1HSegXw)
-
 - [Sam Bankman Freid on How to Protect from this Attack](https://twitter.com/SBF_FTX/status/1580170203664904195?s=20&t=OFZtV7pNaQTj5BvE_yCdDw)
-
 - [Attacker Admitting his Involvement](https://twitter.com/avi_eisen/status/1581326197241180160?s=20&t=a5u1dtV_DRe8Nl4p58N0_w)

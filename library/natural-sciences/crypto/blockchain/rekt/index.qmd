@@ -21,3 +21,5 @@ SharedStake sgETH contract has been exploited for 102 ETH and sgETH has been inf
 ### Slope Wallet
 
 - [Slope Finance Wallet Exploit: Otter Security](https://osec.io/reports/slope-investigation-report.pdf)
+
+{{< include _mango.qmd >}}

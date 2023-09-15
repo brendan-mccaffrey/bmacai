@@ -1,7 +1,5 @@
 ---
 title: "Solana"
-description: "Soylano chain"
-page-layout: full
 ---
 
 ## The Tech
@@ -22,3 +20,4 @@ page-layout: full
 
 - [Firedancer: A New Client by Jump](https://jumpcrypto.com/jump-crypto-sets-out-to-build-new-validator-client-for-the-solana-blockchain-to-increase-the-throughput-and-reliability-of-the-network/)
 - [Validator Economics on Solana](https://medium.com/chorus-one/exploring-validator-economics-on-solana-cb1498a3aef6)
+

@@ -3,7 +3,6 @@ title: "Stake"
 description: "Crypto betting site... rekt"
 ---
 
-
 ### Timeline
 
 [First](https://etherscan.io/tx/0xdddb1d16f97209971ef9256d0b83d5f840eaddbbbbd7a04b5702b4fb7254b857) and [second](https://etherscan.io/tx/0x98610e0a20b5ebb08c40e78b4d2271ae1fbd4fc3b8783b1bb7a5687918fad54e) transactions

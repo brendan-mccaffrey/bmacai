@@ -1,3 +1,88 @@
+---
+title: "Ethereum"
+description: "All things directly related to Ethereum"
+page-layout: full
+---
+
+## General
+
+- [Eth2Book: A lot of Good Info on Ethereum](https://eth2book.info/)
+- [Ethereum Youtube: Community calls and such](https://www.youtube.com/@EthereumProtocol/videos)
+- [Intent Based Architectures and Their Risks](https://www.paradigm.xyz/2023/06/intents)
+- [Client Bootnode Concerns](https://ethresear.ch/t/execution-consensus-client-bootnodes/14588)
+- [Collecting Signatures for Faster Finality](https://ethresear.ch/t/horn-collecting-signatures-for-faster-finality/14219)
+- [Proof of Solvency](https://ethresear.ch/t/snarked-merkle-sum-tree-a-practical-proof-of-solvency-protocol-based-on-vitaliks-proposal/14405)
+- [State of Testnets](https://twitter.com/TimBeiko/status/1628819200696516608?s=20)
+- [Vitalik: the roads not taken](https://vitalik.ca/general/2022/03/29/road.html)
+
+## Consensus
+
+- [Casper the Friendly Finality Gadget](https://arxiv.org/abs/1710.09437)
+- [Combining GHOST and Casper](https://arxiv.org/abs/2003.03052)
+- [Beacon Chain Casper Mini-Spec](https://ethresear.ch/t/beacon-chain-casper-mini-spec/2760/17)
+- [zkCasper: SNARK based scheme for verifying the Ethereum's Casper FFG consensus proofs](https://research.polytope.technology/zkcasper)
+- [Ethereum Inactivity Leak](https://eth2book.info/capella/part2/incentives/inactivity/)
+
+### Consensus Attacks
+
+- [Two Attacks on Proof-of-Stake GHOST/Ethereum](https://arxiv.org/pdf/2203.01315.pdf)
+- [Three Attacks on Proof-of-Stake Ethereum](https://arxiv.org/abs/2110.10086)
+- [Balancing Attack on Gasper](https://ethresear.ch/t/a-balancing-attack-on-gasper-the-current-candidate-for-eth2s-beacon-chain/8079)
+- [Mitigating Balancing Attacks on LMD GHOST](https://notes.ethereum.org/@vbuterin/lmd_ghost_mitigation)
+- [Discouragement Attacks](https://eth2book.info/capella/part2/incentives/rewards/#discouragement-attacks)
+- [Vitalik Paper](https://github.com/ethereum/research/blob/master/papers/discouragement/discouragement.pdf)
+- [Discouragement Attacks](https://github.com/ethereum/research/blob/master/papers/discouragement/discouragement.pdf)
+
+## Proposer Builder Separation
+
+- [MEV-Boost Plan](https://github.com/flashbots/mev-boost/wiki/The-Plan-(tm))
+- [Proposer Boost Considerations](https://notes.ethereum.org/@casparschwa/H1T0k7b85)
+- [MEV-Boost in a Nutshell](https://boost.flashbots.net/#block-6163a685d84444a9be309d26f18b4b2f)
+- [PBS Censorship Resistance](https://notes.ethereum.org/@vbuterin/pbs_censorship_resistance)
+- [State of research: increasing censorship resistance of transactions under PBS](https://notes.ethereum.org/s3JToeApTx6CKLJt8AbhFQ#Hybrid-PBS-can-we-use-proposers-only-for-inclusion-of-last-resort)
+- [PBS Censorship-Resistance Alternatives](https://notes.ethereum.org/@fradamt/H1TsYRfJc)
+- [Current crList Proposal](https://notes.ethereum.org/Dh7NaB59TnuUW5545msDJQ)
+- [Time to Bribe: Measuring Block Construction Markets](https://eprint.iacr.org/2023/760.pdf)
+
+## EIPs
+
+### 4844
+
+Sharding
+
+- [EIP-4844: Shard Blob Transactions](https://eips.ethereum.org/EIPS/eip-4844)
+- [Danksharding](https://notes.ethereum.org/@dankrad/new_sharding)
+- [Polynya on Danksharding](https://polynya.medium.com/danksharding-36dc0c8067fe)
+- [Nightshade: Near Protocol Sharding Design](https://near.org/downloads/Nightshade.pdf)
+- [The Tie: Danksharding](https://research.thetie.io/danksharding-ethereums-scalability-killer/)
+
+### 3675
+
+Proof of Stake
+
+- [EIP-3675: Upgrade consensus to Proof-of-Stake](https://eips.ethereum.org/EIPS/eip-3675)
+- [Eth Withdrawals FAQ](https://notes.ethereum.org/@launchpad/withdrawals-faq#ETH-Withdrawals-FAQ)
+- [100 Days After the Merge](https://www.galaxy.com/research/insights/100-days-after-the-merge/)
+- [Withdrawals after Shanghai](https://dataalways.substack.com/p/partial-withdrawals-after-the-shanghai)
+- [Official Merge Announcement](https://blog.ethereum.org/2022/08/24/mainnet-merge-announcement/)
+
+### 2938/4337
+
+Account Abstraction
+
+- [EIP-2938: Account Abstraction](https://eips.ethereum.org/EIPS/eip-2938)
+- [ERC-4337: Account Abstraction Using Alt Mempool](https://eips.ethereum.org/EIPS/eip-4337)
+- [Account Abstraction in a Multichain Landscape - Part 1: Addresses](https://safe.mirror.xyz/4GcGAOFno-suTCjBewiYH4k4yXPDdIukC5woO5Bjc4w)
+- [What's in an Account?](https://erc4337.mirror.xyz/vYwclVbG6CR1o8DOCWDj8cFVfFSJ07FhWTDgQ5NQROY)
+
+### Other
+
+- [EIP-1153: Transient Storage](https://eips.ethereum.org/EIPS/eip-1153)
 
 
-- [ERC-4337: What's in an Account?](https://erc4337.mirror.xyz/vYwclVbG6CR1o8DOCWDj8cFVfFSJ07FhWTDgQ5NQROY)
+
+
+
+
+
+

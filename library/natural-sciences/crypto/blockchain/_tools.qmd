@@ -5,10 +5,5 @@
 - [WhatsABI](https://github.com/shazow/whatsabi)
 - [go-selfcompile](https://github.com/shazow/go-selfcompile)
 
-## Resources
 
-
-- [Smart Contract Auditing Heuristics](https://github.com/OpenCoreCH/smart-contract-auditing-heuristics)
-
-### 
 

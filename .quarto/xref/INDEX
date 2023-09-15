@@ -910,5 +910,17 @@
   },
   "writes/posts/welcome-example/index.qmd": {
     "index.html": "8cdead34"
+  },
+  "library/natural-sciences/crypto/blockchain/ethereum/index.qmd": {
+    "index.html": "a71c3d06"
+  },
+  "library/natural-sciences/crypto/blockchain/solana/index.qmd": {
+    "index.html": "f626603e"
+  },
+  "library/natural-sciences/crypto/blockchain/rekt/index.qmd": {
+    "index.html": "2371b866"
+  },
+  "library/natural-sciences/crypto/blockchain/rekt/stake.qmd": {
+    "stake.html": "8ee2797e"
   }
 }

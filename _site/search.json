@@ -5717,5 +5717,110 @@
     "title": "Maths",
     "section": "Mathematical Physics",
     "text": "Mathematical Physics\n\nMy Encounters - as a Physicist - with Mathematics\n\n\nDonaldson Theory\nDonaldson theory is a branch of mathematics that is concerned with the topology of four-dimensional manifolds. It is named after Simon Donaldson, a British mathematician who made significant contributions to the field in the 1980s.\nThe central problem in Donaldson theory is to understand the topology of four-dimensional manifolds using differential geometry and algebraic topology. Specifically, the theory focuses on the study of vector bundles and connections on these manifolds, and how they can be used to classify different types of four-dimensional manifolds.\nOne of the key results in Donaldson theory is Donaldson’s theorem, which states that the intersection form of a smooth, closed, simply-connected four-dimensional manifold can be recovered from its Seiberg-Witten invariants. The Seiberg-Witten invariants are a set of numbers that can be associated with a four-dimensional manifold and its spin-c structure. They were introduced by Edward Witten and Nathan Seiberg in the mid-1990s and have proven to be a powerful tool in the study of four-dimensional manifolds.\nDonaldson theory has applications in a variety of fields, including physics, where it has been used to study the topology of spacetime in string theory and other areas of theoretical physics. It has also had significant impact in pure mathematics, inspiring further research in the fields of algebraic geometry, topology, and differential geometry.\n\n\nLie Algebras in Particle Physics\n\nLie Algebras in Particle Physics\n\nLie Algebras in particle physics are mathematical structures that help to describe and classify physical systems, particularly those involving symmetries and transformations. In essence, a Lie algebra is a vector space equipped with a certain kind of product, called the Lie bracket, that captures the essential information about continuous transformations and symmetries. When applied to particle physics, Lie algebras offer a robust framework for understanding the fundamental particles and forces that govern the universe.\nThe concept of Lie algebras originated in the late 19th century with the work of Norwegian mathematician Sophus Lie. Originally developed to study continuous transformation groups, the scope of Lie algebras has expanded to diverse areas of mathematics and physics. Their application in particle physics became increasingly significant during the 20th century, especially after the development of quantum mechanics and quantum field theory. The SU(3) Lie algebra, for example, was crucial in predicting the existence of particles like the omega-minus baryon before it was experimentally discovered.\nLie algebras offer a theoretical structure that is essential for formulating the Standard Model of particle physics, which describes electromagnetic, weak, and strong forces. Because Lie algebras are tightly connected to symmetry principles, they enable physicists to simplify complex systems and make predictions about particle interactions.\nApplications\n\nParticle Classification: Used for the classification of elementary particles into families and generations, assisting in the prediction of undiscovered particles.\nSymmetry Breaking: Helps in understanding the mechanism by which symmetry breaking occurs, a phenomenon critical to our understanding of the universe.\nField Theories: Employed in various quantum field theories to solve or approximate solutions for complex equations of motion.\nUnification Theories: Lie algebras and their corresponding Lie groups have been essential in attempts to develop Grand Unified Theories (GUTs) and even theories of everything.\n\nRelevant Subtopics\n\nBasic Definitions and Principles: Introduction to Lie groups, Lie algebras, and the relationship between them.\nRepresentation Theory: How Lie algebras can be represented as matrices, and why these representations are useful in particle physics.\nSU(N) Algebras: Special Unitary Groups of degree (N) and their importance in particle physics.\nSymmetry and Conservation Laws: Discussion on how Lie algebras relate to symmetries in physical systems and the corresponding conservation laws.\nApplication to the Standard Model: Utilizing Lie algebras to describe the particles and interactions within the Standard Model.\nAdvanced Topics: Covering roots, weights, Dynkin diagrams, and their role in particle physics."
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/ethereum/index.html",
+    "href": "library/natural-sciences/crypto/blockchain/ethereum/index.html",
+    "title": "Ethereum",
+    "section": "",
+    "text": "Eth2Book: A lot of Good Info on Ethereum\nEthereum Youtube: Community calls and such\nIntent Based Architectures and Their Risks\nClient Bootnode Concerns\nCollecting Signatures for Faster Finality\nProof of Solvency\nState of Testnets\nVitalik: the roads not taken"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/ethereum/index.html#consensus",
+    "href": "library/natural-sciences/crypto/blockchain/ethereum/index.html#consensus",
+    "title": "Ethereum",
+    "section": "Consensus",
+    "text": "Consensus\n\nCasper the Friendly Finality Gadget\nCombining GHOST and Casper\nBeacon Chain Casper Mini-Spec\nzkCasper: SNARK based scheme for verifying the Ethereum’s Casper FFG consensus proofs\nEthereum Inactivity Leak\n\n\nConsensus Attacks\n\nTwo Attacks on Proof-of-Stake GHOST/Ethereum\nThree Attacks on Proof-of-Stake Ethereum\nBalancing Attack on Gasper\nMitigating Balancing Attacks on LMD GHOST\nDiscouragement Attacks\nVitalik Paper\nDiscouragement Attacks"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/ethereum/index.html#consensus-attacks",
+    "href": "library/natural-sciences/crypto/blockchain/ethereum/index.html#consensus-attacks",
+    "title": "Ethereum",
+    "section": "Consensus Attacks",
+    "text": "Consensus Attacks\n\nTwo Attacks on Proof-of-Stake GHOST/Ethereum\nThree Attacks on Proof-of-Stake Ethereum\nBalancing Attack on Gasper\nMitigating Balancing Attacks on LMD GHOST\nDiscouragement Attacks\nVitalik Paper\nDiscouragement Attacks"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/ethereum/index.html#proposer-builder-separation",
+    "href": "library/natural-sciences/crypto/blockchain/ethereum/index.html#proposer-builder-separation",
+    "title": "Ethereum",
+    "section": "Proposer Builder Separation",
+    "text": "Proposer Builder Separation\n\nMEV-Boost Plan\nProposer Boost Considerations\nMEV-Boost in a Nutshell\nPBS Censorship Resistance\nState of research: increasing censorship resistance of transactions under PBS\nPBS Censorship-Resistance Alternatives\nCurrent crList Proposal\nTime to Bribe: Measuring Block Construction Markets"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/ethereum/index.html#sharding",
+    "href": "library/natural-sciences/crypto/blockchain/ethereum/index.html#sharding",
+    "title": "Ethereum",
+    "section": "Sharding",
+    "text": "Sharding\n\nDanksharding\nPolynya on Danksharding\nNightshade: Near Protocol Sharding Design\nThe Tie: Danksharding\n\n\nGeneral\n\nEthereum Inactivity Leak\nIntent Based Architectures and Their Risks\nAccount Abstraction in a Multichain Landscape - Part 1: Addresses\nAccount Abstraction Using Alt Mempool\nEIP-1153: Transient Storage\nTime to Bribe: Measuring Block Construction Markets\n2FA ZK Rollups using SGX\nClient Bootnode Concerns\nCollecting Signatures for Faster Finality\nProof of Solvency\nState of Testnets\nEth Withdrawals FAQ\n100 Days After the Merge\nWithdrawals after Shanghai\nExecution Layer Meeting\nzkCasper: SNARK based scheme for verifying the Ethereum’s Casper FFG consensus proofs\nEthereum Data Structures\nEth2Book: A lot of Good Info on Ethereum\nOfficial Merge Announcement\nERC-4337: What’s in an Account?"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/ethereum/index.html#general",
+    "href": "library/natural-sciences/crypto/blockchain/ethereum/index.html#general",
+    "title": "Ethereum",
+    "section": "",
+    "text": "Eth2Book: A lot of Good Info on Ethereum\nEthereum Youtube: Community calls and such\nIntent Based Architectures and Their Risks\nClient Bootnode Concerns\nCollecting Signatures for Faster Finality\nProof of Solvency\nState of Testnets\nVitalik: the roads not taken"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/ethereum/index.html#eips",
+    "href": "library/natural-sciences/crypto/blockchain/ethereum/index.html#eips",
+    "title": "Ethereum",
+    "section": "EIPs",
+    "text": "EIPs\n\n4844\nSharding\n\nEIP-4844: Shard Blob Transactions\nDanksharding\nPolynya on Danksharding\nNightshade: Near Protocol Sharding Design\nThe Tie: Danksharding\n\n\n\n3675\nProof of Stake\n\nEIP-3675: Upgrade consensus to Proof-of-Stake\nEth Withdrawals FAQ\n100 Days After the Merge\nWithdrawals after Shanghai\nOfficial Merge Announcement\n\n\n\n2938/4337\nAccount Abstraction\n\nEIP-2938: Account Abstraction\nERC-4337: Account Abstraction Using Alt Mempool\nAccount Abstraction in a Multichain Landscape - Part 1: Addresses\nWhat’s in an Account?\n\n\n\nOther\n\nEIP-1153: Transient Storage"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/solana/index.html",
+    "href": "library/natural-sciences/crypto/blockchain/solana/index.html",
+    "title": "Solana",
+    "section": "",
+    "text": "How will Solana Improve its Stability?"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/solana/index.html#the-tech",
+    "href": "library/natural-sciences/crypto/blockchain/solana/index.html#the-tech",
+    "title": "Solana",
+    "section": "",
+    "text": "How will Solana Improve its Stability?"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/solana/index.html#partnerships",
+    "href": "library/natural-sciences/crypto/blockchain/solana/index.html#partnerships",
+    "title": "Solana",
+    "section": "Partnerships",
+    "text": "Partnerships\n\nVisa expands stablecoin settlement capabilities with Circle’s USDC utilizing the Solana blockchain.\nVia: A deep dive on Solana, a high performance blockchain network\n\n\nFee Markets\n\nPriority Fees Github Issue\nDune Query: % of Sol Txs with Fee above base\n\n\n\nThe Solana Validator\n\nFiredancer: A New Client by Jump\nValidator Economics on Solana"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/solana/index.html#mango-rekt",
+    "href": "library/natural-sciences/crypto/blockchain/solana/index.html#mango-rekt",
+    "title": "Solana",
+    "section": "Mango Rekt",
+    "text": "Mango Rekt\n\nOverview\nOn October 11th, 2022, Avraham Eisenberg and co conducted a “highly profitable trade”, exploiting a poor liquidation implementation on Mango Markets, a DeFi application on the Solana network.\n\n\nHow it worked\nAttacker had two accounts, let’s call them account A and account B.\n\nAttacker funds account A with $5 million of USDC, to be used as collateral for on-chain positions.\nAttacker then offered out (sold short) ~483 million MNGO tokens, trading at $0.038 at the time.\nAttacker then funds account B with $5 million USDC, and purchases those ~438 million MNGO at $0.0382\nAttacker then purchases MNGO on the Spot market, artificially increasing its price. The price of mango reached $0.91 (a 24x increase).\nAt this new inflated price, account B was in the money for ~ $423 million. He used this account value to take out a loan of $116 million consisting of several tokens.\nAfter the attack, the MNGO/USD spot market then traded down to $0.02, which put account A in the money. However, Mango protocol was effectively drained of all liquidity, so account A could not be paid out.\n\n\n\nSummary\nMango Markets were designed to give loans at a certain collateralization ratio (e.g. 400%), but they used the spot market as an oracle for “fair price” of the token. Thus, tokens with low liquidity could be easily manipulated such that the protocol believes “fair price” is multiples above what anyone would purchase the token at in free markets.\n\n\nFuture Mitigation\nMitigating this type of attack is as simple as fixing the Oracle mechanism. For example, one could use a 24hr rolling average price to determine “fair value” for lending, which would make the market manipulator’s attack much more difficult (must pump price for 24 hour rather than a few seconds).\n\n\nFurther Reads\n\nNotice of Exploit by Otter Security\nEarly Analysis of What Happened\nSam Bankman Freid on How to Protect from this Attack\nAttacker Admitting his Involvement"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/rekt/index.html",
+    "href": "library/natural-sciences/crypto/blockchain/rekt/index.html",
+    "title": "Rekt",
+    "section": "",
+    "text": "Rekt Leaderboard\nChainalysis 2022 Crypto Crime Report\nTimeline of breahces, frauds and scams\n\n\n\nSharedStake sgETH contract has been exploited for 102 ETH and sgETH has been infiniminted\n\nFortunately the contract was only a month or two old and didn’t have much TVL.\n\nHacker Address 1 Hacker Address 2\n\n\n\n\nSlope Finance Wallet Exploit: Otter Security"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/rekt/index.html#resources",
+    "href": "library/natural-sciences/crypto/blockchain/rekt/index.html#resources",
+    "title": "Rekt",
+    "section": "",
+    "text": "Rekt Leaderboard\nChainalysis 2022 Crypto Crime Report\nTimeline of breahces, frauds and scams\n\n\n\nSharedStake sgETH contract has been exploited for 102 ETH and sgETH has been infiniminted\n\nFortunately the contract was only a month or two old and didn’t have much TVL.\n\nHacker Address 1 Hacker Address 2\n\n\n\n\nSlope Finance Wallet Exploit: Otter Security"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/rekt/index.html#mango-rekt",
+    "href": "library/natural-sciences/crypto/blockchain/rekt/index.html#mango-rekt",
+    "title": "Rekt",
+    "section": "Mango Rekt",
+    "text": "Mango Rekt\n\nOverview\nOn October 11th, 2022, Avraham Eisenberg and co conducted a “highly profitable trade”, exploiting a poor liquidation implementation on Mango Markets, a DeFi application on the Solana network.\n\n\nHow it worked\nAttacker had two accounts, let’s call them account A and account B.\n\nAttacker funds account A with $5 million of USDC, to be used as collateral for on-chain positions.\nAttacker then offered out (sold short) ~483 million MNGO tokens, trading at $0.038 at the time.\nAttacker then funds account B with $5 million USDC, and purchases those ~438 million MNGO at $0.0382\nAttacker then purchases MNGO on the Spot market, artificially increasing its price. The price of mango reached $0.91 (a 24x increase).\nAt this new inflated price, account B was in the money for ~ $423 million. He used this account value to take out a loan of $116 million consisting of several tokens.\nAfter the attack, the MNGO/USD spot market then traded down to $0.02, which put account A in the money. However, Mango protocol was effectively drained of all liquidity, so account A could not be paid out.\n\n\n\nSummary\nMango Markets were designed to give loans at a certain collateralization ratio (e.g. 400%), but they used the spot market as an oracle for “fair price” of the token. Thus, tokens with low liquidity could be easily manipulated such that the protocol believes “fair price” is multiples above what anyone would purchase the token at in free markets.\n\n\nFuture Mitigation\nMitigating this type of attack is as simple as fixing the Oracle mechanism. For example, one could use a 24hr rolling average price to determine “fair value” for lending, which would make the market manipulator’s attack much more difficult (must pump price for 24 hour rather than a few seconds).\n\n\nFurther Reads\n\nNotice of Exploit by Otter Security\nEarly Analysis of What Happened\nSam Bankman Freid on How to Protect from this Attack\nAttacker Admitting his Involvement"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/rekt/stake.html",
+    "href": "library/natural-sciences/crypto/blockchain/rekt/stake.html",
+    "title": "Stake",
+    "section": "",
+    "text": "Timeline\nFirst and second transactions\nPeckshield Alert | tweet\nFlow of Funds Diagram | tweet\nStake statement\n\n\nOverview\nETH, BSC, and Polygon affected"
   }
 ]
