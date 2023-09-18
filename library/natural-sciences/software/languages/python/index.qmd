@@ -1,0 +1,17 @@
+---
+title: Python
+---
+
+Generate LaTex with Python
+- [tweet](https://twitter.com/AlphaSignalAI/status/1627812813115691008?s=20)
+- [github](https://t.co/RT3s4nlWRA)
+- [colab](https://colab.research.google.com/drive/1MuiawKpVIZ12MWwyYuzZHmbKThdM5wNJ?usp=sharing)
+
+FastAPI: Making Web APIs
+- [docs](https://fastapi.tiangolo.com/#create-it)
+
+Typer: Making Python CLI Apps
+- [docs](https://typer.tiangolo.com/)
+
+React for Python Now Exists
+- [github](https://github.com/reactive-python/reactpy)

@@ -1,0 +1,15 @@
+## Fully Homomorphic Encryption
+
+### Reads
+
+- [First Ever Fully Homomorphic Encryption Scheme](https://crypto.stanford.edu/craig/craig-thesis.pdf)
+- [Vitalik on FHE](https://vitalik.ca/general/2020/07/20/homomorphic.html)
+
+### Projects
+
+**Zama**
+
+- [website](https://www.zama.ai/)
+- [documentation](https://docs.zama.ai/homepage/)
+- [github](https://github.com/zama-ai)
+- Zama Concrete: [documentation](https://docs.zama.ai/concrete)

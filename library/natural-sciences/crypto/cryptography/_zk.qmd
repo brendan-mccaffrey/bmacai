@@ -1,0 +1,86 @@
+## Zero Knowledge
+
+#### **Example: The 3-Color Graph Coloring Problem**
+
+A Zero-Knowledge Proof (ZKP) allows a prover to demonstrate knowledge of some secret without revealing the secret itself. Let's illustrate this using a graph coloring problem.
+
+##### **Problem Statement**
+Imagine Alice has a graph $(G = (V, E))$, where $(V)$ is the set of vertices and $(E)$ is the set of edges. Alice claims she can 3-color the graph so that no adjacent vertices share the same color. Bob wants to verify this claim without learning the actual coloring.
+
+##### **The ZKP Protocol**
+1. **Commitment**: Alice chooses a random permutation of her 3-coloring and commits to it, sending a cryptographic hash of each vertex's color to Bob.
+2. **Challenge**: Bob randomly selects an edge $((u, v) \in E)$
+3. **Response**: Alice reveals the colors of vertices $(u)$ and $(v)$.
+4. **Verification**: Bob checks if the revealed colors are different and match the hash commitments.
+
+Through repeated iterations, Bob becomes increasingly confident that Alice has a valid 3-coloring, but gains no knowledge about the coloring itself.
+
+##### **Math Syntax**
+- Graph: $(G = (V, E))$
+- Colors: $(\{ \text{Red}, \text{Green}, \text{Blue} \})$
+- Random Permutation: $(\pi)$
+- Hash Commitment for vertex $(v): ( H(\pi(\text{color}(v))) )$
+
+This example shows that ZKPs can provide robust verification without sacrificing the secrecy of the information involved.
+
+### Reads
+
+**Educational Resources**
+
+- [Zero Knowledge A-Z](https://graph.org/ZK-SNARKs-VS-ZK-STARKs-01-10)
+- [Introduction to Zero Knowledge: Video Tutorial](https://www.youtube.com/watch?v=6uGimDYZPMw&list=PL8Vt-7cSFnw29cLUVqAIuMlg1QJ-szV0K&index=1)
+- [zkMesh Newsletter](https://t.co/WZfjL7D8PW)
+- [ZK "Canon" by A16z](https://a16zcrypto.com/zero-knowledge-canon/)
+- [ZkIntro](https://zkintro.com/articles/friendly-introduction-to-zero-knowledge)
+- [RiscZero Study Club](https://www.youtube.com/watch?v=v4HIwaqmIxk&list=PLcPzhUaCxlCirUkJY0ltpjdtzWcz5U_6y&index=3)
+- [ZKP.Science](https://zkp.science/)
+
+**Foundational Papers**
+
+- [New Directions in Cryptography, 1976](https://t.co/xqjkEf7TEV)
+- [Public-coin zero-knowledge arguments with (almost) minimal time and space overheads, 2020](https://t.co/odrV7LZdIy)
+- [A method for obtaining digital signatures and public-key cryptosystems](https://people.csail.mit.edu/rivest/Rsapaper.pdf)
+
+**Technical Deep Dives**
+
+- [Overview of Verifiable Computing](https://t.co/nkwNAjnRr6)
+- [Interactive Proofs](https://t.co/xPBWXvKwbY)
+- [Measuring SNARK Performance](https://t.co/tXwTlfEi5g)
+- [Why and How ZK-SNARK Works](https://arxiv.org/abs/1906.07221)
+- [Succint Non-Interactive Zero Knowledge for a von Neumann Architecture](https://eprint.iacr.org/2013/879.pdf)
+- [PLONK Explainer by Vitalik](https://vitalik.ca/general/2019/09/22/plonk.html)
+- [PLONK ePrint](https://eprint.iacr.org/2019/953.pdf)
+- [Streaming Zero-Knowledge Proofs](https://arxiv.org/abs/2301.02161)
+
+### Practical Applications
+- [Applied ZK](https://t.co/6TvEniH6kA)
+- [Crypto Regulations, Privacy and Beyond](https://web3-with-a16z.simplecast.com/episodes/crypto-regulations-sanctions-compliance-aml-ofac-news-explained)
+- [ZK Benchmarks](https://www.zk-bench.org/)
+
+### Projects
+
+**Axiom:** Building a zk coprocessor for Ethereum
+
+- [Twitter](https://twitter.com/axiom_xyz)
+- [Website](www.axiom.xyz)
+- [Demo](demo.axiom.xyz)
+- [Docs](docs.axiom.xyz)
+
+**RiscZero:** Making generalizable computer architecture for ZK
+
+- [website](https://www.risczero.com/)
+- [docs](https://dev.risczero.com/)
+- [github](https://github.com/risc0/risc0)
+
+Blockchain product: Bonsai
+- [docs](https://dev.bonsai.xyz/)
+- [starter template](https://github.com/risc0/bonsai-foundry-template)
+
+**ZK Proof of Exploit**
+
+- [twitter](https://twitter.com/zkpoex)
+
+
+
+
+

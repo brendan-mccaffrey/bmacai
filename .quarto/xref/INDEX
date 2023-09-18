@@ -922,5 +922,35 @@
   },
   "library/natural-sciences/crypto/blockchain/rekt/stake.qmd": {
     "stake.html": "8ee2797e"
+  },
+  "library/natural-sciences/crypto/blockchain/index.qmd": {
+    "index.html": "78aac998"
+  },
+  "library/natural-sciences/crypto/blockchain/bitcoin/btc-core.qmd": {
+    "btc-core.html": "3c261409"
+  },
+  "library/natural-sciences/crypto/blockchain/bitcoin/index.qmd": {
+    "index.html": "a2456177"
+  },
+  "library/natural-sciences/crypto/blockchain/rekt/ygg.qmd": {
+    "ygg.html": "b0ba6b5e"
+  },
+  "library/natural-sciences/crypto/blockchain/apps/hyperliquid.qmd": {
+    "hyperliquid.html": "ed8d87f9"
+  },
+  "library/natural-sciences/crypto/blockchain/apps/ethena/ethena.qmd": {
+    "ethena.html": "680e9e2a"
+  },
+  "library/natural-sciences/crypto/blockchain/mev/index.qmd": {
+    "index.html": "902725e7"
+  },
+  "library/natural-sciences/crypto/blockchain/mev/amm/index.qmd": {
+    "index.html": "0630463a"
+  },
+  "library/natural-sciences/software/index.qmd": {
+    "index.html": "c8c51411"
+  },
+  "library/natural-sciences/crypto/cryptography/index.qmd": {
+    "index.html": "ea7b04f6"
   }
 }

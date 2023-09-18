@@ -6,6 +6,7 @@ page-layout: full
 
 ## General
 
+- [Ethereum Research Forum](https://ethresear.ch/)
 - [Eth2Book: A lot of Good Info on Ethereum](https://eth2book.info/)
 - [Ethereum Youtube: Community calls and such](https://www.youtube.com/@EthereumProtocol/videos)
 - [Intent Based Architectures and Their Risks](https://www.paradigm.xyz/2023/06/intents)

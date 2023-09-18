@@ -1,0 +1,85 @@
+---
+title: bash
+---
+
+## Bash Cheatsheet
+
+```bash
+##########################
+### ALIAS 
+nano ~/.zshrc
+alias sshgeth='ssh <USER>@<IP_ADDRESS>'
+source ~/.zshrc
+
+##########################
+### Directory Mainpuations
+
+# create directory
+mkdir
+# copy directory and contents
+cp -r
+# move directory and contents
+mv -r
+# remove directory and contents
+rm -r
+# remove directory contents without prompt
+rm -rf /path/to/directory/*
+# example: copies all files in directory to another directory and uses variable date for name
+cp -r logs/futures datastore/futures_$(date +%Y%m%d_%H:%M)
+rm -rf logs/futures/*
+
+##########################
+### File Manipulation
+# create file
+touch filename.txt
+# edit file
+nano filename.txt
+
+##########################
+### Screens
+
+# list all screens
+screen -ls
+# create new screen
+screen -S screen_name
+# detach from screen
+ctrl+a d
+# reattach to screen
+screen -r screen_name
+# check if you are on a screen
+echo $STY
+
+##########################
+### Jobs
+
+# list all jobs
+jobs
+# kill job
+kill %job_number
+# bring job to foreground
+fg %job_number
+# bring job to background
+bg %job_number
+# bring current job to background
+ctrl+z
+
+##########################
+### Disk Space
+
+# check disk space
+df -h
+# check disk space of directory
+du -sh /path/to/directory
+# check disk space of directory and subdirectories
+du -sh /path/to/directory/*
+
+##########################
+### No Sleep
+
+# keep computer awake for 1 hr
+caffeinate -t 3600 &
+# keep awake until command finishes
+caffeinate -i long_running_script.sh
+```
+
+

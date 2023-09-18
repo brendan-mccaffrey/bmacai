@@ -1,0 +1,31 @@
+--- 
+title: Cybersecurity
+---
+
+
+## Learning
+
+- [hackertest.net](http://www.hackertest.net/)
+
+## Tools
+
+- [Subdomain finder (e.g. ___.example.com)](https://www.geeksforgeeks.org/subfinder-tool-in-linux/)
+    - [in use](https://twitter.com/hacker_/status/1575466236426670080?s=20&t=XaTcIuMck-s-sOQlsv_5sQ)
+
+- [Scout2: AWS Security Tool](https://www.kitploit.com/2018/07/scout2-security-auditing-tool-for-aws.html?m=0)
+
+Privacy Protect
+- [github](https://github.com/therockstorm/privacy-protect)
+- [website](https://www.privacyprotect.dev/)
+- [original article](https://mprimi.github.io/portable-secret/)
+
+## Articles
+
+EthClipper: A Clipboard Meddling Attack on Hardware Wallets with Address Verification Evasion
+- [paper](https://arxiv.org/pdf/2108.14004.pdf)
+
+Only Safe Way to Store Crypto
+- [article](https://officercia.mirror.xyz/p1ieZdxQWH4yHCNOXNPHyT8So1cY0X_wMGKwdmavi7s)
+
+Tempest: Spying on information systems through leaking emanations
+- [wiki](https://en.wikipedia.org/wiki/Tempest_(codename))

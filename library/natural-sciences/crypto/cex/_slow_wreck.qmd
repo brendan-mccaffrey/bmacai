@@ -1,0 +1,71 @@
+##### **Slow Train Wreck: Binance timeline since December 2022**
+
+**December**
+
+- Binance Experiences >$10bn of Net Withdrawals; Temporarily Suspends Spot BNB Borrow; Temporarily Halts Withdrawals of ERC USDC; Is Said to Be on the Verge of Being Charged by DoJ
+- Binance Proof of Reserves Auditor Mazar's Pauses All Crypto Work, Removes Binance Attestation
+- BinanceUS Temporarily Halts Withdrawals of USDT and USDC
+
+**January**
+
+- Binance Admits Stablecoin Pegged-BUSD Had >$1bn Collateral Hole, Claims It Is Now Fixed
+
+**February**
+
+- NVDFS Investigating Paxos Over BUSD Stablecoin
+- SEC Plans to Sue Paxos Over BUSD Stablecoin, Ordered to Stop Issuing BUSD
+- CZ Announes an Orderly Wind Down of BUSD Trading Over Time
+- Coinbase to Suspend BUSD Trading March 13th
+- Binance Australia Closes Derivatives Trading on Some Accounts
+- BinanceUS Found with Unexplained $400mm Transfer to CZ-controlled Entity
+- Binance Loses Banking Partner, Suspends USD Bank Transfers
+
+**March**
+
+- Binance and Changpeng Sued by CFTC Under Scathing Allegations
+
+**April**
+
+- BinanceUS Allowed by US Government to Continue with Acquisition of Voyager Digital, Then Backs Out of Acquisition
+
+**May**
+
+- Binance Withdraws from Canada Entirely
+- [Reuters Claims Binance Comingled Customer Funds and Company Revenues in 2020 and 2021](https://www.reuters.com/investigates/special-report/crypto-binance-money/)
+- DoJ Investigating Whether Binance Violated US Sanctions Against Russia
+- Binance Temporarily Halts BTC Withdrawals, Falsely Blaming Mempool Congestion
+- BinanceUS Withdraws All Assets from Staking Pools, Prices Heavily Deviate from Other Exchanges as Exchange Liquidity Falters
+- Binance Has Started Layoffs, Rumored to Be 20%
+
+**June**
+
+- [SEC Sues Binance and Changpeng on 13 Charges with Incredibly Danning Evidence](https://www.sec.gov/news/press-release/2023-101)
+- Bloomberg Claims Changpeng May Step Down and Be Replaced by Richard Teng
+- SEC Seeks Restraining Order to Freeze BinanceUS Assets; Judge Denies Restraining Order and Forces SEC and BinanceUS to Compromise on Securing Customer Assets
+- Binance Under Investigation in France for Aggravated Money Laundering
+- Binance Forced to Cease Operating in Netherlands
+- Binance Forced to Cease Operating in Belgium
+- Binance Moves 130,000 Bitcoin, Claims It's a Cold Wallet Shuffle
+- Binance and Changpeng Hire George Canellos, Former Chief of SEC Major Crimes Unit, As Criminal Defense Attorney
+
+**July**
+
+- [Binance doesn't have Enough BCH to Process Withdrawals](https://twitter.com/im_uname/status/1678159645209411584?s=20)
+- Binance General Counsel, Chief Strategy Officer and SVP of Compliance All Quit in Response to Changpeng Zhao's Interactions with US Regulators
+- Binance Moves $7.5bn of BNB, Claims to Be "Spreading Coins to More Addresses"
+- Binance Withdraws License Application in Germany After It Was Set to Be Rejected Due to Changpeng Zhao
+- Binance Lays Off >1,000 Employees
+- Binance Cuts Employee Benefits, Citing a Decline in Profits
+
+**August**
+
+- Binance Shuts Down Crypto Payments Business
+- Mastercard Ends Card Partnership with Binance
+- Binance's Credit Card Processor Checkout.com Ends Services with Binance Due to AML Compliance Concerns
+- WSJ Claims Binance Is Committing Massive US Sanctions Violations with Russian Banks
+- Binance Head of APAC Quits
+- BinanceUS Is Unable to Produce Financial Records for SEC
+
+**September**
+
+- Binance's Head of Product Quits

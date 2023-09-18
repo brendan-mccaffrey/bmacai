@@ -1,7 +1,6 @@
 ---
 title: "Blockchains"
-description: "All things directly related to Ethereum"
-page-layout: full
+description: "Cryptographic ledgers"
 ---
 
 {{< include _early.qmd >}}

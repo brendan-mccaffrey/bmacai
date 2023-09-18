@@ -8,3 +8,13 @@ description: Why did the quantum computer get kicked out of school? Because ever
 - [Quantum Hamiltonian-Based Models & the Variational Quantum Thermalizer Algorithm](https://arxiv.org/pdf/1910.02071.pdf)
 - [Limitations of optimization algorithms on noisy quantum devices](https://www.nature.com/articles/s41567-021-01356-3)
 - [Variational Quantum Thermalization](https://deep-1645.medium.com/variational-quantum-thermalization-and-the-future-of-quantum-thermodynamics-75ee9916ec3c)
+- [Simulating Quantum Computers Using OpenCL](https://arxiv.org/pdf/1805.00988.pdf)
+- [Upgrading qsim, Google Quantum AI's Open Source Quantum Simulator](https://opensource.googleblog.com/2021/11/Upgrading%20qsim%20Google%20Quantum%20AIs%20Open%20Source%20Quantum%20Simulator.html)
+- [Closed Timelike Curves Make Quantum and Classical Computing Equivalent](https://arxiv.org/abs/0808.2669)
+- [Running Quantum Software on a Classical Computer](https://www.sciencedaily.com/releases/2021/08/210803121404.htm)
+- [Variational Quantum Thermalization and the Future of Quantum Thermodynamics](https://deep-1645.medium.com/variational-quantum-thermalization-and-the-future-of-quantum-thermodynamics-75ee9916ec3c)
+- [Evidence for the utility of quantum computing before fault tolerance](https://www.nature.com/articles/s41586-023-06096-3)
+- [Quantum Computation and Quantum Information](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf)
+
+
+{{< include _logical-gate-speed.qmd >}}

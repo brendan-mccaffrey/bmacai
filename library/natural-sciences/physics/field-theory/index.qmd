@@ -4,7 +4,6 @@ title: Field Theory
 
 ## Resources
 
-- [Quantum Field Theory: Effective or Fundamental?](field-theory/effective-or-fundamental.qmd)
 - [Brief History of Guage Field Physics](https://twitter.com/VergaraLautaro/status/1631617236057063424)
 - [The Unreasonable Effectiveness of Quantum Field Theory](https://arxiv.org/abs/hep-th/9602122)
 - [Introduction to Genralized Global Symmetries in QFT and Particle Physics](https://arxiv.org/abs/2306.00912)

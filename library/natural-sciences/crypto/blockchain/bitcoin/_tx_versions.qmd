@@ -1,0 +1,152 @@
+## Bitcoin Transaction Versions
+
+Bitcoin transactions have undergone various upgrades to improve scalability, security, and functionality. This document aims to elucidate the differences among different Bitcoin transaction versions, focusing on cryptographic aspects such as address formats and transaction input/output (tx I/O) variations.
+
+### Legacy 
+
+**Legacy Transactions Support both Legacy addresses (P2PKH) and Script addresses (P2SH)**
+
+**Legacy Address Format (P2PKH)**
+
+- Base58Check encoded
+- Starts with `1`
+
+**Cryptographic Aspects**
+
+- Public Key Hash (PKH) derived from SHA256 and RIPEMD160
+- ScriptSig (Unlocking Script): `PUSH [Sig] PUSH [PubKey]`
+- ScriptPubKey (Locking Script): `OP_DUP OP_HASH160 [PKH] OP_EQUALVERIFY OP_CHECKSIG`
+
+**Script Address Format (P2SH)**
+
+- Base58Check encoded
+- Starts with 3
+
+**Cryptographic Aspects**
+
+- Script Hash (SH) derived from SHA256 and RIPEMD160
+- ScriptSig: `PUSH [Redeem Script]`
+- ScriptPubKey: `OP_HASH160 [SH] OP_EQUAL`
+
+Input:
+
+- **UTxO (Unspent Transaction Output):** Identified by a txid and an output number.
+- **Script Signature:** Proves possession of the private key for the address owning the UTxO.
+
+Output:
+
+- **Amount:** In satoshis.
+- **Public Spending Script:** Two primary types.
+    - **P2PKH (Pay to Public Key Hash):** 25 bytes, specific to a single public key.
+    - **P2SH (Pay to Script Hash):** 23 bytes, allows for multisignature transactions.
+
+**Resources**
+
+- [Legacy Addresses](https://bitcoin.design/guide/glossary/address/#legacy-address---p2pkh)
+- [Script Addresses](https://bitcoin.design/guide/glossary/address/#script-address---p2sh)
+
+### Segwit (Segregated Witness)
+
+**Address Format (P2WPKH, P2WSH)**
+
+- Bech32 encoded
+- Starts with `bc1`
+
+**Cryptographic Aspects**
+
+- Witness Program derived from SHA256
+- ScriptSig (Unlocking Script): Absent, replaced by witness data
+- ScriptPubKey (Locking Script): `0 [20-byte PKH or 32-byte script hash]`
+
+**Input:**
+
+- **UTxO (Unspent Transaction Output):** Identified by a txid and an output number.
+- **Script Signature:** Replaced by witness data, validated separately.
+
+**Output:**
+
+- **Amount:** In satoshis.
+- **Witness Program:** Two primary types.
+    - **P2WPKH (Pay to Witness Public Key Hash):** 22 bytes, simple single-signature transactions.
+    - **P2WSH (Pay to Witness Script Hash):** 32 bytes, multisignature or complex scripts.
+
+**Additional Context**
+
+- **Soft Fork Introduction**: Increases blockchain space efficiency.
+- **Practical Implications**: Enables a practical Lightning Network.
+- **Txid Malleability**: Fixes some attacks related to transaction ID malleability.
+- **Versions**: 50% of transactions use version 0; the remainder are legacy.
+
+**Resources**
+
+- [Segwit Addresses](https://bitcoin.design/guide/glossary/address/#segwit-address---p2wpkh)
+
+### Taproot
+
+**Address Format (P2TR)**
+
+- Bech32m encoded
+- Starts with `bc1p`
+
+**Cryptographic Aspects**
+
+- Utilizes Schnorr signatures
+- ScriptSig (Unlocking Script): Absent, replaced by witness and control block
+- ScriptPubKey (Locking Script): `1 [32-byte public key]`
+
+**Input:**
+
+- **UTxO (Unspent Transaction Output):** Identified by a txid and an output number.
+- **Script Signature:** Replaced by Schnorr signature and optional control block for spending conditions.
+
+**Output:**
+
+- **Amount:** In satoshis.
+- **Public Spending Script:**
+    - **P2TR (Pay to Taproot):** 32 bytes, allows flexible conditions with Schnorr and MAST.
+
+**Additional Context**
+
+- **MAST**: Merkle Abstract Syntax Trees allow hashing scripts to produce a root hash, enabling proof of transaction validity without revealing the master public key.
+
+**Resources**
+
+- [Taproot Addresses](https://bitcoin.design/guide/glossary/address/#taproot-address---p2tr)
+
+### Summary
+
+| Version    | Address Encoding | Key/Script Hashing | ScriptSig                           | ScriptPubKey                       |
+|------------|------------------|--------------------|-------------------------------------|------------------------------------|
+| P2PKH      | Base58Check      | SHA256/RIPEMD160   | `PUSH [Sig] PUSH [PubKey]`          | `OP_DUP OP_HASH160 [PKH] ...`      |
+| P2SH       | Base58Check      | SHA256/RIPEMD160   | `PUSH [Redeem Script]`              | `OP_HASH160 [SH] OP_EQUAL`         |
+| P2WPKH     | Bech32           | SHA256/RIPEMD160   | Empty                               | `OP_0 [WPKH]`                      |
+| P2TR       | Bech32m          | Schnorr            | Empty                               | `OP_1 [TOK]`                       |
+
+
+**Trade-offs**
+
+Understanding the cryptographic nuances among different Bitcoin transaction versions reveals trade-offs in three main domains: complexity, scalability, and security.
+
+**Complexity**
+
+- **P2PKH**: Simple but less flexible. Good for basic transactions but limited in complex conditions.
+- **P2SH**: More complex due to the redeem script but offers multi-sig capabilities.
+- **P2WPKH**: Simplified transaction size but requires new address format, which might not be supported everywhere.
+- **P2TR**: Most complex, leveraging Schnorr signatures and Merkle trees. Allows scriptless scripts and aggregated signatures.
+
+**Scalability**
+
+- **P2PKH**: Larger transaction sizes result in higher fees.
+- **P2SH**: Can be size-efficient for complex conditions, but generally heavier than P2PKH.
+- **P2WPKH**: SegWit improves scalability by separating the witness, thereby reducing transaction size.
+- **P2TR**: Potentially most scalable, allowing complex conditions without bloating the blockchain.
+
+**Security**
+
+- **P2PKH**: Reliable but lacks native multi-sig and other advanced features.
+- **P2SH**: Enables multi-sig but could be susceptible to hash collision attacks.
+- **P2WPKH**: Inherent SegWit benefits such as eliminating third-party malleability.
+- **P2TR**: Provides the highest security, including script privacy and aggregated signatures.
+
+
+

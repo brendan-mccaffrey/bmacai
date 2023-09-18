@@ -1,16 +1,11 @@
 ---
 title: "CEXs"  
 description: "Centralized Exchanges"
-page-layout: full
 ---
 
 ## Binance
 
-SEC Files 13 Charges Against Binance Entities and Founder Changpeng Zhao
-- [release](https://www.sec.gov/news/press-release/2023-101)
+{{< include _slow_wreck.qmd >}}
 
-Binance Commingled Customer Funds and Company Revenue
-- [article](https://www.reuters.com/investigates/special-report/crypto-binance-money/)
 
-Binance doesn't have Enough BCH to Process Withdrawals
-- [tweet](https://twitter.com/im_uname/status/1678159645209411584?s=20)
+
