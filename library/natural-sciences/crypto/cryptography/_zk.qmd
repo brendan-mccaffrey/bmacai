@@ -51,6 +51,9 @@ This example shows that ZKPs can provide robust verification without sacrificing
 - [PLONK Explainer by Vitalik](https://vitalik.ca/general/2019/09/22/plonk.html)
 - [PLONK ePrint](https://eprint.iacr.org/2019/953.pdf)
 - [Streaming Zero-Knowledge Proofs](https://arxiv.org/abs/2301.02161)
+- [Why and How ZK-SNARK Works](https://arxiv.org/abs/1906.07221)
+- [Fast Amortized KZG Proofs](https://eprint.iacr.org/2023/033.pdf)
+- [ZK Development Playground](https://zkrepl.dev/)
 
 ### Practical Applications
 - [Applied ZK](https://t.co/6TvEniH6kA)

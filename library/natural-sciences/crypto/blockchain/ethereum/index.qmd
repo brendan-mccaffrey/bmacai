@@ -15,14 +15,25 @@ page-layout: full
 - [Proof of Solvency](https://ethresear.ch/t/snarked-merkle-sum-tree-a-practical-proof-of-solvency-protocol-based-on-vitaliks-proposal/14405)
 - [State of Testnets](https://twitter.com/TimBeiko/status/1628819200696516608?s=20)
 - [Vitalik: the roads not taken](https://vitalik.ca/general/2022/03/29/road.html)
+- [Endgame](https://vitalik.ca/general/2021/12/06/endgame.html) by Vitalik Buterin (EF)
+- [Updated Ethereum Roadmap](https://twitter.com/VitalikButerin/status/1466411377107558402?s=20) by Vitalik Buterin (EF)
+- [Time to Bribe: Measuring Block Construction Markets](https://eprint.iacr.org/2023/760.pdf)
+- [Retroactive Proposer Rewards](https://notes.ethereum.org/@casparschwa/S1vcyXZL9) by Caspar Schwarz-Schilling (RIG/EF)
+- [Single Secret Leader Election](https://eprint.iacr.org/2020/025.pdf) Boneh et al. (2020)
+- [Current CrList Proposal](https://notes.ethereum.org/@fradamt/H1ZqdtrBF) by Francesco D'Amato
+- [The Hitchhiker's Guide to Ethereum](https://members.delphidigital.io/reports/the-hitchhikers-guide-to-ethereum/) - very good technical introduction
+- [MergeMock](https://github.com/protolambda/mergemock)
 
 ## Consensus
 
+- [Ethereum Consensus Spec](https://github.com/ethereum/consensus-specs)
 - [Casper the Friendly Finality Gadget](https://arxiv.org/abs/1710.09437)
 - [Combining GHOST and Casper](https://arxiv.org/abs/2003.03052)
+    - [elopio's annotations](https://elopio.keybase.pub/papers/2020-combining_ghost_and_casper.pdf)
 - [Beacon Chain Casper Mini-Spec](https://ethresear.ch/t/beacon-chain-casper-mini-spec/2760/17)
 - [zkCasper: SNARK based scheme for verifying the Ethereum's Casper FFG consensus proofs](https://research.polytope.technology/zkcasper)
 - [Ethereum Inactivity Leak](https://eth2book.info/capella/part2/incentives/inactivity/)
+
 
 ### Consensus Attacks
 
@@ -34,28 +45,44 @@ page-layout: full
 - [Vitalik Paper](https://github.com/ethereum/research/blob/master/papers/discouragement/discouragement.pdf)
 - [Discouragement Attacks](https://github.com/ethereum/research/blob/master/papers/discouragement/discouragement.pdf)
 
+## Proof of Stake
+
+- [100 Days After the Merge](https://www.galaxy.com/research/insights/100-days-after-the-merge/)
+- [Withdrawals after Shanghai](https://dataalways.substack.com/p/partial-withdrawals-after-the-shanghai)
+- [Official Merge Announcement](https://blog.ethereum.org/2022/08/24/mainnet-merge-announcement/)
+- [Exploring Inequality in Proof of Stake](https://ethereum.github.io/beaconrunner/notebooks/naiveurn.html) by Barnabe Monnot (RIG/EF)
+- [What Happens After Finality in eth2](https://hackmd.io/@prysmaticlabs/finality) by Raul Jordan (Prysmatic)
+- [Rocketpool Post-Merge research](https://github.com/rocket-pool/rocketpool-research/tree/master/Post%20Merge)
+- [(Un-)Timeliness in PoS Ethereum](https://notes.ethereum.org/@casparschwa/ByHu1XZUq) by Caspar Schwarz-Schilling (RIG/EF)
+
 ## Proposer Builder Separation
 
 - [MEV-Boost Plan](https://github.com/flashbots/mev-boost/wiki/The-Plan-(tm))
-- [Proposer Boost Considerations](https://notes.ethereum.org/@casparschwa/H1T0k7b85)
+- [Proposer Boost Considerations](https://notes.ethereum.org/@casparschwa/H1T0k7b85) by Caspar Schwarz-Schilling (RIG/EF)
 - [MEV-Boost in a Nutshell](https://boost.flashbots.net/#block-6163a685d84444a9be309d26f18b4b2f)
+- [Ethereum Builder API Specs](https://ethereum.github.io/builder-specs/)
+- [MEV-Boost Relay API Specification V1](https://flashbots.notion.site/Relay-API-Documentation-5fb0819366954962bc02e81cb33840f5)
 - [PBS Censorship Resistance](https://notes.ethereum.org/@vbuterin/pbs_censorship_resistance)
 - [State of research: increasing censorship resistance of transactions under PBS](https://notes.ethereum.org/s3JToeApTx6CKLJt8AbhFQ#Hybrid-PBS-can-we-use-proposers-only-for-inclusion-of-last-resort)
 - [PBS Censorship-Resistance Alternatives](https://notes.ethereum.org/@fradamt/H1TsYRfJc)
 - [Current crList Proposal](https://notes.ethereum.org/Dh7NaB59TnuUW5545msDJQ)
-- [Time to Bribe: Measuring Block Construction Markets](https://eprint.iacr.org/2023/760.pdf)
+- [Proposer/block builder separation-friendly fee market designs](https://ethresear.ch/t/proposer-block-builder-separation-friendly-fee-market-designs/9725) by Vitalik Buterin (EF)
+- [Two-slot proposer/builder separation](https://ethresear.ch/t/two-slot-proposer-builder-separation/10980) by Vitalik Buterin (EF)
+- [State of research: increasing censorship resistance of transactions under proposer/builder separation (PBS)](https://notes.ethereum.org/@vbuterin/pbs_censorship_resistance) by Vitalik Buterin (EF)
+- [PBS Censorship-Resistance Alternatives](https://notes.ethereum.org/@fradamt/H1TsYRfJc) by Francesco D'Amato (EF)
+
+## BLS
+
+- [BLS Introduction](https://eth2book.info/altair/part2/building_blocks/signatures)
+- [BLS Signature Scheme](https://tools.ietf.org/id/draft-boneh-bls-signature-00.txt)
+- [Pragmatic signature aggregation with BLS](https://ethresear.ch/t/pragmatic-signature-aggregation-with-bls/2105?u=benjaminion)
+- [BLS Signature for Busy People](https://gist.github.com/paulmillr/18b802ad219b1aee34d773d08ec26ca2)
+
+- SSZ
+  - [https://www.simpleserialize.com/](https://www.simpleseria
+
 
 ## EIPs
-
-### 4844
-
-Sharding
-
-- [EIP-4844: Shard Blob Transactions](https://eips.ethereum.org/EIPS/eip-4844)
-- [Danksharding](https://notes.ethereum.org/@dankrad/new_sharding)
-- [Polynya on Danksharding](https://polynya.medium.com/danksharding-36dc0c8067fe)
-- [Nightshade: Near Protocol Sharding Design](https://near.org/downloads/Nightshade.pdf)
-- [The Tie: Danksharding](https://research.thetie.io/danksharding-ethereums-scalability-killer/)
 
 ### 3675
 
@@ -66,6 +93,21 @@ Proof of Stake
 - [100 Days After the Merge](https://www.galaxy.com/research/insights/100-days-after-the-merge/)
 - [Withdrawals after Shanghai](https://dataalways.substack.com/p/partial-withdrawals-after-the-shanghai)
 - [Official Merge Announcement](https://blog.ethereum.org/2022/08/24/mainnet-merge-announcement/)
+- [Exploring Inequality in Proof of Stake](https://ethereum.github.io/beaconrunner/notebooks/naiveurn.html) by Barnabe Monnot (RIG/EF)
+- [What Happens After Finality in eth2](https://hackmd.io/@prysmaticlabs/finality) by Raul Jordan (Prysmatic)
+- [Understanding Eth2 Slashing Preventative Measures](https://www.bloxstaking.com/blog/ethereum-2-0/understanding-eth2-slashing-preventative-measures/)
+
+### 4844
+
+Sharding
+
+- [EIP-4844: Shard Blob Transactions](https://eips.ethereum.org/EIPS/eip-4844)
+- [Danksharding](https://notes.ethereum.org/@dankrad/new_sharding)
+- [Polynya on Danksharding](https://polynya.medium.com/danksharding-36dc0c8067fe)
+- [Nightshade: Near Protocol Sharding Design](https://near.org/downloads/Nightshade.pdf)
+- [The Tie: Danksharding](https://research.thetie.io/danksharding-ethereums-scalability-killer/)
+- [Proto-Danksharding FAQ](https://notes.ethereum.org/@vbuterin/proto_danksharding_faq) by Vitalik Buterin (EF)
+- [“Dude, what’s the Danksharding situation?” Workshop](https://youtu.be/e9oudTr5BE4) by Dankrad Feist & Vitalik Buterin (EF)
 
 ### 2938/4337
 

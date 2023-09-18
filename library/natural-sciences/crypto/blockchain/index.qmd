@@ -5,6 +5,12 @@ description: "Cryptographic ledgers"
 
 {{< include _early.qmd >}}
 
+## Ethos
+
+- [The Soveriegn Individual](https://en.wikipedia.org/wiki/The_Sovereign_Individual)
+- [Manifesto for a Democratic Civilization](https://files.libcom.org/files/ManifestoforaDemocraticCivilizationvol2.pdf)
+- [V for Vendetta](https://en.wikipedia.org/wiki/V_for_Vendetta)
+
 {{< include _whitepapers.qmd >}}
 
 {{< include _consensus.qmd >}}

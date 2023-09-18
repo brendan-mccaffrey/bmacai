@@ -61,12 +61,9 @@ Ordinals uses Taproot Addresses, which result from a recent upgrade aimed to int
 
 ## Other Stuff
 
-**What is it?**
-
-- answered [here](https://ordinals.com)
-
 **Resources**
 
+- [Ordinals website](https://ordinals.com)
 - [Handbook](https://docs.ordinals.com/#)
 - [Github](https://github.com/casey/ord/)
 - [BIP](https://github.com/casey/ord/blob/master/bip.mediawiki)
@@ -99,19 +96,17 @@ ord wallet inscribe --fee-rate 20 ABSOLUTE_FILE_PATH
 
 ## TEST
 
-I inscribed an image of Logan Tobias onto the Bitcoin blockchain.
+I inscribed an image of REDACTED onto the Bitcoin blockchain.
 
 ```bash
 $ ord wallet inscribe --fee-rate 20 absolute/path/to/image.jpeg
 {
-  "commit": "93f5630a6f6eb49235fb25878df06563f509ff5d5d89da6a4092af5d68eb4afd",
-  "inscription": "2a7ff69382e71a01ac12884d974b3c1606d07624e3592f5c32068d1bfd8588a8i0",
-  "reveal": "2a7ff69382e71a01ac12884d974b3c1606d07624e3592f5c32068d1bfd8588a8",
+  "commit": "REDACTED0a6f6eb49235fREDACTEDd89da6a4092af5d6REDACTED",
+  "inscription": "REDACTED382e71REDACTED24e3592f5c32068d1bfdREDACTED",
+  "reveal": "REDACTED9382e71a01ac128REDACTED4e3592f5c32068dREDACTED",
   "fees": 282600
 }
 ```
-
-Sat: 465805240538644
 
 ### Ordinal Project
 

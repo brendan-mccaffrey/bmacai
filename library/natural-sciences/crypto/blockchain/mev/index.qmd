@@ -11,6 +11,12 @@ page-layout: full
 - [MEV Boost](https://boost.flashbots.net/#block-6163a685d84444a9be309d26f18b4b2f)
 - [Manifold Freelay](https://github.com/manifoldfinance/mev-freelay)
 - [Mempool Dumpster](https://mempool-dumpster.flashbots.net/index.html)
+- [Mev Boost](https://github.com/flashbots/mev-boost) ([Docker image](https://hub.docker.com/r/flashbots/mev-boost))
+- [Flashbots relay](https://github.com/flashbots/mev-boost-relay)
+- [Go Boost Utils](https://github.com/flashbots/go-boost-utils)
+- [Boost Geth Builder](https://github.com/flashbots/boost-geth-builder)
+- [Mev-rs](https://github.com/ralexstokes/mev-rs)
+- [MergeMock](https://github.com/protolambda/mergemock)
 
 ## Research
 
@@ -27,83 +33,73 @@ page-layout: full
 
 ### General
 
-- Studying Flash Loan Attacks | [paper](https://t.co/PpoqupGAe1)
-
-- MEV by Galaxy Digital | [Blog Pt 2](https://www.galaxy.com/research/whitepapers/mev-the-rise-of-the-builders/)
-
-- Modular MEV [Write-up](https://t.co/4mHc6NuVtm)
-
+- [Flashbots Research Repository](https://github.com/flashbots/mev-boost/wiki/Research#open-questions)
+- [Someone's MEV Mega-resource](https://thedailyape.notion.site/MEV-8713cb4c2df24f8483a02135d657a221)
+- [Studying Flash Loan Attacks](https://t.co/PpoqupGAe1)
+- [MEV by Galaxy Digital, Pt 2](https://www.galaxy.com/research/whitepapers/mev-the-rise-of-the-builders/)
+- [Modular MEV Write-up](https://t.co/4mHc6NuVtm)
 - [Performant routing and latency benchmarking for Ethereum RPC and Relay Service Providers](https://hackmd.io/@manifoldx/draft-perf-relay)
-
-- High Granularity Cex Data | [tardis.dev](https://docs.tardis.dev/api/getting-started)
-
-- MEV in Fixed Price Auctions | [paper](https://arxiv.org/abs/2303.04242) | [tweet](https://twitter.com/facu_zeta/status/1633860626773671936?s=20)
-
-- MEV Boost Capella Upgrades | [article](https://flashbots.notion.site/MEV-Boost-Capella-Upgrades-00cea01704794f6eb4f792c55b69c441)
-
-- Frontier Research | [website](https://frontier.tech/)
-
-- [So you want to run a builder?](https://github.com/flashbots/mev-boost/issues/145)
-
+- [MEV in Fixed Price Auctions](https://arxiv.org/abs/2303.04242)
+- [MEV Boost Capella Upgrades](https://flashbots.notion.site/MEV-Boost-Capella-Upgrades-00cea01704794f6eb4f792c55b69c441)
+- [Frontier Research](https://frontier.tech/)
+- [Automated Market Making and Arbitrage Profits in the Presence of Fees](https://moallemi.com/ciamac/papers/lvr-fee-model-2023.pdf)
+- [MEV Capturing AMM](https://ethresear.ch/t/mev-capturing-amm-mcamm/13336)
+- [Time to Bribe: Measuring Block Construction Markets](https://eprint.iacr.org/2023/760.pdf)
+- [A Framework for Building Searchers](https://mirror.xyz/0x00000a2A02540A0D92e209F9f5F7e104745e06Ba/hB-XeiOfkV5neiwX34lBD0uLHlWdefbGX6oBz1B4o7w)
 - [How to Fix Ethereum's MEV Problem](https://www.coindesk.com/markets/2021/07/27/how-to-fix-ethereums-mev-problem-and-give-traders-the-best-price/)
 - [MEV in ETH2 - An Early Exploration](https://hackmd.io/@flashbots/mev-in-eth2)
+- [MEV in eth2](https://writings.flashbots.net/research/mev-eth2/) ([associated repo](https://github.com/flashbots/eth2-research)) by Alex Obadia & Taarush Vemulapalli (Flashbots)
 - [Improving PoS Economic Security via MEV Redistribution](http://people.eecs.berkeley.edu/~ksk/files/MEV_Redistribution.pdf)
 - [Towards a Theory of MEV I](https://people.eecs.berkeley.edu/~ksk/files/MEV_CFMM.pdf)
-
-- [Flashbots Research Repository](https://github.com/flashbots/mev-boost/wiki/Research#open-questions)
+- [Commitee-driven MEV smoothing](https://ethresear.ch/t/committee-driven-mev-smoothing/10408) by Francesco D'Amato (EF)
+- [Latency Arms Race](https://ethresear.ch/t/latency-arms-race-concerns-in-blockspace-markets/14957)
+- [FBAs (frequent batch auctions) are a nerd snipe](https://twitter.com/0x94305/status/1597019084667117569?s=20)
+- [MEV Driven Centralization in Ethereum: Part 1](https://simbro.medium.com/mev-driven-centralization-in-ethereum-ec829a214f18)
 
 ### MEV-Boost / Proposer-Builder Separation
 
 - [Proposer Boost Considerations](https://notes.ethereum.org/@casparschwa/H1T0k7b85)
 - [MEV-Boost Plan](https://github.com/flashbots/mev-boost/wiki/The-Plan-(tm))
+- [Ethereum Builder API Specs](https://ethereum.github.io/builder-specs/)
+- [MEV-Boost Relay API Specification V1](https://flashbots.notion.site/Relay-API-Documentation-5fb0819366954962bc02e81cb33840f5)
+- [Running MEV-Relay at Scale](https://flashbots.notion.site/Running-mev-boost-relay-at-scale-4040ccd5186c425d9a860cbb29bbfe09)
+- [mev.day talks](https://www.youtube.com/playlist?list=PLRHMe0bxkuel3w3C7P_WVvp9ShLi3HKRI)
+  - [MEV on ETH2: MEV-boost, PBS, Danksharding... How do the pieces fit together? - Vitalik Buterin (EF)](https://www.youtube.com/watch?v=OD54WfVuDWw&list=PLRHMe0bxkuel3w3C7P_WVvp9ShLi3HKRI&index=28) (YouTube, 30min)
+  - [Tackling MEV with cryptography - Justin Drake (EF)](https://www.youtube.com/watch?v=mpRq-WFihz8&list=PLRHMe0bxkuel3w3C7P_WVvp9ShLi3HKRI&index=29) (YouTube, 19min)
+- [Proposer/block builder separation-friendly fee market designs](https://ethresear.ch/t/proposer-block-builder-separation-friendly-fee-market-designs/9725) (@vbuterin)
+- [MEV-Boost: Merge ready Flashbots Architecture](https://ethresear.ch/t/mev-boost-merge-ready-flashbots-architecture/11177) (@thegostep)
 
 ### Videos & Talks
 
 - [MEV Day](https://flashbots.notion.site/flashbots/mev-day-836f88806995412dabc1c7bb7ce4e830)
     - [Video Recap](https://www.youtube.com/playlist?list=PLRHMe0bxkuel3w3C7P_WVvp9ShLi3HKRI)
-
 - [Encode x Wintermute: MEV with Robert Miller](https://youtu.be/W3GOGesPKlw)
 - [Stanford MEV Workshop Recording](https://www.youtube.com/watch?v=5JmER64a0Xk)
-
 - MEVconomics Playlist | [youtube](https://www.youtube.com/playlist?list=PLXzKMXK2aHh7bW0j2dhpnLNiIJIMnPgsD)
-
 - Stanford Blockchain Conference [(SBC'23)](https://cbr.stanford.edu/sbc23/)
 - Recordings: [Day 1](https://www.youtube.com/watch?v=E4YkppHQZgw) | [Day 2](https://www.youtube.com/watch?v=Nx5bgyJ7SJ4) | [Day 3](https://www.youtube.com/watch?v=NFJWy8oyVS0)
-
-
 - [MEV Workshop at SBC'23](https://collective.flashbots.net/t/the-mev-workshop-at-the-science-of-blockchain-conference-2023-mev-sbc-23/2038) | [Recording](https://www.youtube.com/watch?v=sAleMbjWHew)
+- [Flashbots Incentives for Geographical Diversity](https://youtu.be/GJwS7VF40wk?t=23285) at EthStaker Amsterdam by Leo Arias & Alex Obadia (Flashbots)
+- [MEV & Cryptography](https://youtu.be/jLHf6yw7b5Y) by Justin Drake (EF)
+- [Flashbots MEV Roast #15: PBS on Ethereum Roadmap](https://youtu.be/8mcm-jT2nq4)
+- [MEV after EIP-1559 and the Merge](https://youtu.be/XhZ2FDMdVUM) at EthCC 4 by Alex Obadia & Alejo Salles (Flashots)
+- [The MEV in Nethermind in eth2](https://youtu.be/6MeKNSqC2es) at EthCC 4 by Tomasz Stańczak & Marcello Bardus (Flashbots/Nethermind)
+- [MEV on eth2](https://youtu.be/zsgC6mNP9eU) at ETHGlobal Scaling Ethereum Roast by Alex Obadia (Flashbots)
+- [MEV after The Merge with Nethermind and Flashbots](https://youtu.be/Hjd9WowOa3g) at ETHGlobal Scaling Ethereum conference by Alex Obadia & Tomasz Stańczak (Flashbots/Nethermind)
 
 
 
 ### Protocols, and Implementation Resources
 
-Uniswap V3 Book
-- [docs](https://uniswapv3book.com/docs/milestone_4/factory-contract/) 
+- [mev-rs](https://github.com/ralexstokes/mev-rs)
+- [Uniswap V3 Book](https://uniswapv3book.com/docs/milestone_4/factory-contract/) 
 
-Automated Market Making and Arbitrage Profits in the Presence of Fees
-- [paper](https://moallemi.com/ciamac/papers/lvr-fee-model-2023.pdf)
 
-MEV Capturing AMM
-- [proposal](https://ethresear.ch/t/mev-capturing-amm-mcamm/13336)
 
-Time to Bribe: Measuring Block Construction Markets
-- [paper](https://eprint.iacr.org/2023/760.pdf)
 
-A Framework for Building Searchers
-- [article](https://mirror.xyz/0x00000a2A02540A0D92e209F9f5F7e104745e06Ba/hB-XeiOfkV5neiwX34lBD0uLHlWdefbGX6oBz1B4o7w)
+- [Running MEV-Relay at Scale](https://flashbots.notion.site/Running-mev-boost-relay-at-scale-4040ccd5186c425d9a860cbb29bbfe09)
 
-Someone's Mega-resource on MEV
-- [notion](https://thedailyape.notion.site/MEV-8713cb4c2df24f8483a02135d657a221)
 
-Running MEV-Relay at Scale 
-- [notion](https://flashbots.notion.site/Running-mev-boost-relay-at-scale-4040ccd5186c425d9a860cbb29bbfe09)
 
-Latency Arms Race 
-- [post](https://ethresear.ch/t/latency-arms-race-concerns-in-blockspace-markets/14957)
-
-FBAs (frequent batch auctions) are a nerd snipe 
-- [tweet](https://twitter.com/0x94305/status/1597019084667117569?s=20)
-
-JaredFromSubway.eth's Access Lists
-- [etherscan](https://etherscan.io/tx/0xd0e3759e51642568364776b4f389805323b2f3dd17a07ef2c53d3ffd6bb022d4#accesslist)
+- [JaredFromSubway.eth's Access Lists](https://etherscan.io/tx/0xd0e3759e51642568364776b4f389805323b2f3dd17a07ef2c53d3ffd6bb022d4#accesslist)
 

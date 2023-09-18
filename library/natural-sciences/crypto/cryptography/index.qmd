@@ -11,8 +11,18 @@ description: Where the value lies.
 
 ### Cryptographic Primitives
 
+- [Digital Signatures](https://en.wikipedia.org/wiki/Digital_signature)
+- [Asymmetric Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography)
 - [Polynomial Commitment Schemes Multiproofs using Random Evaluation](https://dankradfeist.de/ethereum/2021/06/18/pcs-multiproofs.html#evaluating-a-polynomial-in-evaluation-form-on-a-point-outside-the-domain)
 
+##### **BLS**
+
+Boneh-Lynn-Shacham Signature Scheme
+
+- [BLS Introduction](https://eth2book.info/altair/part2/building_blocks/signatures)
+- [BLS Signature Scheme](https://tools.ietf.org/id/draft-boneh-bls-signature-00.txt)
+- [Pragmatic signature aggregation with BLS](https://ethresear.ch/t/pragmatic-signature-aggregation-with-bls/2105?u=benjaminion)
+- [BLS Signature for Busy People](https://gist.github.com/paulmillr/18b802ad219b1aee34d773d08ec26ca2)
 
 ### Quantum Cryptography
 

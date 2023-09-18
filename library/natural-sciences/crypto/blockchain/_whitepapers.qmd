@@ -1,9 +1,9 @@
 ## Layer 1 Whitepapers
 
 - [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
+- [Zerocash: Decentralized Anonymous Payments from Bitcoin](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6956581)
 - [Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform](https://ethereum.org/669c9e2e2027310b6b3cdce6e1c52962/Ethereum_Whitepaper_-_Buterin_2014.pdf)
 - [Ethereum: A Secure Decentralized Generalized Transaction Ledger](https://gavwood.com/paper.pdf)
-- [Zerocash: Decentralized Anonymous Payments from Bitcoin](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6956581)
 - [Cosmos: Internet of Blockchains](https://api-new.whitepaper.io/documents/pdf?id=BJNXW5ZnU)
 - [Solana: A new Architecture for a High Performance Blockchain](https://solana.com/solana-whitepaper.pdf)
 - [Cardano](https://api-new.whitepaper.io/documents/pdf?id=HkUIhFWhL)

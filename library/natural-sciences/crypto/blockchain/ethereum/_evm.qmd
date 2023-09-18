@@ -7,3 +7,4 @@ The Ethereum Virtual Machine
 ### Development
 
 - [Solidity Lang Docs](https://docs.soliditylang.org/en/v0.8.21/)
+- [MergeMock](https://github.com/protolambda/mergemock)
