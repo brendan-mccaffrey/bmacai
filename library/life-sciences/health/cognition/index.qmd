@@ -7,6 +7,7 @@ page-layout: full
 ## Resources
 
 - [Chimera states in brain networks: empirical neural vs. modular fractal connectivity](https://arxiv.org/abs/1710.08219)
+- [Neurological Activity of Lion’s Mane (Hericium erinaceus)](https://restorativemedicine.org/journal/neurological-activity-lions-mane-hericium-erinaceus/)
 
 ### Olfactory enrichment
 
@@ -17,3 +18,5 @@ Olfactory enrichment (aroma therapy) at night produces improvements in both cogn
 **Results:** A statistically significant 226% improvement was observed in the enriched group compared to the control group on the Rey Auditory Verbal Learning Test and improved functioning was observed in the left uncinate fasciculus, as assessed by mean diffusivity.
 
 **Conclusion:** Minimal olfactory enrichment administered at night produces improvements in both cognitive and neural functioning. Thus, olfactory enrichment may provide an effective and low-effort pathway to improved brain health.
+
+{{< include _external-neurons.qmd >}}

@@ -1,0 +1,23 @@
+## Neurons Outside the Brain
+
+### The Intestine (Gut)
+
+The intestine had a network of neurons called the enteric nervous system (ENS) which coordinates diverse functions in the intestine.
+
+- [Cell maps reveal diversity of neurons in gut](https://www.spectrumnews.org/news/toolbox/cell-maps-reveal-diversity-of-neurons-in-gut/)
+- [The Human and Mouse Enteric Nervous System at Single-Cell Resolution](https://pubmed.ncbi.nlm.nih.gov/32888429/)
+
+<p align="center">
+  <img src="media/ENS.jpeg" style="width: 40%; margin: 1%"/>
+</p>
+
+### The Heart
+
+The human heart has been found to have its own "little brain" - a network of neurons known as the instrinsic cardiac nervous system. It plays a key role in regulating cardiac activity.
+
+- [3D single cell scale anatomical map of sex-dependent variability of the rat intrinsic cardiac nervous system](https://www.cell.com/iscience/fulltext/S2589-0042(21)00763-X?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS258900422100763X%3Fshowall%3Dtrue#bib1)
+- [Researchers Map and Explore the Heart’s “Little Brain”](https://www.mbfbioscience.com/blog/2021/10/researchers-map-explore-hearts-little-brain/)
+
+<p align="center">
+  <img src="media/CNS.jpeg" style="width: 40%; margin: 1%"/>
+</p>

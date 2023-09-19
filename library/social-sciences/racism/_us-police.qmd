@@ -1,0 +1,4 @@
+# US Policing
+
+- [Testing the racial profiling hypothesis for seemingly disparate traffic stops on the New Jersey Turnpike](https://www.tandfonline.com/doi/abs/10.1080/07418820500088952)
+    - Traffic cameras pinged traffic violations by black people at similar rates to cops.

@@ -952,5 +952,20 @@
   },
   "library/natural-sciences/crypto/cryptography/index.qmd": {
     "index.html": "ea7b04f6"
+  },
+  "library/natural-sciences/crypto/legal/index.qmd": {
+    "index.html": "18234167"
+  },
+  "library/natural-sciences/software/languages/python/index.qmd": {
+    "index.html": "4aab8d59"
+  },
+  "library/natural-sciences/software/languages/bash/index.qmd": {
+    "index.html": "341dc75d"
+  },
+  "library/natural-sciences/software/cybersec/index.qmd": {
+    "index.html": "d3c14565"
+  },
+  "library/life-sciences/health/viruses/index.qmd": {
+    "index.html": "959afb1f"
   }
 }

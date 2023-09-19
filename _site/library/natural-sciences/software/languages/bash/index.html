@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Why did the quantum computer get kicked out of school? Because every time the teacher turned around, it was in a superposition of playing games and doing homework!">
 
-<title>bmac - Quantum</title>
+<title>bmac - bash</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,21 +20,55 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<link href="../../../../media/favicon.ico" rel="icon">
-<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<link href="../../../../../media/favicon.ico" rel="icon">
+<script src="../../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -54,9 +87,8 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../../../../styles.css">
-<meta name="twitter:title" content="bmac - Quantum">
-<meta name="twitter:description" content="Why did the quantum computer get kicked out of school? Because every time the teacher turned around, it was in a superposition of playing games and doing homework!">
+<link rel="stylesheet" href="../../../../../styles.css">
+<meta name="twitter:title" content="bmac - bash">
 <meta name="twitter:image" content="media/bg.jpeg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -68,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../../../../index.html">
+    <a class="navbar-brand" href="../../../../../index.html">
     <span class="navbar-title">bmac</span>
     </a>
   </div>
@@ -78,15 +110,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../../index.html" rel="" target="">
+    <a class="nav-link" href="../../../../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../library" rel="" target="">
+    <a class="nav-link" href="../../../../../library" rel="" target="">
  <span class="menu-text">Reads</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../writes/index.html" rel="" target="">
+    <a class="nav-link" href="../../../../../writes/index.html" rel="" target="">
  <span class="menu-text">Writes</span></a>
   </li>  
 </ul>
@@ -112,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../../library/index.html">Library</a></li><li class="breadcrumb-item"><a href="../../../../library/natural-sciences/maths/index.html">Natural Sciences</a></li><li class="breadcrumb-item"><a href="../../../../library/natural-sciences/computing/classical/index.html">Computing</a></li><li class="breadcrumb-item"><a href="../../../../library/natural-sciences/computing/quantum/index.html">Quantum</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../../../library/index.html">Library</a></li><li class="breadcrumb-item"><a href="../../../../../library/natural-sciences/maths/index.html">Natural Sciences</a></li><li class="breadcrumb-item"><a href="../../../../../library/natural-sciences/software/index.html">Software</a></li><li class="breadcrumb-item"><a href="../../../../../library/natural-sciences/software/languages/python/index.html">Languages</a></li><li class="breadcrumb-item"><a href="../../../../../library/natural-sciences/software/languages/bash/index.html">bash</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -126,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../library/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Library</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -144,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/life/deposit-cash.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/life/deposit-cash.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cash Management</span></a>
   </div>
 </li>
@@ -161,13 +193,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/life-sciences/environment/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/life-sciences/environment/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Environment</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/life-sciences/biology/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/life-sciences/biology/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Biology</span></a>
   </div>
 </li>
@@ -182,31 +214,31 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/life-sciences/health/cold-exposure.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/life-sciences/health/cold-exposure.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cold Exposure</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/life-sciences/health/cognition/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/life-sciences/health/cognition/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cognition</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/life-sciences/health/physiology/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/life-sciences/health/physiology/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Physiology</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/life-sciences/health/nutrition/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/life-sciences/health/nutrition/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Nutrition</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/life-sciences/health/covid/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/life-sciences/health/covid/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Covid-19</span></a>
   </div>
 </li>
@@ -225,28 +257,28 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/maths/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/maths/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Maths</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false">
  <span class="menu-text">Computing</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth3 show">  
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/computing/classical/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/computing/classical/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Classical</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/computing/quantum/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../../../library/natural-sciences/computing/quantum/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Quantum</span></a>
   </div>
 </li>
@@ -263,25 +295,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/cryptography/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/crypto/cryptography/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cryptography</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/legal/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/crypto/legal/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Legal</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/cex/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/crypto/cex/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">CEXs</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/natural-sciences/crypto/blockchain/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../library/natural-sciences/crypto/blockchain/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blockchains</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -290,13 +322,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/blockchain/solana/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/crypto/blockchain/solana/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Solana</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/blockchain/ethereum/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/crypto/blockchain/ethereum/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ethereum</span></a>
   </div>
 </li>
@@ -311,7 +343,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/blockchain/apps/hyperliquid.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/crypto/blockchain/apps/hyperliquid.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Hyperliquid</span></a>
   </div>
 </li>
@@ -326,7 +358,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth6 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/blockchain/apps/ethena/ethena.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/crypto/blockchain/apps/ethena/ethena.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ethena Labs</span></a>
   </div>
 </li>
@@ -336,7 +368,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/natural-sciences/crypto/blockchain/bitcoin/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../library/natural-sciences/crypto/blockchain/bitcoin/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Bitcoin</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -345,7 +377,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/blockchain/bitcoin/btc-core.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/crypto/blockchain/bitcoin/btc-core.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Running Bitcoin Core</span></a>
   </div>
 </li>
@@ -353,7 +385,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/natural-sciences/crypto/blockchain/rekt/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../library/natural-sciences/crypto/blockchain/rekt/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Rekt</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -362,13 +394,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/blockchain/rekt/stake.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/crypto/blockchain/rekt/stake.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Stake</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/blockchain/rekt/ygg.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/crypto/blockchain/rekt/ygg.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">YGG REKT</span></a>
   </div>
 </li>
@@ -376,7 +408,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/natural-sciences/crypto/blockchain/mev/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../library/natural-sciences/crypto/blockchain/mev/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -385,7 +417,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/blockchain/mev/amm/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/crypto/blockchain/mev/amm/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">MEV on AMMs</span></a>
   </div>
 </li>
@@ -397,55 +429,55 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/natural-sciences/software/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../library/natural-sciences/software/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Software</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth3 ">  
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth3 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/software/chrome-extension/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/software/chrome-extension/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Chrome Extensions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/software/cybersec/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/software/cybersec/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cybersecurity</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/software/virtual-machines/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/software/virtual-machines/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Virtual Machines</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="true">
  <span class="menu-text">Languages</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth4 ">  
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth4 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/software/languages/python/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/software/languages/python/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Python</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/software/languages/rust/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/software/languages/rust/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Rust</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/software/languages/bash/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/software/languages/bash/index.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">bash</span></a>
   </div>
 </li>
@@ -455,7 +487,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/natural-sciences/ai/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../library/natural-sciences/ai/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Artificial Intelligence</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -464,7 +496,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/ai/history-of-ai/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/ai/history-of-ai/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">History of AI</span></a>
   </div>
 </li>
@@ -472,7 +504,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/natural-sciences/finance/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../library/natural-sciences/finance/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Finance</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -499,13 +531,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-19" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/finance/trading/trades/JGByields/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/finance/trading/trades/JGByields/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">JGB Rates</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/finance/trading/trades/comstock/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/finance/trading/trades/comstock/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">LODE</span></a>
   </div>
 </li>
@@ -517,7 +549,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/natural-sciences/physics/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../library/natural-sciences/physics/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Physics</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -526,79 +558,79 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-20" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/unification/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/physics/unification/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Grand Unification</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/materials/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/physics/materials/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Materials Physics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/astrophysics/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/physics/astrophysics/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Astrophysics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/relativity/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/physics/relativity/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Relativity</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/nuclear/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/physics/nuclear/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Nuclear</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/electromagnetism/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/physics/electromagnetism/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Electromagnetism</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/field-theory/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/physics/field-theory/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Field Theory</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/classical/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/physics/classical/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Classical</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/uap/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/physics/uap/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">UAP</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/particle/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/physics/particle/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Particle Physics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/quantum/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/physics/quantum/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Quantum Physics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/mysteries.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/physics/mysteries.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Mysteries</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/natural-sciences/physics/government/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../library/natural-sciences/physics/government/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Government</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -616,7 +648,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-22" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/government/darpa/fellows.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/physics/government/darpa/fellows.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">DARPA Fellows</span></a>
   </div>
 </li>
@@ -633,7 +665,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-23" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/government/pentagon/pleads-fifth-exotic-materials.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/natural-sciences/physics/government/pentagon/pleads-fifth-exotic-materials.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Pentagon Pleads the Fifth</span></a>
   </div>
 </li>
@@ -656,7 +688,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-24" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/reads/straussian-moment.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/reads/straussian-moment.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Straussian Moment</span></a>
   </div>
 </li>
@@ -682,13 +714,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-26" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/social-sciences/events/9-11/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/social-sciences/events/9-11/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">9/11</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/social-sciences/events/maui-fire/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/social-sciences/events/maui-fire/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Maui Fire</span></a>
   </div>
 </li>
@@ -696,7 +728,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/social-sciences/geopolitics/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../library/social-sciences/geopolitics/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Geopolitics</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-27" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -705,13 +737,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-27" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/social-sciences/geopolitics/deep-state.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/social-sciences/geopolitics/deep-state.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Deep State</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/social-sciences/geopolitics/corruption/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../library/social-sciences/geopolitics/corruption/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Corruption</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-28" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -720,7 +752,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-28" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/social-sciences/geopolitics/corruption/biden.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/social-sciences/geopolitics/corruption/biden.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Biden Family</span></a>
   </div>
 </li>
@@ -737,7 +769,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-29" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/social-sciences/geopolitics/ukraine/psyop.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../library/social-sciences/geopolitics/ukraine/psyop.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ukraine Psyop</span></a>
   </div>
 </li>
@@ -760,14 +792,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Quantum</h1>
-</div>
-
-<div>
-  <div class="description">
-    Why did the quantum computer get kicked out of school? Because every time the teacher turned around, it was in a superposition of playing games and doing homework!
+<h1 class="title">bash</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">software</div>
   </div>
-</div>
+  </div>
+
 
 
 <div class="quarto-title-meta">
@@ -780,39 +810,85 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<ul>
-<li><a href="https://arxiv.org/pdf/1910.02071.pdf">Quantum Hamiltonian-Based Models &amp; the Variational Quantum Thermalizer Algorithm</a></li>
-<li><a href="https://www.nature.com/articles/s41567-021-01356-3">Limitations of optimization algorithms on noisy quantum devices</a></li>
-<li><a href="https://deep-1645.medium.com/variational-quantum-thermalization-and-the-future-of-quantum-thermodynamics-75ee9916ec3c">Variational Quantum Thermalization</a></li>
-<li><a href="https://arxiv.org/pdf/1805.00988.pdf">Simulating Quantum Computers Using OpenCL</a></li>
-<li><a href="https://opensource.googleblog.com/2021/11/Upgrading%20qsim%20Google%20Quantum%20AIs%20Open%20Source%20Quantum%20Simulator.html">Upgrading qsim, Google Quantum AI’s Open Source Quantum Simulator</a></li>
-<li><a href="https://arxiv.org/abs/0808.2669">Closed Timelike Curves Make Quantum and Classical Computing Equivalent</a></li>
-<li><a href="https://www.sciencedaily.com/releases/2021/08/210803121404.htm">Running Quantum Software on a Classical Computer</a></li>
-<li><a href="https://deep-1645.medium.com/variational-quantum-thermalization-and-the-future-of-quantum-thermodynamics-75ee9916ec3c">Variational Quantum Thermalization and the Future of Quantum Thermodynamics</a></li>
-<li><a href="https://www.nature.com/articles/s41586-023-06096-3">Evidence for the utility of quantum computing before fault tolerance</a></li>
-<li><a href="http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf">Quantum Computation and Quantum Information</a></li>
-</ul>
-<section id="photonic-quantum-computer" class="level3">
-<h3 class="anchored" data-anchor-id="photonic-quantum-computer">Photonic Quantum Computer</h3>
-<ul>
-<li><a href="https://quantumfrontiers.com/2023/06/21/what-is-the-logical-gate-speed-of-a-photonic-quantum-computer/">What is the logical gate speed of a photonic quantum computer?</a></li>
-</ul>
-<p><strong>Summary</strong></p>
-<p>The blog post, written by Terry Rudolph from PsiQuantum &amp; Imperial College London, discusses the logical gate speed of a photonic quantum computer. The author argues that photonic quantum computers can perform computations orders of magnitude faster than superconducting qubit machines, even if every physical timescale of the photonic machine was slower. This is due to the unique properties of photonics, such as the ability to store/delay photons in long lengths of optical fiber with very low error rates, and the potential for active-volume architectures that can perform non-trivial computational gates more efficiently.</p>
-<p><strong>Notes</strong></p>
-<p><strong>1. Photonic Quantum Computers:</strong> Photonic quantum computers use light (photons) to carry out quantum computations. They have the potential to perform computations faster than superconducting qubit machines due to their unique properties.</p>
-<p><strong>2. Logical Gate Speed:</strong> The logical gate speed of a quantum computer is determined by the rate at which it can perform quantum logic gates. In photonic quantum computers, this is influenced by the rate of entangled photon production and the speed of optical switches.</p>
-<p><strong>3. Interleaving:</strong> Photonic quantum computers can use a technique called interleaving, where many resource states are produced by a single resource state generator. This is possible due to the ability to store/delay photons in long lengths of optical fiber with very low error rates.</p>
-<p><strong>4. Active-Volume Architectures:</strong> Active-volume architectures in photonic quantum computers can eliminate the majority of resource consumption expended on idling qubits by performing non-trivial computational gates. This is possible due to the ability to perform a limited number of non-nearest neighbor fusions between photons.</p>
-<p><strong>5. Resource State Generation:</strong> The speed and scale of resource state generation is a critical factor in determining the logical gate speed of a photonic quantum computer. High repetition rates have been achieved in the production of single photons via a probabilistic parametric process.</p>
-<p><strong>6. Future of Quantum Computing:</strong> The author believes that the long-term future of quantum computing is ultimately photonic due to the potential for high-speed resource state generation and the unique properties of photonics.</p>
-<p><strong>7. Applications:</strong> The author provides an example of breaking elliptic curve cryptosystems on a quantum computer using Shor’s algorithm. He shows that a photonic quantum computer with an active-volume architecture can perform the computation significantly faster than a superconducting qubit machine.</p>
-<p><strong>8. Conclusion:</strong> The author concludes that the logical gate speed of a photonic quantum computer is not solely determined by the physical timescales of the machine. Instead, it is influenced by the unique properties of photonics and the efficient parallelization achieved through long-range connections in the photonic active-volume device.</p>
+<section id="bash-cheatsheet" class="level2">
+<h2 class="anchored" data-anchor-id="bash-cheatsheet">Bash Cheatsheet</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">##########################</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">### ALIAS </span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">nano</span> ~/.zshrc</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="bu">alias</span> sshgeth=<span class="st">'ssh &lt;USER&gt;@&lt;IP_ADDRESS&gt;'</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="bu">source</span> ~/.zshrc</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">##########################</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">### Directory Mainpuations</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># create directory</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># copy directory and contents</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">cp</span> <span class="at">-r</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># move directory and contents</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">mv</span> <span class="at">-r</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># remove directory and contents</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span> <span class="at">-r</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="co"># remove directory contents without prompt</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span> <span class="at">-rf</span> /path/to/directory/<span class="pp">*</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co"># example: copies all files in directory to another directory and uses variable date for name</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="fu">cp</span> <span class="at">-r</span> logs/futures datastore/futures_<span class="va">$(</span><span class="fu">date</span> +%Y%m%d_%H:%M<span class="va">)</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span> <span class="at">-rf</span> logs/futures/<span class="pp">*</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co">##########################</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="co">### File Manipulation</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="co"># create file</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="fu">touch</span> filename.txt</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="co"># edit file</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="fu">nano</span> filename.txt</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="co">##########################</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="co">### Screens</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="co"># list all screens</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="ex">screen</span> <span class="at">-ls</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="co"># create new screen</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="ex">screen</span> <span class="at">-S</span> screen_name</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="co"># detach from screen</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="ex">ctrl+a</span> d</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="co"># reattach to screen</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="ex">screen</span> <span class="at">-r</span> screen_name</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="co"># check if you are on a screen</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="va">$STY</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="co">##########################</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="co">### Jobs</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="co"># list all jobs</span></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="bu">jobs</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="co"># kill job</span></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="bu">kill</span> %job_number</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="co"># bring job to foreground</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="bu">fg</span> %job_number</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="co"># bring job to background</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="bu">bg</span> %job_number</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="co"># bring current job to background</span></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="ex">ctrl+z</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="co">##########################</span></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="co">### Disk Space</span></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a><span class="co"># check disk space</span></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a><span class="fu">df</span> <span class="at">-h</span></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a><span class="co"># check disk space of directory</span></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a><span class="fu">du</span> <span class="at">-sh</span> /path/to/directory</span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a><span class="co"># check disk space of directory and subdirectories</span></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a><span class="fu">du</span> <span class="at">-sh</span> /path/to/directory/<span class="pp">*</span></span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a><span class="co">##########################</span></span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a><span class="co">### No Sleep</span></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a><span class="co"># keep computer awake for 1 hr</span></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a><span class="ex">caffeinate</span> <span class="at">-t</span> 3600 <span class="kw">&amp;</span></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a><span class="co"># keep awake until command finishes</span></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a><span class="ex">caffeinate</span> <span class="at">-i</span> long_running_script.sh</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

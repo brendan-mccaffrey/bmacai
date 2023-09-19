@@ -6,8 +6,6 @@ page-layout: full
 
 ## Reads
 
-
-
 - [The Hidden Brain Connections Between Our Hands and Tongues](https://www.quantamagazine.org/the-hidden-brain-connections-between-our-hands-and-tongues-20230828/)
     - Why does one stick their tongue out when performing a meticulous task with hand tools? Why do tennis players (and martial artist) shout alongside their movements?
 - [Effect of Syllable Articulation on Precision and Power Grip Performance](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0053061)
