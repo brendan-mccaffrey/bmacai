@@ -1,0 +1,14 @@
+## FTX
+
+
+United States District Court Southern District of New York: United States of America v. Samuel Bankman-Fried
+- [Court Listener Docket Entries](https://www.courtlistener.com/docket/66631291/united-states-v-bankman-fried/)
+- [Sealed Indictment](https://www.justice.gov/usao-sdny/press-release/file/1557571/download)
+
+Adderall Bet
+- [polymarket]()
+- August 14, 2023 [letter to request order to Metrpolitan Detention Center for provide client with prescribed medication](https://storage.courtlistener.com/recap/gov.uscourts.nysd.590940/gov.uscourts.nysd.590940.201.0.pdf)
+- NYT says [it's unlikely SBF will get Adderall](https://nypost.com/2023/08/24/why-sam-bankman-fried-likely-wont-get-adderall-while-locked-up-in-brooklyn-jail/) due to prior guidance against stimulants due to potential for misuse.
+    - "clinical guidance" [document on ADHD treament](https://www.bop.gov/resources/pdfs/adult_adhd_cd.pdf) issued by the feds in december 2021
+
+[Stories from an Alameda Engineer](_adi-ftx.qmd)
