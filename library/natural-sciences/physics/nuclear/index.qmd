@@ -7,6 +7,14 @@ description: "Fusion, Fission, and more"
 
 - [Stockpile Stewardship and Management Plan (SSMP)](https://www.energy.gov/nnsa/articles/stockpile-stewardship-and-management-plan-ssmp)
 
+### 
+
+is an academic development framework for a small, standard, pressurized water reactor. Our goal is to accelerate deployment of the world's most vital solution to climate change: Nuclear Energy.
+
+- [Open-100](https://www.open-100.com/)
+- [Mining valuable minerals from seawater: a critical review](https://pubs.rsc.org/en/content/articlehtml/2017/ew/c6ew00268d)
+- [Indian scientists extract record uranium from seawater that could power nuclear plants](https://www.indiatoday.in/science/story/indian-researchers-extract-record-uranium-from-seawater-that-powers-nuclear-plants-1986196-2022-08-10)
+
 ## Fission
 
 TODO

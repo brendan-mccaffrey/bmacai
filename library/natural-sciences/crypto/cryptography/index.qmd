@@ -12,8 +12,15 @@ description: Where the value lies.
 ### Cryptographic Primitives
 
 - [Digital Signatures](https://en.wikipedia.org/wiki/Digital_signature)
-- [Asymmetric Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography)
+- [Asymmetric (Public/Private Key) Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography)
 - [Polynomial Commitment Schemes Multiproofs using Random Evaluation](https://dankradfeist.de/ethereum/2021/06/18/pcs-multiproofs.html#evaluating-a-polynomial-in-evaluation-form-on-a-point-outside-the-domain)
+- Pederson Commitments [Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing](https://link.springer.com/chapter/10.1007/3-540-46766-1_9)
+    - ZCash and Monero use these to shield transaction amounts
+
+##### **KZG Commitments**
+
+- (Original Paper) [Constant-Size Commitments to Polynomials and Their Applications](https://link.springer.com/chapter/10.1007/978-3-642-17373-8_11)
+- Dankrad Feist, [KZG Polynomial Commitments](https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html)
 
 ##### **BLS**
 

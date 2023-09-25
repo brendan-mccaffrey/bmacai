@@ -5,6 +5,18 @@
 - [First Ever Fully Homomorphic Encryption Scheme](https://crypto.stanford.edu/craig/craig-thesis.pdf)
 - [Vitalik on FHE](https://vitalik.ca/general/2020/07/20/homomorphic.html)
 
+Original FHE innovation with bootstrapping (inefficient)
+
+- 2009, [Fully homomorphic encryption using ideal lattices](https://dl.acm.org/doi/10.1145/1536414.1536440)
+- 2010, [Computing arbitrary functions of encrypted data](https://dl.acm.org/doi/10.1145/1666420.1666444)
+
+Efficiency Improvements
+
+- 2019, [TFHE: Fast Fully Homomorphic Encryption Over the Torus](https://link.springer.com/article/10.1007/s00145-019-09319-x)
+- 2021, [Programmable Bootstrapping Enables Efficient Homomorphic Inference of Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-030-78086-9_1)
+- 2023, [TFHE Public-Key Encryption Revisited](https://eprint.iacr.org/2023/603)
+    - based on a variant of Learning With Errors (LEW) problem, first introduced by Regev [On lattices, learning with errors, random linear codes, and cryptography](https://dl.acm.org/doi/10.1145/1060590.1060603)
+
 ### Projects
 
 **Zama**
@@ -13,3 +25,24 @@
 - [documentation](https://docs.zama.ai/homepage/)
 - [github](https://github.com/zama-ai)
 - Zama Concrete: [documentation](https://docs.zama.ai/concrete)
+
+### fhEVM
+
+- [fhEVM](https://github.com/zama-ai/fhevm/blob/main/fhevm-whitepaper.pdf)
+
+**Related**
+
+- [Practical and Efficient FHE-based MPC](https://eprint.iacr.org/2023/981.pdf)
+- [Noah’s Ark: Efficient Threshold-FHE Using Noise Flooding](https://eprint.iacr.org/2023/815.pdf)
+
+##### **Notes**
+
+There is a global FHE key under which all inputs and private state are encrypted. This allows easy mixing of encrypted data across users and smart contracts. Private decryption key is a secret shared across the validators.
+
+**Providing an encrypted input**
+
+To provide an encrypted input to a transaction or view function, users must submit two values. 1) encrypted input using the global public FHE key. 2) The associated valid zero-knolwedge proof of plaintext knowledge. These components form a ceritifed cyphertext.
+
+**Solidity Library: TFHE**
+
+Offers four types: euint8, euint16, euint32, ebool.

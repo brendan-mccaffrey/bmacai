@@ -8,3 +8,7 @@ The Ethereum Virtual Machine
 
 - [Solidity Lang Docs](https://docs.soliditylang.org/en/v0.8.21/)
 - [MergeMock](https://github.com/protolambda/mergemock)
+
+### fhEVM
+
+- [fhEVM: Confidential EVM Smart Contracts using Fully Homomorphic Encryption](https://github.com/zama-ai/fhevm/blob/main/fhevm-whitepaper.pdf)

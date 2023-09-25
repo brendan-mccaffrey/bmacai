@@ -3,26 +3,25 @@ title: "Blockchains"
 description: "Cryptographic ledgers"
 ---
 
-{{< include _early.qmd >}}
-
 ## Ethos
 
 - [The Soveriegn Individual](https://en.wikipedia.org/wiki/The_Sovereign_Individual)
 - [Manifesto for a Democratic Civilization](https://files.libcom.org/files/ManifestoforaDemocraticCivilizationvol2.pdf)
 - [V for Vendetta](https://en.wikipedia.org/wiki/V_for_Vendetta)
 
-{{< include _whitepapers.qmd >}}
-
-{{< include _consensus.qmd >}}
-
-
-
 ## Recent, General
 
-- [The Tie: Solving the Blockchain Trilemma](https://research.thetie.io/blockchain-trilemma/#on-chain)
+- [DBA: Proof of Governance](https://dba.mirror.xyz/UTPfxWe65dYrUu_RJX-5VkAJypFRyw3AZh6m0dRXYZk)
+- [Blockchain Privacy and Rgulatory Compliance: Towards a Practical Equilibrium](https://deliverypdf.ssrn.com/delivery.php?ID=855089082102119079102097091083101113102082065014007039108087071002094126076004092111050117107034029039046027080025125113003101039086075069039068002121097025083108119020043021065086070093119021123028007013076115117079106121092088113093091115115105022031&EXT=pdf&INDEX=TRUE)
 
-- [Endgame: Proof of Governance](https://dba.mirror.xyz/UTPfxWe65dYrUu_RJX-5VkAJypFRyw3AZh6m0dRXYZk)
+## Applied Web3 Cryptography Resources
+
+- [rareskills blog](https://www.rareskills.io/blog)
+
+{{< include _papers.qmd >}}
+
+
+
 
 ## Privacy
 
-[Blockchain Privacy and Rgulatory Compliance: Towards a Practical Equilibrium](https://deliverypdf.ssrn.com/delivery.php?ID=855089082102119079102097091083101113102082065014007039108087071002094126076004092111050117107034029039046027080025125113003101039086075069039068002121097025083108119020043021065086070093119021123028007013076115117079106121092088113093091115115105022031&EXT=pdf&INDEX=TRUE)

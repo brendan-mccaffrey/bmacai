@@ -1,0 +1,7 @@
+---
+title: EigenLayer
+---
+
+## EigenDA
+
+- [blog / lightpaper](https://www.blog.eigenlayer.xyz/intro-to-eigenda-hyperscale-data-availability-for-rollups/)

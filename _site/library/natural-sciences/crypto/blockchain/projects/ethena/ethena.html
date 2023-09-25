@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Cryptographic ledgers">
+<meta name="author" content="Brendan McCaffrey">
+<meta name="dcterms.date" content="2023-08-31">
 
-<title>bmac - Blockchains</title>
+<title>bmac - Ethena Labs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,18 +25,18 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<link href="../../../../media/favicon.ico" rel="icon">
-<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<link href="../../../../../../media/favicon.ico" rel="icon">
+<script src="../../../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -54,9 +55,9 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../../../../styles.css">
-<meta name="twitter:title" content="bmac - Blockchains">
-<meta name="twitter:description" content="Cryptographic ledgers">
+<link rel="stylesheet" href="../../../../../../styles.css">
+<meta name="twitter:title" content="bmac - Ethena Labs">
+<meta name="twitter:description" content="">
 <meta name="twitter:image" content="media/bg.jpeg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -68,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../../../../index.html">
+    <a class="navbar-brand" href="../../../../../../index.html">
     <span class="navbar-title">bmac</span>
     </a>
   </div>
@@ -78,15 +79,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../../index.html" rel="" target="">
+    <a class="nav-link" href="../../../../../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../library" rel="" target="">
+    <a class="nav-link" href="../../../../../../library" rel="" target="">
  <span class="menu-text">Reads</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../writes/index.html" rel="" target="">
+    <a class="nav-link" href="../../../../../../writes/index.html" rel="" target="">
  <span class="menu-text">Writes</span></a>
   </li>  
 </ul>
@@ -112,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../../library/index.html">Library</a></li><li class="breadcrumb-item"><a href="../../../../library/natural-sciences/maths/index.html">Natural Sciences</a></li><li class="breadcrumb-item"><a href="../../../../library/natural-sciences/crypto/cryptography/index.html">Crypto</a></li><li class="breadcrumb-item"><a href="../../../../library/natural-sciences/crypto/blockchain/index.html">Blockchains</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../../../../library/index.html">Library</a></li><li class="breadcrumb-item"><a href="../../../../../../library/natural-sciences/maths/index.html">Natural Sciences</a></li><li class="breadcrumb-item"><a href="../../../../../../library/natural-sciences/crypto/cryptography/index.html">Crypto</a></li><li class="breadcrumb-item"><a href="../../../../../../library/natural-sciences/crypto/blockchain/index.html">Blockchains</a></li><li class="breadcrumb-item"><a href="../../../../../../library/natural-sciences/crypto/blockchain/projects/hyperbolic-whitepaper.html">Projects</a></li><li class="breadcrumb-item"><a href="../../../../../../library/natural-sciences/crypto/blockchain/projects/ethena/ethena.html">Ethena</a></li><li class="breadcrumb-item"><a href="../../../../../../library/natural-sciences/crypto/blockchain/projects/ethena/ethena.html">Ethena Labs</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -126,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../../library/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Library</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -144,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/life/deposit-cash.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/life/deposit-cash.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cash Management</span></a>
   </div>
 </li>
@@ -161,13 +162,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/life-sciences/medicine/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/life-sciences/medicine/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Medicine</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/life-sciences/environment/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/life-sciences/environment/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Environment</span></a>
   </div>
 </li>
@@ -182,31 +183,31 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/life-sciences/health/cold-exposure.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/life-sciences/health/cold-exposure.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cold Exposure</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/life-sciences/health/cognition/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/life-sciences/health/cognition/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cognition</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/life-sciences/health/physiology/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/life-sciences/health/physiology/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Physiology</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/life-sciences/health/viruses/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/life-sciences/health/viruses/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Viruses</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/life-sciences/health/nutrition/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../../library/life-sciences/health/nutrition/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Nutrition</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -215,7 +216,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/life-sciences/health/nutrition/vitamins.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/life-sciences/health/nutrition/vitamins.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Vitamins</span></a>
   </div>
 </li>
@@ -225,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/life-sciences/biology/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../../library/life-sciences/biology/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Biology</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -234,7 +235,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/life-sciences/biology/proteins/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/life-sciences/biology/proteins/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Proteins</span></a>
   </div>
 </li>
@@ -253,7 +254,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/maths/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/maths/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Maths</span></a>
   </div>
 </li>
@@ -268,13 +269,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/computing/classical/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/computing/classical/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Classical</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/computing/quantum/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/computing/quantum/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Quantum</span></a>
   </div>
 </li>
@@ -291,25 +292,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth3 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/cryptography/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/crypto/cryptography/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cryptography</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/legal/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/crypto/legal/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Legal</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/cex/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/crypto/cex/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">CEXs</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/natural-sciences/crypto/blockchain/index.html" class="sidebar-item-text sidebar-link active">
+            <a href="../../../../../../library/natural-sciences/crypto/blockchain/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blockchains</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -318,19 +319,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth4 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/blockchain/solana/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/crypto/blockchain/solana/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Solana</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/blockchain/ethereum/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/crypto/blockchain/ethereum/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ethereum</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/natural-sciences/crypto/blockchain/bitcoin/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../../library/natural-sciences/crypto/blockchain/bitcoin/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Bitcoin</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -339,7 +340,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/blockchain/bitcoin/btc-core.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/crypto/blockchain/bitcoin/btc-core.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Running Bitcoin Core</span></a>
   </div>
 </li>
@@ -347,7 +348,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/natural-sciences/crypto/blockchain/rekt/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../../library/natural-sciences/crypto/blockchain/rekt/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Rekt</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -356,13 +357,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/blockchain/rekt/stake.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/crypto/blockchain/rekt/stake.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Stake</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/blockchain/rekt/ygg.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/crypto/blockchain/rekt/ygg.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">YGG REKT</span></a>
   </div>
 </li>
@@ -370,7 +371,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/natural-sciences/crypto/blockchain/mev/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../../library/natural-sciences/crypto/blockchain/mev/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -379,7 +380,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/blockchain/mev/amm/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/crypto/blockchain/mev/amm/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">MEV on AMMs</span></a>
   </div>
 </li>
@@ -387,37 +388,37 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="true">
  <span class="menu-text">Projects</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth5 ">  
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth5 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/blockchain/projects/hyperbolic-whitepaper.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/crypto/blockchain/projects/hyperbolic-whitepaper.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">1 vision &amp; mission</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/blockchain/projects/hyperliquid.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/crypto/blockchain/projects/hyperliquid.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Hyperliquid</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="true">
  <span class="menu-text">Ethena</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth6 ">  
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth6 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/blockchain/projects/ethena/ethena.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/crypto/blockchain/projects/ethena/ethena.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Ethena Labs</span></a>
   </div>
 </li>
@@ -431,7 +432,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/natural-sciences/software/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../../library/natural-sciences/software/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Software</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -440,19 +441,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/software/chrome-extension/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/software/chrome-extension/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Chrome Extensions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/software/cybersec/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/software/cybersec/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cybersecurity</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/software/virtual-machines/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/software/virtual-machines/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Virtual Machines</span></a>
   </div>
 </li>
@@ -467,19 +468,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/software/languages/python/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/software/languages/python/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Python</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/software/languages/rust/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/software/languages/rust/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Rust</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/software/languages/bash/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/software/languages/bash/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">bash</span></a>
   </div>
 </li>
@@ -489,7 +490,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/natural-sciences/ai/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../../library/natural-sciences/ai/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Artificial Intelligence</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -498,7 +499,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-18" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/ai/history-of-ai/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/ai/history-of-ai/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">History of AI</span></a>
   </div>
 </li>
@@ -506,7 +507,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/natural-sciences/finance/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../../library/natural-sciences/finance/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Finance</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -533,13 +534,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-21" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/finance/trading/trades/JGByields/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/finance/trading/trades/JGByields/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">JGB Rates</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/finance/trading/trades/comstock/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/finance/trading/trades/comstock/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">LODE</span></a>
   </div>
 </li>
@@ -551,7 +552,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/natural-sciences/physics/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../../library/natural-sciences/physics/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Physics</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -560,79 +561,79 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-22" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/unification/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/physics/unification/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Grand Unification</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/materials/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/physics/materials/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Materials Physics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/astrophysics/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/physics/astrophysics/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Astrophysics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/relativity/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/physics/relativity/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Relativity</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/nuclear/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/physics/nuclear/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Nuclear</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/electromagnetism/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/physics/electromagnetism/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Electromagnetism</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/field-theory/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/physics/field-theory/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Field Theory</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/classical/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/physics/classical/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Classical</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/uap/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/physics/uap/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">UAP</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/particle/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/physics/particle/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Particle Physics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/quantum/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/physics/quantum/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Quantum Physics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/mysteries.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/physics/mysteries.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Mysteries</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/natural-sciences/physics/government/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../../library/natural-sciences/physics/government/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Government</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-23" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -650,7 +651,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-24" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/government/darpa/fellows.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/physics/government/darpa/fellows.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">DARPA Fellows</span></a>
   </div>
 </li>
@@ -667,7 +668,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-25" class="collapse list-unstyled sidebar-section depth5 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/physics/government/pentagon/pleads-fifth-exotic-materials.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/natural-sciences/physics/government/pentagon/pleads-fifth-exotic-materials.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Pentagon Pleads the Fifth</span></a>
   </div>
 </li>
@@ -690,7 +691,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-26" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/reads/straussian-moment.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/reads/straussian-moment.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Straussian Moment</span></a>
   </div>
 </li>
@@ -707,7 +708,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-27" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/social-sciences/racism/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/social-sciences/racism/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Index</span></a>
   </div>
 </li>
@@ -722,13 +723,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-28" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/social-sciences/events/9-11/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/social-sciences/events/9-11/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">9/11</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/social-sciences/events/maui-fire/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/social-sciences/events/maui-fire/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Maui Fire</span></a>
   </div>
 </li>
@@ -736,7 +737,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/social-sciences/geopolitics/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../../library/social-sciences/geopolitics/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Geopolitics</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-29" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -745,13 +746,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-29" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/social-sciences/geopolitics/deep-state.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/social-sciences/geopolitics/deep-state.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Deep State</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../../library/social-sciences/geopolitics/corruption/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../../../../library/social-sciences/geopolitics/corruption/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Corruption</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-30" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -760,7 +761,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-30" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/social-sciences/geopolitics/corruption/biden.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/social-sciences/geopolitics/corruption/biden.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Biden Family</span></a>
   </div>
 </li>
@@ -777,7 +778,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-31" class="collapse list-unstyled sidebar-section depth4 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/social-sciences/geopolitics/ukraine/psyop.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../../../library/social-sciences/geopolitics/ukraine/psyop.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ukraine Psyop</span></a>
   </div>
 </li>
@@ -800,23 +801,30 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blockchains</h1>
+<h1 class="title">Ethena Labs</h1>
   <div class="quarto-categories">
+    <div class="quarto-category">software</div>
     <div class="quarto-category">crypto</div>
-    <div class="quarto-category">blockchain</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    Cryptographic ledgers
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Brendan McCaffrey </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 31, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -824,98 +832,145 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="early-contributions" class="level2">
-<h2 class="anchored" data-anchor-id="early-contributions">Early Contributions</h2>
+<section id="tweet-thread" class="level2">
+<h2 class="anchored" data-anchor-id="tweet-thread">Tweet Thread</h2>
+<ol type="1">
+<li><p>Some thoughts on <span class="citation" data-cites="ethena_labs">@ethena_labs</span> and the attempt towards a stablecoin, $USDe, independent of the traditional banking system. https://mirror.xyz/0xF99d0E4E3435cc9C9868D1C6274DfaB3e2721341/2gfr0qaFvZ8UxPaBvPPAZgwdcbssR_cyg5svqj1YGrY</p></li>
+<li><p>Quick Overview of the Basic Mechanism</p></li>
+</ol>
+<p>1 $USDe is backed by a $1 delta neutral ETH position. - Long $1 of stETH spot - Short $1 of ETH perpetual futures swap contracts (on a centralized exchange, with the spot stETH as cross-collateral).</p>
+<p>For a more substantial overview, check out <span class="citation" data-cites="cryptohayes">@cryptohayes</span> (Ethena advisor) “Dust on Crust” https://blog.bitmex.com/dust-on-crust/</p>
+<ol start="3" type="1">
+<li>A note the scale of this endeavor (relevant later).</li>
+</ol>
+<p>Ethena is pursuing a trillion dollar TAM.</p>
 <ul>
-<li>1983, David Chaum: <a href="https://sceweb.sce.uhcl.edu/yang/teaching/csci5234WebSecurityFall2011/Chaum-blind-signatures.PDF">Electronic Cash</a></li>
-<li>1985, David Chaum: <a href="https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf">Security without Identification</a></li>
-<li>1996, Dr.&nbsp;Douglas Jackson and Barry K. Downey: <a href="https://cs.stanford.edu/people/eroberts/cs201/projects/2010-11/Bitcoins/e-gold.html">E-Gold</a></li>
-<li>1998, Wei Dai: <a href="http://www.weidai.com/bmoney.txt">b-money</a></li>
-<li>1998, Nick Szabo: <a href="https://nakamotoinstitute.org/bit-gold/">Bit Gold</a></li>
+<li>Stablecoin circulating supply sits comfortably above $100 billion (throughout the bear market).</li>
+<li>Tether printed over $1 billion in <em>profit</em> last <em>quarter</em>.</li>
+<li>The CBDCs are coming, from China to the WEF (both of which want censorship permissions).</li>
 </ul>
-</section>
-<section id="ethos" class="level2">
-<h2 class="anchored" data-anchor-id="ethos">Ethos</h2>
+<p>“If you don’t believe me or don’t get it, I don’t have time to try to convince you, sorry.” <strong>INSERT VIDEO</strong></p>
+<ol start="4" type="1">
+<li><p>On the surface, there’s two obvious/primary risks to the mechanism.</p>
+<ol type="1">
+<li>Counterparty (exchange) Risk</li>
+<li>Basis (funding rate) Risk</li>
+</ol></li>
+</ol>
+<p>How, and to what extent, is Ethena mitigating these?</p>
+<ol start="5" type="1">
+<li>Addressing Counterparty Risk</li>
+</ol>
+<p>Whether its an external hack (Mt Gox) or insider theft (FTX) - CEX risk is certainly non-negligible. What’s the risk-adjusted rate at which you would park 8+ figures on Binance, or Deribit? This is a serious question that crypto firms (HFT shops, VC firms) decide internally…</p>
+<p>In other words, if Binance were a public company, where would their credit default swaps trade?</p>
+<p>Counter to what <span class="citation" data-cites="cryptohayes">@cryptohayes</span> initially described in his early writings, Ethena must avoid custodying the assets at the exchanges. Instead, park the assets with a secure third party (Fireblocks, Ledger, Copper), form agreements with the exchanges to accept this (likely some form of ZK-Proof of stETH asset balance) as collateral, and simply settle funding payments on the derivatives intermittently.</p>
+<p>This doesn’t exactly eliminate <em>all</em> counterparty risk (can expand on this in the future), but it ensures assets are safu. I’m not sure this is actually Ethena’s plan, but it appears to be the only sufficient solution (assuming CEXs agree to the setup).</p>
+<ol start="6" type="1">
+<li>Addressing Basis Risk</li>
+</ol>
+<p>The question/issue is what happens when (not if) the perp-spot spread flips, and the delta-neutral position begins to bleed (rather than accrue) funding payments.</p>
+<p>Founder <span class="citation" data-cites="leptokurtic">@leptokurtic</span> gives the TLDR mitigation/assumptions here</p>
+<p>https://twitter.com/leptokurtic_/status/1682781081068769280?s=20</p>
+<ol start="7" type="1">
+<li>I will focus on one of Ethena’s core assumptions, specifically that the “natural funding rate” is positive. Imo, this is where an interesting discussion lies.</li>
+</ol>
+To be clear, this assumption is not baseless - it is both supported by historical ETH perp data, and is generally true across (almost) all derivative markets.
+<p align="center">
+<img src="media/usde-yield.jpeg" style="width: 60%">
+</p>
+<ol start="8" type="1">
+<li><p>However, I subscribe to two principles which may complicate this assumption.</p>
+<ol type="1">
+<li>The Observer Effect: The act of observing or measuring a system necessarily disturbs or changes the system.</li>
+<li>Soros’s Reflexivity of Markets: Market participants’ imperfect understanding of the world influences their actions, and those actions, in turn, influence the world in ways that can confirm or contradict their initial beliefs.</li>
+</ol></li>
+</ol>
+<p>Considering the scale of the stablecoin market, it’s naive to neglect the reflexivity of the relationship between Ethena’s operations/supply and the aggregate ETH perp funding rate.</p>
+<p>The in-sample backtest shown in the previous tweet simulates yield on $5b circulating $USDe supply. What’s not mentioned, however, is that $USDe would have represented roughly half of aggregate ETH open interest… the backtest is inherently flawed.</p>
+<p align="center">
+<img src="media/agg-oi.png" style="width: 60%">
+</p>
+<ol start="9" type="1">
+<li>Although it’s important to point out weakness of the backtest, this doesn’t necessarily suggest a point of failure for $USDe.</li>
+</ol>
+<p>The design is fundamentally different from the UST-esque algostables, which were always necessarily destined to collapse. In fact, if Ethena’s mint &amp; redemption process is both free and (near) instant, the $USDe mechanism can be inherently self-correcting.</p>
+<p>Let’s imagine the $USDe supply was $5b today, Ethena would represent nearly half of the $10b ETH perp open interest, and the funding rate would likely be negative (exact threshold for % of OI Ethena can be comfortable with is unclear, but 50% is probably unhealthy).</p>
+<p>With transparent metrics on curculating supply, assets, liabilities, and distribution (what % of the shorts are on BitMex vs Bybit vs …), the market can observe collateral fluctuations, and react rationally. Users swap out of $USDe on Curve, which is purchased by market makers/arbitrageurs who then redeem with Ethena. This lifts the short pressure until the funding rate (or net yield, including stETH) is positive again.</p>
+<ol start="10" type="1">
+<li>There is certainly much more to be discussed.</li>
+</ol>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/The_Sovereign_Individual">The Soveriegn Individual</a></li>
-<li><a href="https://files.libcom.org/files/ManifestoforaDemocraticCivilizationvol2.pdf">Manifesto for a Democratic Civilization</a></li>
-<li><a href="https://en.wikipedia.org/wiki/V_for_Vendetta">V for Vendetta</a></li>
+<li>What can be done to further mitigate exchange risk, even if it’s only relevant to the short derivative leg?</li>
+<li>Where will the “natural funding rate” converge with this mechanism implemented at scale?</li>
+<li>What role does the insurance fund play, and how shall it be sized/scaled optimally?</li>
+<li>Can the “internet bond” effectively offer an inversely correlated yield to bonds (think crypto OI/perp funding in bullish, low-rate environment vs high-rate)?</li>
 </ul>
+<p>But I’ll end the thread here for now.</p>
+<p>The <span class="citation" data-cites="ethena_labs">@ethena_labs</span> team is legit, and it’s clear they are continuing to diligence the relevant considerations. A bankless stablecoin is a pivotal instrument for the cryptoeconomy, and I look forward to further public engagement as this develops. <code>https://twitter.com/leptokurtic_/status/1682781205811589120?s=20</code></p>
 </section>
-<section id="layer-1-whitepapers" class="level2">
-<h2 class="anchored" data-anchor-id="layer-1-whitepapers">Layer 1 Whitepapers</h2>
+<section id="thread-draft-old" class="level2">
+<h2 class="anchored" data-anchor-id="thread-draft-old">Thread Draft OLD</h2>
+<ol type="1">
+<li>Some thoughts on <span class="citation" data-cites="ethena_labs">@ethena_labs</span> and $USDe, an attempt towards a stablecoin which is independent of the traditional banking system.</li>
+</ol>
+<p><code>https://mirror.xyz/0xF99d0E4E3435cc9C9868D1C6274DfaB3e2721341/2gfr0qaFvZ8UxPaBvPPAZgwdcbssR_cyg5svqj1YGrY</code></p>
+<p>2/ First, a quick mid-bell summary of USDe mechanism</p>
+<ol type="1">
+<li>Alice deposits $1 worth of some asset (USDC, WBTC, doesn’t matter)</li>
+<li>Ethena swaps this for $1 worth of stETH, which is then used as cross-collateral for a $1 notional ETH perp short on some CEX</li>
+<li>Ethena mints 1 $USDe to Alice, backed by the delta-neutral $1 position</li>
+</ol>
+<p>For a more substantial overview, check out <span class="citation" data-cites="cryptohayes">@cryptohayes</span> “Dust on Crust” (which Ethena cites as inspiration)</p>
+<p>https://blog.bitmex.com/dust-on-crust/</p>
+<p>3/ Let me note the scale of this endeavor (relevant later).</p>
 <ul>
-<li><a href="https://bitcoin.org/bitcoin.pdf">Bitcoin: A Peer-to-Peer Electronic Cash System</a></li>
-<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=6956581">Zerocash: Decentralized Anonymous Payments from Bitcoin</a></li>
-<li><a href="https://ethereum.org/669c9e2e2027310b6b3cdce6e1c52962/Ethereum_Whitepaper_-_Buterin_2014.pdf">Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform</a></li>
-<li><a href="https://gavwood.com/paper.pdf">Ethereum: A Secure Decentralized Generalized Transaction Ledger</a></li>
-<li><a href="https://api-new.whitepaper.io/documents/pdf?id=BJNXW5ZnU">Cosmos: Internet of Blockchains</a></li>
-<li><a href="https://solana.com/solana-whitepaper.pdf">Solana: A new Architecture for a High Performance Blockchain</a></li>
-<li><a href="https://api-new.whitepaper.io/documents/pdf?id=HkUIhFWhL">Cardano</a></li>
-<li><a href="https://people.csail.mit.edu/nickolai/papers/gilad-algorand-eprint.pdf">Algorand: Scaling Byzantine Agreements for Cryptocurrencies</a></li>
-<li><a href="https://assets.website-files.com/5d80307810123f5ffbb34d6e/6008d7bbf8b10d1eb01e7e16_Avalanche%20Platform%20Whitepaper.pdf">Avalanche Platform</a></li>
-<li><a href="https://drive.google.com/file/d/18I9GPebWqgpvusI1kMnAB9nayBbL-1qN/view">The Spacemesh Protocol</a></li>
+<li>Stablecoin circulating supply sits comfortably above $100 billion throughout the bear market.</li>
+<li>Tether printed over $1 billion in <em>profit</em> last <em>quarter</em>.</li>
+<li>CBDCs are coming, from China to the WEF (both of which want censorship permissions).</li>
 </ul>
-</section>
-<section id="consensus" class="level2">
-<h2 class="anchored" data-anchor-id="consensus">Consensus</h2>
-<p>All things Byzantine Fault Tolerant: Research and implementations of consensus mechanisms.</p>
-<section id="whitepapers" class="level3">
-<h3 class="anchored" data-anchor-id="whitepapers">Whitepapers</h3>
-<ul>
-<li><a href="https://tendermint.com/static/docs/tendermint.pdf">Tendermint: Consensus without Mining</a></li>
-<li><a href="https://cryptogurukul-com.b-cdn.net/wp-content/uploads/2021/08/dfinity-consensus.pdf">DFINITY Consensus System</a></li>
-<li><a href="https://ripple.com/files/ripple_consensus_whitepaper.pdf">Ripple Protocol Consensus Algorithm</a></li>
-<li><a href="https://assets.website-files.com/5d80307810123f5ffbb34d6e/6009805681b416f34dcae012_Avalanche%20Consensus%20Whitepaper.pdf">Avalanche Consensus</a></li>
-<li><a href="https://arxiv.org/pdf/2105.11827.pdf">Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus</a></li>
-<li><a href="https://www.paradigm.xyz/2022/07/experiment-narwhal-bullshark-cosmos-stack">Cosmos without Tendermint</a></li>
-<li><a href="https://eprint.iacr.org/2016/199.pdf">The Honey Badger of BFT Protocols</a></li>
-<li><a href="https://hedera.com/hh-ieee_coins_paper-200516.pdf">Hashgraph Protocol: Efficient ABFT</a></li>
-<li><a href="https://www.cs.cornell.edu/lorenzo/papers/Zhang20Byzantine.pdf">Byzantine Ordered Consensus without Byzantine Oligarchy</a></li>
-<li><a href="https://www.csee.umbc.edu/~hbzhang/files/beat.pdf">BEAT: Asynchronous BFT Made Practical</a></li>
-</ul>
-</section>
-<section id="research" class="level3">
-<h3 class="anchored" data-anchor-id="research">Research</h3>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=-uxHoEfxXC4">Long Range Attacks on PoS</a></li>
-<li><a href="https://arxiv.org/abs/1710.09437">Casper the Friendly Finality Gadget</a></li>
-<li><a href="https://arxiv.org/abs/2003.03052">Combining GHOST and Casper</a></li>
-<li><a href="https://ethresear.ch/t/beacon-chain-casper-mini-spec/2760/17">Beacon Chain Casper Mini-Spec</a></li>
-<li><a href="https://notes.ethereum.org/@vbuterin/lmd_ghost_mitigation">Mitigating Balancing Attacks on LMD GHOST</a></li>
-<li><a href="https://research.polytope.technology/zkcasper">zkCasper</a>: SNARK based scheme for verifying the Ethereum’s Casper FFG consensus proofs</li>
-</ul>
-</section>
-<section id="attacks" class="level3">
-<h3 class="anchored" data-anchor-id="attacks">Attacks</h3>
-<ul>
-<li><a href="https://arxiv.org/pdf/2203.01315.pdf">Two Attacks on Proof-of-Stake GHOST/Ethereum</a></li>
-<li><a href="https://arxiv.org/abs/2110.10086">Three Attacks on Proof-of-Stake Ethereum</a></li>
-<li><a href="https://ethresear.ch/t/a-balancing-attack-on-gasper-the-current-candidate-for-eth2s-beacon-chain/8079">Balancing Attack on Gasper</a></li>
-<li><a href="https://eth2book.info/capella/part2/incentives/rewards/#discouragement-attacks">Discouragement Attacks</a></li>
-<li><a href="https://github.com/ethereum/research/blob/master/papers/discouragement/discouragement.pdf">Vitalik Paper</a></li>
-<li><a href="https://github.com/ethereum/research/blob/master/papers/discouragement/discouragement.pdf">Discouragement Attacks</a></li>
-</ul>
-</section>
-</section>
-<section id="events" class="level2">
-<h2 class="anchored" data-anchor-id="events">Events</h2>
-<p><strong>May 12, 2023:</strong> Ethereum Consensus Issues</p>
-<ul>
-<li><a href="https://twitter.com/potuz1/status/1657031082749861891?s=20">tweet one</a></li>
-<li><a href="https://twitter.com/TaylerUSA/status/1656840323392208899">tweet two</a></li>
-</ul>
-</section>
-<section id="recent-general" class="level2">
-<h2 class="anchored" data-anchor-id="recent-general">Recent, General</h2>
-<ul>
-<li><p><a href="https://research.thetie.io/blockchain-trilemma/#on-chain">The Tie: Solving the Blockchain Trilemma</a></p></li>
-<li><p><a href="https://dba.mirror.xyz/UTPfxWe65dYrUu_RJX-5VkAJypFRyw3AZh6m0dRXYZk">Endgame: Proof of Governance</a></p></li>
-</ul>
-</section>
-<section id="privacy" class="level2">
-<h2 class="anchored" data-anchor-id="privacy">Privacy</h2>
-<p><a href="https://deliverypdf.ssrn.com/delivery.php?ID=855089082102119079102097091083101113102082065014007039108087071002094126076004092111050117107034029039046027080025125113003101039086075069039068002121097025083108119020043021065086070093119021123028007013076115117079106121092088113093091115115105022031&amp;EXT=pdf&amp;INDEX=TRUE">Blockchain Privacy and Rgulatory Compliance: Towards a Practical Equilibrium</a></p>
+<p>Ethena is pursuing is a trillion dollar TAM.</p>
+<p>“If you don’t believe me or don’t get it, I don’t have time to try to convince you, sorry.” <strong>INSERT VIDEO</strong></p>
+<p>4/ Okay, so there’s two obvious/primary risks to the $USDe mechanism</p>
+<ol type="1">
+<li>Counterparty (CEX) Risk</li>
+<li>Basis Risk</li>
+</ol>
+<p>How is Ethena addressing these?</p>
+<p>5/ Addressing Counterparty Risk</p>
+<p>Whether its an external hack (Mt Gox) or insider theft (FTX) doesn’t matter - CEX risk is real. How much would you have to get paid to park your funds at Binance? 30%? 80%? This is a real question that CEX HFT shops and crypto VCs decide internally - the consensus is almost certainly above $USDe’s expected yield.</p>
+<p>The only proper mitigation I see is to avoid custodying assets at the exchanges. Park the stETH in Fireblocks, Ledger, etc. and make special agreements with Binance, Bybit, Bitmex, etc. to accept this (likely some form of ZK-Proof of stETH asset claim) as collateral, and simply settle funding payments intermittently.</p>
+<p>This doesn’t exactly eliminate <em>all</em> counterparty risk (still an operational nightmare/panic if Binance goes FTX mode), but it ensures assets are safu. I’m not sure this is actually Ethena’s plan, but it appears to be the only sufficient solution (assuming CEXs agree to the setup).</p>
+<p><strong>TODO:</strong> Mention the black swan force exit short perps too (the BitMex event)? - Ethena redemption should have scaled down exposure in the hours and minutes prior to this event (funding will necessarily have been negative before the trigger) - Ethena is hedged across multiple CEXes (historically this happens on one exchange at a time) - Ethena insurance fund as final backstop</p>
+<p>6/ Addressing Basis Risk</p>
+<p>The question/issue is what happens when (not if) the perp-spot spread flips, and the delta-neutral position begins to bleed (rather than accrue) funding payments.</p>
+<p><span class="citation" data-cites="leptokurtic">@leptokurtic</span> gives the TLDR mitigation/assumptions here</p>
+<p>https://twitter.com/leptokurtic_/status/1682781081068769280?s=20</p>
+<p>7/ I will focus on one of Ethena’s core assumptions, specifically that the “natural funding rate” is positive. Imo, this is where an interesting discussion lies.</p>
+To be clear, this assumption is not baseless - it is both supported by historical ETH perp data, and is generally true across (almost) all derivative markets.
+<p align="center">
+<img src="media/usde-yield.jpeg" style="width: 60%">
+</p>
+<p>8/ However, I subscribe to two schools of thought which may challenge this assumption.</p>
+<ol type="1">
+<li>Quantum Mechanics (the observer effect): The act of observing or measuring a system necessarily disturbs or changes the system.</li>
+<li>Soros’s Reflexivity of Markets: Market participants’ imperfect understanding of the world influences their actions, and those actions, in turn, influence the world in ways that can confirm or contradict their initial beliefs.</li>
+</ol>
+<p>Keeping in mind the scale of the stablecoin market, it’s naive to neglect the reflexivity bwteen Ethena’s operations and the ETH perp funding rate. The backtested yield in the previous tweet is under the assumption of $5b circulating $USDe supply - I predict this in-sample backtesting wil. This implies a $5b short OI, which is sustantial considering aggregate OI seen historically.</p>
+The image below shows Binance alone, but including Bybit, Bitmex, Derbit, and OKEx, total OI on ETH perpetual swaps is ~$TODO. Ethena would represent TODO% of ETH perp OI across all major exchanges.
+<p align="center">
+<img src="media/eth-oi.png" style="width: 60%">
+</p>
+<p>Fix Up - not final</p>
+<p>9/ The question becomes: In the scenario wherein $USDe is widely adopted, what is the “natural funding rate” of ETH perps? Here’s a thesis:</p>
+<p>The introduction of ETH staking, and liquid staking derivatives, effectively increased the baseline ETH lending rate (ETH’s LIBOR/SOFR) by the network’s staking yield. Why would anyone lend ETH at 80bps, when they can deposit for an LSD and earn 5% (where they can also then lend the LSD for 80bps)?</p>
+The “natural funding rate” baseline (not including the upwards skew cause by net bullish payment for leverage, which will remain a factor) on ETH perps will no longer necessarily == risk-free rate, as traditionally assumed for non-interest accruing assets (BTC, Gold, etc.). Instead, it will begin to additionally reflect the yield of ETH staking (risk-free rate - expected stETH yield). {{
+<p align="center">
+<img src="media/binance-funding.png" style="width: 60%">
+</p>
+<p>}}</p>
+<p>10/ Explain the logic - how other traders will arb funding rate considering availability of stETH as collateral. Why would this suggest a negative bias ~= eth yield.</p>
+<p>Fin/ The team behind Ethena is legit. To their credit, it seems they are continuing to diligence this concern. This is a pivotal mechanism for the crypto economy, and I look forward to the exploration that is to come. https://twitter.com/leptokurtic_/status/1682781205811589120?s=20</p>
+<p><strong>TODO:</strong> Mention the black swan force exit short perps too (the BitMex event)? - Ethena redemption should have scaled down exposure in the hours and minutes prior to this event (funding will necessarily have been negative before the trigger) - Ethena is hedged across multiple CEXes (historically this happens on one exchange at a time) - Ethena insurance fund as final backstop</p>
 
 
 </section>

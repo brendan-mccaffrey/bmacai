@@ -967,5 +967,26 @@
   },
   "library/life-sciences/health/viruses/index.qmd": {
     "index.html": "959afb1f"
+  },
+  "library/natural-sciences/crypto/blockchain/projects/hyperliquid.qmd": {
+    "hyperliquid.html": "3d5967b4"
+  },
+  "library/natural-sciences/crypto/blockchain/projects/ethena/ethena.qmd": {
+    "ethena.html": "52f0b670"
+  },
+  "library/natural-sciences/crypto/blockchain/projects/hyperbolic-whitepaper.qmd": {
+    "hyperbolic-whitepaper.html": "482be3d6"
+  },
+  "library/life-sciences/health/nutrition/vitamins.qmd": {
+    "vitamins.html": "2165b413"
+  },
+  "library/life-sciences/medicine/index.qmd": {
+    "index.html": "3c51b58e"
+  },
+  "library/life-sciences/biology/proteins/index.qmd": {
+    "index.html": "f77eab5b"
+  },
+  "library/social-sciences/racism/index.qmd": {
+    "index.html": "5b39638a"
   }
 }

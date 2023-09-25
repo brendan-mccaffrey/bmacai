@@ -1,4 +1,8 @@
-## 1 vision & mission
+---
+title: Hyperbolic
+---
+
+## 1: Vision & Mission
 
 The Internet has made the world more connected than ever. With years of efforts, companies have developed software stacks for cloud services that power the user-end products. Ironically, together with the backing hardware resources, they are mostly limited to the corporation boundaries, forming dispersed islands that effectively isolate the Internet. This business structure, while being profitable for decades, gradually shows the signs of problems, with the increasing demand for more data control and privacy by the users, more flexible and reusable services by the developers, and more opportunities of providing hardware resources for computation by the investors.
 
