@@ -1,0 +1,7 @@
+---
+title: Hyperbolic
+---
+
+This is a protocol by Ted ___, previously @ avax.
+
+{{< include _whitepaper-md.qmd >}}

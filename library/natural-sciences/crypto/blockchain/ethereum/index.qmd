@@ -71,6 +71,10 @@ page-layout: full
 - [State of research: increasing censorship resistance of transactions under proposer/builder separation (PBS)](https://notes.ethereum.org/@vbuterin/pbs_censorship_resistance) by Vitalik Buterin (EF)
 - [PBS Censorship-Resistance Alternatives](https://notes.ethereum.org/@fradamt/H1TsYRfJc) by Francesco D'Amato (EF)
 
+## (Dank) Sharding
+
+
+
 ## BLS
 
 - [BLS Introduction](https://eth2book.info/altair/part2/building_blocks/signatures)
@@ -80,6 +84,8 @@ page-layout: full
 
 - SSZ
   - [https://www.simpleserialize.com/](https://www.simpleseria
+
+
 
 
 ## EIPs
@@ -99,7 +105,7 @@ Proof of Stake
 
 ### 4844
 
-Sharding
+Proto-Danksharding
 
 - [EIP-4844: Shard Blob Transactions](https://eips.ethereum.org/EIPS/eip-4844)
 - [Danksharding](https://notes.ethereum.org/@dankrad/new_sharding)
