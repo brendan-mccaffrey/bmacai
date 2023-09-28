@@ -24,6 +24,10 @@
 
 All things Byzantine Fault Tolerant: Research and implementations of consensus mechanisms.
 
+### Byzantine Fault Tolerance
+
+- [Practical Byzantine Fault Tolerance](https://pmg.csail.mit.edu/papers/osdi99.pdf)
+
 ### Whitepapers
 
 - [Tendermint: Consensus without Mining](https://tendermint.com/static/docs/tendermint.pdf)
@@ -37,6 +41,7 @@ All things Byzantine Fault Tolerant: Research and implementations of consensus m
 - [Byzantine Ordered Consensus without Byzantine Oligarchy](https://www.cs.cornell.edu/lorenzo/papers/Zhang20Byzantine.pdf)
 - [BEAT: Asynchronous BFT Made Practical](https://www.csee.umbc.edu/~hbzhang/files/beat.pdf)
 - [TON: Catchain Consensus](https://docs.ton.org/catchain.pdf)
+- [Another advantage of free choice (Extended Abstract): Completely asynchronous agreement protocols](https://dl.acm.org/doi/10.1145/800221.806707)
 
 ### Research
 

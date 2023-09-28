@@ -1,0 +1,24 @@
+---
+title: Autism
+---
+
+## Reads
+
+- [How environmental and genetic factors combine to cause autism: A redox/methylation hypothesis](https://pubmed.ncbi.nlm.nih.gov/18031821/)
+- [Mycotoxins in the food chain: human health implications](https://pubmed.ncbi.nlm.nih.gov/17392084/)
+- [Public Health Impacts of Foodborne Mycotoxins](https://pubmed.ncbi.nlm.nih.gov/24422587/)
+- [Mold and Autism](https://www.drbognerhealth.com/blog/general/mold-autism/)
+
+### Mold Causes Autism?
+
+- [Case Study: Rapid Complete Recovery From An Autism Spectrum Disorder After Treatment of Aspergillus With The Antifungal Drugs Itraconazole And Sporanox](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7572136/)
+
+A child with symptoms placing him in the Autism spectruma and with urine biochemical markers consistent with fungal colonization of the gastrointestinal tract was first reated with a antifungal probiotic.
+
+The child's physician (Baker) wished to try a more potent antifungal therapy, itraconazole, in an attempt to reverse the child's autism since itraconazole is an especially effective agent against Aspergillus species.
+
+Escalation of the dose of itraconazole resulted in a complete loss of all symptoms of autism over the course of three months. This rapid complete reversal of autism is consistent with several articles proposing mold in general and Aspergillus specifically as a potential major cause of autism.
+
+___
+
+{{< include ../nutrition/_mycotoxins.qmd >}}

@@ -1,0 +1,44 @@
+## Magnesium
+
+#### **Chemical and Biochemical Forms**
+- **Elemental Magnesium**: Pure form, not typically used in biological systems.
+- **Magnesium Ion (Mg2+)**: Bioactive form, involved in enzymatic reactions.
+- **Organic Compounds**: Magnesium citrate, magnesium gluconate; better bioavailability.
+- **Inorganic Compounds**: Magnesium oxide, magnesium sulfate; less bioavailable.
+
+#### **Metabolic Pathways**
+- **Absorption**: 30-40% absorbed in the small intestine.
+- **Distribution**: 50-60% in bone, 20-25% in muscle, the remainder in soft tissues and fluids.
+- **Excretion**: Mainly via kidneys, tightly regulated.
+
+#### **Methods of Intake**
+- **Dietary Sources**: Leafy greens, nuts, whole grains, dairy.
+- **Supplements**: Pills, powders, topical (magnesium oil).
+- **Medical**: Injectable forms used for specific conditions.
+
+#### **Dosages**
+- **Recommended Dietary Allowance (RDA)**: 310-420 mg for adults.
+- **Upper Intake Level (UL)**: 350 mg from supplements; no established UL from food.
+  
+#### **Physiological Roles**
+1. **Enzymatic Reactions**: Involved in 300+ enzymatic processes including ATP synthesis.
+2. **Muscle Function**: Necessary for muscle contraction and relaxation.
+3. **Nervous System**: Regulates neurotransmitter release.
+4. **Bone Health**: Essential for bone formation and maintenance.
+5. **Cellular Processes**: DNA replication, repair, and protein synthesis.
+
+#### **Side Effects and Toxicity**
+- **Hypomagnesemia**: Deficiency can lead to cramps, arrhythmias, and neuromuscular irritability.
+- **Hypermagnesemia**: Excess can cause nausea, vomiting, and in severe cases, cardiac arrest.
+
+#### **Clinical Applications and Studies**
+- **Cardiovascular**: Used in managing arrhythmias and hypertension. ([Study](https://pubmed.ncbi.nlm.nih.gov/26846587/))
+- **Neurological**: Explored in migraine prevention and treatment of depression. ([Study](https://pubmed.ncbi.nlm.nih.gov/30410917/))
+- **Obstetrics**: Used in pre-eclampsia and eclampsia management. ([Study](https://pubmed.ncbi.nlm.nih.gov/11239628/))
+
+#### **Special Focus: Muscle Function and Sports Performance**
+- **Mechanism**: Facilitates the conversion of ATP, crucial for muscle energy.
+- **Research**: Some evidence for improved athletic performance and recovery.
+   - **Study**: [Effects of magnesium on exercise performance](https://pubmed.ncbi.nlm.nih.gov/17172008/)
+
+Magnesium is an essential mineral with multiple physiological roles ranging from enzymatic activation to muscle function and bone health. While deficiency is rare in healthy individuals, suboptimal levels may impact various physiological functions. Clinical applications are diverse, but as with any supplement, intake beyond dietary needs should be medically supervised to prevent potential toxicity.

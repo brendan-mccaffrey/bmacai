@@ -1,0 +1,31 @@
+---
+title: Vitamins
+---
+
+## My Opinionated Stack
+
+TODO
+
+## Index
+
+{{< include _d.qmd >}}
+
+### Multi
+
+For standard amounts of A, K, E, Iron, Zinc, etc
+
+### D-3
+
+### B-12
+
+### Magnesium
+
+### Glycine
+
+### Lion's Mane
+
+### Beet Root
+
+
+
+## Vitamin A
