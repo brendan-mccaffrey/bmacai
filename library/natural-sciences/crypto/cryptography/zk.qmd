@@ -1,4 +1,7 @@
-## Zero Knowledge
+---
+title: ZK
+subtitle: Zero Knowledge
+---
 
 #### **Example: The 3-Color Graph Coloring Problem**
 
@@ -23,25 +26,45 @@ Through repeated iterations, Bob becomes increasingly confident that Alice has a
 
 This example shows that ZKPs can provide robust verification without sacrificing the secrecy of the information involved.
 
-### Reads
+##### **Conclusion**
 
-**Educational Resources**
+Graph three coloring is NP-complete. Thus, any protocol that can prove a solution to this problem can be used to prove any statement in the class NP.
+
+Three critical properties a ZKP must satisfy:
+
+- Completeness: If the Prover is honest, then she will eventually convince the Verifier.
+- Soundness: The Prover can only convince the Verifier if the statement is true.
+- Zero-knowledge(ness): The Verifier learns no information beyond the fact that the statement is true.
+
+## Reads
+
+#### **Educational Resources**
+
+- [ZKP Illustrated Primer Part 1](https://blog.cryptographyengineering.com/2014/11/27/zero-knowledge-proofs-illustrated-primer/)
+- [ZKP Illustrated Primer Part 2](https://blog.cryptographyengineering.com/2017/01/21/zero-knowledge-proofs-an-illustrated-primer-part-2/)
+- [ZkIntro](https://zkintro.com/articles/friendly-introduction-to-zero-knowledge)
+
+#### **Resource Compilations**
 
 - [Zero Knowledge A-Z](https://graph.org/ZK-SNARKs-VS-ZK-STARKs-01-10)
-- [Introduction to Zero Knowledge: Video Tutorial](https://www.youtube.com/watch?v=6uGimDYZPMw&list=PL8Vt-7cSFnw29cLUVqAIuMlg1QJ-szV0K&index=1)
-- [zkMesh Newsletter](https://t.co/WZfjL7D8PW)
+- [Hickup's ZK Journey](https://sunrise-clerk-234.notion.site/Hickup-s-ZK-Journey-affa9ce9cdf44a33b3549c37f908521a)
 - [ZK "Canon" by A16z](https://a16zcrypto.com/zero-knowledge-canon/)
-- [ZkIntro](https://zkintro.com/articles/friendly-introduction-to-zero-knowledge)
-- [RiscZero Study Club](https://www.youtube.com/watch?v=v4HIwaqmIxk&list=PLcPzhUaCxlCirUkJY0ltpjdtzWcz5U_6y&index=3)
 - [ZKP.Science](https://zkp.science/)
 
-**Foundational Papers**
+#### **Video Resources**
+
+- [RiscZero Study Club](https://www.youtube.com/watch?v=v4HIwaqmIxk&list=PLcPzhUaCxlCirUkJY0ltpjdtzWcz5U_6y&index=3)
+- [Introduction to Zero Knowledge: Video Tutorial](https://www.youtube.com/watch?v=6uGimDYZPMw&list=PL8Vt-7cSFnw29cLUVqAIuMlg1QJ-szV0K&index=1)
+
+
+#### **Foundational Papers**
 
 - [New Directions in Cryptography, 1976](https://t.co/xqjkEf7TEV)
 - [Public-coin zero-knowledge arguments with (almost) minimal time and space overheads, 2020](https://t.co/odrV7LZdIy)
 - [A method for obtaining digital signatures and public-key cryptosystems](https://people.csail.mit.edu/rivest/Rsapaper.pdf)
+- [Proofs, Arguments, and Zero-Knowledge](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
 
-**Technical Deep Dives**
+#### **Technical Deep Dives**
 
 - [Overview of Verifiable Computing](https://t.co/nkwNAjnRr6)
 - [Interactive Proofs](https://t.co/xPBWXvKwbY)
@@ -54,6 +77,7 @@ This example shows that ZKPs can provide robust verification without sacrificing
 - [Why and How ZK-SNARK Works](https://arxiv.org/abs/1906.07221)
 - [Fast Amortized KZG Proofs](https://eprint.iacr.org/2023/033.pdf)
 - [ZK Development Playground](https://zkrepl.dev/)
+- [Beginner Intro to Coding ZK Proofs](https://dev.to/spalladino/a-beginners-intro-to-coding-zero-knowledge-proofs-c56)
 
 ### Practical Applications
 - [Applied ZK](https://t.co/6TvEniH6kA)
@@ -76,12 +100,28 @@ This example shows that ZKPs can provide robust verification without sacrificing
 - [github](https://github.com/risc0/risc0)
 
 Blockchain product: Bonsai
+
 - [docs](https://dev.bonsai.xyz/)
 - [starter template](https://github.com/risc0/bonsai-foundry-template)
 
 **ZK Proof of Exploit**
 
 - [twitter](https://twitter.com/zkpoex)
+
+## Concepts
+
+### SNARKs
+
+- [Vitalik Intro 1](https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649)
+- [Vitalik Intro 2](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627)
+- [Vitalik Intro 3](https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6)
+
+### STARKs
+
+- [Vitalik Intro 1](https://vitalik.ca/general/2017/11/09/starks_part_1.html)
+- [Vitalik Intro 2](https://vitalik.ca/general/2017/11/22/starks_part_2.html)
+- [Vitalik Intro 3](https://vitalik.ca/general/2018/07/21/starks_part_3.html)
+
 
 
 

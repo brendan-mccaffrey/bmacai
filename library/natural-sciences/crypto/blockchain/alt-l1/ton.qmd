@@ -1,0 +1,16 @@
+--- 
+title: TON
+subtitle: The Open Network, by Telegram founder Dr. Nikolai Durov
+---
+
+## Resources
+
+- [TON Whitepaper](https://ton.org/whitepaper.pdf)
+- [website](https://ton.org/)
+- [TON Virtual Machine Whitepaper](https://docs.ton.org/tvm.pdf)
+- [TON Blockchain Whitepaper](https://docs.ton.org/tblkch.pdf)
+- [Catchain Consensus Whitepaper](https://docs.ton.org/catchain.pdf)
+
+## Brief History
+
+Founder: [Dr. Nikolai Durov](https://en.wikipedia.org/wiki/Nikolai_Durov)

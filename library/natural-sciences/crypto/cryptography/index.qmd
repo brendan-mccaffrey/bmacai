@@ -9,6 +9,27 @@ description: Where the value lies.
 - [NSA: tor Stinks](https://cryptome.org/2013/10/nsa-tor-stinks.pdf)
 - [Complete Knowledge: Preventing Encumbrance of Cryptographic Secrets](https://www.arijuels.com/wp-content/uploads/2023/01/Complete_Knowledge.pdf)
 
+## Good Papers
+
+- 1976 | [New Directions in Cryptography](https://t.co/xqjkEf7TEV)
+- 1978 | [A Method for Obtaining Digital Signatures and Public-Key Cryptosystems](https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=856E21BC2F75800D37FD611032C30B9C?doi=10.1.1.40.5588&rep=rep1&type=pdf)
+- 1978 | [Secure Communication Over Insecure Channels](https://www.researchgate.net/publication/220424692_Secure_Communication_Over_Insecure_Channels)
+- 1980 | [Protocols for Public Key Cryptosystems](https://ieeexplore.ieee.org/document/6233691)
+- 1985 | [the Knowledge Complexity of Interactive Proof Systems](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.419.8132&rep=rep1&type=pdf)
+- 1988 | [Non-interactive zero-knowledge and its applications](https://dl.acm.org/doi/10.1145/62212.62222)
+- 1988 | [Use of Elliptic Curves in Cryptography](https://link.springer.com/content/pdf/10.1007/3-540-39799-X_31.pdf)
+- 1989 | [The Knowledge Complexity of Interactive Proof Systems](https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Proof%20Systems/The_Knowledge_Complexity_Of_Interactive_Proof_Systems.pdf)
+- 1991 | [Proofs that Yield Nothing But Their Validity or All Languages in NP Have Zero-Knowledge Proof Systems](http://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Zero%20Knowledge/Proofs_That_Yield_Nothing_But_Their_Validity_or_All_Languages_in_NP_Have_Zero-Knowledge_Proof_Systems.pdf)
+- 2000 | [Frontiers in Zero Knowledge](https://dspace.mit.edu/handle/1721.1/86616)
+- 2000 | [Computationally Sound Proofs](https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Proof%20Systems/Computationally_Sound_Proofs.pdf)
+- 2011 | [From Extractable Collision Resistance to Succinct Non-Interactive Arguments of Knowledge, and Back Again](https://eprint.iacr.org/2011/443.pdf)
+- 2012 | [Efficient Zero-Knowledge Argument for Correctness of a Shuffle](http://www0.cs.ucl.ac.uk/staff/J.Groth/MinimalShuffle.pdf)
+- 2015 | [Verifying Computations Without Reexecuting Them](https://cacm.acm.org/magazines/2015/2/182636-verifying-computations-without-reexecuting-them/fulltext)
+- 2018 | [Scalable, transparent, and post-quantum secure computational integrity](https://eprint.iacr.org/2018/046.pdf)
+- 2019 | [Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture](https://eprint.iacr.org/2013/879.pdf)
+- 2020 | [Public-Coin Zero-Knowledge Arguments with (almost) Minimal Time and Space Overheads](https://www.iacr.org/cryptodb/data/paper.php?pubkey=30645)
+- 2023 | [Proofs, Arguments, and Zero Knowledge](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
+
 ### Cryptographic Primitives
 
 - [Digital Signatures](https://en.wikipedia.org/wiki/Digital_signature)
@@ -16,20 +37,6 @@ description: Where the value lies.
 - [Polynomial Commitment Schemes Multiproofs using Random Evaluation](https://dankradfeist.de/ethereum/2021/06/18/pcs-multiproofs.html#evaluating-a-polynomial-in-evaluation-form-on-a-point-outside-the-domain)
 - Pederson Commitments [Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing](https://link.springer.com/chapter/10.1007/3-540-46766-1_9)
     - ZCash and Monero use these to shield transaction amounts
-
-##### **KZG Commitments**
-
-- (Original Paper) [Constant-Size Commitments to Polynomials and Their Applications](https://link.springer.com/chapter/10.1007/978-3-642-17373-8_11)
-- Dankrad Feist, [KZG Polynomial Commitments](https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html)
-
-##### **BLS**
-
-Boneh-Lynn-Shacham Signature Scheme
-
-- [BLS Introduction](https://eth2book.info/altair/part2/building_blocks/signatures)
-- [BLS Signature Scheme](https://tools.ietf.org/id/draft-boneh-bls-signature-00.txt)
-- [Pragmatic signature aggregation with BLS](https://ethresear.ch/t/pragmatic-signature-aggregation-with-bls/2105?u=benjaminion)
-- [BLS Signature for Busy People](https://gist.github.com/paulmillr/18b802ad219b1aee34d773d08ec26ca2)
 
 ### Quantum Cryptography
 
@@ -40,13 +47,25 @@ Boneh-Lynn-Shacham Signature Scheme
 - [Shucking Attacks](https://superuser.com/questions/1561434/how-do-i-crack-a-double-encrypted-hash/1561612#1561612)
 - [Breaking Elliptic Curve - How to compute a 256-bit elliptic curve private key with only 50 million Toffoli gates](https://arxiv.org/abs/2306.08585)
 
+## Computational Complexity Theory
 
+"NP" is short for "nondeterministic polynomial-time"
 
+#### **NP-Completeness**
 
-{{< include _zk.qmd >}}
+A problem is NP-Complete when
+- It is a decision problem, meaning that for any input to the problem, the output is either "yes" or "no".
+- When the answer is "yes", this can be demonstrated through the existence of a short (polynomial length) solution.
+- The correctness of each solution can be verified quickly (namely, in polynomial time) and a brute-force search algorithm can find a solution by trying all possible solutions.
+- The problem can be used to simulate every other problem for which we can verify quickly that a solution is correct. In this sense, NP-complete problems are the hardest of the problems to which solutions can be verified quickly. If we could find solutions of some NP-complete problem quickly, we could quickly find the solutions of every other problem to which a given solution can be easily verified.
 
 ___
 
-{{< include _fhe.qmd >}}
+{{< include _proofs.qmd >}}
+
+
+___
+
+{{< include _topics.qmd >}}
 
 

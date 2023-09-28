@@ -988,5 +988,26 @@
   },
   "library/social-sciences/racism/index.qmd": {
     "index.html": "5b39638a"
+  },
+  "library/natural-sciences/crypto/blockchain/projects/eigenlayer/index.qmd": {
+    "index.html": "fbb43704"
+  },
+  "library/natural-sciences/crypto/blockchain/projects/hyperliquid/index.qmd": {
+    "index.html": "f07d5d79"
+  },
+  "library/natural-sciences/crypto/blockchain/projects/hyperbolic/index.qmd": {
+    "index.html": "0f920aba"
+  },
+  "library/natural-sciences/crypto/blockchain/dev/eth-node.qmd": {
+    "eth-node.html": "e2fc7ede"
+  },
+  "library/natural-sciences/crypto/blockchain/alt-l1/ton.qmd": {
+    "ton.html": "bd9ef939"
+  },
+  "library/natural-sciences/finance/series65/index.qmd": {
+    "index.html": "a416b47c"
+  },
+  "library/natural-sciences/crypto/cryptography/zk.qmd": {
+    "zk.html": "fa095857"
   }
 }

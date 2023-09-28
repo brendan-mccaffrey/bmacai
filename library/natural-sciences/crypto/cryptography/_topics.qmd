@@ -1,0 +1,13 @@
+##### **KZG Commitments**
+
+- (Original Paper) [Constant-Size Commitments to Polynomials and Their Applications](https://link.springer.com/chapter/10.1007/978-3-642-17373-8_11)
+- Dankrad Feist, [KZG Polynomial Commitments](https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html)
+
+##### **BLS**
+
+Boneh-Lynn-Shacham Signature Scheme
+
+- [BLS Introduction](https://eth2book.info/altair/part2/building_blocks/signatures)
+- [BLS Signature Scheme](https://tools.ietf.org/id/draft-boneh-bls-signature-00.txt)
+- [Pragmatic signature aggregation with BLS](https://ethresear.ch/t/pragmatic-signature-aggregation-with-bls/2105?u=benjaminion)
+- [BLS Signature for Busy People](https://gist.github.com/paulmillr/18b802ad219b1aee34d773d08ec26ca2)

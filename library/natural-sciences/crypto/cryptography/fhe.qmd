@@ -1,4 +1,7 @@
-## Fully Homomorphic Encryption
+---
+title: FHE
+subtitle: Fully Homomorphic Encryption
+---
 
 ### Reads
 
@@ -29,6 +32,8 @@ Efficiency Improvements
 ### fhEVM
 
 - [fhEVM](https://github.com/zama-ai/fhevm/blob/main/fhevm-whitepaper.pdf)
+- [TFHE.sol](https://github.com/zama-ai/fhevm/blob/main/lib/TFHE.sol)
+- [Fhenix Blockchain](https://twitter.com/FhenixIO)
 
 **Related**
 

@@ -1,0 +1,15 @@
+--- 
+title: Zephyr
+subtitle: Zephyr Exchange is a decentralized fiat <> crypto on & off-ramp
+---
+
+## Resources
+
+- [Blog Announcement](https://medium.com/@notebook_labs/notebook-labs-launches-zephyr-the-first-fully-decentralized-on-and-off-ramp-9c8ccb13d165)
+- [Twitter Account](https://twitter.com/ZephyrExchange)
+- [Website](https://www.zephyr.exchange/)
+- [Parent Co, Notebook Twitter Account](https://twitter.com/NotebookLabs)
+
+**Excerpt**
+
+Zephyr has built infrastructure, starting with Venmo email confirmations, to generate Zero-Knowledge proofs of the payment receipts and verify them on-chain. These provide mathematical proof of payments. Therefore, our smart-contract escrow can verify the payment and release the escrowed funds. Because Zephyr relies on Zero-Knowledge proofs, rather than a central entity, it is significantly more secure than traditional escrow service.
