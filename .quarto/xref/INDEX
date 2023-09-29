@@ -1009,5 +1009,38 @@
   },
   "library/natural-sciences/crypto/cryptography/zk.qmd": {
     "zk.html": "fa095857"
+  },
+  "library/natural-sciences/crypto/cryptography/fhe.qmd": {
+    "fhe.html": "ddeef809"
+  },
+  "library/natural-sciences/crypto/blockchain/projects/zephyr/index.qmd": {
+    "index.html": "82b0a6c5"
+  },
+  "library/natural-sciences/crypto/blockchain/alt-l1/ton/index.qmd": {
+    "index.html": "ebbc4864"
+  },
+  "library/natural-sciences/crypto/blockchain/alt-l1/avax/index.qmd": {
+    "index.html": "c87da006"
+  },
+  "library/natural-sciences/crypto/cex/ftx/index.qmd": {
+    "index.html": "3e9c5a87"
+  },
+  "library/natural-sciences/crypto/cex/coinbase/index.qmd": {
+    "index.html": "d325d87d"
+  },
+  "library/natural-sciences/crypto/cex/binance/index.qmd": {
+    "index.html": "de9529a3"
+  },
+  "library/natural-sciences/physics/entropy/index.qmd": {
+    "index.html": "88b02272"
+  },
+  "library/life-sciences/health/autism/index.qmd": {
+    "index.html": "b3f19c13"
+  },
+  "library/life-sciences/health/nutrition/vitamins/index.qmd": {
+    "index.html": "54a0dcc1"
+  },
+  "library/life-sciences/biology/viruses/index.qmd": {
+    "index.html": "175ac6c6"
   }
 }

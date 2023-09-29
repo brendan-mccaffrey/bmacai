@@ -44,3 +44,45 @@ $$\gamma^\mu\gamma^\nu + \gamma^\nu\gamma^\mu = 2\eta^{\mu\nu}I_4$$
 The Dirac equation is a relativistic wave equation that describes the dynamics of a spin-1/2 particle in the presence of an electromagnetic field. It predicts the existence of spin and spin magnetic moment for the particle, which are experimentally confirmed.
 
 The four components of the Dirac spinor $\psi$ correspond to the particle's spin and helicity. The solutions to the Dirac equation are classified by their energy, momentum, and spin. The Dirac equation has a rich and complex mathematical structure, and has played a key role in many areas of physics, including particle physics, quantum field theory, condensed matter physics, and astrophysics.
+
+### Von Neumann Algebras
+
+Von Neumann algebras are $(C^*)$-algebras of bounded operators on a Hilbert space that are closed in the weak operator topology. These algebras are fundamental in functional analysis and quantum mechanics. The formal definition is:
+
+$$ \begin{aligned}
+M \subset B(H) \text{ is a von Neumann algebra if } M = M'' = (M')'
+\end{aligned} $$
+
+Here, $(B(H))$ denotes the set of bounded linear operators on Hilbert space $(H)$, and $(M'')$ and $(M')$ denote the bicommutant and commutant, respectively.
+
+#### **Types of Von Neumann Algebras**
+
+1. **Type I**
+    - **Description**: Decomposable into direct sums of simple matrix algebras.
+    - **Subtypes**: 
+      - **Type I$(_1)$**: Factors corresponding to finite-dimensional Hilbert spaces.
+      - **Type I$(_\infty)$**: Infinite-dimensional spaces.
+  
+2. **Type II**
+    - **Description**: Not decomposable but have a non-trivial center.
+    - **Subtypes**: 
+      - **Type II$(_1)$**: Trace-class operators have finite trace.
+      - **Type II$(_\infty)$**: Infinite trace.
+
+3. **Type III**
+    - **Description**: Neither Type I nor Type II; occur naturally in quantum field theory.
+    - **Subtypes**: 
+      - **Type III$(_\lambda)$**: Vary by a parameter $(\lambda)$, used in the Tomita-Takesaki theory.
+
+Each type has distinct mathematical properties and applications in quantum mechanics and quantum field theory.
+
+### **Hilbert Space**
+
+A Hilbert space is a complete inner product space, meaning it's a vector space equipped with an inner product and is complete in the sense that every Cauchy sequence in the space converges to an element within the space. It generalizes the notion of Euclidean space and is fundamental in quantum mechanics and functional analysis.
+
+$$ \begin{aligned}
+\langle x, y \rangle : H \times H \rightarrow \mathbb{C}
+\end{aligned} $$
+
+- **Context**: Developed in early 20th century, named after David Hilbert.
+- **Purpose**: Framework for quantum mechanics and functional analysis. 

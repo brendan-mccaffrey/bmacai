@@ -44,35 +44,17 @@ where $ds$ is the spacetime interval between two events, $c$ is the speed of lig
 
 The Minkowski metric is a special case of the more general metric tensor used in general relativity. In general relativity, the metric tensor is a function of the curvature of spacetime caused by matter and energy, and it is used to describe the gravitational field. However, in special relativity, where there is no gravitational field, the metric tensor is simply the Minkowski metric, and it describes the flat spacetime of special relativity.
 
-## Black Holes
+### de Sitter Spacetime
 
-- [Black Holes Evade Heat Death](https://www.quantamagazine.org/in-new-paradox-black-holes-appear-to-evade-heat-death-20230606/) 
-- [Effective Action for the Hawking Process](https://arxiv.org/pdf/2306.09019.pdf)
-- [Supermassive Black Hole Binary](https://arxiv.org/abs/2306.11310)
-- [Probing Supermassive Black Hole Merges and Stalling with Pulsar Timing Arrays](https://arxiv.org/abs/1901.06785)
-- [Abell 1201: detection of an ultramassive black hole in a strong gravitational lens](https://academic.oup.com/mnras/article/521/3/3298/7085506)
-- [Math Proof Draws New Boundaries Around Black Hole Formation](https://arxiv.org/pdf/2301.08270.pdf)
-    - [Quanta article](https://www.quantamagazine.org/math-proof-draws-new-boundaries-around-black-hole-formation-20230816/)
-- [A Black Hole’s Orbiting Ring of Light Could Encrypt Its Inner Secrets](https://www.quantamagazine.org/black-holes-ring-of-light-could-encrypt-its-inner-secrets-20220908/)
+de Sitter spacetime is a solution to Einstein's field equations in general relativity that describes an expanding universe. It's characterized by a positive cosmological constant $(\Lambda)$ and has a metric often written in terms of a scale factor $(a(t))$.
 
-#### Equation for a Rotating Black Hole: A Discussion
+$$ \begin{aligned}
+ds^2 = -dt^2 + a(t)^2 d\Sigma^2
+\end{aligned} $$
 
-$$
-\begin{aligned}
-d s^2= & -\left(1-\frac{2 m r}{r^2+a^2 \cos ^2 \theta}\right)\left(d v-a \sin ^2 \theta d \tilde{\phi}\right)^2 \\
-& +2\left(d v-a \sin ^2 \theta d \tilde{\phi}\right)\left(d r-a \sin ^2 \theta d \tilde{\phi}\right) \\
-& +\left(r^2+a^2 \cos ^2 \theta\right)\left(d \theta^2+\sin ^2 \theta d \tilde{\phi}^2\right)
-\end{aligned}
-$$
+- **Context**: Introduced by Willem de Sitter in 1917.
+- **Purpose**: Model an empty universe with a positive cosmological constant, relevant for cosmology and inflationary theory.
 
-[Thread](https://twitter.com/PaulGradenwitz/status/1684032493358395392)
+___
 
-- This metric equation is valid under the assumption that light propagates at any location around the BH with constant speed. Thus then spacetime gets extremly curved. But if we assume that spacetime remains flat, then we have to rewrite this as what is the local light propagation velocity tensor.  Under that assumption this velocity will become equal to the EH surface for a location at the EH. Because still remains valid that nothing can exceed the local speed of light, this means that all matter will come at rest at the EH with every particle wave function frozen on that surface. Nothing ever traverses the EH. All accumulates on it. The BH grows by accumulating frozen matter at its EH surface.
-
-- Exactly. In other words, if you take the reference frame of light, you'll see that the EH is pushed to oo, and all matter will be contained between the photon horizon (r=3M) and the EH (r=2M). (Is our universe rotating?)
-
-- You can't take the reference frame of light. In every reference frame the light speed is the same, so "in the reference frame of light" makes no sense because there time is stopped. The EH can't be seen on oo because for an observer between PS and EH there are a finite number of oscillations of his time reference from PS to EH. The assumption that the universe could rotate leads to a complication of all physical laws. We would get that there then has to be a rotation axis of the universe and that all rules are different with relation to that axis so that speed along the rotation direction can exceed c with any multiple without problems of inertia. This is similar to the Hubble expansion with the difference of an absolute rotation axis. That is why I reject both assumptions. It makes no sense to assume that space rotates. We rotate inside space. It also makes no sense to assume that space expands. We shrink inside space. The big one, space, is invariant, flat, not rotating, not translating, not curving. The small, what is inside space, rotates, translates, changes size. The only property of space that has a variation is that the propagation speed of light depends on the mass/energy density distribution in space.
-
-- Isn't it easier for Hawking radiation to escape if black holes have hair? So it's not perfectly curved there. How does this equation differ from the superfluid quantum gravity spinning vortice(s) model of black holes?
-
-- @bgreene marveled about the beauty of the equation. He didn't gave a judgement about its validity. I gave an explanation on what assumptions are needed to allow this metric equation to be applicable. You come with the concept of a radiating BH. That only asks wether a particle pair of matter and antimatter could split such that one falks into, and one escapes the BH. But since the propagation speed of light at the EH is equal to the EH nothing moves there. So a hairy EH would assume that this propagation speed distribution is not smooth. This then should lead to particle wave functions to start from "stand still" and move outward. Such phenomen would need a different metric equation, but would not alter the beauty of the equation that @bgreene mentioned.
+{{< include _black-holes.qmd >}}

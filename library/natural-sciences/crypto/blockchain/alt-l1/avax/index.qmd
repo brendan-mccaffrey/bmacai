@@ -16,5 +16,7 @@ title: Avalanche
 
 ### Firewood: Database for Blockchains
 
+- [Firewood Repository](https://github.com/ava-labs/firewood/)
+- [Firewood MIT, Full EVM Compatible](https://github.com/ava-labs/firewood-mit)
 - [Introducing Firewood: A Next-Generation Database Built for High-Throughput Blockchains](https://www.avax.network/blog/introducing-firewood-a-next-generation-database-built-for-high-throughput-blockchains)
 - [Development Roadmap](https://github.com/ava-labs/firewood#roadmap)
