@@ -1,0 +1,34 @@
+For Reth, these are the options I am interested in.
+```bash
+# of interest
+--full                  # run a full node (not archive or custom)
+--http                  # enable the HTTP-RPC server
+--http.corsdomain "*"   # allow requests from anyone with the IP address 
+--http.api all          # enable all JSON-RPC namespaces over HTTP server
+--ws 
+--ws.origins "*"
+--ws.api all 
+# JSON-RPC | avaliable namespaces are: admin,debug,eth,net,trace,txpool,web3,rpc
+
+# notable
+--datadir <DATA_DIR>                # default `$HOME/.local/share/reth/`
+--authrpc.jwtsecret /path/to/secret # specify custom path, default is `$HOME/.local/share/reth/mainnet/jwt.hex`
+--trusted-setup-file <PATH>         # overrides the KZG trusted setup by reading from the supplied file
+```
+
+For Lighthouse
+```bash
+
+```
+
+To actually run it, let's first create a screen for perpetual processes
+
+
+
+Lighthouse Output (INFO)
+```bash
+Sep 26 17:59:48.111 INFO Logging to file                         path: "/home/ubuntu/.lighthouse/mainnet/beacon/logs/beacon.log"
+Sep 26 17:59:48.112 INFO Lighthouse started                      version: Lighthouse/v4.5.222-exp-f1f76f2
+Sep 26 17:59:48.112 INFO Configured for network                  name: mainnet
+Sep 26 17:59:48.112 INFO Data directory initialised              datadir: /home/ubuntu/.lighthouse/mainnet
+```
