@@ -101,4 +101,9 @@ To encourage active participation, they design a *Proof-of-Relay* scheme for Bol
 
 In Proof-of-Relay, it's impractical to require nodes to generate a proof and redeem a reward for each message. Instead, randomly select nodes as a verifiable starting point to conduct a "verifiable random walk" for connectivity in each epoch. Running the challenge epochs indefinitely provides network-wide coverage and incentivizes the network to stay healthy without stuttering the transmission.
 
-**Proof-of-Relay**
+**Proof-of-Relay** is built on the following components:
+
+- blockchain: customized ledger to track epoch-related events and keep a record of rewards
+- VRF: protocol allowing multiple parties to collaboratively generate verifiable random output
+- randomness beacon: service that regularly produces pseudo-random seeds for the VRF
+- Elliptic-Curve Diffie-Hellman: a key exchange protocol that allows two parties, each having an elliptic-curve public-private key pair to establish a shared secret over an insecure channel. It's a variant of Diffie-Hellman using EC cryptography.
