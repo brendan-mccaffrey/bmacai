@@ -2,6 +2,103 @@
 title: Hyperbolic
 ---
 
-This is a protocol by Ted ___, previously @ avax.
+This is a protocol by [Ted Yin](https://twitter.com/Tederminant), previously @ avax.
 
-{{< include _whitepaper.qmd >}}
+Here is a link to the whitepaper [converted to markdown](_whitepaper.qmd)
+
+## Notes
+
+Hyperbolic is a microservices platform, that attempts to acheieve a practical optimum between decentralization (censorhip-resistance) and performance (throughput, bandwidth).
+
+Goal: combine the best of blockchain and cloud computing
+
+### Context and Motivation
+
+- web3 attempts to host the computation of all services on a decentralized platform backed by a ledger (blockchain)
+- encoding each step of computation as a transaction is impractical
+- cloud compute suffers from isolation, trust assumptions, and lack of interoperability
+- cloud compute services vary in performance demand and fault tolerance, so naively applying blockchains is inefficient
+- L2s and current blockchain innovations again introduce isolation between services
+
+### Overview
+
+- Hyperbolic facilitates development and deployment of composable Decentralized Services **(D-Services)** that follow a new Invoke-Return-Combine **(IRC)** paradigm.
+- D-services are hosted by a dynamic subset of nodes, which make tradeoffs between performance and fault tolerance, and follow a classic client-server model with server side fault tolerance.
+- To help developers build their D-Services, Hyperbolic will provide useful, basic D-services such as
+    - Content delivery network (CDN)
+    - Video streaming (D-streaming)
+    - Publish-subscribe patterns (D-PubSub)
+    - Blockchain ledger (D-Ledger)
+- All services follow IRC model, and will allow an ecosystem of reusable modules.
+
+**Hyllo**
+
+Hyperbolic's first-party messaging app: non-custodial, bound to cryptographic identities. Hyllo will serve as a portal to Hyperbolic, allowing end-users to seamlessly interact with D-Services.
+
+### Bolic: Self-Healing Network Fabric
+
+Bolic is an internet scale subsystem that delivers arbitrary binary data from one crypto entity to another, designed with modularity from the ground up and with careful thoughts of abstraction. There is a necessary dissagregation of the following three aspects:
+
+- Noiton of data transmission from one party to another should be as simple as an airdrop. Tag (encrypt) the message with recipient's id and "drop" is to Bolic.
+- The actual transport, which could be backed by TCP/UDP/Websocket/SMS/emails, does not need to know the content of the data because it's E2E encrypted.
+- The routing mechanism to balance resource cost, reliability, and performance, offering different tradeoffs and plans.
+
+Bolic represents the web in web3, building on top of the existing internet - but there could also be other data carriers such as Tor-style privacy channels.
+
+### P2P v. Cient-Server
+
+Client-server is seen in more centralized systems where servers have more authority oevr user's data dn computation. However, it still has advantages over pure P2P (lower cost bandwidth).
+
+Imagine a lareg, 100k-person, groupchat.
+
+- Client-Server: Everyone talks to server, which sends only one message to each user.
+- P2P: gossip protocol where each user sends to every other, massive duplication.
+- Middle-Ground: Group chat has 100 chat servers, where each of the 100k users talks to 60 servers at a time. 100 peers in network, high resistance to failure. Every user guaranteed to share >= 20 servers with another user.
+
+This resembled quorum intersections in consensus protocols that power PoS blockchains, but sending messages is easier than consensus. 
+Overall effect: cost shrunk 1000x from 100k nodes to 100.
+
+### D-Services
+
+All connected participants in Hyperbolic are nodes. Most nodes will have their relay ability enabled, running Bolic which forwards encrypted data. In addition to relay, nodes can opt into one or more server roles of D-Services.
+
+Services are rendered by RPC-style invocations of methods offered by the service, whose responses get aggregated and deduplicated locally at each client.
+
+*notation* 
+
+- $S$: D-service 
+- $N_S$: Nodes of service 
+- $i$: Arbitrary client 
+- $Q_{Si} \Subset N_S$: Service-prescribed subset of servers 
+
+
+The **Invoke-Return-Combine** trip is as follows:
+
+**Invoke:** Each client $i \in N_c$ initiates an RPC call by signing a message $S.Invoke(i, method, nonce, input)$ and sends it to all nodes in $Q_{Si}$, where $nonce$ is a per-invocation identifier to distinguish calls.
+
+**Return:** Each server $u$, upon receiving RPC call message, validates the message and returns its response by signing and sending $S.Return(i, method, nonce, input-hash, u, output_u)$ back to client $i$.
+
+**Combine:** Each client $i$, upon receiving at least a threshold (constant $T_{Si} \leq \|Q_{Si}$ predefined by the service for each client) of responses from servers:
+
+$$ 
+\begin{aligned}
+R_i = \{ output_u : S.Return(i,method,none,input-hash,u,output_u), u \in Q_{Si}\} 
+\end{aligned} 
+$$
+where $\|R_i\| \geq T_{Si}$.
+
+It computes the final output locally by a service-prescribed *client part* of D-Service logic: $output_i = S.Combine(R_i)$. The D-service designer must ensure that as long as the number of collected responses $\|R_i\|$ is not les than the threshold, the combined output is deterministic and consistent regardless of the number of responses.
+
+The groupchat example can use $T_{Si} = 51, \forall i \in N_c$ threshold and run $\|N_S\| = 100$ servers. 
+
+*This guarantees if at least 51×2−100 = 2 out of 20 servers to which any two clients connect render the service, the message could be passed over directly. Even if there is no non-faulty server in common between any two clients, the clients can still rely on each one of the 60 servers to transmit the message through the Bolic P2P network.*
+
+D-Service paradigm offers the flexibility to engage “quorum-style” fault tolerance as in Proof-of-Stake consensus protocols, and also naturally fits the idea of “aggregation-style” of cryptography like threshold signatures.
+
+### Incentivization Algorithms
+
+To encourage active participation, they design a *Proof-of-Relay* scheme for Bolic network, and a *Proof-of-Storage* scheme for the D-CDN service.
+
+In Proof-of-Relay, it's impractical to require nodes to generate a proof and redeem a reward for each message. Instead, randomly select nodes as a verifiable starting point to conduct a "verifiable random walk" for connectivity in each epoch. Running the challenge epochs indefinitely provides network-wide coverage and incentivizes the network to stay healthy without stuttering the transmission.
+
+**Proof-of-Relay**
