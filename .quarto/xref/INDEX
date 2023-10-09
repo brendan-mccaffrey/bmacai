@@ -1051,5 +1051,227 @@
   },
   "library/natural-sciences/crypto/blockchain/defi/amm/zkUniswap.qmd": {
     "zkUniswap.html": "1029b994"
+  },
+  "library/other/deposit-cash.qmd": {
+    "deposit-cash.html": "f094992b"
+  },
+  "research/natural-sciences/crypto/cryptography/fhe.qmd": {
+    "fhe.html": "a196051b"
+  },
+  "research/natural-sciences/crypto/cryptography/zk.qmd": {
+    "zk.html": "f5688061"
+  },
+  "research/natural-sciences/crypto/cryptography/index.qmd": {
+    "index.html": "6295be84"
+  },
+  "research/natural-sciences/crypto/blockchain/projects/eigenlayer/index.qmd": {
+    "index.html": "11348b12"
+  },
+  "research/natural-sciences/crypto/blockchain/projects/hyperliquid/index.qmd": {
+    "index.html": "4eff90f5"
+  },
+  "research/natural-sciences/crypto/blockchain/projects/hyperbolic/index.qmd": {
+    "index.html": "9e30e8f3"
+  },
+  "research/natural-sciences/crypto/blockchain/projects/ethena/ethena.qmd": {
+    "ethena.html": "79bc2921"
+  },
+  "research/natural-sciences/crypto/blockchain/projects/zephyr/index.qmd": {
+    "index.html": "64dfa083"
+  },
+  "research/natural-sciences/crypto/blockchain/solana/index.qmd": {
+    "index.html": "5fa51b67"
+  },
+  "research/natural-sciences/crypto/blockchain/index.qmd": {
+    "index.html": "0ba0b67a"
+  },
+  "research/natural-sciences/crypto/blockchain/bitcoin/btc-core.qmd": {
+    "btc-core.html": "b9497786"
+  },
+  "research/natural-sciences/crypto/blockchain/bitcoin/index.qmd": {
+    "index.html": "cd275500"
+  },
+  "research/natural-sciences/crypto/blockchain/dev/eth-node.qmd": {
+    "eth-node.html": "0ab6600c"
+  },
+  "research/natural-sciences/crypto/blockchain/dev/tools.qmd": {
+    "tools.html": "6f78bd70"
+  },
+  "research/natural-sciences/crypto/blockchain/rekt/index.qmd": {
+    "index.html": "fe0b26ea"
+  },
+  "research/natural-sciences/crypto/blockchain/rekt/stake.qmd": {
+    "stake.html": "92481b74"
+  },
+  "research/natural-sciences/crypto/blockchain/rekt/ygg.qmd": {
+    "ygg.html": "db638d97"
+  },
+  "research/natural-sciences/crypto/blockchain/defi/amm/zkUniswap.qmd": {
+    "zkUniswap.html": "2af77057"
+  },
+  "research/natural-sciences/crypto/blockchain/mev/index.qmd": {
+    "index.html": "3a535866"
+  },
+  "research/natural-sciences/crypto/blockchain/mev/amm/index.qmd": {
+    "index.html": "aeeb3160"
+  },
+  "research/natural-sciences/crypto/blockchain/ethereum/index.qmd": {
+    "index.html": "bcd4734a"
+  },
+  "research/natural-sciences/crypto/blockchain/alt-l1/ton/index.qmd": {
+    "index.html": "57696781"
+  },
+  "research/natural-sciences/crypto/blockchain/alt-l1/avax/index.qmd": {
+    "index.html": "01ece35e"
+  },
+  "research/natural-sciences/crypto/legal/index.qmd": {
+    "index.html": "a4197564"
+  },
+  "research/natural-sciences/crypto/cex/ftx/index.qmd": {
+    "index.html": "a97062ad"
+  },
+  "research/natural-sciences/crypto/cex/coinbase/index.qmd": {
+    "index.html": "340e96c8"
+  },
+  "research/natural-sciences/crypto/cex/binance/index.qmd": {
+    "index.html": "e1681f2c"
+  },
+  "research/natural-sciences/software/chrome-extension/index.qmd": {
+    "index.html": "05f8e390"
+  },
+  "research/natural-sciences/software/index.qmd": {
+    "index.html": "db412cd0"
+  },
+  "research/natural-sciences/software/languages/python/index.qmd": {
+    "index.html": "6ad43aee"
+  },
+  "research/natural-sciences/software/languages/rust/index.qmd": {
+    "index.html": "9e139046"
+  },
+  "research/natural-sciences/software/languages/bash/index.qmd": {
+    "index.html": "8eea971f"
+  },
+  "research/natural-sciences/software/cybersec/index.qmd": {
+    "index.html": "b7e822a7"
+  },
+  "research/natural-sciences/software/virtual-machines/index.qmd": {
+    "index.html": "0c21e5eb"
+  },
+  "research/natural-sciences/hard-tech/index.qmd": {
+    "index.html": "82b6e9c9"
+  },
+  "research/natural-sciences/ai/index.qmd": {
+    "index.html": "172f971b"
+  },
+  "research/natural-sciences/ai/history-of-ai/index.qmd": {
+    "index.html": "7da2ad0a"
+  },
+  "research/natural-sciences/maths/index.qmd": {
+    "index.html": "49eede19"
+  },
+  "research/natural-sciences/finance/series65/index.qmd": {
+    "index.html": "c966b2f2"
+  },
+  "research/natural-sciences/finance/index.qmd": {
+    "index.html": "d81c4fa1"
+  },
+  "research/natural-sciences/finance/trading/trades/JGByields/index.qmd": {
+    "index.html": "5e03b68e"
+  },
+  "research/natural-sciences/finance/trading/trades/comstock/index.qmd": {
+    "index.html": "2a672889"
+  },
+  "research/natural-sciences/computing/classical/index.qmd": {
+    "index.html": "233ed654"
+  },
+  "research/natural-sciences/computing/quantum/index.qmd": {
+    "index.html": "8888ee2b"
+  },
+  "research/natural-sciences/physics/unification/index.qmd": {
+    "index.html": "fdbc64e2"
+  },
+  "research/natural-sciences/physics/government/pentagon/pleads-fifth-exotic-materials.qmd": {
+    "pleads-fifth-exotic-materials.html": "fb9012b7"
+  },
+  "research/natural-sciences/physics/government/index.qmd": {
+    "index.html": "e66fc722"
+  },
+  "research/natural-sciences/physics/government/darpa/fellows.qmd": {
+    "fellows.html": "a6991b23"
+  },
+  "research/natural-sciences/physics/materials/index.qmd": {
+    "index.html": "b05ac45f"
+  },
+  "research/natural-sciences/physics/astrophysics/index.qmd": {
+    "index.html": "8967e461"
+  },
+  "research/natural-sciences/physics/relativity/index.qmd": {
+    "index.html": "7f2bd356"
+  },
+  "research/natural-sciences/physics/nuclear/index.qmd": {
+    "index.html": "2ac97634"
+  },
+  "research/natural-sciences/physics/electromagnetism/index.qmd": {
+    "index.html": "2adb1616"
+  },
+  "research/natural-sciences/physics/field-theory/index.qmd": {
+    "index.html": "3943e28c"
+  },
+  "research/natural-sciences/physics/entropy/index.qmd": {
+    "index.html": "ceac46d3"
+  },
+  "research/natural-sciences/physics/mysteries.qmd": {
+    "mysteries.html": "c54d2bcc"
+  },
+  "research/natural-sciences/physics/index.qmd": {
+    "index.html": "2c0a44f4"
+  },
+  "research/natural-sciences/physics/classical/index.qmd": {
+    "index.html": "895a3602"
+  },
+  "research/natural-sciences/physics/uap/index.qmd": {
+    "index.html": "9b92c524"
+  },
+  "research/natural-sciences/physics/particle/index.qmd": {
+    "index.html": "4e579711"
+  },
+  "research/natural-sciences/physics/quantum/index.qmd": {
+    "index.html": "ab6d4c5d"
+  },
+  "research/life-sciences/health/cognition/index.qmd": {
+    "index.html": "3c3a3d0b"
+  },
+  "research/life-sciences/health/autism/index.qmd": {
+    "index.html": "4f977f2e"
+  },
+  "research/life-sciences/health/physiology/index.qmd": {
+    "index.html": "bad3b32b"
+  },
+  "research/life-sciences/health/nutrition/vitamins/index.qmd": {
+    "index.html": "f3b9ee8c"
+  },
+  "research/life-sciences/health/nutrition/index.qmd": {
+    "index.html": "10af818f"
+  },
+  "research/life-sciences/health/cold-exposure.qmd": {
+    "cold-exposure.html": "43efafc9"
+  },
+  "research/life-sciences/medicine/index.qmd": {
+    "index.html": "2fb7fa73"
+  },
+  "research/life-sciences/environment/index.qmd": {
+    "index.html": "64fd0bed"
+  },
+  "research/life-sciences/biology/proteins/index.qmd": {
+    "index.html": "f1f3a800"
+  },
+  "research/life-sciences/biology/index.qmd": {
+    "index.html": "58fcaa73"
+  },
+  "research/life-sciences/biology/viruses/index.qmd": {
+    "index.html": "e5dd42f7"
+  },
+  "research/index.qmd": {
+    "index.html": "746dc064"
   }
 }

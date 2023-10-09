@@ -1,13 +1,12 @@
 ---
 title: "Library"  
 page-layout: full
-title-block-banner: false
-sidebar: 
-    style: "docked"
-    # search: true
-    contents: auto
-    alignment: left
 ---
+
+___
+
+‎
+
 
 Welcome to my library.
 

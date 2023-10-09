@@ -22,7 +22,7 @@ website:
         text: Home
       - href: library
         text: Reads
-      - href: writes/index.qmd
+      - href: writes
         text: Writes
     right:
       - icon: github

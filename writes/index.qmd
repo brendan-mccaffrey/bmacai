@@ -2,13 +2,15 @@
 title: "Writes"
 sidebar: false
 page-layout: full
-# title-block-banner: false
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: false
-  sort-ui: false
-  filter-ui: false
+
+# listing:
+#   contents: posts
+#   sort: "date desc"
+#   type: default
+#   categories: false
+#   sort-ui: false
+#   filter-ui: false
 ---
+
+Coming soon.
 
