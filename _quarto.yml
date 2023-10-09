@@ -3,12 +3,12 @@ project:
 
 website:
   title: "bmac"
-  search: false
   favicon: media/favicon.ico
   # site-url: "https://bmac.ai"
   # google-analytics: "UA-XXXXXXXX"
   twitter-card: 
     image: "media/bg.jpeg"
+
   navbar: 
     pinned: true
     left:
@@ -23,10 +23,24 @@ website:
         href: https://github.com/brendan-mccaffrey
       - icon: twitter 
         href: https://twitter.com/0xbmac
+
+  search: 
+    location: sidebar
+    type: textbox
+  
   sidebar: 
+    search: true
     style: "docked"
-    contents: library
     alignment: left
+    title: "SB TITLE"
+    subtitle: "my library"
+    logo: media/lib-logo.png
+    contents: library/*/*/
+      # - section: "Life Sciences"
+      #   contents: library/life-sciences/*/
+    
+
+
   page-footer: 
     left: "Copyright 2023, Brendan McCaffrey"
     center: "$x^{14}$" 

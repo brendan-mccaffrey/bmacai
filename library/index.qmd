@@ -2,6 +2,11 @@
 title: "Library"  
 page-layout: full
 title-block-banner: false
+sidebar: 
+    style: "docked"
+    # search: true
+    contents: auto
+    alignment: left
 ---
 
 Welcome to my library.
