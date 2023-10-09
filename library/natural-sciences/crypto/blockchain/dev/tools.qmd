@@ -1,0 +1,22 @@
+---
+title: Dev Tools
+---
+
+## EVM
+
+**Useful Things**
+
+- [Solidity Decompiler (interface)](https://ethervm.io/decompile)
+- [Heimdall-rs](https://github.com/Jon-Becker/heimdall-rs): An advanced EVM smart contract toolkit specializing in bytecode analysis
+- [WhatsABI](https://github.com/shazow/whatsabi)
+- [go-selfcompile](https://github.com/shazow/go-selfcompile)
+- [scope-eth](https://marketplace.visualstudio.com/items?itemName=popular.scope-eth): Remix-like foundry VSCode plugin
+- [arbiter](https://github.com/primitivefinance/arbiter): Simulation driven development via an EVM emulator
+- [Echidna](https://github.com/crytic/echidna): Fast smart contract fuzzer
+- [Medusa](https://github.com/crytic/medusa): Parrellizable fuzz testing through CLI or Go API
+
+**Cool Things**
+
+- [MergeMock](https://github.com/protolambda/mergemock)
+- [Simple Serialize](https://simpleserialize.com/): A serialization and merkleization standard created specifically for Ethereum consensus
+

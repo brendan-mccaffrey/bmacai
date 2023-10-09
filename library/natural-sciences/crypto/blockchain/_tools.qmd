@@ -1,9 +1,0 @@
-## Tools
-
-- [Solidity Decompiler (interface)](https://ethervm.io/decompile)
-- [Heimdall-rs](https://github.com/Jon-Becker/heimdall-rs) an advanced EVM smart contract toolkit specializing in bytecode analysis
-- [WhatsABI](https://github.com/shazow/whatsabi)
-- [go-selfcompile](https://github.com/shazow/go-selfcompile)
-
-
-

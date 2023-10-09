@@ -5723,7 +5723,7 @@
     "href": "library/natural-sciences/crypto/blockchain/ethereum/index.html",
     "title": "Ethereum",
     "section": "",
-    "text": "Ethereum Research Forum\nEth2Book: A lot of Good Info on Ethereum\nEthereum Youtube: Community calls and such\nIntent Based Architectures and Their Risks\nClient Bootnode Concerns\nCollecting Signatures for Faster Finality\nProof of Solvency\nState of Testnets\nVitalik: the roads not taken\nEndgame by Vitalik Buterin (EF)\nUpdated Ethereum Roadmap by Vitalik Buterin (EF)\nTime to Bribe: Measuring Block Construction Markets\nRetroactive Proposer Rewards by Caspar Schwarz-Schilling (RIG/EF)\nSingle Secret Leader Election Boneh et al. (2020)\nCurrent CrList Proposal by Francesco D’Amato\nThe Hitchhiker’s Guide to Ethereum - very good technical introduction\nMergeMock"
+    "text": "Ethereum Research Forum\nEth R&D Discord\nFlashbots Collective Forum\nEthereum Youtube: Community calls and such"
   },
   {
     "objectID": "library/natural-sciences/crypto/blockchain/ethereum/index.html#consensus",
@@ -5757,8 +5757,8 @@
     "objectID": "library/natural-sciences/crypto/blockchain/ethereum/index.html#general",
     "href": "library/natural-sciences/crypto/blockchain/ethereum/index.html#general",
     "title": "Ethereum",
-    "section": "",
-    "text": "Ethereum Research Forum\nEth2Book: A lot of Good Info on Ethereum\nEthereum Youtube: Community calls and such\nIntent Based Architectures and Their Risks\nClient Bootnode Concerns\nCollecting Signatures for Faster Finality\nProof of Solvency\nState of Testnets\nVitalik: the roads not taken\nEndgame by Vitalik Buterin (EF)\nUpdated Ethereum Roadmap by Vitalik Buterin (EF)\nTime to Bribe: Measuring Block Construction Markets\nRetroactive Proposer Rewards by Caspar Schwarz-Schilling (RIG/EF)\nSingle Secret Leader Election Boneh et al. (2020)\nCurrent CrList Proposal by Francesco D’Amato\nThe Hitchhiker’s Guide to Ethereum - very good technical introduction\nMergeMock"
+    "section": "General",
+    "text": "General\n\nEth2Book: A lot of Good Info on Ethereum\nIntent Based Architectures and Their Risks\nClient Bootnode Concerns\nCollecting Signatures for Faster Finality\nProof of Solvency\nState of Testnets\nVitalik: the roads not taken\nEndgame by Vitalik Buterin (EF)\nUpdated Ethereum Roadmap by Vitalik Buterin (EF)\nTime to Bribe: Measuring Block Construction Markets\nRetroactive Proposer Rewards by Caspar Schwarz-Schilling (RIG/EF)\nSingle Secret Leader Election Boneh et al. (2020)\nCurrent CrList Proposal by Francesco D’Amato\nThe Hitchhiker’s Guide to Ethereum - very good technical introduction\nMergeMock"
   },
   {
     "objectID": "library/natural-sciences/crypto/blockchain/ethereum/index.html#eips",
@@ -5968,7 +5968,7 @@
     "href": "library/natural-sciences/crypto/blockchain/index.html#consensus",
     "title": "Blockchains",
     "section": "Consensus",
-    "text": "Consensus\nAll things Byzantine Fault Tolerant: Research and implementations of consensus mechanisms.\n\nWhitepapers\n\nTendermint: Consensus without Mining\nDFINITY Consensus System\nRipple Protocol Consensus Algorithm\nAvalanche Consensus\nNarwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus\nCosmos without Tendermint\nThe Honey Badger of BFT Protocols\nHashgraph Protocol: Efficient ABFT\nByzantine Ordered Consensus without Byzantine Oligarchy\nBEAT: Asynchronous BFT Made Practical\nTON: Catchain Consensus\n\n\n\nResearch\n\nLong Range Attacks on PoS\nCasper the Friendly Finality Gadget\nCombining GHOST and Casper\nBeacon Chain Casper Mini-Spec\nMitigating Balancing Attacks on LMD GHOST\nzkCasper: SNARK based scheme for verifying the Ethereum’s Casper FFG consensus proofs\n\n\n\nAttacks\n\nTwo Attacks on Proof-of-Stake GHOST/Ethereum\nThree Attacks on Proof-of-Stake Ethereum\nBalancing Attack on Gasper\nDiscouragement Attacks\nVitalik Paper\nDiscouragement Attacks\n\n\n\nEvents\nMay 12, 2023: Ethereum Consensus Issues\n\ntweet one\ntweet two"
+    "text": "Consensus\nAll things Byzantine Fault Tolerant: Research and implementations of consensus mechanisms.\n\nByzantine Fault Tolerance\n\nPractical Byzantine Fault Tolerance\n\n\n\nWhitepapers\n\nTendermint: Consensus without Mining\nDFINITY Consensus System\nRipple Protocol Consensus Algorithm\nAvalanche Consensus\nNarwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus\nCosmos without Tendermint\nThe Honey Badger of BFT Protocols\nHashgraph Protocol: Efficient ABFT\nByzantine Ordered Consensus without Byzantine Oligarchy\nBEAT: Asynchronous BFT Made Practical\nTON: Catchain Consensus\nAnother advantage of free choice (Extended Abstract): Completely asynchronous agreement protocols\n\n\n\nResearch\n\nLong Range Attacks on PoS\nCasper the Friendly Finality Gadget\nCombining GHOST and Casper\nBeacon Chain Casper Mini-Spec\nMitigating Balancing Attacks on LMD GHOST\nzkCasper: SNARK based scheme for verifying the Ethereum’s Casper FFG consensus proofs\n\n\n\nAttacks\n\nTwo Attacks on Proof-of-Stake GHOST/Ethereum\nThree Attacks on Proof-of-Stake Ethereum\nBalancing Attack on Gasper\nDiscouragement Attacks\nVitalik Paper\nDiscouragement Attacks\n\n\n\nEvents\nMay 12, 2023: Ethereum Consensus Issues\n\ntweet one\ntweet two"
   },
   {
     "objectID": "library/natural-sciences/crypto/blockchain/index.html#events",
@@ -6178,7 +6178,7 @@
     "href": "library/natural-sciences/software/cybersec/index.html#tools",
     "title": "Cybersecurity",
     "section": "Tools",
-    "text": "Tools\n\nSubdomain finder (e.g. ___.example.com)\n\nin use\n\nScout2: AWS Security Tool\n\nPrivacy Protect - github - website - original article"
+    "text": "Tools\n\nSubdomain finder (e.g. ___.example.com)\n\nin use\n\nScout2: AWS Security Tool\n\nPrivacy Protect - github - website - original article\nSim Swap Protectins - Efani"
   },
   {
     "objectID": "library/natural-sciences/software/cybersec/index.html#articles",
@@ -6206,7 +6206,7 @@
     "href": "library/natural-sciences/crypto/blockchain/ethereum/index.html#bls",
     "title": "Ethereum",
     "section": "BLS",
-    "text": "BLS\n\nBLS Introduction\nBLS Signature Scheme\nPragmatic signature aggregation with BLS\nBLS Signature for Busy People\nSSZ\n\n[https://www.simpleserialize.com/](https://www.simpleseria"
+    "text": "BLS\n\nBLS Introduction\nBLS Signature Scheme\nPragmatic signature aggregation with BLS\nBLS Signature for Busy People\nSSZ\n\n[https://www.simpleserialize.com/](https://www.simpleseria\n\n\n\nEIPs\nEIP-3675: Proof of Stake\n\nEIP-3675: Upgrade consensus to Proof-of-Stake\nEth Withdrawals FAQ\n100 Days After the Merge\nWithdrawals after Shanghai\nOfficial Merge Announcement\nExploring Inequality in Proof of Stake by Barnabe Monnot (RIG/EF)\nWhat Happens After Finality in eth2 by Raul Jordan (Prysmatic)\nUnderstanding Eth2 Slashing Preventative Measures\n\nEIP-4844: Proto-Danksharding\n\nEIP-4844: Shard Blob Transactions\nDanksharding\nPolynya on Danksharding\nNightshade: Near Protocol Sharding Design\nThe Tie: Danksharding\nProto-Danksharding FAQ by Vitalik Buterin (EF)\n“Dude, what’s the Danksharding situation?” Workshop by Dankrad Feist & Vitalik Buterin (EF)\n\n\n\n2938/4337\nAccount Abstraction\n\nEIP-2938: Account Abstraction\nERC-4337: Account Abstraction Using Alt Mempool\nAccount Abstraction in a Multichain Landscape - Part 1: Addresses\nWhat’s in an Account?\n\n\n\nOther\n\nEIP-1153: Transient Storage"
   },
   {
     "objectID": "library/natural-sciences/crypto/blockchain/index.html#ethos",
@@ -6521,7 +6521,7 @@
     "href": "library/natural-sciences/crypto/blockchain/projects/hyperbolic/index.html",
     "title": "Hyperbolic",
     "section": "",
-    "text": "This is a protocol by Ted ___, previously @ avax."
+    "text": "This is a protocol by Ted Yin, previously @ avax.\nHere is a link to the whitepaper converted to markdown"
   },
   {
     "objectID": "library/natural-sciences/crypto/blockchain/projects/hyperbolic/index.html#vision-mission",
@@ -6837,5 +6837,54 @@
     "title": "Vitamins",
     "section": "Vitamin A",
     "text": "Vitamin A"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/projects/hyperbolic/index.html#notes",
+    "href": "library/natural-sciences/crypto/blockchain/projects/hyperbolic/index.html#notes",
+    "title": "Hyperbolic",
+    "section": "Notes",
+    "text": "Notes\nHyperbolic is a microservices platform, that attempts to acheieve a practical optimum between decentralization (censorhip-resistance) and performance (throughput, bandwidth).\nGoal: combine the best of blockchain and cloud computing\n\nContext and Motivation\n\nweb3 attempts to host the computation of all services on a decentralized platform backed by a ledger (blockchain)\nencoding each step of computation as a transaction is impractical\ncloud compute suffers from isolation, trust assumptions, and lack of interoperability\ncloud compute services vary in performance demand and fault tolerance, so naively applying blockchains is inefficient\nL2s and current blockchain innovations again introduce isolation between services\n\n\n\nOverview\n\nHyperbolic facilitates development and deployment of composable Decentralized Services (D-Services) that follow a new Invoke-Return-Combine (IRC) paradigm.\nD-services are hosted by a dynamic subset of nodes, which make tradeoffs between performance and fault tolerance, and follow a classic client-server model with server side fault tolerance.\nTo help developers build their D-Services, Hyperbolic will provide useful, basic D-services such as\n\nContent delivery network (CDN)\nVideo streaming (D-streaming)\nPublish-subscribe patterns (D-PubSub)\nBlockchain ledger (D-Ledger)\n\nAll services follow IRC model, and will allow an ecosystem of reusable modules.\n\nHyllo\nHyperbolic’s first-party messaging app: non-custodial, bound to cryptographic identities. Hyllo will serve as a portal to Hyperbolic, allowing end-users to seamlessly interact with D-Services.\n\n\nBolic: Self-Healing Network Fabric\nBolic is an internet scale subsystem that delivers arbitrary binary data from one crypto entity to another, designed with modularity from the ground up and with careful thoughts of abstraction. There is a necessary dissagregation of the following three aspects:\n\nNoiton of data transmission from one party to another should be as simple as an airdrop. Tag (encrypt) the message with recipient’s id and “drop” is to Bolic.\nThe actual transport, which could be backed by TCP/UDP/Websocket/SMS/emails, does not need to know the content of the data because it’s E2E encrypted.\nThe routing mechanism to balance resource cost, reliability, and performance, offering different tradeoffs and plans.\n\nBolic represents the web in web3, building on top of the existing internet - but there could also be other data carriers such as Tor-style privacy channels.\n\n\nP2P v. Cient-Server\nClient-server is seen in more centralized systems where servers have more authority oevr user’s data dn computation. However, it still has advantages over pure P2P (lower cost bandwidth).\nImagine a lareg, 100k-person, groupchat.\n\nClient-Server: Everyone talks to server, which sends only one message to each user.\nP2P: gossip protocol where each user sends to every other, massive duplication.\nMiddle-Ground: Group chat has 100 chat servers, where each of the 100k users talks to 60 servers at a time. 100 peers in network, high resistance to failure. Every user guaranteed to share &gt;= 20 servers with another user.\n\nThis resembled quorum intersections in consensus protocols that power PoS blockchains, but sending messages is easier than consensus. Overall effect: cost shrunk 1000x from 100k nodes to 100.\n\n\nD-Services\nAll connected participants in Hyperbolic are nodes. Most nodes will have their relay ability enabled, running Bolic which forwards encrypted data. In addition to relay, nodes can opt into one or more server roles of D-Services.\nServices are rendered by RPC-style invocations of methods offered by the service, whose responses get aggregated and deduplicated locally at each client.\nnotation\n\n\\(S\\): D-service\n\\(N_S\\): Nodes of service\n\\(i\\): Arbitrary client\n\\(Q_{Si} \\Subset N_S\\): Service-prescribed subset of servers\n\nThe Invoke-Return-Combine trip is as follows:\nInvoke: Each client \\(i \\in N_c\\) initiates an RPC call by signing a message \\(S.Invoke(i, method, nonce, input)\\) and sends it to all nodes in \\(Q_{Si}\\), where \\(nonce\\) is a per-invocation identifier to distinguish calls.\nReturn: Each server \\(u\\), upon receiving RPC call message, validates the message and returns its response by signing and sending \\(S.Return(i, method, nonce, input-hash, u, output_u)\\) back to client \\(i\\).\nCombine: Each client \\(i\\), upon receiving at least a threshold (constant \\(T_{Si} \\leq \\|Q_{Si}\\) predefined by the service for each client) of responses from servers:\n\\[\n\\begin{aligned}\nR_i = \\{ output_u : S.Return(i,method,none,input-hash,u,output_u), u \\in Q_{Si}\\}\n\\end{aligned}\n\\] where \\(\\|R_i\\| \\geq T_{Si}\\).\nIt computes the final output locally by a service-prescribed client part of D-Service logic: \\(output_i = S.Combine(R_i)\\). The D-service designer must ensure that as long as the number of collected responses \\(\\|R_i\\|\\) is not les than the threshold, the combined output is deterministic and consistent regardless of the number of responses.\nThe groupchat example can use \\(T_{Si} = 51, \\forall i \\in N_c\\) threshold and run \\(\\|N_S\\| = 100\\) servers.\nThis guarantees if at least 51×2−100 = 2 out of 20 servers to which any two clients connect render the service, the message could be passed over directly. Even if there is no non-faulty server in common between any two clients, the clients can still rely on each one of the 60 servers to transmit the message through the Bolic P2P network.\nD-Service paradigm offers the flexibility to engage “quorum-style” fault tolerance as in Proof-of-Stake consensus protocols, and also naturally fits the idea of “aggregation-style” of cryptography like threshold signatures.\n\n\nIncentivization Algorithms\nTo encourage active participation, they design a Proof-of-Relay scheme for Bolic network, and a Proof-of-Storage scheme for the D-CDN service.\nIn Proof-of-Relay, it’s impractical to require nodes to generate a proof and redeem a reward for each message. Instead, randomly select nodes as a verifiable starting point to conduct a “verifiable random walk” for connectivity in each epoch. Running the challenge epochs indefinitely provides network-wide coverage and incentivizes the network to stay healthy without stuttering the transmission.\nProof-of-Relay is built on the following components:\n\nblockchain: customized ledger to track epoch-related events and keep a record of rewards\nVRF: protocol allowing multiple parties to collaboratively generate verifiable random output\nrandomness beacon: service that regularly produces pseudo-random seeds for the VRF\nElliptic-Curve Diffie-Hellman: a key exchange protocol that allows two parties, each having an elliptic-curve public-private key pair to establish a shared secret over an insecure channel. It’s a variant of Diffie-Hellman using EC cryptography."
+  },
+  {
+    "objectID": "library/natural-sciences/hard-tech/index.html",
+    "href": "library/natural-sciences/hard-tech/index.html",
+    "title": "Tech",
+    "section": "",
+    "text": "Rewind Pendant: A wearable device that captures everything you say and hear and then transcribes, encrypts, and stores is entirely locally on your phone. - website\nSilentio: A device that blocks all device recordings, using ultrasound to detect and block any microphone that tries to capture your voice. - NEC: Speaker Selective Cancellation via Neural Enhanced Ultrasound Shadowing"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/ethereum/index.html#forums-and-such",
+    "href": "library/natural-sciences/crypto/blockchain/ethereum/index.html#forums-and-such",
+    "title": "Ethereum",
+    "section": "",
+    "text": "Ethereum Research Forum\nEth R&D Discord\nFlashbots Collective Forum\nEthereum Youtube: Community calls and such"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/ethereum/index.html#forums",
+    "href": "library/natural-sciences/crypto/blockchain/ethereum/index.html#forums",
+    "title": "Ethereum",
+    "section": "",
+    "text": "Ethereum Research Forum\nEth R&D Discord\nFlashbots Collective Forum\nEthereum Youtube: Community calls and such"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/ethereum/index.html#research",
+    "href": "library/natural-sciences/crypto/blockchain/ethereum/index.html#research",
+    "title": "Ethereum",
+    "section": "Research",
+    "text": "Research\n\nBasics\n\nEth2Book: A lot of Good Info on Ethereum\nThe Hitchhiker’s Guide to Ethereum\nUpdated Ethereum Roadmap by Vitalik Buterin (EF)\nEthereum Data Structures\nSolidity Lang Docs\n\n\n\nGeneral\n\nIntent Based Architectures and Their Risks\nClient Bootnode Concerns\nCollecting Signatures for Faster Finality\nProof of Solvency\nState of Testnets\nVitalik: the roads not taken\nEndgame by Vitalik Buterin (EF)\nTime to Bribe: Measuring Block Construction Markets\nRetroactive Proposer Rewards by Caspar Schwarz-Schilling (RIG/EF)\nSingle Secret Leader Election Boneh et al. (2020)\nCurrent CrList Proposal by Francesco D’Amato\n\n\n\nConsensus\nConsensus Design\n\nEthereum Consensus Spec\nCasper the Friendly Finality Gadget\nCombining GHOST and Casper\n\nelopio’s annotations\n\nBeacon Chain Casper Mini-Spec\nzkCasper: SNARK based scheme for verifying the Ethereum’s Casper FFG consensus proofs\nEthereum Inactivity Leak\n\nConsensus Attacks\n\nTwo Attacks on Proof-of-Stake GHOST/Ethereum\nThree Attacks on Proof-of-Stake Ethereum\nBalancing Attack on Gasper\nMitigating Balancing Attacks on LMD GHOST\nDiscouragement Attacks\nVitalik Paper\nDiscouragement Attacks\n\n\n\nProof of Stake\n\n100 Days After the Merge\nWithdrawals after Shanghai\nOfficial Merge Announcement\nExploring Inequality in Proof of Stake by Barnabe Monnot (RIG/EF)\nWhat Happens After Finality in eth2 by Raul Jordan (Prysmatic)\nRocketpool Post-Merge research\n(Un-)Timeliness in PoS Ethereum by Caspar Schwarz-Schilling (RIG/EF)\n\n\n\nProposer Builder Separation\n\nMEV-Boost Plan\nProposer Boost Considerations by Caspar Schwarz-Schilling (RIG/EF)\nMEV-Boost in a Nutshell\nEthereum Builder API Specs\nMEV-Boost Relay API Specification V1\nPBS Censorship Resistance\nState of research: increasing censorship resistance of transactions under PBS\nPBS Censorship-Resistance Alternatives\nCurrent crList Proposal\nProposer/block builder separation-friendly fee market designs by Vitalik Buterin (EF)\nTwo-slot proposer/builder separation by Vitalik Buterin (EF)\nState of research: increasing censorship resistance of transactions under proposer/builder separation (PBS) by Vitalik Buterin (EF)\nPBS Censorship-Resistance Alternatives by Francesco D’Amato (EF)"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/dev/tools.html",
+    "href": "library/natural-sciences/crypto/blockchain/dev/tools.html",
+    "title": "Dev Tools",
+    "section": "",
+    "text": "Useful Things\n\nSolidity Decompiler (interface)\nHeimdall-rs: An advanced EVM smart contract toolkit specializing in bytecode analysis\nWhatsABI\ngo-selfcompile\nscope-eth: Remix-like foundry VSCode plugin\narbiter: Simulation driven development via an EVM emulator\nEchidna: Fast smart contract fuzzer\nMedusa: Parrellizable fuzz testing through CLI or Go API\n\nCool Things\n\nMergeMock\nSimple Serialize: A serialization and merkleization standard created specifically for Ethereum consensus"
+  },
+  {
+    "objectID": "library/natural-sciences/crypto/blockchain/dev/tools.html#evm",
+    "href": "library/natural-sciences/crypto/blockchain/dev/tools.html#evm",
+    "title": "Dev Tools",
+    "section": "",
+    "text": "Useful Things\n\nSolidity Decompiler (interface)\nHeimdall-rs: An advanced EVM smart contract toolkit specializing in bytecode analysis\nWhatsABI\ngo-selfcompile\nscope-eth: Remix-like foundry VSCode plugin\narbiter: Simulation driven development via an EVM emulator\nEchidna: Fast smart contract fuzzer\nMedusa: Parrellizable fuzz testing through CLI or Go API\n\nCool Things\n\nMergeMock\nSimple Serialize: A serialization and merkleization standard created specifically for Ethereum consensus"
   }
 ]

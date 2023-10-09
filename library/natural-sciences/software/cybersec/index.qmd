@@ -19,6 +19,9 @@ Privacy Protect
 - [website](https://www.privacyprotect.dev/)
 - [original article](https://mprimi.github.io/portable-secret/)
 
+Sim Swap Protectins
+- [Efani](https://www.efani.com/how-it-works)
+
 ## Articles
 
 EthClipper: A Clipboard Meddling Attack on Hardware Wallets with Address Verification Evasion

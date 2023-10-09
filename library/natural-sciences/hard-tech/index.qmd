@@ -1,0 +1,10 @@
+---
+title: Tech
+subtitle: Good ol' Hardware Technology Devices
+---
+
+**Rewind Pendant:** A wearable device that captures everything you say and hear and then transcribes, encrypts, and stores is entirely locally on your phone.
+- [website](https://www.rewind.ai/pendant)
+
+**Silentio:** A device that blocks all device recordings, using ultrasound to detect and block any microphone that tries to capture your voice.
+- [NEC: Speaker Selective Cancellation via Neural Enhanced Ultrasound Shadowing](https://arxiv.org/abs/2207.05848v1)

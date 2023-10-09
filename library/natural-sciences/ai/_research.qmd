@@ -16,6 +16,10 @@
 7. [Galactica: A Large Language Model for Science](https://galactica.org/static/paper.pdf)
 8. [OPT-IML: An instruction-tuned LLM for open-use](https://t.co/ZFaP4PXTVv)
 9. [LLM Refinement Process, reduce mistakes](https://twitter.com/cwolferesearch/status/1613643034717028352)
+10. [Efficient Streaming Language Models with Attention Sinks](https://arxiv.org/abs/2309.17453)
+
+#### **Promting**
+- [Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution](https://arxiv.org/abs/2309.16797)
 
 
 ### Diffusion Models

@@ -4,11 +4,25 @@ description: "All things directly related to Ethereum"
 page-layout: full
 ---
 
-## General
+## Forums 
 
 - [Ethereum Research Forum](https://ethresear.ch/)
-- [Eth2Book: A lot of Good Info on Ethereum](https://eth2book.info/)
+- [Eth R&D Discord](https://discord.com/invite/qGpsxSA)
+- [Flashbots Collective Forum](https://collective.flashbots.net/)
 - [Ethereum Youtube: Community calls and such](https://www.youtube.com/@EthereumProtocol/videos)
+
+## Research
+
+#### **Basics**
+
+- [Eth2Book: A lot of Good Info on Ethereum](https://eth2book.info/)
+- [The Hitchhiker's Guide to Ethereum](https://members.delphidigital.io/reports/the-hitchhikers-guide-to-ethereum/)
+- [Updated Ethereum Roadmap](https://twitter.com/VitalikButerin/status/1466411377107558402?s=20) by Vitalik Buterin (EF)
+- [Ethereum Data Structures](https://arxiv.org/pdf/2108.05513.pdf)
+- [Solidity Lang Docs](https://docs.soliditylang.org/en/v0.8.21/)
+
+#### **General**
+
 - [Intent Based Architectures and Their Risks](https://www.paradigm.xyz/2023/06/intents)
 - [Client Bootnode Concerns](https://ethresear.ch/t/execution-consensus-client-bootnodes/14588)
 - [Collecting Signatures for Faster Finality](https://ethresear.ch/t/horn-collecting-signatures-for-faster-finality/14219)
@@ -16,15 +30,15 @@ page-layout: full
 - [State of Testnets](https://twitter.com/TimBeiko/status/1628819200696516608?s=20)
 - [Vitalik: the roads not taken](https://vitalik.ca/general/2022/03/29/road.html)
 - [Endgame](https://vitalik.ca/general/2021/12/06/endgame.html) by Vitalik Buterin (EF)
-- [Updated Ethereum Roadmap](https://twitter.com/VitalikButerin/status/1466411377107558402?s=20) by Vitalik Buterin (EF)
 - [Time to Bribe: Measuring Block Construction Markets](https://eprint.iacr.org/2023/760.pdf)
 - [Retroactive Proposer Rewards](https://notes.ethereum.org/@casparschwa/S1vcyXZL9) by Caspar Schwarz-Schilling (RIG/EF)
 - [Single Secret Leader Election](https://eprint.iacr.org/2020/025.pdf) Boneh et al. (2020)
 - [Current CrList Proposal](https://notes.ethereum.org/@fradamt/H1ZqdtrBF) by Francesco D'Amato
-- [The Hitchhiker's Guide to Ethereum](https://members.delphidigital.io/reports/the-hitchhikers-guide-to-ethereum/) - very good technical introduction
-- [MergeMock](https://github.com/protolambda/mergemock)
 
-## Consensus
+
+#### **Consensus**
+
+**Consensus Design**
 
 - [Ethereum Consensus Spec](https://github.com/ethereum/consensus-specs)
 - [Casper the Friendly Finality Gadget](https://arxiv.org/abs/1710.09437)
@@ -34,8 +48,7 @@ page-layout: full
 - [zkCasper: SNARK based scheme for verifying the Ethereum's Casper FFG consensus proofs](https://research.polytope.technology/zkcasper)
 - [Ethereum Inactivity Leak](https://eth2book.info/capella/part2/incentives/inactivity/)
 
-
-### Consensus Attacks
+**Consensus Attacks**
 
 - [Two Attacks on Proof-of-Stake GHOST/Ethereum](https://arxiv.org/pdf/2203.01315.pdf)
 - [Three Attacks on Proof-of-Stake Ethereum](https://arxiv.org/abs/2110.10086)
@@ -45,7 +58,7 @@ page-layout: full
 - [Vitalik Paper](https://github.com/ethereum/research/blob/master/papers/discouragement/discouragement.pdf)
 - [Discouragement Attacks](https://github.com/ethereum/research/blob/master/papers/discouragement/discouragement.pdf)
 
-## Proof of Stake
+#### **Proof of Stake**
 
 - [100 Days After the Merge](https://www.galaxy.com/research/insights/100-days-after-the-merge/)
 - [Withdrawals after Shanghai](https://dataalways.substack.com/p/partial-withdrawals-after-the-shanghai)
@@ -55,7 +68,7 @@ page-layout: full
 - [Rocketpool Post-Merge research](https://github.com/rocket-pool/rocketpool-research/tree/master/Post%20Merge)
 - [(Un-)Timeliness in PoS Ethereum](https://notes.ethereum.org/@casparschwa/ByHu1XZUq) by Caspar Schwarz-Schilling (RIG/EF)
 
-## Proposer Builder Separation
+#### **Proposer Builder Separation**
 
 - [MEV-Boost Plan](https://github.com/flashbots/mev-boost/wiki/The-Plan-(tm))
 - [Proposer Boost Considerations](https://notes.ethereum.org/@casparschwa/H1T0k7b85) by Caspar Schwarz-Schilling (RIG/EF)
@@ -71,9 +84,6 @@ page-layout: full
 - [State of research: increasing censorship resistance of transactions under proposer/builder separation (PBS)](https://notes.ethereum.org/@vbuterin/pbs_censorship_resistance) by Vitalik Buterin (EF)
 - [PBS Censorship-Resistance Alternatives](https://notes.ethereum.org/@fradamt/H1TsYRfJc) by Francesco D'Amato (EF)
 
-## (Dank) Sharding
-
-
 
 ## BLS
 
@@ -88,11 +98,9 @@ page-layout: full
 
 
 
-## EIPs
+### EIPs
 
-### 3675
-
-Proof of Stake
+**EIP-3675: Proof of Stake**
 
 - [EIP-3675: Upgrade consensus to Proof-of-Stake](https://eips.ethereum.org/EIPS/eip-3675)
 - [Eth Withdrawals FAQ](https://notes.ethereum.org/@launchpad/withdrawals-faq#ETH-Withdrawals-FAQ)
@@ -103,9 +111,7 @@ Proof of Stake
 - [What Happens After Finality in eth2](https://hackmd.io/@prysmaticlabs/finality) by Raul Jordan (Prysmatic)
 - [Understanding Eth2 Slashing Preventative Measures](https://www.bloxstaking.com/blog/ethereum-2-0/understanding-eth2-slashing-preventative-measures/)
 
-### 4844
-
-Proto-Danksharding
+**EIP-4844: Proto-Danksharding**
 
 - [EIP-4844: Shard Blob Transactions](https://eips.ethereum.org/EIPS/eip-4844)
 - [Danksharding](https://notes.ethereum.org/@dankrad/new_sharding)

@@ -1042,5 +1042,14 @@
   },
   "library/life-sciences/biology/viruses/index.qmd": {
     "index.html": "175ac6c6"
+  },
+  "library/natural-sciences/hard-tech/index.qmd": {
+    "index.html": "e96dc27f"
+  },
+  "library/natural-sciences/crypto/blockchain/dev/tools.qmd": {
+    "tools.html": "083dd75a"
+  },
+  "library/natural-sciences/crypto/blockchain/defi/amm/zkUniswap.qmd": {
+    "zkUniswap.html": "1029b994"
   }
 }
