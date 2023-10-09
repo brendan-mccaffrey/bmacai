@@ -2,15 +2,12 @@
 
 quarto is pretty legit
 
-## Resources
+### Notes to self
 
-[Igors blog](https://github.com/ibab/babushk.in/blob/master/templates/post-item.html)
+- run with `quarto preview .` from main directory
+- remove underscore to make things appear on site
 
-[docs](https://quarto.org/docs/reference/projects/websites.html)
+### Ref Resources
 
-[rstudio cheatsheet](https://rstudio.github.io/cheatsheets/html/quarto.html)
-
-## How To
-
-cd into main directory and run
-`quarto preview .`
+- [Igors blog](https://github.com/ibab/babushk.in/blob/master/templates/post-item.html)
+- [live site](https://babushk.in/research.html)
