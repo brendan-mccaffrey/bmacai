@@ -27,7 +27,11 @@ Efficiency Improvements
 - [website](https://www.zama.ai/)
 - [documentation](https://docs.zama.ai/homepage/)
 - [github](https://github.com/zama-ai)
-- Zama Concrete: [documentation](https://docs.zama.ai/concrete)
+
+Zama Concrete, FHE Compiler
+
+- [documentation](https://docs.zama.ai/concrete)
+- [The architecture of concrete](https://www.zama.ai/post/the-architecture-of-concrete-zama-fully-homomorphic-encryption-compiler-leveraging-mlir)
 
 ### fhEVM
 

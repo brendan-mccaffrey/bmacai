@@ -107,3 +107,69 @@ In Proof-of-Relay, it's impractical to require nodes to generate a proof and red
 - VRF: protocol allowing multiple parties to collaboratively generate verifiable random output
 - randomness beacon: service that regularly produces pseudo-random seeds for the VRF
 - Elliptic-Curve Diffie-Hellman: a key exchange protocol that allows two parties, each having an elliptic-curve public-private key pair to establish a shared secret over an insecure channel. It's a variant of Diffie-Hellman using EC cryptography.
+
+# David's Notes
+
+# Questions/Comments for Bolic
+
+## Section 2.2 - Microservices
+- It's mentioned that the microservices are compatible with various transport layers. Is there a preferred one, like TCP?
+- The chat example on page 3 is a bit confusing. If \( |Q| = 60 \), then at least 20 nodes are shared between any pair of clients. However, \( T = 51 \) implies waiting for 51 responses. Why does the fastest connection matter, given that we're bottlenecked by the slowest propagation?
+
+## Section 4.3
+- Suggestion: Rename the secret key to \( \text{sk}_0 \) or \( \text{sk}_{C_0} \) as it doesn't seem to update with each VRF output.
+- More details are needed about the sampler that takes the VRF (randomness) and decides whether the current node is a challenger to ensure it's not gamed.
+
+### Proof of Relay Scoring
+- When \( m \leq N \), \( \text{reward} = R/2 \). When \( m > N \), \( \text{reward} = R*(N/(N+m)) \), which is \( < R/2 \). Is this a desired property?
+- The connectivity incentive scheme should be discussed further. Can malicious actions be mitigated through cheating detection and a punishment scheme?
+
+---
+
+# Section 1 (Vision)
+
+### Proposal
+- Chain-agnostic protocol for incentivized mesh communication network.
+- Distributed microservices system with service creators determining the redundancy and throughput for their specific systems.
+
+### Components
+- Clients and gateways with gateways handling intercommunication.
+- Basic services like D-CDN, D-video streaming, and D-ledger.
+
+### Use Cases
+- AI on the blockchain, social networks, document collaboration, etc.
+
+## Section 2 (Microservices)
+
+### Distributed Computing
+- Goals: ease of message-passing, end-to-end encryption.
+- Discussion on efficiency/trade-offs in P2P vs client-server communication.
+- Compromise: send messages to one of some \( K \) beacons for dissipation.
+
+### D-services
+- All participants are nodes with most having relay enabled.
+- Description of invoke-return-combine process.
+  
+## Section 3 (Hyllo)
+- Group chat using bolic p2p.
+- Pub-sub D-services and interactions with LLMs.
+
+## Section 4 (Incentives)
+
+### Proof of Relay System
+- Randomness beacon, verifiable random function, and reputation scoring.
+- Discussion on relay rewards based on network connectivity and relay actions.
+
+### Reward Scheme
+- Reward calculation based on node's and its peers' connectivity.
+- Desired properties for the reward scheme like indistinguishable probing, uniform distribution of challenge messages, etc.
+
+## Section 5 (Rewards)
+- Relay rewards and D-service rewards.
+- Different modes of payment for D-rewards like native tokens, fiat, etc.
+
+## Section 6 (Related)
+- (Not much content here)
+
+## Appendix
+- (Ignored for now)

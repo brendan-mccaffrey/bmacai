@@ -8,6 +8,10 @@ description: "Cryptographic ledgers"
 - [The Soveriegn Individual](https://en.wikipedia.org/wiki/The_Sovereign_Individual)
 - [Manifesto for a Democratic Civilization](https://files.libcom.org/files/ManifestoforaDemocraticCivilizationvol2.pdf)
 - [V for Vendetta](https://en.wikipedia.org/wiki/V_for_Vendetta)
+- [Rationality is Self-Defeating in Permissionless Systems](https://bford.info/2019/09/23/rational/)
+- [The Most Important Scarce Resource is Legitimacy](https://vitalik.ca/general/2021/03/23/legitimacy.html)
+- [Manufacturing Consensus](https://drydenbrown.posthaven.com/manufacturing-consensus)
+- [What do I Think About Network States?](https://vitalik.ca/general/2022/07/13/networkstates.html)
 
 ## Recent, General
 

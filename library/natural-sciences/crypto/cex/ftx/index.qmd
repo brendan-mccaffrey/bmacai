@@ -2,6 +2,120 @@
 title: FTX
 ---
 
+## Background
+
+FTX was a centralized exchange (CEX) founded by Sam Bankman-Fried (SBF), who also co-founded Alameda Research, a crypto hedge fund. Both of these companies declared bankruptcy in Q4 2022. Prior to its bankruptcy, the FTX trading platform was one of the most popular choices amongst crypto traders. Its rise to fame could be attributed to several factors, including SBF’s Jane Street background and being the world’s youngest billionaire. FTX’s marketing also played a huge role in attracting users, promoting its low fees and collaborating with A-list celebrities such as Tom Brady to gain market attention.
+
+However, despite all its efforts and fame, FTX filed for Chapter 11 bankruptcy on Nov 11, 2022, and SBF was arrested on Dec 12, 2022. The collapse of FTX had a significant impact, rippling through the entire crypto market, triggering liquidations and causing even more companies to fall. Yet despite this havoc, it seems FTX might be launching version 2.0.
+
+In this article, we’ll be exploring how the FTX exchange fell, take a look at the potential FTX 2.0 and identify the possible effects it might have on the FTT token’s price.
+
+Key Takeaways:
+
+- FTX was a centralized exchange founded in May 2019 by Sam Bankman-Fried and Gary Wang. The exchange declared bankruptcy in Q4 2022.
+- John Ray, the new CEO of FTX, has set up a task force to relaunch FTX, and is calling the exchange FTX 2.0.
+- FTT’s price experienced a surge following the revelation of FTX 2.0 documents on Twitter by Ray. 
+- Bybit offers the FTT/USDT Spot trading pair. 
+
+### What Was the FTX Crypto Exchange?
+
+As mentioned earlier on, FTX was a CEX founded in May 2019 by SBF and Gary Wang, who also served as its Chief Technology Officer (CTO). The cryptocurrency exchange specialized in derivatives and leveraged products, on top of providing spot markets. At the beginning of 2022, FTX had amassed more than a million registered users, and was recording billions of dollars in daily trading volume. One of FTX’s key innovations was its FTT token.
+
+#### **What Is FTT?**
+
+FTT is an ERC-20 token issued on the Ethereum network. Much effort was put into making FTT less inflationary, with FTX regularly repurchasing FTT tokens and conducting FTT token burns. Both of these processes reduced the circulating supply of FTT in the market, which in turn decreased the level of selling pressure. The repurchase of FTT was made possible by using 33% of the trading fees generated on FTX.
+
+In addition to reducing selling pressure, FTX also increased buying pressure by offering users a discount on trading fees and tighter spreads when they held FTT. For active traders, this was a very attractive value proposition for holding onto FTT, as it could offer savings of up to 60%. Furthermore, FTT could be used as collateral for future positions, increasing the utility of the token and further incentivizing people to purchase and hold the token.
+
+Other benefits of FTT included serving as a form of insurance, protecting traders from clawback. This was an extremely useful feature, especially during periods of volatile markets which increased the chances of traders’ margin calls being triggered. FTT holders could also stake the token, which entitled them to free withdrawals of ERC-20 tokens from the FTX platform. This was particularly helpful during periods of Ethereum network congestion, which can lead to skyrocketing gas fees.
+
+### FTX's Collapse
+
+How did a platform with such a high level of innovations end up bankrupt? Let’s take a look at the series of events leading up to FTX’s bankruptcy and SBF’s arrest.
+
+##### **November 2017: Founding of Alameda Research**
+
+Alameda Research, a quantitative trading firm, is founded by SBF, who rises to fame through his highly profitable arbitrage trading on the Kimchi Premium. 
+
+##### **May 2019: Founding of FTX**
+
+FTX’s CEX is founded, with a focus on derivative products.
+
+##### **December 2019: Binance’s Investment Into FTX**
+
+Binance announces a strategic investment into FTX. 
+
+##### **2021: Binance Sells FTX Equity in Exchange for FTT and USD**
+
+With this transfer, Binance receives $2.1 billion worth of FTT and USD.
+
+##### **Nov 2, 2022**
+
+CoinDesk reveals a document, supposedly Alameda Research’s balance sheet, with concerns that some of Alameda Research’s assets are commingled with FTX, even though these two are meant to be separate entities. In particular, it’s found that $5.8 billion of the $14.6 billion worth of assets in Alameda Research’s balance sheet is in the FTX-issued token, FTT.
+
+Given that FTT was sold to Alameda Research at a very low price early on in the establishment of FTX, the artificial inflation of FTT by FTX gave Alameda Research an opportunity to use their FTT holdings as collateral to borrow other assets from FTX’s customer deposits.
+
+##### **Nov 6, 2022**
+
+Binance’s founder, Changpeng Zhao (known as CZ), announces on Twitter that Binance will sell all its FTT holdings. This sends the broader crypto market into a frenzy, with speculation regarding FTX and Alameda Research’s insolvency. In turn, this causes a massive sell-off of the FTT token, and FTX begins to see users withdraw their assets.
+
+##### **Nov 7, 2022**
+
+Caroline Ellison, CEO of Alameda Research, takes to Twitter to highlight that Alameda Research would be willing to buy over CZ’s share of FTT at $22 per token. This further spurs the market’s speculation that FTT has been heavily used for collateral by Alameda Research, and that any price drop below $22 could potentially trigger liquidations.
+
+CZ rejects the sale of FTT to Alameda Research; the market is convinced that CZ is out to cause the death of FTT. Given that FTT has had a low circulating liquidity since Alameda Research holds most of the circulating supply, Alameda isn’t able to sell off their FTT since there would be insufficient market liquidity to buy up their tokens.
+
+With nonstop user withdrawal from FTX amounting to $6 billion, FTX is left with no choice but to halt their withdrawals, and announce that they’re suffering from a liquidity crisis. The cause of this insolvency is that customers whose deposits have been loaned to Alameda Research have had their positions liquidated as a result of FTT’s price decline.
+
+##### **Nov 8, 2022**
+
+Binance stepped in shortly after, announcing that they had signed a non-binding letter of intent (LOI) to acquire FTX international. This is, however, subject to due diligence, and Binance will first be examining FTX’s balance sheet before making a final decision.
+
+##### **Nov 9, 2022**
+
+After conducting due diligence on FTX’s balance sheet, Binance ultimately decides to step out of the deal. As a result, SBF reveals to investors that FTX will file for bankruptcy.
+
+##### **Nov 10, 2022**
+
+The Bahamas securities’ regulator freezes the digital assets of the Bahamas subsidiary of FTX.
+
+##### **Nov 11, 2022: FTX Bankruptcy**
+
+SBF steps down as CEO and FTX files for Chapter 11 bankruptcy.
+
+##### **Nov 18, 2022**
+
+The Securities Commission of The Bahamas (SCB) takes control of crypto assets within FTX. SBF is instructed to move the assets to the regulator’s wallet in order to protect creditors.
+
+##### **Dec 12, 2022**
+
+FTX founder SBF is arrested by Bahamian authorities and later extradited to the U.S., where he’s indicted by the U.S. District Court in Manhattan and charged on eight counts, including securities fraud and money laundering.
+
+##### **Dec 22, 2022**
+
+SBF is released on a $250 million bond, the largest in history, by a federal judge.
+
+##### **Current State of Affairs**
+
+As of this point, both FTX customers and creditors have yet to withdraw their assets from FTX. This is where it gets interesting: amidst the ongoing lawsuit, there have been plans for a reboot known as FTX 2.0. Let’s take a look at them.
+
+### FTX 2.0
+
+It appears that since January 2023, John Ray, the new FTX CEO who took over the exchange prior to bankruptcy proceedings, has set up a task force to work on restarting FTX, launching FTX 2.0. This comes after an announcement on Jan 11, 2023, highlighting that FTX has recovered at least $5 billion of liquid assets, of which more than $3 billion is owed to its top 50 creditors. On May 22, 2023, it was revealed that documents had recently been filed in the United States Bankruptcy Court for the District of Delaware that depict the extensive planning put in by Ray and his team to execute the launch of FTX 2.0.
+
+[Twitter: John Ray III confirms FTX 2.0 Plans](https://x.com/AFTXcreditor/status/1660753728792584195?s=20)
+
+Ray shared that some of FTX’s shareholders have given feedback that, should FTX be relaunched, it could still be a viable business, and it may be possible to reimburse users with their assets. In addition, creditors will also be able to benefit by recouping the loans they’ve made, a point raised by Twitter influencer @loomdart.
+
+However, there have been some doubts regarding the validity of FTX 2.0, with concerns including FTX’s technical deficiencies, which resulted in high latency and software bugs that undermine the user experience. Nonetheless, Ray has attempted to address these concerns, enlisting cybersecurity firm Sygnia to enhance the security of FTX. On the legal side of things, Ray has also been keeping in touch with investment bank Perella Weinberg Partners L.P. to review steps required for the rebooting of FTX.
+
+Restarting FTX to launch FTX 2.0 is likely going to require a very large sum of fresh capital. In the latest court filing, it was revealed that Ray had reviewed a list of bidders for FTX 2.0 amongst rumors that Tribe Capital, a VC firm that invested in FTX before its collapse, has expressed interest in leading the round for FTX 2.0.
+
+It seems we might be closer to the launch of FTX 2.0 than we think.
+
+##### **The Bottom Line**
+
+What will FTX 2.0 mean for the market? Users may be able to gain access to their assets, which has been inaccessible since November 2022, and creditors could also retrieve their loans. Nonetheless, whether users will be able to trust the exchange once it’s been set up is still an unknown, since its tarnished reputation might deter users from using it. In the meantime, it might be interesting to keep tabs on FTT’s price, which is likely to be volatile in light of news revolving around FTX 2.0.
 
 United States District Court Southern District of New York: United States of America v. Samuel Bankman-Fried
 - [Court Listener Docket Entries](https://www.courtlistener.com/docket/66631291/united-states-v-bankman-fried/)
@@ -12,6 +126,10 @@ Adderall Bet
 - August 14, 2023 [letter to request order to Metrpolitan Detention Center for provide client with prescribed medication](https://storage.courtlistener.com/recap/gov.uscourts.nysd.590940/gov.uscourts.nysd.590940.201.0.pdf)
 - NYT says [it's unlikely SBF will get Adderall](https://nypost.com/2023/08/24/why-sam-bankman-fried-likely-wont-get-adderall-while-locked-up-in-brooklyn-jail/) due to prior guidance against stimulants due to potential for misuse.
     - "clinical guidance" [document on ADHD treament](https://www.bop.gov/resources/pdfs/adult_adhd_cd.pdf) issued by the feds in december 2021
+
+## From the FTX Trial
+
+- [Caroline Ellison's Note's](https://x.com/tomkysar/status/1712319463297626254?s=20)
 
 
 {{< include _adi-ftx.qmd >}}

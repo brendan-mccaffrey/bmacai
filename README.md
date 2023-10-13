@@ -2,6 +2,10 @@
 
 quarto is pretty legit
 
+## Authentication
+
+Using [Octauthent](https://app.octauthent.com/sites/49d5bc31-2bfc-4b52-9c81-9f3a708ded0a), super dope
+
 ### Notes to self
 
 - run with `quarto preview .` from main directory
