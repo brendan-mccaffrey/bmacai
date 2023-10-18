@@ -3,6 +3,10 @@ title: Artificial Intelligence
 table-of-contents: true
 --- 
 
+## Tools
+
+- [Modular: Programming Language](https://www.modular.com/?utm_content=268229477&utm_medium=social&utm_source=twitter&hss_channel=tw-1483918307484848132)
+
 {{< include _philosophy.qmd >}}
 
 {{< include _research.qmd >}}
