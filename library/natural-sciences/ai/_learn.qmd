@@ -1,8 +1,14 @@
 ### Learn
 
-- [GPT in 60 Lines of Numpy](https://jaykmody.com/blog/gpt-from-scratch/)
+
 
 #### Transformers
+
+- [Let's Build GPT: from scratch, in code, spelled out](https://www.youtube.com/watch?v=kCc8FmEb1nY)
+- [Attention is all you need, video paper](https://www.youtube.com/watch?v=iDulhoQ2pro)
+- [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+- [GPT in 60 Lines of Numpy](https://jaykmody.com/blog/gpt-from-scratch/)
+- Gen AI Visualization by FT: [Generative AI exists because of the transformer](https://ig.ft.com/generative-ai/)
 
 - [Illustrated Guide to Transformers](https://www.youtube.com/watch?v=4Bdc55j80l8)
 - [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
