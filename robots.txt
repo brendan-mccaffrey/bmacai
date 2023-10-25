@@ -1,1 +1,1 @@
-Sitemap: https://brendan-mccaffrey.github.io/bmacai/sitemap.xml
+Sitemap: https://bmac.ai/sitemap.xml
