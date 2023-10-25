@@ -1,5 +1,7 @@
 project:
   type: website
+  resources: 
+   - "apple-touch-icon.png"
 
 format:
   html:
