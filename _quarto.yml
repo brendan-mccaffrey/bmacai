@@ -10,7 +10,7 @@ format:
 website:
   title: "bmac.ai"
   favicon: media/favicon.ico
-  # site-url: "https://bmac.ai"
+  site-url: "https://bmac.ai"
   # google-analytics: "UA-XXXXXXXX"
   twitter-card: 
     image: "media/bg.jpeg"
