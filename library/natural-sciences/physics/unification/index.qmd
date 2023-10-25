@@ -10,6 +10,7 @@ description: Towards a theory of everything
 - [Perturbative Quantum Gravity](https://www.youtube.com/watch?v=ik0C-xTnK-k&list=PL9ec4tkG1qrjDAad0-EHxyEPw1KcxxT68&index=6)
 - [Gravitational Machines](https://arxiv.org/pdf/2305.10470.pdf)
 - [Warp Drive Patent by Google?](https://patents.google.com/patent/US20060144035)
+- [Is it Time to Rethink Quantum Gravity?](https://arxiv.org/abs/2310.12221)
 
 ### ER = EPR
 

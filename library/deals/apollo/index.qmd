@@ -1,0 +1,31 @@
+
+
+
+
+2 sided partnership
+
+Venues
+- bars
+- restaurants
+- venues
+- hotels
+
+Consumers
+- digital passport/wallet
+- connects to venues
+
+
+
+Increase consumer loyalty for vendors
+
+Reservations: Resy, opentable, etc
+Tickets: Dice, ticketmaster, etc
+
+Markets are very fragmented, want to unify data, create relationships at scale
+
+Tiktok, etc, has very good data intelligence - enable very good ad targeting
+Comparing this to offline world, there's no comprehensive solution for the business or the consumer
+
+Just crossed 5mm in transaction value
+
+Phase 1: refine utility, onboarding process with venues
