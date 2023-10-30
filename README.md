@@ -19,3 +19,7 @@ Using [Octauthent](https://app.octauthent.com/sites/49d5bc31-2bfc-4b52-9c81-9f3a
 
 - [Igors blog](https://github.com/ibab/babushk.in/blob/master/templates/post-item.html)
 - [live site](https://babushk.in/research.html)
+
+## Auth
+
+password-protected pages by octauthent

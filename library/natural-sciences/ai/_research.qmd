@@ -17,6 +17,10 @@
 8. [OPT-IML: An instruction-tuned LLM for open-use](https://t.co/ZFaP4PXTVv)
 9. [LLM Refinement Process, reduce mistakes](https://twitter.com/cwolferesearch/status/1613643034717028352)
 10. [Efficient Streaming Language Models with Attention Sinks](https://arxiv.org/abs/2309.17453)
+11. Jailbreaking LLMs
+    - [website](https://jailbreaking-llms.github.io/)
+    - [Paper: Jailbreaking Black Box Large Language Models in Twenty Queries](https://arxiv.org/abs/2310.08419)
+    - [Github](https://github.com/patrickrchao/JailbreakingLLMs)
 
 #### **Coding**
 - [CodeFusion: A Pre-trained Diffusion Model for Code Generation](https://arxiv.org/abs/2310.17680)
