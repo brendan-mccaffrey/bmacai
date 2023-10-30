@@ -9,7 +9,9 @@ title: Nutrition
 - [Oregano Oil, Natural Antibiotic](https://twitter.com/iluminatibot/status/1650264370319069185?s=20)
 - [Neurological Activity of Lion’s Mane (Hericium erinaceus)](https://restorativemedicine.org/journal/neurological-activity-lions-mane-hericium-erinaceus/)
 
+{{< include _seed-oils.qmd >}}
 
+{{< include _mycotoxins.qmd >}}
 
 ## Portabello Mushrooms
 

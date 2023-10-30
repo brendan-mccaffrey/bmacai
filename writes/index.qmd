@@ -3,14 +3,19 @@ title: "Writes"
 sidebar: false
 page-layout: full
 
-# listing:
-#   contents: posts
-#   sort: "date desc"
-#   type: default
-#   categories: false
-#   sort-ui: false
-#   filter-ui: false
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
 ---
+___
 
-Coming soon.
+‎
+
+Writing is not among my strengths. On top of that, I have not devoted significant time to any of the pieces below. This page will remain private until I actually write things worth reading.
+
+‎
 

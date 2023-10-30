@@ -2,5 +2,4 @@
 title: Viruses
 ---
 
-
 {{< include _covid19.qmd >}}

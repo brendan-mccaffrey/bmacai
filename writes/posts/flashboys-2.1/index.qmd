@@ -1,0 +1,46 @@
+---
+title: Flashboys 2.1.0
+sidebar: false
+author: Brendan
+date: "2021-11-05"
+image: "image.jpeg"
+page-layout: full
+---
+
+An Evolution of MEV in Decentralized State Machines
+
+## Context
+
+I enrolled in the University of Pennsylvania when I was 17 years old, studying Computer Science in Penn's School of Engineering. In 2019, I decided to explore the world of business (concentrating in Finance, in particular), so I applied to the Wharton School of Business to pursue a second Bachelor's degree, concentrating in Quantitative Finance.
+
+In the Summer of 2021, I worked as an intern for an active, multi-strategy New York family office. Within the first month of my internship, I discovered [MEV in blockchain networks](../../../library/natural-sciences/crypto/blockchain/mev/index.qmd). For the next few months, I pursued "searching" (the act of axtracting MEV): learning the Solidity and Golang programming languages from scratch, familiarizing myself with the Ethereum Virutal Machine, and developing infrastructure to automate on-chain arbitrage monitoring, and execution.
+
+Towards the end of the Summer, I was offered a full time role. I continued my job as I return to UPenn that Fall, spending much of my time in New York when I wasn't [playing football](https://twitter.com/pennsprintfb/status/1446626130098671617?s=42&t=oqC5_9pcT5b99vHFKjiF2g) in Philadelphia. My grades suffered, but it was worth it. I learned far more *in the arena* that I did in the classroom, and my journey in MEV was fruitful, to say the least.
+
+Among the requirements for my Engineering degree was the "Senior Thesis", which I completed that Fall. I decided, of course, to write my thesis on the work I was doing professionally.
+
+___
+
+# Flashboys 2.1.0
+
+[**View the Full Paper HERE**](flashboys-2.1.0.pdf)
+
+*Flashboys 2.1.0* is inspired by the iconic paper out of Cornell, [Flashboys 2.0](https://arxiv.org/abs/1904.05234). It includes:
+
+1. A background on blockchain networks, smart contracts, and MEV.
+2. An analysis of current (Fall '21) MEV manifestations.
+3. An exploration of the future of MEV, considering the consequences of a multichain world.
+
+**Fun Fact:** I performed the MEV extractions analyzed in this paper. This is not acknowledged in the paper, nor was the Penn Engineering department made aware. I think it's been long enough to reveal that now ;)
+
+
+
+## Abstract
+
+The rise of distributed state machines have led to an increased use of decentralized markets. As the adoption of smart contract platforms continues to grow, the implications of on-chain arbitrage dynamics are increasingly important.
+
+In this paper, I explore the concept of Maximal Extractable Value, and investigate the evolution of the space since the term was coined by Daian et al. in 2019.
+
+I identify three categories of MEV: Single-Domain Atomic MEV, Single- Domain Non-Atomic MEV (also known as long-tail MEV), and Cross- Domain MEV (which is inherently non-atomic). I show that Single-Domain Non-Atomic MEV strategies have yielded over $10 million USD of extracted value on the Ethereum network in just the last six months. This paper also explores the future potential for cross-domain arbitrage in a multi-chain economic ecosystem with a high level evaluation of the key logic.
+
+My work aims to highlight the importance of MEV as a concept within distributed systems, and also includes a brief discussion of the ethical im- plications of the subject.

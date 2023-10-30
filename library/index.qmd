@@ -11,3 +11,15 @@ ___
 Welcome to my library.
 
 You may find books, articles, and curated research documents spanning many topics.
+
+‎
+
+This page is not intended to yet be public, so if you are accessing this, that means I have entrusted you with the password. I prefer not to publish this publicly, as its incompleteness may misrepresent me and my beliefs. Although the library will never be "complete", many pages have particularly little information and should not be interpreted as accurate representations or reflections of my views/experience/knowledge of the respective topic.
+
+I do not allocate a large portion of my time to maintaining this library. I have optimized the project for minimal overhead - a slowly accumulating collection of resources and learnings I come across over time. 
+
+If you are curious to see where I intend to go with this, I'd recommend viewing one of the following:
+
+- [Physics](natural-sciences/physics/index.qmd)
+- [History of AI](natural-sciences/ai/history-of-ai/index.qmd)
+- [Ethereum](natural-sciences/crypto/blockchain/ethereum/index.qmd)
