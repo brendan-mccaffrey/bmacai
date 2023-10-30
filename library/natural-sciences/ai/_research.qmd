@@ -18,6 +18,9 @@
 9. [LLM Refinement Process, reduce mistakes](https://twitter.com/cwolferesearch/status/1613643034717028352)
 10. [Efficient Streaming Language Models with Attention Sinks](https://arxiv.org/abs/2309.17453)
 
+#### **Coding**
+- [CodeFusion: A Pre-trained Diffusion Model for Code Generation](https://arxiv.org/abs/2310.17680)
+
 #### **Promting**
 - [Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution](https://arxiv.org/abs/2309.16797)
 
