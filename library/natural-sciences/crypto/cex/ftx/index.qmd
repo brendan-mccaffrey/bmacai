@@ -2,6 +2,11 @@
 title: FTX
 ---
 
+## Resources
+
+- [Balaji: Crypto Twitter found SBF's Fraud](https://balajis.com/p/crypto-twitter-found-sbfs-fraud)
+
+
 ## Background
 
 FTX was a centralized exchange (CEX) founded by Sam Bankman-Fried (SBF), who also co-founded Alameda Research, a crypto hedge fund. Both of these companies declared bankruptcy in Q4 2022. Prior to its bankruptcy, the FTX trading platform was one of the most popular choices amongst crypto traders. Its rise to fame could be attributed to several factors, including SBF’s Jane Street background and being the world’s youngest billionaire. FTX’s marketing also played a huge role in attracting users, promoting its low fees and collaborating with A-list celebrities such as Tom Brady to gain market attention.
