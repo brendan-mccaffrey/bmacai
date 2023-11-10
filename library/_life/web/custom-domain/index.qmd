@@ -1,0 +1,10 @@
+---
+title: Custom Domain
+---
+
+## Step 1, Purchase Domain
+
+## Step 2, Create Google Workspace Account
+
+## Step 3, Import Domain DNS to Cloudflare
+

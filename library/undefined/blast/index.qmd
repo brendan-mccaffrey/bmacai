@@ -1,0 +1,83 @@
+---
+title: Blast L2
+---
+
+## Context
+
+Blast is an Ethereum layer 2 launching testnet in late November and Mainnet in February. This protocol will be successful, and building an application on this protocol will yield leveraged upside to the success of the protocol.
+
+## Questions
+
+- Rebasing mechanism: how work?
+- Grants / additional support?
+- Basic Chain Metrics
+    - any zk noise or no?
+    - tps, finality expectations
+    - consensus mechanism: centralized sequencer?
+    - any diff opcodes? or completely evm compatible
+- Oracle partners
+- todo
+
+## Idea(s)
+
+### **1. Perpetual exchange**
+
+#### **GMX**
+
+**Resources**
+
+- [github profile](https://github.com/gmx-io)
+    - [contracts](https://github.com/gmx-io/gmx-contracts)
+    - [subgraph](https://github.com/gmx-io/gmx-subgraph)
+    - [synthetics](https://github.com/gmx-io/gmx-synthetics) | [synthetics temp v2?](https://github.com/gmx-io/gmx-synthetics-temp-2)
+    - [stats](https://github.com/gmx-io/gmx-stats)
+    - [interface](https://github.com/gmx-io/gmx-interface)
+    - [protocol info react](https://github.com/gmx-io/protocol-info)
+    - [assets](https://github.com/gmx-io/gmx-assets/tree/main/GMX-Assets)
+
+#### **Polynomial (and Synthetix)**
+
+##### **Polynomial**
+
+They use Oracles: [Chainlink](https://docs.chain.link/) and [Pyth](https://docs.pyth.network/documentation)
+
+**Resources**
+
+- [documentation](https://docs.trade.polynomial.fi/)
+- [github profile](https://github.com/Polynomial-Protocol)
+    - [indexer](https://github.com/Polynomial-Protocol/optimistic-indexer)
+    - [earn contracts](https://github.com/Polynomial-Protocol/polynomial-earn-contracts)
+    - [utils](https://github.com/Polynomial-Protocol/utils)
+
+##### **Synethetix**
+
+Built on Ethereum Mainnet and Optimism L2. We are interested in their Perpetual futures product.
+
+Perps V2 was launched in Dec 2022. *"Perps v3 are in development so get in touch"*
+
+**Resources**
+
+- [docs](https://docs.synthetix.io/synthetix-protocol/synthetic-assets/perpetual-futures)
+- [integration guide](https://docs.synthetix.io/integrations/perps-integration-guide)
+- [github profile](https://github.com/Synthetixio)
+    - [deployment manager](https://github.com/Synthetixio/synthetix-deployments)
+    - [synthetix v3](https://github.com/Synthetixio/synthetix-v3)
+
+
+
+### **2. Prediction Market**
+
+Probably best to spin out of the perps project. Involves a similar risk engine, synthetic assets, etc.
+
+### **3. Casino**
+
+Requires RNG, fair to assume Chainlink, Pyth, or some other oracle will be live on day 1 (Blast team would ensure so).
+
+On the easier side
+
+- rocket game: literally a dev how-to on this: game outcome, provably fair, decided by reverse hashes
+- blackjack
+- poker
+- slots
+- etc
+
