@@ -1,0 +1,65 @@
+---
+title: Ritual
+descritpion: A decentralized AI network.
+---
+
+## Resources
+
+- Introductory Post: [Introducing Ritual](https://ritual.net/blog/introducing-ritual)
+- [Documentation](https://docs.ritual.net/)
+
+## Notes
+
+#### **Intro Post**
+
+[Introducing Ritual](https://ritual.net/blog/introducing-ritual)
+
+Goal Statement: Merge the best principles and techniques of cryptography and AI to create a system that enables open and permissionaless creation, distribution and improvement of AI models.
+
+Context: We have recently seen a cambrian explosion in AI models, but we see a few core problems.
+
+**Lack of Strong Service Level Agreements (SLAs)**
+
+- existing platforms dont offer guarantees on computational integrity, privacy, and censorship resistance.
+- permissioned and centralized APIs
+- high compute cost and limited hardware resources
+- oligopolistic and strcuturally misaligned: current landscape, either close source ur models, or open-source as a donation (no infra to reward their contributions)
+
+**Solution**
+
+Ritual is an open, modular, sovereign execution layer for AI. Consists of distributed network of nodes with access to compute and model creators, enabling creators to host models on these nodes. Users can then access any model on the network (single uniform API) and the network provides cryptographic guarantees around privacy, and integrity.
+
+**Infernet**
+
+Infernet is the first evolution of Ritual. It exposes interfaces for smart contracts to access AI model for inference. It's the first building block in a suite of protocols and utilities to enable builders on Ritual and permissionless access to network of model and compute resources.
+
+![infernet](infernet-architecture.svg)
+
+The grand vision is for Ritual to become schelling point of AI in web3 by tranforming Infernet into a modular suite of execution layers that interop with base layer infra, allowing every protocol and application on an chain to use Ritual as an AI coprocessor.
+
+![vision](vision-product-diagram.svg)
+
+## Team
+
+[About Page](https://ritual.net/about)
+
+- Niraj Pant: GP Polychain, Research Decentralized Systems Lab, CS @ UIUC
+- Akilesh Potti: Partner @ Polychan, ML @ Palantir, Quant @ Goldman, ML Research @ MIT, Cornell
+- Ricky Moezinia: Founder @ Alta, SE @ Libra, Quant @ Point 72, EECS @ MIT
+- Anish Agnihotri: MEV, Research @ Paradigm, Trading @ Polychain, CS @ UWaterloo
+
+**Advisors**
+
+- Illia Polosukhin: Co-Founder NEAR and Co-Creator of Transformers ("Attention is all you need")
+- Sreeram Kannan: Founder Eigenlayer and Associate Prof of CS @ University of Washington
+- Tarun Chitra: Founder/CEO Gauntlet and GP @ Robot Ventures
+
+## Product
+
+[Product](https://ritual.net/product)
+
+Ritual Superchain: and AI coprocessor for all blockchains
+
+- a state of sovereign modular execution layers, each containing specialized Stateful precompiles
+- a GMP layer to facilitate interop between existing blockchains and Ritual superchain
+- Ritual's AI VM contains not only SPCs, but also base layer infra to facilitate optimized execution, including inference engine binaries and vector dabases
