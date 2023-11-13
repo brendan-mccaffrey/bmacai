@@ -1,0 +1,9 @@
+---
+title: Quantitative Finance
+---
+
+## Resources
+
+### Advanced Theory
+
+- [End-To-End Resource Analysis for Quantum Interior-Point Methods and Portfolio Optimization](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.4.040325)

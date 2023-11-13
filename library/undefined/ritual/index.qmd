@@ -79,3 +79,19 @@ Two interfaces:
 
 - Callback Consumer
 - SubscriptionConsumer
+
+both inherit the [base consumer](https://docs.ritual.net/Infernet/sdk/reference/consumers/BaseConsumer)
+
+Functions
+
+- `_receiveModelOutput`
+- `rawReceiveModelOutput`: Callable only by address(COORDINATOR)
+
+
+Callback Consumer
+
+- [technical reference](https://docs.ritual.net/Infernet/sdk/reference/consumers/CallbackConsumer)
+
+Subscription Consumer
+
+- [technical reference](https://docs.ritual.net/Infernet/sdk/reference/consumers/SubscriptionConsumer)
