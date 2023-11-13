@@ -7,6 +7,12 @@ descritpion: A decentralized AI network.
 
 - Introductory Post: [Introducing Ritual](https://ritual.net/blog/introducing-ritual)
 - [Documentation](https://docs.ritual.net/)
+- [Installation](https://docs.ritual.net/ml-workflows/getting-setup)
+
+### Tutorials
+
+- [Simple logistic classifier with ZK verification](https://docs.ritual.net/ml-workflows/adding-your-first-ritual-workflow/tutorial-simple-logistic-classifier)
+- [ML Resources 101](https://docs.ritual.net/ml-workflows/adding-your-first-ritual-workflow/ml-resources-101)
 
 ## Notes
 
@@ -75,23 +81,125 @@ Ritual Superchain: and AI coprocessor for all blockchains
 
 #### **SDK**
 
-Two interfaces: 
+The SDK closely resembles that of off-chain oracle systems (and cross chain messaging protocols)
 
-- Callback Consumer
-- SubscriptionConsumer
+### Server Contracts
 
-both inherit the [base consumer](https://docs.ritual.net/Infernet/sdk/reference/consumers/BaseConsumer)
+#### **Coordinator.sol**
+
+**Events**
+
+- SubscriptionCreated
+- SubscriptionCancelled
+- SubscriptionFulfilled
+
+**Functions**
+
+- createSubscription()
+- cancelSubscription()
+- getSubscriptionInterval()
+- deliverModelOutput()
+
+#### **EIP712Coordinator.sol**
+
+**Functions**
+
+- createSubscriptionDelegate()
+- deliverModelOutputDelegate()
 
 Functions
 
 - `_receiveModelOutput`
 - `rawReceiveModelOutput`: Callable only by address(COORDINATOR)
 
+### Client/Developer Contracts
 
-Callback Consumer
+Developers may inherit two interfaces: 
+
+- Callback Consumer: one-time computation consumption
+- SubscriptionConsumer: recurring computation consumption
+
+both inherit the [base consumer](https://docs.ritual.net/Infernet/sdk/reference/consumers/BaseConsumer)
+
+#### **BaseConsumer.sol**
+
+Handles receiving model output from coordinator.
+
+**Functions**
+
+- rawReceiveModelOutput(): public entrypoint, relays to 
+    - *same as below*
+- _receiveModelOutput()
+    - subscriptionId
+    - interval
+    - redundancy
+    - node
+    - response
+    - proof
+
+#### **CallbackConsumer.sol**
 
 - [technical reference](https://docs.ritual.net/Infernet/sdk/reference/consumers/CallbackConsumer)
 
-Subscription Consumer
+**Functions**
+
+- _requestModelOutput() returns uint32 ID
+    - containerId
+    - features
+    - maxGasPrice
+    - MaxGasLimit
+    - redundancy
+
+
+#### **SubscriptionConsumer.sol**
 
 - [technical reference](https://docs.ritual.net/Infernet/sdk/reference/consumers/SubscriptionConsumer)
+
+**Functions**
+
+- getModelFeatures()
+    - subscriptionId
+    - interval
+    - timestamp
+    - caller
+- _createModelOutputSubscription() returns uint32 ID
+    - containerId
+    - maxGasPrice
+    - MaxGasLimit
+    - frequency
+    - period
+    - redundancy
+- _cancelModelOutputSubscription()
+    - ID
+
+#### **Delegator.sol**
+
+Exposes a signer address allowing authorized EOA to sign off on actions on behalf of contract.
+
+*Allows developers to create Coordinator subscriptions off-chain, on behalf of a contract, by signing a DelegateSubscription from signer and submitting to EIP712Coordinator.createSubscriptionDelegatee()*
+
+
+### Types
+
+**Subscription**
+- owner: on-chain address (smart contract), which receives subscriptions and can cancel
+- containerId: unique identifier of compute container you want an Infernet node to run. Subscriptions' features are passed into this container and output directly returned.
+- features: two ways to expose input data/features. Encode data in this parameter or leave empty and expose a `getModelFeatures()` function in consumer contract.
+- frequency: 1, 2, etc, or UINT256_MAX implying perpetual
+- period: in seconds, 0 if once
+- redundancy: how many unique nodes do I want a response from each time. 
+- activeAt: start time
+- maxGasPrice: max price of response tx
+- maxGasLimit: contracts callback function gas _ DELIVERY_OVERHEAD_WEI (fixed surcharge)
+
+### Nodes
+
+People can run nodes permissionlessly
+
+- [doc reference](https://docs.ritual.net/Infernet/nodes)
+
+### Workflows
+
+Two main workflows: training and inference
+
+Uses [MLFlow](https://mlflow.org/)
