@@ -3,6 +3,50 @@ title: Ritual
 descritpion: A decentralized AI network.
 ---
 
+## Call Notes
+
+- A lot of infrastructure, but need more AI applications in crypto
+- They dont focus on training, do fine tuning and inference: quantization and distillation further down the line
+
+
+
+## Questions
+
+- Model reputation, ID consistency
+- How do the economics work in regards to 
+
+- You mention the importance of privacy. At what level are you pursuing this? Can the user encrypt their query (FHE ML)? What guarantees do they have about their data?
+    - privacy of user and privacy of provider?
+
+- To what extent do you guys want to be involved in model development?
+
+- To what extent can I customize my model as a node-runner. The primary use case for LLM queries for example will be a user wants a response from Llama-2-70b, there are multiple node runners that can run that inference. However, can I as a node runner offer my custom nano-Llama-Grok model? Does it require me to publish my model on huggingface, register a template with Ritual?
+
+- How is training incentivized? It's fair to assume users only want to pay for post-training inference, is it the future EV of inference fulfillments that incentivized training, or is Ritual more involved in training directly?
+
+Nodes
+- model hosting
+- gpu compute
+- proof generator
+
+Smaller models, < 100k params, regression, more applicable for ZK-proofs
+
+Larger LLMs / diffusion, optimistic proofs
+EZKL has proof compilers, they create circuits
+
+You can run MPC compute, keep each private, and
+
+archetype took 15 out of the 25
+
+about 1mm or so left
+
+150mm post money equity
+2:1 token warrant
+
+one more fundraise before token launch
+
+
+
 ## Resources
 
 - Introductory Post: [Introducing Ritual](https://ritual.net/blog/introducing-ritual)
@@ -13,6 +57,8 @@ descritpion: A decentralized AI network.
 
 - [Simple logistic classifier with ZK verification](https://docs.ritual.net/ml-workflows/adding-your-first-ritual-workflow/tutorial-simple-logistic-classifier)
 - [ML Resources 101](https://docs.ritual.net/ml-workflows/adding-your-first-ritual-workflow/ml-resources-101)
+
+
 
 ## Notes
 
