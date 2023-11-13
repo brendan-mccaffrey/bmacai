@@ -63,3 +63,19 @@ Ritual Superchain: and AI coprocessor for all blockchains
 - a state of sovereign modular execution layers, each containing specialized Stateful precompiles
 - a GMP layer to facilitate interop between existing blockchains and Ritual superchain
 - Ritual's AI VM contains not only SPCs, but also base layer infra to facilitate optimized execution, including inference engine binaries and vector dabases
+
+### Infernet
+
+**Flow**
+
+1. Smart contracts use interface to initiate requests including model ID, input features, etc.
+2. Infernet nodes listen for calls and collect models from storage
+3. Infernet computes inference and delivers output (alongside optional proofs)
+4. Coordinator delivers the response directly to the contract
+
+#### **SDK**
+
+Two interfaces: 
+
+- Callback Consumer
+- SubscriptionConsumer
