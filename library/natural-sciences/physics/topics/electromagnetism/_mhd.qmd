@@ -26,7 +26,18 @@ Magnetohydrodynamics (MHD), also known as hydromagnetics, is a field in physics 
 - [Analysis of the Magnetohydrodynamic Behavior of the Fully Developed Flow of Conducting Fluid](https://www.mdpi.com/1996-1073/14/9/2463)
 - [Space-based laser-driven MHD generator [microform] : feasibility study](https://searchworks.stanford.edu/view/3069472)
 - [Weak Solutions to Ideal MHD](https://www.ias.edu/sites/default/files/MHD-IASfinal.pdf)
+- [MHD Equations: Overview](https://www.electricity-magnetism.org/magnetohydrodynamics-mhd-equations/)
+- [A Magnetohydrodynamic enhanced entry system for space transportation: MEESST](https://www.sciencedirect.com/science/article/pii/S2468896722001379)
 
+### Driectly Relating to Earth
+
+- [Geomagnetic Field](https://www.britannica.com/science/geomagnetic-field)
+- [The Geodynamo](https://websites.pmc.ucsc.edu/~glatz/geodynamo.html)
+- [MHD x Geophysics](https://en.wikipedia.org/wiki/Magnetohydrodynamics#:~:text=The%20liquid%20outer%20core%20moves,is%20called%20the%20geomagnetic%20dynamo.)
+- [Longitudinal structure of Earth’s magnetic field controlled by lower mantle heat flow](https://www.nature.com/articles/s41561-023-01148-9)
+- [Unusual shrinkage and reshaping of Earth’s magnetosphere under a strong northward interplanetary magnetic field](https://www.nature.com/articles/s43247-023-00700-0)
+- [Asymmetric deformation of the Earth’s magnetosphere under low Alfvén Mach number solar wind: Observations and MHD simulation](https://earth-planets-space.springeropen.com/articles/10.1186/s40623-022-01744-w)
+- [Quantifying the ability of magnetohydrodynamic models to reproduce observed Birkeland current and auroral electrojet magnitudes](https://www.frontiersin.org/articles/10.3389/fspas.2023.1212735/full)
 
 ### Summary
 
