@@ -6,133 +6,58 @@ title: Blast L2
 
 Blast is an Ethereum layer 2 launching testnet in late November and Mainnet in February. This protocol will be successful, and building an application on this protocol will yield leveraged upside to the success of the protocol.
 
-## Questions
+## Approach
 
-- Rebasing mechanism: how work?
-- Grants / additional support?
-- Basic Chain Metrics
-    - any zk noise or no?
-    - tps, finality expectations
-    - consensus mechanism: centralized sequencer?
-    - any diff opcodes? or completely evm compatible
-- Oracle partners
-- todo
+We are a lean, elite team that has been working on a protocol for some time now - and in talks with prominent foundations to launch in their ecosystem. Jeff gave us a call and told us amazing things about Blast, so we are curious to learn more and explore the possibility of launching with Blast.
 
-## Idea(s)
+#### **Product: Laminar**
 
-### **1. Perpetual exchange**
+- Laminar is a permissionless order book perpetual futures exchange, offering a premier high speed trading experience to DeFi users.
+- Laminar order books adhere to a Price-Time-Priority matching algorithm.
+- Laminar has instant execution, and on-chain settlement.
+- Laminar exposes structured market data: Traders and researchers can easily query the chain for a complete view of both the live and historical state of all markets.
 
-#### **GMX**
+## Questions for Sudo
 
-**Resources**
+- first let him pitch, get an overview of the chain: OP Stack? rebasing? any other unique features?
+- whats the structure of the grant program? what percent of fdv are you allocating for early ecosystem builders/launch partners?
+- what type of products are you looking for on your chain? what do you have already, what are you looking for that you dont have?
+- how exactly does the rebasing mechanism work? distributions every block? epoch? how is it treated for funds in smart contracts?
+- whats the timeline for your chain? when devnet, when testnet, when mainnet? 
+- are you in talks with oracle partners that will be launching on day 1?
 
-- [github profile](https://github.com/gmx-io)
-    - [contracts](https://github.com/gmx-io/gmx-contracts)
-    - [subgraph](https://github.com/gmx-io/gmx-subgraph)
-    - [synthetics](https://github.com/gmx-io/gmx-synthetics) | [synthetics temp v2?](https://github.com/gmx-io/gmx-synthetics-temp-2)
-    - [stats](https://github.com/gmx-io/gmx-stats)
-    - [interface](https://github.com/gmx-io/gmx-interface)
-    - [protocol info react](https://github.com/gmx-io/protocol-info)
-    - [assets](https://github.com/gmx-io/gmx-assets/tree/main/GMX-Assets)
+### Blast
 
-#### **Polynomial (and Synthetix)**
+- their strength is go-to-market, acquiring retail order flow
+- seeded by paradigm and standard crypto
+- aligning themselves with the best degens. CL, andrew kang, etc
+- the market marches towards efficiency, liquidity flows to where the highest yield is
+- eth staking is the ethereum risk-free rate, sucked in 20 billion of liquidity
+- existing L2s do not have yield, baseline rate is 0%
+- they are building first L2 that has a baseline yield, all ETH on the chain is natively rebalancing 
 
-##### **Polynomial**
+- yield is distributed via rebase mechanism, balances are updating in gas efficient manner
 
-They use Oracles: [Chainlink](https://docs.chain.link/) and [Pyth](https://docs.pyth.network/documentation)
+- for users, yield is happening automatically
+- for dapps, it's opt-in (single call)
 
-**Resources**
+**Important**
 
-- [documentation](https://docs.trade.polynomial.fi/)
-- [github profile](https://github.com/Polynomial-Protocol)
-    - [indexer](https://github.com/Polynomial-Protocol/optimistic-indexer)
-    - [earn contracts](https://github.com/Polynomial-Protocol/polynomial-earn-contracts)
-    - [utils](https://github.com/Polynomial-Protocol/utils)
+Four Categories of highly concentrated dev airdrops
 
-##### **Synethetix**
+- perp dexes
+- dexes
+- nfts
+- lending
 
-Built on Ethereum Mainnet and Optimism L2. We are interested in their Perpetual futures product.
+When mainnet goes live, they will help four dapp categories go to market
+- the liquidity can earn multipliers by using one of the core dapps
 
-Perps V2 was launched in Dec 2022. *"Perps v3 are in development so get in touch"*
+Ahead of Schedule
 
-**Resources**
-
-- [docs](https://docs.synthetix.io/synthetix-protocol/synthetic-assets/perpetual-futures)
-- [integration guide](https://docs.synthetix.io/integrations/perps-integration-guide)
-- [github profile](https://github.com/Synthetixio)
-    - [deployment manager](https://github.com/Synthetixio/synthetix-deployments)
-    - [synthetix v3](https://github.com/Synthetixio/synthetix-v3)
-
-#### **Pheonix (Solana) Orderbook**
-
-
-
-### **2. Prediction Market**
-
-Probably best to spin out of the perps project. Involves a similar risk engine, synthetic assets, etc.
-
-### **3. Casino**
-
-Requires RNG, fair to assume Chainlink, Pyth, or some other oracle will be live on day 1 (Blast team would ensure so).
-
-On the easier side
-
-- rocket game: literally a dev how-to on this: game outcome, provably fair, decided by reverse hashes
-- blackjack
-- poker
-- slots
-- etc
-
-
-
-## Perps Exchange Design
-
-Good References
-- [ellipses labs documentation (solana orderbook)](https://ellipsis-labs.gitbook.io/phoenix-dex/tRIkEFlLUzWK9uKO3W2V/getting-started/technical-overview/instructions)
-- [gmx technical overview](https://gmx-io.notion.site/gmx-io/GMX-Technical-Overview-47fc5ed832e243afb9e97e8a4a036353)
-
-**Liquidity**
-
-Users may permissionlessly deposit into our native vault. Vault acts as a market maker, takes actions triggered by a proprietary centralized algorithm (David's software). It has no special priviledges, other proprietary funds (or retail users) may do the same (submit maker orders, create a vault for external LP).
-
-**Matching Logic**
-
-Limit orders are placed on the book and held in the bids and asks fields of the Market. Orders are matched by price-time priority: orders are executed based on best price, and if multiple orders are at the same price, the order with the earliest time will be matched first.
-
-**MEV**
-
-Concepts
-- isolate fee markets as much as possible (high volume on BTCUSD should not increase gas cost of SOLUSD order)
-- app should capture MEV proceeds as much as possible, hosting auctions for order sequencing
-
-**Data Handling**
-
-- Keeping all orders on-chain demands data compression (packing all order info into as few bits as possible)
-- Likely some pruning required, where all resting orders > 100 ticks from market price, for example, are pruned from the `BIDS` and `ASKS` map.
-
-
-### Central Liquidity (Market Maker) Vault
-
-Users may permissionlessly deposit. Vault acts as a market maker, takes actions triggered by a proprietary centralized algorithm (David's software). It has no special priviledges, other proprietary funds may do the same.
-
-### Order Handler / Router
-
-In GMX: 
-
-> The [PositionRouter](https://github.com/gmx-io/gmx-contracts/blob/master/contracts/core/PositionRouter.sol) contract handles a two part transaction process for increasing or decreasing long / short positions, this process helps to reduce front-running issues:
-> 1. A user sends the request to increase / decrease a position to the PositionRouter
-> 2. A keeper requests the index price from an aggregate of exchanges
-> 3. The keeper then executes the position at the current index price
-> 4. If the position cannot be executed within the allowed slippage the request is cancelled and the funds are sent back to the user
-
-### Order Book Contracts
-
-Can we represent an orderbook in a smart contract. The central data structure is a {price: []makeOrders}
-
-### Price Feed
-
-Oracle / entrypoint for global price data to be written to exchange.
-
-### Permissionless Liquidations
-
-Leveraged positions may be liquidated if the collateral drops below the health ratio (which is set on per-asset basis). Initially set by the team, then governed by DAO. Protocol and liquidator split proceeds.
+- initial launch later this month: early access program
+    - one-way bridge
+- early jan: testnet 
+- feb: funds are unlocked, released to the dapps late december, early jan mainnet
+- three months later: mainnet
+- 3 months later: token

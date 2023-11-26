@@ -1,5 +1,9 @@
 ## EVM
 
+### Random
+
+- [Solving a CTF](https://x.com/vinami/status/1728482477965213760?s=20)
+
 The Ethereum Virtual Machine
 
 - [Ethereum Data Structures](https://arxiv.org/pdf/2108.05513.pdf)
