@@ -3,5 +3,9 @@ title: Finance
 description: All things finánce
 ---
 
+## Papers
+
+- [Trading on Terror](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4652027)
+
 {{< include _reads.qmd >}}
 

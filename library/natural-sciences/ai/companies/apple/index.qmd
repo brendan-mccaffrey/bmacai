@@ -1,0 +1,6 @@
+---
+title: Apple
+---
+
+- [MLX: An array framework for machine learning on Apple Silicon](https://github.com/ml-explore/mlx)
+- [Tweet about it](https://x.com/deliprao/status/1732250132614184970?s=20)

@@ -8,6 +8,11 @@ table-of-contents: true
 - [Julius AI: GPT for CSVs/Excel](https://julius.ai/chat)
 - [Modular: Programming Language](https://www.modular.com/?utm_content=268229477&utm_medium=social&utm_source=twitter&hss_channel=tw-1483918307484848132)
 
+## General 
+
+- [Google | Introducing Gemini: our largest and most capable AI model](https://blog.google/technology/ai/google-gemini-ai/)
+- [Liquid AI](https://www.liquid.ai/)
+
 {{< include _philosophy.qmd >}}
 
 {{< include _research.qmd >}}

@@ -1,0 +1,35 @@
+---
+title: Google AI
+---
+
+## Use
+
+- [Vertex AI](https://cloud.google.com/vertex-ai)
+- [Google SGE](https://labs.google/sge/)
+- [Bard Advanced](https://blog.google/products/bard/google-bard-try-gemini-ai/)
+
+## Overview
+
+- [Google AI Website](https://ai.google/)
+- [Google AI Principles](https://ai.google/responsibility/principles/)
+
+## News
+
+- [Introducing Gemini](https://blog.google/technology/ai/google-gemini-ai/#introducing-gemini)
+- [Gemini Technical Report](https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf)
+- [AlphaCode 2 Technical Report](https://storage.googleapis.com/deepmind-media/AlphaCode2/AlphaCode2_Tech_Report.pdf)
+- [Research into Risk: An early warning system for novel AI risks](https://deepmind.google/discover/blog/an-early-warning-system-for-novel-ai-risks/)
+
+## Hardware
+
+- [Tensor Processing Units](https://cloud.google.com/tpu?hl=en)
+- [Cloud TPU v5p and AI Hypercomputer](https://cloud.google.com/blog/products/ai-machine-learning/introducing-cloud-tpu-v5p-and-ai-hypercomputer)
+
+## Research
+
+### Risk
+
+- [Malicious Use of AI](https://maliciousaireport.com/)
+- [How undesired goals can arise with correct rewards](https://deepmind.google/discover/blog/how-undesired-goals-can-arise-with-correct-rewards/)
+- [An early warning system for novel AI risks](https://deepmind.google/discover/blog/an-early-warning-system-for-novel-ai-risks/)
+- [Adversarial Testing Techniques](https://blog.research.google/2023/11/responsible-ai-at-google-research_16.html)
