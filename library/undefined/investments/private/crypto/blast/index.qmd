@@ -1,0 +1,63 @@
+---
+title: Blast L2
+---
+
+## Context
+
+Blast is an Ethereum layer 2 launching testnet in late November and Mainnet in February. This protocol will be successful, and building an application on this protocol will yield leveraged upside to the success of the protocol.
+
+## Approach
+
+We are a lean, elite team that has been working on a protocol for some time now - and in talks with prominent foundations to launch in their ecosystem. Jeff gave us a call and told us amazing things about Blast, so we are curious to learn more and explore the possibility of launching with Blast.
+
+#### **Product: Laminar**
+
+- Laminar is a permissionless order book perpetual futures exchange, offering a premier high speed trading experience to DeFi users.
+- Laminar order books adhere to a Price-Time-Priority matching algorithm.
+- Laminar has instant execution, and on-chain settlement.
+- Laminar exposes structured market data: Traders and researchers can easily query the chain for a complete view of both the live and historical state of all markets.
+
+## Questions for Sudo
+
+- first let him pitch, get an overview of the chain: OP Stack? rebasing? any other unique features?
+- whats the structure of the grant program? what percent of fdv are you allocating for early ecosystem builders/launch partners?
+- what type of products are you looking for on your chain? what do you have already, what are you looking for that you dont have?
+- how exactly does the rebasing mechanism work? distributions every block? epoch? how is it treated for funds in smart contracts?
+- whats the timeline for your chain? when devnet, when testnet, when mainnet? 
+- are you in talks with oracle partners that will be launching on day 1?
+
+### Blast
+
+- their strength is go-to-market, acquiring retail order flow
+- seeded by paradigm and standard crypto
+- aligning themselves with the best degens. CL, andrew kang, etc
+- the market marches towards efficiency, liquidity flows to where the highest yield is
+- eth staking is the ethereum risk-free rate, sucked in 20 billion of liquidity
+- existing L2s do not have yield, baseline rate is 0%
+- they are building first L2 that has a baseline yield, all ETH on the chain is natively rebalancing 
+
+- yield is distributed via rebase mechanism, balances are updating in gas efficient manner
+
+- for users, yield is happening automatically
+- for dapps, it's opt-in (single call)
+
+**Important**
+
+Four Categories of highly concentrated dev airdrops
+
+- perp dexes
+- dexes
+- nfts
+- lending
+
+When mainnet goes live, they will help four dapp categories go to market
+- the liquidity can earn multipliers by using one of the core dapps
+
+Ahead of Schedule
+
+- initial launch later this month: early access program
+    - one-way bridge
+- early jan: testnet 
+- feb: funds are unlocked, released to the dapps late december, early jan mainnet
+- three months later: mainnet
+- 3 months later: token

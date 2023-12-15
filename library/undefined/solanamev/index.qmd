@@ -1,8 +1,0 @@
----
-title: Solana MEV
----
-
-## JITO
-
-- [sign up form](https://web.miniextensions.com/WV3gZjFwqNqITsMufIEp)
-- [shred stream](https://jito-labs.gitbook.io/mev/searcher-services/shredstream)

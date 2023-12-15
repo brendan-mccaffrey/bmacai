@@ -1,0 +1,14 @@
+---
+title: Proof of Stake
+---
+
+## EIP-3675: Proof of Stake
+
+- [EIP-3675: Upgrade consensus to Proof-of-Stake](https://eips.ethereum.org/EIPS/eip-3675)
+- [Eth Withdrawals FAQ](https://notes.ethereum.org/@launchpad/withdrawals-faq#ETH-Withdrawals-FAQ)
+- [100 Days After the Merge](https://www.galaxy.com/research/insights/100-days-after-the-merge/)
+- [Withdrawals after Shanghai](https://dataalways.substack.com/p/partial-withdrawals-after-the-shanghai)
+- [Official Merge Announcement](https://blog.ethereum.org/2022/08/24/mainnet-merge-announcement/)
+- [Exploring Inequality in Proof of Stake](https://ethereum.github.io/beaconrunner/notebooks/naiveurn.html) by Barnabe Monnot (RIG/EF)
+- [What Happens After Finality in eth2](https://hackmd.io/@prysmaticlabs/finality) by Raul Jordan (Prysmatic)
+- [Understanding Eth2 Slashing Preventative Measures](https://www.bloxstaking.com/blog/ethereum-2-0/understanding-eth2-slashing-preventative-measures/)

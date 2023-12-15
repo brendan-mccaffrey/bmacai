@@ -1,0 +1,54 @@
+---
+title: "Government"
+description: "The US government is always on the frontier"
+table-of-contents: true
+---
+
+## Resources
+
+- [Making Muons for Scientific Discovery, National Security](https://www.darpa.mil/news-events/2022-07-22)
+- [X-65 | Control of Revolutionary Aircraft with Novel Effectors (CRANE)](https://www.darpa.mil/program/control-of-revolutionary-aircraft-with-novel-effectors)
+- [An Evening With Director of National Intelligence Avril Haines](https://www.youtube.com/watch?v=0q4F1aGC59A)
+- [The new Schumer-Rounds Amendment ("UAP Disclosure Act") was added to the FY 2024 National Defense Authorization Act (S. 2226) without objection.](https://douglasjohnson.ghost.io/senate-intelligence-bill-gives-holders-of-non-earth-origin-six-months/)
+- [Pentagon Unable To Confirm Or Deny Discovery Of Materials Originating From Non-Human Intelligences Or Unknown Origin Within Secretive Programs](pentagon/pleads-fifth-exotic-materials.qmd)
+
+## Exotic Material
+
+- [Pentagon pleads the fifth](./pentagon/pleads-fifth-exotic-materials.qmd)
+
+## Remote Viewing
+
+- [Remote Viewing Wiki](https://en.wikipedia.org/wiki/Remote_viewing)
+- [Clairvoyance Wiki](https://en.wikipedia.org/wiki/Clairvoyance)
+- [Ingo Swann and Hal Puthoff Remote Viewing Training of Turhuck, 1981-06](http://archives.library.rice.edu/repositories/2/archival_objects/335745)
+- [Stanford Expirment](https://www.cia.gov/readingroom/document/cia-rdp79-00999a000300100011-9)
+- [Colombia Uni](https://ciaotest.cc.columbia.edu/olj/sa/sa_jan02srm01.html)
+- [NSA Report](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB534-DIA-Declassified-Sourcebook/documents/DIA-21.pdf)
+- [Stargate Project](https://en.wikipedia.org/wiki/Stargate_Project)
+- [Ingo Swann: a person](https://en.wikipedia.org/wiki/Ingo_Swann)
+- [CIA Database on Ingo Swann](https://www.cia.gov/readingroom/search/site/ingo%20swann)
+- [CREST](https://www.cia.gov/readingroom/document-type/crest)
+- [Miracles of Mind](https://books.google.com/books?id=LYLAK5OaBLkC&printsec=copyright#v=onepage&q&f=false)
+- [Remote Viewing secrets: A Handbook](https://books.google.com/books/about/Remote_Viewing_Secrets.html?id=n4ZcjHyEuzIC)
+
+## Weapons
+
+### Directed Energy
+
+- [D-Wave and Davidson Technologies Introduce New Innovations to Advance National Defense Efforts](https://www.dwavesys.com/company/newsroom/press-release/d-wave-and-davidson-technologies-introduce-new-innovations-to-advance-national-defense-efforts/)
+
+### Neutron Guns
+
+- [Neutron Guns](http://ast.latech.edu/neutronguns.html)
+
+### A Fusion Weapon: Overview
+
+A thermonuclear weapon, fusion weapon or hydrogen bomb (H bomb) is a second-generation nuclear weapon design. Its greater sophistication affords it vastly greater destructive power than first-generation nuclear bombs, a more compact size, a lower mass, or a combination of these benefits. Characteristics of nuclear fusion reactions make possible the use of non-fissile depleted uranium as the weapon's main fuel, thus allowing more efficient use of scarce fissile material such as uranium-235 $(^{235}U)$ or plutonium-239 $(^{239}Pu)$
+
+The first full-scale thermonuclear test was carried out by the United States in 1952; the concept has since been employed by most of the world's nuclear powers in the design of their weapons.
+
+Modern fusion weapons consist essentially of two main components: a nuclear fission primary stage (fueled by $^{235}U$ or $^{239}Pu$) and a separate nuclear fusion secondary stage containing thermonuclear fuel: the heavy hydrogen isotopes deuterium and tritium, or in modern weapons lithium deuteride. For this reason, thermonuclear weapons are often colloquially called hydrogen bombs or H-bombs.
+
+## DARPA 
+
+- [Fellows 2023](./darpa/fellows.qmd)

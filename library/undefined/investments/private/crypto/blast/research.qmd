@@ -1,0 +1,123 @@
+---
+title: Perp Research
+---
+
+
+## Idea(s)
+
+### **1. Perpetual exchange**
+
+#### **GMX**
+
+**Resources**
+
+- [github profile](https://github.com/gmx-io)
+    - [contracts](https://github.com/gmx-io/gmx-contracts)
+    - [subgraph](https://github.com/gmx-io/gmx-subgraph)
+    - [synthetics](https://github.com/gmx-io/gmx-synthetics) | [synthetics temp v2?](https://github.com/gmx-io/gmx-synthetics-temp-2)
+    - [stats](https://github.com/gmx-io/gmx-stats)
+    - [interface](https://github.com/gmx-io/gmx-interface)
+    - [protocol info react](https://github.com/gmx-io/protocol-info)
+    - [assets](https://github.com/gmx-io/gmx-assets/tree/main/GMX-Assets)
+
+#### **Polynomial (and Synthetix)**
+
+##### **Polynomial**
+
+They use Oracles: [Chainlink](https://docs.chain.link/) and [Pyth](https://docs.pyth.network/documentation)
+
+**Resources**
+
+- [documentation](https://docs.trade.polynomial.fi/)
+- [github profile](https://github.com/Polynomial-Protocol)
+    - [indexer](https://github.com/Polynomial-Protocol/optimistic-indexer)
+    - [earn contracts](https://github.com/Polynomial-Protocol/polynomial-earn-contracts)
+    - [utils](https://github.com/Polynomial-Protocol/utils)
+
+##### **Synethetix**
+
+Built on Ethereum Mainnet and Optimism L2. We are interested in their Perpetual futures product.
+
+Perps V2 was launched in Dec 2022. *"Perps v3 are in development so get in touch"*
+
+**Resources**
+
+- [docs](https://docs.synthetix.io/synthetix-protocol/synthetic-assets/perpetual-futures)
+- [integration guide](https://docs.synthetix.io/integrations/perps-integration-guide)
+- [github profile](https://github.com/Synthetixio)
+    - [deployment manager](https://github.com/Synthetixio/synthetix-deployments)
+    - [synthetix v3](https://github.com/Synthetixio/synthetix-v3)
+
+#### **Pheonix (Solana) Orderbook**
+
+
+
+### **2. Prediction Market**
+
+Probably best to spin out of the perps project. Involves a similar risk engine, synthetic assets, etc.
+
+### **3. Casino**
+
+Requires RNG, fair to assume Chainlink, Pyth, or some other oracle will be live on day 1 (Blast team would ensure so).
+
+On the easier side
+
+- rocket game: literally a dev how-to on this: game outcome, provably fair, decided by reverse hashes
+- blackjack
+- poker
+- slots
+- etc
+
+
+
+## Perps Exchange Design
+
+Good References
+- [ellipses labs documentation (solana orderbook)](https://ellipsis-labs.gitbook.io/phoenix-dex/tRIkEFlLUzWK9uKO3W2V/getting-started/technical-overview/instructions)
+- [gmx technical overview](https://gmx-io.notion.site/gmx-io/GMX-Technical-Overview-47fc5ed832e243afb9e97e8a4a036353)
+
+**Liquidity**
+
+Users may permissionlessly deposit into our native vault. Vault acts as a market maker, takes actions triggered by a proprietary centralized algorithm (David's software). It has no special priviledges, other proprietary funds (or retail users) may do the same (submit maker orders, create a vault for external LP).
+
+**Matching Logic**
+
+Limit orders are placed on the book and held in the bids and asks fields of the Market. Orders are matched by price-time priority: orders are executed based on best price, and if multiple orders are at the same price, the order with the earliest time will be matched first.
+
+**MEV**
+
+Concepts
+- isolate fee markets as much as possible (high volume on BTCUSD should not increase gas cost of SOLUSD order)
+- app should capture MEV proceeds as much as possible, hosting auctions for order sequencing
+
+**Data Handling**
+
+- Keeping all orders on-chain demands data compression (packing all order info into as few bits as possible)
+- Likely some pruning required, where all resting orders > 100 ticks from market price, for example, are pruned from the `BIDS` and `ASKS` map.
+
+
+### Central Liquidity (Market Maker) Vault
+
+Users may permissionlessly deposit. Vault acts as a market maker, takes actions triggered by a proprietary centralized algorithm (David's software). It has no special priviledges, other proprietary funds may do the same.
+
+### Order Handler / Router
+
+In GMX: 
+
+> The [PositionRouter](https://github.com/gmx-io/gmx-contracts/blob/master/contracts/core/PositionRouter.sol) contract handles a two part transaction process for increasing or decreasing long / short positions, this process helps to reduce front-running issues:
+> 1. A user sends the request to increase / decrease a position to the PositionRouter
+> 2. A keeper requests the index price from an aggregate of exchanges
+> 3. The keeper then executes the position at the current index price
+> 4. If the position cannot be executed within the allowed slippage the request is cancelled and the funds are sent back to the user
+
+### Order Book Contracts
+
+Can we represent an orderbook in a smart contract. The central data structure is a {price: []makeOrders}
+
+### Price Feed
+
+Oracle / entrypoint for global price data to be written to exchange.
+
+### Permissionless Liquidations
+
+Leveraged positions may be liquidated if the collateral drops below the health ratio (which is set on per-asset basis). Initially set by the team, then governed by DAO. Protocol and liquidator split proceeds.

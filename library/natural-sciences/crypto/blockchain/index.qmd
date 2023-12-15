@@ -13,19 +13,48 @@ description: "Cryptographic ledgers"
 - [Manufacturing Consensus](https://drydenbrown.posthaven.com/manufacturing-consensus)
 - [What do I Think About Network States?](https://vitalik.ca/general/2022/07/13/networkstates.html)
 
-## Recent, General
+## Early Papers
 
-- [DBA: Proof of Governance](https://dba.mirror.xyz/UTPfxWe65dYrUu_RJX-5VkAJypFRyw3AZh6m0dRXYZk)
-- [Blockchain Privacy and Rgulatory Compliance: Towards a Practical Equilibrium](https://deliverypdf.ssrn.com/delivery.php?ID=855089082102119079102097091083101113102082065014007039108087071002094126076004092111050117107034029039046027080025125113003101039086075069039068002121097025083108119020043021065086070093119021123028007013076115117079106121092088113093091115115105022031&EXT=pdf&INDEX=TRUE)
+- 1983, David Chaum: [Electronic Cash](https://sceweb.sce.uhcl.edu/yang/teaching/csci5234WebSecurityFall2011/Chaum-blind-signatures.PDF)
+- 1985, David Chaum: [Security without Identification](https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf)
+- 1996, Dr. Douglas Jackson and Barry K. Downey: [E-Gold](https://cs.stanford.edu/people/eroberts/cs201/projects/2010-11/Bitcoins/e-gold.html)
+- 1998, Wei Dai: [b-money](http://www.weidai.com/bmoney.txt)
+- 1998, Nick Szabo: [Bit Gold](https://nakamotoinstitute.org/bit-gold/)
 
-## Applied Web3 Cryptography Resources
+## Layer 1 Whitepapers
 
-- [rareskills blog](https://www.rareskills.io/blog)
+- [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
+- [Zerocash: Decentralized Anonymous Payments from Bitcoin](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6956581)
+- [Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform](https://ethereum.org/669c9e2e2027310b6b3cdce6e1c52962/Ethereum_Whitepaper_-_Buterin_2014.pdf)
+- [Ethereum: A Secure Decentralized Generalized Transaction Ledger](https://gavwood.com/paper.pdf)
+- [Cosmos: Internet of Blockchains](https://api-new.whitepaper.io/documents/pdf?id=BJNXW5ZnU)
+- [Solana: A new Architecture for a High Performance Blockchain](https://solana.com/solana-whitepaper.pdf)
+- [Cardano](https://api-new.whitepaper.io/documents/pdf?id=HkUIhFWhL)
+- [Algorand: Scaling Byzantine Agreements for Cryptocurrencies](https://people.csail.mit.edu/nickolai/papers/gilad-algorand-eprint.pdf)
+- [Avalanche Platform](https://assets.website-files.com/5d80307810123f5ffbb34d6e/6008d7bbf8b10d1eb01e7e16_Avalanche%20Platform%20Whitepaper.pdf)
+- [The Spacemesh Protocol](https://drive.google.com/file/d/18I9GPebWqgpvusI1kMnAB9nayBbL-1qN/view)
+- [TON: The Open Network](https://ton.org/whitepaper.pdf)
 
-{{< include _papers.qmd >}}
+## Consensus
 
+All things Byzantine Fault Tolerant: Research and implementations of consensus mechanisms.
 
+### Byzantine Fault Tolerance
 
+- [Practical Byzantine Fault Tolerance](https://pmg.csail.mit.edu/papers/osdi99.pdf)
 
-## Privacy
+### Whitepapers
+
+- [Tendermint: Consensus without Mining](https://tendermint.com/static/docs/tendermint.pdf)
+- [DFINITY Consensus System](https://cryptogurukul-com.b-cdn.net/wp-content/uploads/2021/08/dfinity-consensus.pdf)
+- [Ripple Protocol Consensus Algorithm](https://ripple.com/files/ripple_consensus_whitepaper.pdf)
+- [Avalanche Consensus](https://assets.website-files.com/5d80307810123f5ffbb34d6e/6009805681b416f34dcae012_Avalanche%20Consensus%20Whitepaper.pdf)
+- [Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus](https://arxiv.org/pdf/2105.11827.pdf)
+- [Cosmos without Tendermint](https://www.paradigm.xyz/2022/07/experiment-narwhal-bullshark-cosmos-stack)
+- [The Honey Badger of BFT Protocols](https://eprint.iacr.org/2016/199.pdf)
+- [Hashgraph Protocol: Efficient ABFT](https://hedera.com/hh-ieee_coins_paper-200516.pdf)
+- [Byzantine Ordered Consensus without Byzantine Oligarchy](https://www.cs.cornell.edu/lorenzo/papers/Zhang20Byzantine.pdf)
+- [BEAT: Asynchronous BFT Made Practical](https://www.csee.umbc.edu/~hbzhang/files/beat.pdf)
+- [TON: Catchain Consensus](https://docs.ton.org/catchain.pdf)
+- [Another advantage of free choice (Extended Abstract): Completely asynchronous agreement protocols](https://dl.acm.org/doi/10.1145/800221.806707)
 

@@ -4,6 +4,7 @@ title: Google AI
 
 ## Use
 
+- [Gemini API](https://ai.google.dev/docs)
 - [Vertex AI](https://cloud.google.com/vertex-ai)
 - [Google SGE](https://labs.google/sge/)
 - [Bard Advanced](https://blog.google/products/bard/google-bard-try-gemini-ai/)

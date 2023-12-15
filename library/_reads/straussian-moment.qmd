@@ -1,6 +1,0 @@
----
-title: "Straussian Moment"
-author: "Peter Thiel"
-date: "2023-08-31"
-categories: [code, software, ai]
----

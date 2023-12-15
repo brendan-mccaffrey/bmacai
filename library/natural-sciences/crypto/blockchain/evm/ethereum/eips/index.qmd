@@ -1,0 +1,21 @@
+---
+title: Improvement Proposals
+---
+
+## Resources
+
+- [Updated Ethereum Roadmap, by Vitalik](https://twitter.com/VitalikButerin/status/1466411377107558402?s=20)
+- [Vitalik: the roads not taken](https://vitalik.ca/general/2022/03/29/road.html)
+- [Endgame, by Vitalik](https://vitalik.ca/general/2021/12/06/endgame.html)
+- [State of Testnets](https://twitter.com/TimBeiko/status/1628819200696516608?s=20)
+
+- [Intent Based Architectures and Their Risks](https://www.paradigm.xyz/2023/06/intents)
+- [Client Bootnode Concerns](https://ethresear.ch/t/execution-consensus-client-bootnodes/14588)
+- [Collecting Signatures for Faster Finality](https://ethresear.ch/t/horn-collecting-signatures-for-faster-finality/14219)
+- [Proof of Solvency](https://ethresear.ch/t/snarked-merkle-sum-tree-a-practical-proof-of-solvency-protocol-based-on-vitaliks-proposal/14405)
+
+ 
+- [Time to Bribe: Measuring Block Construction Markets](https://eprint.iacr.org/2023/760.pdf)
+- [Retroactive Proposer Rewards](https://notes.ethereum.org/@casparschwa/S1vcyXZL9) by Caspar Schwarz-Schilling (RIG/EF)
+- [Single Secret Leader Election](https://eprint.iacr.org/2020/025.pdf) Boneh et al. (2020)
+- [Current CrList Proposal](https://notes.ethereum.org/@fradamt/H1ZqdtrBF) by Francesco D'Amato

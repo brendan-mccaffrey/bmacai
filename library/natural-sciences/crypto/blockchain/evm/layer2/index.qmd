@@ -1,0 +1,65 @@
+---
+title: Layer 2 Rollups
+---
+
+### Resources
+
+- [L2Beat](https://l2beat.com/scaling/summary)
+
+### Rollup List
+
+- [Arbitrum](https://arbitrum.io/)
+- [Optimism](https://www.optimism.io/)
+- [Scroll](https://scroll.io/)
+- [zkSync](https://zksync.io/)
+- [Base](https://base.org/)
+- [Kakarot](https://www.kakarot.org/)
+- [Starknet](https://www.starknet.io/en)
+- [dYdX](https://dydx.exchange/)
+- [Fuel](https://www.fuel.network/)
+- [Taiko](https://taiko.xyz/)
+- [Mantle](https://www.mantle.xyz/)
+- [Immutable](https://www.immutable.com/)
+- [Loopring](https://loopring.org/#/)
+- [Linea](https://linea.build/)
+
+### Reads
+
+- [Vitalik: An Incomplete Guide to Rollups](https://vitalik.ca/general/2021/01/05/rollup.html)
+- [A Rollup-Centric Ethereum Roadmap](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698)
+- [Arbitrum: Scalable, Private Smart Contracts](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-kalodner.pdf)
+- [Vitalik: An Incomplete Guide to Rollups](https://vitalik.ca/general/2021/01/05/rollup.html)
+- [2FA ZK Rollups using SGX](https://ethresear.ch/t/2fa-zk-rollups-using-sgx/14462)
+- [Different Types of Layer 2s](https://vitalik.ca/general/2023/10/31/l2types.html)
+- [Plasma Chains](https://ethereum.org/en/developers/docs/scaling/plasma/)
+- [Plasma Cash: Towards more efficient Plasma constructions](https://arxiv.org/abs/1911.12095)
+- [Deeper dive on cross-L2 reading for wallets and other use cases](https://vitalik.ca/general/2023/06/20/deeperdive.html)
+- [Exit games for EVM validiums: the return of plasma](https://vitalik.ca/general/2023/11/14/neoplasma.html)
+
+### Data Availability
+
+- [A note on data availability and erasure coding](https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding)
+
+#### Deep Dive: Different Types of Layer 2s
+
+Vitalik: [Different Types of Layer 2s](https://vitalik.ca/general/2023/10/31/l2types.html)
+
+**Rollups vs Vallidiums vs disconnected systems**
+
+Can analyze first dimension of security vs scale with question: Asset issued on L1, deposited into L2, and transferred to you; what level of guarantee do you have that you will be able to take that asset back to L1?
+
+Parallel question: what is the technology choice resulting in that level of guarantee, and what are the tradeoffs of said choice?
+
+| System type | Technology properties | Security guarantees | Costs |
+|-------------|-----------------------|---------------------|-------|
+| Rollup      | Computation proven via fraud proofs or ZK-SNARKs, data stored on L1 | You can always bring the asset back to L1 | L1 data availability + SNARK-proving or redundant execution to catch errors |
+| Validium    | Computation proven via ZK-SNARKs (can't use fraud proofs), data stored on a server or other separate system | Data availability failure can cause assets to be lost, but not stolen | SNARK-proving |
+| Disconnected | A separate chain (or server) | Trust one or a small group of people not to steal your funds or lose the keys | Very cheap |
+
+- preconfirmations: messages signed by set of participants in rollup/vallidium "we attest to this permutations of txs, post state root is this". If false, deposit gets burned; useful for low value apps
+- trustlessly reading Ethereum is important, offers ability to revert if ethereum reverts
+    - rollup could read only finalized blocks - neveer revert at cost of latency
+    - rollup could revert if ethereum does
+    - this is valuable for security reasons, allows AcctAbstraction wallets to use shared keystore architecture
+
+**Main Takeaways**

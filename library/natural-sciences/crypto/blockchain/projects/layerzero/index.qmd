@@ -1,0 +1,14 @@
+---
+title: LayerZero
+---
+
+## Official Resources
+
+- [Website](https://layerzero.network/)
+- [LayerZero Whitepaper V2](https://layerzero.network/publications/LayerZero_Whitepaper_V2.0.pdf)
+- [Documentation](https://docs.layerzero.network/)
+- [V2 Blog Post](https://medium.com/layerzero-official/introducing-layerzero-v2-076a9b3cb029)
+
+## Reads 
+
+- [Packy McCormick, The Language of the Omnichain](https://www.notboring.co/p/layerzero-the-language-of-the-omnnichain)

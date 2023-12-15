@@ -1,0 +1,19 @@
+---
+title: Proposer Builder Separation
+---
+
+## Resources
+
+- [MEV-Boost Plan](https://github.com/flashbots/mev-boost/wiki/The-Plan-(tm))
+- [Proposer Boost Considerations](https://notes.ethereum.org/@casparschwa/H1T0k7b85) by Caspar Schwarz-Schilling (RIG/EF)
+- [MEV-Boost in a Nutshell](https://boost.flashbots.net/#block-6163a685d84444a9be309d26f18b4b2f)
+- [Ethereum Builder API Specs](https://ethereum.github.io/builder-specs/)
+- [MEV-Boost Relay API Specification V1](https://flashbots.notion.site/Relay-API-Documentation-5fb0819366954962bc02e81cb33840f5)
+- [PBS Censorship Resistance](https://notes.ethereum.org/@vbuterin/pbs_censorship_resistance)
+- [State of research: increasing censorship resistance of transactions under PBS](https://notes.ethereum.org/s3JToeApTx6CKLJt8AbhFQ#Hybrid-PBS-can-we-use-proposers-only-for-inclusion-of-last-resort)
+- [PBS Censorship-Resistance Alternatives](https://notes.ethereum.org/@fradamt/H1TsYRfJc)
+- [Current crList Proposal](https://notes.ethereum.org/Dh7NaB59TnuUW5545msDJQ)
+- [Proposer/block builder separation-friendly fee market designs](https://ethresear.ch/t/proposer-block-builder-separation-friendly-fee-market-designs/9725) by Vitalik Buterin (EF)
+- [Two-slot proposer/builder separation](https://ethresear.ch/t/two-slot-proposer-builder-separation/10980) by Vitalik Buterin (EF)
+- [State of research: increasing censorship resistance of transactions under proposer/builder separation (PBS)](https://notes.ethereum.org/@vbuterin/pbs_censorship_resistance) by Vitalik Buterin (EF)
+- [PBS Censorship-Resistance Alternatives](https://notes.ethereum.org/@fradamt/H1TsYRfJc) by Francesco D'Amato (EF)

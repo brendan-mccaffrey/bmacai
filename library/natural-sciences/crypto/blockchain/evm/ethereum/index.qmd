@@ -1,0 +1,34 @@
+---
+title: Ethereum Mainnet
+description: All things related to Ethereum Mainnet, the world's first Turing-Complete distributed state machine
+page-layout: full
+---
+
+## Forums 
+
+- [Ethereum Research Forum](https://ethresear.ch/)
+- [Eth R&D Discord](https://discord.com/invite/qGpsxSA)
+- [Flashbots Collective Forum](https://collective.flashbots.net/)
+- [Ethereum Youtube: Community calls and such](https://www.youtube.com/@EthereumProtocol/videos)
+
+## Research
+
+### Ethereum Virtual Machine
+
+- [Eth2Book: A lot of Good Info on Ethereum](https://eth2book.info/)
+- [The Hitchhiker's Guide to Ethereum](https://members.delphidigital.io/reports/the-hitchhikers-guide-to-ethereum/)
+- [Ethereum Data Structures](https://arxiv.org/pdf/2108.05513.pdf)
+ by Vitalik Buterin (EF)
+- [Ethereum Data Structures](https://arxiv.org/pdf/2108.05513.pdf)
+- [Solidity Lang Docs](https://docs.soliditylang.org/en/v0.8.21/)
+
+## BLS
+
+- [BLS Introduction](https://eth2book.info/altair/part2/building_blocks/signatures)
+- [BLS Signature Scheme](https://tools.ietf.org/id/draft-boneh-bls-signature-00.txt)
+- [Pragmatic signature aggregation with BLS](https://ethresear.ch/t/pragmatic-signature-aggregation-with-bls/2105?u=benjaminion)
+- [BLS Signature for Busy People](https://gist.github.com/paulmillr/18b802ad219b1aee34d773d08ec26ca2)
+
+
+
+
