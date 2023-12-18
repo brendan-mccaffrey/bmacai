@@ -4,6 +4,8 @@ title: Quantitative Finance
 
 ## Resources
 
+- [Free Trading Resources Notion Doc](https://milksandmatcha.notion.site/Free-Trading-Resources-v2-4456ae906000487181f3486dbd0dd631)
+
 ### Advanced Theory
 
 - [End-To-End Resource Analysis for Quantum Interior-Point Methods and Portfolio Optimization](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.4.040325)

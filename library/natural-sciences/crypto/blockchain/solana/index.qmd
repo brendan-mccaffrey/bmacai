@@ -8,6 +8,7 @@ title: "Solana"
 - [Reverse Engineering Solana with Binary Ninja](https://osec.io/blog/2022-08-27-reverse-engineering-solana)
 - [How will Solana Improve its Stability?](https://medium.com/chorus-one/how-will-solana-improve-its-stability-6d4b0ba41866)
 - [Jumping Around the VM](https://osec.io/blog/2023-12-11-jumping-around-in-the-vm)
+- [Solana Validator 101: Transaction Processing](https://www.jito.wtf/blog/solana-validator-101-transaction-processing/)
 
 ## Partnerships
 
@@ -23,4 +24,5 @@ title: "Solana"
 
 - [Firedancer: A New Client by Jump](https://jumpcrypto.com/jump-crypto-sets-out-to-build-new-validator-client-for-the-solana-blockchain-to-increase-the-throughput-and-reliability-of-the-network/)
 - [Validator Economics on Solana](https://medium.com/chorus-one/exploring-validator-economics-on-solana-cb1498a3aef6)
+- [Jito Validator Economics Spreadsheet](https://docs.google.com/spreadsheets/d/1JhgBLvZInSGA91GDWYFg_-6CIevCv8RUOe3kgSTm5_M/edit#gid=2134008686)
 

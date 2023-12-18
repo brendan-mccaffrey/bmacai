@@ -1,0 +1,53 @@
+---
+title: Solana MEV
+---
+
+## Resources
+
+- [Explorer](https://explorer.jito.wtf/)
+
+## Jito 
+
+Jito is the #1 player when it comes to Solana MEV resources and infrastructure.
+
+- [Searcher Examples](https://github.com/jito-labs/searcher-examples)
+- [Geysr GRPC Plugin](https://github.com/jito-foundation/geyser-grpc-plugin)
+- [Mainnet Addresses](https://jito-labs.gitbook.io/mev/searcher-resources/block-engine/mainnet-addresses)
+
+### ShredStream
+
+- [Jito Shredstream](https://jito-labs.gitbook.io/mev/searcher-services/shredstream)
+
+Average Speedup for Slot Completion
+
+- Amsterdam: 46ms
+- Frankfurt: 45ms
+- NY: 28ms
+- Tokyo: 25ms
+
+Bandwidth: Shredstream requires 4MiB/s or 32Mbit/s per stream. Streaming from multiple regions is supported.
+
+Shredstream provides the lowest latency shreds to any RPC or validator on the network. It can save hundreds of milliseconds when trading on Solana and provides a redundant shred path for servers in remote locations.
+
+Shreds are fractions of blocks that are made by a block producer on Solana. One can compare shreds to the individual picture frames in a video stream. Other nodes on the network receive these shreds and replay them on-the-fly, meaning state is always changing on Solana vs. Ethereum where state is paused intra-slot.
+
+Shreds are distributed to the nwtork in a tree-like manner. The number of hops a shred takes to reach a server is related to a stake-weighted shuffle; servers with high stake are likely to be 0 or 1 hops away whil RPC servers are likely to be 1 or 2 hops.
+
+
+#### **Running ShredStream**
+
+- [Docs](https://jito-labs.gitbook.io/mev/searcher-services/shredstream#running-shredstream)
+
+### MempoolStream
+
+Solana has a unique architecture because there's no mempool! Transactions are sent directly to leaders in what's called [Gulf Stream](https://medium.com/solana-labs/gulf-stream-solanas-mempool-less-transaction-forwarding-protocol-d342e72186ad). Between this and the streaming nature of Solana, the mempool looks more like a river than a pool. 
+
+Jito's unique architecture allows searchers to receive a stream of pending transactions called a mempool stream so they can inspect and bundle them to be executed sequentially and atomically on the validator.
+
+Jito Validators connect to a relayer and tells the network through gossip to send transactions to the relayer instead of directly to the validator. The relayer will filter and deduplicate transactions before immediately forwarding them to Jito's Block Engine. the block engine will then send transactions to searchers where searchers can bundle the trades and submit them to the block engine to be included in the current block.
+
+The Relayer holds transactions for at most 200ms before forwarding them to the validator. This means searchers have at most 200ms to construct bundles before the packets beat them to the validator.
+
+The 200ms delay maximizes the fairness for searchers to contruct bundles, doesn't impact the validator's block packing ability, doesn't impact Solana's UX, and allows for efficient MEV.
+
+The mempool can be accessed through the block engine. After getting access to the block engine, one can run searcher_client in the searcher-examples repository to inspect the mempool. Please look at the README.md in the repository for the most up-to-date instructions on listening to the mempool.

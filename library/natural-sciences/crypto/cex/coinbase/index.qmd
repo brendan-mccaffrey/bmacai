@@ -5,3 +5,5 @@ title: Coinbase
 ## News
 
 - [Coinbase receives regulatory approval to enable retail perpetual futures trading](https://www.coinbase.com/blog/coinbase-receives-regulatory-approval-to-enable-retail-perpetual-futures)
+
+- [2024 Crypto Market Outlook: Dec 8 2023](https://coinbase.bynder.com/m/c8c6fdc663f44b5/original/2024-Crypto-Market-Outlook-V3.pdf)

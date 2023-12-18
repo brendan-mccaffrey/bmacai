@@ -1,0 +1,19 @@
+---
+title: Helium
+---
+
+Helium mobile is a decentralized public infrastructure network (DePIN) that enables a cellular data provision and consumption through permissionless economic incentives.
+
+## Resources
+
+- [Helium](https://www.helium.com/mine#hotspots)
+
+## Mining Resources
+
+Hardware
+
+- [Klok](https://buyklok.com/products/privacy-hub?utm_source=CCC&utm_medium=ECOMCCC&utm_campaign=CCCCKLOK&utm_id=CCCKLOK)
+- [FreedomFi](https://freedomfi.com/catalog/)
+- [Linxdot](https://www.linxdot.com/store/)
+- [Bobber](https://bobber.com/)
+- [Nebra](https://uk.pi-supply.com/collections/helium-hotspot-miners-hnt)
