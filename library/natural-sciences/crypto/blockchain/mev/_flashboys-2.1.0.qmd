@@ -21,7 +21,7 @@ ___
 
 # Flashboys 2.1.0
 
-[**View the Full Paper HERE**](flashboys-2.1.0.pdf)
+[**View the Full Paper HERE**](https://shdw-drive.genesysgo.net/3KcecJBoHgQgUsRdciJYvXFgtsEf4T2LF8htjijjLGNr/Senior%20Thesis.pdf)
 
 *Flashboys 2.1.0* is inspired by the iconic paper out of Cornell, [Flashboys 2.0](https://arxiv.org/abs/1904.05234). It includes:
 

@@ -9,6 +9,7 @@ title: "Solana"
 - [How will Solana Improve its Stability?](https://medium.com/chorus-one/how-will-solana-improve-its-stability-6d4b0ba41866)
 - [Jumping Around the VM](https://osec.io/blog/2023-12-11-jumping-around-in-the-vm)
 - [Solana Validator 101: Transaction Processing](https://www.jito.wtf/blog/solana-validator-101-transaction-processing/)
+- [MarginFi Liquidations](https://github.com/mrgnlabs/mrgn-ts/tree/main/apps/alpha-liquidator)
 
 ## Partnerships
 

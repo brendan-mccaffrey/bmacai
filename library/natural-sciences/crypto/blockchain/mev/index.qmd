@@ -18,7 +18,25 @@ page-layout: full
 - [Mev-rs](https://github.com/ralexstokes/mev-rs)
 - [MergeMock](https://github.com/protolambda/mergemock)
 
+## Shops 
+
+- [Frontier Research](https://frontier.tech/)
+- [Monoceros](https://www.monoceros.com/)
+- [XPriori](https://xpriori.xyz/)
+
+### builders
+
+- [Titan Builder](https://twitter.com/titanbuilderxyz)
+- [BeaverBuild](https://twitter.com/beaverbuild)
+- [Builder0x69](https://twitter.com/builder0x69)
+
 ## Research
+
+### Overviews
+
+- [MEV by Galaxy Digital, Pt 2](https://www.galaxy.com/research/whitepapers/mev-the-rise-of-the-builders/)
+- [Someone's MEV Mega-resource](https://thedailyape.notion.site/MEV-8713cb4c2df24f8483a02135d657a221)
+- [Monoceros MEV Book](https://www.monoceros.com/insights/maximal-extractable-value-book)
 
 ### Early Research
 
@@ -34,14 +52,12 @@ page-layout: full
 ### General
 
 - [Flashbots Research Repository](https://github.com/flashbots/mev-boost/wiki/Research#open-questions)
-- [Someone's MEV Mega-resource](https://thedailyape.notion.site/MEV-8713cb4c2df24f8483a02135d657a221)
+- [Flash Boys 2.1.0](https://shdw-drive.genesysgo.net/3KcecJBoHgQgUsRdciJYvXFgtsEf4T2LF8htjijjLGNr/Senior%20Thesis.pdf)
 - [Studying Flash Loan Attacks](https://t.co/PpoqupGAe1)
-- [MEV by Galaxy Digital, Pt 2](https://www.galaxy.com/research/whitepapers/mev-the-rise-of-the-builders/)
 - [Modular MEV Write-up](https://t.co/4mHc6NuVtm)
 - [Performant routing and latency benchmarking for Ethereum RPC and Relay Service Providers](https://hackmd.io/@manifoldx/draft-perf-relay)
 - [MEV in Fixed Price Auctions](https://arxiv.org/abs/2303.04242)
 - [MEV Boost Capella Upgrades](https://flashbots.notion.site/MEV-Boost-Capella-Upgrades-00cea01704794f6eb4f792c55b69c441)
-- [Frontier Research](https://frontier.tech/)
 - [Automated Market Making and Arbitrage Profits in the Presence of Fees](https://moallemi.com/ciamac/papers/lvr-fee-model-2023.pdf)
 - [MEV Capturing AMM](https://ethresear.ch/t/mev-capturing-amm-mcamm/13336)
 - [Time to Bribe: Measuring Block Construction Markets](https://eprint.iacr.org/2023/760.pdf)
@@ -55,6 +71,7 @@ page-layout: full
 - [Latency Arms Race](https://ethresear.ch/t/latency-arms-race-concerns-in-blockspace-markets/14957)
 - [FBAs (frequent batch auctions) are a nerd snipe](https://twitter.com/0x94305/status/1597019084667117569?s=20)
 - [MEV Driven Centralization in Ethereum: Part 1](https://simbro.medium.com/mev-driven-centralization-in-ethereum-ec829a214f18)
+- [Exploration of MEV Latencies](https://frontier.tech/exploration-of-mev-latencies)
 
 ### MEV-Boost / Proposer-Builder Separation
 
@@ -93,13 +110,6 @@ page-layout: full
 
 - [mev-rs](https://github.com/ralexstokes/mev-rs)
 - [Uniswap V3 Book](https://uniswapv3book.com/docs/milestone_4/factory-contract/) 
-
-
-
-
 - [Running MEV-Relay at Scale](https://flashbots.notion.site/Running-mev-boost-relay-at-scale-4040ccd5186c425d9a860cbb29bbfe09)
-
-
-
 - [JaredFromSubway.eth's Access Lists](https://etherscan.io/tx/0xd0e3759e51642568364776b4f389805323b2f3dd17a07ef2c53d3ffd6bb022d4#accesslist)
 
