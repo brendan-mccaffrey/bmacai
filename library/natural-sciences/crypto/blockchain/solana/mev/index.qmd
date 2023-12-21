@@ -9,6 +9,7 @@ title: Solana MEV
 ## Resources
 
 - [Explorer](https://explorer.jito.wtf/)
+- [Validator Workshop Presentation](https://drive.google.com/file/d/167xk5uwR8mIpa_Rrh7yjVZ0Cc6nQ_hrj/view)
 
 ## Jito 
 

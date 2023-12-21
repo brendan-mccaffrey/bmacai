@@ -1,0 +1,8 @@
+---
+title: Tx Processing
+description: The lifecycle of a Solana transaction.
+---
+
+## Resources
+
+- [Solana Validator 101 Jito](https://www.jito.wtf/blog/solana-validator-101-transaction-processing/)

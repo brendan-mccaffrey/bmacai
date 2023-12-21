@@ -4,3 +4,6 @@ title: Apple
 
 - [MLX: An array framework for machine learning on Apple Silicon](https://github.com/ml-explore/mlx)
 - [Tweet about it](https://x.com/deliprao/status/1732250132614184970?s=20)
+
+- [LLM in a Flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/abs/2312.11514) 
+    - [huggigface](https://huggingface.co/papers/2312.11514)
