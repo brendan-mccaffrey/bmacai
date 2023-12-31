@@ -2,6 +2,10 @@
 title: "Solana"
 ---
 
+## Websites
+
+- [Shyft Explorer](https://translator.shyft.to/)
+
 ## Tech
 
 - [Solana: An Auditor's Introduction](https://osec.io/blog/2022-03-14-solana-security-intro)
@@ -10,6 +14,8 @@ title: "Solana"
 - [Jumping Around the VM](https://osec.io/blog/2023-12-11-jumping-around-in-the-vm)
 - [Solana Validator 101: Transaction Processing](https://www.jito.wtf/blog/solana-validator-101-transaction-processing/)
 - [MarginFi Liquidations](https://github.com/mrgnlabs/mrgn-ts/tree/main/apps/alpha-liquidator)
+- [Solana Internals, Part 1](https://medium.com/@metaproph3t/solana-internals-part-1-449ee68cb4f4)
+- [SIMD: Asynchronous Program Execution and Broadcast](https://github.com/solana-foundation/solana-improvement-documents/pull/45)
 
 ## Partnerships
 
@@ -27,3 +33,6 @@ title: "Solana"
 - [Validator Economics on Solana](https://medium.com/chorus-one/exploring-validator-economics-on-solana-cb1498a3aef6)
 - [Jito Validator Economics Spreadsheet](https://docs.google.com/spreadsheets/d/1JhgBLvZInSGA91GDWYFg_-6CIevCv8RUOe3kgSTm5_M/edit#gid=2134008686)
 
+## Projects
+
+- [IO.net: GPU DePIN](https://io.net/)

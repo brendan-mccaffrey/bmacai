@@ -8,3 +8,8 @@ subtitle: Good ol' Hardware Technology Devices
 
 **Silentio:** A device that blocks all device recordings, using ultrasound to detect and block any microphone that tries to capture your voice.
 - [NEC: Speaker Selective Cancellation via Neural Enhanced Ultrasound Shadowing](https://arxiv.org/abs/2207.05848v1)
+
+
+## Desalination
+
+[gud thread](https://x.com/Jordan_W_Taylor/status/1740363166603968637?s=20)

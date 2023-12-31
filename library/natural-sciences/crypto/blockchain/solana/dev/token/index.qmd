@@ -1,0 +1,20 @@
+---
+title: Token Development
+---
+
+## Resources
+
+- [Raydium Typscript ammCreatePool](https://github.com/raydium-io/raydium-sdk-V1-demo/blob/master/src/ammCreatePool.ts)
+
+## Make Token
+
+```bash
+solana config --set -k keypair.json
+
+spl-token create-token vanity.json 
+
+spl-token create-account vanity
+
+spl-token 
+
+0.000000004

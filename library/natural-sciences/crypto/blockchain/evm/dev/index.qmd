@@ -4,6 +4,10 @@ title: Development
 
 ## Tools 
 
+#### **General**
+
+- [ERC-20 Faucet](https://github.com/bokkypoobah/WeenusTokenFaucet?tab=readme-ov-file)
+
 #### **Backend**
 
 - [Solidity Decompiler (interface)](https://ethervm.io/decompile)

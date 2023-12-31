@@ -6,6 +6,10 @@ table-of-contents: true
 
 This page provides a brief overview of each subdomain of physics. Each header is a link to the page which explores the respective domain further.
 
+## General Resources
+
+- [Dan Fleisch](https://www.danfleisch.com/)
+
 ## [Classical Physics](classical/index.qmd)
 
 Classical Physics encompasses the theories and principles that describe the natural world in terms of macroscopic scales and speeds much slower than the speed of light. It is the framework in which forces, energy, and matter interact and is often considered to be the classical limit of more advanced theories, such as quantum mechanics and general relativity.
