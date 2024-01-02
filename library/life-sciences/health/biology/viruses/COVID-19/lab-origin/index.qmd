@@ -1,0 +1,41 @@
+---
+title: Lab Origin Hypothesis
+---
+
+## Summary from Richard H. Ebright
+
+- [Written Testimony of Richard H Ebright](https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/Ebright%20Testimony%20Updated.pdf)
+
+1) Pandemic caused by bat SARS-like coronavirus emerged in Wuhan--city 1000 km from nearest wild bats with SARS-CoV-2-like coronaviruses, but that contains labs conducting world's largest research program on bat SARS-like coronaviruses.
+
+2) In 2015-2017, scientists and science-policy specialists expressed concern that the Wuhan Institute of Virology (WIV) was conducting and contemplating research that posed an unacceptable risk of lab accident and pandemic.
+
+- [Inside the Chinese lab poised to study world's most dangerous pathogens](https://www.nature.com/articles/nature.2017.21487)
+- [Engineered bat virus stirs debate over risky research](https://www.nature.com/articles/nature.2015.18787)
+
+3) In 2017-2018, WIV constructed a novel chimeric SARS-like coronavirus that was able to infect and replicate in human airway cells and that had 10,000x enhanced viral growth and 3x enhanced lethality in mice engineered to display human SARS receptors on airway cells.
+
+4) In 2018, in an NIH grant proposal, WIV and collaborators proposed to construct more novel chimeric SARS-like coronaviruses, targeting chimeras that replace natural spike gene with novel spike genes encoding spikes that have higher binding affinities to human cells.
+
+5) Also in 2018, in a DARPA grant proposal, WIV and collaborators proposed to construct novel "consensus" bat SARS-like coronaviruses, and to insert furin cleavage site (FCS) sequences at the spike gene S1-S2 border of bat SARS-like coronaviruses.
+
+6) In 2017-2019, WIV constructed and characterized novel SARS-like coronaviruses at biosafety level 2, a biosafety level patently inadequate for work with enhanced potential pandemic pathogens and patently inadequate to contain virus having transmission properties of SARS-CoV-2.
+
+7) In 2019 a novel SARS-like coronavirus having a spike with high binding affinity for human cells, and having an FCS at the spike S1-S2 border--a virus having the specific properties set forth in the 2018 WIV NIH and DARPA grant proposals--emerges on the doorstep of WIV.
+
+8) SARS-CoV-2 is the only one of more than 850 known SARS-like coronaviruses that contains an FCS. This feature does not rule out natural origin, but is more easily--much more easily--explained by lab origin. Especially since insertion of an FCS was explicitly proposed in 2018.
+
+9) The FCS of SARS-CoV-2 has codon usage unusual for bat SARS-related coronaviruses and has an 8-of-8 amino-acid-sequence identity to the known FCS of human ENaCa. These features do not rule out natural origin, but are more easily--much more easily--explained by lab origin.
+
+10) In 2020-present, WIV and its funders/collaborators at EcoHealth Alliance have withheld information, misrepresented facts, and obstructed investigation...even though, if not connected to origin, they easily could have cleared their name though cooperation with investigation.
+
+### Sources
+
+- [Understanding risk bat coronavirus emergence grant notice](../pdfs/understanding-risk-bat-coronavirus-emergence-grant-notice.pdf) 
+- [Year 5 Report](https://republicans-oversight.house.gov/wp-content/uploads/2021/10/Year-5-EHAv.pdf)
+- [DARPA documents: DEFUSE](https://documentcloud.org/documents/21066966-defuse-proposal)
+- [Shi Zhengli interview](https://science.org/pb-assets/PDF/News%20PDFs/Shi%20Zhengli%20Q&A-1630433861.pdf)
+- [Wuhan Institute of Virology publication](https://nature.com/articles/s41586-020-2012-7)
+- [A call for independent inquiry into the origin of the SARS-CoV-2 virus](https://pnas.org/doi/10.1073/pnas.2202769119)
+- [January-2022-EHA-SAC-CAP-letter-final1](https://republicans-oversight.house.gov/wp-content/uploads/2022/01/January-2022-EHA-SAC-CAP-letter-final1.pdf) 
+- [NIH-EHA-Production-8.19.22](https://republicans-oversight.house.gov/wp-content/uploads/2022/08/NIH-EHA-Production-8.19.22.pdf)

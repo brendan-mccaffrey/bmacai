@@ -1,10 +1,11 @@
 ---
 title: Hyperbolic
+description: The Next-Generation Decentralized Microservices Platform
 ---
 
 This is a protocol by [Ted Yin](https://twitter.com/Tederminant), previously @ avax.
 
-Here is a link to the whitepaper [converted to markdown](_whitepaper.qmd)
+Here is a link to the [whitepaper](hyperbolic.pdf), a markdown version can be found [here](_whitepaper.qmd)
 
 ## Notes
 
