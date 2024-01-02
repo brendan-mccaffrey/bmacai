@@ -8,7 +8,7 @@ title: Field Theory
 - [The Unreasonable Effectiveness of Quantum Field Theory](https://arxiv.org/abs/hep-th/9602122)
 - [Introduction to Genralized Global Symmetries in QFT and Particle Physics](https://arxiv.org/abs/2306.00912)
 - [Lectures on Field Theory and the Standard Model: A Symmetry-Oriented Approach](https://arxiv.org/abs/2306.08097)
-- [Scattering Amplitudes in Quantum Field Theory](https://arxiv.org/abs/2306.05976)
+- [Scattering Amplitudes in Quantum Field Theory](https://shdw-drive.genesysgo.net/7HNcudNMgN9u5dcCawmUS4UpPXFHtMnBiruXTMmhw1NL/ScatteringAmplitudesInQFT.pdf)
 - [General Relativity as a Perturbative Quantum Field Theory](https://blogs.umass.edu/grqft/)
 - [EPFL Lectures on General Relativity as a Quantum Field Theory](https://arxiv.org/abs/1702.00319)
 
