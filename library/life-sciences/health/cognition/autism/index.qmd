@@ -21,4 +21,4 @@ Escalation of the dose of itraconazole resulted in a complete loss of all sympto
 
 ___
 
-{{< include ../nutrition/_mycotoxins.qmd >}}
+{{< include ../../nutrition/_mycotoxins.qmd >}}
