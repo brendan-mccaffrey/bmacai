@@ -1,0 +1,41 @@
+---
+title: Undefined LLC
+---
+
+# Structure 
+
+At the highest level, we identify domains.
+
+- Traditional Finance
+- Blockchain Finance
+- Software
+
+- TradFi
+    - US Equities
+    - Global Macro 
+    - Credit
+- crypto
+    - private
+    - public 
+        - trades 
+        - operations
+            - farms 
+- projects
+    - spread trade bot (crypto)
+    - betking (trad arb)
+    - john deere (crypto)
+    - elementa (crypto)
+
+
+- research
+    - xai
+    - room temp superconductors 
+
+
+TODO
+
+- more formal accounting structure of projects 
+- more efficient maintenance of crypto (and non-crypto) operations
+- more forward-facing resources of work / accomplishments
+- revisit and improve participation in the socials arena 
+
