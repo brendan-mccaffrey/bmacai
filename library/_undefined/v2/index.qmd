@@ -26,7 +26,6 @@ At the highest level, we identify domains.
     - john deere (crypto)
     - elementa (crypto)
 
-
 - research
     - xai
     - room temp superconductors 
@@ -39,3 +38,8 @@ TODO
 - more forward-facing resources of work / accomplishments
 - revisit and improve participation in the socials arena 
 
+
+methods
+ - github, quarto?
+ - notion? nah   
+ - codebase for super wallet infra (+ github quarto mode)
