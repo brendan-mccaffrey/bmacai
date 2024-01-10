@@ -7,3 +7,8 @@ title: Brain
 - [These Cells Spark Electricity in the Brain. They’re Not Neurons.](https://www.quantamagazine.org/these-cells-spark-electricity-in-the-brain-theyre-not-neurons-20231018/)
     - Non-neuron cells can spark electricity
     - An astrocyte, a subtype of glial cell, has been proven capable of sending signals.
+
+
+**Cerebellum**
+
+- [What does the cerebellum do anyway?](https://sarahconstantin.substack.com/p/what-does-the-cerebellum-do-anyway)

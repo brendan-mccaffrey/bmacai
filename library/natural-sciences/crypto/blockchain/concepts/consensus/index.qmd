@@ -1,0 +1,13 @@
+---
+title: Consensus
+---
+
+## Resources
+
+- [Byzantine Clock Synchronization](https://lamport.azurewebsites.net/pubs/clocks2.pdf)
+
+- [The Byzantine Generals Problem](https://lamport.azurewebsites.net/pubs/byz.pdf)
+
+## Papers
+
+[The latest gossip on BFT Consensus](https://arxiv.org/abs/1807.04938)

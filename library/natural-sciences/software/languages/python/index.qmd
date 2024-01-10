@@ -15,3 +15,6 @@ Typer: Making Python CLI Apps
 
 React for Python Now Exists
 - [github](https://github.com/reactive-python/reactpy)
+
+Dataframes for the new era
+- [Polars](https://pola.rs/)
