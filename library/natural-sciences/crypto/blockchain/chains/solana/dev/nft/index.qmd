@@ -1,0 +1,18 @@
+---
+title: NFT Dev on Solana
+---
+
+## Resources
+
+#### Github Repos
+
+- [awesome solana nfts](https://github.com/ilmoi/awesome-solana-nfts)
+- [create solana nft example](https://github.com/supercoolx/create-solana-nft-example)
+- [solana nft tutorial](https://github.com/alchemyplatform/solana-nft-tutorial)
+
+#### Metaplex
+
+- [Candy Machine; Getting Started using Javascript](https://developers.metaplex.com/candy-machine/getting-started/js)
+- [Token Metadata; Getting Started using Javascript](https://developers.metaplex.com/token-metadata/getting-started/js)
+
+- [Programmable NFT Guide](https://github.com/metaplex-foundation/mpl-token-metadata/blob/main/programs/token-metadata/program/ProgrammableNFTGuide.md)

@@ -4,16 +4,7 @@ title: Cosmos
 
 ## Resources
 
-- [Documentation](https://docs.cosmos.network/)
-- [Cosmos SDK](https://github.com/cosmos/cosmos-sdk)
-
-- [Anatomy of Cosmos SDK](https://docs.cosmos.network/main/learn/beginner/app-anatomy)
-
-
-
-## Cosmos SDK, A Walkthrough
-
-The "Full Node" consists of 
+A Cosmos "Full Node" consists of 
 
 1. The state machine / application
 2. Consensus
@@ -21,15 +12,24 @@ The "Full Node" consists of
 
 State machine is connected to consensus through ABCI, and Consensus + Networking are handled by CometBFT.
 
+- [Beginner Docs](https://docs.cosmos.network/main/learn/beginner/app-anatomy)
+- [Advanced Docs](https://docs.cosmos.network/main/learn/advanced/baseapp#routing)
+
+**[CometBFT](https://docs.cometbft.com/v0.37/introduction/what-is-cometbft#consensus-overview)** is an application-agnostic engine responsible for handling the networking and consensus layers of a blockchain. 
+
+**ABCI++** [code](https://github.com/cometbft/cometbft/tree/main/spec/abci) and [documentation](https://docs.cometbft.com/v0.37/spec/abci/)
 
 
-### CometBFT
+## Projects
 
-[CometBFT](https://docs.cometbft.com/v0.37/introduction/what-is-cometbft#consensus-overview) is an application-agnostic engine responsible for handling the networking and consensus layers of a blockchain. 
+### MEV: Skip Protocol
 
-- Adopts tendermint consensus
+- [website](https://skip.money/)
+- [documentation](https://docs.skip.money/)
 
+- [FOR SEARCHERS](https://docs.skip.money/searcher-docs)
 
-### ABCI
+**Block SDK**
 
-- [ABCI++](https://github.com/cometbft/cometbft/tree/main/spec/abci)
+- [github](https://github.com/skip-mev/block-sdk)
+- [documentation](https://docs.skip.money/chains/overview/)

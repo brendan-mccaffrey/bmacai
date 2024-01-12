@@ -1,0 +1,10 @@
+---
+title: The Modular Thesis
+---
+
+## Resources
+
+- [Celestia: Modular and Monolithic Blockchains](https://celestia.org/learn/basics-of-modular-blockchains/modular-and-monolithic-blockchains/)
+- [Galaxy: Blockchain Modularity](https://www.galaxy.com/insights/research/making-sense-of-blockchain-modularity/)
+- [Volt Capital: Modular Blockchains](https://volt.capital/blog/modular-blockchains)
+- [Polynya: Updated thoughts on "modular blockchains"](https://polynya.medium.com/updated-thoughts-on-modular-blockchains-ce1b159fa1b3)

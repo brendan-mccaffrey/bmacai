@@ -4,9 +4,14 @@ title: EVM Development
 
 ## Tools 
 
-#### **General**
+**Testnet Resources**
 
 - [ERC-20 Faucet](https://github.com/bokkypoobah/WeenusTokenFaucet?tab=readme-ov-file)
+
+**Useful Modules**
+
+- [ZkDrop, A ZK Airdrop Scheme](https://github.com/a16z/zkdrops)
+- [Uniswap Merkle Distributor](https://github.com/Uniswap/merkle-distributor)
 
 #### **Backend**
 
@@ -20,6 +25,8 @@ title: EVM Development
 - [Medusa](https://github.com/crytic/medusa): Parrellizable fuzz testing through CLI or Go API
 - [Simple Serialization](https://simpleserialize.com/): A serialization and merkleization standard created specifically for Ethereum consensus
 - [MergeMock](https://github.com/protolambda/mergemock)
+
+
 
 #### **Full-Stack**
 
