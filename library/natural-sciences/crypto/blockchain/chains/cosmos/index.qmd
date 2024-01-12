@@ -1,0 +1,35 @@
+---
+title: Cosmos
+---
+
+## Resources
+
+- [Documentation](https://docs.cosmos.network/)
+- [Cosmos SDK](https://github.com/cosmos/cosmos-sdk)
+
+- [Anatomy of Cosmos SDK](https://docs.cosmos.network/main/learn/beginner/app-anatomy)
+
+
+
+## Cosmos SDK, A Walkthrough
+
+The "Full Node" consists of 
+
+1. The state machine / application
+2. Consensus
+3. Networking
+
+State machine is connected to consensus through ABCI, and Consensus + Networking are handled by CometBFT.
+
+
+
+### CometBFT
+
+[CometBFT](https://docs.cometbft.com/v0.37/introduction/what-is-cometbft#consensus-overview) is an application-agnostic engine responsible for handling the networking and consensus layers of a blockchain. 
+
+- Adopts tendermint consensus
+
+
+### ABCI
+
+- [ABCI++](https://github.com/cometbft/cometbft/tree/main/spec/abci)

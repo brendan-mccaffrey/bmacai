@@ -1,0 +1,21 @@
+---
+title: Berachain
+---
+
+## Overview
+
+Berachain is an EVM compatible blockchain with [Proof of Liquidity](https://docs.berachain.com/learn/#proof-of-liquidity-overview) consensus. Berachain built and uses [Polaris](https://docs.berachain.com/learn/what-is-polaris-evm), a blockchain framework for building EVM-compatible chains on top of the [CometBFT](https://docs.berachain.com/learn/what-is-comet-bft) consensus engine.
+
+### Proof of Liquidity
+
+- BEX LP providers earn BGT, the gov't token used for delegating in Proof of Liquidity.
+- Users delegate BGT to validators, who produce blocks based on their delegated stake.
+- Validators vote on future BGT inflation across liquidity pools
+- Bribes are distributed from validators to delegators
+
+
+## Tech
+
+### Precompiles and Deployment Addresses
+
+- [Docs](https://docs.berachain.com/developers/precompile-addresses)
