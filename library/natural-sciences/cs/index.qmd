@@ -1,0 +1,7 @@
+---
+title: Computer Science
+---
+
+## General
+
+- [Network Effects Bible](https://www.nfx.com/post/network-effects-bible)

@@ -1,0 +1,40 @@
+---
+title: Marginal 
+---
+
+## Resources
+
+- [Deck](https://docsend.com/view/rc6sv24758cwxu9j)
+- [Oracle Manipulation Paper](https://drive.google.com/file/d/1dMH_HRqKEAupnv_e3ffeAomkQPQDXmbx/view?ts=65a557cd)
+- [Data Room]()
+
+### Tech
+
+- Marginal LPs essentially lend $\delta k$
+- funding like swETH, linear payment
+
+### Go to Market
+
+- partner w launchpads, they will angel
+    - [fjordfoundry](https://www.fjordfoundry.com/)
+- help new projects do uniswapV3, make them allocate tokens to Marginal pool
+
+### Raise
+
+1 @ 10
+
+1:1 token warrant?
+
+- 
+
+## Questions
+
+- Where are you looking to deploy
+    - mainnet for liqudiity
+    - L2s / other for performance? (monad?)
+
+- Orderbook or (v)AMM   - assume amm
+
+- what does the mm role look like
+
+- background on the team? How u meet ur cofounders
