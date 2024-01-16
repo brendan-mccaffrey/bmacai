@@ -3,6 +3,8 @@ title: Monad
 description: Monad is a high-performance Ethereum-compatible L1. 
 ---
 
+# Overview
+
 Monad materially advances the efficient frontier in the tradeoff between decentralization and scalability.
 
 Monad introduces optimizations in four major areas, resulting in a blockchain with throughput of 10,000 transactions per second (tps):
@@ -11,6 +13,52 @@ Monad introduces optimizations in four major areas, resulting in a blockchain wi
 - [Deferred Execution](https://docs.monad.xyz/technical-discussion/consensus/deferred-execution)
 - [Parallel Execution](https://docs.monad.xyz/technical-discussion/execution/parallel-execution)
 - [MonadDb](https://docs.monad.xyz/technical-discussion/execution/monaddb)
+
+# Documentation Walkthrough
+
+### Concepts
+
+**Pipelining** is a technique wherein a larger task is split into smaller tasks so that they can be processed in parallel. More info on instruction-level parallelism [here](https://en.wikipedia.org/wiki/Instruction_pipelining)
+
+**Asynchronous I/O** is a form of input/output processing that allows a CPU to continue executing while communication is in progress. Rather than initiating an I/O operation, waiting for the result, and then resuming execution, the CPU can initiate the I/O operation once it's known the data is needed, and continue executing other operations that do not depend on the operation. SSD drives can perform operations concurrently, so the CPU can initiate several requests at once, continue executing, then receive the results of multiple operations around the same time. 
+
+## Blockchain, decentralization, performance
+
+**Today's Performance Bottlenecks**
+
+Ethereum's execution limits (1.25mm gas per second) are set conservatively, but for several good reasons:
+
+- inefficient storage access patterns
+- single threaded execution
+- limited execution budget, because consensus can't proceed without execution
+- concerns about state growth, future state access costs
+
+Monad addresses these limitations through algorithmic improvements and architectural changes. Monad enables pipelining and other optimizations in four major areas to enable exceptional Ethereum Virtual Machine performance and materially advance the decentralization/scalability tradeoff
+
+## Consensus 
+
+### MonadBFT
+
+MonadBFT is a pipelined two-phase [HotStuff](https://arxiv.org/pdf/1803.05069.pdf) Consensus algorithm with the improvement proposed in [Fast-HotStuff](https://arxiv.org/abs/2010.11454), which is a reduction from three to two rounds by utilizing quadratic communication complexity in the event of leader timeout.
+
+
+### Shared Mempool
+
+### Deferred Execution
+
+
+
+## Execution
+
+### Parallel Execution
+
+
+
+### MonadDb
+
+
+
+## Transaction Lifecycle
 
 
 
