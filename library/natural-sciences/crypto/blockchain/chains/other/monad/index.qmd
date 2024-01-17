@@ -41,8 +41,9 @@ Monad addresses these limitations through algorithmic improvements and architect
 
 MonadBFT is a pipelined two-phase [HotStuff](https://arxiv.org/pdf/1803.05069.pdf) Consensus algorithm with the improvement proposed in [Fast-HotStuff](https://arxiv.org/abs/2010.11454), which is a reduction from three to two rounds by utilizing quadratic communication complexity in the event of leader timeout.
 
-
 ### Shared Mempool
+
+
 
 ### Deferred Execution
 
@@ -67,3 +68,12 @@ MonadBFT is a pipelined two-phase [HotStuff](https://arxiv.org/pdf/1803.05069.pd
 Selling 1% at 600mm, and selling 1% at 1.2b.
 
 Currently have the 600mm in high demand, locked interest for 10.2 of the 12mm. 
+
+## MEV
+
+
+
+
+- upgrade situation: have to propose a time, everyone has to upgrade binary at same time
+- if chain halt, everyone has to replace the binary
+- hard to get archive data, have to export chain state; have to run binary from 3 years ago
