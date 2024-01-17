@@ -1,0 +1,31 @@
+---
+title: Celestia
+---
+
+# Overview
+
+TODO
+
+# Modular Expansion
+
+Modular expansion is the narrative under Celestia. It includes the many "Rollup-as-a-service" startups such as Initia, Conduit, Caldera, and AltLayer. [Dymension](https://dymension.xyz/) is similar, but for Cosmos app chains.
+
+## Initia
+
+- [website](https://initia.xyz/)
+- [twitter](https://twitter.com/initiafdn)
+
+## Conduit 
+
+- [website](https://conduit.xyz/)
+
+## AltLater
+
+- [website](https://altlayer.io/)
+- [airdrop announcement](https://twitter.com/alt_layer/status/1747604110927609976)
+
+## Caldera
+
+- [wesbite](https://www.caldera.xyz/)
+
+

@@ -22,6 +22,10 @@ page-layout: full
 - [Ethereum Data Structures](https://arxiv.org/pdf/2108.05513.pdf)
 - [Solidity Lang Docs](https://docs.soliditylang.org/en/v0.8.21/)
 
+### Consensus
+
+- [Vitalik: Sticking to 8192 signatures per slot post-SSF](https://ethresear.ch/t/sticking-to-8192-signatures-per-slot-post-ssf-how-and-why/17989)
+
 ## BLS
 
 - [BLS Introduction](https://eth2book.info/altair/part2/building_blocks/signatures)

@@ -2,6 +2,10 @@
 title: Ethereum Consensus 
 ---
 
+## Practical
+
+- [Solo Stakers](https://blog.rated.network/blog/solo-stakers)
+
 ## Consensus Design
 
 - [Ethereum Consensus Spec](https://github.com/ethereum/consensus-specs)
