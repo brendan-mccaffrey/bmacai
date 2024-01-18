@@ -35,26 +35,7 @@ description: "Cryptographic ledgers"
 - [The Spacemesh Protocol](https://drive.google.com/file/d/18I9GPebWqgpvusI1kMnAB9nayBbL-1qN/view)
 - [TON: The Open Network](https://ton.org/whitepaper.pdf)
 
-## Consensus
 
-All things Byzantine Fault Tolerant: Research and implementations of consensus mechanisms.
 
-### Byzantine Fault Tolerance
 
-- [Practical Byzantine Fault Tolerance](https://pmg.csail.mit.edu/papers/osdi99.pdf)
-
-### Whitepapers
-
-- [Tendermint: Consensus without Mining](https://tendermint.com/static/docs/tendermint.pdf)
-- [DFINITY Consensus System](https://cryptogurukul-com.b-cdn.net/wp-content/uploads/2021/08/dfinity-consensus.pdf)
-- [Ripple Protocol Consensus Algorithm](https://ripple.com/files/ripple_consensus_whitepaper.pdf)
-- [Avalanche Consensus](https://assets.website-files.com/5d80307810123f5ffbb34d6e/6009805681b416f34dcae012_Avalanche%20Consensus%20Whitepaper.pdf)
-- [Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus](https://arxiv.org/pdf/2105.11827.pdf)
-- [Cosmos without Tendermint](https://www.paradigm.xyz/2022/07/experiment-narwhal-bullshark-cosmos-stack)
-- [The Honey Badger of BFT Protocols](https://eprint.iacr.org/2016/199.pdf)
-- [Hashgraph Protocol: Efficient ABFT](https://hedera.com/hh-ieee_coins_paper-200516.pdf)
-- [Byzantine Ordered Consensus without Byzantine Oligarchy](https://www.cs.cornell.edu/lorenzo/papers/Zhang20Byzantine.pdf)
-- [BEAT: Asynchronous BFT Made Practical](https://www.csee.umbc.edu/~hbzhang/files/beat.pdf)
-- [TON: Catchain Consensus](https://docs.ton.org/catchain.pdf)
-- [Another advantage of free choice (Extended Abstract): Completely asynchronous agreement protocols](https://dl.acm.org/doi/10.1145/800221.806707)
 

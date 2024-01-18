@@ -2,12 +2,37 @@
 title: Consensus
 ---
 
-## Resources
+## Context
 
 - [Byzantine Clock Synchronization](https://lamport.azurewebsites.net/pubs/clocks2.pdf)
-
 - [The Byzantine Generals Problem](https://lamport.azurewebsites.net/pubs/byz.pdf)
 
-## Papers
+## Algorithms
 
-[The latest gossip on BFT Consensus](https://arxiv.org/abs/1807.04938)
+- [Hotstuff](https://arxiv.org/pdf/1803.05069.pdf)
+- [Fast Hotstuff](https://arxiv.org/pdf/2010.11454.pdf)
+- [Tendermint: Consensus without Mining](https://tendermint.com/static/docs/tendermint.pdf)
+- [DFINITY Consensus System](https://cryptogurukul-com.b-cdn.net/wp-content/uploads/2021/08/dfinity-consensus.pdf)
+- [Ripple Protocol Consensus Algorithm](https://ripple.com/files/ripple_consensus_whitepaper.pdf)
+- [Avalanche Consensus](https://assets.website-files.com/5d80307810123f5ffbb34d6e/6009805681b416f34dcae012_Avalanche%20Consensus%20Whitepaper.pdf)
+- [Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus](https://arxiv.org/pdf/2105.11827.pdf)
+- [Cosmos without Tendermint](https://www.paradigm.xyz/2022/07/experiment-narwhal-bullshark-cosmos-stack)
+- [The Honey Badger of BFT Protocols](https://eprint.iacr.org/2016/199.pdf)
+- [Hashgraph Protocol: Efficient ABFT](https://hedera.com/hh-ieee_coins_paper-200516.pdf)
+- [Byzantine Ordered Consensus without Byzantine Oligarchy](https://www.cs.cornell.edu/lorenzo/papers/Zhang20Byzantine.pdf)
+- [BEAT: Asynchronous BFT Made Practical](https://www.csee.umbc.edu/~hbzhang/files/beat.pdf)
+- [TON: Catchain Consensus](https://docs.ton.org/catchain.pdf)
+- [Another advantage of free choice (Extended Abstract): Completely asynchronous agreement protocols](https://dl.acm.org/doi/10.1145/800221.806707)
+- [Simple Proofs of Space-Time and Rational Proofs of Storage](https://eprint.iacr.org/2016/035.pdf)
+
+## Research
+
+- [PoS vs Proof of Spacetime](https://spacemesh.io/blog/proof-of-stake-vs-proof-of-space-time/)
+- [Practical Byzantine Fault Tolerance](https://pmg.csail.mit.edu/papers/osdi99.pdf)
+- [The latest gossip on BFT Consensus](https://arxiv.org/abs/1807.04938)
+
+# Further Reads
+
+### Ethereum
+
+See the page on Ethereum consensus [here](../../chains/ethereum/mainnet/consensus/index.qmd)

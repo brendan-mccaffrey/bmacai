@@ -2,5 +2,9 @@
 title: Spacemesh
 ---
 
+# General
+
 - [Website](https://spacemesh.io/)
+- [Whitepaper](https://drive.google.com/file/d/18I9GPebWqgpvusI1kMnAB9nayBbL-1qN/view)
+- [Roadmap](https://github.com/spacemeshos/product/blob/master/roadmap.md)
 - [Contributing](https://github.com/spacemeshos/go-spacemesh/blob/develop/CONTRIBUTING.md)

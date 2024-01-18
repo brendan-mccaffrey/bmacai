@@ -4,10 +4,16 @@ description: "An overview of miner extractable value"
 page-layout: full
 ---
 
-## Dashboards & Tools
+# Resources
 
+### Dashboards
+
+- [orderflow.art](https://orderflow.art/?isOrderflow=true)
 - [ZeroMEV Explorer](https://zeromev.org/)
 - [EigenPhi: Arbitrage Dashboard](https://eigenphi.io/)
+
+### Tools
+
 - [MEV Boost](https://boost.flashbots.net/#block-6163a685d84444a9be309d26f18b4b2f)
 - [Manifold Freelay](https://github.com/manifoldfinance/mev-freelay)
 - [Mempool Dumpster](https://mempool-dumpster.flashbots.net/index.html)
@@ -18,11 +24,14 @@ page-layout: full
 - [Mev-rs](https://github.com/ralexstokes/mev-rs)
 - [MergeMock](https://github.com/protolambda/mergemock)
 
-## Shops 
+# Landscape
+
+### Shops 
 
 - [Frontier Research](https://frontier.tech/)
 - [Monoceros](https://www.monoceros.com/)
 - [XPriori](https://xpriori.xyz/)
+- [Manifold](https://www.manifoldtrading.com/)
 
 ### builders
 
@@ -49,7 +58,7 @@ page-layout: full
 - [Ethereum is a Dark Forest](https://medium.com/@danrobinson/ethereum-is-a-dark-forest-ecc5f0505dff)
 - [Flashbots: Frontrunning the MEV Crisis](https://medium.com/flashbots/frontrunning-the-mev-crisis-40629a613752)
 
-### General
+### Research
 
 - [Flashbots Research Repository](https://github.com/flashbots/mev-boost/wiki/Research#open-questions)
 - [Flash Boys 2.1.0](https://shdw-drive.genesysgo.net/3KcecJBoHgQgUsRdciJYvXFgtsEf4T2LF8htjijjLGNr/Senior%20Thesis.pdf)
@@ -72,6 +81,7 @@ page-layout: full
 - [FBAs (frequent batch auctions) are a nerd snipe](https://twitter.com/0x94305/status/1597019084667117569?s=20)
 - [MEV Driven Centralization in Ethereum: Part 1](https://simbro.medium.com/mev-driven-centralization-in-ethereum-ec829a214f18)
 - [Exploration of MEV Latencies](https://frontier.tech/exploration-of-mev-latencies)
+- [Illuminate the Orderflow](https://writings.flashbots.net/illuminate-the-order-flow)
 
 ### MEV-Boost / Proposer-Builder Separation
 
