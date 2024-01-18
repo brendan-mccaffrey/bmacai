@@ -38,6 +38,7 @@ page-layout: full
 - [Titan Builder](https://twitter.com/titanbuilderxyz)
 - [BeaverBuild](https://twitter.com/beaverbuild)
 - [Builder0x69](https://twitter.com/builder0x69)
+- [Faith Builder](https://f1b.io/)
 
 ## Research
 

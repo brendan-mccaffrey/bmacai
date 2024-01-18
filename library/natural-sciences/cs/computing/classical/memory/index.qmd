@@ -1,7 +1,0 @@
----
-title: Memory
----
-
-## Resources
-
-- [Memory performance in a nutshell](https://www.intel.com/content/www/us/en/developer/articles/technical/memory-performance-in-a-nutshell.html)

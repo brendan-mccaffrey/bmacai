@@ -2,6 +2,17 @@
 title: EigenLayer
 ---
 
+## General
+
+- [Whitepaper](https://docs.eigenlayer.xyz/assets/files/EigenLayer_WhitePaper-88c47923ca0319870c611decd6e562ad.pdf)
+- [website](https://eigenlayer.xyz/)
+- [Evolution of Eigenlayer Protocol](https://www.blog.eigenlayer.xyz/ycie/)
+- [AVS Research Blog](https://www.blog.eigenlayer.xyz/tag/avs-research/)
+
 ## EigenDA
 
 - [blog / lightpaper](https://www.blog.eigenlayer.xyz/intro-to-eigenda-hyperscale-data-availability-for-rollups/)
+
+## Ecosystem
+
+- [12 Projects Building on EigenLayer](https://www.blog.eigenlayer.xyz/twelve-early-projects-building-on-eigenlayer/)

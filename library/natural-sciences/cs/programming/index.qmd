@@ -1,0 +1,14 @@
+---
+title: Prpgramming
+---
+
+# Resources
+
+## Concepts & Practices
+
+- [Asynchronous I/O Programming under Linux](https://unixism.net/loti/index.html)
+
+
+## Project-Specific
+
+- [Chrome Extension From Scratch - Inject JavaScript And CSS](https://www.youtube.com/watch?v=mgFo3fxuUyA)
