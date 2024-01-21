@@ -1,0 +1,111 @@
+---
+title: Eigen Node
+description: Running an Eigenlayer operator node
+---
+
+# Running a Node
+
+Install golang
+
+```bash
+wget https://go.dev/dl/go1.21.6.linux-amd64.tar.gz
+
+# extract
+tar -C /usr/local -xzf go1.21.6.linux-amd64.tar.gz
+
+# add to path
+export PATH=$PATH:/usr/local/go/bin
+
+# check 
+go version
+
+# install Eigen
+curl -sSfL https://raw.githubusercontent.com/layr-labs/eigenlayer-cli/master/scripts/install.sh | sh -s
+
+```
+
+## DA
+
+```bash
+sudo ./run.sh opt-in
+using socket: ec2-13-115-69-92.ap-northeast-1.compute.amazonaws.com:32005;32004
+2024/01/21 22:33:54 maxprocs: Leaving GOMAXPROCS=2: CPU quota undefined
+2024/01/21 22:33:54 Info: plugin configs and flags parsed
+2024/01/21 22:33:55 Info: Bls key read and decrypted from /app/operator_keys/bls_key.json
+2024/01/21 22:33:57 Info: ECDSA key read and decrypted from /app/operator_keys/ecdsa_key.json
+2024/01/21 22:33:57 Info: ethclient created for url: https://g.w.lavanet.xyz:443/gateway/gth1/rpc-http/742b76c86118c1272a71e73c988878db
+2024/01/21 22:33:59 Info: Operator with Operator Address: bc0a9e6ddb719aabc1da9783bc91c37401b3daea is opting in to EigenDA
+DEBUG[01-21|22:33:59.540|github.com/Layr-Labs/eigenda/node/operator.go:35] Registered quorum ids                    registeredQuorumIds=[] caller=operator.go:35
+INFO [01-21|22:33:59.803|github.com/Layr-Labs/eigenda/node/operator.go:46] Quorums to register for                  quorums=[0] caller=operator.go:46
+INFO [01-21|22:34:00.331|github.com/Layr-Labs/eigenda/node/operator.go:73] Should call churner                      shouldCallChurner=true caller=operator.go:73
+INFO [01-21|22:34:00.331|github.com/Layr-Labs/eigenda/node/operator.go:115] churner url                              url=churner-goerli.eigenda.xyz:443 caller=operator.go:115
+2024/01/21 22:35:02 Info: successfully opt-in the EigenDA, for operator ID: f3cbbd02a20044c58ed57c8dfee9fd5d70858c3d3f449051651f0d5649031ac1, operator address: bc0a9e6ddb719aabc1da9783bc91c37401b3daea, socket: ec2-13-115-69-92.ap-northeast-1.compute.amazonaws.com:32005;32004, and quorums: [0]
+ubuntu@ip-172-31-40-110:~/eigenda-operator-setup$ docker compose up -d
+permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.config-hash%22%3Atrue%2C%22com.docker.compose.project%3Deigenda-operator-setup%22%3Atrue%7D%7D": dial unix /var/run/docker.sock: connect: permission denied
+ubuntu@ip-172-31-40-110:~/eigenda-operator-setup$ sudo docker compose up -d
+[+] Running 11/11
+ ✔ reverse-proxy 7 layers [⣿⣿⣿⣿⣿⣿⣿]      0B/0B      Pulled                                                                                                                                                                                           7.1s 
+   ✔ 2f44b7a888fa Pull complete                                                                                                                                                                                                                      0.9s 
+   ✔ 8b7dd3ed1dc3 Pull complete                                                                                                                                                                                                                      1.2s 
+   ✔ 35497dd96569 Pull complete                                                                                                                                                                                                                      0.5s 
+   ✔ 36664b6ce66b Pull complete                                                                                                                                                                                                                      1.1s 
+   ✔ 2d455521f76c Pull complete                                                                                                                                                                                                                      1.8s 
+   ✔ dc9c4fdb83d6 Pull complete                                                                                                                                                                                                                      1.7s 
+   ✔ 8056d2bcf3b6 Pull complete                                                                                                                                                                                                                      1.7s 
+ ✔ da-node 2 layers [⣿⣿]      0B/0B      Pulled                                                                                                                                                                                                      2.4s 
+   ✔ c926b61bad3b Already exists                                                                                                                                                                                                                     0.0s 
+   ✔ c6a5ca8cb47b Pull complete                                                                                                                                                                                                                      1.0s 
+[+] Running 2/3
+ ⠧ Network eigenda-network                           Created                                                                                                                                                                                         1.7s 
+ ✔ Container eigenda-native-node                     Started                                                                                                                                                                                         1.3s 
+ ✔ Container eigenda-operator-setup-reverse-proxy-1  Started                                                                                                                                                                                         0.7s 
+ubuntu@ip-172-31-40-110:~/eigenda-operator-setup$ docker ps
+permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json": dial unix /var/run/docker.sock: connect: permission denied
+ubuntu@ip-172-31-40-110:~/eigenda-operator-setup$ sudo docker ps
+CONTAINER ID   IMAGE                                              COMMAND                  CREATED          STATUS          PORTS                                                                                      NAMES
+1fe62d2ef283   nginx:latest                                       "/docker-entrypoint.…"   30 seconds ago   Up 28 seconds   80/tcp, 0.0.0.0:32004->32004/tcp, :::32004->32004/tcp                                      eigenda-operator-setup-reverse-proxy-1
+267e54b82e25   ghcr.io/layr-labs/eigenda/opr-node:release-0.2.2   "node"                   30 seconds ago   Up 28 seconds   0.0.0.0:9092->9092/tcp, :::9092->9092/tcp, 0.0.0.0:32005->32005/tcp, :::32005->32005/tcp   eigenda-native-node
+```
+
+
+Validating the service
+
+```bash
+sudo docker ps
+CONTAINER ID   IMAGE                                              COMMAND                  CREATED          STATUS          PORTS                                                                                      NAMES
+1fe62d2ef283   nginx:latest                                       "/docker-entrypoint.…"   30 seconds ago   Up 28 seconds   80/tcp, 0.0.0.0:32004->32004/tcp, :::32004->32004/tcp                                      eigenda-operator-setup-reverse-proxy-1
+267e54b82e25   ghcr.io/layr-labs/eigenda/opr-node:release-0.2.2   "node"                   30 seconds ago   Up 28 seconds   0.0.0.0:9092->9092/tcp, :::9092->9092/tcp, 0.0.0.0:32005->32005/tcp, :::32005->32005/tcp   eigenda-native-node
+ubuntu@ip-172-31-40-110:~/eigenda-operator-setup$ sudo docker logs -f 267e54b82e25
+2024/01/21 22:46:10 maxprocs: Leaving GOMAXPROCS=2: CPU quota undefined
+2024/01/21 22:46:10 Initializing Node
+2024/01/21 22:46:20     Reading G1 points (33554432 bytes) takes 19.709821ms
+2024/01/21 22:46:29     Parsing takes 9.136140468s
+2024/01/21 22:46:29     Reading G2 points (67108864 bytes) takes 40.329326ms
+2024/01/21 22:49:36     Parsing takes 3m7.726774914s
+numthread 2
+INFO [01-21|22:49:38.213|github.com/Layr-Labs/eigenda/common/logging/logging.go:65] Starting metrics server at port :9092    caller=logging.go:65
+INFO [01-21|22:49:38.213|github.com/Layr-Labs/eigenda/node/node.go:170]             Enabled metrics                          socket=:9092 caller=node.go:170
+INFO [01-21|22:49:38.214|github.com/Layr-Labs/eigenda/common/logging/logging.go:65] Starting node api server at address localhost:9091 caller=logging.go:65
+INFO [01-21|22:49:38.214|github.com/Layr-Labs/eigenda/node/node.go:174]             Enabled node api                         port=9091 caller=node.go:174
+INFO [01-21|22:49:38.214|github.com/Layr-Labs/eigenda/common/logging/logging.go:65] The node has successfully started. Note: if it's not opted in on https://goerli.eigenlayer.xyz/avs/eigenda, then please follow the EigenDA operator guide section in docs.eigenlayer.xyz to register caller=logging.go:65
+INFO [01-21|22:49:38.215|github.com/Layr-Labs/eigenda/node/grpc/server.go:119]      port                                     32004=address [::]:32004="GRPC Listening" caller=server.go:119
+INFO [01-21|22:49:38.215|github.com/Layr-Labs/eigensdk-go/nodeapi/nodeapi.go:240]   node api server running                  addr=localhost:9091 caller=nodeapi.go:240
+INFO [01-21|22:49:38.215|github.com/Layr-Labs/eigenda/node/node.go:220]             Start expireLoop goroutine in background to periodically remove expired batches on the node caller=node.go:220
+INFO [01-21|22:49:38.215|github.com/Layr-Labs/eigenda/node/node.go:368]             Start checkRegisteredNodeIpOnChain goroutine in background to subscribe the operator socket change events onchain caller=node.go:368
+INFO [01-21|22:49:38.215|github.com/Layr-Labs/eigenda/node/node.go:391]             Start checkCurrentNodeIp goroutine in background to detect the current public IP of the operator node caller=node.go:391
+INFO [01-21|22:49:38.216|github.com/Layr-Labs/eigenda/node/grpc/server.go:95]       port                                     32005=address [::]:32005="GRPC Listening" caller=server.go:95
+TRACE[01-21|22:49:52.727|github.com/Layr-Labs/eigenda/common/geth/client.go:242]    Transaction not yet mined                txHash=0xb53dcddcc1b04630cfcc9faa16110d4f9ac3bf4e86594af7e13ea4c9cb7c9648 caller=client.go:242
+TRACE[01-21|22:49:55.722|github.com/Layr-Labs/eigenda/common/geth/client.go:242]    Transaction not yet mined                txHash=0xb53dcddcc1b04630cfcc9faa16110d4f9ac3bf4e86594af7e13ea4c9cb7c9648 caller=client.go:242
+TRACE[01-21|22:49:58.721|github.com/Layr-Labs/eigenda/common/geth/client.go:242]    Transaction not yet mined                txHash=0xb53dcddcc1b04630cfcc9faa16110d4f9ac3bf4e86594af7e13ea4c9cb7c9648 caller=client.go:242
+TRACE[01-21|22:50:01.721|github.com/Layr-Labs/eigenda/common/geth/client.go:242]    Transaction not yet mined                txHash=0xb53dcddcc1b04630cfcc9faa16110d4f9ac3bf4e86594af7e13ea4c9cb7c9648 caller=client.go:242
+TRACE[01-21|22:50:04.720|github.com/Layr-Labs/eigenda/common/geth/client.go:242]    Transaction not yet mined                txHash=0xb53dcddcc1b04630cfcc9faa16110d4f9ac3bf4e86594af7e13ea4c9cb7c9648 caller=client.go:242
+TRACE[01-21|22:50:07.721|github.com/Layr-Labs/eigenda/common/geth/client.go:242]    Transaction not yet mined                txHash=0xb53dcddcc1b04630cfcc9faa16110d4f9ac3bf4e86594af7e13ea4c9cb7c9648 caller=client.go:242
+TRACE[01-21|22:50:10.721|github.com/Layr-Labs/eigenda/common/geth/client.go:242]    Transaction not yet mined                txHash=0xb53dcddcc1b04630cfcc9faa16110d4f9ac3bf4e86594af7e13ea4c9cb7c9648 caller=client.go:242
+TRACE[01-21|22:50:13.722|github.com/Layr-Labs/eigenda/common/geth/client.go:242]    Transaction not yet mined                txHash=0xb53dcddcc1b04630cfcc9faa16110d4f9ac3bf4e86594af7e13ea4c9cb7c9648 caller=client.go:242
+TRACE[01-21|22:50:16.721|github.com/Layr-Labs/eigenda/common/geth/client.go:242]    Transaction not yet mined                txHash=0xb53dcddcc1b04630cfcc9faa16110d4f9ac3bf4e86594af7e13ea4c9cb7c9648 caller=client.go:242
+TRACE[01-21|22:50:19.721|github.com/Layr-Labs/eigenda/common/geth/client.go:242]    Transaction not yet mined                txHash=0xb53dcddcc1b04630cfcc9faa16110d4f9ac3bf4e86594af7e13ea4c9cb7c9648 caller=client.go:242
+TRACE[01-21|22:50:22.722|github.com/Layr-Labs/eigenda/common/geth/client.go:242]    Transaction not yet mined                txHash=0xb53dcddcc1b04630cfcc9faa16110d4f9ac3bf4e86594af7e13ea4c9cb7c9648 caller=client.go:242
+TRACE[01-21|22:50:25.985|github.com/Layr-Labs/eigenda/common/geth/client.go:213]    transaction confirmed                    txHash=0xb53dcddcc1b04630cfcc9faa16110d4f9ac3bf4e86594af7e13ea4c9cb7c9648 tag=UpdateOperatorSocket gasUsed=36558 caller=client.go:213
+INFO [01-21|22:50:25.986|github.com/Layr-Labs/eigenda/node/node.go:362]             Socket update                            "old socket"=ec2-13-115-69-92.ap-northeast-1.compute.amazonaws.com:32005;32004 "new socket"=13.115.69.92:32005;32004 caller=node.go:362
+INFO [01-21|22:52:38.216|github.com/Layr-Labs/eigenda/node/node.go:233]             Complete an expiration cycle to remove expired batches "num expired batches found and removed"=0 caller=node.go:233
+```

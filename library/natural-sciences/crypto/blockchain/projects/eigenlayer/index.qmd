@@ -16,3 +16,13 @@ title: EigenLayer
 ## Ecosystem
 
 - [12 Projects Building on EigenLayer](https://www.blog.eigenlayer.xyz/twelve-early-projects-building-on-eigenlayer/)
+
+### Running a Node on Testnet
+
+
+
+
+Stake ETH on Goerli
+
+- [Stader Staked ETH](https://goerli.etherscan.io/address/0xd0e400ec6ed9c803a9d9d3a602494393e806f823#writeProxyContract#F2)
+- [Token Contract ETHx](0x3338eCd3ab3d3503c55c931d759fA6d78d287236)
