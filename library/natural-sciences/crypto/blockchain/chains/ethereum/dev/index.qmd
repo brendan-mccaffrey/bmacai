@@ -7,6 +7,7 @@ title: EVM Development
 **Testnet Resources**
 
 - [ERC-20 Faucet](https://github.com/bokkypoobah/WeenusTokenFaucet?tab=readme-ov-file)
+- [Goerli ETH Bridge](https://testnetbridge.com/)
 
 **Useful Modules**
 
@@ -25,7 +26,7 @@ title: EVM Development
 - [Medusa](https://github.com/crytic/medusa): Parrellizable fuzz testing through CLI or Go API
 - [Simple Serialization](https://simpleserialize.com/): A serialization and merkleization standard created specifically for Ethereum consensus
 - [MergeMock](https://github.com/protolambda/mergemock)
-
+- [EVM.codes](https://www.evm.codes/?fork=shanghai)
 
 
 #### **Full-Stack**
