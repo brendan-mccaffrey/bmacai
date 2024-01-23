@@ -1,0 +1,10 @@
+---
+title: Ritual
+---
+
+## Running a Node
+
+- [registerNode() on BaseScan](https://basescan.org/tx/0x183505af52c1af31ec069885b7650dc616eddf7994aa1745e8a71be98b9da88b)
+- [activateNode() on BaseScan](https://basescan.org/tx/0x71c43d03278b089998389944ecbfc3a2f164639a0635d48ef32118c9e9810659)
+
+Deploy with [Terraform Labs and AWS CLI](https://docs.ritual.net/infernet/node/deployment)

@@ -6,6 +6,15 @@ title: Quantitative Finance
 
 - [Free Trading Resources Notion Doc](https://milksandmatcha.notion.site/Free-Trading-Resources-v2-4456ae906000487181f3486dbd0dd631)
 
+## Reads
+
+- [the perfect way to smooth your noisy data](https://towardsdatascience.com/the-perfect-way-to-smooth-your-noisy-data-4f3fe6b44440)
+- [Pattern mining for stock prediction with dynamic time warping](https://medium.com/@crisvelasquez/pattern-mining-for-stock-prediction-with-dynamic-time-warping-3f8df5fb4c5b)
+- [Charting market rhythms: The rolling Hurst Exponent in Python](https://medium.com/@crisvelasquez/quantifying-stock-trends-the-rolling-hurst-exponent-in-python-d7108fc0e837)
+- [Identifying key market interest with volume ratio in python](https://medium.com/@crisvelasquez/identifying-key-market-interest-with-the-volume-ratio-in-python-1f9904705711)
+- [dynamic risk managament using rolling stock price metrics in python](https://medium.com/@crisvelasquez/dynamic-risk-management-using-rolling-stock-price-metrics-in-python-5d6ffcbf5ba)
+- [maximizing profits with spy options trading using genetic algorithm based 1 minute trend detection](https://wire.insiderfinance.io/maximizing-profits-with-spy-options-trading-using-genetic-algorithm-based-1-minute-trend-detection-f20b602e9b96)
+
 ### Advanced Theory
 
 - [End-To-End Resource Analysis for Quantum Interior-Point Methods and Portfolio Optimization](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.4.040325)

@@ -1,0 +1,32 @@
+---
+title: Blast
+---
+
+## Overview
+
+Blast is an Ethereum L2 introducing the concept of "native yield", which is derived from staking economics on mainnet (and Tbills). It was founded by Tieshun (@pacmanblur), founder of Blur. They have S tier go-to-market strategy.
+
+## Ecosystem
+
+They are leading their ecosystem push with the [Big Bang Competition](https://blast.io/en/bigbang).
+
+### Established Partners
+
+- [Quicknode](https://twitter.com/QuickNode/status/1747325398172762180)
+- [Pyth](https://twitter.com/PythNetwork/status/1747327614006571116)
+- [Redstone Oracles](https://twitter.com/redstone_defi/status/1747650159344066691)
+- [The Graph](https://twitter.com/graphprotocol/status/1747606921329131906)
+
+### Startups
+
+Dex & Launchpad
+
+- [Thruster](https://twitter.com/ThrusterFi/status/1747408111076340018)
+
+Leveraged Trading
+
+- [Ambient](https://twitter.com/ambient_finance/status/1747665083172610514)
+- [SynFutures](https://twitter.com/SynFuturesDefi/status/1747650087335911749)
+- [SphereX](https://twitter.com/SphereX_XYZ/status/1747399947920478309)
+- [EasyXDefi](https://twitter.com/EasyXdefi/status/1748267973310374213)
+- [Bloom](https://twitter.com/BloomOnBlast/status/1749431830930129242)
