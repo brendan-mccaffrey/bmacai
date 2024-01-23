@@ -3,7 +3,14 @@ title: Eigen Node
 description: Running an Eigenlayer operator node
 ---
 
+# Operators
+
+- [bmac](https://goerli.eigenlayer.xyz/operator/0xbc0a9e6ddb719aabc1Da9783BC91C37401B3DAea)
+- [Quant Drip](https://goerli.eigenlayer.xyz/operator/0xc7fa09a1aefb2447856fc9b109c7f037d740dbfe)
+
 # Running a Node
+
+## Installation
 
 Install golang
 
@@ -18,16 +25,132 @@ export PATH=$PATH:/usr/local/go/bin
 
 # check 
 go version
+```
 
-# install Eigen
+Install Docker
+
+```bash
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl gnupg
+sudo install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+
+# Install latest docker version
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+# verify successful installation with 
+sudo docker run hello-world
+```
+
+Install Eigen
+
+```bash
+# install Eigen CLI using binary
 curl -sSfL https://raw.githubusercontent.com/layr-labs/eigenlayer-cli/master/scripts/install.sh | sh -s
 
+# add to PATH
+export PATH=$PATH:~/bin
 ```
+
+## Setup
+
+Create Keys 
+
+```bash
+# create Keys 
+eigenlayer operator keys create --key-type ecdsa operator 
+eigenlayer operator keys create --key-type bls operator 
+```
+
+Create config
+
+```bash
+eigenlayer operator config create
+```
+
+Use `https://ethereum-goerli.publicnode.com` for RPC
+
+Edit metadata.json and upload to publicly available URL.
+
+Then edit operator.yaml to point to this metadata.json file.
+
+Add EL_Slasher_Address: 0xD11d60b669Ecf7bE10329726043B3ac07B380C22
+Add BLS Compendium Address: 0xc81d3963087Fe09316cd1E032457989C7aC91b19
+
+## Register
+
+```bash
+eigenlayer operator register operator.yaml
+```
+
+*need testnet eth*
+
+## Stake ETH
+
+Stake ETH on Goerli
+
+- [Stader Staked ETH](https://goerli.etherscan.io/address/0xd0e400ec6ed9c803a9d9d3a602494393e806f823#writeProxyContract#F2)
+- [Token Contract ETHx](0x3338eCd3ab3d3503c55c931d759fA6d78d287236)
+
+- [ANKR Staked ETH](https://testnet.ankr.com/staking/stake/ethereum/)
+- [Token Contract](https://goerli.etherscan.io/token/0x2bbc91e1990f0dc5e5bad04aae000ca97f56990f)
+
+Deposit on EigenLayer [here](https://goerli.eigenlayer.xyz/token/ankrETH)
 
 ## DA
 
+Clone Repo and setup
+
 ```bash
+git clone https://github.com/Layr-Labs/eigenda-operator-setup.git
+cd eigenda-operator-setup
+cp .env.example .env
+```
+
+Edit .env
+
+- ECDSA and BLS private keys
+- node IP
+- rpc url
+- Key Passwords
+
+Make required local folders
+
+```bash
+mkdir -p $HOME/.eigenlayer/eigenda/logs
+mkdir -p $HOME/.eigenlayer/eigenda/db
+```
+
+Register as AVS for EigenDA
+
+```bash
+# register
 sudo ./run.sh opt-in
+
+# run eigenDA 
+sudo docker compose up -d
+
+# validate
+sudo docker ps
+```
+
+## Output
+
+Verbose stuff
+
+```bash
+# Registering for EigenDA 
+$ sudo ./run.sh opt-in
+
 using socket: ec2-13-115-69-92.ap-northeast-1.compute.amazonaws.com:32005;32004
 2024/01/21 22:33:54 maxprocs: Leaving GOMAXPROCS=2: CPU quota undefined
 2024/01/21 22:33:54 Info: plugin configs and flags parsed
@@ -40,7 +163,10 @@ INFO [01-21|22:33:59.803|github.com/Layr-Labs/eigenda/node/operator.go:46] Quoru
 INFO [01-21|22:34:00.331|github.com/Layr-Labs/eigenda/node/operator.go:73] Should call churner                      shouldCallChurner=true caller=operator.go:73
 INFO [01-21|22:34:00.331|github.com/Layr-Labs/eigenda/node/operator.go:115] churner url                              url=churner-goerli.eigenda.xyz:443 caller=operator.go:115
 2024/01/21 22:35:02 Info: successfully opt-in the EigenDA, for operator ID: f3cbbd02a20044c58ed57c8dfee9fd5d70858c3d3f449051651f0d5649031ac1, operator address: bc0a9e6ddb719aabc1da9783bc91c37401b3daea, socket: ec2-13-115-69-92.ap-northeast-1.compute.amazonaws.com:32005;32004, and quorums: [0]
-ubuntu@ip-172-31-40-110:~/eigenda-operator-setup$ docker compose up -d
+```
+
+```bash 
+$ docker compose up -d
 permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.config-hash%22%3Atrue%2C%22com.docker.compose.project%3Deigenda-operator-setup%22%3Atrue%7D%7D": dial unix /var/run/docker.sock: connect: permission denied
 ubuntu@ip-172-31-40-110:~/eigenda-operator-setup$ sudo docker compose up -d
 [+] Running 11/11
@@ -59,19 +185,13 @@ ubuntu@ip-172-31-40-110:~/eigenda-operator-setup$ sudo docker compose up -d
  ⠧ Network eigenda-network                           Created                                                                                                                                                                                         1.7s 
  ✔ Container eigenda-native-node                     Started                                                                                                                                                                                         1.3s 
  ✔ Container eigenda-operator-setup-reverse-proxy-1  Started                                                                                                                                                                                         0.7s 
-ubuntu@ip-172-31-40-110:~/eigenda-operator-setup$ docker ps
-permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json": dial unix /var/run/docker.sock: connect: permission denied
-ubuntu@ip-172-31-40-110:~/eigenda-operator-setup$ sudo docker ps
-CONTAINER ID   IMAGE                                              COMMAND                  CREATED          STATUS          PORTS                                                                                      NAMES
-1fe62d2ef283   nginx:latest                                       "/docker-entrypoint.…"   30 seconds ago   Up 28 seconds   80/tcp, 0.0.0.0:32004->32004/tcp, :::32004->32004/tcp                                      eigenda-operator-setup-reverse-proxy-1
-267e54b82e25   ghcr.io/layr-labs/eigenda/opr-node:release-0.2.2   "node"                   30 seconds ago   Up 28 seconds   0.0.0.0:9092->9092/tcp, :::9092->9092/tcp, 0.0.0.0:32005->32005/tcp, :::32005->32005/tcp   eigenda-native-node
 ```
-
 
 Validating the service
 
 ```bash
-sudo docker ps
+$ sudo docker ps
+
 CONTAINER ID   IMAGE                                              COMMAND                  CREATED          STATUS          PORTS                                                                                      NAMES
 1fe62d2ef283   nginx:latest                                       "/docker-entrypoint.…"   30 seconds ago   Up 28 seconds   80/tcp, 0.0.0.0:32004->32004/tcp, :::32004->32004/tcp                                      eigenda-operator-setup-reverse-proxy-1
 267e54b82e25   ghcr.io/layr-labs/eigenda/opr-node:release-0.2.2   "node"                   30 seconds ago   Up 28 seconds   0.0.0.0:9092->9092/tcp, :::9092->9092/tcp, 0.0.0.0:32005->32005/tcp, :::32005->32005/tcp   eigenda-native-node
