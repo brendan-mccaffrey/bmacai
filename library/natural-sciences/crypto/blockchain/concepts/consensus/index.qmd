@@ -25,6 +25,10 @@ title: Consensus
 - [Another advantage of free choice (Extended Abstract): Completely asynchronous agreement protocols](https://dl.acm.org/doi/10.1145/800221.806707)
 - [Simple Proofs of Space-Time and Rational Proofs of Storage](https://eprint.iacr.org/2016/035.pdf)
 
+### New
+
+- [Motorway: Seamless high speed BFT](https://arxiv.org/abs/2401.10369)
+
 ## Research
 
 - [PoS vs Proof of Spacetime](https://spacemesh.io/blog/proof-of-stake-vs-proof-of-space-time/)

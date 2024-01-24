@@ -6,3 +6,13 @@ title: Ethena
 
 - [github](https://github.com/ethena-labs/code4arena-contest/tree/main/protocols/USDe)
 - [documentation](https://ethena-labs.gitbook.io/ethena-labs/solution-design/overview)
+- [website](https://www.ethena.fi/)
+- [mirror blog](https://mirror.xyz/0xF99d0E4E3435cc9C9868D1C6274DfaB3e2721341)
+
+- [contract addresses](https://ethena-labs.gitbook.io/ethena-labs/solution-design/contract-addresses)
+- [how to mint usde](https://ethena-labs.gitbook.io/ethena-labs/video-guides/how-to-mint-usde)
+- [Ethena Minting Contract](https://etherscan.io/address/0x2cc440b721d2cafd6d64908d6d8c4acc57f8afc3#code)
+- [Staked USDe contract](https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497)
+- [USDe Token](https://etherscan.io/address/0x4c9edd5852cd905f086c759e8383e09bff1e68b3)
+- [sUSDe token](https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497)
+- [USDe Code4Arena](https://github.com/ethena-labs/code4arena-contest/tree/main/protocols/USDe)
