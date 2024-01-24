@@ -7,6 +7,24 @@ subtitle: Running a Rust Ethereum (Reth) node, and serving a private rpc.
 
 Running an Ethereum node post-merge consists of running a client for both the execution layer (EL) and consensus layer (CL).
 
+## Setup
+
+First thing is first, we need to setup our environment. This assumes you have a fresh Ubuntu machine. We first want to install Rust.
+
+```bash
+# system update
+sudo apt update
+# install rust
+sudo apt install rustc
+# install deps 
+sudo apt-get install libclang-dev pkg-config build-essential
+# install cargo
+sudo apt install cargo
+
+# install rustup
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
 **Execution Layer Client Options**
 
 - [Reth](https://github.com/paradigmxyz/reth) | [Book](https://paradigmxyz.github.io/reth/)
@@ -35,6 +53,19 @@ Vendor ID:               GenuineIntel
 ## How to Run Your Own Ethereum Full Node
 
 ### 1. Installation
+
+Download Reth
+
+```bash
+# clone repo
+git clone https://github.com/paradigmxyz/reth
+cd reth
+# install reth into path directly
+cargo install --locked --path bin/reth --bin reth
+```
+The binary will now be accessible as `reth` via the command line, and exist under your default `.cargo/bin` folder
+
+OLD VERSION
 
 Download the [latest version](https://github.com/paradigmxyz/reth/releases) of Reth and extract its contents.
 ```bash
