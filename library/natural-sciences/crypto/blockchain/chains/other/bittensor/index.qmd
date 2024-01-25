@@ -1,0 +1,54 @@
+---
+title: Bit Tensor
+---
+
+## Overview
+
+
+Note from a friend, November 8
+
+<blockquote>
+Bittensor Thoughts 11-8
+
+$TAO is up another 15% since Monday morning. Fully diluted value is $765mm. 
+BTC compute network is 500x the size of Google’s datacenters. Bittensor does to machine learning networks what BTC did for money. It orchestrates a global network of ML nodes to train & learn together, thus compounding compute power and quality. 
+
+Open models can scale faster than siloed models (lower compute cost plus intelligence gains from model interoperability - Read Google leak, Meta engineering posts, MIT Tech Review) Also, OpenTensor foundation 3B parameter model is the most performant in the world (read BTLM - bittensor language model developed w/Cerebras)
+
+
+Supply:
+
+Miners (off-chain compute providers)  coordinated and compensated ($TAO) by validators (oracles)
+
+Validators rank miners by intelligence contribution (incentivized w/$TAO)
+
+Demand:
+
+Developers/AI researchers build on top of validators 
+
+Value Add:
+Researchers can monetize their work 
+Models built on network compound learning. interoperability via open-source model. 
+
+Tokenomics:
+
+Follows BTC supply and halving schedule.
+No VCs or insiders allocated.
+Distribution via mining/validation
+
+
+Competitors:
+Together AI (no token)
+Gensyn (raised from VCs, ICO coming soon apparently)
+
+Risks:
+
+Potential regulatory risk depending on how legislation develops, however, open source/distributed nature creates resiliency.
+
+Unproven subnet model/incentive system
+
+Potential Upside:
+
+OpenAI secondaries selling at $90B, 80% haircut = $18B valuation
+18,000mm/765mm = 23.52x
+</blockquote>
