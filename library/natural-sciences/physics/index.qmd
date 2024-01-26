@@ -10,7 +10,7 @@ This page provides a brief overview of each subdomain of physics. Each header is
 
 - [Dan Fleisch](https://www.danfleisch.com/)
 
-## [Classical Physics](classical/index.qmd)
+## [Classical Physics](topics/index.qmd)
 
 Classical Physics encompasses the theories and principles that describe the natural world in terms of macroscopic scales and speeds much slower than the speed of light. It is the framework in which forces, energy, and matter interact and is often considered to be the classical limit of more advanced theories, such as quantum mechanics and general relativity.
 
@@ -40,9 +40,9 @@ Classical Physics encompasses the theories and principles that describe the natu
 
 This category aims to provide a comprehensive understanding of the physical principles that govern our everyday world and serves as a foundation for other, more specialized fields in physics.
 
-## [Astrophysics](astrophysics/index.qmd)
+## [Cosmology](cosmology/index.qmd)
 
-Astrophysics is a branch of astronomy that applies the principles of physics and mathematics to understand the fundamental workings of the universe. It aims to explain the behavior and characteristics of astronomical objects, from stars and planets to galaxies and the entire universe itself.
+Astrophysics/cosmology is a branch of astronomy that applies the principles of physics and mathematics to understand the fundamental workings of the universe. It aims to explain the behavior and characteristics of astronomical objects, from stars and planets to galaxies and the entire universe itself.
 
 ##### **Primary Subdomains**
 1. **Cosmology** - The study of the origin, structure, and eventual fate of the universe.
@@ -67,7 +67,7 @@ Astrophysics is a branch of astronomy that applies the principles of physics and
 
 This category serves as an essential foundation for understanding the complexities of the universe, helping to answer fundamental questions related to our existence and the nature of reality itself.
 
-## [Electromagnetism](electromagnetism/index.qmd)
+## [Electromagnetism](topics/electromagnetism/index.qmd)
 
 Electromagnetism is one of the four fundamental forces in nature, governing the behavior of electrically charged particles and their interactions through electric and magnetic fields. It unifies electricity and magnetism into a single theory, initially formulated by James Clerk Maxwell in the 19th century. This theory is described by Maxwell's equations, which provide the mathematical foundation for understanding electromagnetic phenomena.
 
@@ -90,7 +90,7 @@ Electromagnetism is one of the four fundamental forces in nature, governing the 
 ### Additional Notes
 Electromagnetism also serves as a cornerstone for more advanced theories in physics, such as Quantum Electrodynamics (QED) and the Standard Model of particle physics. It is crucial for understanding a broad range of phenomena, from the interaction of subatomic particles to the large-scale behavior of galaxies.
 
-## [Materials Physics](materials/index.qmd)
+## [Materials Physics](topics/materials/index.qmd)
 
 Materials Physics is a subfield of condensed matter physics that focuses on the study of materials and their properties at the microscopic or atomic level. This branch of physics aims to understand how the individual components (atoms, molecules, etc.) of a material contribute to its macroscopic properties like strength, electrical conductivity, and thermal properties. Materials physics seeks not just to understand existing materials but also to predict and create new materials with desired properties.
 
@@ -138,7 +138,7 @@ Particle Physics is the branch of physics that studies the nature and behavior o
 ##### **Additional Notes**
 Particle physics often requires large-scale experiments and particle accelerators like the Large Hadron Collider (LHC) to test theories and discover new particles. The field has deep connections with quantum mechanics and relativity and often overlaps with other domains in physics and even other disciplines like cosmology and astrophysics. It is a rapidly evolving field, and recent advancements often lead to practical applications in various industries.
 
-## [Field Theory](field-theory/index.qmd)
+## [Field Theory](quantum/field-theory/index.qmd)
 
 Field Theory is a branch of physics that deals with the study of fields, which are functions that assign a value to each point in space and time. In physics, fields are used to represent various physical quantities such as electromagnetic fields, gravitational fields, and quantum fields. The concept of a field is instrumental in describing how forces act at a distance and how particles interact with each other.
 

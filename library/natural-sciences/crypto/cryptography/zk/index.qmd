@@ -81,6 +81,7 @@ Three critical properties a ZKP must satisfy:
 - [Beginner Intro to Coding ZK Proofs](https://dev.to/spalladino/a-beginners-intro-to-coding-zero-knowledge-proofs-c56)
 - [zkSNARKs Under the Hood](https://github.com/tarassh/zkSNARK-under-the-hood/tree/main)
 - [Under the hood of zkSNARK Groth16 protocol | part 1](https://medium.com/coinmonks/under-the-hood-of-zksnark-groth16-protocol-2843b0d1558b)
+- [PLONK implemented, from scratch, in python](https://github.com/tarassh/zkSNARK-under-the-hood/blob/main/plonk2.ipynb)
 
 
 ### Practical Applications
@@ -125,8 +126,6 @@ Blockchain product: Bonsai
 - [Vitalik Intro 1](https://vitalik.ca/general/2017/11/09/starks_part_1.html)
 - [Vitalik Intro 2](https://vitalik.ca/general/2017/11/22/starks_part_2.html)
 - [Vitalik Intro 3](https://vitalik.ca/general/2018/07/21/starks_part_3.html)
-
-
 
 
 

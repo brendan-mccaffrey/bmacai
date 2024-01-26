@@ -1,0 +1,15 @@
+---
+title: DePIN
+description: Decentralized physical infrastructure networks
+---
+
+## Projects
+
+- [Helium](https://www.helium.com/)
+- [IO.net](https://io.net/)
+- [GenSyn](https://www.gensyn.ai/)
+- [Bittensor](https://bittensor.com/whitepaper)
+- [Akash](https://akash.network/)
+- [Hivemapper](https://hivemapper.com/explorer)
+
+## Antimetal

@@ -1,3 +1,0 @@
-## Implementations
-
-- PLONK implemented, from scratch, in python: [here](https://github.com/tarassh/zkSNARK-under-the-hood/blob/main/plonk2.ipynb)

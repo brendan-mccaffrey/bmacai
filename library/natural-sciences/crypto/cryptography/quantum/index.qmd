@@ -1,0 +1,7 @@
+---
+title: Quantum Cryptography
+---
+
+## Resources
+
+- [Public-Key Quantum Money from Collision-Resistant Hash Functions](https://eprint.iacr.org/2023/069)

@@ -11,9 +11,9 @@ An Evolution of MEV in Decentralized State Machines
 
 ## Context
 
-I enrolled in the University of Pennsylvania when I was 17 years old, studying Computer Science in Penn's School of Engineering. In 2019, I decided to explore the world of business (concentrating in Finance, in particular), so I applied to the Wharton School of Business to pursue a second Bachelor's degree, concentrating in Quantitative Finance.
+At 17, I enrolled at the University of Pennsylvania to study Computer Science in the School of Engineering. Throughout my first year, Wharton's presence, and seeming cultural importance, highlighted that my primary education left me with no concept of what it meant to study "Business". In a refusal to accept this ingorance, I applied to the Wharton School, and ended up concentrating in quantitative finance.
 
-In the Summer of 2021, I worked as an intern for an active, multi-strategy New York family office. Within the first month of my internship, I discovered [MEV in blockchain networks](../../../library/natural-sciences/crypto/blockchain/mev/index.qmd). For the next few months, I pursued "searching" (the act of axtracting MEV): learning the Solidity and Golang programming languages from scratch, familiarizing myself with the Ethereum Virutal Machine, and developing infrastructure to automate on-chain arbitrage monitoring, and execution.
+In the Spring of 2021, I worked as an intern for an active, multi-strategy New York family office. Within the first month of my internship, I discovered [MEV in blockchain networks](../../../library/natural-sciences/crypto/blockchain/chains/ethereum/mev/index.qmd). For the next few months, I pursued "searching" (the act of axtracting MEV): learning the Solidity and Golang programming languages from scratch, familiarizing myself with the Ethereum Virutal Machine, and developing infrastructure to automate on-chain arbitrage monitoring, and execution.
 
 Towards the end of the Summer, I was offered a full time role. I continued my job as I return to UPenn that Fall, spending much of my time in New York when I wasn't [playing football](https://twitter.com/pennsprintfb/status/1446626130098671617?s=42&t=oqC5_9pcT5b99vHFKjiF2g) in Philadelphia. My grades suffered, but it was worth it. I learned far more *in the arena* that I did in the classroom, and my journey in MEV was fruitful, to say the least.
 

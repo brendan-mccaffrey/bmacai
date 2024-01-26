@@ -10,6 +10,10 @@ title: Computer Science
     - TLDR: Three different regions of Kerala encountered phone adotpion at different times. Each region saw adoption go from 0% to 60% within ~10 weeks. The effects on the fishing market were crystal clear and significant. Fish price volatility dropped by magnitudes, displaying the enablement of information transfer.
 - [Network Effects Bible](https://www.nfx.com/post/network-effects-bible)
 
+## Accelerationism
+
+- [bci/acc: A Pragmatic path to compete with artificial superintelligence](https://medium.com/@trentmc0/bci-acc-a-path-to-balance-ai-superintelligence-80bb6f32e39c)
+
 ## Firmware
 
 - [Reverse Engineering Qualcomm Baseband Scripts](https://github.com/mzakocs/qualcomm_baseband_scripts)

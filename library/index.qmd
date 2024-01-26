@@ -22,4 +22,4 @@ If you are curious to see where I intend to go with this, I'd recommend viewing 
 
 - [Physics](natural-sciences/physics/index.qmd)
 - [History of AI](natural-sciences/ai/history-of-ai/index.qmd)
-- [Ethereum](natural-sciences/crypto/blockchain/ethereum/index.qmd)
+- [Ethereum](natural-sciences/crypto/blockchain/chains/ethereum/mainnet/index.qmd)

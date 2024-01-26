@@ -2,6 +2,13 @@
 title: Real World Assets
 ---
 
+## Projects
+
+- [Plume Network](https://www.plumenetwork.xyz/)
+- [Canton Network](https://www.canton.network/)
+- [Digital Asset](https://www.digitalasset.com/)
+- [GoldFinch](https://goldfinch.finance/)
+
 ## Checker, Jack Chong
 
 - [Checker Deck, 2023](checker-deck.pdf)
