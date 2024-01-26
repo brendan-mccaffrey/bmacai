@@ -42,13 +42,6 @@ description: Where the value lies.
     - ZCash and Monero use these to shield transaction amounts
 
 
-___
 
-{{< include _proofs.qmd >}}
-
-
-___
-
-{{< include _topics.qmd >}}
 
 
