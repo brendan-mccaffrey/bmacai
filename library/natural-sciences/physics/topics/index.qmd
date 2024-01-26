@@ -8,6 +8,10 @@ description: Observing the world around us
 - [Thermodynamics of Information](https://arxiv.org/pdf/2306.12447.pdf)
 - [Langrangian and Hamiltonian Mechanics](https://www.youtube.com/watch?v=0DHNGtsmmH8)
 
+## Fluid Dynamics
+
+- [200 Years of the NAvier-Stokes Equation](https://arxiv.org/pdf/2401.13669.pdf)
+
 
 ### Energetics of Turbulent Fluids
 

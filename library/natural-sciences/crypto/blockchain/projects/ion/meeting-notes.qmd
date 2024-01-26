@@ -1,0 +1,54 @@
+---
+title: Ion Meeting
+---
+
+## Resources
+
+- [Docs](https://docs.ionprotocol.io/)
+
+## Meeting Notes
+
+Worked at Capital
+
+Worked with Jae to work on Pentagon after Rari
+
+Joined BlockchainCap for research, was there for Eigenlayer. Got the idea of fragmented liquidity and varying risk profiles for restaking. Gaps to scaling liquidity allocation if you couldn't solve those problems. 
+
+Started Ion in late 2022, raised in March and closed in May. Looking to ship to market next month.
+
+Lending platform for staked and restaked assets.
+
+- capital efficiency
+- minimized borrow and lender risk
+- no dependency on price oracles
+- underlying collateral is assets in a validator somewhere, they can support it  
+- 0 exposure to price manipulation risk. Underwriting is not based on depth
+Underwrite on depth of capital in validator. "As long as I can redeem my asset for the underlying, then the position is solved. If lstETH depegs, but I know I can still redeem, why would I be liquidated."
+
+- provider data feeds
+-backup zk state proof of beacon chain to understand validator balance
+- if user got slashed, 
+
+Renzo, Etherfi, Kelp, Swell, Rust finance
+
+They will be doing a points system to rewards early LPs. Start slowly, weekly biweekly tranches. 50mm lender 25mm borrow side max for points allocation. Whitelisted lenders borrowers at first. Start at 1mm, then do 10mm, and slowly scale to 50mm.
+
+LRT and LST backed CDPs could be competition.
+
+Likely working with the oiler team. Using the EVC, deploying their market on Oiler V2.
+
+Product Market fit: first product is LRT LST lending market. 
+
+Lender: Like Compound V3, lender side deposits and its not cross collateralized.
+lender can't borrow against it only earns yield.
+
+Borrow side: You have an LRT, you are earning LRT points and Eigen points. You think the AVS rewards are going to compound into a large airdrop. You want to increase your exposure. Take out loan (they are targeting 5% real cost on loan) and you can 2x your exposure to the LRT, airdrops, 
+
+
+Will focus on Ethereum first, can potentially scale to Babylon/Bitcoin, Celestia, Monad later on. 
+
+Offering ability to get 1st tranch, points allocation, etc. Can be custom terms
+
+Min 1mm, max 2.5mm on lend side and 1 on borrow side.
+
+
