@@ -435,14 +435,32 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth3 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/cryptography/fhe.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../../library/natural-sciences/crypto/cryptography/zk/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ZK</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../library/natural-sciences/crypto/cryptography/fhe/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">FHE</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../library/natural-sciences/crypto/cryptography/zk.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ZK</span></a>
+  <a href="../../../../library/natural-sciences/crypto/cryptography/quantum/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quantum Cryptography</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../library/natural-sciences/crypto/cryptography/proofs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Proofs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../library/natural-sciences/crypto/cryptography/topics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cryptographic Topics</span></a>
   </div>
 </li>
       </ul>
@@ -768,6 +786,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../../../library/natural-sciences/crypto/blockchain/concepts/dePIN/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">DePIN</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../../../library/natural-sciences/crypto/blockchain/concepts/governance/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Governance</span></a>
   </div>
@@ -970,6 +994,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../../../../library/natural-sciences/cs/cybersecurity/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cybersecurity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../library/natural-sciences/cs/theory/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Computational Theory</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
@@ -1365,16 +1395,19 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<section id="general-resources" class="level2">
+<h2 class="anchored" data-anchor-id="general-resources">General Resources</h2>
 <ul>
 <li><a href="https://crypto.stanford.edu/~dabo/cryptobook/BonehShoup_0_4.pdf">Applied Cryptography</a></li>
 <li><a href="https://cryptome.org/2013/10/nsa-tor-stinks.pdf">NSA: tor Stinks</a></li>
 <li><a href="https://www.arijuels.com/wp-content/uploads/2023/01/Complete_Knowledge.pdf">Complete Knowledge: Preventing Encumbrance of Cryptographic Secrets</a></li>
+<li><a href="https://superuser.com/questions/1561434/how-do-i-crack-a-double-encrypted-hash/1561612#1561612">Shucking Attacks</a></li>
+<li><a href="https://arxiv.org/abs/2306.08585">Breaking Elliptic Curve - How to compute a 256-bit elliptic curve private key with only 50 million Toffoli gates</a></li>
+<li>PLONK implemented, from scratch, in python: <a href="https://github.com/tarassh/zkSNARK-under-the-hood/blob/main/plonk2.ipynb">here</a></li>
 </ul>
 </section>
-<section id="good-papers" class="level2">
-<h2 class="anchored" data-anchor-id="good-papers">Good Papers</h2>
+<section id="renowned-papers" class="level2">
+<h2 class="anchored" data-anchor-id="renowned-papers">Renowned Papers</h2>
 <ul>
 <li>1976 | <a href="https://t.co/xqjkEf7TEV">New Directions in Cryptography</a></li>
 <li>1978 | <a href="https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=856E21BC2F75800D37FD611032C30B9C?doi=10.1.1.40.5588&amp;rep=rep1&amp;type=pdf">A Method for Obtaining Digital Signatures and Public-Key Cryptosystems</a></li>
@@ -1395,8 +1428,9 @@ ul.task-list li input[type="checkbox"] {
 <li>2020 | <a href="https://www.iacr.org/cryptodb/data/paper.php?pubkey=30645">Public-Coin Zero-Knowledge Arguments with (almost) Minimal Time and Space Overheads</a></li>
 <li>2023 | <a href="https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf">Proofs, Arguments, and Zero Knowledge</a></li>
 </ul>
-<section id="cryptographic-primitives" class="level3">
-<h3 class="anchored" data-anchor-id="cryptographic-primitives">Cryptographic Primitives</h3>
+</section>
+<section id="primitives" class="level2">
+<h2 class="anchored" data-anchor-id="primitives">Primitives</h2>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Digital_signature">Digital Signatures</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Public-key_cryptography">Asymmetric (Public/Private Key) Cryptography</a></li>
@@ -1406,124 +1440,8 @@ ul.task-list li input[type="checkbox"] {
 <li>ZCash and Monero use these to shield transaction amounts</li>
 </ul></li>
 </ul>
-</section>
-<section id="quantum-cryptography" class="level3">
-<h3 class="anchored" data-anchor-id="quantum-cryptography">Quantum Cryptography</h3>
-<ul>
-<li><a href="https://eprint.iacr.org/2023/069">Public-Key Quantum Money from Collision-Resistant Hash Functions</a></li>
-</ul>
-</section>
-<section id="cryptanalysis" class="level3">
-<h3 class="anchored" data-anchor-id="cryptanalysis">Cryptanalysis</h3>
-<ul>
-<li><a href="https://superuser.com/questions/1561434/how-do-i-crack-a-double-encrypted-hash/1561612#1561612">Shucking Attacks</a></li>
-<li><a href="https://arxiv.org/abs/2306.08585">Breaking Elliptic Curve - How to compute a 256-bit elliptic curve private key with only 50 million Toffoli gates</a></li>
-</ul>
-</section>
-</section>
-<section id="computational-complexity-theory" class="level2">
-<h2 class="anchored" data-anchor-id="computational-complexity-theory">Computational Complexity Theory</h2>
-<p>“NP” is short for “nondeterministic polynomial-time”</p>
-<section id="np-completeness" class="level4">
-<h4 class="anchored" data-anchor-id="np-completeness"><strong>NP-Completeness</strong></h4>
-<p>A problem is NP-Complete when - It is a decision problem, meaning that for any input to the problem, the output is either “yes” or “no”. - When the answer is “yes”, this can be demonstrated through the existence of a short (polynomial length) solution. - The correctness of each solution can be verified quickly (namely, in polynomial time) and a brute-force search algorithm can find a solution by trying all possible solutions. - The problem can be used to simulate every other problem for which we can verify quickly that a solution is correct. In this sense, NP-complete problems are the hardest of the problems to which solutions can be verified quickly. If we could find solutions of some NP-complete problem quickly, we could quickly find the solutions of every other problem to which a given solution can be easily verified.</p>
-<hr>
-</section>
-</section>
-<section id="proofs" class="level2">
-<h2 class="anchored" data-anchor-id="proofs">Proofs</h2>
-<p>A cryptographic proof must be <strong>complete</strong> and <strong>sound</strong>.</p>
-<p>Alice wants to prove knowledge of something (she holds a secret key, for example) to Bob</p>
-<ul>
-<li><strong>Completeness:</strong> If Alice performs the protocol honestly, will Bob be satisfied at the end of it?</li>
-<li><strong>Soundness:</strong> If Alice successfully convinces Bob, then she must know the secret key.</li>
-</ul>
-</section>
-<section id="the-schnorr-identification-protocol" class="level2">
-<h2 class="anchored" data-anchor-id="the-schnorr-identification-protocol">The Schnorr Identification Protocol</h2>
-<p>The Schnorr protocol, invented by Claus-Peter Schnorr in the 1980s, was concerned with identification.</p>
-<p>Imagine that Alice has published her public key to the world, and later on wants to prove that she knows the secret key corresponding to that public key. This is the exact problem that we encounter in real-world protocols such as public-key SSH, so it turns out to be well-motivated.</p>
-<p>Schnorr began with the assumption that the public key would be of a very specific format.</p>
-<p>Specifically, let <span class="math inline">\(p\)</span> be some prime number, and let <span class="math inline">\(g\)</span> be a <a href="https://en.wikipedia.org/wiki/Generating_set_of_a_group">generator</a> of a <a href="https://en.wikipedia.org/wiki/Cyclic_group">cyclic group</a> of prime-order <span class="math inline">\(q\)</span>. To generate a keypair, Alice would first pick a random integer <span class="math inline">\(a\)</span> between 1 and <span class="math inline">\(q\)</span>, and then compute the keypair as:</p>
-<p><span class="math display">\[PK_A = g^a \: mod \: p, \; SK_A = a\]</span></p>
-<p>Later on, she wants to prove knowledge of her secret key, she conducts the following interaction with Bob.</p>
-<ol type="1">
-<li>Alice: Pick a random <span class="math inline">\(k\)</span> in range <span class="math inline">\(1, \, ... \, , \, q\)</span> and send Bob <span class="math inline">\(h = g^k \: mod \: p\)</span></li>
-<li>Bob: Pick a random <span class="math inline">\(c\)</span> in range <span class="math inline">\(1, \, ... \, , \, q\)</span> and send Alice <span class="math inline">\(c\)</span></li>
-<li>Alice: Send Bob <span class="math inline">\(s = ac + k \: mod \: q\)</span></li>
-<li>Bob: Check that <span class="math inline">\(g^s = PK^c_A \dot h \: mode \: p\)</span></li>
-</ol>
-<section id="is-this-complete" class="level4">
-<h4 class="anchored" data-anchor-id="is-this-complete"><strong>Is this complete?</strong></h4>
-<p>Yes, just by looking at the math and performing substitution.</p>
-<p><span class="math display">\[
-\begin{aligned}
-g^s &amp; \equiv P K_A^c \cdot h &amp; &amp; \bmod p \\
-g^{a c+k} &amp; \equiv\left(g^a\right)^c \cdot g^k &amp; &amp; \bmod p \\
-g^{a c+k} &amp; \equiv g^{a c+k} &amp; &amp; \bmod p
-\end{aligned}
-\]</span></p>
-</section>
-<section id="is-it-sound" class="level4">
-<h4 class="anchored" data-anchor-id="is-it-sound"><strong>Is it sound?</strong></h4>
-<p>We demonstrate soundness with a special algorithm called a knowledge extractor. A knowledge extractor (or just ‘Extractor’ for short) is a special type of Verifier that interacts with a Prover, and — if the Prover succeeds in completing the proof — the Extractor should be able to extract the Prover’s original secret.</p>
-<p>To prove soundness for a proof of knowledge, we must show that an Extractor exists for every possible Prover.</p>
-<p>The extractor for the Schnorr protocol is very simple: After step 3 is complete, rewind the interaction back to step 2. This tricks Alice into performing step 3 with two different <span class="math inline">\(c\)</span> values (<span class="math inline">\(c1\)</span> and <span class="math inline">\(c2\)</span>) using the same <span class="math inline">\(k\)</span>.</p>
-<p>The extractor can then solve the following equation to recover Alice’s secret:</p>
-<p><span class="math display">\[
-\begin{array}{rr}
-\left(s_1-s_2\right) /(c 1-c 2) &amp; \bmod q \\
-=\left(a c_1+k\right)-\left(a c_2+k\right) /(c 1-c 2) &amp; \bmod q \\
-=a(c 1-c 2) /(c 1-c 2) &amp; \bmod q \\
-&amp; =a
-\end{array}
-\]</span></p>
-</section>
-<section id="is-it-zero-knowledge" class="level4">
-<h4 class="anchored" data-anchor-id="is-it-zero-knowledge"><strong>Is it zero-knowledge?</strong></h4>
-<p>We can prove zero-knowledgeness by describing a Simulator that can interact with any possible Verifier and produce a ‘simulated’ transcript of the proof, even if the Simulator doesn’t know the secret it’s proving it knows.</p>
-<p>The Schnorr protocol does not have such a Simulator. to make the proof work, we need to make an assumption:</p>
-<p>the Verifier needs to be “honest”, meaning it will pick its challenge “c” using only its random number generator, <em>and will not choose this value based on any input we provide it</em>.</p>
-<p>The Simulator does the following:</p>
-<ol type="1">
-<li>Output some initial <span class="math inline">\(g^{k_1}\)</span> as the Prover’s first message, and find out what the Verifier chooses.</li>
-<li>Rewind the Verifier, and pick a random integer <span class="math inline">\(z\)</span> in the range <span class="math inline">\(1, \, ... \, , \, q - 1\)</span></li>
-<li>Compute <span class="math inline">\(g^{k_2} = g^z \times g^{a(-c)}\)</span> and output <span class="math inline">\(g^{k_2}\)</span> as the Prover’s new initial message.</li>
-<li>When the verifier challenges on <span class="math inline">\(c\)</span> again, output <span class="math inline">\(z\)</span>.</li>
-</ol>
-<p>This proves the protocol must be zero-knowledge <em>against an honest Verifier</em>.</p>
-</section>
-<section id="making-it-non-interactive" class="level4">
-<h4 class="anchored" data-anchor-id="making-it-non-interactive"><strong>Making it non-interactive</strong></h4>
-<p>What if Bob is not online?</p>
-<p>Turns out you can use a sufficient hash function to generate the challenge.</p>
-<ol type="1">
-<li>Prover picks <span class="math inline">\(g^k\)</span> just as in the interactive protocol.</li>
-<li>Prover computes the challenge as <span class="math inline">\(c = H(g^k \, || \, M)\)</span> where <span class="math inline">\(H()\)</span> is a hash function, and <span class="math inline">\(M\)</span> is an optional and arbitrary message string.</li>
-<li>Compute <span class="math inline">\(s = ac + k \: mod \: q\)</span> just as in the interactive protocol.</li>
-</ol>
-<p>This non-interactive proof is not just a proof of knowledge, but it’s also a signature scheme. That is, if you put a message into the (optional) value <span class="math inline">\(M\)</span>, you obtain a signature on <span class="math inline">\(M\)</span>, which can only be produced by someone who knows the secret key <span class="math inline">\(a\)</span>. The resulting protocol is called the <em>Schnorr signature scheme</em>, and it’s the basis of real-world protocols like <a href="https://en.wikipedia.org/wiki/EdDSA">EdDSA</a>.</p>
-<hr>
-<section id="kzg-commitments" class="level5">
-<h5 class="anchored" data-anchor-id="kzg-commitments"><strong>KZG Commitments</strong></h5>
-<ul>
-<li>(Original Paper) <a href="https://link.springer.com/chapter/10.1007/978-3-642-17373-8_11">Constant-Size Commitments to Polynomials and Their Applications</a></li>
-<li>Dankrad Feist, <a href="https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html">KZG Polynomial Commitments</a></li>
-</ul>
-</section>
-<section id="bls" class="level5">
-<h5 class="anchored" data-anchor-id="bls"><strong>BLS</strong></h5>
-<p>Boneh-Lynn-Shacham Signature Scheme</p>
-<ul>
-<li><a href="https://eth2book.info/altair/part2/building_blocks/signatures">BLS Introduction</a></li>
-<li><a href="https://tools.ietf.org/id/draft-boneh-bls-signature-00.txt">BLS Signature Scheme</a></li>
-<li><a href="https://ethresear.ch/t/pragmatic-signature-aggregation-with-bls/2105?u=benjaminion">Pragmatic signature aggregation with BLS</a></li>
-<li><a href="https://gist.github.com/paulmillr/18b802ad219b1aee34d773d08ec26ca2">BLS Signature for Busy People</a></li>
-</ul>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->
