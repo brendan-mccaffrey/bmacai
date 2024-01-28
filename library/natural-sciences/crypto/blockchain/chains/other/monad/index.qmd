@@ -73,7 +73,3 @@ Currently have the 600mm in high demand, locked interest for 10.2 of the 12mm.
 
 
 
-
-- upgrade situation: have to propose a time, everyone has to upgrade binary at same time
-- if chain halt, everyone has to replace the binary
-- hard to get archive data, have to export chain state; have to run binary from 3 years ago
