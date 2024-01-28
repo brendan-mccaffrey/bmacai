@@ -40,15 +40,15 @@ page-layout: full
 - [Builder0x69](https://twitter.com/builder0x69)
 - [Faith Builder](https://f1b.io/)
 
-## Research
+# Research
 
-### Overviews
+## Overviews
 
 - [MEV by Galaxy Digital, Pt 2](https://www.galaxy.com/research/whitepapers/mev-the-rise-of-the-builders/)
 - [Someone's MEV Mega-resource](https://thedailyape.notion.site/MEV-8713cb4c2df24f8483a02135d657a221)
 - [Monoceros MEV Book](https://www.monoceros.com/insights/maximal-extractable-value-book)
 
-### Early Research
+## Early Research
 
 - [Enter the Hydra](https://eprint.iacr.org/2017/1090.pdf)
 - [The Cost of Decentralization in 0x and EtherDelta](https://hackingdistributed.com/2017/08/13/cost-of-decent/)
@@ -59,7 +59,7 @@ page-layout: full
 - [Ethereum is a Dark Forest](https://medium.com/@danrobinson/ethereum-is-a-dark-forest-ecc5f0505dff)
 - [Flashbots: Frontrunning the MEV Crisis](https://medium.com/flashbots/frontrunning-the-mev-crisis-40629a613752)
 
-### Research
+## General
 
 - [Flashbots Research Repository](https://github.com/flashbots/mev-boost/wiki/Research#open-questions)
 - [Flash Boys 2.1.0](https://shdw-drive.genesysgo.net/3KcecJBoHgQgUsRdciJYvXFgtsEf4T2LF8htjijjLGNr/Senior%20Thesis.pdf)
@@ -83,6 +83,14 @@ page-layout: full
 - [MEV Driven Centralization in Ethereum: Part 1](https://simbro.medium.com/mev-driven-centralization-in-ethereum-ec829a214f18)
 - [Exploration of MEV Latencies](https://frontier.tech/exploration-of-mev-latencies)
 - [Illuminate the Orderflow](https://writings.flashbots.net/illuminate-the-order-flow)
+
+## Oracle Extractable Vaue
+
+- [Chainlink, on Oracle Extractable Value](https://twitter.com/chainlink/status/1750987003842142497)
+    - Subtweet at [Uma](https://twitter.com/UMAprotocol)
+- [Fair Sequencing Services](https://blog.chain.link/chainlink-fair-sequencing-services-enabling-a-provably-fair-defi-ecosystem/)
+- [Chainlink Ari Juels: Fair Transaction-Ordering](https://www.youtube.com/watch?v=GBdDNEhszkg)
+- [Chainlink Data Streams](https://blog.chain.link/data-streams-mainnet/)
 
 ### MEV-Boost / Proposer-Builder Separation
 
@@ -114,7 +122,6 @@ page-layout: full
 - [The MEV in Nethermind in eth2](https://youtu.be/6MeKNSqC2es) at EthCC 4 by Tomasz Stańczak & Marcello Bardus (Flashbots/Nethermind)
 - [MEV on eth2](https://youtu.be/zsgC6mNP9eU) at ETHGlobal Scaling Ethereum Roast by Alex Obadia (Flashbots)
 - [MEV after The Merge with Nethermind and Flashbots](https://youtu.be/Hjd9WowOa3g) at ETHGlobal Scaling Ethereum conference by Alex Obadia & Tomasz Stańczak (Flashbots/Nethermind)
-
 
 
 ### Protocols, and Implementation Resources
