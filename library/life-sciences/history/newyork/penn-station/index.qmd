@@ -1,9 +1,28 @@
 ---
-title: Penn Station
+title: Penn and Grand Central
 ---
 
-# Context
+# Pennsylvania Station
 
 The original Penn Station (1910-1963) was among the most beautiful buildings in the Americas. Unfortunately, it was demolished in 1963.
 
 - [Wiki](https://en.wikipedia.org/wiki/Pennsylvania_Station_(1910%E2%80%931963))
+
+## Old
+
+- 1901: [PENNSYLVANIA TO GET 32D STREET BLOCK; Wants Both Sides of Street Between Ninth and Tenth Avenues. TO CONDEMN THE PROPERTY More Room Needed for Tunnel Project -- Cost Over $1,500,000 -- Rectory and School to Go.](https://web.archive.org/web/20180523011520/https://www.nytimes.com/1904/04/13/archives/pennsylvania-to-get-32d-street-block-wants-both-sides-of-street.html)
+- 1955: [PLANS OF 'PALACE' SUBMITTED TO CITY; Building Above Pennsylvania Station to Be Wider Than Code Now Provides For MANY PROBLEMS POSED Two-Block Structure Will Contain Exhibition Halls, a Mart and Offices](https://web.archive.org/web/20211029172959/https://www.nytimes.com/1955/06/24/archives/plans-of-palace-submitted-to-city-building-above-pennsylvania.html)
+
+## Recent 
+
+- [NYT 2015, A Place that made travelers feel important](https://www.nytimes.com/2015/01/04/upshot/a-place-that-made-travelers-feel-important.html)
+- [Pennsylvania Station Documentary](https://www.youtube.com/watch?v=7YwZFm3RrFw)
+- [Image Gallery of the Old Penn Station](https://web.archive.org/web/20191214051041/https://www.citylab.com/design/2013/10/10-gorgeous-nostalgic-photos-new-yorks-old-penn-station/7384/)
+
+
+
+# Grand Central
+
+Grand Central Terminal became a NYC landmark, but it wasn't among the first batch to gain protected status in 1965, we the Landmarks Preservation Commission was first established.
+
+- [How Gran Central Terminal was daved from destruction](https://web.archive.org/web/20180502200634/https://ny.curbed.com/2017/8/2/16082666/grand-central-terminal-landmarks-preservation-commission-midtown-east)
