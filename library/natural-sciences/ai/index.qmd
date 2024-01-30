@@ -12,6 +12,7 @@ table-of-contents: true
 
 - [Google | Introducing Gemini: our largest and most capable AI model](https://blog.google/technology/ai/google-gemini-ai/)
 - [Liquid AI](https://www.liquid.ai/)
+- [Learning Universal Predictors](https://arxiv.org/pdf/2401.14953.pdf)
 
 {{< include _philosophy.qmd >}}
 

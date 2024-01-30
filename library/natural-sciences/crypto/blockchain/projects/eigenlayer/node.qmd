@@ -7,10 +7,13 @@ description: Running an Eigenlayer operator node
 
 - [bmac](https://goerli.eigenlayer.xyz/operator/0xbc0a9e6ddb719aabc1Da9783BC91C37401B3DAea)
 - [Quant Drip](https://goerli.eigenlayer.xyz/operator/0xc7fa09a1aefb2447856fc9b109c7f037d740dbfe)
+- [Happy Feet](https://goerli.eigenlayer.xyz/operator/0x94f2dbaf324eb35a74f869b8159122b6bb9a38ef)
 
 ## Running a Node
 
 ### Setup
+
+**Create EC2 Instance**
 
 1. Create AWS Instance
 2. Copy IPv4 DNS
@@ -18,24 +21,7 @@ description: Running an Eigenlayer operator node
     - `nano ~/.zshrc`
     - `source ~/.zshrc`
 
-### Installation
-
-Install golang
-
-```bash
-wget https://go.dev/dl/go1.21.6.linux-amd64.tar.gz
-
-# extract
-tar -C /usr/local -xzf go1.21.6.linux-amd64.tar.gz
-
-# add to path
-export PATH=$PATH:/usr/local/go/bin
-
-# check 
-go version
-```
-
-Install Docker
+**Install Docker**
 
 ```bash
 # Add Docker's official GPG key:
@@ -59,7 +45,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo docker run hello-world
 ```
 
-Install Eigen
+**Install Eigen**
 
 ```bash
 # install Eigen CLI using binary
