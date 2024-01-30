@@ -23,9 +23,11 @@
     - [Github](https://github.com/patrickrchao/JailbreakingLLMs)
 
 #### **Coding**
+
 - [CodeFusion: A Pre-trained Diffusion Model for Code Generation](https://arxiv.org/abs/2310.17680)
 
 #### **Promting**
+
 - [Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution](https://arxiv.org/abs/2309.16797)
 
 
@@ -69,10 +71,12 @@
 - [Reasons to be Grateful for Biotechnology](https://www.readcodon.com/p/biotech-grateful)
 
 ### Other Topics
+
 1. [ChatGPT Political Biases](https://davidrozado.substack.com/p/political-bias-chatgpt)
 2. [3D Image Inpainting](https://colab.research.google.com/github/mrm8488/shared_colab_notebooks/blob/master/3D_Photo_Inpainting_multiple_download.ipynb#scrollTo=5o-EIMeaghU0)
 3. [Detecting Watermarks on GPT](https://twitter.com/tomgoldsteincs/status/1618287665006403585?s=20&t=M3iFtvAjzAXtua_e1l-WzQ)
 4. [Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook)
+
 
 
 
