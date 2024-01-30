@@ -35,7 +35,9 @@ description: "Cryptographic ledgers"
 - [The Spacemesh Protocol](https://drive.google.com/file/d/18I9GPebWqgpvusI1kMnAB9nayBbL-1qN/view)
 - [TON: The Open Network](https://ton.org/whitepaper.pdf)
 
+## Other
 
+- [Vitalik: Crypto x AI](https://vitalik.eth.limo/general/2024/01/30/cryptoai.html)
+- [When Giants Collide: Exploring the Convergence of Crypto x AI](https://blog.ueth.org/p/when-giants-collide-exploring-the)
 
-
-
+- [AiOmen: Demo of prediction market where AI are players](https://aiomen.eth.limo/)

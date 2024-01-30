@@ -8,6 +8,7 @@ title: Nutrition
 - [Green Tea Nutrient](https://twitter.com/drkohilathas/status/1646466159254929408?s=20)
 - [Oregano Oil, Natural Antibiotic](https://twitter.com/iluminatibot/status/1650264370319069185?s=20)
 - [Neurological Activity of Lion’s Mane (Hericium erinaceus)](https://restorativemedicine.org/journal/neurological-activity-lions-mane-hericium-erinaceus/)
+- [Raypeat Forum](https://raypeatforum.com/community/)
 
 {{< include _seed-oils.qmd >}}
 

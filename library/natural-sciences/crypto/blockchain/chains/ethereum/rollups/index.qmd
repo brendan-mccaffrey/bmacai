@@ -62,4 +62,3 @@ Parallel question: what is the technology choice resulting in that level of guar
     - rollup could revert if ethereum does
     - this is valuable for security reasons, allows AcctAbstraction wallets to use shared keystore architecture
 
-**Main Takeaways**

@@ -3,38 +3,7 @@ title: ZK
 subtitle: Zero Knowledge
 ---
 
-#### **Example: The 3-Color Graph Coloring Problem**
 
-A Zero-Knowledge Proof (ZKP) allows a prover to demonstrate knowledge of some secret without revealing the secret itself. Let's illustrate this using a graph coloring problem.
-
-##### **Problem Statement**
-Imagine Alice has a graph $(G = (V, E))$, where $(V)$ is the set of vertices and $(E)$ is the set of edges. Alice claims she can 3-color the graph so that no adjacent vertices share the same color. Bob wants to verify this claim without learning the actual coloring.
-
-##### **The ZKP Protocol**
-1. **Commitment**: Alice chooses a random permutation of her 3-coloring and commits to it, sending a cryptographic hash of each vertex's color to Bob.
-2. **Challenge**: Bob randomly selects an edge $((u, v) \in E)$
-3. **Response**: Alice reveals the colors of vertices $(u)$ and $(v)$.
-4. **Verification**: Bob checks if the revealed colors are different and match the hash commitments.
-
-Through repeated iterations, Bob becomes increasingly confident that Alice has a valid 3-coloring, but gains no knowledge about the coloring itself.
-
-##### **Math Syntax**
-- Graph: $(G = (V, E))$
-- Colors: $(\{ \text{Red}, \text{Green}, \text{Blue} \})$
-- Random Permutation: $(\pi)$
-- Hash Commitment for vertex $(v): ( H(\pi(\text{color}(v))) )$
-
-This example shows that ZKPs can provide robust verification without sacrificing the secrecy of the information involved.
-
-##### **Conclusion**
-
-Graph three coloring is NP-complete. Thus, any protocol that can prove a solution to this problem can be used to prove any statement in the class NP.
-
-Three critical properties a ZKP must satisfy:
-
-- Completeness: If the Prover is honest, then she will eventually convince the Verifier.
-- Soundness: The Prover can only convince the Verifier if the statement is true.
-- Zero-knowledge(ness): The Verifier learns no information beyond the fact that the statement is true.
 
 ## Reads
 
@@ -82,7 +51,7 @@ Three critical properties a ZKP must satisfy:
 - [zkSNARKs Under the Hood](https://github.com/tarassh/zkSNARK-under-the-hood/tree/main)
 - [Under the hood of zkSNARK Groth16 protocol | part 1](https://medium.com/coinmonks/under-the-hood-of-zksnark-groth16-protocol-2843b0d1558b)
 - [PLONK implemented, from scratch, in python](https://github.com/tarassh/zkSNARK-under-the-hood/blob/main/plonk2.ipynb)
-
+- [Using GKR inside a SNARK to reduce the cost of hash verification down to 3 constraints](https://ethresear.ch/t/using-gkr-inside-a-snark-to-reduce-the-cost-of-hash-verification-down-to-3-constraints/7550/3)
 
 ### Practical Applications
 - [Applied ZK](https://t.co/6TvEniH6kA)
@@ -130,3 +99,35 @@ Blockchain product: Bonsai
 
 
 
+## **Example: The 3-Color Graph Coloring Problem**
+
+A Zero-Knowledge Proof (ZKP) allows a prover to demonstrate knowledge of some secret without revealing the secret itself. Let's illustrate this using a graph coloring problem.
+
+##### **Problem Statement**
+Imagine Alice has a graph $(G = (V, E))$, where $(V)$ is the set of vertices and $(E)$ is the set of edges. Alice claims she can 3-color the graph so that no adjacent vertices share the same color. Bob wants to verify this claim without learning the actual coloring.
+
+##### **The ZKP Protocol**
+1. **Commitment**: Alice chooses a random permutation of her 3-coloring and commits to it, sending a cryptographic hash of each vertex's color to Bob.
+2. **Challenge**: Bob randomly selects an edge $((u, v) \in E)$
+3. **Response**: Alice reveals the colors of vertices $(u)$ and $(v)$.
+4. **Verification**: Bob checks if the revealed colors are different and match the hash commitments.
+
+Through repeated iterations, Bob becomes increasingly confident that Alice has a valid 3-coloring, but gains no knowledge about the coloring itself.
+
+##### **Math Syntax**
+- Graph: $(G = (V, E))$
+- Colors: $(\{ \text{Red}, \text{Green}, \text{Blue} \})$
+- Random Permutation: $(\pi)$
+- Hash Commitment for vertex $(v): ( H(\pi(\text{color}(v))) )$
+
+This example shows that ZKPs can provide robust verification without sacrificing the secrecy of the information involved.
+
+##### **Conclusion**
+
+Graph three coloring is NP-complete. Thus, any protocol that can prove a solution to this problem can be used to prove any statement in the class NP.
+
+Three critical properties a ZKP must satisfy:
+
+- Completeness: If the Prover is honest, then she will eventually convince the Verifier.
+- Soundness: The Prover can only convince the Verifier if the statement is true.
+- Zero-knowledge(ness): The Verifier learns no information beyond the fact that the statement is true.
