@@ -25,3 +25,15 @@
 - **Ace the Trading Systems Developer Interview (C++ Edition)**
 - **Professional Automated Trading: Theory and Practice**
 - **Trading Systems Performance Unleashed: Mastering Latency and Efficiency in High-Frequency Trading**
+
+### Bill Ackman's List
+
+- **Security Analysis**
+- **Quality of Earnings**
+- **Beating the Street**
+- **The Intelligent Investor**
+- **Essays of Warren Buffet**
+- **Margin of Safety**
+- **You can be a Stock Market Genius**
+- **The Warren Buffet Way**
+- **One Up on Wall Street**

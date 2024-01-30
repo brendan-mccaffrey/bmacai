@@ -2,13 +2,16 @@
 title: Prpgramming
 ---
 
-# Resources
+## Resources
 
-## Concepts & Practices
+### Tools
+
+- [jscpd: cl tool that finds copy/pasted code and reports duplicates](https://twitter.com/housecor/status/1751269325313355971)
+
+### Concepts & Practices
 
 - [Asynchronous I/O Programming under Linux](https://unixism.net/loti/index.html)
 
-
-## Project-Specific
+### Project-Specific
 
 - [Chrome Extension From Scratch - Inject JavaScript And CSS](https://www.youtube.com/watch?v=mgFo3fxuUyA)

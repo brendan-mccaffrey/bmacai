@@ -1,0 +1,7 @@
+---
+title: Censorship (& Resistance)
+---
+
+## Resources
+
+- [Censorship Resistance n On-Chain Auctions](https://assets-global.website-files.com/642f3d0236c604d1022330f2/6499f35e0bd0f43471a95adc_MEV_Auctions_ArXiV_6.pdf)

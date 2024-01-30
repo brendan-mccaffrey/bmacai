@@ -7,6 +7,10 @@
 - [Superconductors as quantum transducers and antennas for gravitational and electromagnetic radiation](https://arxiv.org/abs/gr-qc/0204012)
 - [Could superconductors transmute electromagnetic radiation into gravitational waves?](https://freerepublic.com/focus/f-chat/686516/posts)
 
+### Second Wave
+
+- [Global Room-Tempurature Superconductivity in Graphite](https://onlinelibrary.wiley.com/doi/10.1002/qute.202300230), and [tweet](https://twitter.com/alexkaplan0/status/1752007480102531580)
+
 ### Summary
 
 Superconductivity is a quantum mechanical phenomenon wherein certain materials, when cooled below a specific critical temperature, lose all electrical resistance and expel magnetic fields. The result is the unhindered flow of electric current, manifesting remarkable properties such as zero resistance and perfect diamagnetism. Initially discovered in simple elements like lead and mercury, superconducting properties have since been found in various alloys and complex materials.

@@ -25,6 +25,7 @@ Dex & Launchpad
 
 Leveraged Trading
 
+- [Elixir](https://twitter.com/ElixirProtocol/status/1752029197348798789)
 - [Ambient](https://twitter.com/ambient_finance/status/1747665083172610514)
 - [SynFutures](https://twitter.com/SynFuturesDefi/status/1747650087335911749)
 - [SphereX](https://twitter.com/SphereX_XYZ/status/1747399947920478309)

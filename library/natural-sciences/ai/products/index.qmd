@@ -1,0 +1,14 @@
+---
+title: AI Products
+---
+
+## AI Resources to Use
+
+- [Lumiere: Video inpainting, image-to-video, video-gen](https://lumiere-video.github.io/)
+- [Replace Anything: Image inpainting](https://huggingface.co/spaces/modelscope/ReplaceAnything)
+- [Genie 1.0: Text-to-3D](https://twitter.com/LumaLabsAI/status/1744778363330535860)
+
+### Sound
+
+- [SonicVidionLM: Generate sound effects for videos](https://yusiissy.github.io/SonicVisionLM.github.io/)
+- [MAGNeT: Text-to-music and test-to-sound](https://pages.cs.huji.ac.il/adiyoss-lab/MAGNeT/)

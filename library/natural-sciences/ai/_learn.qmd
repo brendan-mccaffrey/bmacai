@@ -1,4 +1,4 @@
-### Learn
+## Learn
 
 ### Grand Level Overview
 
@@ -9,7 +9,7 @@
 - [Little Book of Deep Learning](https://fleuret.org/public/lbdl.pdf)
 
 
-#### Transformers
+### Transformers
 
 - [Let's Build GPT: from scratch, in code, spelled out](https://www.youtube.com/watch?v=kCc8FmEb1nY)
 - [Attention is all you need, video paper](https://www.youtube.com/watch?v=iDulhoQ2pro)
@@ -20,3 +20,7 @@
 - [Illustrated Guide to Transformers](https://www.youtube.com/watch?v=4Bdc55j80l8)
 - [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
 - [Transformers from Scratch](https://e2eml.school/transformers.html)
+
+### Maths
+
+- [Gradient Descent does not Always Converge](https://twitter.com/gabrielpeyre/status/1750760482028519635)
