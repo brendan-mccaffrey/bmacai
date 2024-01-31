@@ -2,6 +2,14 @@
 title: AMMs
 ---
 
-## Resources
+## LP
+
+- [Impermanent Loss and JIT Liquidity in Uniswap ETH/USDC 0.3% Pool](https://crocswap.medium.com/impermanent-loss-and-jit-liquidity-in-the-uniswap-eth-usdc-0-3-pool-8fc58c755d7)
+- [Usage of Markout to Calculate LP Profitability in Uniswap V3](https://crocswap.medium.com/usage-of-markout-to-calculate-lp-profitability-in-uniswap-v3-e32773b1a88e)
+- [Follow-Up Analyses of LP Profitability in Uniswap V3](https://crocswap.medium.com/follow-up-analyses-of-lp-profitability-in-uniswap-v3-2cfc8c5e014e)
+- [Discrimination of Toxic Flow in Uniswap: Part 1](https://crocswap.medium.com/discrimination-of-toxic-flow-in-uniswap-v3-part-1-fb5b6e01398b)
+- [Discrimination of Toxic Flow in Uniswap: Part 2](https://crocswap.medium.com/discrimination-of-toxic-flow-in-uniswap-v3-part-2-21d84aaa33f5)
+- [Discrimination of Toxic Flow in Uniswap: Part 3](https://crocswap.medium.com/discrimination-of-toxic-flow-in-uniswap-v3-part-3-4afb386311c0)
+- [Discrimination of Toxic Flow in Uniswap: Part 4](https://crocswap.medium.com/discrimination-of-toxic-flow-in-uniswap-v3-part-4-c09656ec016e)
 
 - [Is Uniswap V2 still a good deal for LPs?](https://atise.medium.com/uniswap-v2-still-a-good-deal-for-liquidity-providers-a-retrospective-of-2023-11475e9d8610)
