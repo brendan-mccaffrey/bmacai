@@ -13,3 +13,5 @@ title: AMMs
 - [Discrimination of Toxic Flow in Uniswap: Part 4](https://crocswap.medium.com/discrimination-of-toxic-flow-in-uniswap-v3-part-4-c09656ec016e)
 
 - [Is Uniswap V2 still a good deal for LPs?](https://atise.medium.com/uniswap-v2-still-a-good-deal-for-liquidity-providers-a-retrospective-of-2023-11475e9d8610)
+
+- [TWAP Oracle Attacks: Easier Done than Said?](https://eprint.iacr.org/2022/445.pdf)

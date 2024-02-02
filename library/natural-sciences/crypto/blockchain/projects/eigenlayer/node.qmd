@@ -9,6 +9,7 @@ description: Running an Eigenlayer operator node
 - [Quant Drip](https://goerli.eigenlayer.xyz/operator/0xc7fa09a1aefb2447856fc9b109c7f037d740dbfe)
 - [Happy Feet](https://goerli.eigenlayer.xyz/operator/0x94f2dbaf324eb35a74f869b8159122b6bb9a38ef)
 - [Nitro Operations](https://goerli.eigenlayer.xyz/operator/0x7eea2e499d9bd0f0a2cf2fa19b80a5b08a846ed1)
+- [LayerZero Intern](https://goerli.eigenlayer.xyz/operator/0x787875c39e57699c19d6a2453c9e9aab905ab76d)
 
 ## Running a Node
 

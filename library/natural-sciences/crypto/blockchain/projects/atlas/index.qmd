@@ -1,0 +1,11 @@
+---
+title: Atlas
+---
+
+## Overview
+
+- [Twitter](https://twitter.com/atlasevm)
+- [Whitepaper](https://github.com/FastLane-Labs/atlas_whitepaper/blob/main/Atlas_Whitepaper.pdf)
+
+Atlas is a generalized execution abstraction protocol that facilitates programmable MEV mitigation at the application layer. It does this by facilitating app-specific orderflow auctions, both intent-centric and backrun auctions.
+

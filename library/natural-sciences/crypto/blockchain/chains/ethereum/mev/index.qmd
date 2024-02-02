@@ -26,6 +26,12 @@ page-layout: full
 
 # Landscape
 
+### Atlas
+
+- [Twitter](https://twitter.com/atlasevm)
+- [Whitepaper](https://github.com/FastLane-Labs/atlas_whitepaper/blob/main/Atlas_Whitepaper.pdf)
+
+
 ### Shops 
 
 - [Frontier Research](https://frontier.tech/)

@@ -18,7 +18,7 @@ Open models can scale faster than siloed models (lower compute cost plus intelli
 
 Supply:
 
-Miners (off-chain compute providers)  coordinated and compensated ($TAO) by validators (oracles)
+Miners (off-chain compute providers) coordinated and compensated ($TAO) by validators (oracles)
 
 Validators rank miners by intelligence contribution (incentivized w/$TAO)
 

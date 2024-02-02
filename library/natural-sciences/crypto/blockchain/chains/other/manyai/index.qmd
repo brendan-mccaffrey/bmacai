@@ -1,0 +1,87 @@
+---
+title: ManyAi
+---
+
+## Deck and Thoughts
+
+- [Deck](https://docsend.com/view/ix28423vm7i9w5ex) pw "donotshare"
+
+Writing thoughts as I look through the deck...
+
+**Slide 3**
+
+This is gud AI x crypto narrative. This is level four of [Vitalik's post](https://vitalik.eth.limo/general/2024/01/30/cryptoai.html), AI as the objective of the game.
+
+**Slide 4** 
+
+Hmmmm. Interesting how they put bittensor on both sides.
+
+**Slide 6**
+
+I don't think an AI project needs a "market opportunity" slide. Literally all media got u covered there.
+
+**Slide 7**
+
+I very much like the pitch that an immutable ledger is necessary to maintain valid and reliable records of transparancy, instance linking, inference (zk) proofs, etc.
+
+**Slide 9**
+
+I would like to learn more about "proxy servers for enhanced security"
+
+Validators don't really enable contributor reward, right. They run and secure the protocol, which has a predetermined specification for exactly how contributors are to be rewarded.
+
+**Slide 10**
+
+Pioneering with crypto makes sense, ofc, as your first users double as potential investors. But not actually a large or exciting market.
+
+**Slide 12**
+
+They are starting to use "XAI" too much. I know it stands for explainable AI, but wtf does that mean? "Demand for XAI"? like what? is demand for XAI different than demand for AI?
+
+**Slide 13**
+
+Garbage slide. You will be outperformed on prompt engineering by SF Twitter incels. The pitch should be how others (SF incels) who innovate on prompt engineering fit into, and are incentivized to participate in, the ManyAI ecosystem. They offer 0 *direct* benefit to prompt engineering.
+
+**Slide 15**
+
+Garbage. This is an example of what they will not be good at. You're not going to convince me ur internal team is innovating on the frontier.
+
+The only real pitch they have for innovating on the AI user experience, or on the functionality of the AI itself, is by designing a powerful incentive mechanism for permissionless contribution. 
+
+Introducing "neuron activation", or embedded space prioritization, is almost certainly not a significant contribution to the AI frontier. If it was, it would not end up on the pitch deck of an L1 blockchain.
+
+**Slide 16**
+
+As a potential counter to the point made on 15, the one area of innovation they are uniquely positioned to innovate on, it's AI transparency. This reminds me of Rose AI's value proposition. Their tech seems inherently compatible with blockchain.
+
+**Slide 17**
+
+Incentives, incentives, incentives. Will the "tokenomics" successfully draw high-quality dataset contribution? Do data contributors get royalties from the apps/models which use them?
+
+"Devs can build apps on top" - what incentive/benefit is there to do so, rather than building a private application on open-source (huggingface) datasets?
+
+**Slide 19**
+
+Good idea, but a lot of fluff. "Tokenomics allows participants to get rewarded for discovering bias". I thought we left "tokenomics" in 2020.. such a cop out. i hate that word.
+
+**Slide 22**
+
+Team is perhaps the single most important factor here. This deck could have been called "AI x Crypto Narrative". We need to know if the team is the type to actually figure out the *fluff* points i've been noting. If they are, we may have something special here. 
+
+**Slide 26**
+
+Idk i'd take the under. Sounds like some noise to me
+
+**Slide 27**
+
+lol
+
+**Slide 29**
+
+What are they getting at here? Is it allowing humans to understand the AI's processes? Or is it making the AI more effective. No shot these guys are beating Karpathy.
+
+### Conclusion
+
+Will research the team. If I had to make a bet rn it's a pass. 
+
+They are close to the correct vision imo. We need a team & project that is more open to the idea that their job is not to innovate directly - their job is to create the rules of the game in which innovation will occur. Thats the AI x Crypto L1 thesis.
