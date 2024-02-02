@@ -1,3 +1,7 @@
+---
+title: Attention
+---
+
 ### Attention: A Huge Leap
 
 In 2014, an Attention mechanism was introduced by Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. This became the foundation for the Transformer.

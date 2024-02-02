@@ -1,12 +1,19 @@
-## Research
+---
+title: Organized Research
+---
 
-### General ML & Algorithms
+## Foundations
+
+- [A Formal Theory of Inductive Inference, Part 1](https://www.sciencedirect.com/science/article/pii/S0019995864902232?via%3Dihub)
+- [A Formal Theory of Inductive Inference, Part 2](https://www.sciencedirect.com/science/article/pii/S0019995864901317?via%3Dihub)
+
+## General ML & Algorithms
 1. [Broken Neural Scaling Laws](https://arxiv.org/pdf/2210.14891.pdf)
 2. [Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets](https://arxiv.org/pdf/2201.02177.pdf)
 3. [Deepmind: Discovering novel algorithms with AlphaTensor](https://www.nature.com/articles/s41586-022-05172-4)
 4. [PrefixRL: Optimization of Parallel Prefix Circuits using Deep Reinforcement Learning](https://arxiv.org/abs/2205.07000)
 
-### NLP and LLMs
+## NLP and LLMs
 1. [Retrieval-Enhanced Large Language Models](https://arxiv.org/abs/2301.00303)
 2. [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556)
 3. [Parsel: A Unified Natural Language Framework for Algorithmic Reasoning](https://arxiv.org/abs/2212.10561)
@@ -22,16 +29,17 @@
     - [Paper: Jailbreaking Black Box Large Language Models in Twenty Queries](https://arxiv.org/abs/2310.08419)
     - [Github](https://github.com/patrickrchao/JailbreakingLLMs)
 
-#### **Coding**
+## **Coding**
 
 - [CodeFusion: A Pre-trained Diffusion Model for Code Generation](https://arxiv.org/abs/2310.17680)
 
-#### **Promting**
+## **Promting**
 
 - [Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution](https://arxiv.org/abs/2309.16797)
 
 
-### Diffusion Models
+## Diffusion Models
+
 1. [High Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752)
 2. [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
 3. [Denoising Diffusion Implicit Models](https://arxiv.org/abs/2010.02502)
@@ -39,29 +47,34 @@
 5. [Fast Sampling of Diffusion Models with Exponential Integrator](https://arxiv.org/abs/2204.13902)
 6. [Diffusion Language Models](https://benanne.github.io/2023/01/09/diffusion-language.html)
 
-### Multimodal Models
+## Multimodal Models
+
 1. [Multimodal Neurons in Artificial Neural Networks](https://distill.pub/2021/multimodal-neurons/)
 2. [Meta: CICERO](https://ai.facebook.com/research/cicero/)
 3. [OpenAI: Learning to play Minecraft with video pre-training (VPT)](https://openai.com/blog/vpt/)
 4. [Multimodal Deep Learning](https://t.co/zVnIcSwMIW)
 
-### Applications & Miscellaneous
+## Applications & Miscellaneous
+
 1. [Deepmind: Accelerating fusion science through learned plasma control](https://www.deepmind.com/blog/accelerating-fusion-science-through-learned-plasma-control)
 2. [Dreambooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation](https://arxiv.org/abs/2208.12242)
 3. [Deep Learning and Computational Physics (Lecture Notes)](https://arxiv.org/abs/2301.00942v1)
 4. [Wolfram Alpha x ChatGPT](https://writings.stephenwolfram.com/2023/01/wolframalpha-as-the-way-to-bring-computational-knowledge-superpowers-to-chatgpt/)
 
-### Data & Bias
+## Data & Bias
+
 1. [Adjusting Biased Samples](https://t.co/yVKBfdjAZa)
 2. [Data Distillation](https://t.co/qZBhgSofuX)
 
 ### Text <> Image
+
 1. [An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion](https://arxiv.org/abs/2208.01618)
 2. [DALL-E: Zero-Shot Text-to-Image Generation](https://arxiv.org/abs/2102.12092)
 3. [Make-A-Video: Text-to-Video Generation without Text-Video Data](https://arxiv.org/abs/2209.14792)
 4. [BLIP-2: Image to Text](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)
 
 ### Voice and Audio
+
 1. [VALL-E: Generate voice snippets with only a few seconds of input audio](https://arxiv.org/abs/2301.02111)
 2. [Whisper: OpenAI Speech Recognition](https://arxiv.org/abs/2212.04356)
 

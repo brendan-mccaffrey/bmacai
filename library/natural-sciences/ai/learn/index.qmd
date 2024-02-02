@@ -1,0 +1,27 @@
+---
+title: Learn AI
+---
+
+### Grand Level Overview
+
+- [Probabalistic Machine Learning](https://probml.github.io/pml-book/book1.html)
+- [Deep Learning Book](https://www.deeplearningbook.org/)
+- [ProbML by Kevin Murphy](https://probml.github.io/pml-book/)
+- [Geoffrey Hinton, Intro to NNs and ML, CSC321](https://www.dropbox.com/scl/fi/7bzpik2hhblb431cnfe9a/hintonlecturesmerged.pdf?rlkey=r0kht5s1byqswslrt125dkope&dl=0)
+- [Little Book of Deep Learning](https://fleuret.org/public/lbdl.pdf)
+
+### Maths
+
+- [Gradient Descent does not Always Converge](https://twitter.com/gabrielpeyre/status/1750760482028519635)
+
+
+### Backpropogation
+
+Backpropogation is an algorithm for training neural-networks, used to update its weights to minimize the 'loss'
+
+1. Network makes a prediction on a batch of input data
+2. Loss is calculated between predicted and actual output
+3. Gradient of the loss with respect to the weights are calculated using the chain rule of differentiation
+4. The gradients are used to update the weights in the opposite direction of the gradient, reducing the loss
+5. Repeat the process until the loss reaches a satisfactory level or a maximum number of iterations
+

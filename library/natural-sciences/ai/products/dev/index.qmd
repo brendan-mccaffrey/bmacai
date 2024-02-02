@@ -1,0 +1,38 @@
+---
+title: AI Tools
+---
+
+## AI Tools For Developers
+
+#### General 
+
+- [Julius AI: GPT for CSVs/Excel](https://julius.ai/chat)
+- [Modular: Programming Language](https://www.modular.com/?utm_content=268229477&utm_medium=social&utm_source=twitter&hss_channel=tw-1483918307484848132)
+
+#### Rawdog: A natural language CLI tool.
+
+- [github](https://github.com/AbanteAI/rawdog/tree/main)
+
+```bash
+rawdog what are the five largest files in this repository
+```
+
+#### Mentat: Integrated Coding Assistant
+
+- [github](https://github.com/biobootloader/mentat)
+
+#### Nougat: PDF to Markdown Conversion
+
+- [Project Webpage](https://facebookresearch.github.io/nougat/)
+- [Paper](https://arxiv.org/abs/2308.13418)
+- [Github](https://github.com/facebookresearch/nougat)
+
+```bash
+# Install
+pip install nougat-ocr
+
+# Run
+nougat path/to/file.pdf -o output_directory
+
+# Finetuning, etc. see github
+```

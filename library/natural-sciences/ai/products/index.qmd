@@ -1,12 +1,6 @@
 ---
-title: AI Products
+title: AI Projects
 ---
-
-## AI Resources to Use
-
-### For Developers
-
-- [Rawdog: A natural language CLI tool.](https://github.com/AbanteAI/rawdog/tree/main)
 
 ### Images
 
