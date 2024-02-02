@@ -11,8 +11,7 @@ title: Real World Assets
 
 ## Checker, Jack Chong
 
-- [Checker Deck, 2023](checker-deck.pdf)
-- [Checker Deck 2, 2023](checker-deck.pdf)
+- [Checker Deck, 2023](https://drive.google.com/file/d/1aFTDVMkBdDxioIC-XMWIaiJQ3-cLU1r0/view?usp=sharing)
 
 The sell-side of RWAs are pushing the frontier right now. JPM, Softgen, etc benefit by saving ~35% of issuance cost.
 

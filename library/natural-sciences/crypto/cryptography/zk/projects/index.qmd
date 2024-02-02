@@ -1,0 +1,43 @@
+---
+title: ZK Projects
+description: Projects, tools, and software to be applied
+---
+
+## Projects
+
+#### Reef
+
+A system for generating zero-knowledge proofs that a committed document matches or does not match a regular expression
+
+- [github](https://github.com/eniac/Reef)
+- [paper](https://eprint.iacr.org/2023/1886)
+
+#### Axiom 
+
+A zk coprocessor for Ethereum
+
+- [Twitter](https://twitter.com/axiom_xyz)
+- [Website](www.axiom.xyz)
+- [Demo](demo.axiom.xyz)
+- [Docs](docs.axiom.xyz)
+
+#### RiscZero 
+
+Making generalizable computer architecture for ZK
+
+- [website](https://www.risczero.com/)
+- [docs](https://dev.risczero.com/)
+- [github](https://github.com/risc0/risc0)
+
+#### Bonsai
+
+Zk blockchain project
+
+- [docs](https://dev.bonsai.xyz/)
+- [starter template](https://github.com/risc0/bonsai-foundry-template)
+
+#### ZKPoEx 
+
+Zero knowledge proof of exploit
+
+- [twitter](https://twitter.com/zkpoex)

@@ -11,10 +11,6 @@ description: All things finánce
 
 - [Portfolio Allocation and Asset Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4698165)
 
-{{< include _reads.qmd >}}
-
-
-
 ## Books
 
 - **The Intelligent Investor**

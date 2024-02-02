@@ -3,13 +3,34 @@ title: Tech
 subtitle: Good ol' Hardware Technology Devices
 ---
 
+## Github Projects
+
+#### [XLB](https://github.com/Autodesk/XLB) 2D/3D Lattice Boltzmann Simulator
+
+XLB is a fully differentiable 2D/3D Lattice Boltzmann simulator by AutoDesk. It's built on top of the JAX library and is specifically designed to solve fluid dynamics problems in a computationally efficient and differentiable manner. Reade more about neural models [here](https://twitter.com/afshawnl/status/1745900664708866357)
+
+#### [MatchUpX](https://github.com/usuaero/MachUpX)
+
+MachUpX is a parametric library for designing fixed wing aircraft. Given parameters like sweep, dihedral, and airfoil type different wings can be generated. 
+
+Within the assumptions of potential flow theory, MachUpX can rapidly generate accurate estimates of aerodynamic characteristics for aircraft designs. By avoiding the overhead of more complex analyses, it facilitates rapid iteration and exploration in early design stages.
+
+#### [OCP Freecad Cam](https://github.com/voneiden/ocp-freecad-cam)
+
+ocp-freecad-cam enables programmatic generation of toolpaths. It integrates with other Python CAD libraries like CadQuery and Build123d, allowing toolpaths to be parametrically created from OpenCascade objects. 
+
+#### [cq_wharehouse](https://github.com/gumyr/cq_warehouse)
+
+cq_warehouse offers a Python-based alternative to traditional mechanical CAD software. CadQuery extends Python with CAD modeling capabilities, enabling programmatic and parametric definition of mechanical parts such as fasteners (screws, nuts, bearings), chains, drafting, and much more!
+
+## Devices
+
 **Rewind Pendant:** A wearable device that captures everything you say and hear and then transcribes, encrypts, and stores is entirely locally on your phone.
 - [website](https://www.rewind.ai/pendant)
 
 **Silentio:** A device that blocks all device recordings, using ultrasound to detect and block any microphone that tries to capture your voice.
 - [NEC: Speaker Selective Cancellation via Neural Enhanced Ultrasound Shadowing](https://arxiv.org/abs/2207.05848v1)
 
+## Topics
 
-## Desalination
-
-[gud thread](https://x.com/Jordan_W_Taylor/status/1740363166603968637?s=20)
+- [Desalination twitter thread](https://x.com/Jordan_W_Taylor/status/1740363166603968637?s=20)

@@ -4,6 +4,12 @@ title: AI Products
 
 ## AI Resources to Use
 
+### For Developers
+
+- [Rawdog: A natural language CLI tool.](https://github.com/AbanteAI/rawdog/tree/main)
+
+### Images
+
 - [Lumiere: Video inpainting, image-to-video, video-gen](https://lumiere-video.github.io/)
 - [Replace Anything: Image inpainting](https://huggingface.co/spaces/modelscope/ReplaceAnything)
 - [Genie 1.0: Text-to-3D](https://twitter.com/LumaLabsAI/status/1744778363330535860)

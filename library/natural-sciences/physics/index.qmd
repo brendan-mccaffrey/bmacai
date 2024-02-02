@@ -252,4 +252,5 @@ This category sits at the intersection of several fundamental areas in physics a
 - [World from Eyes, Reconstruct 3D Scene from Someone's Eyeball](https://t.co/zoqliCEews)
 - [Ed Witten Interview](https://www.joachim-herz-stiftung.de/en/about-us/prices/hamburg-prize-for-theoretical-physics/edward-witten)
 - [Unitarity](https://www.quantamagazine.org/physicists-rewrite-a-quantum-rule-that-clashes-with-our-universe-20220926/)
+- [Differentiable Physics: Optimizing Neural Models of Complex Systems](https://twitter.com/afshawnl/status/1745900664708866357)
 

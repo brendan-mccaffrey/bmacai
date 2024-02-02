@@ -3,8 +3,6 @@ title: ZK
 subtitle: Zero Knowledge
 ---
 
-
-
 ## Reads
 
 #### **Educational Resources**
@@ -20,12 +18,8 @@ subtitle: Zero Knowledge
 - [Hickup's ZK Journey](https://sunrise-clerk-234.notion.site/Hickup-s-ZK-Journey-affa9ce9cdf44a33b3549c37f908521a)
 - [ZK "Canon" by A16z](https://a16zcrypto.com/zero-knowledge-canon/)
 - [ZKP.Science](https://zkp.science/)
-
-#### **Video Resources**
-
-- [RiscZero Study Club](https://www.youtube.com/watch?v=v4HIwaqmIxk&list=PLcPzhUaCxlCirUkJY0ltpjdtzWcz5U_6y&index=3)
+- [Youtube RiscZero Study Club](https://www.youtube.com/watch?v=v4HIwaqmIxk&list=PLcPzhUaCxlCirUkJY0ltpjdtzWcz5U_6y&index=3)
 - [Introduction to Zero Knowledge: Video Tutorial](https://www.youtube.com/watch?v=6uGimDYZPMw&list=PL8Vt-7cSFnw29cLUVqAIuMlg1QJ-szV0K&index=1)
-
 
 #### **Foundational Papers**
 
@@ -34,61 +28,25 @@ subtitle: Zero Knowledge
 - [A method for obtaining digital signatures and public-key cryptosystems](https://people.csail.mit.edu/rivest/Rsapaper.pdf)
 - [Proofs, Arguments, and Zero-Knowledge](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
 
-#### **Technical Deep Dives**
-
-- [Overview of Verifiable Computing](https://t.co/nkwNAjnRr6)
-- [Interactive Proofs](https://t.co/xPBWXvKwbY)
-- [Measuring SNARK Performance](https://t.co/tXwTlfEi5g)
-- [Why and How ZK-SNARK Works](https://arxiv.org/abs/1906.07221)
-- [Succint Non-Interactive Zero Knowledge for a von Neumann Architecture](https://eprint.iacr.org/2013/879.pdf)
-- [PLONK Explainer by Vitalik](https://vitalik.ca/general/2019/09/22/plonk.html)
-- [PLONK ePrint](https://eprint.iacr.org/2019/953.pdf)
-- [Streaming Zero-Knowledge Proofs](https://arxiv.org/abs/2301.02161)
-- [Why and How ZK-SNARK Works](https://arxiv.org/abs/1906.07221)
-- [Fast Amortized KZG Proofs](https://eprint.iacr.org/2023/033.pdf)
-- [ZK Development Playground](https://zkrepl.dev/)
-- [Beginner Intro to Coding ZK Proofs](https://dev.to/spalladino/a-beginners-intro-to-coding-zero-knowledge-proofs-c56)
-- [zkSNARKs Under the Hood](https://github.com/tarassh/zkSNARK-under-the-hood/tree/main)
-- [Under the hood of zkSNARK Groth16 protocol | part 1](https://medium.com/coinmonks/under-the-hood-of-zksnark-groth16-protocol-2843b0d1558b)
-- [PLONK implemented, from scratch, in python](https://github.com/tarassh/zkSNARK-under-the-hood/blob/main/plonk2.ipynb)
-- [Using GKR inside a SNARK to reduce the cost of hash verification down to 3 constraints](https://ethresear.ch/t/using-gkr-inside-a-snark-to-reduce-the-cost-of-hash-verification-down-to-3-constraints/7550/3)
-
 ### Practical Applications
+
 - [Applied ZK](https://t.co/6TvEniH6kA)
 - [Crypto Regulations, Privacy and Beyond](https://web3-with-a16z.simplecast.com/episodes/crypto-regulations-sanctions-compliance-aml-ofac-news-explained)
 - [ZK Benchmarks](https://www.zk-bench.org/)
 
-### Projects
+## Technical Deep Dives
 
-**Axiom:** Building a zk coprocessor for Ethereum
+![Landscape](https://vitalik.eth.limo/images/plonk-files/Tradeoffs.png)
 
-- [Twitter](https://twitter.com/axiom_xyz)
-- [Website](www.axiom.xyz)
-- [Demo](demo.axiom.xyz)
-- [Docs](docs.axiom.xyz)
+### General
 
-**RiscZero:** Making generalizable computer architecture for ZK
-
-- [website](https://www.risczero.com/)
-- [docs](https://dev.risczero.com/)
-- [github](https://github.com/risc0/risc0)
-
-Blockchain product: Bonsai
-
-- [docs](https://dev.bonsai.xyz/)
-- [starter template](https://github.com/risc0/bonsai-foundry-template)
-
-**ZK Proof of Exploit**
-
-- [twitter](https://twitter.com/zkpoex)
-
-## Concepts
-
-### SNARKs
-
-- [Vitalik Intro 1](https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649)
-- [Vitalik Intro 2](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627)
-- [Vitalik Intro 3](https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6)
+- [Overview of Verifiable Computing](https://t.co/nkwNAjnRr6)
+- [Interactive Proofs](https://t.co/xPBWXvKwbY)
+- [Succint Non-Interactive Zero Knowledge for a von Neumann Architecture](https://eprint.iacr.org/2013/879.pdf)
+- [Streaming Zero-Knowledge Proofs](https://arxiv.org/abs/2301.02161)
+- [Fast Amortized KZG Proofs](https://eprint.iacr.org/2023/033.pdf)
+- [ZK Development Playground](https://zkrepl.dev/)
+- [Beginner Intro to Coding ZK Proofs](https://dev.to/spalladino/a-beginners-intro-to-coding-zero-knowledge-proofs-c56)
 
 ### STARKs
 
@@ -96,8 +54,27 @@ Blockchain product: Bonsai
 - [Vitalik Intro 2](https://vitalik.ca/general/2017/11/22/starks_part_2.html)
 - [Vitalik Intro 3](https://vitalik.ca/general/2018/07/21/starks_part_3.html)
 
+### SNARKs
+
+- [Vitalik Intro 1](https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649)
+- [Vitalik Intro 2](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627)
+- [Vitalik Intro 3](https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6)
+- [Measuring SNARK Performance](https://t.co/tXwTlfEi5g)
+- [Why and How ZK-SNARK Works](https://arxiv.org/abs/1906.07221)
+- [Why and How ZK-SNARK Works](https://arxiv.org/abs/1906.07221)
+- [zkSNARKs Under the Hood](https://github.com/tarassh/zkSNARK-under-the-hood/tree/main)
+- [Under the hood of zkSNARK Groth16 protocol | part 1](https://medium.com/coinmonks/under-the-hood-of-zksnark-groth16-protocol-2843b0d1558b)
+- [Using GKR inside a SNARK to reduce the cost of hash verification down to 3 constraints](https://ethresear.ch/t/using-gkr-inside-a-snark-to-reduce-the-cost-of-hash-verification-down-to-3-constraints/7550/3)
 
 
+### PLONKs
+
+- [PLONK Explainer by Vitalik](https://vitalik.ca/general/2019/09/22/plonk.html)
+- [PLONK ePrint](https://eprint.iacr.org/2019/953.pdf)
+- [PLONK implemented, from scratch, in python](https://github.com/tarassh/zkSNARK-under-the-hood/blob/main/plonk2.ipynb)
+
+
+## Concept
 
 ## **Example: The 3-Color Graph Coloring Problem**
 
