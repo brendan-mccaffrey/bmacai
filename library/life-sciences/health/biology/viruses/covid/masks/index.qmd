@@ -1,0 +1,34 @@
+---
+title: Masks
+---
+
+## The Effect of Mandatory Masks on Autism in Children
+
+> But hopefully, this [mask mandate in schools] will be a temporary thing, temporary enough that it [masks] doesn't have any lasting negative impact on them [children]. - Anthony Fauci, August 9 2021
+
+- [Recognition of Faces: An Approach to the Study of Autism](https://acamh.onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-7610.1978.tb00468.x)
+    - Two age groups of normal, autistic and subnormal children were tested for their ability to recognize the faces of peers from isolated facial features and inverted photographs. The normal and subnormal subjects found the upper regions of the face most helpful for identification, whereas the younger autistic children found the lower features more helpful. The older autistic children showed no specific reliance on any one area, but were found to have error scores as low as those of the younger autistic children on the recognition of lower parts and error scores as low as the; controls on recognizing upper portions. The results are discussed and are found to favour a hypothesis in which the autistic child's familiarity with the mouth and/or eye areas is related to a cognitive deficit which affects the processing of both verbal and non-verbal interpersonal communication.
+
+- American Academy of Pediatrics [Poster, Highlighting the Importance of Facial Expressions for Children](https://pbs.twimg.com/media/FbHRUtuUEAEq6GB?format=jpg&name=medium)
+    - They later were swallowed by the narrative, and made a [public statement](https://twitter.com/AmerAcadPeds/status/1563241284935958530?s=20) that in-school masks does not affect children (hypocritical)
+- [Visual Impairment: Its Effect on Cognitive Development and Behavior](http://www.intellectualdisability.info/physical-health/articles/visual-impairment-its-effect-on-cognitive-development-and-behaviour)
+- [Infants Deploy Selective Attention to the Mouth of a Talking Face when Learning Speech](https://www.pnas.org/doi/full/10.1073/pnas.1114783109)
+    - The mechanisms underlying the acquisition of speech-production ability in human infancy are not well understood. We tracked 4–12-mo-old English-learning infants’ and adults’ eye gaze while they watched and listened to a female reciting a monologue either in their native (English) or nonnative (Spanish) language. We found that infants shifted their attention from the eyes to the mouth between 4 and 8 mo of age regardless of language and then began a shift back to the eyes at 12 mo in response to native but not nonnative speech. We posit that the first shift enables infants to gain access to redundant audiovisual speech cues that enable them to learn their native speech forms and that the second shift reflects growing native-language expertise that frees them to shift attention to the eyes to gain access to social cues. On this account, 12-mo-old infants do not shift attention to the eyes when exposed to nonnative speech because increasing native-language expertise and perceptual narrowing make it more difficult to process nonnative speech and require them to continue to access redundant audiovisual cues. Overall, the current findings demonstrate that the development of speech production capacity relies on changes in selective audiovisual attention and that this depends critically on early experience.
+
+- [Understanding the Impact of Face Masks on the Processing of Facial Identity, Emotion, Age, and Gender](https://www.frontiersin.org/articles/10.3389/fpsyg.2021.743793/full)
+    - This is not even about children in particular, but illustrates how it may be detremential to young people in a learning phase
+    - Abstract Result: The results revealed that masks hindered the perception of virtually all tested facial dimensions (i.e., emotion, gender, age, and identity), interfering with normal speed and accuracy of categorization. We also found that the unwarranted effects of masks were not due to holistic processes, because the Face Inversion Effect (FIE) was generally not larger with unmasked compared with masked faces. Moreover, we found that the impact of masks is not automatic and that under some contexts observers can control at least part of their detrimental effects.
+
+- [Face masks reduce emotion-recognition accuracy and perceived closeness](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8064590/)
+    - Again, this was on adults, because you wouldn't be able to publish your findings in 2021 if you exposed what it does to children
+
+*IMPORTANT*
+
+- [Emotion comprehension between 3 and 11 years: Developmental periods and hierarchical organization](https://www.tandfonline.com/doi/abs/10.1080/17405620344000022)
+- [Darwin's Contributions of our Understanding of Emotional Expressions](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2781895/)
+- [Infants deploy selective attention to the mouth of a talking face when learning speech](https://www.pnas.org/doi/10.1073/pnas.1114783109)
+- [Potential Impact of the COVID-19 Pandemic on Communication and Language Skills in Children](https://journals.sagepub.com/doi/full/10.1177/0194599820978247)
+- [Effect of face mask and noise on word recognition by children and adults](https://web.archive.org/web/20211121024652/https://exlingsociety.com/images/ExLing-2021/ExLing_2021_preliminary_proceedings.pdf)
+    - This PDF was taken off the web! I am linking it through Wayback machine
+- [The puzzle of Autism in the time of COVID-19 pandemic: “Light it up Blue”](https://www.researchgate.net/profile/Ismail-Dergaa/publication/352350126_The_puzzle_of_Autism_in_the_time_of_COVID-19_pandemic_Light_it_up_Blue/links/60c4563a299bf1949f4e81dc/The-puzzle-of-Autism-in-the-time-of-COVID-19-pandemic-Light-it-up-Blue.pdf)
+    - "... Barriers to essential services such as speech and occupational therapies, combined with loss of routine and predictability has widened the gap between needs and provided care. Parents, teachers and health care should aim to work collectively for a broadened approach that is child/parent centered to compensate for most of disrupted vital support and services"

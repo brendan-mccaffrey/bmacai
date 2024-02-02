@@ -2,6 +2,7 @@
 title: Vaccines 
 ---
 
+## General
 
 - [Stanley Plotkin: "The Godfather of Vaccines" Under Oath]((https://twitter.com/JoshWalkos/status/1674476378379485184?s=20))
 - [2020 Pilot Survey Data Comparison: Vaccinated vs Unvaccinated](https://cdn.website-editor.net/s/fbd2f2a8b1b04bdba97a21e6e5d356aa/files/uploaded/Pilot%2520Survey%2520Data%2520Graphs%2520--%2520October%25202020%2520%25283%2529.pdf?Expires=1689750887&Signature=WewLdqlXuQg1VzXpywMOu0DVMXe5dyz4Xx3gMzVL2d-TLbRj-XrCriUKplw2mEG3DK0-5y2gGBXYc3YSH82mKXaQtmj~9xOgDLDrQIqsyFMk8O6jGx3PQi0zyIJJpLqMLEPJQCE5Cya5TbAGIxrjE-j6gIW7sQEzGoFgwTZxB0gnQGs~gf1VyTfsAQCW6lnkwt6TzN6W14WmO2LUCJ5x8ZQGOA0WcUNSHpcSrx-3IGPukJLxaPtPGmFVYWFlvpBcti5nJg7xHZx-tVJKd9KcR5KvfGKMIk8HCnkCyLEKkuuii5y4MfoocJ8X8JoEt-3pFbuP6M4LCD29bg2eaFu~Vw__&Key-Pair-Id=K2NXBXLF010TJW)

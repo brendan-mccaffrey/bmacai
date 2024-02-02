@@ -1,4 +1,7 @@
-## Mycotoxins
+---
+title: Mycotoxins
+---
+
 
 Mycotoxins are secondary metabolites produced by fungi that contaminate various types of food and feed. They are toxic to humans and animals, leading to a range of health issues. Not all fungi produce mycotoxins; mainly Aspergillus, Fusarium, and Penicillium genera are culprits.
 
