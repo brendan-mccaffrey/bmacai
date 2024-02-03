@@ -4,7 +4,78 @@ title: Bit Tensor
 
 ## Overview
 
-- [website]()
-
+- [website](https://bittensor.com/)
 
 I unfortunately first thought I was late, after reciving [this investment note](_from-stuart.qmd) from a friend on November 8, 2023.
+
+#### Documentation
+
+- [Building Blocks](https://docs.bittensor.com/learn/bittensor-building-blocks)
+
+## Ecosystem
+
+### Nous Research
+
+- [Finetuning subnet github](https://github.com/NousResearch/finetuning-subnet/tree/master)
+- [leaderboard huggingface](https://huggingface.co/spaces/NousResearch/finetuning_subnet_leaderboard)
+    - [current leader](https://huggingface.co/IntervitensInc/intv_ai_mk4/commit/8842717be83fbaba3ae5391cbf051c83beeb3c54)
+- [Cortex.t subnet](https://github.com/corcel-api/cortex.t)
+
+## Ideas
+
+See [OCR Subnet Tutorial](https://docs.bittensor.com/tutorials/ocr-subnet-tutorial)
+
+Create a subnet with the goal of profitably trading fungible crypto assets (on Ethereum or Solana). The idea is to create a aggregate AI-powered competitive hedge fund to trade permissionlessly tradeable assets. The [Numerai](https://numer.ai/) of crypto.
+
+Considerations
+
+- It seems the challenge must be on synthetic data, otherwise subnet miners can "lookup" the answers on the blockchain.
+
+**Challenge generation section**
+
+
+
+## Whitepaper 
+
+### Abstract
+
+As with other commodities, markets could help us efficiently produce machine intelligence. We propose a market where intelligence is priced by other intelligence systems peer-to-peer across the internet. Peers rank each other by training neural networks which learn the value of their neighbors. Scores accumulate on a digital ledger where high ranking peers are monetarily rewarded with additional weight in the network. However, this form of peer-ranking is not resistant to collusion, which could disrupt the accuracy of the mechanism. The solution is an incentive mechanism that maximally rewards honestly selected weights, making the system resistant to collusion of up to 50 percent of the network weight. The result is a collectively run intelligence market that continually produces newly trained models and pays contributors who create information theoretic value.
+
+### Motivation
+
+Without markets, AI is overly specialized. Machine intelligence is a commodity, and treating it as such will encourage more generalized objective performance. The proliferation of diverse intelligence models is limited by the need to train large monolithic models to succeed in winner-take-all situations. Standalone engineers cannot directly monetize their work and what results is centralization where a small set of large corporations control access to the best artificial intelligence.
+
+### Model
+
+Abstract definition of intelligence: Parameterized function $y = f(x)$ trained over dataset $D = [X, Y]$ to minimize a loss of $\Lambda = E_D[Q(y, f(x))]$
+
+Network is comprised of $n$ functions $F = f_1, f_2, \dots , f_n$ 'peers' where each is holding network 'stake' $S = [s_i]$. These functions, together with losses and their proportion of stake, represent a stake-weighted machine learning objective $\sum^n_i L_i \times s_i$
+
+Goal is the distribution of stake I, as an incentive, to peers who have helped minimize the loss-objective, while making it difficult for small stake to collude for network distribution without contributing to loss minimization.
+
+$$S_{t+1} = s_{t} + \tau I$$
+
+They suggest this can be acheived through peer-ranking, where peers use the outputs of others $F(x) = [f_0(x) \dots f_n(x)]$ as inputs to themselves $f(F(x))$ and learn a set of weights $W = [w_i, j]$ where peer i is responsible for setting the i th row through transactions on a digital ledger.
+
+Weights are set using a fishers information pruning score (LeCun 1989, Yu 2017) in the ranking calculation, $R = W^T \dot S$. This idealized scoring such that each peer's incentive is equivalent to its pruning score: the cost of entropy towards $\sum^n_i L_i \times s_i$ induced by removing it from the network.
+ 
+ EQUATION
+
+This is not resistant to collusion, however, as peers can vote for themselves and set weights to enhance their own inflation. This attack is trivial since the digital ledger cannot audit the parameters of each model, only inter-model weights $W$.
+
+The naive ranking method is extended to evade collusion with an 'incentive' function $I(W,S)$ which limits rewards to peers that have not reached consensus in the network. In the absence of a 51% collusion, peers can only attain inflation by working to attract votes from the majority. 
+
+Reintroducing our terms, our incentive mechanism requires a stake vector $S$ and a set of weights $W$ where rows are inter-peer rankings. We also infer a trust matrix $T$ from the weights where $t_{i,j} = 1$ if and only if there is a non-zero edge between peer i and j.
+
+We defined peers who have reached 'consensus' as those with non-zero edges from more than $50\%$ of stake in the network (normalized $(T^T \dot S) > 0.5$). The computation is defined as a continuous sigmoid function to ensure the mechanism is differentiable. The sigmoid rewards connected peers and punishes the non-trusted. Steepness and threshold point can be modulated through a tempurature $Q$ and shift term $\kappa$.
+
+$$C = \sigma (\rho(T^TS-\kappa))$$
+
+Tempurature $Q = 10$ and shift $\kappa = .5$ takes the trust scores and produces an exponential scaling up to inflection point where peer is connected to majority.
+
+This consensus approach protects against naive collusion, but it does not incentivise correctly selecting weights. These incentives are introduced by adapting inflation mechanism with a speculation based reward 'bonds' $B$, a matrix of values $b_{i,j}$ which represent the proportion of bonds owned by peer $i$ in peer $j$. Bonds accumulate at each step much like token inflation where $\Delta B = W \dot S$. Peers accumulate bonds in the peers they rank, thus ;bonding' themselves to those they are connected to.
+
+$$B_{t+1} = B_t + W \dot S$
+
+This mechanism lets peers speculate on the future value accrual of other peers. This is then slightly modified to ensure peers attain a fized proportion of their personal inflation.
+
