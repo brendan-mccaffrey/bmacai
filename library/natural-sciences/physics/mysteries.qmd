@@ -3,6 +3,10 @@ title: Mysteries
 description: Remaining Mysteries in Physics
 ---
 
+## Intersting
+
+Any oscillator — a pendulum, a spring, a firefly, a human heart cell — wants to match up with its neighbors. Mathematicians recently showed that [synchronization is inevitable in expander graphs](https://www.quantamagazine.org/new-proof-shows-that-expander-graphs-synchronize-20230724/), a type of network found in many areas of science.
+
 ## The Nature of Dark Matter
 
 - Dark energy: 69%
