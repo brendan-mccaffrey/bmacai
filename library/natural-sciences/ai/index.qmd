@@ -83,4 +83,14 @@ table-of-contents: true
 - [Google | Introducing Gemini: our largest and most capable AI model](https://blog.google/technology/ai/google-gemini-ai/)
 - [Liquid AI](https://www.liquid.ai/)
 - [Learning Universal Predictors](https://arxiv.org/pdf/2401.14953.pdf)
+- [BlackMamba](https://github.com/Zyphra/BlackMamba)
+    - [paper](https://www.zyphra.com/blackmamba)
 
+### Yann LeCun
+
+Title: "Objective Driven AI: Towards Machines that can Learn, Reason, and Plan"  
+
+- [lecture page](https://www.ece.uw.edu/news-events/lytle-lecture-series/)
+- [slides](https://drive.google.com/file/d/1e6EtQPQMCreP3pwi5E9kKRsVs2NbWPrY/view)
+- [video](https://www.youtube.com/watch?v=d_bdU3LsLzE)
+- [A Path towards autonomous machine intelligence](https://openreview.net/forum?id=BZ5a1r-kVsf)

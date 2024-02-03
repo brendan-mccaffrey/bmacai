@@ -3,7 +3,7 @@ title: Tech
 subtitle: Good ol' Hardware Technology Devices
 ---
 
-## Github Projects
+## Hardtech Software
 
 #### [XLB](https://github.com/Autodesk/XLB) 2D/3D Lattice Boltzmann Simulator
 
