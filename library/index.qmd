@@ -10,16 +10,24 @@ ___
 
 Welcome to my library.
 
-You may find books, articles, and curated research documents spanning many topics.
+This is a digital brain trust developed slowly and perpetually, intended to serve as a growing knowledge base across topics spanning from cultural history to quantum field theory.
 
-‎
+Portions of this collection are particularly sloppy and incomplete, as it's been a low-priority side project to which I tend infrequently. As a result, particularly for the extremely new/underdevelop subsections, readers may develop a misrepresentation of my perspective, expertise, and/or opinion on the respective topic.
 
-This page is not intended to yet be public, so if you are accessing this, that means I have entrusted you with the password. I prefer not to publish this publicly, as its incompleteness may misrepresent me and my beliefs. Although the library will never be "complete", many pages have particularly little information and should not be interpreted as accurate representations or reflections of my views/experience/knowledge of the respective topic.
 
-I do not allocate a large portion of my time to maintaining this library. I have optimized the project for minimal overhead - a slowly accumulating collection of resources and learnings I come across over time. 
 
-If you are curious to see where I intend to go with this, I'd recommend viewing one of the following:
+For these reasons, this directory will remain password protected for the forseeable future. If you are accessing this, it means I entrusted you to respect my preference to keep this private in the near future. 
 
-- [Physics](natural-sciences/physics/index.qmd)
-- [History of AI](natural-sciences/ai/history-of-ai/index.qmd)
-- [Ethereum](natural-sciences/crypto/blockchain/chains/ethereum/mainnet/index.qmd)
+If you are curious to see what my vision for this is in the future, I would recommend viewing my more developed topics. These include:
+
+## Areas to explore
+
+**[All Things Ethereum](./natural-sciences/crypto/blockchain/chains/ethereum/mainnet/index.qmd)**
+
+**[Physics](/library/natural-sciences/physics/index.qmd)**
+
+**[AI](/library/natural-sciences/ai/index.qmd)**
+
+**[Physics](/library/natural-sciences/physics/index.qmd)**
+
+
