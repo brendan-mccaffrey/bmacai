@@ -1,0 +1,7 @@
+---
+title: AVP Development
+---
+
+## Resources
+
+- [Background blur](https://x.com/michalmalewicz/status/1754469762447319438?s=20)

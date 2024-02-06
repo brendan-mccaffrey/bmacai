@@ -22,12 +22,12 @@ If you are curious to see what my vision for this is in the future, I would reco
 
 ## Areas to explore
 
-**[All Things Ethereum](./natural-sciences/crypto/blockchain/chains/ethereum/mainnet/index.qmd)**
+**[Ethereum](./natural-sciences/crypto/blockchain/chains/ethereum/mainnet/index.qmd)**
 
 **[Physics](/library/natural-sciences/physics/index.qmd)**
 
 **[AI](/library/natural-sciences/ai/index.qmd)**
 
-**[Physics](/library/natural-sciences/physics/index.qmd)**
+
 
 
