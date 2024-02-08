@@ -5,4 +5,11 @@ description: The Fed, BLS, and US government economy research.
 
 ## Resources
 
+- [BLS API](https://www.bls.gov/developers/)
+    - [Average Prices](https://www.bls.gov/cpi/factsheets/average-prices.htm)
+    - [CPI Table Data](https://data.bls.gov/PDQWeb/ap)
+
+- [CPI Methodology Changes Archive](https://www.bls.gov/cpi/additional-resources/recent-upcoming-methodology-changes.htm)
+
+- [BLS Research Papers](https://www.bls.gov/osmr/research-papers/)
 - [Location, Location, Structure Type: Rent Divergence within Neighborhoods](https://www.bls.gov/osmr/research-papers/2020/ec200150.htm)

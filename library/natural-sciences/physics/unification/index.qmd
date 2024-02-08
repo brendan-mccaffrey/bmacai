@@ -12,6 +12,14 @@ description: Towards a theory of everything
 - [Warp Drive Patent by Google?](https://patents.google.com/patent/US20060144035)
 - [Is it Time to Rethink Quantum Gravity?](https://arxiv.org/abs/2310.12221)
 
+### AdS/CFT
+
+- [AdS/CFT Correspondance Wiki](https://en.wikipedia.org/wiki/AdS/CFT_correspondence)
+
+### Swampland
+
+- [Swampland Wiki](https://en.wikipedia.org/wiki/Swampland_(physics))
+
 ### ER = EPR
 
 - [Sarfatti's 1975 version of ER=EPR](https://twitter.com/JackSarfatti/status/1646315546630316033?s=20)
