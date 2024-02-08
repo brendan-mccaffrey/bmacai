@@ -24,6 +24,7 @@ page-layout: full
 - [Mev-rs](https://github.com/ralexstokes/mev-rs)
 - [MergeMock](https://github.com/protolambda/mergemock)
 
+
 # Landscape
 
 ### Atlas
@@ -64,6 +65,10 @@ page-layout: full
 - [MEV... Wat Do?](https://pdaian.com/blog/mev-wat-do/)
 - [Ethereum is a Dark Forest](https://medium.com/@danrobinson/ethereum-is-a-dark-forest-ecc5f0505dff)
 - [Flashbots: Frontrunning the MEV Crisis](https://medium.com/flashbots/frontrunning-the-mev-crisis-40629a613752)
+
+## Relays
+
+- [Grounded Relay: Superpowers from Relay Coordination](https://ethresear.ch/t/grounded-relay-superpowers-from-relay-coordination/18601)
 
 ## General
 

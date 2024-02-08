@@ -1,0 +1,8 @@
+---
+title: The Federal Reserve
+description: The Fed, BLS, and US government economy research.
+---
+
+## Resources
+
+- [Location, Location, Structure Type: Rent Divergence within Neighborhoods](https://www.bls.gov/osmr/research-papers/2020/ec200150.htm)

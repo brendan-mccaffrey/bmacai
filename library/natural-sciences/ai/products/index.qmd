@@ -8,6 +8,10 @@ title: AI Projects
 - [Replace Anything: Image inpainting](https://huggingface.co/spaces/modelscope/ReplaceAnything)
 - [Genie 1.0: Text-to-3D](https://twitter.com/LumaLabsAI/status/1744778363330535860)
 
+### Video
+
+- [Anything is Any Scene: Photorealistic Video Insertion](https://anythinginanyscene.github.io/)
+
 ### Sound
 
 - [SonicVidionLM: Generate sound effects for videos](https://yusiissy.github.io/SonicVisionLM.github.io/)

@@ -1,0 +1,20 @@
+---
+title: The Straussian Fed
+sidebar: false
+author: Brendan
+date: "2024-02-08"
+image: "image.jpeg"
+page-layout: full
+---
+
+## Resources
+
+- [BLS: Recent and Upcoming Methodology Changes](https://www.bls.gov/cpi/notices/2017/methodology-changes.htm)
+
+## Idea
+
+The current market view of an increasing likelyhood of the "impossible" "soft landing" is a short term symptom of the markets' inability to adjust to new times. 
+
+As of January 2023, there was a major change in the CPI metric.
+
+> the BLS plans to update weights annually for the Consumer Price Index based on a single calendar year of data, using consumer expenditure data from 2021. This reflects a change from prior practice of updating weights biennially using two years of expenditure data. (posted May 24, 2022).

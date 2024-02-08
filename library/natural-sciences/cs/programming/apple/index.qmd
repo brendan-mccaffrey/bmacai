@@ -16,3 +16,7 @@ title: Apple Development
 - [facing an err](https://support.circleci.com/hc/en-us/articles/4402066403227-Xcode-12-5-Unable-to-build-chain-to-self-signed-root-for-signer)
 
 - [github source](https://github.com/drallgood/jpasskit/blob/master/jpasskit/tutorial/mini-tutorial.txt)
+
+## iOS Dev
+
+- [Play - share iOS Prototypes](https://x.com/createwithplay/status/1754906627331830110?s=20)

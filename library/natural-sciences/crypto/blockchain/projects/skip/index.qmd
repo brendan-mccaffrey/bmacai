@@ -1,0 +1,110 @@
+---
+title: Skip Protocol
+---
+
+## Sloppy Meeting Notes
+
+
+
+founded skip 2 yr ago. Bridgewater and Barry was at DE Shaw
+
+been in crypto 2016
+
+cofounded nft marketplace that minted tweets as NFTs (dorsey tweet)
+
+2021 grouped together, looked at doing mevGeth for Cosmos client. Went to Terra hackerhouse and thats where Terra collapsed. 
+
+Built full fledge builder, launched on Juno, Evmos, Osmosis, Injective, Neutron, Terra2
+
+Raised 6.5mm seed
+15 (50) Series A, Bain Cap
+
+there wasnt enough MEV to sustain in the bear market, decided to shift to value add rather than extract.
+- routing system (IBC)
+
+it was difficult to learn how to use it in a cross chain environment bc of wrapping and routing and such.
+
+unwinds can be many chains long, all require separate txs. Swapping along the way makes it even harder.
+
+FIRSt PRODUCT
+
+built SKIP api which allows any chain to chain in a single tx. 
+
+They do a significant amunt of IBC volume billion/mo
+
+integrated in core frontends. Osmosis, keplr, leap, sources of orderflow
+
+eventually will turn on fees.
+
+SECOND PRODUCT
+
+oracle slinky
+fast, high security oracle primarily for perpetual protocols. Built with dydx, they will use it as enshrined oracle. Enshrined for berachain too, will be for injective
+
+did BD frontloaded, have to deliver on 
+
+its functionally a restaking product. Taking the stake used to secure each network, using it to secure the oracle.
+
+no one is actually doing anything with restaking.
+
+Built the sidecar of the restaking system, modular way such that they can add functionality: run sequencers, run lightclients, run bridge clients.
+
+Own substantial portions of token supply with osmosis, celestia, 
+
+Overall: luxery infrastructure provider, dev tooling
+
+
+
+
+TEAM 
+18 people, porbably going up to 25
+
+havent touched raise, made a ton of money from ecosystem
+
+4-8mm burn at 5 now
+
+Want to raise a series B, probably the last raise, not sure when: maybe late 2024 early 2025.
+
+Prob dont have to raise, but to scale up and launch token and build ecosystem might make sense
+
+First val 30mm
+Last valuation was 80mm
+
+Capture 20% of mev on osmosis, voted in by validators bc they had them in on fundraising
+
+protorev
+
+gauntlets strategic thing is getting in early w governance and gets huge contracts that wouldnt be accepted otherwise
+
+
+have almost everything staked or liquid staked, sell those tokens which does a significant amount of runway coverage
+
+really over exposed to celestia and osmosis, will likely rebalance into other tokens. Expect to have consistnet token denominated revnue in the other chains, so may just sell into cash
+
+
+https://pinewolytics.de/osmosis/protorev
+
+https://skip.money/products
+
+Final product in the MEV space is the block SDK. Maintain the software, dont expect a large payout from block SDK. Kinda like an enshrined Cosmos chain.
+
+
+Vertical exposure.
+
+Oracle good: OEV.
+
+Skip API good for orderflow.
+
+Acheive immortality: have enough cash denominarted revenue to maintain themselves.
+
+
+STAKEHOLDERS
+
+API: end/retail users, sometimes dont know they using (sometimes do ibc.fun). Keplr/osmosis (wallets have mroe pricing paower), DEXes - anychain swaps. Where they choose to do DEX volume matters. launched cctp support, and axelar.
+
+
+Oracle: validator set, people running sidecar processes. Second is protocol itself, decides to give onchain support, partner there. Relationship w dydx very good.
+
+
+
+office in soho 
