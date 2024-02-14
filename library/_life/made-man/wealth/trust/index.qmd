@@ -1,0 +1,18 @@
+---
+title: Trust
+---
+
+## Resources
+
+- [Florida Revocable Living Trust](https://alainromanlaw.com/florida-revocable-living-trust/)
+- [Probate Court](https://alainromanlaw.com/formal-administration-florida/)
+
+
+{   "dstEid": 40232,   "to": "0x000000000000000000000000ADf4c6b6909E5D6919311462bFB8d7835C8f6176",   "amountLD": 1000000000000000000,   "minAmountLD": 1000000000000000000,   "extraOptions": "0x00030100110100000000000000000000000000030d40",   "composeMsg": "0x",   "oftCmd": "0x" }
+
+{
+    "nativeFee": 10000000000000,
+    "lzTokenFee": 0
+}
+
+0xADf4c6b6909E5D6919311462bFB8d7835C8f6176
