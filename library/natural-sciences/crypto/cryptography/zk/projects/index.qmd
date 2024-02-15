@@ -5,6 +5,12 @@ description: Projects, tools, and software to be applied
 
 ## Projects
 
+#### Succinct
+
+- [SP1: Open Source zkVM by Succint Labs](https://blog.succinct.xyz/introducing-sp1/)
+- [SP1 Book](https://succinctlabs.github.io/sp1/)
+- [SP1 Github](https://github.com/succinctlabs/sp1)
+
 #### Reef
 
 A system for generating zero-knowledge proofs that a committed document matches or does not match a regular expression

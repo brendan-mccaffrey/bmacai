@@ -1,0 +1,7 @@
+---
+title: AI Hardware
+---
+
+## Resources
+
+- [Deep Learning Hardware Guide](https://timdettmers.com/2018/12/16/deep-learning-hardware-guide/#PCIe_Lanes_and_Multi-GPU_Parallelism)
