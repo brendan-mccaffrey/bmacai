@@ -5,6 +5,11 @@ description: Projects, tools, and software to be applied
 
 ## Projects
 
+### Nil Foundation
+
+- [zkLLVM Circuit Compiler](https://github.com/NilFoundation/zkLLVM)
+- [zkLLVM Template](https://github.com/NilFoundation/zkllvm-template)
+
 #### Succinct
 
 - [SP1: Open Source zkVM by Succint Labs](https://blog.succinct.xyz/introducing-sp1/)

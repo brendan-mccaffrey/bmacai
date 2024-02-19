@@ -31,3 +31,10 @@ Only Safe Way to Store Crypto
 
 Tempest: Spying on information systems through leaking emanations
 - [wiki](https://en.wikipedia.org/wiki/Tempest_(codename))
+
+## Events
+
+### i-SOON
+
+- [Internal Chinese government document leak](https://x.com/BushidoToken/status/1759376010804392441?s=20)
+- [github](https://github.com/I-S00N/I-S00N/)
