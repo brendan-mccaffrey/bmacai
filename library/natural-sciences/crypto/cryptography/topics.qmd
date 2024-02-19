@@ -2,10 +2,6 @@
 title: Cryptographic Topics
 ---
 
-## KZG Commitments
-
-- (Original Paper) [Constant-Size Commitments to Polynomials and Their Applications](https://link.springer.com/chapter/10.1007/978-3-642-17373-8_11)
-- Dankrad Feist, [KZG Polynomial Commitments](https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html)
 
 ## BLS
 

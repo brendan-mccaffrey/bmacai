@@ -5,3 +5,10 @@ title: AI Hardware
 ## Resources
 
 - [Deep Learning Hardware Guide](https://timdettmers.com/2018/12/16/deep-learning-hardware-guide/#PCIe_Lanes_and_Multi-GPU_Parallelism)
+
+## Groq
+
+- [Think Fast: A Tensor Streaming Processor (TSP) for Accelerating Deep Learning Workloads](https://wow.groq.com/groq-isca-paper-2020/)
+- [A Software-defined Tensor Streaming Multiprocessor for Large-scale Machine Learning](https://wow.groq.com/isca-2022-paper/)
+
+- [LLMPerf Benchmark](https://wow.groq.com/groq-lpu-inference-engine-crushes-first-public-llm-benchmark/)
