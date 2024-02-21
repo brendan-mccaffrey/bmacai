@@ -18,6 +18,13 @@ title: EVM Development
 - [ZkDrop, A ZK Airdrop Scheme](https://github.com/a16z/zkdrops)
 - [Uniswap Merkle Distributor](https://github.com/Uniswap/merkle-distributor)
 
+**Ether Deck Mk2**
+
+A Reasonably optimized, extensible smart account.
+
+- [github repo](https://github.com/jtriley-eth/ether-deck-mk2)
+- [helper scripts for ether deck mk2](https://github.com/jtriley-eth/decktools-mk2?tab=readme-ov-file)
+
 #### **Backend**
 
 - [Solidity Decompiler (interface)](https://ethervm.io/decompile)

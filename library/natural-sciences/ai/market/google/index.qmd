@@ -28,6 +28,13 @@ title: Google AI
 
 ## Research
 
+### Models
+
+Gemma, Lightweight Open Models
+
+- [blog](https://blog.google/technology/developers/gemma-open-models/)
+- [article](https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf)
+
 ### Risk
 
 - [Malicious Use of AI](https://maliciousaireport.com/)

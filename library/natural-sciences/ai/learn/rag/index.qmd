@@ -5,3 +5,9 @@ title: Retreival Augmented Generation
 ## Resources
 
 - [RAG Demo on Groq LPU Inference Engine](https://www.youtube.com/watch?v=QE-JoCg98iU)
+
+### Benefits of RAG
+
+- ensure responsiveness of LLMs
+- enriches the model's context
+- grounds output in factual ifnormation
