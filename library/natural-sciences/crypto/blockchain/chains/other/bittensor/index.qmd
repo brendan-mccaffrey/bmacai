@@ -5,12 +5,10 @@ title: Bit Tensor
 ## Overview
 
 - [website](https://bittensor.com/)
+- [Building Blocks](https://docs.bittensor.com/learn/bittensor-building-blocks)
+- [deep dive](https://goodalexander.com/posts/bittensor-tao-deep-dive/)
 
 I unfortunately first thought I was late, after reciving [this investment note](_from-stuart.qmd) from a friend on November 8, 2023.
-
-#### Documentation
-
-- [Building Blocks](https://docs.bittensor.com/learn/bittensor-building-blocks)
 
 ## Ecosystem
 

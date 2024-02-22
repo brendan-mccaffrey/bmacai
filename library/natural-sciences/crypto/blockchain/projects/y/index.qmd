@@ -1,9 +1,0 @@
-
-
-
-login: `https://www.yairdrop.xyz/api/auth/login`
-
-`https://dev-r5x7jk684kma48n6.us.auth0.com/u/login?state=hKFo2SBETE5UMTZQSGx6Z3J4LW50UHJlN29UaHhxSDFvUTBGeKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGppMllRamphdUxUTnpjejFqb2xSRHpNaWNWY1VnQklko2NpZNkgUGMzdXZXZEkxb0c1OUZBSzVmSVByREQxazF1SmZHTUk`
-
-
-`https://www.yairdrop.xyz/api/auth/me`

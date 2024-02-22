@@ -1,0 +1,7 @@
+---
+title: Sakana AI
+---
+
+## Overview
+
+Sakana AI is an AI research company based in Tokyo, Japan. They raised a $30mm seed led by Lux Capital and strong backing by Khosla Ventures. They also have good relationships within the Japan tech ecosystem, with investments from [NTT Group](https://en.wikipedia.org/wiki/Nippon_Telegraph_and_Telephone), [KDDI CVC](https://en.wikipedia.org/wiki/KDDI), and [Sony Group](https://en.wikipedia.org/wiki/Sony). They announced a [research partnership](https://twitter.com/SakanaAILabs/status/1724231789236130244) with NTT, and received a [supercomputing grant from the Japanese Government](https://sakana.ai/nedo-grant/).

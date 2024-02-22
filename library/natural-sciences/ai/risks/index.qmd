@@ -1,0 +1,18 @@
+---
+title: AI Risks
+---
+
+## Artificial Liars
+
+Perhaps the greatest near term risk of AI is models that lie. This seems to happen because of the political leanings of the small teams that work on and manage the leading models.
+
+On February 21, there was tremendous outrage about Google's Gemini model, as it refused to create pictures of white people.
+
+Some examples:
+
+- [Asian Google Founders](https://x.com/vocalcry/status/1760150802641854519?s=20)
+- [NYT Front Page](https://x.com/nypost/status/1760623631283954027?s=20)
+
+It's hard to imagine why this would be the case. But then you remember the niche political mindset of those in charge. The product manager of Gemini, [tweeted](https://x.com/EndWokeness/status/1760633165499023467?s=20) that he cried intermittently for 24 hours after voting for Biden & Harris because it was so "cathartic".
+
+Beyond that, it expresses a damaging level of political correctness in other ways. For example, [refusing to create an image](https://x.com/pmarca/status/1760481929336615073?s=20) about the evils of communism.

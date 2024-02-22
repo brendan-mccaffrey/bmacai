@@ -1,0 +1,32 @@
+---
+title: Semantic Layer
+---
+
+## Resources
+
+- [website](https://www.semanticlayer.io/)
+- [twitter](https://twitter.com/SemanticLayer)
+- [deck](https://docs.semanticlayer.io/bellissimo?token=email_HX4fwfzScuB3aKGRCN6GSN&email=brendan%40undefined.xyz)
+
+## Overview
+
+Building the foundation for the next-gen tx supply chain. "universal and decentralized meta aggregation".
+
+They propose MEGA TX (MTX), compatability mode and enhanced mode.
+
+Compatability mode: intercepts the tx from the wallet through a SL RPC endpoint, routing it to Semantic Layer's Decentralized Solver Network, and then back to the builders, before hitting the relay, validator, and contract.
+
+Enhanced mode includes a front end with react hooks in the dapp, geneerates a UO/TX/RFQ/Intent from the dapp, routes through MTX endpoint to the DSN, then to builder, relay, and validator before going to SL POE Contract which features a protected contract and protected liquidity.
+
+MTX gives devs two superpowers: customize sequencing rules and aggregation rules. It contains 
+
+1. UO/RFG Array OR TX Array
+2. Solver/Searcher Operation/Tx
+3. Post-exe hook
+4. Verifiable SR {Goal, Beneficiary}
+5. Verifiable AR {Channel, Frequency}
+5. User Sig AND SL Nodes Sig
+
+Customize VSR: (sequencing), and customize VAR (aggregation).
+
+Semantic layer DSN is a lightweight blockchain.
