@@ -31,7 +31,7 @@ Considerations
 
 **Challenge generation section**
 
-
+TODO
 
 ## Whitepaper 
 
@@ -73,7 +73,23 @@ Tempurature $Q = 10$ and shift $\kappa = .5$ takes the trust scores and produces
 
 This consensus approach protects against naive collusion, but it does not incentivise correctly selecting weights. These incentives are introduced by adapting inflation mechanism with a speculation based reward 'bonds' $B$, a matrix of values $b_{i,j}$ which represent the proportion of bonds owned by peer $i$ in peer $j$. Bonds accumulate at each step much like token inflation where $\Delta B = W \dot S$. Peers accumulate bonds in the peers they rank, thus ;bonding' themselves to those they are connected to.
 
-$$B_{t+1} = B_t + W \dot S$
+$$B_{t+1} = B_t + W \dot S$$
 
 This mechanism lets peers speculate on the future value accrual of other peers. This is then slightly modified to ensure peers attain a fized proportion of their personal inflation.
 
+
+
+## Making Money on Tao
+
+Even if we don’t particularly believe in the roadmap of the BitTensor network or think it’s going to lead to positive expected value for most participants, that’s not to say we can’t make money on it today. Let’s review some basic scenarios that would enable this:
+
+- We run a high quality model at low cost that puts us at parity with other miners because they are unlikely to do better for cheaper. If we pick a subnetwork that has a high stake, it’s possible that the rewards we get will outweigh our costs. For example, let’s imagine that we simply do a passthrough to the GPT4Turbo API with our miner and maybe a custom prompt to make it slightly better than the “out of the box” experience. If our model wins against inferior models, and wins against other GPT4 passthroughs, and our per token cost is low, then we could make some money.
+- We run a model arbitrage play that iteratively determines the lowest cost model across many cloud services that still has an acceptable win rate for a given subnetwork. We then run this all day every day until the statistics change, and then we switch accordingly.
+- We could find populator validators and delegate our stake to them. This will get us a proportional $78\%$ of our proportion of the reward they get issued. As outlined on the delegation docs here
+- We run a validator ourselves, and can get similar results to other validators with low overhead perhaps by coordinating with them. In order to make our validator more prominent and likely to attract stake, we promote it heavily on social media and perhaps even do cross promotions with other members of our collective
+- We farm airdrops from as many hype social media promotions of subnets as we possibly can, as outlined here
+- We provide a subnet that attempts to compensate for some of the core difficulties associated with the network, while quietly favoring our collective. For example, let’s say we build a ‘trust evaluator’ subnet that scores miners and validators independently as a client of each. Stake could be used as a competitive differentiator
+- We run a large number of legitimate validators for six months, accumulating a large amount of stake. Eliminate every other competing validator on the subnet. Profit.
+- We run a large number of legitimate validators or one really big validator for six months, and then change the validator code to run a more “value oriented” algorithm in agreement with a collective of other validators. Same as above, but we favor our own collective’s miners at a rate that makes them the most profitable
+- We create a highly popular subnet that, for example, directly rather than indirectly facilitates gambling of some kind. Lottery tickets are the easiest but least interesting version of this, prediction markets for many different things are already emerging. Since everyone is already gambling anyway, this is highly appealing, and comes with the benefit that if outcomes are unguessable, miner compute requirements are inherently low, and if outcomes are guessable, as a popular validator you can potentially front run the market or the event by getting useful predictions before anyone else does.
+- At the current valuation level which feels stretched, these high alpha implementations feel a more appropriate means to achieve TAO price exposure.
