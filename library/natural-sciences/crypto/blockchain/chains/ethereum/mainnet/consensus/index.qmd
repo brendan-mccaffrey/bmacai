@@ -42,8 +42,6 @@ title: Ethereum Consensus
 - [tweet one](https://twitter.com/potuz1/status/1657031082749861891?s=20)
 - [tweet two](https://twitter.com/TaylerUSA/status/1656840323392208899)
 
+## Research
 
-## Further Readings
-
-- [**Consensus**](../consensus/index.qmd)
-- [**MEV**](../../mev/index.qmd)
+- [Vitalik: Sticking to 8192 signatures per slot post-SSF](https://ethresear.ch/t/sticking-to-8192-signatures-per-slot-post-ssf-how-and-why/17989)

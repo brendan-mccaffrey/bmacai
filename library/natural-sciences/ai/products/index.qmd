@@ -2,17 +2,42 @@
 title: AI Projects
 ---
 
+### General
+
+- [Meta: CICERO](https://ai.facebook.com/research/cicero/) 
+    - The first AI to play at a human level in Diplomacy, a strategy game that requires building trust, negotiating and cooperating with multiple players.
+
 ### Images
 
 - [Lumiere: Video inpainting, image-to-video, video-gen](https://lumiere-video.github.io/)
 - [Replace Anything: Image inpainting](https://huggingface.co/spaces/modelscope/ReplaceAnything)
 - [Genie 1.0: Text-to-3D](https://twitter.com/LumaLabsAI/status/1744778363330535860)
+- [Pix2Pix](https://arxiv.org/pdf/2211.09800.pdf)
+    - [github](https://github.com/timothybrooks/instruct-pix2pix)
+- [3D Image Inpainting](https://colab.research.google.com/github/mrm8488/shared_colab_notebooks/blob/master/3D_Photo_Inpainting_multiple_download.ipynb#scrollTo=5o-EIMeaghU0)
+    - [tweet](https://twitter.com/originalmaderix/status/1595770992495710209?s=20&t=fwFT1N12RsVrqI9onY4rRQ)
+- [HuggingFace Stable Diffusion: Text2Img, Img2Img](https://huggingface.co/spaces/camenduru/webui)
+- [BLIP-2: Image to Text](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)
+    - [tweet](https://twitter.com/LiJunnan0409/status/1621649677543440384?s=20&t=OdX-rH843kQC2bO6FvbRdw)
+    - [huggingface](https://huggingface.co/spaces/Salesforce/BLIP2)
+- [DALL-E: Zero-Shot Text-to-Image Generation](https://arxiv.org/abs/2102.12092)
+
 
 ### Video
 
 - [Anything is Any Scene: Photorealistic Video Insertion](https://anythinginanyscene.github.io/)
+- [Make-A-Video: Text-to-Video Generation without Text-Video Data](https://arxiv.org/abs/2209.14792)
 
 ### Sound
 
 - [SonicVidionLM: Generate sound effects for videos](https://yusiissy.github.io/SonicVisionLM.github.io/)
 - [MAGNeT: Text-to-music and test-to-sound](https://pages.cs.huji.ac.il/adiyoss-lab/MAGNeT/)
+
+- [Google MusicLM](https://twitter.com/nonmayorpete/status/1618996491649171457?s=20&t=zYURx0HbIgrKRcnPSRb4MQ)
+
+- [VALL-E: Generate voice snippets with only a few seconds of input audio](https://arxiv.org/abs/2301.02111)
+    - [Website](https://valle-demo.github.io/)
+
+- [Whisper: OpenAI Speech Recognition](https://arxiv.org/abs/2212.04356)
+    - [blog](https://openai.com/blog/whisper/)
+    - [github](https://github.com/openai/whisper)

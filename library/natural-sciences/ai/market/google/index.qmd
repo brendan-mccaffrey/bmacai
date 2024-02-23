@@ -20,6 +20,7 @@ title: Google AI
 - [Gemini Technical Report](https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf)
 - [AlphaCode 2 Technical Report](https://storage.googleapis.com/deepmind-media/AlphaCode2/AlphaCode2_Tech_Report.pdf)
 - [Research into Risk: An early warning system for novel AI risks](https://deepmind.google/discover/blog/an-early-warning-system-for-novel-ai-risks/)
+- [Google | Introducing Gemini: our largest and most capable AI model](https://blog.google/technology/ai/google-gemini-ai/)
 
 ## Hardware
 
