@@ -7,6 +7,7 @@ title: Ethena Investment Memo DRAFT
 Ethena Labs provides a solution for crypto-native money.
 
 *v2: Ethena Labs provides an internet enabled, crypto native money.*
+*v3: Ethena Labs provides crypto native money for the internet economy.*
 
 Ethena offers a censorship-resistant synthetic dollar, $\$USDe$, which is independent of traditional banking system infrastructure. Backed by a variety of delta-neutral derivative positions against staked Ethereum collateral, $\$USDe$ serves as a censorship-resistant safe haven crypto asset. 
 
@@ -20,11 +21,33 @@ Our proposal is to invest ...
 
 Turing complete blockchains like Ethereum and Solana have enabled a proliferation of assets and applications to form complex crypto economies that operate in parallel to the traditional financial system. Like all mature economies, the crypto-enabled internet economy requires a liquid and stable *medium of exchange*. 
 
-With the introduction of Tether in 2014, stablecoins have become a key building block of decentralized finance (DeFi), serving to enhance liquidity, protect from volatility, and enable certain financial applications. Despite their success, incumbent stablecoins have failed to address a core tenet of crypto - they remain directly dependent on centralized institutions.
+Today, there is over $\$100$ billion of stablecoins in circulation, serving to enhance liquidity, protect users from volatility, and enable certain financial applications. Despite tremendous growth, however, incumbent stablecoins have failed to address a core tenet of crypto - they remain directly dependent on centralized institutions. 
 
-The crypto economy demands a decentralized stablecoin, one which is independent on traditional banking infrastructure.
+The crypto industry demands a decentralized stablecoin, one which is independent on traditional banking infrastructure.
+
+## Product
+
+Ethena's first product is a decentralized stable crypto asset, $\$USDe$, backed by liquid staked Ethereum and delta-hedged by perpetual swap positions. This structure protects $\$USDe$ from the [centralized points of failure](https://www.coindesk.com/markets/2023/03/11/circles-usdc-endured-1b-of-net-redemptions-since-silicon-valley-banks-shutdown/) of traditional [banking systems](https://dfpi.ca.gov/wp-content/uploads/sites/337/2023/03/DFPI-Orders-Silicon-Valley-Bank-03102023.pdf) which [inspired Bitcoin](https://p2pfoundation.ning.com/forum/topics/bitcoin-open-source). 
+
+
+
+
+
+### Landscape
+
+
+
+the most prominent being fiat-backed such as $\$USDC$ and $\$USDT$, both backed by fiat reserves. most of which being  stablecoins circulating 
+In 2014, Tether introduced a fiat-backed stablecoin, $\$USDT$, to address this need, offering crypto users a more easily accessible  addressed this need with the introduction of  in 2014
+Over $100 billion inFiat-backed stablecoins 
+With the introduction of Tether in 2014, stablecoins have become a key building block of decentralized finance (DeFi), 
+
+Several attempts have been made to iterate upon the fiat-backed stablecoins that dominate
+
 
 ## Landscape
+
+The most widely circulating 
 
 There have been many attempts to deliver a decentralized stablecoin to the market. The attempts can largely be indentified in two categories: overcollateralized stablecoins and algorithmic stablecoins.
 
