@@ -12,6 +12,8 @@ description: "Cryptographic ledgers"
 - [The Most Important Scarce Resource is Legitimacy](https://vitalik.ca/general/2021/03/23/legitimacy.html)
 - [Manufacturing Consensus](https://drydenbrown.posthaven.com/manufacturing-consensus)
 - [What do I Think About Network States?](https://vitalik.ca/general/2022/07/13/networkstates.html)
+- [Cyberspace Declaration of Independence](https://www.eff.org/cyberspace-independence)
+- [Crypto Anarchist Manifesto](https://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/may-crypto-manifesto.html)
 
 ## Early Papers
 

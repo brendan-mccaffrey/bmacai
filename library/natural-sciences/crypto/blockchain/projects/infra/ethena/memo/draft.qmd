@@ -1,0 +1,82 @@
+---
+title: Ethena Investment Memo DRAFT
+---
+
+## Introduction
+
+Ethena Labs provides a solution for crypto-native money.
+
+*v2: Ethena Labs provides an internet enabled, crypto native money.*
+
+Ethena offers a censorship-resistant synthetic dollar, $\$USDe$, which is independent of traditional banking system infrastructure. Backed by a variety of delta-neutral derivative positions against staked Ethereum collateral, $\$USDe$ serves as a censorship-resistant safe haven crypto asset. 
+
+Ethena also enables the 'Internet Bond' - a permissionless dollar denominated savings instrument for users worldwide. $\$sUSDe$ derives yield from both the staked Ethereum collateral as well as the basis in futures markets. 
+
+## Deal
+
+Our proposal is to invest ...
+
+## Context
+
+Turing complete blockchains like Ethereum and Solana have enabled a proliferation of assets and applications to form complex crypto economies that operate in parallel to the traditional financial system. Like all mature economies, the crypto-enabled internet economy requires a liquid and stable *medium of exchange*. 
+
+With the introduction of Tether in 2014, stablecoins have become a key building block of decentralized finance (DeFi), serving to enhance liquidity, protect from volatility, and enable certain financial applications. Despite their success, incumbent stablecoins have failed to address a core tenet of crypto - they remain directly dependent on centralized institutions.
+
+The crypto economy demands a decentralized stablecoin, one which is independent on traditional banking infrastructure.
+
+## Landscape
+
+There have been many attempts to deliver a decentralized stablecoin to the market. The attempts can largely be indentified in two categories: overcollateralized stablecoins and algorithmic stablecoins.
+
+MakerDAO pioneered the overcollateralized design with DAI, a stablecoin with X billion in circulation. Although generally successful, DAI has suffered several significant complications in the past, and remains certain downsides. 
+
+- market volatility
+
+- [dai collateral](https://www.theblock.co/post/236139/makerdao-dai-collateral-usdc)
+
+
+There have been attempts to address this void. MakerDAO developed a solution DAI to serve this role
+
+The decentralized stablecoin has long been recognized problem in crypto.  Attempts to solve this need include overcollateralized
+
+enabling financial operations In the decade since, incumbent stablecoins have failed to successfully adopt a core tenet of DeFi.
+
+   Despite the tremendous expansion in circulating supply, incumbent stablecoins have failed to adopt the core tenet of crypto: decentralization.
+
+
+
+  address the most core requirement of the crypto ethos
+
+ of incumbent stablecoins, primarily 
+
+tremendous growth of stablecoins, 
+
+ enhanced market liquidity, protected traders from volatility, and enabled financial applications such as borrowing and lending protocols.  
+
+Crypto traders had to constantly 
+Tether marked the advent first USD stablecoin in 2014, and 
+
+ crypto economies to develop a plethora of assets and applications. assets developed crypto economies spanning financial and gaming applications, Aside from the  With the introduction
+Since the [introduction of Bitcoin](https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html) in 2008, the crypto ecosystem has developed tremendously.  have proliferation
+
+
+## Problem
+
+As of February 2024, the total cryptocurrency market capitalization sits at approximately $2 billion. 
+
+
+- Stablecoins within the crypto landscape
+- Dependence on fiat backing (USDC & DAI -> treasuries). Highlight SVB USDC events
+- Inherently faulty algorithmic stablecoins. Mention Terra and [vitalik's post](https://vitalik.eth.limo/general/2022/05/25/stable.html)
+
+
+
+
+
+### Extra Scraps
+
+ By utilizing the yield of the staked ETH collateral and the derivatives funding payments, Ethena enables 
+
+  Alongside $\$USDe$, Ethena enables the internet bond 
+
+is addressing one of the most obvious and critical failures of decentralized finance. As billions of dollars of value has entered the crypto economy, identified by   As billions of dollars of TVL independent of traditional banking systems. This solution includes a censorship-resistant, scalable, and stable synthetic dollar   built on Ethereum offering a crypto-native solution for money independent of the traditional banking system.

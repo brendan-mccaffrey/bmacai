@@ -1,0 +1,30 @@
+---
+title: Ethena Investment Memo
+---
+
+## Resources
+
+### On Memos
+
+- [Sequoia Youtube Investment Memo (page 10)](https://docsend.com/view/cpdizg7fetnyv44j)
+- [Investment Memo Template](https://schlaf.notion.site/schlaf/Investment-Memo-43cef4a1e99242cf883717282b219276)
+- [Example of Good Writing: Steve Jobs on Adobe Flash](https://sriramk.com/wp-content/uploads/2024/01/jobs-thoughts-on-flash.pdf)
+- [Anduril Memo by Fundomo](https://venture.angellist.com/v/brendan-mccaffrey-3/i/invest/fundomo-anduril-industries-series-c)
+
+
+### Ethena Related
+
+- [Arthur Hayes: Dust on Crust](https://blog.bitmex.com/dust-on-crust/)
+- [Blog: Introducing Ethena Labs](https://mirror.xyz/0xF99d0E4E3435cc9C9868D1C6274DfaB3e2721341/2gfr0qaFvZ8UxPaBvPPAZgwdcbssR_cyg5svqj1YGrY)
+- [Blog: The Internet Bond](https://mirror.xyz/0xF99d0E4E3435cc9C9868D1C6274DfaB3e2721341/v_ksCJPHOLFOtXB47ng7cdYnFiVOq2pw22clQJq8weU)
+- [Essay: The Internet Bond](https://drive.google.com/file/d/13-s15SvCIUBukhSZiNkpd0sTff3izQ5G/view)
+
+#### Ethos
+
+- [Cyberspace Declaration of Independence](https://www.eff.org/cyberspace-independence)
+
+#### Stablecoins
+
+- [Vitalik "Progress" (see economics)](https://vitalik.eth.limo/general/2019/11/22/progress.html)
+
+- [Bitcoin Crash History](https://web.archive.org/web/20170920221942/https://fortune.com/2017/09/18/bitcoin-crash-history/)
