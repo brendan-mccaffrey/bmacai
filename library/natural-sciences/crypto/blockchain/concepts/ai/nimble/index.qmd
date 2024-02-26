@@ -1,0 +1,31 @@
+---
+title: Nimble
+---
+
+Nimble - The Composable AI Protocol (Founded by ex-Uber and serial entrepreneurs)
+
+Nimble is building the first composable AI protocol, enabling decentralized enterprise-grade AI, for social, game, DePIN, intent and marketplace applications.
+
+Nimble was founded by an experienced team with AI experience from Google, Apple, Facebook, Uber, and Robinhood. Our protocol decentralizes the machine learning platforms behind big tech’s AI systems, rendering them permissionless and accessible to all.
+
+The protocol enables composability for AI models, compute, and training data. Developers can leverage models from the world’s AI engineers, data from the public data aggregators, and compute from the globally distributed infrastructure providers to build bespoke applications and custom models. A world class market layer is built to dispatch generic AI operations together with omni-chain access.
+
+Big tech spends billions on infrastructure, engineering, and tooling. Nimble enables developers to access the same quality of resources with near-zero marginal cost.
+
+The protocol is fully decentralized, orchestrated through a native token called NIMBLE.
+
+Deck: https://docsend.com/view/na36enrgepqv3dgr
+Vision: https://www.nimble.technology/vision
+Whitepaper: https://nimble.technology/whitepaper
+Litepaper: https://nimble.technology/litepaper
+Github: https://github.com/nimble-technology
+Tokenomics: https://nimble.technology/tokenomics
+Blogs: https://www.nimble.technology/media
+Tech Videos: https://www.youtube.com/playlist?list=PL0a0iINZkbBuy_0GsP-KpO6RzMIIUsf5g
+Calendly: https://calendly.com/nimblexin
+Team Members:
+https://www.linkedin.com/in/anthony-xin-jin-482638211/
+https://www.linkedin.com/in/anthony-isaacson-21516274/
+https://www.linkedin.com/in/henry-peng-998164a4/
+https://www.linkedin.com/in/pengjia/
+Telegram: t.me/jin_tech
