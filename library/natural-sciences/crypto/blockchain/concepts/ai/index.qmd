@@ -17,3 +17,8 @@ title: Crypto x AI
 - [Homomorphic Matrix Computation](https://yongsoosong.github.io/files/slides/MSR_matrix.pdf)
 
 - [Fast Secure Matrix Mul over Ring-Based Homomorphic Encryption](https://eprint.iacr.org/2018/663.pdf)
+
+## Projects
+
+- [Privasea](https://www.privasea.ai/app): FHEML built using Zama.
+- [HyperSpace](https://www.hyperspace.computer/bittorrent-for-ai.pdf)

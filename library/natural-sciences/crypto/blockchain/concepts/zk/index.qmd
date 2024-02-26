@@ -6,6 +6,9 @@ title: ZK x Blockchain
 
 ## Projects 
 
+- [Modulus](https://www.modulus.xyz/)
+- [EZKL](https://ezkl.xyz/)
+
 ### Nil Foundation
 
 - [zkLLVM Circuit Compiler](https://github.com/NilFoundation/zkLLVM)
