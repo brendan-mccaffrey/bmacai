@@ -1,0 +1,56 @@
+---
+title: Ambient
+---
+
+## Core Idea
+
+Create an AI based proof of work that aligns with the future of compute for better network security and censorship resistance.
+
+## Intro
+
+- GPT models are censored, politically biased, and subject to pervasive privacy concerns
+- current blockchain solutions fail to 
+    - verify model provenance
+    - support auditability or reproducibility of execution or training
+    - support transparent sharding and optimized concurrency
+    - provide any user privacy
+    - no censorship resistance
+    - do not further goal of training extremely large models for public good
+    - provide low economic incentives
+    - require bespoke configuration and large investment
+- Ambient is building a drop-in replacement for ChatGPT
+
+## Consensus 
+
+New PoW algo called "proof of logits" combined with proof of history architecture from Solana.
+
+### Key Concepts
+
+**Logits**
+
+The raw unnormalized outputs of the last layer of a model before applying activation function (like softmax).
+
+In classification models, logits are inputs to softmax which output probabilities for each class. In LLMs, logits represent the raw output values that are produced by the model for each token in the vocab before any normalization is applied to turn these values into probabilities.
+
+**How an LLM Processes Data**
+
+Input encoding, model layers, output layer, normalization, selection
+
+**Logits as fingerprints**
+
+Combo of all logits are like a unique fingerprint for a models thinking. Logits can be easily hashed, reducing fingerprint to a single number.
+
+It's not necessary for a validator node to fully replace another node's work in order to validate its logit output. Reduced computation for validation is necessary for proof of work.
+
+**System Queries**
+
+These are randomly generated strings optimized to exercise a wide variety of neurons in a LLM to generate a unique completion logits to prove a model is live on a particular node.
+
+## Questions
+
+- concerns with memory and bandwidth, esp if every inference is to be run/validated by entire network
+- Tor onion routing dramatically increases latency
+- if looking to implement generalized smart contracts like solana, why do we need an L1 over a SVM L2, reuse existing PoH and smart contract infra?
+- is every node running the same model, is the entire network running a single model?
+- what are the incentives to train the model(s) (alter the logits)?
+- can't someone download the logits and serve them off network in a centralized manner at a lower cost? 

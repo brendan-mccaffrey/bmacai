@@ -52,3 +52,7 @@ description: Unorganized list of AI Research
     - [huggingface](https://huggingface.co/spaces/Salesforce/BLIP2)
 - [Seven Failure Points When Engineering a Retrieval Augmented Generation System](https://arxiv.org/abs/2401.05856)
 - [Beyond $A^*$: Better Planning with Transformers via Search Dynamics Bootstrapping](https://arxiv.org/pdf/2402.14083.pdf)
+- [Hallucination is Inevitable: An Innate Limitation of Large Language Models](https://arxiv.org/abs/2401.11817)
+- [Extreme Compression of LLMs via Additive Quantization](https://arxiv.org/abs/2401.06118)
+- [Distributed Inference and Fine-tuning of LLMs over the Internet](https://browse.arxiv.org/html/2312.08361v1)
+- [Distributed SLIDE: Enabling Training Large Neural Network on Low Bandwidth and Simple CPU-Clusters via Model Parallelism and Sparsity](https://arxiv.org/pdf/2201.12667.pdf)

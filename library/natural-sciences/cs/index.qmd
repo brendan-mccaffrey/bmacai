@@ -2,6 +2,10 @@
 title: Computer Science
 ---
 
+## Tools
+
+[Open Source Remote Desktop](https://twitter.com/rustdesk)
+
 ## General
 
 - [From the Transistor to the Web Browser: Understanding the Modern Computer Stack from First Principles](https://github.com/geohot/fromthetransistor)

@@ -41,5 +41,6 @@ description: "Cryptographic ledgers"
 
 - [Vitalik: Crypto x AI](https://vitalik.eth.limo/general/2024/01/30/cryptoai.html)
 - [When Giants Collide: Exploring the Convergence of Crypto x AI](https://blog.ueth.org/p/when-giants-collide-exploring-the)
-
 - [AiOmen: Demo of prediction market where AI are players](https://aiomen.eth.limo/)
+- [Nightshade: Near Protocol Sharding Design 2.0](https://near.org/files/nightshade.pdf)
+- [Stateless Validation in a Sharded Blockchain](https://ethresear.ch/t/stateless-validation-in-a-sharded-blockchain/18763)

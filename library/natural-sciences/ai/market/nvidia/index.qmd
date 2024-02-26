@@ -1,0 +1,7 @@
+---
+title: NVIDIA
+---
+
+## Resources
+
+- [GEAR: Generalist Embodied Agent Research](https://research.nvidia.com/labs/gear/)

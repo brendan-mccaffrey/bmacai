@@ -1,0 +1,43 @@
+---
+title: Options
+---
+
+## Resources
+
+- [Options Greeks](https://steadyoptions.com/articles/ep-options-greeks/)
+- [Options Gamma](https://steadyoptions.com/articles/ep-options-gamma/)
+
+### Case Studies
+
+- [Delta Hedging: NVDA and the effect of Vanna & Charm](https://www.menthorq.com/guide/delta-hedging-nvda-and-the-effect-of-vanna-charm/)
+
+## Greeks
+
+#### First Order
+
+**Delta:** Estimate of how much an options premium may change given a $1 move in the underlying.
+
+**Vega:** The option's sensitivity to changes in the Implied Volatility, which is the market's estimate of the volatility in the future.
+
+**Theta:** A measure of the time decay of an option. Measured as the expected drop of an option's value, all things being equal, in the next 1 day (expressed as a negative).
+
+**Rho:** A measure of the sensitivity of options prices to changes in interest rates. Defined as the increase in price of an option, or options portfolio, as a result of a 1% increase in interest rates.
+
+- Long term options are more sensitive to changes in interest rates, ie have a higher Rho.
+
+#### Second Order
+
+**Gamma:** The sensistivity of delta to changes in stock price. 
+
+- Tends to rise as option moves closer to expiry.
+- "Most experienced options traders rarely keep a trade on until expiration"
+
+**Charm:** Also delta decay. Sensitivty of option price to small changes in underlying price and passage of time. Sensitivity of theta to small changes in underlying price, or sensitivity of delta to passage of time.
+
+**Vanna:** Sensitivity of vega to small changes in underlying price, or sensitivty of delta to small changes in volatility.
+
+**Vera:** Also rhova. Sensitivty of option price to small changes in volatility and interest rates, sensitivity of Rho to small changes in volatility, or sensitivity of vega to small changes in interest rates.
+
+**Veta:** Also vega decay. Sensitivty of vega to passage of time, or sensitivty of theta to small changes in volatility.
+
+**Vomma:** Also vega convexity, volga. Sinsitivity of vega to small changes in volatility.

@@ -12,6 +12,9 @@ description: Running an Eigenlayer operator node
 - [LayerZero Intern](https://goerli.eigenlayer.xyz/operator/0x787875c39e57699c19d6a2453c9e9aab905ab76d)
 - [Operation6](https://goerli.eigenlayer.xyz/operator/0x41573426f067f8221a9a91bf80d863520f7f4a05)
 - [Move Apprentice](https://goerli.eigenlayer.xyz/operator/0xd5e0c0c0ebfd2e181767fb1fdda8dc7fe5773970)
+- [Brvo](https://goerli.eigenlayer.xyz/operator/0xa35752811f8c11b2975333280adeb0f0b1ca9c7f)
+- [SerShokunin](https://goerli.eigenlayer.xyz/operator/0xbf0675e7a8066f520767eb3569a8d7ccc94925a5)
+- [Macro Takes](https://goerli.eigenlayer.xyz/operator/0x81f8942899c3791cde37426af105ce590a774012)
 
 ## Running a Node
 

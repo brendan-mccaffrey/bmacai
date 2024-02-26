@@ -53,7 +53,7 @@ There have been many attempts to deliver a decentralized stablecoin to the marke
 
 MakerDAO pioneered the overcollateralized design with DAI, a stablecoin with X billion in circulation. Although generally successful, DAI has suffered several significant complications in the past, and remains certain downsides. 
 
-- market volatility
+- [market volatility](https://vitalik.eth.limo/general/2019/11/22/progress.html)
 
 - [dai collateral](https://www.theblock.co/post/236139/makerdao-dai-collateral-usdc)
 

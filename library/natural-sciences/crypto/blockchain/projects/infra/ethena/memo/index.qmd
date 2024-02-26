@@ -28,3 +28,21 @@ title: Ethena Investment Memo
 - [Vitalik "Progress" (see economics)](https://vitalik.eth.limo/general/2019/11/22/progress.html)
 
 - [Bitcoin Crash History](https://web.archive.org/web/20170920221942/https://fortune.com/2017/09/18/bitcoin-crash-history/)
+
+## Others
+
+- https://docs.google.com/document/d/1voY2eq84JNjO8Gfwli7edoZU4E-XhXzDhrqekYl2Jdo/edit
+- https://ethena-labs.gitbook.io/ethena-labs/problem-crypto-native-money
+- https://mirror.xyz/0xF99d0E4E3435cc9C9868D1C6274DfaB3e2721341/2gfr0qaFvZ8UxPaBvPPAZgwdcbssR_cyg5svqj1YGrY
+- https://mirror.xyz/0xF99d0E4E3435cc9C9868D1C6274DfaB3e2721341/v_ksCJPHOLFOtXB47ng7cdYnFiVOq2pw22clQJq8weU
+- https://drive.google.com/file/d/13-s15SvCIUBukhSZiNkpd0sTff3izQ5G/view
+- https://blog.bitmex.com/dust-on-crust/
+- https://vitalik.eth.limo/general/2022/05/25/stable.html
+- https://web.archive.org/web/20171016130454/https://www.forbes.com/sites/timothylee/2013/04/11/an-illustrated-history-of-bitcoin-crashes/#1bd09df94039
+- https://venture.angellist.com/v/brendan-mccaffrey-3/i/invest/fundomo-anduril-industries-series-c
+- https://vitalik.eth.limo/general/2019/11/22/progress.html
+- https://www.theblock.co/post/236139/makerdao-dai-collateral-usdc
+- https://www.coindesk.com/business/2023/03/13/usdc-stablecoin-regains-dollar-peg-after-silicon-valley-bank-induced-chaos/
+- https://www.coindesk.com/business/2023/03/11/circle-confirms-33b-of-usdcs-cash-reserves-stuck-at-failed-silicon-valley-bank/
+- https://dfpi.ca.gov/wp-content/uploads/sites/337/2023/03/DFPI-Orders-Silicon-Valley-Bank-03102023.pdf
+- https://p2pfoundation.ning.com/forum/topics/bitcoin-open-source
