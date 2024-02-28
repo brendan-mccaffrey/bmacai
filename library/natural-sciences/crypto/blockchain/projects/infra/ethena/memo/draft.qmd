@@ -21,15 +21,21 @@ Our proposal is to invest ...
 
 Turing complete blockchains like Ethereum and Solana have enabled a proliferation of assets and applications to form complex crypto economies that operate in parallel to the traditional financial system. Like all mature economies, the crypto-enabled internet economy requires a liquid and stable *medium of exchange*. 
 
-Today, there is over $\$100$ billion of stablecoins in circulation, serving to enhance liquidity, protect users from volatility, and enable certain financial applications. Despite tremendous growth, however, incumbent stablecoins have failed to address a core tenet of crypto - they remain directly dependent on centralized institutions. 
+Today, there is over $\$100$ billion of stablecoins in circulation, serving to enhance liquidity, protect users from volatility, and enable certain financial applications. Despite tremendous growth, however, incumbent stablecoins have failed to address a core tenet of crypto - they [remain](https://decrypt.co/154580/tethers-stablecoin-usdt-has-a-peg-stability-problem-claims-analyst) directly [dependent](https://www.coindesk.com/markets/2023/03/11/circles-usdc-endured-1b-of-net-redemptions-since-silicon-valley-banks-shutdown/) on [centralized institutions](https://dfpi.ca.gov/wp-content/uploads/sites/337/2023/03/DFPI-Orders-Silicon-Valley-Bank-03102023.pdf). 
 
 The crypto industry demands a decentralized stablecoin, one which is independent on traditional banking infrastructure.
 
 ## Product
 
-Ethena's first product is a decentralized stable crypto asset, $\$USDe$, backed by liquid staked Ethereum and delta-hedged by perpetual swap positions. This structure protects $\$USDe$ from the [centralized points of failure](https://www.coindesk.com/markets/2023/03/11/circles-usdc-endured-1b-of-net-redemptions-since-silicon-valley-banks-shutdown/) of traditional [banking systems](https://dfpi.ca.gov/wp-content/uploads/sites/337/2023/03/DFPI-Orders-Silicon-Valley-Bank-03102023.pdf) which [inspired Bitcoin](https://p2pfoundation.ning.com/forum/topics/bitcoin-open-source). 
+Ethena has created a decentralized stable crypto asset, $\$USDe$. $\$USDe$ is minted against liquid staked Ethereum collateral, which is delta-hedged immediately on issuance with perpetual short position of equal notional size. This mechanism requires just 1:1 collateralization, far more capital efficient than the overcollateralized decentralized designs which fail to increase liquidity in the system.
 
+Ethena Labs has constructed the product operationally to minimize trust at every layer. Starting with the collateral asset, staked Ethereum is diversified across multiple liquid staked token providers including Lido, Rocketpool, and Coinbase. The perpetual future shorts are managed across an array of both centralized and decentralized exchanges, which and can be monitored by anyone with an internet connection in real-time. For custody, Ethena employs a set of third party custodians to transparently secure its staked ETH balances, which are permissionlessly verifiable on Ethereum's public ledger. Participating futures exchanges have agreed to simply mirror these assets on their orderbooks to open the futures positions, so the users assets never leave the designated custodian accounts. The 
 
+The hedged position behind $\$USDe$ is intelligently structured to collect yield on both legs of the trade. Liquid staked Ethereum tokens allow the asset side to capture the ETH-denominated validator yield from the network, while the short futures positions collect funding payments from the basis. This yield unlocks the ability to offer an Internet Bond ($\$sUSDe$), a globally accessible and permissionless savings instrument denominated in the US Dollar. 
+
+Ethena's Internet Bond is scalable, stable, and censorship-resistant. The underlying yield mechanism is [fundamentally different](https://vitalik.eth.limo/general/2022/05/25/stable.html) from [algostable](https://www.aier.org/article/algorithmic-stablecoins/) yields from the past, which were [inherently flawed](https://twitter.com/jp_koning/status/1524343011639013381).
+
+Ethena’s yield naturally scales in harmony with the crypto market, as the issuance increases and decreases with the aggregate Open Interest of the corresponding futures markets.
 
 
 

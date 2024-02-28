@@ -21,4 +21,9 @@ title: Crypto x AI
 ## Projects
 
 - [Privasea](https://www.privasea.ai/app): FHEML built using Zama.
+
+### Hyperspace
+
 - [HyperSpace](https://www.hyperspace.computer/bittorrent-for-ai.pdf)
+
+- [Kademlia](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf)

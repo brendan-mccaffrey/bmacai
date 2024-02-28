@@ -6,6 +6,13 @@ title: Blast
 
 Blast is an Ethereum L2 introducing the concept of "native yield", which is derived from staking economics on mainnet (and Tbills). It was founded by Tieshun (@pacmanblur), founder of Blur. They have S tier go-to-market strategy.
 
+## Node Resources
+
+- [blast repo](https://github.com/blast-io/blast)
+- [documentation](https://docs.blast.io/tools/node-providers#how-to-run-your-own-nodes)
+- [blast deployment repo](https://github.com/blast-io/deployment?tab=readme-ov-file)
+- [testnet deployment docs](https://safe-violet-16b.notion.site/Blast-Testnet-Deployment-Docs-95c1882f41dc45a4aee62b01409b8516)
+
 ## Ecosystem
 
 They are leading their ecosystem push with the [Big Bang Competition](https://blast.io/en/bigbang).

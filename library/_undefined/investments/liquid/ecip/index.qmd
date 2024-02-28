@@ -1,0 +1,156 @@
+---
+title: Emergency Capital Investment Program
+---
+
+
+## Emergency Capital Investment Program
+
+### Overview
+
+8.28 billion in ECIP payments to 162 banks considered Community development financial institutions (CDFIs) or minority depository institutions (MDIs)
+The Treasury is providing additional credit to ECIP participants intended for “rate reduction for ‘deep impact lending,’ including loans to low-income borrowers and underserved small businesses, for deeply affordable housing, and in persistent poverty communities.”
+
+### Rate Reduction Guidelines
+
+- Investments under ECIP will take the form of preferred stock. However, if Treasury determines that an institution cannot feasibly issue preferred stock under the program, Treasury’s investment make take the form of subordinate debt.
+- Max annual dividend or interest rate (for PS or SD) is 2%. However, dividend or interest rate will decrease if institution increases loan originations to target markets above certain thresholds. 
+- Treasury will compare institution’s qualified lending during each year, with the baseline qualified lending of 12 months period September 30 ‘19-’20
+    - Div/Rate = 1.25% if increase 200-400%
+    - Div/Rate = 0.5% if increase >400%
+- After 10 years of program, Dividend/rate is fixed at
+    - 0.5% if average lending over last 9 years > 400% of baseline amount
+    - 1.25% if 9 year average 200-400%
+    - 2% if < 200% of baseline
+    - Example: if baseline lending was $1mm, then years 2-10 lending was > 36mm (1mm baseline * 400% * 9yr)
+
+### Restrictions on Compensation
+
+- requirement to ensure that the total compensation paid to senior executive officers is appropriate and not excessive
+- restriction on severance pay for an ECIP recipient’s senior executive officers if the ECIP recipient is in troubled condition
+- requirement to adopt policies and procedures prohibiting excessive or luxury expenditures
+
+### Restrictions on Dividend Payment/Buybacks
+
+Def. Capital Distributions
+- Dividends
+- Payments (interest payments, etc)
+- Redemptions or buybacks
+- Excluded from definition are
+    - Redemptions part of employee stock for private recipient
+    - In case of federally insured, div/interest payments on accounts held by members upon termination of membership
+
+Capital Distributions (without prior approval) for the year must not exceed ( a - b )
+
+a) YTD net income (end of most recent quarter) + net income for 2 preceding calendar years
+
+b) dividends/capital distributions YTD + 2 preceding calendar years
+
+Examle: Assume bank made 0 div payments
+
+Year 1) Bank can pay prev 2 yr + ytd income
+Year 2) Bank can pay prev 2 yr + ytd income  - yr1 payment
+
+### FAQs
+
+- If the ECIP recipient undergoes a corporate transaction but will continue to exist as a legal entity, the ECIP instruments are not required to be redeemed
+- If the ECIP recipient sells, transfers, etc all (“or substantially all”) assets to another party, then section 4.2(a) of the securities purchase agreement would be triggered. The successor must assume the performance and observance of the covenants of the Securities Purchase Agreement. Successor must also be eligible for ECIP unless Treasury’s written approval is obtained
+
+### Our Questions
+
+What kind of Capital is the ECIP loans?
+
+> “the investment by Treasury will take the form of preferred stock”
+
+### Restrictions on Use of Funds
+
+Idea: what if we can buy corporate debt for 8%, yielding an easy 6% spread?
+
+Source: https://www.law.cornell.edu/cfr/text/12/3.20
+
+Capital Components
+Common equity tier 1 capital
+Additional Tier 1 capital
+Tier 2 capital
+
+Common equity tier 1 capital
+… *doesn’t seem of interest to us*
+Additional Tier 1 Capital: Sum of all elements and any related surplus, minus regulatory adjustments/deductions here
+The instrument has no maturity date and does not contain a dividend step-up or any other term or feature that creates an incentive to redeem
+
+Source: Interim Final Rule
+“First, these restrictions should seek to promote the integrity of ECIP by ensuring that the funds provided under the Program are used to provide loans, grants, and forbearance for small businesses, minority-owned businesses, and consumers, especially in low-income and underserved communities.”
+
+Ten Years After ECIP loan the funds are no longer under ECIP restrictions
+
+FUNDS CAN BE USED TO COVER TAXES
+“The interim final rule will permit S corporations and other pass-through 15 entities to make capital distributions to the extent reasonably required to cover its owners’ tax obligations in respect of the entity’s earnings. Such distributions shall be subject to an annual reconciliation, with any surplus or deficiency to be deducted or added to distributions, as applicable, in the following year.”
+
+
+### Where the Document may have Been Wrong
+
+Claim
+Dividends and buybacks of common stock are capped at the total of the sum of prior two years net income and executive compensation is capped. But as the above table shows, most of these banks could still pay large yields to common shareholders as the P/E ratios are so low. If your bank is trading at 7x the prior two years net income, your bank could pay a 28% dividend this year, and a 14% yield next year – assuming earnings are stagnant.
+
+Actual
+Dividends and buybacks of common stock are capped at net income prior 2 years minus distributions previous 2 years
+
+
+Further Research
+
+This has been done in recent months. Important to check how these loans worked out. E.g. Did recipients lose money from obligation to lend at low rate? Examples from recent months *at end of document*
+
+
+
+• Native American Bank recently closed a $10 million loan to finance an opioid
+addiction treatment facility in North Dakota, in partnership with a Tribe that used
+American Rescue Plan funds as seed funding for the facility.
+• Carver State Bank, based in Georgia, recently extended a working capital loan in
+the amount of $650,000 to an Atlanta-based, Black owned housing developer that
+is building affordable single-family homes.
+• Optus Bank, based in South Carolina, lent $4.5 million to a minority-owned,
+family entertainment center for its facilities and operations in a rural, persistent
+poverty county. The ECIP investment has allowed Optus to approve more than
+$30 million in loans over the past four weeks, when their average monthly lending
+last year was about $1 million.
+• Latino Community Credit Union, based in North Carolina, recently closed a
+$250,000 loan with a Latino family to finance a mortgage for their very first
+home.
+• Hope Credit Union, based in Mississippi, recently made a $10,000 small business
+loan to a Black and Woman owned organic and fresh roasted coffee distribution
+business based in Louisiana to expand operations.
+• Southern Bancorp, based in Arkansas, made an approximately $700,000 loan to a
+501(c)(3) rural, affordable housing provider, which is run by an African American
+female developer; the proceeds are being used to purchase and develop 82 acres
+of land in a persistent poverty county to build single family homes as affordable
+rental units.
+
+
+
+
+Non-cumulative perpetual preferred stock with super low div rate
+
+Preferred Stock
+Preferred stock is often considered a quasi-equity instrument. It has properties of equity and properties of debt.
+Preferred has no voting rights, common stock does
+Document says its non dilutive
+
+Preferred Stock
+Common Stock
+No voting rights
+Yes voting rights
+Priority over company’s income
+Paid divs after preferred
+Before common in line to assets
+Last entitled to assets - after creditors, bondors, and preferred
+
+
+
+
+
+
+
+
+
+
+
+
