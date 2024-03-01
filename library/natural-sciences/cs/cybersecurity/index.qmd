@@ -2,9 +2,10 @@
 title: Cybersecurity
 ---
 
-## Learning
+## Resources
 
 - [hackertest.net](http://www.hackertest.net/)
+- [Security Reference Guide](https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide/blue-defense/device-hardening/windows-hardening-commands)
 
 ## Tools
 

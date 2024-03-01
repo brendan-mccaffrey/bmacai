@@ -1,0 +1,46 @@
+---
+title: NVIDIA Story
+---
+
+### 1999
+
+Nvidia released the GeForce 256 graphics card
+
+- processor 17mm transistors
+- fabbed by TSMC
+
+Called it the first graphics processing unit, "a single chip processor with integrated transform, lighting, triangle setup/clipping, and rendering engines that is capable of processing a minimum of 10mm polygons per second".
+
+### The Graphics Pipeline
+
+Job is to turn a scene into graphics: Geometry.
+
+Early real-time graphics systems broke everything down into triangles.
+
+- You start with 3D coordinate data and 3D shape data: scene-level calculations.
+- Then geometry stage: transform & lighting, and triangle setup and clipping (clipping when objects are overlayed). Matrices are used when manipulating these coordinates.
+- Rendering Stage: pipeline fills the translated 2D image with image pixels representing the object's surface. Setup engine passes render engine information about the objects color and texture and how those are affected by lighting and perspective.
+
+Until 1996, Nvidia did only the Rendering stage, with the rest done by the CPU. But then it began moving up the chain. 
+
+In 1997, Nvidia cards took on triangle setup and clipping. This allowed the CPU to spend more time on the geometry stage. So it threw more triangles at the graphics card, the card became the bottleneck. Nvidia engineers solved it with parallelism, converting work into a pipeline of sequential steps, and lined up multiple pipelines to run in parallel. Tasks were repetitive and data independent, speed was almost linearly proportional to number of processing cores.
+
+In 1999, Nvidia then took up the last part of the graphics pipeline, transform & lighting calculations (with the GeForce 256). This generation of GPUs ran what was called "fixed function" pipelines. Once programmer sent data to GPU, it could not be modified. This prevented developers from using new features in graphics APIs. 
+
+The ability to introduce additional customizability came with the GeForce3 in 2001. Devs could not send customized programs called shaders. Shaders were written in low-level language and had limits. 
+
+2006, Nvidia released GeForce 8 series and new software framework called Compute Unified Device Architecture (CUDA) offered a lot to make programming GPUs easier. Open Source cousin was called OpenCL.
+
+- A kernel is executed as a grid of thread blocks.
+- A thread block is a batch of threads that can cooperate with each other by
+    - sharing data through a shared memory
+    - synchronizing their execution
+- Threads from different blocks cannot cooperate
+
+This turned specialized game machines into generalized processors. GPU performance has scaled far better than CPUs recently, because NVIDIA can scale performance by increasing amount of transistors. Nvidia was also able to scale frequency, using TMSC 16nm newly designed transistor using the 3D FinFET architecture for the first time (higher clock speed). Dennard scaling law says new chips use the same amount of energy despite having more transistors on the same sized space. Slowed in 2006 but still happens.
+
+ImageNET started in 2010 as a competition for image classification. The top performing models used hand engineered computer vision models. Error rate of 29 and 25%. 
+
+Then in 2012, 3 researchers Slex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton participated with a deep neural network. Trained in 5-6 days on 2 GTX 580 3GB GPUs, it took first place by a mile with a 15% error rate, 10% better than runner up. 2016, Google Deepmind's AlphaGo beat the world champion.
+
+AMD bought Nvidia competitor ATI, and made a CUDA of their own called ROCm, opting to make it open source.

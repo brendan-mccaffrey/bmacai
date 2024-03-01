@@ -1,0 +1,20 @@
+---
+title: Silicon Photonics
+---
+
+Data used to be sent via electrical signals. The industry moved to optical fiber. Engineers have even figures out how to send multiple signals at the same time, using different wavelengths.
+
+Engineers have wanted to bring transistors to the photonics world.
+
+## Five Photonic Ingredients
+
+1. Light source (usually a laser)
+2. Methods of manipulating the light, (passive structures)
+3. Ways to convert digital signals into digital optical signals (modulator) and 
+4. vice versa (photodetector). Device that can do both 3 and 4 is a transceiver. In data centers, transceivers sit on either end of the optical cable converting back and forth.
+5. Traditional CMOS electronics to accompany photonics components.
+
+Issues:
+
+- silicon cannot emit light (can modify it by inserting borons for example)
+- silicons crystals structure means it does not have the pockels effect, where you can use an electric field to control how fast light goes through a certain object (its refractive index). Wihtout this, no modulator.

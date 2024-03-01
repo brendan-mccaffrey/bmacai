@@ -5,16 +5,19 @@ description: Running an Eigenlayer operator node
 
 ## Operators
 
-- [bmac](https://goerli.eigenlayer.xyz/operator/0xbc0a9e6ddb719aabc1Da9783BC91C37401B3DAea)
-- [Quant Drip](https://goerli.eigenlayer.xyz/operator/0xc7fa09a1aefb2447856fc9b109c7f037d740dbfe)
-- [Happy Feet](https://goerli.eigenlayer.xyz/operator/0x94f2dbaf324eb35a74f869b8159122b6bb9a38ef)
-- [Nitro Operations](https://goerli.eigenlayer.xyz/operator/0x7eea2e499d9bd0f0a2cf2fa19b80a5b08a846ed1)
-- [LayerZero Intern](https://goerli.eigenlayer.xyz/operator/0x787875c39e57699c19d6a2453c9e9aab905ab76d)
-- [Operation6](https://goerli.eigenlayer.xyz/operator/0x41573426f067f8221a9a91bf80d863520f7f4a05)
-- [Move Apprentice](https://goerli.eigenlayer.xyz/operator/0xd5e0c0c0ebfd2e181767fb1fdda8dc7fe5773970)
-- [Brvo](https://goerli.eigenlayer.xyz/operator/0xa35752811f8c11b2975333280adeb0f0b1ca9c7f)
-- [SerShokunin](https://goerli.eigenlayer.xyz/operator/0xbf0675e7a8066f520767eb3569a8d7ccc94925a5)
-- [Macro Takes](https://goerli.eigenlayer.xyz/operator/0x81f8942899c3791cde37426af105ce590a774012)
+1. [bmac](https://goerli.eigenlayer.xyz/operator/0xbc0a9e6ddb719aabc1Da9783BC91C37401B3DAea)
+2. [Quant Drip](https://goerli.eigenlayer.xyz/operator/0xc7fa09a1aefb2447856fc9b109c7f037d740dbfe)
+3. [Happy Feet](https://goerli.eigenlayer.xyz/operator/0x94f2dbaf324eb35a74f869b8159122b6bb9a38ef)
+4. [Nitro Operations](https://goerli.eigenlayer.xyz/operator/0x7eea2e499d9bd0f0a2cf2fa19b80a5b08a846ed1)
+5. [LayerZero Intern](https://goerli.eigenlayer.xyz/operator/0x787875c39e57699c19d6a2453c9e9aab905ab76d)
+6. [Operation6](https://goerli.eigenlayer.xyz/operator/0x41573426f067f8221a9a91bf80d863520f7f4a05)
+7. [Move Apprentice](https://goerli.eigenlayer.xyz/operator/0xd5e0c0c0ebfd2e181767fb1fdda8dc7fe5773970)
+8. [Brvo](https://goerli.eigenlayer.xyz/operator/0xa35752811f8c11b2975333280adeb0f0b1ca9c7f)
+9. [SerShokunin](https://goerli.eigenlayer.xyz/operator/0xbf0675e7a8066f520767eb3569a8d7ccc94925a5)
+10. [Macro Takes](https://goerli.eigenlayer.xyz/operator/0x81f8942899c3791cde37426af105ce590a774012)
+11. [pumpy](https://goerli.eigenlayer.xyz/operator/0xe1302113a7c0d7bbf2321df48084854278ed24ed)
+12. [chef](https://goerli.eigenlayer.xyz/operator/0xa53fea57b2734eb2d76dc6976871aae20d4c4dc5)
+13. [federal reserve](https://goerli.eigenlayer.xyz/operator/0x401f51c1b91591815a26e0459c23b027d4f88223)
 
 ## Running a Node
 
