@@ -18,6 +18,8 @@ description: Running an Eigenlayer operator node
 11. [pumpy](https://goerli.eigenlayer.xyz/operator/0xe1302113a7c0d7bbf2321df48084854278ed24ed)
 12. [chef](https://goerli.eigenlayer.xyz/operator/0xa53fea57b2734eb2d76dc6976871aae20d4c4dc5)
 13. [federal reserve](https://goerli.eigenlayer.xyz/operator/0x401f51c1b91591815a26e0459c23b027d4f88223)
+14. [anon mf](https://goerli.eigenlayer.xyz/operator/0x96186faada74d5d1ca31703c79e289746d9f6a64)
+15. [lycurgus](https://goerli.eigenlayer.xyz/operator/0x6c73a2a317ce4da2255fb14cc85a5db77e3ec3b7)
 
 ## Running a Node
 

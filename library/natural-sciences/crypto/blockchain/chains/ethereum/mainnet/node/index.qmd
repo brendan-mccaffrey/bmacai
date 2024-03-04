@@ -85,6 +85,8 @@ wget -c https://github.com/sigp/lighthouse/releases/download/v4.5.0/lighthouse-v
 tar -xzf lighthouse-v4.5.0-x86_64-unknown-linux-gnu.tar.gz
 ```
 
+This builds Reth to `CARGO_HOME` or `$HOME/.cargo`. This directory needs to be on your `PATH` before you can run `$ reth`.
+
 ### 2. Run the clients
 
 **Note on Good Practices**
@@ -189,3 +191,23 @@ Now retrieve an SSL origin certificate from Cloudflare, and paste the `.crt` and
 Make sure your domain has an *A* record pointing to "mynode" (or whatever you picked as a subdomain).
 
 You should now be able to go to your domain "mynode.mywebsite.com" and see the NGINX welcome page.
+
+
+## Upgrading
+
+Idk how to prune reth retroactively. I did add prune configuration to reth.toml, deleted DB, and restarted tho. 
+
+**Update Reth**
+
+- [docs](https://paradigmxyz.github.io/reth/installation/source.html#update-reth)
+
+```bash
+cd reth
+git fetch
+git checkout ${VERSION}
+cargo build --release
+```
+
+We want this is cargo path `/home/ubuntu/.cargo/bin`. After build, it will exist in `/home/ubuntu/ethnode/reth/target/release/reth`.
+
+Delete `/home/ubuntu/.cargo/bin/reth` and run `cp target/release/reth /home/ubuntu/.cargo/bin/reth`. You can then check with `reth --version`

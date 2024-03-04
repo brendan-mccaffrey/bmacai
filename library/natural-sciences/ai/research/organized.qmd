@@ -33,9 +33,10 @@ title: Organized Research
 
 - [CodeFusion: A Pre-trained Diffusion Model for Code Generation](https://arxiv.org/abs/2310.17680)
 
-## **Promting**
+## Promting & Jailbreaks
 
 - [Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution](https://arxiv.org/abs/2309.16797)
+- [ArtPrompt: ASCII Art-Based Jailbreak](https://arxiv.org/pdf/2402.11753.pdf)
 
 
 ## Diffusion Models
