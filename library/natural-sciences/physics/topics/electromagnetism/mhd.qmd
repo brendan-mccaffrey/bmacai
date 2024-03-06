@@ -1,3 +1,9 @@
+---
+title: Magnetohydrodynamics
+---
+
+## Overview
+
 Magnetohydrodynamics (MHD), also known as hydromagnetics, is a field in physics that studies the dynamics of electrically conducting fluids, particularly the interaction between magnetic fields and such fluids. These fluids could be plasma, liquid metals, or even seawater. MHD is a synthesis of fluid dynamics and electromagnetism. The governing equations of MHD are the Navier-Stokes equations (in the limit of high Reynolds number) coupled with Maxwell's equations.
 
 ### Resources

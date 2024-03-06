@@ -15,6 +15,7 @@ description: Why did the quantum computer get kicked out of school? Because ever
 - [Variational Quantum Thermalization and the Future of Quantum Thermodynamics](https://deep-1645.medium.com/variational-quantum-thermalization-and-the-future-of-quantum-thermodynamics-75ee9916ec3c)
 - [Evidence for the utility of quantum computing before fault tolerance](https://www.nature.com/articles/s41586-023-06096-3)
 - [Quantum Computation and Quantum Information](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf)
+- [Computational Supremacy in Quantum Simulation](https://arxiv.org/abs/2403.00910)
 
 ## Foundational
 
