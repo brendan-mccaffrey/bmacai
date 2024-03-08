@@ -1,0 +1,26 @@
+---
+title: DA & Modularity
+---
+
+## Data Availability
+
+- [Why DA Sampling matters for blockchain scaling](https://blockworks.co/news/data-availability-ethereum)
+- [Ethereum DA](https://ethereum.org/en/developers/docs/data-availability)
+- [Mantle Docs on DA](https://docs.mantle.xyz/network/introduction/concepts/data-availability)
+
+## Modular Thesis
+
+- [Celestia: Modular and Monolithic Blockchains](https://celestia.org/learn/basics-of-modular-blockchains/modular-and-monolithic-blockchains/)
+- [Galaxy: Blockchain Modularity](https://www.galaxy.com/insights/research/making-sense-of-blockchain-modularity/)
+- [Volt Capital: Modular Blockchains](https://volt.capital/blog/modular-blockchains)
+- [Polynya: Updated thoughts on "modular blockchains"](https://polynya.medium.com/updated-thoughts-on-modular-blockchains-ce1b159fa1b3)
+
+## Ecosystem 
+
+Modular expansion is the narrative under Celestia. It includes the many "Rollup-as-a-service" startups such as 
+
+- [Initia](https://twitter.com/initiafdn), Conduit, Caldera, and AltLayer.  is similar, but for Cosmos app chains.
+- [Conduit](https://conduit.xyz/)
+- [Caldera](https://www.caldera.xyz/)
+- [AltLayer](https://altlayer.io/)
+- [Dymension](https://dymension.xyz/)

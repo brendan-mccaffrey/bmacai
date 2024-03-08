@@ -3,15 +3,6 @@ title: Cryptography
 description: Where the value lies.
 ---
 
-## General Resources
-
-- [Applied Cryptography](https://crypto.stanford.edu/~dabo/cryptobook/BonehShoup_0_4.pdf)
-- [NSA: tor Stinks](https://cryptome.org/2013/10/nsa-tor-stinks.pdf)
-- [Complete Knowledge: Preventing Encumbrance of Cryptographic Secrets](https://www.arijuels.com/wp-content/uploads/2023/01/Complete_Knowledge.pdf)
-- [Shucking Attacks](https://superuser.com/questions/1561434/how-do-i-crack-a-double-encrypted-hash/1561612#1561612)
-- [Breaking Elliptic Curve - How to compute a 256-bit elliptic curve private key with only 50 million Toffoli gates](https://arxiv.org/abs/2306.08585)
-- PLONK implemented, from scratch, in python: [here](https://github.com/tarassh/zkSNARK-under-the-hood/blob/main/plonk2.ipynb)
-
 ## Renowned Papers
 
 - 1976 | [New Directions in Cryptography](https://t.co/xqjkEf7TEV)
@@ -33,13 +24,39 @@ description: Where the value lies.
 - 2020 | [Public-Coin Zero-Knowledge Arguments with (almost) Minimal Time and Space Overheads](https://www.iacr.org/cryptodb/data/paper.php?pubkey=30645)
 - 2023 | [Proofs, Arguments, and Zero Knowledge](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
 
+## General Resources
+
+- [Applied Cryptography](https://crypto.stanford.edu/~dabo/cryptobook/BonehShoup_0_4.pdf)
+- [NSA: tor Stinks](https://cryptome.org/2013/10/nsa-tor-stinks.pdf)
+- [Complete Knowledge: Preventing Encumbrance of Cryptographic Secrets](https://www.arijuels.com/wp-content/uploads/2023/01/Complete_Knowledge.pdf)
+
 ## Primitives
 
 - [Digital Signatures](https://en.wikipedia.org/wiki/Digital_signature)
 - [Asymmetric (Public/Private Key) Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography)
+
+## Attacks
+
+- [Shucking Attacks](https://superuser.com/questions/1561434/how-do-i-crack-a-double-encrypted-hash/1561612#1561612)
+- [Breaking Elliptic Curve - How to compute a 256-bit elliptic curve private key with only 50 million Toffoli gates](https://arxiv.org/abs/2306.08585)
+
+## Topics
+
 - [Polynomial Commitment Schemes Multiproofs using Random Evaluation](https://dankradfeist.de/ethereum/2021/06/18/pcs-multiproofs.html#evaluating-a-polynomial-in-evaluation-form-on-a-point-outside-the-domain)
+
+### Secret Sharing
+
 - Pederson Commitments [Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing](https://link.springer.com/chapter/10.1007/3-540-46766-1_9)
     - ZCash and Monero use these to shield transaction amounts
+
+### BLS
+
+Boneh-Lynn-Shacham Signature Scheme
+
+- [BLS Introduction](https://eth2book.info/altair/part2/building_blocks/signatures)
+- [BLS Signature Scheme](https://tools.ietf.org/id/draft-boneh-bls-signature-00.txt)
+- [Pragmatic signature aggregation with BLS](https://ethresear.ch/t/pragmatic-signature-aggregation-with-bls/2105?u=benjaminion)
+- [BLS Signature for Busy People](https://gist.github.com/paulmillr/18b802ad219b1aee34d773d08ec26ca2)
 
 
 

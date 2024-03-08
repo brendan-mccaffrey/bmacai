@@ -4,26 +4,26 @@ title: Crypto x AI
 
 ## Resources
 
+### High-Level
+
+- [Vitalik: Crypto x AI](https://vitalik.eth.limo/general/2024/01/30/cryptoai.html)
+- [When Giants Collide: Exploring the Convergence of Crypto x AI](https://blog.ueth.org/p/when-giants-collide-exploring-the)
+- [AiOmen: Demo of prediction market where AI are players](https://aiomen.eth.limo/)
+
+### Low-Level
+
 - [On Matrix Multiplication with Homomorphic Encryption](https://dl.acm.org/doi/abs/10.1145/3560810.3564267#:~:text=Secure%20matrix%20multiplication%20based%20on%20fully%20homomorphic%20encryption&text=Fully%20homomorphic%20encryption%20allows%20to,on%20an%20untrusted%20computation%20environment.)
-
 - [Secure matrix multiplication based on fully homomorphic encryption](https://link.springer.com/article/10.1007/s11227-022-04850-4)
-
 - [Novel Matrix Encoding Method for Privacy-Preserving Neural Networks](https://arxiv.org/pdf/2201.12577.pdf)
-
 - [Secure matrix multiplication based on fully homomorphic encryption](https://dl.acm.org/doi/abs/10.1007/s11227-022-04850-4)
-
 - [A New Framework for Fast Homomorphic Matrix Multiplication](https://eprint.iacr.org/2023/1649.pdf)
-
 - [Homomorphic Matrix Computation](https://yongsoosong.github.io/files/slides/MSR_matrix.pdf)
-
 - [Fast Secure Matrix Mul over Ring-Based Homomorphic Encryption](https://eprint.iacr.org/2018/663.pdf)
+- [Kademlia: P2P Distributed Hash Table](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf)
 
 ## Projects
 
 - [Privasea](https://www.privasea.ai/app): FHEML built using Zama.
 
-### Hyperspace
-
 - [HyperSpace](https://www.hyperspace.computer/bittorrent-for-ai.pdf)
 
-- [Kademlia](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf)

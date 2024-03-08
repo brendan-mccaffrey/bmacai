@@ -1,15 +1,16 @@
 ---
-title: Crypto x Privacy
+title: Privacy
 ---
+
+## Privacy on Blockchains
 
 The OG: [Tornado Cash](https://twitter.com/tornadocash?lang=en)
 
-### Second Generation
+**Second Generation**
 
 - [Railway](https://www.railway.xyz/)
 - [Nocturne](https://app.nocturne.xyz/welcome)
 - [Lunarpunk and the Dark Side of Crypto](https://www.youtube.com/watch?v=BerscJiALiE)
 - [Dark Fi](https://dark.fi/)
-
 - [Stealth Addresses](https://vitalik.eth.limo/general/2023/01/20/stealth.html)
 - [Privacy Pools](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4563364)

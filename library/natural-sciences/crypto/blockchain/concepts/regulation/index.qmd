@@ -2,6 +2,20 @@
 title: Regulation
 ---
 
-## Resources
+## Reports
+
+- [SEC Comissioner Hester M. Peirce, on the Kraken Suit](https://www.sec.gov/news/statement/peirce-statement-kraken-020923)
+- [SEC Charges Terraform (Luna) with Fraud](https://www.sec.gov/news/press-release/2023-32)
+- FBI Confirms [Lazarus Group Cyber Actors Responsible for Harmony's Horizon Bridge Currency Theft](https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft)
+- U.S. Attorney Damian Williams [announces](https://twitter.com/SDNYnews/status/1678780204062490626) the first-ever criminal case involving an attack on a smart contract operated by a decentralized cryptocurrency exchange.
+- [Tornado Cash and Blockchain Privacy: A Primer for Economists and Policymakers](https://research.stlouisfed.org/publications/review/2023/02/03/tornado-cash-and-blockchain-privacy-a-primer-for-economists-and-policymakers)
+
+## Research
 
 - [Blockchain Privacy and Rgulatory Compliance: Towards a Practical Equilibrium](https://deliverypdf.ssrn.com/delivery.php?ID=855089082102119079102097091083101113102082065014007039108087071002094126076004092111050117107034029039046027080025125113003101039086075069039068002121097025083108119020043021065086070093119021123028007013076115117079106121092088113093091115115105022031&EXT=pdf&INDEX=TRUE)
+
+### Fiat is preferable for criminals
+
+- [Chainalysis 2024 Crime Trends](https://www.chainalysis.com/blog/2024-crypto-crime-report-introduction/)
+- [Transparency.eu Financial Flows and Crime](https://transparency.eu/priority/financial-flows-crime/)
+- [US Treasury: National Money Laundering Risk Assessment](https://home.treasury.gov/system/files/136/2022-National-Money-Laundering-Risk-Assessment.pdf)

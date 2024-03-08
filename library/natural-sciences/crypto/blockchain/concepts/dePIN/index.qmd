@@ -3,7 +3,7 @@ title: DePIN
 description: Decentralized physical infrastructure networks
 ---
 
-## Projects
+## Project List
 
 - [Helium](https://www.helium.com/)
 - [IO.net](https://io.net/)
@@ -12,4 +12,20 @@ description: Decentralized physical infrastructure networks
 - [Akash](https://akash.network/)
 - [Hivemapper](https://hivemapper.com/explorer)
 
-## Antimetal
+
+
+## Helium
+
+Helium mobile is a decentralized public infrastructure network (DePIN) that enables a cellular data provision and consumption through permissionless economic incentives.
+
+**Supply Side**
+
+- [mining hotspots](https://www.helium.com/mine#hotspots)
+
+Hardware
+
+- [Klok](https://buyklok.com/products/privacy-hub?utm_source=CCC&utm_medium=ECOMCCC&utm_campaign=CCCCKLOK&utm_id=CCCKLOK)
+- [FreedomFi](https://freedomfi.com/catalog/)
+- [Linxdot](https://www.linxdot.com/store/)
+- [Bobber](https://bobber.com/)
+- [Nebra](https://uk.pi-supply.com/collections/helium-hotspot-miners-hnt)

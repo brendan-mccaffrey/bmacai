@@ -1,9 +1,0 @@
----
-title: Data Availability
----
-
-## Reads
-
-- [Why DA Sampling matters for blockchain scaling](https://blockworks.co/news/data-availability-ethereum)
-- [Ethereum DA](https://ethereum.org/en/developers/docs/data-availability)
-- [Mantle Docs on DA](https://docs.mantle.xyz/network/introduction/concepts/data-availability)

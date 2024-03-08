@@ -6,22 +6,21 @@ title: Real World Assets
 
 - [Plume Network](https://www.plumenetwork.xyz/)
 - [Canton Network](https://www.canton.network/)
+    - this is Digital Asset DAML's blockchain
+    - UBS, Microsoft, Cumberland, etc
+    - Versana targets syndicated loan markets
 - [Digital Asset](https://www.digitalasset.com/)
+    - used to have their own chain
+    - CoFounder: blythe masters, left to start her own PE shop
 - [GoldFinch](https://goldfinch.finance/)
+- [R3 Corda](https://r3.com/products/corda/)
+- [Provenance Blockchain](https://provenance.io/)
+    - [By Figure CEO Mike Cagney](https://www.forbes.com/sites/digital-assets/2023/12/23/figure-ceo-mike-cagney-wants-to-sell-bitcoin-and-coinbase-shares-on-one-platform/?sh=1c8efa64241b)
 
 ## Checker, Jack Chong
 
 - [Checker Deck, 2023](https://drive.google.com/file/d/1aFTDVMkBdDxioIC-XMWIaiJQ3-cLU1r0/view?usp=sharing)
-
-The sell-side of RWAs are pushing the frontier right now. JPM, Softgen, etc benefit by saving ~35% of issuance cost.
-
-The market needs a push on the buy-side.
-
-"I want exposure to x"
-
-"You have to set up x wallet, bridge to y chain..."
-
-Need to abstract the complexity of the technology.
+- [Deck](https://drive.google.com/file/d/1aFTDVMkBdDxioIC-XMWIaiJQ3-cLU1r0/view?usp=sharing)
 
 ### Team
 
@@ -54,6 +53,20 @@ Did a deal with maker, borrowed DAI.
 French banks are good at selling complex derivative issuances. By automating the entire process on the blockchain, they save moeny.
 
 They have $100mm of complex derivatives they want to sell on chain. They have a buyer, BNP european bank. They like the product, they want to buy in. BNP asset manager has tradfi systems, they are not equipped to trade tokenized asset. How do you book the information on the system?
+
+**Sell-Side**
+
+- [F.I.S.](https://www.fisglobal.com/en/banking/lending): Bringing in CRE loans
+- going through vendor risk process with them, no commercial agreement has been signed yet. Checker is partnering with them to connect to the Buy side
+- [Coinbase Asset Managment, Project Diamond](https://www.theblock.co/post/267194/coinbase-project-diamond-base-usdc?utm_source=onecryptofeed&utm_medium=social)
+- Coinbase Asset Management bought runriver. Buildng a platform similar to maple, centrifuge, but vertically integrate at coinbase. Smart contracts which represent short term loans. Buyer or issuer faces CB as centralized entity.
+- Recently got pulled into convo about renewable energy certificates and carbon offsets. 
+
+The sell-side of RWAs are pushing the frontier right now. JPM, Softgen, etc benefit by saving ~35% of issuance cost. The market needs a push on the buy-side.
+
+- "I want exposure to x"
+- "You have to set up x wallet, bridge to y chain..."
+- Need to abstract the complexity of the technology.
 
 ### Product
 
@@ -99,29 +112,10 @@ They are not custodian. Custodian
 
 ## Resources
 
-- [Digital Asset DAML](https://www.digitalasset.com/)
-    - used to have their own chain
-    - CoFounder: blythe masters, left to start her own PE shop
-
-- [Canton Network](https://www.canton.network/)
-    - this is Digital Asset DAML's blockchain
-    - UBS, Microsoft, Cumberland, etc
-    - Versana targets syndicated loan markets
-
-- [R3 Corda]
-
-
-Long Tail
-- Goldfinch
-- 
-
-
 Custody
 
 - coinbase custody
 - JPM, MS
-
-
 
 Lead offer expiring next thursday, 
 - acquinow committed

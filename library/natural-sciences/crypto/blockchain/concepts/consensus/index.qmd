@@ -24,19 +24,19 @@ title: Consensus
 - [TON: Catchain Consensus](https://docs.ton.org/catchain.pdf)
 - [Another advantage of free choice (Extended Abstract): Completely asynchronous agreement protocols](https://dl.acm.org/doi/10.1145/800221.806707)
 - [Simple Proofs of Space-Time and Rational Proofs of Storage](https://eprint.iacr.org/2016/035.pdf)
-
-### New
-
 - [Motorway: Seamless high speed BFT](https://arxiv.org/abs/2401.10369)
-
-## Research
-
 - [PoS vs Proof of Spacetime](https://spacemesh.io/blog/proof-of-stake-vs-proof-of-space-time/)
 - [Practical Byzantine Fault Tolerance](https://pmg.csail.mit.edu/papers/osdi99.pdf)
 - [The latest gossip on BFT Consensus](https://arxiv.org/abs/1807.04938)
 
-# Further Reads
+## Censorship
 
-### Ethereum
+- [Censorship Resistance on On-Chain Auctions](https://assets-global.website-files.com/642f3d0236c604d1022330f2/6499f35e0bd0f43471a95adc_MEV_Auctions_ArXiV_6.pdf)
+- [PBS Censorship Resistance](https://notes.ethereum.org/@vbuterin/pbs_censorship_resistance)
+- [State of research: increasing censorship resistance of transactions under PBS](https://notes.ethereum.org/s3JToeApTx6CKLJt8AbhFQ#Hybrid-PBS-can-we-use-proposers-only-for-inclusion-of-last-resort)
+- [PBS Censorship-Resistance Alternatives](https://notes.ethereum.org/@fradamt/H1TsYRfJc)
+- [Current crList Proposal](https://notes.ethereum.org/Dh7NaB59TnuUW5545msDJQ)
 
-See the page on Ethereum consensus [here](../../chains/ethereum/mainnet/consensus/index.qmd)
+## Further Reads
+
+- [Ethereum consensus](../../chains/ethereum/mainnet/consensus/index.qmd)

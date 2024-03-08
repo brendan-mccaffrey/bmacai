@@ -2,7 +2,7 @@
 title: Nimble
 ---
 
-Nimble - The Composable AI Protocol (Founded by ex-Uber and serial entrepreneurs)
+## The Composable AI Protocol (Founded by ex-Uber and serial entrepreneurs)
 
 Nimble is building the first composable AI protocol, enabling decentralized enterprise-grade AI, for social, game, DePIN, intent and marketplace applications.
 

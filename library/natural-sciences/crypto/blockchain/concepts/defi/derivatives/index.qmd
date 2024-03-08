@@ -1,0 +1,20 @@
+---
+title: Derivatives Trading
+---
+
+## Research
+
+- [Power Perpetuals](https://www.paradigm.xyz/2021/08/power-perpetuals)
+- [Power Perpetuals Mechanism Notebook](https://colab.research.google.com/drive/1mrxubKiFUhlavol4a38NJYaANdSNAEun#scrollTo=OOaOjEWI0DQJ)
+- [Power Perpetuals Guide Notebook](https://colab.research.google.com/drive/1HTM_2j0jmda9tzN_uskBPz9Rpma8Lp3C#scrollTo=rnaQgc7nWKSU)
+- [Everything is a Perp](https://research.opyn.co/everything-is-a-perp)
+- [Spanning with Power Perpetuals](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4317072)
+- [Oracle Manipulation](https://drive.google.com/file/d/1dMH_HRqKEAupnv_e3ffeAomkQPQDXmbx/view?ts=65a557cd)
+
+## Projects
+
+- [Opyn](https://www.opyn.co/)
+- [Flash Trade](https://twitter.com/FlashTrade_)
+- [Hyperliquid](https://hyperliquid.xyz)
+- [Infinity Pools](https://docs.infinitypools.finance/)
+- [Marginal](https://docsend.com/view/rc6sv24758cwxu9j)

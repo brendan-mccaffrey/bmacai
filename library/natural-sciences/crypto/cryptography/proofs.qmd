@@ -1,4 +1,6 @@
-## Proofs
+---
+title: Cryptographic Proofs
+---
 
 A cryptographic proof must be **complete** and **sound**.
 

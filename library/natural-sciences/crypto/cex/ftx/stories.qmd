@@ -1,0 +1,77 @@
+---
+title: Stories from an Alameda Engineer
+---
+
+Aditya Baradwaj was an engineer at Alameda Research after graduating from Berkeley and working at Google. He tells stories about his time at FTX.
+
+___
+#### **Start from the Beginning**
+
+As an engineer at Alameda Research, I had my entire life savings stolen from me by my former boss: Sam Bankman-Fried. Now, after months of recuperation from the craziness of the FTX collapse, I’m ready to tell my story.
+
+Let’s start at the beginning:
+
+I still remember my first time meeting Sam - it was my first day of work at the office. I had just left my job at Google, and was excited to be working at this small, mysterious crypto trading firm. At the time, there had only been minor press coverage of Sam. Alameda/FTX were far from well-known even within tech circles. Heck, I only knew about the company because a bunch of early employees had also been students at Berkeley, and the news had spread to me through the grapevine.
+
+The office itself was nondescript. Situated on the 4th floor of an ordinary-looking office building in downtown Berkeley, it was a place that I had walked by many times during college. The 4th floor tenant’s name on the directory was conspicuously empty, revealing only that they shared the building with names such as “Pacific Lutheran Theological Seminary”. Hardly the neighbors one would expect for a multi-billion-dollar crypto trading firm. When I entered the office SBF was sitting at his desk in the middle of the trading floor, taking a call while playing League, in characteristic fashion. And yes, that was Alameda’s trading floor...
+
+Despite the fact that on paper, Sam had already transitioned to running FTX full-time, in practice both companies were highly intertwined. Joint offices, social events, and housing arrangements between both companies was the norm. But more on that later. I’m not sure who he was talking to, but I caught fragments of their conversation from Sam’s end:
+
+> “Decentralization is the future. The single most valuable thing you can do for yourself is to drop whatever you’re doing and get into crypto”
+
+This was the first of many contradictions that I would see with Sam. On one hand, he would extoll the virtues of decentralized, permissionless finance to anyone who would listen. But a custodial, KYC’d derivatives exchange isn’t exactly a paragon of decentralization. Inside you there are two wolves, I guess… or something.
+
+Later that night we ordered Sliver Pizza and chatted over a game of bughouse - another favorite of Sam’s - and he revealed his plan to move the entire company to a tiny island in the Caribbean. I knew nothing about the Bahamas at the time. But as Sam spoke, it became clear that he had done his research.
+
+> “Did you know that FTX’s revenue is greater than 10% of the Bahamas’ GDP?”
+
+I didn’t know, but a quick Google search revealed that he probably wasn’t far off. Sam’s vision for FTX, as he went on to explain, extended far beyond just a crypto exchange.
+
+He talked about building a vaccine factory in the Bahamas to fix the invisible graveyard caused by slow FDA approvals. He discussed the strategizing that had gone into the political donations made by the FTX execs. He talked about hypothetical future technologies like iterated embryo selection, and the importance of not letting China get the lead in fundamental biotech research. And of course, he talked about malarial bednets and veganism too. 
+
+Hearing Sam unveil his vision for the future, it became clear that every action he had taken - Alameda, FTX, the Bahamas, policy proposals - was all part of a grand plan. He didn’t just want to build a company. He wanted to build a machine - a growing sphere of influence that could break past the walls of that little office in Berkeley and wash over the world as a force for good. Not just a company, but a monument to effective altruism.
+
+As a starry-eyed new hire, it was hard not to get drawn in by the boldness of Sam’s vision. Many of us had joined the company precisely because we wanted to do good in the world. And here was a billionaire, not yet 30 years old, who was using his fortune to bankroll a radical new vision for the future. Not to mention, with his self-effacing and awkward demeanor, I suppose many of us saw a little bit of ourselves in him as well. Over the next year and a half, my life was transformed in ways I could never have imagined:
+
+I experienced opulence the likes of which I’d only seen before in movies. Got flown around the world on a regular basis between Berkeley, Hong Kong, and the Bahamas. Brushed elbows with celebrities, sports icons, and political figures.
+
+Yet at the same time, I saw irresponsibility: Careless risk management for a company handling billions of dollars in capital. Technical debt that would make any software engineer shed a tear. Millions lost in wasteful spending, and the hubris that it wouldn’t matter.
+
+Of course, Sam didn’t end up building a vaccine factory or eradicating malaria. His customers, investors, and employees - the ones who trusted him most - are financially devastated. And the ruins of the half-built FTX headquarters lay strewn across the beaches of Nassau. Sam himself is behind bars at MDC, having violated the terms of his house arrest. Even after all this, it seems he is incapable of following the rules.
+
+Over the past months, I’ve seen a ton of speculation online about FTX and Alameda. Unfortunately, not all of it has been based in reality.
+
+What were Sam, Caroline, and the others like in person? Was it all just a scam? How was life in the Bahamas? People deserve to know. Unfortunately, the story of my time at FTX/Alameda is too complex to put in a single thread.
+
+___
+#### **The Fat Finger**
+
+The story of how a misplaced decimal point at Alameda Research caused a market crash that echoed around the world.
+
+This incident happened just a few weeks after I joined Alameda. I had just gotten a hang of our engineering workflows and was starting to wrap my head around our trading systems.At a high level, Alameda's trading operated in two modes:
+
+The main one was our semi-systematic strategies, where traders set model parameters that control a complex automated trading system. This way, traders aren't placing actual trades, but rather fine-tuning an algorithm that decides how to execute those trades at high frequency.
+
+However every once in a while, a trader would need to manually execute a trade. Usually this might happen if our automated trading systems were being buggy due to market volatility, or if there was an arbitrage opportunity on a venue where we hadn't set up automated trading yet.
+
+Our automated trading systems handled the vast majority of Alameda's trading. So naturally, we had sanity checks in place to make sure that the orders being sent were reasonable relative to current market prices. Not so for manual trades, which were by nature discretionary.
+
+The tricky thing about risk is that it's usually invisible, right up until it comes around and bites you in the ass. Well, on October 21 2021, an Alameda trader's finger slipped.
+
+The trader was trying to sell a block of BTC in response to news, and sent out the order via our manual trading system. What they missed was the decimal point was off by a few spaces. Rather than selling BTC at the current market price, they sold it for pennies on the dollar.
+
+The result was immediate. The price of BTC shot from a high of $65k to as low as $8k on some venues, only to be quickly restored by arbitrageurs. The sudden price movement lit crypto Twitter on fire as traders scrambled to figure out what was going on:
+
+News outlets started picking up too. Binance US - which was the epicenter of the flash crash - released a statement claiming that it had been caused by one of their "institutional traders" who had a "bug in their trading algorithm".
+
+I guess Caroline had made some phone calls.
+
+Alameda's losses on the fat-finger trade were staggering - on the order of tens of millions. But because it had been an honest mistake, there wasn't much to do except to implement additional sanity checks for manual trades. And that's what we did.
+
+That's usually how things worked at Alameda - we would wait until something broke, and then rush to fix it. Which is why it took us so long to implement sanity checks that any "traditional" trading firm would have never started trading without.
+
+After that, it was back to business as usual. According to SBF, the utility we gained by moving fast outweighed the occasional costs we paid due to poor risk checks, hacks, and the like. This was SBF's work philosophy, and it drove the culture he created at Alameda and FTX
+
+For almost two years, the BTC flash crash incident has remained a mystery in the minds of the public. Now you know who was responsible, and what was happening behind the scenes.
+
+

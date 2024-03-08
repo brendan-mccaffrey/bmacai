@@ -1,0 +1,59 @@
+---
+title: ZK x Blockchain
+---
+
+## Projects 
+
+- [Modulus](https://www.modulus.xyz/)
+- [EZKL](https://ezkl.xyz/)
+
+### Nil Foundation
+
+- [zkLLVM Circuit Compiler](https://github.com/NilFoundation/zkLLVM)
+- [zkLLVM Template](https://github.com/NilFoundation/zkllvm-template)
+
+### Succinct
+
+- [SP1: Open Source zkVM by Succint Labs](https://blog.succinct.xyz/introducing-sp1/)
+- [SP1 Book](https://succinctlabs.github.io/sp1/)
+- [SP1 Github](https://github.com/succinctlabs/sp1)
+- [awesome SP1 repo](https://github.com/gakonst/awesome-sp1)
+
+### Reef
+
+A system for generating zero-knowledge proofs that a committed document matches or does not match a regular expression
+
+- [github](https://github.com/eniac/Reef)
+- [paper](https://eprint.iacr.org/2023/1886)
+
+### Axiom 
+
+A zk coprocessor for Ethereum
+
+- [Twitter](https://twitter.com/axiom_xyz)
+- [Website](www.axiom.xyz)
+- [Demo](demo.axiom.xyz)
+- [Docs](docs.axiom.xyz)
+
+### RiscZero 
+
+Making generalizable computer architecture for ZK
+
+- [website](https://www.risczero.com/)
+- [docs](https://dev.risczero.com/)
+- [github](https://github.com/risc0/risc0)
+
+### Bonsai
+
+Zk blockchain project
+
+- [docs](https://dev.bonsai.xyz/)
+- [starter template](https://github.com/risc0/bonsai-foundry-template)
+
+### ZKPoEx 
+
+Zero knowledge proof of exploit
+
+- [twitter](https://twitter.com/zkpoex)
+
+

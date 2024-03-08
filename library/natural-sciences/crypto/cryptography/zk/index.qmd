@@ -73,7 +73,6 @@ subtitle: Zero Knowledge
 - [PLONK ePrint](https://eprint.iacr.org/2019/953.pdf)
 - [PLONK implemented, from scratch, in python](https://github.com/tarassh/zkSNARK-under-the-hood/blob/main/plonk2.ipynb)
 
-
 ## Concept
 
 ## **Example: The 3-Color Graph Coloring Problem**

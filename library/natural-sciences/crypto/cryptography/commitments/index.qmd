@@ -1,0 +1,112 @@
+---
+title: Commitments
+---
+
+## Summary
+
+A commitment scheme is a cryptographic primitive that allows one party to commit to a chosen value while keeping it hidden from others, with the ability to reveal the committed value later. The two main security properties of commitment schemes are:
+
+1. Hiding: The commitment itself should not reveal any information about the committed value to the receiver. This can be either perfect/statistical (even unbounded receivers learn nothing) or computational (bounded receivers learn nothing).
+
+2. Binding: The sender should not be able to open the commitment to a different value than the one they committed to. This can also be perfect/statistical or computational.
+
+The main types of commitment schemes are:
+
+1. Hash-based commitments: The sender hashes the value along with some randomness. To open, the sender reveals the value and randomness, which the receiver hashes to verify the commitment. These are computationally hiding and binding.
+
+2. Encryption-based commitments: The sender encrypts the value using a public key. To open, the sender reveals the value and encryption randomness. These are computationally hiding and binding.
+
+3. Pedersen commitments: Based on the discrete log problem, these allow homomorphic operations on committed values. They are perfectly hiding and computationally binding.
+
+4. Vector commitments: Allow committing to a vector of values in such a way that the sender can later open the commitment at specific positions[3].
+
+Commitment schemes are used as building blocks in many cryptographic protocols like zero-knowledge proofs, secure multiparty computation, and verifiable secret sharing. They allow a party to bind themselves to a value without revealing it prematurely.
+
+**Resources**
+
+- [Commitment Scheme Wiki](https://en.wikipedia.org/wiki/Commitment_scheme)
+- [Definition](https://cseweb.ucsd.edu/classes/fa19/cse206A-a/LecCommit.pdf)
+- [Cryptographic Commitments](https://findora.org/faq/techniques/cryptographic-commitments/)
+- [Reference Work Entry](https://link.springer.com/referenceworkentry/10.1007/978-1-4419-5906-5_239)
+- [Video Lecture on Committment Schemes](https://www.youtube.com/watch?v=kQC4gesed0k)
+- [Another Video Lecture on Committment Schemes](https://www.youtube.com/watch?v=IkNZWJFcfcU)
+- [Intro to Committment Schemes](https://blockdoc.substack.com/p/an-introduction-to-commitment-schemes)
+- [Committment Scheme Crypto Wiki](https://cryptography.fandom.com/wiki/Commitment_scheme)
+- [Commitments Overview](https://www.redshiftzero.com/post/commitments/)
+- [Lecture on Commitment Schemes](https://piazza.com/class_profile/get_resource/iiauye4zvj2hu/inhhhsyt9x74kl)
+- [Commitment Schemes and ZK Protocols](https://homepages.cwi.nl/~schaffne/courses/crypto/2014/papers/ComZK08.pdf)
+
+## Pederson Commitments 
+
+- ZCash and Monero use these to shield transaction amounts
+
+Pedersen commitments are a type of cryptographic commitment scheme that allows one party to commit to a chosen value while keeping it hidden, with the ability to reveal the value later. They have the following key properties:
+
+1. Hiding: The commitment does not reveal any information about the committed value to the verifier. Pedersen commitments are perfectly hiding, meaning even an unbounded adversary cannot determine the committed value from the commitment.
+
+2. Binding: The committer cannot open the commitment to a different value than the one they committed to. Pedersen commitments are computationally binding, meaning a polynomial-time adversary cannot find two different values that open to the same commitment, assuming the discrete logarithm problem is hard.
+
+3. Homomorphic: Pedersen commitments are additively homomorphic. Given commitments $C(m_1, r_1)$ and $C(m_2, r_2)$, one can compute $C(m_1 + m_2, r_1 + r_2)$ without knowing the individual committed values[1][2].
+
+Here's how Pedersen commitments work[1][3][5]:
+
+1. Setup: Choose a cyclic group $G$ of prime order $p$ where the discrete log problem is hard. Pick two random generators $g$ and $h$ such that the discrete log of $h$ with respect to $g$ is unknown.
+
+2. Commit: To commit to a message $m \in \mathbb{Z}_p$, the committer picks a random $r \in \mathbb{Z}_p$ and computes the commitment $C = g^m h^r$.
+
+3. Open: To open the commitment, the committer reveals $m$ and $r$. The verifier checks that $C = g^m h^r$.
+
+Pedersen commitments are widely used in cryptographic protocols like zero-knowledge proofs, confidential transactions, and verifiable secret sharing. For example, they are used in Monero to hide transaction amounts while allowing validation that no new money was created[7].
+
+Some advantages of Pedersen commitments are perfect hiding, homomorphic properties, and short commitment size. Limitations include the need for a trusted setup and the binding property being only computational rather than perfect.
+
+**Resources**
+
+- [Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing](https://link.springer.com/chapter/10.1007/3-540-46766-1_9)
+Here are the citations reformatted as titled markdown links:
+- [What is a Pedersen Commitment? - Cryptography Stack Exchange](https://crypto.stackexchange.com/questions/64437/what-is-a-pedersen-commitment)
+- [Commitment scheme - Wikipedia](https://en.wikipedia.org/wiki/Commitment_scheme)
+- [Pedersen Commitment with Elliptic Curves - Findora](https://findora.org/faq/crypto/pedersen-commitment-with-elliptic-curves/)
+- [Pedersen Commitments - Computerphile - YouTube](https://www.youtube.com/watch?v=J9SOk9dIOCk)
+- [Pedersen Commitment - A Security Site](https://asecuritysite.com/encryption/ped)
+- [On the use of Pedersen Commitments for Confidential Payments - NCC Group](https://research.nccgroup.com/2021/06/15/on-the-use-of-pedersen-commitments-for-confidential-payments/)
+- [Pedersen Commitment - Monero](https://www.getmonero.org/resources/moneropedia/pedersen-commitment.html)
+    
+
+## KZG Commitments
+
+KZG commitments, named after Kate, Zaverucha, and Goldberg, are a type of polynomial commitment scheme. They fall under the category of homomorphic hiding and binding commitments.
+
+Key properties of KZG commitments:
+
+1. Constant size: The commitment to a polynomial is a single group element on an elliptic curve, regardless of the polynomial's degree. This makes the commitment very compact compared to other schemes like Merkle trees.
+
+2. Homomorphic: KZG commitments allow for homomorphic operations on the committed polynomials. You can add commitments to get a commitment to the sum of the polynomials.
+
+3. Hiding: KZG commitments are computationally hiding under the discrete logarithm assumption. An infinite number of polynomials map to the same commitment value.
+
+4. Binding: They are computationally binding, meaning a committer cannot open a commitment to two different polynomials unless they can solve the discrete logarithm problem.
+
+5. Partial opening: KZG allows for efficient proofs of evaluation at specific points without revealing the entire polynomial. The proof size is constant (a single group element) regardless of the number of evaluation points proven.
+
+KZG commitments require a trusted setup to generate the structured reference string (SRS) needed for the scheme. The SRS consists of powers of a secret value in the exponent of a generator of an elliptic curve group.
+
+KZG commitments are widely used in zero-knowledge proof systems like PLONK and SONIC, and also in polynomial IOP-based proof systems. They will be used in Ethereum for polynomial commitments in data availability sampling and proofs[1][2].
+
+In summary, KZG is a powerful polynomial commitment scheme with homomorphic properties, constant-sized commitments and evaluation proofs, making it very efficient and versatile for many cryptographic applications.
+
+**Resources**
+
+- (Original Paper) [Constant-Size Commitments to Polynomials and Their Applications](https://link.springer.com/chapter/10.1007/978-3-642-17373-8_11)
+- [KZG in Practice: Polynomial Commitment Schemes and Their Usage in Scaling Ethereum](https://scroll.io/blog/kzg)
+- [Dankrad Feist: KZG Polynomial Commitments](https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html)
+- [Constant-Size Commitments to Polynomials and Their Applications](https://www.iacr.org/archive/asiacrypt2010/6477178/6477178.pdf)
+- [Kate Polynomial Commitments](https://risencrypto.github.io/Kate/)  
+- [KZG Commitment - Inevitable](https://inevitableeth.com/home/concepts/kzg-commitment)
+- [KZG polynomial commitments: trusted setup DKG](https://alinush.github.io/2020/05/06/kzg-polynomial-commitments.html)
+- [KZG Polynomial Commitments](https://blog.subspace.network/kzg-polynomial-commitments-cd64af8ec868?gi=9bcd7aaa6634)
+- [Extractable Witness Encryption for KZG Cotmmitments and Efficient Laconic OT](https://eprint.iacr.org/2024/264)
+
+
+
+
