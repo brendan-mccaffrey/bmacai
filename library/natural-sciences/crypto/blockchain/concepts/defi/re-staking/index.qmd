@@ -1,0 +1,10 @@
+---
+title: (Re)Staking
+---
+
+## Resources
+
+- [Eigenlayer Restaking Question](https://x.com/LefterisJP/status/1764389024922222650?s=20)
+- [Goals for Lido DAO to Consider](https://research.lido.fi/t/hasus-goose-submission-proposed-goals-for-lido-dao-to-consider/5590)
+- [Modular Money: Liquid Restaking for People in a Hurry](https://dba.xyz/modular-money-liquid-staking-for-people-in-a-hurry/)
+- [Endgame Staking Economics](https://ethresear.ch/t/endgame-staking-economics-a-case-for-targeting/18751)

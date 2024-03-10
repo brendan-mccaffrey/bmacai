@@ -1,0 +1,11 @@
+---
+title: Stablecoins
+---
+
+## Resources
+
+- [Dust on Crust Pt. 2](https://cryptohayes.substack.com/p/dust-on-crust-part-deux)
+    - The Fed doesn’t like Tether’s business model and why, at a fundamental level, it has nothing to do with crypto and everything to do with how the USD money markets function.
+    - [Tether is top 22 buyer of US TBills](https://cointelegraph.com/news/tether-s-ardoino-says-it-s-now-one-of-top-buyers-of-us-treasury-bills-holds-72-5b)
+    - [Only 23 Primary Dealer Banks](https://www.newyorkfed.org/markets/primarydealers.html)
+

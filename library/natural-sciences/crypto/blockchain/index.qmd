@@ -41,3 +41,8 @@ description: "Cryptographic ledgers"
 
 - [Nightshade: Near Protocol Sharding Design 2.0](https://near.org/files/nightshade.pdf)
 - [Stateless Validation in a Sharded Blockchain](https://ethresear.ch/t/stateless-validation-in-a-sharded-blockchain/18763)
+
+## High Level Crypto Money
+
+- [Arthur Hayes August '23: Why Fed will be forced to print](https://cryptohayes.substack.com/p/kite-or-board)
+- [Fiscal Dominance and the Return of Sero-Interest Bank Reserve Requirements](https://files.stlouisfed.org/files/htdocs/publications/review/2023/06/02/fiscal-dominance-and-the-return-of-zero-interest-bank-reserve-requirements.pdf)
