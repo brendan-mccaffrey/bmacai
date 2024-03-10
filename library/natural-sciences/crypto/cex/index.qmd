@@ -2,8 +2,11 @@
 title: Centralized Exchanges
 ---
 
-## Resources
+## High Frequency Trading
 
-## Kraken
+- [Exchange Ping Test Spreadsheet](https://docs.google.com/spreadsheets/d/1W345Qgp1QdcKdyg_hRkzl79OTkGVtxMJJZnJGjtdSp4/edit#gid=0)
 
-- [Kraken tells the real story of the SEC's suit](https://twitter.com/DavidLRipley/status/1760829432292405368)
+### Shops
+
+- [Redivivus](https://redivivuslabs.xyz/)
+    - [YieldMaxi](https://twitter.com/0xyieldmaxi)
