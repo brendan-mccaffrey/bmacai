@@ -1,0 +1,43 @@
+---
+title: Hyperspace
+---
+
+## Overview
+
+- [whitepaper]()
+
+## Analysis
+
+
+### Bittorrent
+
+**Tit for Tat**
+
+BitTorrent's tit-for-tat mechanism works as follows:
+
+1. Tit-for-tat is used to incentivize peers to upload to others. A peer will preferentially upload to the peers that provide it the best download speeds. This encourages peers to contribute upload bandwidth in order to receive faster downloads in return.[1][6]
+
+2. Each peer will "unchoke" (allow uploading to) a limited number of other peers at a time, typically 4. It will unchoke the 3 peers providing it the fastest download speeds, plus 1 randomly chosen peer. This is called "optimistic unchoking" and allows discovering new potentially better partners.[2][4][8]
+
+3. If a peer is choked by all peers it is downloading from, it will stop uploading to those peers. This "anti-snubbing" measure is intended to discourage free-riding.[2][6]
+
+4. Choking and unchoking is done periodically, typically every 10 seconds, to adapt to changing network conditions and peer behavior.[8]
+
+5. By basing upload decisions on download speeds from each peer, BitTorrent implements a tit-for-tat reciprocity that rewards cooperation. Peers that contribute more upload bandwidth will in turn receive faster downloads.[1][6]
+
+In summary, the tit-for-tat mechanism enables BitTorrent to achieve robust cooperation and discourage free-riding in a decentralized system. Peers have individual incentives to provide upload bandwidth to others in order to receive reciprocal uploads and faster downloads for themselves. The optimistic unchoking allows the system to continually discover better peer connections.
+
+Citations:
+[1] https://computer.howstuffworks.com/bittorrent2.htm
+[2] http://www.cs.cornell.edu/courses/cs5412/2012sp/slides/VI%20-%20Torrents%20and%20Tit%20for%20Tat.pdf
+[3] https://www.linuxquestions.org/questions/linux-software-2/how-does-bittorrent-tit-for-tat-work-812421/
+[4] https://www.researchgate.net/figure/a-Tit-for-tat-mechanism-b-Optimistic-unchoking-c-Anti-snubbing-black-line_fig2_258247974
+[5] https://www.youtube.com/watch?v=oWOPD8BgHtc
+[6] https://en.wikipedia.org/wiki/Tit_for_tat
+[7] https://www-sop.inria.fr/members/Giovanni.Neglia/publications/neglia07netcoop.pdf
+[8] https://mislove.org/teaching/cs4700/spring11/lectures/lecture20.pdf
+
+## Questions
+
+- How do you ensure privacy of queries if they are routed through other peers? Is the query content visible to peers?
+
