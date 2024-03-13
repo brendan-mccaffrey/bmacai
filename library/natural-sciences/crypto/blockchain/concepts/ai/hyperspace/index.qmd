@@ -6,8 +6,30 @@ title: Hyperspace
 
 - [whitepaper]()
 
-## Analysis
+## Call Notes
 
+- found some interesting things about satoshi? coindesk wrote an article?
+
+Team
+- cofounder studied in france very good mathematician
+- game theory professor
+
+Early mining Bitcoin like concept was inspiring, doesn't happen today with blockchains
+- came up with idea for full L1 blockchain, 70 pages (what is this?)
+
+- what models does a user / nod eoperator run?
+
+on computer, theres a background process
+going to strip app ui for a web ui  
+coupling this with data
+orchestrator - for a given user question, whats the smartest way to call these models and where should they be run?
+- should they be run on users machine or P2P network
+
+- what happens when someone with laptop disconnects from wifi?
+- all they care about are if nodes are active and available?
+- so far they have registered nodes and online nodes
+- kinda like bittorent private servers: permissioned server operating between nodes
+- second iteration is fully p2p permissionless
 
 ### Bittorrent
 
@@ -39,5 +61,25 @@ Citations:
 
 ## Questions
 
+- Team background? AI experience? Blockchain experience? Are you actively hiring?
+
+Varun
+
+data anlyst at meryll lynch
+
+Shekhar Nagireddi - ex VP, system architect at BoA Merril Lynch 
+
 - How do you ensure privacy of queries if they are routed through other peers? Is the query content visible to peers?
 
+- It looks like you are using Narwhal and Tusk for Consensus (Aptos)? What drove this decision?
+
+- Idea behind utilizing Eigenlayer? Have you contemplated the slashing mechanics, or is that still on the roadmap?
+
+
+At a high level, building aiOS
+
+TRGC and primative ventures led last round
+
+Agnels: sriraam, altlayer guy, and others
+
+what was val? i missed it  

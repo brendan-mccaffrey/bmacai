@@ -31,3 +31,14 @@ A few questions I have:
     - Are there any smart approaches I should be aware of, for example may I simply use turbotax or something for the accounting side to avoid these costs?
 3. Would you suggest I create the LLC through one of the simple online platforms (e.g. ZenBusiness or LegalZoom) - or can it be done more intelligently another way?
 4. Are there any "unknown unknowns" - things I haven't asked and should be considering?
+
+## Progress
+
+Incorporating in New York
+
+**Requirements**
+
+- New York State requires all LLCs to publish their name in 2 New York newspapers for 6 weeks straight, in the county they formed.
+    - Meet New York State’s requirement to send a certificate to the county within 120 days of forming your LLC.
+
+- Appoint Registered Agent

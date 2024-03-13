@@ -5,3 +5,4 @@ title: Airdrops
 ## Sybil Detection
 
 - [worhmole sybil detection](https://x.com/AlliumLabs/status/1767289617605107912?s=20)
+- [Wormhole Blog: From Eligibility to Sybil Detection](https://wormhole.com/from-eligibility-to-sybil-detection-a-deep-dive-into-wormholes-multichain-airdrop/)
