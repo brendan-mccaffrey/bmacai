@@ -2,6 +2,10 @@
 title: Artificial Intelligence
 --- 
 
+## High Level
+
+Want to see how AI is being used to produce research articles, search on google scholar '"certainly, here is" -chatgpt -llm'
+
 ## Resources
 
 - [Asymptotically Unambitious Artificial General Intelligence](https://arxiv.org/abs/1905.12186)

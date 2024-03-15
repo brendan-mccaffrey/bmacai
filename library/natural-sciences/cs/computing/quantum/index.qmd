@@ -17,8 +17,13 @@ description: Why did the quantum computer get kicked out of school? Because ever
 - [Quantum Computation and Quantum Information](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf)
 - [Computational Supremacy in Quantum Simulation](https://arxiv.org/abs/2403.00910)
 
-## Foundational
+## Digital Analog
 
+Digital-analog quantum computing is a computational paradigm which employs an analog Hamiltonian resource together with single-qubit gates to reach universality.
+
+- [Digital-analog quantum computation with arbitrary two-body Hamiltonians](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.6.013280)
+
+## Foundational
 
 - 1994 Daniel Simon, [On the Power of Quantum Computation](https://ieeexplore.ieee.org/document/365701)
 

@@ -2,6 +2,30 @@
 title: Airdrops
 ---
 
+## Examples
+
+Uniswap
+
+- [worth 12k](https://cryptopotato.com/uniswaps-2020-uni-airdrop-now-worth-12000/)
+- [412 UNI](https://bitkan.com/learn/uniswap-airdrop-the-largest-and-highest-profile-airdrop-in-recent-history-9401)
+- [socks dune](https://dune.com/shippooordao/Unisocks-Dashboard)
+
+Celestia 
+
+- [genesis](https://blog.celestia.org/genesis-drop/)
+- [post airdrop article](https://www.coindesk.com/business/2023/11/03/celestias-tia-airdrop-hype-wanes-as-blockchain-struggles-to-gain-users/)
+- [20k tia airdrop](https://medium.com/coinmonks/he-received-a-20-000-tia-airdrop-because-of-unintentional-on-chain-interactions-72c4c4e58556)
+
+Jito
+
+- [defiant article on announcement](https://thedefiant.io/jito-unveils-jto-airdrop-eligibility-and-allocation)
+
+Optimsim
+
+- [airdrop 1](https://community.optimism.io/docs/governance/airdrop-1/)
+- [article on 1](https://yourcryptolibrary.com/news/optimism-airdrop-how-to-claim-and-how-much-will-it-be-worth/)
+- [all](https://app.optimism.io/airdrops)
+
 ## Sybil Detection
 
 - [worhmole sybil detection](https://x.com/AlliumLabs/status/1767289617605107912?s=20)
