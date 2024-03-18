@@ -13,6 +13,69 @@ title: EigenLayer
 
 ## Running a Node on Testnet
 
+**UPDATE: Goerli halted**
+
+- Goerli stopped producing blocks on [March 13](https://goerli.etherscan.io/block/10664008)
+- The chain is halted, gETH has been rugged
+
+EigenLayer Comms (from discord)
+
+```text
+USER @maciver
+
+Very disappointing how the Goerli testnet has been managed, horrible communication & treatment by the team towards operators/developers.
+Alot of us were very exicted about EigenLayer and rightfully so as it is huge for the Ether ecosystem. We powered up our nodes, deployed capital, updated it frequently, engaged with the community, solved problems... 
+
+Then we just get kicked to the curb and told "yeah we are starting again" 
+
+How do you expect operators/developers to re engage another testnet and help out again after getting treated so poorly lmao
+Anyways, don't want to moan, its time to move on. But i hope the team see's these complaints and addresses them.
+________________________________________________________________________________________
+TEAM @Alex | I will never DM you first
+
+Hey @maciver,
+We do understand what you are saying regarding the Stage 2 testnet on Goerli. We are grateful for their participation; it has been both appreciated and permanently recorded on the blockchain. The history of your involvement will remain intact. Our team is transitioning to a functional testnet because Goerli is no longer viable for our needs. Thank you very much once again.
+________________________________________________________________________________________
+USER @maciver
+
+Are you able to give more details, on "The history of your involvement will remain intact", are we getting 'rewarded/compensated' for our involvement in Stage 2?
+
+I want to opt back in for Holesky, because i like this project and community. But am hesitant given what has happened. I spent alot of hours on stage 2 testnet both in the community helping and running my node. I'm sure you understand that having to set it all back up again without any details on the outcome of our involvement in stage 2 is hard, espically given how it has ended.
+Again, i hate typing these messages, i sound like a b itch. But i just feel many others feel the same as me. So its imortant to address this
+________________________________________________________________________________________
+TEAM @Alex | I will never DM you first
+
+Sorry, I have no details about the rewards. Our testnet isn't incentivized. Our team is currently working on migrating on Holesky, so I will be able to share more info as soon as they are available.
+________________________________________________________________________________________
+USER @0xhiro
+
+One thought is that perhaps EigenLayer could set up a faucet on Holesky and those who accumulated points on Goerli could redeem them for Holesky ETH. This would help offset some of the losses for those who bought significant amounts of goETH to participate in EigenDA operating on Goerli
+________________________________________________________________________________________
+MOD @Dagger
+
+Sorry to read that, but the decision to stop Goerli wasn't from the EigenLayer team, it was made by Ethereum's community.
+________________________________________________________________________________________
+USER @Fuzzyman410
+
+@Dagger @Alex | I will never DM you first @Brianna I was top 200, but unstaked yesterday when we were told we were allowed to, and now I obviously can't withdraw any and 32k geth (+7k geth on another account) is stuck, you can see I am still part of EigenDA, will I still be included in top 200 once we migrate to holesky?
+________________________________________________________________________________________
+MOD @Dagger
+
+For now, the stance is that Holesky will restart again from zero. We'll see if there's any change to that once we approach launch.
+```
+
+
+
+
+
+
+
+
+
+Related:
+
+Arbitrum [announces](https://twitter.com/ArbitrumDevs/status/1767259075111497802), on March 11, depreciating Arbitrum Goerli on March 18
+
 ### Operators
 
 1. [bmac](https://goerli.eigenlayer.xyz/operator/0xbc0a9e6ddb719aabc1Da9783BC91C37401B3DAea)

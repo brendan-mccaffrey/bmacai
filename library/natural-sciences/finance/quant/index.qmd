@@ -17,4 +17,5 @@ title: Quantitative Finance
 
 ### Advanced Theory
 
+- [Spoofing and Price Manipulation in Order Driven Markets](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3431139)
 - [End-To-End Resource Analysis for Quantum Interior-Point Methods and Portfolio Optimization](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.4.040325)
