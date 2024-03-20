@@ -1,0 +1,38 @@
+---
+title: Calculus
+---
+
+## Resources
+
+### Single Variable
+
+- [UPenn Math 114 (Single Variable Calculus)](https://www.youtube.com/watch?v=5m0VJ7FTn54&list=PL6UiEGS6WoUk8xJxOtLEs4rq5Ff9lSl25)
+- [MIT Single Variable Calculus](https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010)
+
+### Multi Variable
+
+- [MIT Multivariable Calculus](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010)
+- [UPenn Math 240 (Multi Variable Calculus)](https://www.youtube.com/watch?v=Y6SYkfVdoio&list=PL6UiEGS6WoUk42atmsXOWkohKJA3UbvDL)
+
+### Differential Equations
+
+- [Differential Equations Textbook](https://twitter.com/curiouswavefn/status/1627741837233631232?s=20)
+- [MIT Differential Equations](https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011)
+
+### Fractional
+
+- [What is Fractional Calculus](https://www.cantorsparadise.com/fractional-calculus-48192f4e9c9f)
+
+**Summary**
+
+The blog post discusses the concept of fractional calculus, a mathematical field that explores the idea of derivatives and integrals of non-integer order. The concept was first proposed by Gottfried Leibniz in a response to a question from l’Hopital about the possibility of a derivative of order 1/2. The post explains the theory behind fractional calculus, its properties, and its applications, using the Riemann-Liouville integral and derivative as examples.
+
+- **Fractional Calculus**: Fractional calculus is the branch of mathematical analysis that investigates the possibility of taking derivatives and integrals of any real number order, not just integer order.
+- **Intuition**: The concept of fractional calculus arises from the idea of interpreting differentiation and integration as transformations that continuously transform a function into its nth derivative or antiderivative.
+- **Fractional Integral and Derivative**: The most natural place to start with fractional calculus is with Cauchy’s formula for repeated integration. The generalization of the factorial function in this formula is the gamma function, which allows for the definition of the left Riemann-Liouville integral, a valid operator for integration to fractional order.
+- **Differintegral Operator**: The differintegral operator is a combination of the fractional integral and derivative, which can continuously transform between functions.
+- **Properties**: Fractional calculus has unique properties, such as nonlocality, which means that the value of a fractional derivative at a point depends on an entire range of values, not just that point. This property makes fractional calculus useful for modeling physical phenomena with memory effects.
+- **Fractional Derivatives of Basic Functions**: The fractional derivatives of power functions, sine function, and exponential function are discussed.
+- **Interpretation**: The interpretation of fractional operators in a geometric or physical sense is still an area of active research.
+- **Applications**: An example of the application of fractional calculus is in solving the tautochrone problem, which involves finding a curve such that the time taken by a bead to slide down the curve is independent of the initial height.
+- **Conclusion**: Fractional calculus is a result of pushing the boundaries of existing theories to work with extreme or unusual cases. It is a field with potential for new discoveries in mathematics and science.

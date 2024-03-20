@@ -8,17 +8,9 @@ description: Towards a theory of everything
 - [Introductory Minicourse to AdS/CFT](https://www.ictp-saifr.org/ads-cft2023/) | [video](https://www.youtube.com/playlist?list=PLg0_ydgtbHGH0FIZzD97RVU8K0DA9vI-Q)
 - [Basics of Quantum Gravity](https://indico.cern.ch/event/1279592/)
 - [Perturbative Quantum Gravity](https://www.youtube.com/watch?v=ik0C-xTnK-k&list=PL9ec4tkG1qrjDAad0-EHxyEPw1KcxxT68&index=6)
-- [Gravitational Machines](https://arxiv.org/pdf/2305.10470.pdf)
-- [Warp Drive Patent by Google?](https://patents.google.com/patent/US20060144035)
 - [Is it Time to Rethink Quantum Gravity?](https://arxiv.org/abs/2310.12221)
-
-### AdS/CFT
-
-- [AdS/CFT Correspondance Wiki](https://en.wikipedia.org/wiki/AdS/CFT_correspondence)
-
-### Swampland
-
 - [Swampland Wiki](https://en.wikipedia.org/wiki/Swampland_(physics))
+- [AdS/CFT Correspondance Wiki](https://en.wikipedia.org/wiki/AdS/CFT_correspondence)
 
 ### ER = EPR
 
@@ -35,8 +27,12 @@ The text discusses various concepts related to general relativity, quantum mecha
 
 Overall, the text attempts to explore the interplay between classical and quantum theories in understanding gravitation and inertia. However, the lack of a structured argument and the interjection of strong opinions could make it less accessible or convincing to a general audience of physicists.
 
-<!-- String Theory -->
-{{< include _string-theory.qmd >}}
+## Unsolved Problems
 
-<!-- Geometric Unity -->
-{{< include _geometric-unity.qmd >}}
+### Yang-Mills and the Mass Gap
+
+- [millennium problem](https://www.claymath.org/millennium/yang-mills-the-maths-gap/)
+- [paper](https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf)
+- [related video](https://www.claymath.org/lectures/yang-mills-existence-and-mass-gap/)
+
+The laws of quantum physics stand to the world of elementary particles in the way that Newton’s laws of classical mechanics stand to the macroscopic world. Almost half a century ago, Yang and Mills introduced a remarkable new framework to describe elementary particles using structures that also occur in geometry. Quantum Yang-Mills theory is now the foundation of most of elementary particle theory, and its predictions have been tested at many experimental laboratories, but its mathematical foundation is still unclear. The successful use of Yang-Mills theory to describe the strong interactions of elementary particles depends on a subtle quantum mechanical property called the “mass gap”: the quantum particles have positive masses, even though the classical waves travel at the speed of light. This property has been discovered by physicists from experiment and confirmed by computer simulations, but it still has not been understood from a theoretical point of view. Progress in establishing the existence of the Yang-Mills theory and a mass gap will require the introduction of fundamental new ideas both in physics and in mathematics.

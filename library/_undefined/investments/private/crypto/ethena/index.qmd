@@ -2,9 +2,17 @@
 title: Ethena Pre-Launch Agreement
 ---
 
-# Agreement 1 vs Agreement 2
+## Investment Angles
 
-## Agreement 1
+- Venture Seed
+- Venture A
+- sUSDe Shard 
+
+Total Value: $50mm @ 10b fdv
+
+## Prelaunch Agreements
+
+### Agreement 1
 
 #### **Participant Incentives**
 
@@ -20,7 +28,7 @@ Additionally, the Company will provide an additional incentive in the form of EN
 
 Governnace token transferred to Participant wallet within 7 days of the end of the Term, and shall not be subject to a lockup.
 
-## Agreement 2
+### Agreement 2
 
 #### **Participant Incentives**
 
@@ -33,6 +41,7 @@ Allocation shall be determined at the conclusion of the Term by multiplying by
 
 For the avoidance of doubt, amounts committed to mint USDe during the Term pursuant to separate liquidity participation agreements (or similar) shall not be counted for purposes of this paragraph.
 
-## Comparison
+**Comparison**
 
 Agreement 2 is an investment at $1.666 billion valuation.
+

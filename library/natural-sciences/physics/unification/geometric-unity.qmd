@@ -1,11 +1,9 @@
-<!-- ---
+---
 title: Geometric Unity
 description: Eric Weinstein's Unification Effort
---- -->
+---
 
-## Geometric Unity
-
-### Context
+## Context
 
 This is notes on a lecture by Eric Weinstein on the topic of geometric unity. The lecture is available [here](https://www.youtube.com/watch?v=QZQZQZQZQZQ).
 
@@ -88,3 +86,5 @@ TODO, ending here for now
 ### Response & Discussion
 
 - [Timothy Nguyen and Theo Polya's Response to GU](https://timothynguyen.files.wordpress.com/2021/02/geometric_unity.pdf)
+
+Weak attempt to silence Eric imo

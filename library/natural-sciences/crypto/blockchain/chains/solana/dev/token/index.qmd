@@ -6,15 +6,19 @@ title: Token Development
 
 - [Raydium Typscript ammCreatePool](https://github.com/raydium-io/raydium-sdk-V1-demo/blob/master/src/ammCreatePool.ts)
 
-## Make Token
+## Create Token (CLI)
 
 ```bash
-solana config --set -k keypair.json
+solana config set -k owner.json
 
-spl-token create-token vanity.json 
+# replace this with token-2022 creation
+spl-token create-token mintkeypair.json
 
-spl-token create-account vanity
+spl-token supply addr
 
-spl-token 
+spl-token create-account --with-compute-unit-price 1000 addr
 
-0.000000004
+spl-token balance addr
+
+spl-token mint addr 1000000000
+```
