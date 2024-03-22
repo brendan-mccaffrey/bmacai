@@ -56,3 +56,4 @@ description: Unorganized list of AI Research
 - [Extreme Compression of LLMs via Additive Quantization](https://arxiv.org/abs/2401.06118)
 - [Distributed Inference and Fine-tuning of LLMs over the Internet](https://browse.arxiv.org/html/2312.08361v1)
 - [Distributed SLIDE: Enabling Training Large Neural Network on Low Bandwidth and Simple CPU-Clusters via Model Parallelism and Sparsity](https://arxiv.org/pdf/2201.12667.pdf)
+- [Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking](https://arxiv.org/abs/2403.09629)

@@ -1,0 +1,40 @@
+---
+title: Ethereum Testnet
+---
+
+## Overview
+
+| Born | Chain | Website | Github | Explorer |
+|----------|----------|----------|----------|----------|
+| 2015 | Morden  | [decomissioned](https://blog.ethereum.org/2016/11/20/from-morden-to-ropsten) | [history](https://github.com/ethereum/wiki/wiki/Morden/_history) | none | 
+| 2016 | Ropsten | none | [github](https://github.com/ethereum/ropsten) | none |
+| 2017 | Rinkeby | none | none | none |
+| 2019 | Goerli | [goerli.net](https://goerli.net/) | [github](https://github.com/eth-clients/goerli?tab=readme-ov-file) | none |
+| 2021 | Sepolia | [sepolia.ethpandaops.io](https://sepolia.ethpandaops.io/) | [github](https://github.com/eth-clients/sepolia?tab=readme-ov-file) | [explorer](https://sepolia.beaconcha.in/) |
+| 2023 | Holesky | [holesky.ethpandaops.io](https://holesky.ethpandaops.io/) | [github](https://github.com/eth-clients/holesky) | [explorer](https://holesky.etherscan.io/), [beacon](https://holesky.beaconcha.in/) |
+
+- [Devcon 6 Talk: Post-Merge Testnets](https://archive.devcon.org/archive/watch/6/post-merge-testnets/?tab=YouTube)
+
+## History
+
+### Ropsten
+
+Ropsten was a proof-of-work testnet configuration. Ropsten has been declared EOL as of December 2022.
+
+### Goerli
+
+Goerli Testnet was the first proof-of-authority cross-client testnet, synching Geth, Nethermind, Hyperledger Besu, and others. This testnet was a community-based project and completely open-source. It was born in September 2018 during ETHBerlin and has been growing in contributors ever since.
+
+The Goerli testnet was merged with the Prater proof-of-stake beacon chain. This marked the end of the permissioned proof-of-authority phase and everyone is now able to run a validator for Goerli. Therefore, this repository contains both Goerli execution-layer and Prater consensus-layer configurations.
+
+- [github](https://github.com/eth-clients/goerli)
+
+### Sepolia
+
+Sepolia is an Ethereum testnet network with permissioned validator set. Sepolia replaced the sunset Rinkeby and Kovan networks and is the perfect place to test decentralized applications, smart contracts, and other EVM functionality.
+
+### Holesky
+
+The first long-standing, merged-from-genesis, public Ethereum testnet. Holešky will replace Goerli as a staking, infrastructure and protocol-developer testnet in 2023. For testing decentralized applications, smart contracts, and other EVM functionality, please use Sepolia!
+
+- [staking launchpad](https://holesky.launchpad.ethereum.org/en/)
