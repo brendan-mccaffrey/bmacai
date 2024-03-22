@@ -11,7 +11,6 @@ title: Cybersecurity
 
 - [Subdomain finder (e.g. ___.example.com)](https://www.geeksforgeeks.org/subfinder-tool-in-linux/)
     - [in use](https://twitter.com/hacker_/status/1575466236426670080?s=20&t=XaTcIuMck-s-sOQlsv_5sQ)
-
 - [Scout2: AWS Security Tool](https://www.kitploit.com/2018/07/scout2-security-auditing-tool-for-aws.html?m=0)
 
 Privacy Protect
@@ -32,6 +31,13 @@ Only Safe Way to Store Crypto
 
 Tempest: Spying on information systems through leaking emanations
 - [wiki](https://en.wikipedia.org/wiki/Tempest_(codename))
+
+Apple M Series Chips Sidechannel
+- [Unpatchable vulnerability in Apple chip leaks secret encryption keys](https://arstechnica.com/security/2024/03/hackers-can-extract-secret-encryption-keys-from-apples-mac-chips/)
+- [paper](https://gofetch.fail/files/gofetch.pdf)
+- [background video](https://www.youtube.com/watch?v=ARuU2s63Yhs)
+- [background paper](https://ieeexplore.ieee.org/document/9833570)
+- Relevant: [arm64 for apple platforms](https://developer.apple.com/documentation/xcode/writing-arm64-code-for-apple-platforms#Enable-DIT-for-constant-time-cryptographic-operations)
 
 ### Apple Post Quantum iMessage
 

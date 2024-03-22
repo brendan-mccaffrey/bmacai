@@ -27,3 +27,5 @@ title: Crypto x AI
 
 - [HyperSpace](https://www.hyperspace.computer/bittorrent-for-ai.pdf)
 
+- [Flexstack](https://quiet-lemming-76e.notion.site/Flexstack-Introduction-f7b0e8ba10fb4a0295113b558e859dcf)
+
