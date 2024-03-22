@@ -2,6 +2,46 @@
 title: Computational Theory
 ---
 
+## Shannon Hartley Theorem
+
+The Shannon-Hartley theorem states that the maximum channel capacity C (in bits per second) for a continuous-time analog communication channel subject to Gaussian noise is given by the formula:
+
+$$C = B \log_2\left(1 + \frac{S}{N}\right)$$ [1][2][3][5][7]
+
+Where:
+- B is the bandwidth of the channel in Hertz
+- S is the average received signal power over the bandwidth
+- N is the average noise power over the bandwidth
+- S/N is the signal-to-noise ratio
+
+## Implications of the Theorem
+
+1. **Maximum Data Rate**: The theorem provides the theoretical maximum data rate at which information can be transmitted over a noisy channel with an arbitrarily low error rate, given the channel bandwidth and signal-to-noise ratio. This rate is known as the channel capacity. [1][2][3][5][7]
+
+2. **Tradeoff between Bandwidth and SNR**: The theorem shows that there is a tradeoff between bandwidth and signal-to-noise ratio. If the bandwidth is increased, the channel capacity increases linearly. If the signal-to-noise ratio is increased, the channel capacity increases logarithmically. [1][2][3][5][7]
+
+3. **Error-free Communication**: Shannon's theorem states that if the data rate is below the channel capacity, it is possible to achieve arbitrarily low error rates through the use of appropriate coding techniques, such as error-correcting codes. However, if the data rate exceeds the channel capacity, the error rate will increase without bound, making reliable communication impossible. [2][7]
+
+4. **Fundamental Limit**: The Shannon-Hartley theorem establishes a fundamental limit on the maximum achievable data rate for a given bandwidth and signal-to-noise ratio. This limit is a theoretical bound, and practical communication systems may not achieve the channel capacity due to various implementation constraints. [1][2][3][5][7]
+
+5. **Channel Coding**: The theorem implies the need for channel coding techniques to approach the channel capacity while maintaining a low error rate. Shannon's work laid the foundation for the development of error-correcting codes, which add redundancy to the transmitted data to combat noise and errors in the channel. [2][6][7]
+
+6. **Bandwidth and Power Tradeoff**: The theorem also highlights the tradeoff between bandwidth and power in communication systems. If the available bandwidth is limited, increasing the transmit power (and hence the signal-to-noise ratio) can increase the channel capacity. Conversely, if the transmit power is limited, increasing the bandwidth can also increase the channel capacity. [1][2][3][5][7]
+
+The Shannon-Hartley theorem has had a profound impact on the design and analysis of modern communication systems, providing a theoretical foundation for understanding the limits of reliable data transmission and guiding the development of efficient coding and modulation techniques.
+
+Citations:
+[1] https://en.wikipedia.org/wiki/Shannon%E2%80%93Hartley_theorem
+[2] http://charleslee.yolasite.com/resources/elec321/lect_capacity.pdf
+[3] https://www.ingenu.com/2016/07/back-to-basics-the-shannon-hartley-theorem/?doing_wp_cron=1710843722.6885330677032470703125
+[4] https://www.sciencedirect.com/topics/computer-science/hartley-theorem
+[5] https://dsp.stackexchange.com/questions/82831/what-is-the-intuition-explaining-the-shannon-hartley-theorem
+[6] https://www.linkedin.com/pulse/shannons-channel-capacity-timeless-formula-age-modern-woldegebreal
+[7] http://www.dip.ee.uct.ac.za/~nicolls/lectures/eee482f/04_chancap.pdf
+[8] https://www.youtube.com/watch?v=altMVzt8eGg
+[9] https://www.youtube.com/watch?v=3ekWsXeZ8TM
+[10] https://electronics.stackexchange.com/questions/548784/what-is-the-derivation-of-the-shannon-hartley-theorem
+
 ## Complexity Theory
 
 "NP" is short for "nondeterministic polynomial-time"
@@ -14,3 +54,4 @@ A problem is NP-Complete when
 - When the answer is "yes", this can be demonstrated through the existence of a short (polynomial length) solution.
 - The correctness of each solution can be verified quickly (namely, in polynomial time) and a brute-force search algorithm can find a solution by trying all possible solutions.
 - The problem can be used to simulate every other problem for which we can verify quickly that a solution is correct. In this sense, NP-complete problems are the hardest of the problems to which solutions can be verified quickly. If we could find solutions of some NP-complete problem quickly, we could quickly find the solutions of every other problem to which a given solution can be easily verified.
+

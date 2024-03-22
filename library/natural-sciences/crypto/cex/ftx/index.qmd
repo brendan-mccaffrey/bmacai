@@ -135,5 +135,3 @@ Adderall Bet
 
 - [Caroline Ellison's Note's](https://x.com/tomkysar/status/1712319463297626254?s=20)
 
-
-{{< include _adi-ftx.qmd >}}
