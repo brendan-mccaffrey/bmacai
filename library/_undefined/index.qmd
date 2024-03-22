@@ -1,0 +1,16 @@
+---
+title: Todo List
+---
+
+- [ ] Celestia Offboarding
+- [ ] Ceasars OffBoarding
+- [ ] Airdrop List 
+    - [ ] Ritual Nodes
+    - [ ] Eigenlayer Nodes
+    - [ ] Monad Nodes
+- [ ] Synapse Arbitrage
+
+## Ideas
+
+- Eigenlayer AVS for L2 ENS resolvency, other cross chain atomic dependencies
+    - how does synapse RFQ work?
