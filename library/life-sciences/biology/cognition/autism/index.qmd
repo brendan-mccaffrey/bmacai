@@ -19,6 +19,6 @@ The child's physician (Baker) wished to try a more potent antifungal therapy, it
 
 Escalation of the dose of itraconazole resulted in a complete loss of all symptoms of autism over the course of three months. This rapid complete reversal of autism is consistent with several articles proposing mold in general and Aspergillus specifically as a potential major cause of autism.
 
-___
+### Further
 
-{{< include ../../nutrition/mycotoxins/index.qmd >}}
+See "Mycotoxins" under health/nutrition
