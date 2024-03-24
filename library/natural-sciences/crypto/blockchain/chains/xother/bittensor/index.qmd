@@ -18,6 +18,7 @@ I unfortunately first thought I was late, after reciving [this investment note](
 - [leaderboard huggingface](https://huggingface.co/spaces/NousResearch/finetuning_subnet_leaderboard)
     - [current leader](https://huggingface.co/IntervitensInc/intv_ai_mk4/commit/8842717be83fbaba3ae5391cbf051c83beeb3c54)
 - [Cortex.t subnet](https://github.com/corcel-api/cortex.t)
+- [Nous World Simulator](https://x.com/NousResearch/status/1771735632035127594?s=20)
 
 ## Ideas
 
