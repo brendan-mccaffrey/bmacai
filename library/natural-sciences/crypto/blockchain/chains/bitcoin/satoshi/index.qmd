@@ -1,0 +1,22 @@
+---
+title: Satoshi Nakamoto
+---
+
+## Candidates
+
+### Len Sassanam
+
+- Member of OG cyberpunk group at Berkeley in the 90s, alongside Julian Assange, Hal Finney, Adam Back, Roger Dingledine, Bram Cohen.
+- He devoted his life to promoting online privacy 
+- He was a leader in the field of public-key cryptography (foundation of Bitcoin)
+- He also worked on PGP encryption, which is also central to Bitcoin 
+- Satoshi has mentioned that Bitcoin could become the « same thing for money » that PGP was for securing files 
+- He passed away 2 months after Satoshi posted his infamous last goodbye message
+- Can assume that Satoshi was not American nor Asian. His post were usually during European waking hours, he used British vocabulary like for example “bloody difficult”, he used the dd/mm/yyyy format and refers to Euros multiple times
+
+- [tweet correlate exactly to Satoshis post history](https://x.com/beniduboss/status/1772148960997556369?s=20)
+
+### Hal Finney
+
+- He was the first person Satoshi interacted with, first to run a node
+- He invented the concept reusable of proof of work which is basically what Bitcoin mining is based on

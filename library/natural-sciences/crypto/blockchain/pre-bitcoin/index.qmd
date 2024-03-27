@@ -1,0 +1,73 @@
+---
+title: Pre Bitcoin
+---
+
+## Resources 
+
+- [Claim: Team behind Satoshi is the same team behind the infamous Cicada 3301 puzzles](https://x.com/beniduboss/status/1772148921743110163?s=20)
+
+## Cyberpunks
+
+At the University of Berkeley in the 90s, some students and professors created a group with the goal of fabricating tools to allow for absolute privacy online. The group was named Cyberpunks. The group was filled with cryptography experts and activists who would create tools to better encrypt our data. We owe them Tor, Mojo, BitTorrent, PGP and so much more. Notable members were: Julian Assange, Hal Finney, Adam Back, Roger Dingledine, Bram Cohen and Len Sassanam.
+
+## Early Papers
+
+- 1983, David Chaum: [Electronic Cash](https://sceweb.sce.uhcl.edu/yang/teaching/csci5234WebSecurityFall2011/Chaum-blind-signatures.PDF)
+- 1985, David Chaum: [Security without Identification](https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf)
+- 1996, Dr. Douglas Jackson and Barry K. Downey: [E-Gold](https://cs.stanford.edu/people/eroberts/cs201/projects/2010-11/Bitcoins/e-gold.html)
+- 1998, Wei Dai: [b-money](http://www.weidai.com/bmoney.txt)
+- 1998, Nick Szabo: [Bit Gold](https://nakamotoinstitute.org/bit-gold/)
+
+
+## Early Technologies
+
+### Remailers
+
+- [Hal Finney '93: Why Remailers II](https://web.archive.org/web/20130513043044/http://finney.org/~hal/why_rem2.html)
+
+Remailer technology allows people to send and receive email or post to online forums anonymously by stripping away any identifying information about the sender. Here are the key points about remailer technology. A remailer is a server that receives messages with embedded instructions on where to send them next, and forwards them without revealing where they originally came from. There are different types of remailers with varying levels of anonymity protection:
+
+- Pseudonymous remailers simply remove the sender's email address and replace it with a pseudonym, but can still reveal the sender's identity if required.
+- Cypherpunk anonymous remailers (Type I) receive encrypted messages, decrypt them to remove identifying headers, and forward them to the recipient. They are susceptible to traffic analysis attacks.[1][2]
+- Mixmaster remailers (Type II) break messages into encrypted packets of equal size, send them through different paths, reorder them, and only reassemble at the final destination to better hide traffic patterns.[3]
+- Mixminion remailers (Type III) build upon Mixmaster to provide better security against replay attacks and allow replying.[1]
+
+**How Remailers Work**
+
+1. The sender composes a message and encrypts it with the remailer's public key, including instructions for forwarding.
+2. The encrypted message is sent to the first remailer in a chain.
+3. Each remailer decrypts the outer layer to get the next remailer's address and instructions, strips identifying headers, and sends to the next remailer.[1]
+4. The final remailer decrypts the message and sends it to the intended recipient without the original sender's information.
+
+Remailers enable anonymous communication by removing all traces of the original sender from messages before forwarding them to recipients.[4][5]
+
+**Uses of Remailers**
+
+Remailers can be used for both legal and illegal purposes where anonymity is desired, such as:
+
+- Whistleblowing
+- Discussing sensitive topics like abuse or political dissent
+- Evading censorship and surveillance
+- Sending anonymous threats or harassment
+- Distributing illegal content like pirated software or pornography[8]
+
+While remailers have legitimate uses, they have also been abused, leading some to be shut down due to legal issues or overloaded with spam.[6][11] Responsible use is important to prevent disrupting the services for those who need them.
+
+Citations:
+[1] https://en.wikipedia.org/wiki/Anonymous_remailer
+[2] https://www.sciencedirect.com/topics/computer-science/anonymous-remailer
+[3] https://people.eecs.berkeley.edu/~daw/papers/privacy-compcon97-www/privacy-html.html
+[4] http://www.thenetworkencyclopedia.com/entry/remailer/
+[5] https://www.usglobalmail.com/blog/what-is-a-remailing-service/
+[6] https://cs.stanford.edu/people/eroberts/cs181/projects/anonymous-computing/technology/remailers.php3
+[7] https://www.pcmag.com/encyclopedia/term/anonymous-remailer
+[8] https://www.iusmentis.com/society/privacy/remailers/remailerintro/
+[9] https://en.wikipedia.org/wiki/Pseudonymous_remailer
+[10] https://www.postgrid.com/what-is-remailing-service/
+[11] https://www.cs.cmu.edu/~burnsm/remailers.html
+[12] https://mason.gmu.edu/~afinn/html/tele/components/anonymous_remailers.htm
+[13] https://phoneboy.com/pig/tech/anonymous-remailers
+[14] https://en.wikipedia.org/wiki/Cypherpunk_anonymous_remailer
+[15] http://www.di-srv.unisa.it/~ads/corso-security/www/NEW/remail.html
+[16] https://itlaw.fandom.com/wiki/Anonymous_remailer
+[17] https://encyclopedia2.thefreedictionary.com/remailer

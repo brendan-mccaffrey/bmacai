@@ -34,7 +34,8 @@ website:
   
   sidebar: 
     search: true
-    style: "docked"
+    style: docked
+    collapse-level: 2
     alignment: left
     logo: media/athenaeum.png
     contents: library/*/

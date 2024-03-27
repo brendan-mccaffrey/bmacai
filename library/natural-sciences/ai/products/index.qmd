@@ -7,6 +7,8 @@ title: AI Projects
 - [Meta: CICERO](https://ai.facebook.com/research/cicero/) 
     - The first AI to play at a human level in Diplomacy, a strategy game that requires building trust, negotiating and cooperating with multiple players.
 
+- [Lumentis:](https://github.com/hrishioa/lumentis) Generate beautiful docs from your transcripts and unstructured information with a single command.
+
 ### Images
 
 - [Lumiere: Video inpainting, image-to-video, video-gen](https://lumiere-video.github.io/)

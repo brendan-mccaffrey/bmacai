@@ -13,6 +13,73 @@ title: EigenLayer
 
 ## Running a Node on Testnet
 
+## Migrating to Holesky
+
+1. Install updated cli
+
+```bash
+curl -sSfL https://raw.githubusercontent.com/layr-labs/eigenlayer-cli/master/scripts/install.sh | sh -s
+```
+
+2. Stop and Remove docker containers
+
+```bash
+sudo docker stop $(sudo docker ps -a -q)
+sudo docker container prune
+```
+
+3. Update operator.yaml (bottom half, after metadata)
+
+```bash
+el_delegation_manager_address: 0xA44151489861Fe9e3055d95adC98FbD462B948e7
+eth_rpc_url: https://rpc.holesky.ethpandaops.io/
+private_key_store_path: /home/ubuntu/.eigenlayer/operator_keys/opr.ecdsa.key.json
+signer_type: local_keystore
+chain_id: 17000
+```
+
+4. Install Updated DA repo
+
+```bash
+cd eigenda-operator-setup 
+git pull 
+```
+
+5. Set .env
+
+```bash
+cd holesky
+cp .env.example .env
+```
+
+- keys
+- rpc: https://rpc.holesky.ethpandaops.io/
+
+6. Make dirs
+
+```bash
+mkdir -p $HOME/.eigenlayer/eigenda/holesky/logs
+mkdir -p $HOME/.eigenlayer/eigenda/holesky/db
+```
+
+7. Register (need holesky ETH)
+
+```bash 
+cd
+eigenlayer operator register operator.yaml
+```
+
+8. Docker compose
+
+```bash
+cd eigenda-operator-setup/holesky 
+sudo docker compose up -d   
+```
+
+
+
+
+
 **UPDATE: Goerli halted**
 
 - Goerli stopped producing blocks on [March 13](https://goerli.etherscan.io/block/10664008)

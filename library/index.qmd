@@ -1,6 +1,6 @@
 ---
 title: "Library"  
-page-layout: full
+# page-layout: full
 ---
 
 ___

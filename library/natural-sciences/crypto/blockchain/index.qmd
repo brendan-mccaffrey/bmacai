@@ -15,34 +15,9 @@ description: "Cryptographic ledgers"
 - [Cyberspace Declaration of Independence](https://www.eff.org/cyberspace-independence)
 - [Crypto Anarchist Manifesto](https://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/may-crypto-manifesto.html)
 
-## Early Papers
-
-- 1983, David Chaum: [Electronic Cash](https://sceweb.sce.uhcl.edu/yang/teaching/csci5234WebSecurityFall2011/Chaum-blind-signatures.PDF)
-- 1985, David Chaum: [Security without Identification](https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf)
-- 1996, Dr. Douglas Jackson and Barry K. Downey: [E-Gold](https://cs.stanford.edu/people/eroberts/cs201/projects/2010-11/Bitcoins/e-gold.html)
-- 1998, Wei Dai: [b-money](http://www.weidai.com/bmoney.txt)
-- 1998, Nick Szabo: [Bit Gold](https://nakamotoinstitute.org/bit-gold/)
-
-## Layer 1 Whitepapers
-
-- [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
-- [Zerocash: Decentralized Anonymous Payments from Bitcoin](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6956581)
-- [Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform](https://ethereum.org/669c9e2e2027310b6b3cdce6e1c52962/Ethereum_Whitepaper_-_Buterin_2014.pdf)
-- [Ethereum: A Secure Decentralized Generalized Transaction Ledger](https://gavwood.com/paper.pdf)
-- [Cosmos: Internet of Blockchains](https://api-new.whitepaper.io/documents/pdf?id=BJNXW5ZnU)
-- [Solana: A new Architecture for a High Performance Blockchain](https://solana.com/solana-whitepaper.pdf)
-- [Cardano](https://api-new.whitepaper.io/documents/pdf?id=HkUIhFWhL)
-- [Algorand: Scaling Byzantine Agreements for Cryptocurrencies](https://people.csail.mit.edu/nickolai/papers/gilad-algorand-eprint.pdf)
-- [Avalanche Platform](https://assets.website-files.com/5d80307810123f5ffbb34d6e/6008d7bbf8b10d1eb01e7e16_Avalanche%20Platform%20Whitepaper.pdf)
-- [The Spacemesh Protocol](https://drive.google.com/file/d/18I9GPebWqgpvusI1kMnAB9nayBbL-1qN/view)
-- [TON: The Open Network](https://ton.org/whitepaper.pdf)
-
-## Other Research
-
-- [Nightshade: Near Protocol Sharding Design 2.0](https://near.org/files/nightshade.pdf)
-- [Stateless Validation in a Sharded Blockchain](https://ethresear.ch/t/stateless-validation-in-a-sharded-blockchain/18763)
 
 ## High Level Crypto Money
 
 - [Arthur Hayes August '23: Why Fed will be forced to print](https://cryptohayes.substack.com/p/kite-or-board)
 - [Fiscal Dominance and the Return of Sero-Interest Bank Reserve Requirements](https://files.stlouisfed.org/files/htdocs/publications/review/2023/06/02/fiscal-dominance-and-the-return-of-zero-interest-bank-reserve-requirements.pdf)
+
