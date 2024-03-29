@@ -35,6 +35,7 @@ title: Layer 2 Rollups
 - [Plasma Cash: Towards more efficient Plasma constructions](https://arxiv.org/abs/1911.12095)
 - [Deeper dive on cross-L2 reading for wallets and other use cases](https://vitalik.ca/general/2023/06/20/deeperdive.html)
 - [Exit games for EVM validiums: the return of plasma](https://vitalik.ca/general/2023/11/14/neoplasma.html)
+- [Proposed milestones for rollups taking off training wheels](https://ethereum-magicians.org/t/proposed-milestones-for-rollups-taking-off-training-wheels/11571)
 
 ### Data Availability
 
