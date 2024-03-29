@@ -1,8 +1,0 @@
----
-title: Block Building
----
-
-## Resources
-
-- [Proposer Builder Separation](https://boost.flashbots.net/)
-- [What does it take to be a builder?](https://crypticwoods.com/blog/what-does-it-take-to-be-a-block-builder/)

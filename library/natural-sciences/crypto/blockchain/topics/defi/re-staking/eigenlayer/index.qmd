@@ -43,13 +43,14 @@ chain_id: 17000
 ```bash
 cd eigenda-operator-setup 
 git pull 
+cd holesky
+cp .env.example .env
 ```
 
 5. Set .env
 
 ```bash
-cd holesky
-cp .env.example .env
+nano .env
 ```
 
 - keys
@@ -58,6 +59,7 @@ cp .env.example .env
 6. Make dirs
 
 ```bash
+cd
 mkdir -p $HOME/.eigenlayer/eigenda/holesky/logs
 mkdir -p $HOME/.eigenlayer/eigenda/holesky/db
 ```
@@ -67,7 +69,7 @@ mkdir -p $HOME/.eigenlayer/eigenda/holesky/db
 ```bash 
 cd
 eigenlayer operator register operator.yaml
-```
+```soirry
 
 8. Docker compose
 

@@ -1,0 +1,103 @@
+---
+title: Pendle
+---
+
+## YT
+
+Profit from YT = Ave real future yield - APY from price of YT
+
+profit from YT USDe = APY from shards - (price of YT USDe / time to maturity)
+
+## PT
+
+Profit from PT = Current fixed yield - Ave real future yield
+
+profit from PT USDe = Pendle PT fixed yield - APY from shards that could have been realized
+
+*you can sell PT prematurely at market price*
+
+## Generic Yield Generating Pool (GYGP)
+
+A(t) is total assets in pool at time t
+S(t) is total shares of pool at time t
+R_i(t) is amount of reward token i accumulated to the pool since t=0
+E(t) is exchange rate A(t)/S(t)
+
+Standardized Yield (SY) interface implements these rules
+
+##  Standardized Yield Stripping (SYS)
+
+SYS splits SY token into Yield Token (YT) and Principle Token (PT)
+
+Yield stripping pool is a pool of SY tokens depositedfor yield stripping up to an expiry.
+
+There are S(t) SY tokens in yield stripping pool at time t worth A(t) = S(t) x SYIndex(t)
+
+reward tokens accrue to YT over time
+
+Mint YT and PT by sending in d_{sy} SY token, worth d_a assets to mint d_a PT and d_a YT out. Redemption is the same with -d_{sy} burning YT and PT. Can only redeem min of PT and YT balance.
+
+## AMM for trading fixed yield
+
+proportion of of PTs in the pool = y / (x+y)
+
+where x = n_asset and y = n_pt
+
+LP deposits SY and PT tokens
+
+pool is between SY token and PT token
+
+## Pendle Market
+
+PendleMarket (or simply Market) is a contract that enables users to trade between PT and its corresponding SY, while still allowing liquidity provision as usual. Swap fees are directly compounded into the LP. Each Market also has its own built-in geometric-mean oracle, similar to UniswapV3.
+
+Currently, there is no market to trade YT, but it is always tradable by the following algorithms:
+
+SY ➝ YT = flashswap SY, mint PT & YT, payback PT, send YT to users.
+YT ➝ SY = flashswap PT, use PT & YT, redeem SY, pay back, send excess to users.
+
+## Full Suite Example
+
+500,000 SY USDe and 400,000 PT USDe deposited for 1 year, implying 25% anchor
+
+
+
+## Buying YT
+
+SwapExactTokenForYT
+
+guy 0x712 swapped 67,800 USDT for USDe YT
+
+1. swap 67,800 USDT for 67,738 USDe
+2. sent to pendle router which is routed
+3. 67,738 SY USDe is minted to (YT) 0xa99a4329c49369fb41e6cb6852535bbf3d4f749b
+4. PT04-April/SYUSDe pool send 1.2mm SY USDe to 0xa99a4329c49369fb41e6cb6852535bbf3d4f749b
+5. PT04-April/SYUSDe pool send 264 SY USDe to 0x8270400d528c34e1596ef367eedec99080a1b592
+6. 1.3mm YT minted to user 0x712 (amount == 3+4)
+7. 1.3mm PT04-April minted to PT04-April/SYUSDe pool
+
+Internal calls
+
+- 0xa99 NewInterestIndex: 1000000000000000000
+- PT04-April/SYUSDe NewImpliedRate: 595002709730615583
+- PT04-April/SYUSDe swap 1.3 PT for 1.239 SY
+- routerV3 swap YT and token
+    - market 0xb4460e76D99eCaD95030204D3C25fb33C4833997
+    - net YT to account: 1307337064771509773799886
+    - netTokenToAccount: -20000000000000000000
+    - netSyInterm: 67738684925772312500860
+
+0xa99 mint
+
+1.3mm PT to 0xb4460e76D99eCaD95030204D3C25fb33C4833997
+1.3mm YT too 0x712
+
+0xa99a4329c49369fb41e6cb6852535bbf3d4f749b is YT 04April
+0x8270400d528c34e1596ef367eedec99080a1b592 is a gnosis safe
+0xb4460e76D99eCaD95030204D3C25fb33C4833997 is pendle market LPT
+
+
+
+USDe sent / SY_sent_to_YT / implied_interest_rate = time_period_days / 365
+
+?? 67.738/1239.6/.8*365 ??

@@ -2,6 +2,10 @@
 title: Ethereum Testnet
 ---
 
+## Research
+
+- [State of Testnets](https://twitter.com/TimBeiko/status/1628819200696516608?s=20)
+
 ## Overview
 
 | Born | Chain | Website | Github | Explorer |

@@ -7,6 +7,7 @@ title: DA & Modularity
 - [Why DA Sampling matters for blockchain scaling](https://blockworks.co/news/data-availability-ethereum)
 - [Ethereum DA](https://ethereum.org/en/developers/docs/data-availability)
 - [Mantle Docs on DA](https://docs.mantle.xyz/network/introduction/concepts/data-availability)
+- [Data Availability Sampling: From Basics to Open Problems](https://www.paradigm.xyz/2022/08/das)
 
 ## Modular Thesis
 
@@ -19,7 +20,7 @@ title: DA & Modularity
 
 Modular expansion is the narrative under Celestia. It includes the many "Rollup-as-a-service" startups such as 
 
-- [Initia](https://twitter.com/initiafdn), Conduit, Caldera, and AltLayer.  is similar, but for Cosmos app chains.
+- [Initia](https://twitter.com/initiafdn)
 - [Conduit](https://conduit.xyz/)
 - [Caldera](https://www.caldera.xyz/)
 - [AltLayer](https://altlayer.io/)

@@ -1,5 +1,6 @@
 ---
-title: EVM Development
+title: Dev Tools
+description: Resources and tooling for EVM development
 ---
 
 ## Multichain

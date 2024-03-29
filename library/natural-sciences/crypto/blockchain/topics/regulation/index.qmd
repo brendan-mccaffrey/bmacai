@@ -2,7 +2,26 @@
 title: Regulation
 ---
 
-## Reports
+## Governance
+
+- [DBA: Proof of Governance](https://dba.mirror.xyz/UTPfxWe65dYrUu_RJX-5VkAJypFRyw3AZh6m0dRXYZk)
+
+## Privacy
+
+**OG Tornado**
+
+- [Tornado Cash](https://twitter.com/tornadocash?lang=en)
+
+**Second Generation**
+
+- [Railway](https://www.railway.xyz/)
+- [Nocturne](https://app.nocturne.xyz/welcome)
+- [Lunarpunk and the Dark Side of Crypto](https://www.youtube.com/watch?v=BerscJiALiE)
+- [Dark Fi](https://dark.fi/)
+- [Stealth Addresses](https://vitalik.eth.limo/general/2023/01/20/stealth.html)
+- [Privacy Pools](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4563364)
+
+## Legal Proceedings
 
 - [SEC Comissioner Hester M. Peirce, on the Kraken Suit](https://www.sec.gov/news/statement/peirce-statement-kraken-020923)
 - [SEC Charges Terraform (Luna) with Fraud](https://www.sec.gov/news/press-release/2023-32)
@@ -10,7 +29,7 @@ title: Regulation
 - U.S. Attorney Damian Williams [announces](https://twitter.com/SDNYnews/status/1678780204062490626) the first-ever criminal case involving an attack on a smart contract operated by a decentralized cryptocurrency exchange.
 - [Tornado Cash and Blockchain Privacy: A Primer for Economists and Policymakers](https://research.stlouisfed.org/publications/review/2023/02/03/tornado-cash-and-blockchain-privacy-a-primer-for-economists-and-policymakers)
 
-## Research
+## Compliance Research
 
 - [Blockchain Privacy and Rgulatory Compliance: Towards a Practical Equilibrium](https://deliverypdf.ssrn.com/delivery.php?ID=855089082102119079102097091083101113102082065014007039108087071002094126076004092111050117107034029039046027080025125113003101039086075069039068002121097025083108119020043021065086070093119021123028007013076115117079106121092088113093091115115105022031&EXT=pdf&INDEX=TRUE)
 
