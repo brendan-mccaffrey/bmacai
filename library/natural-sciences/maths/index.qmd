@@ -7,7 +7,7 @@ description: The universal language
 
 - [Advice to a Young Mathematician](https://assets.press.princeton.edu/releases/gowers/gowers_VIII_6.pdf)
 - [Explained from First Principles](https://explained-from-first-principles.com/)
-
+- [The Periodic Table of Primes](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4742238)
 
 ## Linear Algebra
 

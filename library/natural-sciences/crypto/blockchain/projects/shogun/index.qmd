@@ -1,0 +1,62 @@
+---
+title: Shogun
+---
+
+## Resources
+
+- [notion](https://shogunfi.notion.site/Shogun-Deep-Dive-a9130d7d87a444928a6c0255d2f096b0)
+- [deck](https://docsend.com/view/basiq4b9zes6k9cc)
+
+### Round
+
+- Shogun was incubated by [Binance Labs](https://labs.binance.com/en) (pre-seed round)
+- Investors will have a 6-month cliff and 24-month linear vesting period
+- Structured as a SAFE + Token Warrant
+- Additional tokenomics details are available below
+6.9m for 69m fdv
+polychain leading: ansem, hayes, avi feldman, delphi
+
+### Team
+
+- Rahul CEO  - tampa
+- Roland cofounder/lead reasearch quant: worked with binance, chainlink, quant firms - toronto
+- Brandon Comer: CTO. Background fintech/web3, amazon, td ameritrade, cosmos - LA
+5 other engineers, mostly US; do offsites; get a place in ny post Series A
+
+Rahul and brandon met at umi
+
+### Problem
+
+Onchain trading is difficult for ave users
+
+## Product Summary
+
+- Traders on Shogun initiate gas-less trades on their given L1/rollup of choice, regardless of which chain the trade will actually execute on
+- single sdk/api: moveVM, evm, sol, cosmos
+- account abstraction: use socials to log in, google, x, farcaster, etc
+- can do tg bot out of the gate
+
+- short term loan between trader and solver
+
+2 products: 
+- smart order routing, cctp using bridges, limited to bridge time
+- intent centric model
+
+V2 is L2 as a solver
+    - decentralize the solver role
+
+## Questions
+
+- how arer assets managed? user with eth on mainnet wants solana, do u create a keypair for them or do they need to give u one? do u give them gas?
+    - depends on what users want
+    - generic v1 use your own wallets
+    - chain sigs on near is closest comp to their account
+
+- do users specify exactly how much they want
+- are you guys using skip api for cosmos ecosystem or building ground up / competing
+- who can participate in the solver network?
+    - v1, small set of solvers: flowdesk, market makers, etc  
+    - v2: very wide decentralized solver network
+
+- do u anticipate most interactions going through your frontend, other frontends plugging in ur api, or tg bot?
+    - miniapp tech in tg

@@ -1,0 +1,19 @@
+---
+title: Prodia
+---
+
+Shawn founder and CEO 
+mined btc 20212, founded storj, token 2014, ICO ERC20 2017
+
+mostly generate images
+"accidentally built largest depin network"
+
+
+- friends w a lot of compute networks, will decentralize over time
+- focus on heaviest compute: images
+- focus on inference, they serve existing models
+- go to market split between inbound and outbound
+- was #1 on huggingface and hackernews
+    - mistral ai
+
+dragonfly led seed
