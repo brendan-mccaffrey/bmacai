@@ -1,7 +1,0 @@
----
-title: Solana Development
----
-
-## Resources
-
-- [Hitchhiker's Guide to Solana Program Security](https://www.helius.dev/blog/a-hitchhikers-guide-to-solana-program-security)

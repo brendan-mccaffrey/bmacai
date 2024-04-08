@@ -66,10 +66,10 @@ mkdir -p $HOME/.eigenlayer/eigenda/holesky/db
 
 7. Register (need holesky ETH)
 
-```bash 
+``bash 
 cd
 eigenlayer operator register operator.yaml
-```soirry
+```
 
 8. Docker compose
 
@@ -253,7 +253,7 @@ eigenlayer operator config create
 {
   "name": "TODO name",
   "website": "website",
-  "description": "pow pow",
+  "description": "TODO desc",
   "logo": "https://raw.githubusercontent.com/USER/REPO/main/pfp.png",
   "twitter": "https://twitter.com/user"
 }
