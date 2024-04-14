@@ -1,7 +1,0 @@
----
-title: Quantum Mechanics
----
-
-## Resources
-
-- [Quantum Scattering of Spinless Particles in Riemannian Manifolds](https://arxiv.org/abs/2402.10564)

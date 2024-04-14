@@ -1,0 +1,12 @@
+---
+title: Special Relativity
+---
+
+## Overview
+
+Special relativity, published by Einstein in 1905, deals with the physics of motion in the absence of gravitational fields. It is based on two postulates:
+
+1. The laws of physics are the same in all inertial frames of reference, meaning they hold true for all observers moving at constant speeds relative to each other.
+2. The speed of light in a vacuum is the same for all observers, regardless of the motion of the light source or observer.
+
+Special relativity introduced the concept that space and time are intertwined into a single continuum known as spacetime. It led to several groundbreaking conclusions, such as time dilation (time slows down for objects in motion relative to a stationary observer), length contraction (objects in motion contract in the direction of motion from the viewpoint of a stationary observer), and the equivalence of mass and energy, expressed by the famous equation $$E=mc^2$$.

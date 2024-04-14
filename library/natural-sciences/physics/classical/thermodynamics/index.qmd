@@ -1,0 +1,111 @@
+---
+title: Thermodynamics
+---
+
+## Resources
+
+- [Thermodynamics of Information](https://arxiv.org/pdf/2306.12447.pdf)
+
+## Entropy
+
+Entropy measures disorder or uncertainty in a system. In thermodynamics, it quantifies the dispersion of energy among particles. In information theory, it gauges the amount of information contained in a message. In both cases, higher entropy means more randomness or unpredictability.
+
+#### **Classical Thermodynamic Entropy** (19th Century)
+
+The most basic version of entropy is classical thermodynamic entropy, defined in the context of a macroscopic system. It's given by the formula:
+
+$$ 
+\begin{aligned}
+S = k \ln W
+\end{aligned}
+$$
+
+Here, $(S)$ is the entropy, $(k)$ is Boltzmann's constant, and $(W)$ is the number of microscopic configurations that correspond to the macroscopic state. This concept originated in the 19th century to describe energy dispersion in thermodynamic systems.
+
+- **Context**: Developed in the context of classical thermodynamics by Rudolf Clausius and Ludwig Boltzmann.
+- **Purpose**: Quantify the dispersal of energy in macroscopic systems to understand heat engines and phase transitions.
+- **Timeline**: 1850s-1870s
+
+#### **Statistical Mechanics Entropy** (Late 19th-Early 20th Century)
+
+Statistical Mechanics Entropy links the macroscopic behavior of a system to its microscopic states by using probabilities. It's described by the Boltzmann-Gibbs entropy:
+
+$$
+\begin{aligned}
+S = -k \sum_i p_i \ln p_i
+\end{aligned}
+$$
+
+- **Context**: Extended by Boltzmann, Josiah Willard Gibbs, and others.
+- **Purpose**: Connect macroscopic thermodynamics to microscopic behavior.
+- **Timeline**: 1870s-1900s
+
+#### **Shannon Entropy** (20th Century)
+
+Shannon entropy quantifies the amount of uncertainty or randomness in a random variable. Given a discrete probability distribution $(p(x))$, the Shannon entropy $(H)$ is defined as:
+
+$$ 
+\begin{aligned}
+H(X) = - \sum_{i} p(x_i) \log_2(p(x_i))
+\end{aligned}
+$$
+
+It's a foundational concept in information theory, often interpreted as the average number of bits needed to encode outcomes of $(X)$ optimally.
+
+- **Context**: Developed by Claude Shannon in 1948 for information theory.
+- **Purpose**: Measure information content, applicable to coding theory, data compression, and communication.
+- **Timeline**: 1948
+
+#### **Von Neumann Entropy** (20th Century)
+
+Von Neumann entropy measures the degree of uncertainty or randomness in a quantum state. Given a density matrix $(\rho)$, the von Neumann entropy $(S)$is defined as:
+
+$$ 
+\begin{aligned}
+S(\rho) = -\text{Tr}(\rho \log_2 \rho)
+\end{aligned}
+$$
+
+It generalizes classical Shannon entropy to quantum systems and is instrumental in quantum information theory.
+
+- **Context**: Developed by John von Neumann in the early 1930s for quantum systems.
+- **Purpose**: Generalize Shannon entropy to quantum mechanics.
+- **Timeline**: 1932
+
+#### **Algebraic Entropy, Topological Entropy** (20th Century)
+
+- **Context**: Developed in pure mathematics to study dynamical systems.
+- **Purpose**: Measure the complexity or chaos in mappings and flows.
+- **Timeline**: Mid-20th century
+
+#### **Bekenstein-Hawking Entropy** (20th Century)
+
+Concerns the thermodynamics of black holes. Defined as:
+
+$$
+\begin{aligned}
+\begin{aligned}
+S_{\text{BH}} = \frac{A}{4\hbar G}
+\end{aligned}
+$$
+
+- **Context**: Developed by Jacob Bekenstein and Stephen Hawking in early 1970s.
+- **Purpose**: Describe thermodynamics of black holes.
+- **Timeline**: 1971-1974
+
+#### **Generalized Black Hole Entropy** (Late 20th-21st Century)
+
+Incorporates quantum corrections to Bekenstein-Hawking entropy. Form:
+
+$$
+\begin{aligned}
+S_{\text{gen}} = \frac{A}{4\hbar G} + \alpha \ln \left( \frac{A}{4\hbar G} \right) + \beta
+\end{aligned}
+$$
+
+- **Context**: Developments in string theory, loop quantum gravity.
+- **Purpose**: Quantum corrections to black hole thermodynamics.
+- **Timeline**: 1990s-present
+
+Each form of entropy extends or adapts earlier concepts to new domains, reflecting evolving understanding of natural phenomena across scales.
+

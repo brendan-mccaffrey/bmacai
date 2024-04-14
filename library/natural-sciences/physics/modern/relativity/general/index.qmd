@@ -1,0 +1,13 @@
+---
+title: General Relativity
+---
+
+## Overview
+
+General relativity, developed between 1907 and 1915, is a theory of gravitation that extends the principles of special relativity to include acceleration and gravity. It posits that massive objects cause a curvature in spacetime, and this curvature is what we perceive as gravity. Essentially, bodies in motion follow the curved paths of spacetime, leading to gravitational attraction.
+
+General relativity predicts several phenomena that Newtonian gravity cannot, such as the bending of light by gravity (gravitational lensing), the time dilation in a gravitational field (gravitational time dilation), and the existence of black holes and gravitational waves. These predictions have been confirmed by experiments and observations, solidifying general relativity as the current description of gravitation in modern physics.
+
+### Discovery and Application of the Einstein Field Equation
+
+The Einstein Field Equation is a central part of general relativity. It describes how the presence of matter and energy "tells" spacetime how to curve, and this curvature "tells" matter how to move. The equation essentially relates the geometry of spacetime (expressed through the Einstein tensor) to the energy and momentum within that spacetime (expressed through the stress-energy tensor).

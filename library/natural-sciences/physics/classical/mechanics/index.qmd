@@ -5,3 +5,7 @@ title: Classical Mechanics
 ## Overview
 
 Newtonian mechanics provides the foundation for classical physics, Lagrangian mechanics offers a powerful alternative formulation based on the principle of stationary action, and Hamiltonian mechanics presents a sophisticated approach that connects classical mechanics to other areas of physics, including quantum mechanics. Each framework has its own set of tools and techniques that make it suitable for different types of problems and systems.
+
+## Resources
+
+- [Langrangian and Hamiltonian Mechanics](https://www.youtube.com/watch?v=0DHNGtsmmH8)

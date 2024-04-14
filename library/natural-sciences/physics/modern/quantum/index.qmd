@@ -1,0 +1,94 @@
+--- 
+title: Quantum Physics
+---
+
+## Resources
+
+- [The Electric Dipole Moment Opportunity](https://sloan.org/programs/research/small-scale-fundamental-physics#tab-tabletop-physics)
+- [Arrival Time in Quantum Mechanics](https://arxiv.org/abs/2306.07679)
+- [Might There Be No Quantum Gravity After All?](https://physics.aps.org/articles/v16/203)
+- [Resolving Key Issues In Quantum Mechanics While Simultaneously Debunking Every UFO Case In History](https://deep-1645.medium.com/resolving-key-issues-in-quantum-mechanics-while-simultaneously-debunking-every-ufo-case-in-history-3a743585ed9c)
+- [Experimental test of local observer-independence](https://arxiv.org/pdf/1902.05080.pdf)
+- [Spontaneous localisation from a coarse-grained deterministic and non-unitary dynamics](https://arxiv.org/abs/2305.06706)
+- [Killing Horizons Decohere Quantum Superpositions](https://arxiv.org/pdf/2301.00026.pdf)
+- [Fermionic matter-wave quantum optics with cold-atom impurity models](https://arxiv.org/abs/2305.11610)
+- [Variational Quantum Thermalization and the Future of Quantum Thermodynamics](https://deep-1645.medium.com/variational-quantum-thermalization-and-the-future-of-quantum-thermodynamics-75ee9916ec3c)
+- [Testing a discrete model for quantum spin with two sequential Stern-Gerlach detectors and photon Fock states](https://arxiv.org/abs/2304.13535)
+- [Claim: The apparent randomness in wave function collapse is a consequence of coarse-graining an underlying deterministic, non-unitary but norm-preserving evolution.](https://arxiv.org/abs/2305.06706)
+- [Quantum Scattering of Spinless Particles in Riemannian Manifolds](https://arxiv.org/abs/2402.10564)
+
+## Formal Resources
+
+- [MIT Quantum Physics I](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/lecture-videos/)
+- [The Dirac Equation and its Interpretations](https://www.researchgate.net/publication/340664785_THE_DIRAC_EQUATION_AND_ITS_INTERPRETATIONS)
+- [David Gross: Fifty Years of Quantum Chromodynamics (The Theory of The Strong Nuclear Force)](https://www.youtube.com/watch?v=8Ms5-Wk-IPU&t=1521s)
+- [Why Bohr was wrong in his response to EPR](https://arxiv.org/abs/2305.06859)
+- [Richard Feynman: Simulating physics with computers (quantum)](https://link.springer.com/article/10.1007/BF02650179)
+- [A New Century of Quantum Physics](https://www.nature.com/articles/s42254-023-00600-4)
+
+
+### Standard Dirac Equation
+
+- [paper](https://www.researchgate.net/publication/340664785_THE_DIRAC_EQUATION_AND_ITS_INTERPRETATIONS)
+
+The standard Dirac equation is a fundamental equation in relativistic quantum mechanics that describes the behavior of spin-1/2 particles such as electrons. It was first proposed by Paul Dirac in 1928 and has since played a central role in many areas of physics.
+
+The Dirac equation takes the form:
+
+$$(i\gamma^\mu\partial_\mu - m)\psi = 0$$
+
+where $\psi$ is a four-component spinor that describes the wave function of the particle, $m$ is the mass of the particle, $\partial_\mu$ is the four-dimensional partial derivative with respect to the spacetime coordinates $x^\mu = (ct,x,y,z)$, and $\gamma^\mu$ are a set of four matrices known as the Dirac gamma matrices.
+
+The gamma matrices satisfy the following properties:
+
+$${\gamma^\mu,\gamma^\nu} = 2\eta^{\mu\nu}I_4$$
+
+where $\eta^{\mu\nu}$ is the Minkowski metric with signature $(+,-,-,-)$, and $I_4$ is the $4\times 4$ identity matrix. The gamma matrices also satisfy the property:
+
+$$\gamma^\mu\gamma^\nu + \gamma^\nu\gamma^\mu = 2\eta^{\mu\nu}I_4$$
+
+The Dirac equation is a relativistic wave equation that describes the dynamics of a spin-1/2 particle in the presence of an electromagnetic field. It predicts the existence of spin and spin magnetic moment for the particle, which are experimentally confirmed.
+
+The four components of the Dirac spinor $\psi$ correspond to the particle's spin and helicity. The solutions to the Dirac equation are classified by their energy, momentum, and spin. The Dirac equation has a rich and complex mathematical structure, and has played a key role in many areas of physics, including particle physics, quantum field theory, condensed matter physics, and astrophysics.
+
+### Von Neumann Algebras
+
+Von Neumann algebras are $(C^*)$-algebras of bounded operators on a Hilbert space that are closed in the weak operator topology. These algebras are fundamental in functional analysis and quantum mechanics. The formal definition is:
+
+$$ \begin{aligned}
+M \subset B(H) \text{ is a von Neumann algebra if } M = M'' = (M')'
+\end{aligned} $$
+
+Here, $(B(H))$ denotes the set of bounded linear operators on Hilbert space $(H)$, and $(M'')$ and $(M')$ denote the bicommutant and commutant, respectively.
+
+#### **Types of Von Neumann Algebras**
+
+1. **Type I**
+    - **Description**: Decomposable into direct sums of simple matrix algebras.
+    - **Subtypes**: 
+      - **Type I$(_1)$**: Factors corresponding to finite-dimensional Hilbert spaces.
+      - **Type I$(_\infty)$**: Infinite-dimensional spaces.
+  
+2. **Type II**
+    - **Description**: Not decomposable but have a non-trivial center.
+    - **Subtypes**: 
+      - **Type II$(_1)$**: Trace-class operators have finite trace.
+      - **Type II$(_\infty)$**: Infinite trace.
+
+3. **Type III**
+    - **Description**: Neither Type I nor Type II; occur naturally in quantum field theory.
+    - **Subtypes**: 
+      - **Type III$(_\lambda)$**: Vary by a parameter $(\lambda)$, used in the Tomita-Takesaki theory.
+
+Each type has distinct mathematical properties and applications in quantum mechanics and quantum field theory.
+
+### **Hilbert Space**
+
+A Hilbert space is a complete inner product space, meaning it's a vector space equipped with an inner product and is complete in the sense that every Cauchy sequence in the space converges to an element within the space. It generalizes the notion of Euclidean space and is fundamental in quantum mechanics and functional analysis.
+
+$$ \begin{aligned}
+\langle x, y \rangle : H \times H \rightarrow \mathbb{C}
+\end{aligned} $$
+
+- **Context**: Developed in early 20th century, named after David Hilbert.
+- **Purpose**: Framework for quantum mechanics and functional analysis. 

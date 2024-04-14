@@ -1,5 +1,0 @@
----
-title: Semiconductor technology
----
-
-- [Fundamental: Doping n and p semiconductors](https://www.halbleiter.org/en/fundamentals/doping/)

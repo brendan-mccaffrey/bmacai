@@ -1,0 +1,46 @@
+---
+title: "Electromagnetism"
+description: "Maxwell was truly one of the greats"
+table-of-contents: true
+---
+
+
+## Resources
+
+- [Faraday, Maxwell, and the Electromagnetic Field](https://www.goodreads.com/en/book/show/18240286)
+- [Dr. Salvatore Pais | Intuitive Science, Conscious Universe & The Philosophy of Physics](https://www.youtube.com/watch?v=7aCrznDR6mw)
+
+
+
+## Magnetohydrodynamics
+
+
+Magnetohydrodynamics (MHD), also known as hydromagnetics, is a field in physics that studies the dynamics of electrically conducting fluids, particularly the interaction between magnetic fields and such fluids. These fluids could be plasma, liquid metals, or even seawater. MHD is a synthesis of fluid dynamics and electromagnetism.
+
+The governing equations of MHD are the Navier-Stokes equations (in the limit of high Reynolds number) coupled with Maxwell's equations. In the ideal MHD approximation, effects such as resistivity and viscosity are neglected, leading to a relatively simple set of governing equations:
+
+1. **Continuity Equation**: This equation ensures the conservation of mass.
+   
+   $$∂ρ/∂t + ∇·(ρv) = 0$$
+
+2. **Momentum Equation**: Combines Newton's second law and the Lorentz force, accounting for the forces due to pressure gradients, gravity, and electromagnetic fields. In the absence of viscosity, this simplifies to:
+   
+   $$ρ(∂v/∂t + v·∇v) = -∇p + ρg + (J×B)$$
+
+3. **Induction Equation**: Describes how the magnetic field evolves over time, given the fluid's velocity and existing magnetic field.
+   
+   $$∂B/∂t = ∇×(v×B)$$
+
+4. **Energy Equation**: This equation describes the conservation of energy, which is usually taken in the form of the first law of thermodynamics.
+
+5. **Ampère's Law with Maxwell's Addition**: 
+   
+   $$∇×B = μ0J$$
+
+   $J$ is the current density vector, $B$ is the magnetic field, and $μ0$ is the magnetic permeability.
+
+In these equations, $ρ$ represents fluid density, $v$ fluid velocity, $p$ pressure, $g$ gravitational acceleration, $J$ current density, and $B$ magnetic field.
+
+MHD has a wide range of applications, from studying astrophysical phenomena such as solar flares and accretion disks, to engineering applications like nuclear fusion research, liquid metal cooling in reactors, and even potential propulsion systems.
+
+However, real-world situations often involve non-ideal MHD where effects such as resistivity cannot be ignored. Understanding these effects often requires incorporating the full set of Maxwell's equations and solving them alongside the fluid dynamics equations, which makes for a much more complex computational problem. In some non-ideal MHD scenarios, magnetic reconnection, turbulence, and other instabilities can occur, which are active research areas in this field.

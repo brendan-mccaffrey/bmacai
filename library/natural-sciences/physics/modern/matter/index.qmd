@@ -1,0 +1,52 @@
+---
+title: Materials Physics
+---
+
+## Resources
+
+- [Riddle Solved: Roman concrete](https://news.mit.edu/2023/roman-concrete-durability-lime-casts-0106)
+    - [paper](https://www.science.org/doi/10.1126/sciadv.add1602)
+- [A Novel Mineral-like Copper Phosphate Chloride with a Disordered Guest Structure: Crystal Chemistry and Magnetic Properties](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8876330/)
+- ["Mix coconut oil and gasoline and pour it on asphalt on a hot day to disintegrate a roadbed"](https://twitter.com/FalconryFinance/status/1674413030967504896)
+- [Gasoline dissolves asphalt](https://www.youtube.com/watch?v=L6hsYSDO-Nw)
+- [American Elements](https://www.americanelements.com/manganese-platinum-alloy-12339-83-2#section-properties)
+- [Historic Monel, The Alloy that Time Forgot](https://web.archive.org/web/20210603212921/https://nickelinstitute.org/blog/2021/march/historic-monel-the-alloy-that-time-forgot/)
+
+## Lead Copper Phosphate Compound
+
+$$
+\mathrm{Pb}_{10-x} \mathrm{Cu}_x\left(\mathrm{PO}_4\right)_6 \mathrm{O}
+$$
+
+The chemical formula you've given is for a lead copper phosphate mineral that's part of a larger solid solution series. Solid solution series occur when two or more different elements can substitute for each other in a mineral's structure to a significant degree. Here, the variable `x` represents a range of compositions that can exist within this series.
+
+The formula indicates that for every 6 units of phosphate (PO4) and one oxygen (O), there are 10-x lead (Pb) atoms and x copper (Cu) atoms. The "x" in the formula implies that the copper content can vary, essentially representing a range of similar minerals with varying amounts of copper and lead. As the copper content increases (x increases), the lead content decreases correspondingly. 
+
+Please note that this is a general explanation and the specifics of the mineral can vary greatly depending on its formation conditions and geological setting.
+
+If you want to understand this equation thoroughly, you would need to delve into crystal chemistry and solid state physics.
+
+**Crystal Chemistry**: The substitution of Pb by Cu is possible due to similarities in their ionic radii and charge. Minerals form in specific crystalline structures and the substitution of one atom for another depends on these factors.
+
+**Solid State Physics**: The physical properties of this mineral series, such as its electrical conductivity or magnetic properties, would vary based on the exact ratio of Pb to Cu. Understanding these properties requires knowledge of solid state physics.
+
+## Pre-War Steel
+
+Radioactivity in Steel Production After Nuclear Bombs
+
+### Summary
+
+The phrase "pre-war steel" is often used in relation to low-background steel, which is steel produced prior to the detonation of the first atomic bombs in the mid-1940s. It's not that the steel produced before these explosions is stronger or of better quality, but it's that the steel manufactured after the start of the atomic age is slightly radioactive.
+
+In 1945, when the first atomic bombs were detonated during World War II, they released various radionuclides, including Carbon-14 and other radioactive isotopes, into the atmosphere. These isotopes circled the globe and were incorporated into many things, including the iron ore used to produce steel. As a result, steel produced after 1945 can exhibit slight radioactivity. 
+
+This can be an issue in certain sensitive applications where even the tiniest amount of background radiation can interfere with equipment operation or measurements, like Geiger counters, certain medical equipment, and scientific devices used in physics and geology. For these uses, pre-war or low-background steel, typically salvaged from pre-1945 ships and buildings, is often sought.
+
+### Research
+
+- [Low-Background Steel Wiki](https://en.wikipedia.org/wiki/Low-background_steel)
+- [Readiation Damage Wiki](https://en.wikipedia.org/wiki/Radiation_damage)
+- [Radiation Effects in Steel](https://www.astm.org/stp39595s.html#:~:text=On%20theoretical%20grounds%20and%20on,for%20the%20increased%20strength%20and)
+- [Investigation of Natural Radioactivity and Dose Assessment over Steel Making Region](https://www.scirp.org/pdf/oje_2020062313574632.pdf)
+- [Effects of Irradiation on Mechanical Properties](https://www.osti.gov/etdeweb/servlets/purl/322678)
+- [Is neutron radiation exposure always detrimental to metals (steels)?](https://www.nature.com/articles/308051a0)

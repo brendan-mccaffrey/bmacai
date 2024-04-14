@@ -1,0 +1,252 @@
+---
+title: Physics
+description: Physics is law. All else is recommendation.
+table-of-contents: true
+---
+
+This page provides a brief overview of each subdomain of physics. Each header is a link to the page which explores the respective domain further.
+
+## General Resources
+
+- [Dan Fleisch](https://www.danfleisch.com/)
+- [TASI 2023: Aspects of Symmetry](https://www.youtube.com/playlist?list=PL1TnhG8zyyNxnhHGZze1tAlYrXTXwxhn0)
+- [The 8 Fallacies of Assembly Theory](https://hectorzenil.medium.com/test-8f0be54817c4)
+- [Physics of the Analytic S-Matrix](https://arxiv.org/abs/2306.05395)
+- [World from Eyes, Reconstruct 3D Scene from Someone's Eyeball](https://t.co/zoqliCEews)
+- [Ed Witten Interview](https://www.joachim-herz-stiftung.de/en/about-us/prices/hamburg-prize-for-theoretical-physics/edward-witten)
+- [Unitarity](https://www.quantamagazine.org/physicists-rewrite-a-quantum-rule-that-clashes-with-our-universe-20220926/)
+- [Differentiable Physics: Optimizing Neural Models of Complex Systems](https://twitter.com/afshawnl/status/1745900664708866357)
+
+## [Classical Physics](classical/mechanics/index.qmd)
+
+Classical Physics encompasses the theories and principles that describe the natural world in terms of macroscopic scales and speeds much slower than the speed of light. It is the framework in which forces, energy, and matter interact and is often considered to be the classical limit of more advanced theories, such as quantum mechanics and general relativity.
+
+##### **Primary Subdomains**
+
+1. **Newtonian Mechanics**: Study of forces and motions based on Isaac Newton's three laws.
+2. **Classical Electrodynamics**: Description of electric and magnetic fields and their interaction with matter, typically framed using Maxwell's equations.
+3. **Thermodynamics**: Study of heat transfer and the principles governing energy transformations.
+4. **Optics**: Study of the behavior and properties of light, including its interactions with matter.
+5. **Acoustics**: Study of the production, transmission, and effects of sound waves.
+6. **Fluid Mechanics**: Study of fluids (liquids and gases) in motion or at rest.
+7. **Lagrangian and Hamiltonian Mechanics**: Advanced formulations of classical mechanics that provide alternative approaches to describing systems.
+
+##### **Fields of Application**
+
+1. **Engineering**: For designing mechanical systems, electrical circuits, and thermodynamic processes.
+2. **Astronomy**: For celestial mechanics and basic calculations regarding heavenly bodies.
+3. **Geophysics**: In studying phenomena like earthquakes and atmospheric science.
+4. **Medicine**: In medical imaging and biomechanics.
+5. **Environmental Science**: For understanding weather patterns and fluid flows in natural systems.
+6. **Materials Science**: In studying the mechanical properties of materials.
+
+##### **Additional Notes**
+
+- Classical Physics provides the foundation upon which modern physics (e.g., quantum mechanics, relativity) is built.
+- Despite its limitations at very high speeds or microscopic scales, classical physics is exceptionally accurate for a broad range of everyday applications.
+
+This category aims to provide a comprehensive understanding of the physical principles that govern our everyday world and serves as a foundation for other, more specialized fields in physics.
+
+## [Cosmology](modern/cosmology/index.qmd)
+
+Astrophysics/cosmology is a branch of astronomy that applies the principles of physics and mathematics to understand the fundamental workings of the universe. It aims to explain the behavior and characteristics of astronomical objects, from stars and planets to galaxies and the entire universe itself.
+
+##### **Primary Subdomains**
+1. **Cosmology** - The study of the origin, structure, and eventual fate of the universe.
+2. **Stellar Astrophysics** - Focuses on the physical properties and life cycles of stars.
+3. **Galactic and Extragalactic Astronomy** - Study of galaxies and structures beyond our galaxy.
+4. **Planetary Science** - Study of planets, both within our solar system and beyond (exoplanets).
+5. **High-Energy Astrophysics** - Investigates phenomena that occur at extremely high energies, such as black holes, neutron stars, and gamma-ray bursts.
+6. **Astrobiology** - The study of the origin, evolution, and possibility of life elsewhere in the universe.
+7. **Observational Astrophysics** - Focuses on the data collection and interpretation, often via telescopes and other instruments.
+8. **Theoretical Astrophysics** - Concerned with developing theoretical models to describe astrophysical objects and phenomena.
+
+##### **Fields of Application**
+1. **Aerospace Engineering** - The understanding of celestial mechanics is crucial for space missions.
+2. **Climate Studies** - Understanding the Sun's impact on Earth's climate.
+3. **Computer Science** - Data from astrophysical observations often require sophisticated algorithms for interpretation.
+4. **Public Policy & Education** - Findings in astrophysics often inform science policy and are popular subjects for educational outreach.
+
+##### **Additional Notes**
+- Astrophysics is highly interdisciplinary, often overlapping with particle physics, general relativity, and quantum mechanics to explain phenomena like dark matter, dark energy, and black holes.
+- Due to the advancement in technology, there's been a significant increase in the discovery rate of exoplanets, leading to more sub-specializations within the field.
+- A number of Nobel Prizes have been awarded for astrophysical research, highlighting its importance and impact on our understanding of the universe.
+
+This category serves as an essential foundation for understanding the complexities of the universe, helping to answer fundamental questions related to our existence and the nature of reality itself.
+
+## [Electromagnetism](classical/electromagnetism/index.qmd)
+
+Electromagnetism is one of the four fundamental forces in nature, governing the behavior of electrically charged particles and their interactions through electric and magnetic fields. It unifies electricity and magnetism into a single theory, initially formulated by James Clerk Maxwell in the 19th century. This theory is described by Maxwell's equations, which provide the mathematical foundation for understanding electromagnetic phenomena.
+
+### Primary Subdomains
+1. **Electrostatics**: Study of electric charges at rest and electric fields.
+2. **Magnetostatics**: Study of magnetic fields in systems with steady currents.
+3. **Electrodynamics**: Study of time-dependent electric and magnetic fields, often involving moving charges.
+4. **Optics**: Study of light as an electromagnetic wave, including reflection, refraction, and diffraction.
+5. **Microwave Engineering**: Study of the electromagnetic waves in the microwave frequency range.
+6. **Plasma Physics**: Study of charged particles and fluids interacting with self-consistent electric and magnetic fields.
+
+### Fields of Application
+1. **Electrical Engineering**: Design and analysis of electrical systems.
+2. **Communications**: Antenna design, signal processing, and wireless transmission.
+3. **Medical Imaging**: MRI and X-ray technologies.
+4. **Material Science**: Study of electrical, magnetic, and optical properties of materials.
+5. **Environmental Monitoring**: Geophysical and atmospheric studies.
+6. **Energy Production**: Power generation and transmission.
+
+### Additional Notes
+Electromagnetism also serves as a cornerstone for more advanced theories in physics, such as Quantum Electrodynamics (QED) and the Standard Model of particle physics. It is crucial for understanding a broad range of phenomena, from the interaction of subatomic particles to the large-scale behavior of galaxies.
+
+## [Materials Physics](modern/matter/index.qmd)
+
+Materials Physics is a subfield of condensed matter physics that focuses on the study of materials and their properties at the microscopic or atomic level. This branch of physics aims to understand how the individual components (atoms, molecules, etc.) of a material contribute to its macroscopic properties like strength, electrical conductivity, and thermal properties. Materials physics seeks not just to understand existing materials but also to predict and create new materials with desired properties.
+
+##### **Primary Subdomains**
+1. **Electronic Properties of Solids:** Study of electrical, magnetic, and optical properties of solid materials.
+2. **Mechanical Properties:** Exploration of strength, elasticity, and other mechanical properties of materials.
+3. **Magnetic Materials:** Study of ferromagnetism, antiferromagnetism, and various other kinds of magnetic ordering.
+4. **Polymer Physics:** Understanding the physical properties of polymers.
+5. **Nano-materials:** Study of materials at the nanometer scale, often involving nano-particles, nano-composites, and nano-porous materials.
+6. **Bio-materials:** Study of materials that interact with biological systems.
+7. **Superconductivity:** Understanding materials that exhibit zero electrical resistance.
+8. **Photonic and Optoelectronic Materials:** Materials designed to manipulate and utilize light (photons).
+9. **Semiconductors:** Materials that have a conductivity between conductors and insulators.
+
+##### **Fields of Application**
+1. **Aerospace:** Creation of materials that can withstand extreme conditions.
+2. **Electronics:** Development of more efficient semiconductors, conductors, and insulators.
+3. **Energy:** Materials for better energy storage like batteries and supercapacitors.
+4. **Medicine:** Development of bio-compatible materials.
+5. **Telecommunications:** Optoelectronic materials for better data transmission.
+6. **Environmental Science:** Materials for pollution control and environmental remediation.
+
+##### **Additional Notes**
+Materials physics often overlaps with materials science, chemistry, and engineering in interdisciplinary research and applications. Advances in this field often rely on cutting-edge techniques in computational physics, quantum mechanics, and statistical mechanics.
+
+## [Particle Physics](modern/particle/index.qmd)
+
+Particle Physics is the branch of physics that studies the nature and behavior of subatomic particles. These include elementary particles, such as electrons, quarks, and photons, as well as composite particles like protons, neutrons, and atomic nuclei. The field aims to understand the fundamental constituents of matter and the forces that act between them.
+
+##### **Primary Subdomains**
+1. **Elementary Particle Physics**: Study of fundamental, indivisible particles like electrons, quarks, and bosons.
+2. **Hadron Physics**: Focuses on particles made of quarks, such as protons and neutrons, and their interactions.
+3. **Nuclear Physics**: While closely related, this subdomain studies the behavior of atomic nuclei in detail.
+4. **Astroparticle Physics**: Studies particles in astronomical contexts; often overlaps with cosmology.
+5. **Cosmic-Ray Physics**: Investigates the high-energy particles that originate from space and strike the Earth.
+6. **Quantum Chromodynamics (QCD)**: The study of the strong force, one of the fundamental forces of nature, and how it acts on quarks and gluons.
+7. **Electroweak Theory**: Combines electromagnetism and the weak nuclear force into a single theory.
+
+##### **Fields of Application**
+1. **Medical Imaging**: Particle detectors similar to those in physics experiments are used in medical imaging technologies.
+2. **Astronomy and Cosmology**: Understanding particle interactions is crucial for understanding cosmic phenomena.
+3. **Material Science**: Manipulation of particles at the atomic and subatomic levels can lead to new materials with unique properties.
+4. **Energy Sector**: Understanding subatomic particles could potentially unlock new energy sources or methods for energy production.
+
+##### **Additional Notes**
+Particle physics often requires large-scale experiments and particle accelerators like the Large Hadron Collider (LHC) to test theories and discover new particles. The field has deep connections with quantum mechanics and relativity and often overlaps with other domains in physics and even other disciplines like cosmology and astrophysics. It is a rapidly evolving field, and recent advancements often lead to practical applications in various industries.
+
+## [Field Theory](modern/quantum/field-theory/index.qmd)
+
+Field Theory is a branch of physics that deals with the study of fields, which are functions that assign a value to each point in space and time. In physics, fields are used to represent various physical quantities such as electromagnetic fields, gravitational fields, and quantum fields. The concept of a field is instrumental in describing how forces act at a distance and how particles interact with each other.
+
+##### **Primary Subdomains**
+1. **Classical Field Theory**: Includes electromagnetic fields and gravitational fields in the context of General Relativity.
+2. **Quantum Field Theory (QFT)**: Merges quantum mechanics and special relativity to study interactions in particle physics.
+3. **Gauge Theory**: A type of field theory where fields are formulated in terms of gauge-invariant quantities.
+4. **Conformal Field Theory**: Deals with fields that are invariant under conformal transformations, often used in the study of critical phenomena.
+5. **Topological Field Theory**: Concerned with fields that have topological invariants.
+6. **Effective Field Theory**: An approximate theory to describe physics at a particular length scale.
+  
+##### **Fields of Application**
+1. **Particle Physics**: Quantum Field Theory is the foundation for the Standard Model.
+2. **Cosmology**: Field theories like General Relativity are essential for understanding the universe's large-scale structure.
+3. **Condensed Matter Physics**: Field theoretical methods are used to understand many-body systems and phase transitions.
+4. **Quantum Computing**: Quantum field theoretical methods are sometimes used in algorithms and understanding quantum computation.
+5. **Electrical Engineering**: Classical electromagnetic field theory is essential for the design and understanding of electrical circuits, antennas, etc.
+
+##### **Additional Notes**
+Field Theory often intersects with other areas of physics and mathematics, like statistical mechanics and group theory, to offer a more complete understanding of physical phenomena. The mathematics involved can be highly abstract, involving advanced topics in differential geometry, topology, and algebra.
+
+## [Relativity](modern/relativity/index.qmd)
+
+The theory of relativity fundamentally changed our understanding of space, time, and gravity. Developed primarily by Albert Einstein, it comes in two main forms: Special Relativity and General Relativity. Special Relativity focuses on the physics of objects moving at constant velocity, particularly those close to the speed of light, and describes how time dilation and length contraction occur. General Relativity extends these concepts to accelerating frames and introduces a revolutionary explanation for gravity as the curvature of spacetime caused by mass.
+
+##### **Primary Subdomains**
+1. **Special Relativity**: Deals with inertial frames and high-speed phenomena.
+   - Time Dilation
+   - Length Contraction
+   - Lorentz Transformation
+   - Relativistic Energy-Momentum
+2. **General Relativity**: Focuses on gravity and accelerating (non-inertial) frames.
+   - Gravitational Fields and Curved Spacetime
+   - Black Holes
+   - Cosmological Models
+   - Gravitational Waves
+3. **Experimental Tests of Relativity**: Confirmations and challenges to relativistic predictions.
+   - Gravitational Lensing
+   - Time Dilation in Particle Accelerators
+   - Tests of the Equivalence Principle
+
+##### **Fields of Application**
+- **Astrophysics**: Understanding celestial bodies like black holes, neutron stars, and the large-scale structure of the universe.
+- **Global Positioning Systems (GPS)**: Accounting for relativistic effects to achieve precise location data.
+- **Particle Physics**: Managing particles at high speeds in accelerators.
+- **Cosmology**: Explaining the Big Bang, cosmic inflation, and the fate of the universe.
+- **Gravitational Wave Astronomy**: Detecting and interpreting gravitational waves.
+
+##### **Additional Notes**
+- The equations of relativity reduce to Newtonian equations at speeds much lower than the speed of light, demonstrating a natural continuity in physical laws.
+- Special Relativity has implications for the unification of electromagnetism into a single theory, often termed as the "electroweak" interaction.
+- General Relativity, while incredibly successful at explaining large scale phenomena, is still incompatible with quantum mechanics. The reconciliation of these two theories is an open problem in theoretical physics, often referred to as the quest for a Theory of Everything (ToE).
+
+By categorizing articles under this section, readers can gain an in-depth understanding of one of the most groundbreaking and far-reaching theories in physics.
+
+## [Quantum Physics](modern/quantum/index.qmd)
+
+Quantum Physics, also known as Quantum Mechanics, is a branch of physics that deals with phenomena on the atomic and subatomic scales. It departs from classical physics, which fails to describe these systems accurately. Quantum physics introduces the concept of quantized energy levels, wave-particle duality, and probabilities as fundamental aspects of physical systems.
+
+##### **Primary Subdomains**
+1. **Quantum Mechanics**: The foundational theory describing basic quantum systems.
+2. **Quantum Field Theory**: Extends quantum mechanics to systems with varying particle numbers, incorporating special relativity.
+3. **Quantum Computing**: The study of how to perform computation using quantum-mechanical phenomena.
+4. **Quantum Information Theory**: Deals with the quantification and manipulation of quantum information.
+5. **Quantum Optics**: The study of the interactions between light and matter in the quantum regime.
+6. **Quantum Cryptography**: Concerned with securing communication information using quantum phenomena.
+7. **Condensed Matter Physics**: Examines quantum effects in solid and liquid systems.
+8. **Quantum Thermodynamics**: Investigates the laws of thermodynamics in the realm of quantum systems.
+
+##### **Fields of Application**
+1. **Technology**: Semiconductor devices, lasers, and quantum computers.
+2. **Medicine**: MRI technology and future applications in quantum healthcare.
+3. **Telecommunications**: Secure communication through quantum cryptography.
+4. **Material Science**: Discovery and design of new materials with desired properties.
+5. **Finance and Optimization**: Quantum algorithms for solving complex optimization problems.
+
+##### **Additional Notes**
+Quantum Physics often intersects with other branches of physics like statistical mechanics, cosmology, and general relativity, creating interdisciplinary subdomains like quantum cosmology and quantum gravity. It is also a field that is philosophically rich, touching upon fundamental questions about the nature of reality, causality, and information.
+
+## [Theory of Everything](modern/unity/index.qmd)
+
+The quest for a Theory of Everything (ToE) in physics is an endeavor to unify all fundamental forces and fields under a single, coherent theoretical framework. The primary goal is to reconcile quantum mechanics, which describes the forces of electromagnetism, weak nuclear force, and strong nuclear force, with general relativity, which describes gravity. Unification theories aim to provide a more elegant and simplified explanation for the complexities of the universe.
+
+##### **Primary Subdomains**
+1. Grand Unified Theories (GUTs) - These theories attempt to unify the electromagnetic, weak, and strong forces.
+2. Quantum Gravity - Theoretical frameworks like Loop Quantum Gravity and String Theory fall under this category, aiming to reconcile quantum mechanics with general relativity.
+3. Supersymmetry - A proposed extension of the standard space-time symmetries to unify fermions and bosons.
+4. Higher-Dimensional Theories - Such as Kaluza-Klein theory, which posits extra spatial dimensions to unify forces.
+5. Preon Theories - These hypothesize that quarks and leptons are made of more fundamental particles.
+6. Cosmological Implications - Including models that address the Big Bang, inflation, and the fate of the universe within the framework of unification theories.
+
+##### **Fields of Application**
+1. High Energy Physics - Particle accelerators and colliders often test predictions made by unification theories.
+2. Cosmology - The origins and large-scale structure of the universe could be better understood through a ToE.
+3. Quantum Computing - Understanding the unified forces could potentially unlock new computational paradigms.
+4. Astrophysics - Phenomena like black holes and neutron stars are better understood in the context of a unified theory.
+
+##### **Additional Notes**
+- No single unification theory has been universally accepted or proven yet, although String Theory is often cited as a leading candidate.
+- Experimental verification remains a challenge due to the extreme conditions required to test these theories, often beyond current technological capabilities.
+- Philosophical implications also abound, particularly questions around determinism, free will, and the nature of reality itself.
+
+This category sits at the intersection of several fundamental areas in physics and represents the cutting edge of our understanding of the physical universe.
+
