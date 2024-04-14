@@ -3,24 +3,25 @@ title: FHE
 subtitle: Fully Homomorphic Encryption
 ---
 
-### Reads
+## Reads
+
+### General
 
 - [First Ever Fully Homomorphic Encryption Scheme](https://crypto.stanford.edu/craig/craig-thesis.pdf)
 - [Vitalik on FHE](https://vitalik.ca/general/2020/07/20/homomorphic.html)
+- [Exploring the Recent Rise of FHE in the Blockchain Industry](https://medium.com/@mustafa.hourani/explaining-the-recent-rise-of-fully-homomorphic-encryption-in-the-blockchain-industry-c7081fa05458)
+- [fhEVMs: How do they work?](https://medium.com/@whaleslee/fhevms-how-do-they-work-c13ea8a4d4c0)
 
-Original FHE innovation with bootstrapping (inefficient)
+### Timeline
 
 - 2009, [Fully homomorphic encryption using ideal lattices](https://dl.acm.org/doi/10.1145/1536414.1536440)
 - 2010, [Computing arbitrary functions of encrypted data](https://dl.acm.org/doi/10.1145/1666420.1666444)
-
-Efficiency Improvements
-
 - 2019, [TFHE: Fast Fully Homomorphic Encryption Over the Torus](https://link.springer.com/article/10.1007/s00145-019-09319-x)
 - 2021, [Programmable Bootstrapping Enables Efficient Homomorphic Inference of Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-030-78086-9_1)
 - 2023, [TFHE Public-Key Encryption Revisited](https://eprint.iacr.org/2023/603)
     - based on a variant of Learning With Errors (LEW) problem, first introduced by Regev [On lattices, learning with errors, random linear codes, and cryptography](https://dl.acm.org/doi/10.1145/1060590.1060603)
 
-### Projects
+## Projects
 
 **Zama**
 

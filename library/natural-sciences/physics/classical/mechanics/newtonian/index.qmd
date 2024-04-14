@@ -1,0 +1,16 @@
+---
+title: Newtonian Mechanics
+description: The original framework of classical mechanics
+---
+
+Newtonian Mechanics, also known as classical mechanics, is the original framework formulated by Sir Isaac Newton to describe the motion of macroscopic objects. It is based on Newton's three laws of motion and the universal law of gravitation. This framework is adequate for describing the everyday phenomena occurring at speeds much lower than the speed of light and on scales larger than atomic scales.
+
+## Topics
+
+- **Newton's Laws of Motion**: These are the three fundamental laws that describe the relationship between a body and the forces acting upon it, and its motion in response to those forces.
+- **Law of Universal Gravitation**: Describes the gravitational attraction between masses.
+- **Kinematics**: The study of motion without considering its causes.
+- **Dynamics**: The study of the forces and torques that cause motion.
+- **Statics**: The study of how forces affect non-moving bodies.
+- **Conservation Laws**: Principles of conservation of energy, momentum, and angular momentum.
+- **Newtonian Cosmology**: Application of Newtonian mechanics to the universe's structure and dynamics

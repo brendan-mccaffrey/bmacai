@@ -4,6 +4,8 @@ title: Prpgramming
 
 ## Resources
 
+- [Tech Yourself Programming in 10 Years](https://norvig.com/21-days.html)
+
 ### Tools
 
 - [jscpd: cl tool that finds copy/pasted code and reports duplicates](https://twitter.com/housecor/status/1751269325313355971)

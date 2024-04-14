@@ -1,0 +1,21 @@
+
+
+
+## Setup
+
+- 3 wallets
+- 6 servers
+ - 3 operational
+ - 3 backup
+
+Spamming
+
+1. slower
+ - query d info
+ - wueary spot opens
+    - transfer and order
+
+2. faster
+loop:
+ - transfer
+ - order 

@@ -6,129 +6,31 @@ title: Solana Development
 
 - [Rust Book](https://doc.rust-lang.org/book/ch01-02-hello-world.html)
 - [Interactive Rust Book](https://rust-book.cs.brown.edu/)
-- [Anchor docs](https://www.anchor-lang.com/docs/intro-to-solana)
+- [Anchor Documentation](https://www.anchor-lang.com/docs/intro-to-solana)
+- [Solana Playground](https://beta.solpg.io/https://github.com/solana-developers/anchor-examples/tree/main/account-constraints/token)
+
 - [AccountInfo Spec](https://docs.rs/solana-program/latest/solana_program/account_info/struct.AccountInfo.html)
 
-## Programs
 
-Programs provide endpoints that can be called via transactions (In reality it's a bit more complex than that but frameworks like Anchor abstract away this complexity). A function signature usually takes the following arguments:
+## Token 2022
 
-- the accounts that the program may read from and write to during this transaction.
-- additional data specific to the function
 
-### Exmaple: The System Program
+### Extensions
 
-The System Program. The System Program is a smart contract with some additional privileges. All "normal" SOL accounts are owned by the System Program. To provide transfer functionality, the system program has a “transfer” endpoint.
+#### **Metadata**
 
-```rust 
-/// simplified system program code
-fn transfer(accounts, lamports) {
-    if !accounts.from.is_signer {
-        error();
-    }
-    accounts.from.lamports -= lamports;
-    accounts.to.lamports += lamports;
-}
-```
+- [defition](https://github.com/solana-labs/solana-program-library/blob/03519632f8d8abd0669a3798c284b0b01a2f083b/token-metadata/js/src/state.ts#L16-L29)
 
-### Program Composition
+#### **Transfer Hook**
 
-There are two ways for developers to make programs interact with each other. Create & Initialize.
+- [docs](https://spl.solana.com/token-2022/extensions#transfer-hook)
+- [solana_developers example github](https://github.com/solana-developers/anchor-transfer-hook/blob/main/tests/transfer-hook.ts)
+- [community anchor example github](https://github.com/0ximalice/spl-token-2022-transfer-hook-anchor/blob/main/programs/transferhook/src/lib.rs)
 
-**Via Multiple Instructions in a Transaction**
+#### **Permanent Delegate**
 
-The first way to create and initialize the counter is by using multiple instructions in a transaction.
-
-- Instruction 1
-    - program_to_call: system_program
-    - function: create_account
-    - accounts: payer, counter_acc
-    - additional_data: [counter_acc_size, lamports]
-    - signed_by: [payer, counter_acc]
-- Instruction 2
-    - program_to_call: counter_program
-    - function: initialize
-    - accounts: counter_acc
-    - additional_data: []
-    - signed_by: []
-
-Under this approach, it would look like.
-
-```rust
-// counter data structure
-pub struct Counter {
-    pub count: u64,
-    pub is_initialized: bool
-}
-
-/// function pseudo code
-fn initialize(accounts) {
-    let counter = deserialize(accounts.counter);
-    if counter.is_initialized {
-        error("already initialized");
-    }
-    counter.count = 0;
-    counter.is_initialized = true;
-}
-```
-
-**Via Cross-Program Invocations**
-
-Using CPIs the create & initialize flow can be executed inside the initialize function of the counter:
-
-```rust
-/// pseudo code
-fn initialize(accounts) {
-    accounts.system_program.create_account(accounts.payer, accounts.counter);
-    let counter = deserialize(accounts.counter);
-    counter.count = 0;
-}
-```
-
-## Accounts
-
-### Using `Account<'a, T>` with non-anchor programs
-
-There may be cases where you want your program to interact with a non-Anchor program. You can still get all the benefits of Account but you have to write a custom wrapper type instead of using #[account]. For instance, Anchor provides wrapper types for the token program accounts so they can be used with Account.
-
-```rust
-use anchor_lang::prelude::*;
-use anchor_spl::token::TokenAccount;
-
-declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
-
-#[program]
-mod hello_anchor {
-    use super::*;
-    pub fn set_data(ctx: Context<SetData>, data: u64) -> Result<()> {
-        if ctx.accounts.token_account.amount > 0 {
-            ctx.accounts.my_account.data = data;
-        }
-        Ok(())
-    }
-}
-
-#[account]
-#[derive(Default)]
-pub struct MyAccount {
-    data: u64,
-    mint: Pubkey
-}
-
-#[derive(Accounts)]
-pub struct SetData<'info> {
-    #[account(mut)]
-    pub my_account: Account<'info, MyAccount>,
-    #[account(
-        constraint = my_account.mint == token_account.mint,
-        has_one = owner
-    )]
-    pub token_account: Account<'info, TokenAccount>,
-    pub owner: Signer<'info>
-}
-```
-
-The important thing to take away is that we use the TokenAccount type (that wraps around the token program's Account struct and adds the required functions) to make anchor ensure that the incoming account is owned by the token program and to make anchor deserialize it. This means we can use the TokenAccount properties inside our constraints (e.g. token_account.mint) as well as in the instruction function
+- [docs](https://spl.solana.com/token-2022/extensions#permanent-delegate)
+- [using permanent delegate](https://solana.com/developers/guides/token-extensions/permanent-delegate#getting-started)
 
 ## Security
 

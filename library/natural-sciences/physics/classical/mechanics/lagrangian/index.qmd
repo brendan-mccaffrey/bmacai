@@ -1,0 +1,15 @@
+---
+title: Lagrangian Mechanics
+description: The mechanics of fields and continua underpinning classical field theory.
+---
+
+Lagrangian Mechanics is a reformulation of classical mechanics introduced by Joseph-Louis Lagrange. It uses the principle of stationary action and is particularly powerful in dealing with complex systems and constraints.
+
+## Topics
+
+- **Principle of Stationary Action**: The path taken by a system between two points is the one for which the action is stationary (usually a minimum).
+- **Lagrangian**: A function that summarizes the dynamics of the system.
+- **Calculus of Variations**: The mathematical foundation of Lagrangian mechanics.
+- **Generalized Coordinates**: Coordinates that can include any variables that completely describe the system.
+- **Noether's Theorem**: Relates symmetries and conservation laws in Lagrangian mechanics.
+

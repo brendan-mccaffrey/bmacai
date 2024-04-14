@@ -1,0 +1,15 @@
+---
+title: Hamiltonian Mechanics
+description: A reformulation of classical mechanics
+---
+
+Hamiltonian Mechanics, developed by William Rowan Hamilton, is another reformulation of classical mechanics. It evolves the system using the Hamiltonian function, which often corresponds to the total energy of the system.
+
+## Topics
+
+- **Hamiltonian Function**: A function equivalent to the total energy of the system in many cases.
+- **Hamilton's Equations**: A set of first-order differential equations derived from the Hamiltonian function.
+- **Phase Space**: A space in which all possible states of a system are represented, with each state corresponding to one unique point in the space.
+- **Canonical Transformations**: Transformations that preserve the form of Hamilton's equations.
+- **Conservation of Energy**: In many cases, the Hamiltonian is conserved, leading to the principle of conservation of energy.
+- **Connection to Quantum Mechanics**: Hamiltonian mechanics forms the basis for the development of quantum mechanics[10][12][13][14][15].

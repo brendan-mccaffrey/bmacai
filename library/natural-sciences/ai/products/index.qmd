@@ -43,3 +43,5 @@ title: AI Projects
 - [Whisper: OpenAI Speech Recognition](https://arxiv.org/abs/2212.04356)
     - [blog](https://openai.com/blog/whisper/)
     - [github](https://github.com/openai/whisper)
+
+- [Suno.ai](https://twitter.com/tobi/status/1775684945257611286)

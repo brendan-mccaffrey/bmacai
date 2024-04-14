@@ -2,4 +2,7 @@
 title: Roth Investment
 ---
 
-Pacific Premier Trust is an institution that administers self-directed IRA.
+## Self-Directed
+
+- Pacific Premier Trust is an institution that administers self-directed IRA.
+- Carryhq [also offers this ability](https://twitter.com/ankurnagpal/status/1777420194354266436)

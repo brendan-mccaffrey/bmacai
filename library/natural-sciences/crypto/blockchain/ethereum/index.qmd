@@ -22,10 +22,18 @@ table-of-contents: true
 - [Ethereum Data Structures](https://arxiv.org/pdf/2108.05513.pdf)
 - [Solidity Lang Docs](https://docs.soliditylang.org/en/v0.8.21/)
 
+#### **fhEVMs**
+
+- [fhEVMs: How do they work?](https://medium.com/@whaleslee/fhevms-how-do-they-work-c13ea8a4d4c0)
+
 #### **Data**
 
 - [EIP-1153: Transient Storage](https://eips.ethereum.org/EIPS/eip-1153)
 - [Merkle Patricia Tree: storage proof Implementation](https://github.com/mixbytes/zkllvm-mpt-proofs)
+
+## Events / Issues
+
+- [Blob Issue Postmortem](https://gist.github.com/benhenryhunter/7b7d9c9e3218aad52f75e3647b83a6cc)
 
 
 

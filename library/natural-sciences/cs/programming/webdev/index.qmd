@@ -2,7 +2,12 @@
 title: Web Developemnt
 ---
 
+## Resources
+
+- [color generator for designers](https://twitter.com/Abmankendrick/status/1777356868966293539)
+
 ### Framer
 
 - [site](https://www.framer.com/)
 - [Framer University](https://twitter.com/learnframer)
+

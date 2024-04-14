@@ -1,0 +1,20 @@
+---
+title: Eigenlayer Mainnet Operator
+---
+
+## Overview
+
+- eigen mainnet launch
+
+- stuart made a eigenlayer validator discord [link](https://discord.gg/EgTwfWNF)
+- working with the deepgreen team
+- created this [twitter](https://twitter.com/AVSDAO)
+
+
+- Goal: make protocol w governance token
+- potentially do a raise
+
+Inaugural Validator
+
+
+first mover/competitor: [eigenyields](https://twitter.com/EigenYields)

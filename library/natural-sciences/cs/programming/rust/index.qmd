@@ -10,3 +10,7 @@ title: Rust
 - [Rust Book](https://doc.rust-lang.org/book/)
 - [Zero to Production](https://www.zero2prod.com/index.html?country_code=US)
 - [Rust in Action](https://www.manning.com/books/rust-in-action)
+
+## Tools
+
+- [Glommion](https://twitter.com/ShaneBarratt/status/1777064979184685379) crate for writing highly parallel async apps in a thread-per-core architecture

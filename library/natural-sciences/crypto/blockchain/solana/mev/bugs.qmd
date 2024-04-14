@@ -1,0 +1,12 @@
+---
+title: Searcher Bugs
+---
+
+## Bugs
+
+- Relayer
+
+`-- datapoint: block_engine_relayer-error,block_engine_url=< discord doesn tlike this>,auth_service_url=<discord doesnt like this> error="auth service failed: transport error"`
+
+this is product of relayer not being used currently due to mempool closure but may be brought back with potential design changes in the future. No reason for alarm
+But can add these flags to make the errors go away. Can set --disable-mempool when they start the relayer or use the environement var DISABLE_MEMPOOL=true

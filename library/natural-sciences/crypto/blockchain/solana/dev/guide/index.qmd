@@ -1,0 +1,152 @@
+---
+title: Development Guide
+table-of-contents: true
+---
+
+
+## Programs
+
+Programs provide endpoints that can be called via transactions (In reality it's a bit more complex than that but frameworks like Anchor abstract away this complexity). A function signature usually takes the following arguments:
+
+- the accounts that the program may read from and write to during this transaction.
+- additional data specific to the function
+
+### Exmaple: The System Program
+
+The System Program. The System Program is a smart contract with some additional privileges. All "normal" SOL accounts are owned by the System Program. To provide transfer functionality, the system program has a “transfer” endpoint.
+
+```rust 
+/// simplified system program code
+fn transfer(accounts, lamports) {
+    if !accounts.from.is_signer {
+        error();
+    }
+    accounts.from.lamports -= lamports;
+    accounts.to.lamports += lamports;
+}
+```
+
+### Program Composition
+
+There are two ways for developers to make programs interact with each other. Create & Initialize.
+
+**Via Multiple Instructions in a Transaction**
+
+The first way to create and initialize the counter is by using multiple instructions in a transaction.
+
+- Instruction 1
+    - program_to_call: system_program
+    - function: create_account
+    - accounts: payer, counter_acc
+    - additional_data: [counter_acc_size, lamports]
+    - signed_by: [payer, counter_acc]
+- Instruction 2
+    - program_to_call: counter_program
+    - function: initialize
+    - accounts: counter_acc
+    - additional_data: []
+    - signed_by: []
+
+Under this approach, it would look like.
+
+```rust
+// counter data structure
+pub struct Counter {
+    pub count: u64,
+    pub is_initialized: bool
+}
+
+/// function pseudo code
+fn initialize(accounts) {
+    let counter = deserialize(accounts.counter);
+    if counter.is_initialized {
+        error("already initialized");
+    }
+    counter.count = 0;
+    counter.is_initialized = true;
+}
+```
+
+**Via Cross-Program Invocations**
+
+Using CPIs the create & initialize flow can be executed inside the initialize function of the counter:
+
+```rust
+/// pseudo code
+fn initialize(accounts) {
+    accounts.system_program.create_account(accounts.payer, accounts.counter);
+    let counter = deserialize(accounts.counter);
+    counter.count = 0;
+}
+```
+
+## Accounts
+
+### Using `Account<'a, T>` with non-anchor programs
+
+There may be cases where you want your program to interact with a non-Anchor program. You can still get all the benefits of Account but you have to write a custom wrapper type instead of using #[account]. For instance, Anchor provides wrapper types for the token program accounts so they can be used with Account.
+
+```rust
+use anchor_lang::prelude::*;
+use anchor_spl::token::TokenAccount;
+
+declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
+
+#[program]
+mod hello_anchor {
+    use super::*;
+    pub fn set_data(ctx: Context<SetData>, data: u64) -> Result<()> {
+        if ctx.accounts.token_account.amount > 0 {
+            ctx.accounts.my_account.data = data;
+        }
+        Ok(())
+    }
+}
+
+#[account]
+#[derive(Default)]
+pub struct MyAccount {
+    data: u64,
+    mint: Pubkey
+}
+
+#[derive(Accounts)]
+pub struct SetData<'info> {
+    #[account(mut)]
+    pub my_account: Account<'info, MyAccount>,
+    #[account(
+        constraint = my_account.mint == token_account.mint,
+        has_one = owner
+    )]
+    pub token_account: Account<'info, TokenAccount>,
+    pub owner: Signer<'info>
+}
+```
+
+The important thing to take away is that we use the TokenAccount type (that wraps around the token program's Account struct and adds the required functions) to make anchor ensure that the incoming account is owned by the token program and to make anchor deserialize it. This means we can use the TokenAccount properties inside our constraints (e.g. token_account.mint) as well as in the instruction function
+
+## Associated Token Account
+
+An associated token account address is derived froma  combination of the wallet address, token mint address, and the SPL associated token account program ID using the `findProgramAddress` function. The `findProgramAddress` function in Solana is used to derive a Program Derived Address (PDA) from a set of seeds and a program ID. Here's how it works at the fundamental level:
+
+1. **Seed Preparation**: The seeds, which can be public keys, strings, or any arbitrary data, are concatenated into a single byte array.
+
+2. **Hash Computation**: The concatenated seed bytes are hashed using the SHA-256 cryptographic hash function, producing a 32-byte digest.
+
+3. **Hash Extension**: The program ID bytes (another 32-byte public key) are appended to the 32-byte hash digest, forming a 64-byte extended hash.
+
+4. **Curve Point Derivation**: The extended hash is treated as an X-coordinate on the ed25519 elliptic curve, and an attempt is made to derive a point on the curve using this X-coordinate. If a point is successfully derived, it is considered to be on the curve.
+
+5. **Bump Iteration**: If the derived point is on the curve, it means the extended hash corresponds to a valid public key on the ed25519 curve. In this case, a "bump" value is incremented (starting from 255 and decrementing) and appended to the seed bytes. The process is repeated from step 2 until a point not on the curve is found.
+
+6. **PDA Generation**: When a point not on the curve is found, the 32-byte hash digest from step 2 is treated as the derived PDA, and the final bump value is returned alongside the PDA.
+
+The key cryptographic operations involved are:
+
+- SHA-256 hashing
+- Elliptic curve point derivation on the ed25519 curve
+- Modular arithmetic operations for iterating the bump value
+
+By using this process, Solana ensures that the derived PDA is not a valid public key on the ed25519 curve, guaranteeing that no private key exists for that address. This allows programs to derive and control addresses deterministically without needing to manage private keys.
+
+So given just a token account address and token mint address, you cannot directly determine the wallet address that owns it. However, you can iterate through all possible wallet addresses (which is computationally expensive) and check if the derived associated token account matches the one you have.
