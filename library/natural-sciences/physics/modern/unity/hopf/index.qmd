@@ -1,0 +1,30 @@
+---
+title: Hopf Fibration
+description: The most important object in the universe
+---
+
+## Overview
+
+The Hopf Fibration is a mathematical construct and an important example of a fiber bundle, specifically a map from the 3-sphere ($$ S^3 $$) to the 2-sphere ($$ S^2 $$) with a circle ($$ S^1 $$) as the fiber over each point. It was discovered by Heinz Hopf in 1931 and is notable for its applications in various areas of mathematics and physics. The Hopf Fibration can be visualized as a 3-sphere made up of a series of circles (the fibers), each of which is linked to every other circle, creating a complex and beautiful structure.
+
+The Hopf Fibration appears in at least eight different areas of physics, as mentioned in the sources:
+
+1. **Quantum Mechanics**: The base space of the Hopf Fibration, the 2-sphere ($$ S^2 $$), is analogous to the Bloch sphere, which represents the state space of a two-level quantum system or qubit.
+2. **Twistor Theory**: The Hopf Fibration is used in Penrose's twistor theory, where it serves to illustrate a special geometrical realization of a projective twistor (Robinson congruences).
+3. **General Relativity**: The global structure of Taub-NUT space in general relativity involves the Hopf Fibration, where the nature of its base space and the linking of its fibers are essential for understanding the space.
+4. **Quantum Field Theory/Magnetic Monopoles**: The Hopf Fibration is related to the concept of magnetic monopoles, as it describes the topological structure of the field of a magnetic monopole.
+5. **Quantum Mechanics**: Harmonic Oscillator.
+6. **Wignerism**: Helicity representations.
+7. **Dirac Equation**
+8. **Guage Symmetry**
+
+
+## Resources
+
+- [Hopf Fibration Explained](https://www.youtube.com/watch?v=PYR9worLEGo&t=378s)
+- [4D Hypersphere](https://vimeo.com/210631891)
+- [The Hopf Fibration - 7 Times in Physics](https://www.fuw.edu.pl/~suszek/pdf/Urbantke2003.pdf)
+- [Planet Hopf](https://www.math.toronto.edu/~drorbn/Gallery/KnottedObjects/PlanetHopf/index2.html)
+- [Isometry Classes of Hyperbolic 3-Space](http://roice3.org/h3/isometries/)
+- [Stereographic Projection](https://www.joerg-enderlein.de/stereographic-projection)
+- [Dimensions Math](https://dimensions-math.org/)

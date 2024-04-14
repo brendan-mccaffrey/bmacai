@@ -56,6 +56,3 @@ ds^2 = -dt^2 + a(t)^2 d\Sigma^2
 - **Context**: Introduced by Willem de Sitter in 1917.
 - **Purpose**: Model an empty universe with a positive cosmological constant, relevant for cosmology and inflationary theory.
 
-___
-
-{{< include _black-holes.qmd >}}
