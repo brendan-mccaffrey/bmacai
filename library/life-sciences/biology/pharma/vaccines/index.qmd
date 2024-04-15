@@ -1,0 +1,14 @@
+---
+title: Vaccines 
+---
+
+## General
+
+- [Stanley Plotkin: "The Godfather of Vaccines" Under Oath]((https://twitter.com/JoshWalkos/status/1674476378379485184?s=20))
+- [2020 Pilot Survey Data Comparison: Vaccinated vs Unvaccinated](https://cdn.website-editor.net/s/fbd2f2a8b1b04bdba97a21e6e5d356aa/files/uploaded/Pilot%2520Survey%2520Data%2520Graphs%2520--%2520October%25202020%2520%25283%2529.pdf?Expires=1689750887&Signature=WewLdqlXuQg1VzXpywMOu0DVMXe5dyz4Xx3gMzVL2d-TLbRj-XrCriUKplw2mEG3DK0-5y2gGBXYc3YSH82mKXaQtmj~9xOgDLDrQIqsyFMk8O6jGx3PQi0zyIJJpLqMLEPJQCE5Cya5TbAGIxrjE-j6gIW7sQEzGoFgwTZxB0gnQGs~gf1VyTfsAQCW6lnkwt6TzN6W14WmO2LUCJ5x8ZQGOA0WcUNSHpcSrx-3IGPukJLxaPtPGmFVYWFlvpBcti5nJg7xHZx-tVJKd9KcR5KvfGKMIk8HCnkCyLEKkuuii5y4MfoocJ8X8JoEt-3pFbuP6M4LCD29bg2eaFu~Vw__&Key-Pair-Id=K2NXBXLF010TJW)
+
+## mRNA
+
+> The mRNA platform is brilliant. But it has a giant gaping flaw in it, which is; Any cell of yours that produces a foreign protein, will be targetted by your immune system and destroyed. You will create an autoimmune disorder. When it works. How do you keep it out of your heart. Not by coding it in a lipid nanoparticle. So, they had no way to deliver it safely to market.  So then they had a pandemic, the emergency allowed them to do it. This technology, in my opinion, was at least 3 decades  out from being usefully and safely deployed at all, if at all. They did not want to wait,  this crisis gave them the opportunity not to wait. And now, they will blame the spike protein, we picked the wrong protein. When in actual fact there are 2 problems, the spike protein and the platform itself. - Brett Weinstein
+
+TODO: Rogan Doctor Podcast

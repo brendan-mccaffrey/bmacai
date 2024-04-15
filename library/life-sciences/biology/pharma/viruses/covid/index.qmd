@@ -2,9 +2,7 @@
 title: COVID 19
 ---
 
-{{< include timeline.md >}}
-
-### Unordered Resources
+## Resources
 
 - [Australia Senate Hearing: Pfizer representative admits that they don't understand the mechanism by which the vaccine causes myocarditis](https://twitter.com/DrEliDavid/status/1687533886816067584?s=20) 
 - [Dr. Robert Malone Twitter Ban Details](https://kanekoa.substack.com/p/the-powerful-pfizer-presentation)
@@ -32,16 +30,6 @@ title: COVID 19
 
 ## Topics
 
-### Evidence Against Natural origin
-
-- [Endonuclease fingerprint indicates a synthetic origin of SARS-CoV-2](https://www.biorxiv.org/content/10.1101/2022.10.18.512756v1)
-- [Statistical challenges for inferring multiple SARS-CoV-2 spillovers with early outbreak phylodynamics](https://www.biorxiv.org/content/10.1101/2022.10.10.511625v1)
-- [Circular arguments on the origin of SARS-CoV-2](https://zenodo.org/records/7016124)
-- [Statistical challenges for inferring multiple SARS-CoV-2 spillovers with early outbreak phylodynamics](https://www.biorxiv.org/content/10.1101/2022.10.10.511625v1)
-- [Statistics did not prove that the Huanan Seafood Wholesale Market was the early epicenter of the COVID-19 pandemic](https://arxiv.org/abs/2208.10106)
-- [Zoonosis at the Huanan Seafood Market: A Critique](https://zenodo.org/records/7212687)
-- [Technical Comment: Duplicate, Missing, and Biased Data in the Worobey et al. Study Undermine Their Main Result](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4275119)
-- [Discovery of a rich gene pool of bat SARS-related coronaviruses provides new insights into the origin of SARS coronavirus](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698)
 
 ### Effects on Kids
 
@@ -49,9 +37,8 @@ title: COVID 19
 
 ### Horse Dewormer
 
-**A necessary Narrative for FDA emergency Authorization**
-
-FDA emergency authorization of a vaccine/medicinal treatment, by law, cannot be administered if an existing medication is provably effective in reducing the risks associated with the disease/virus.
+- This was a necessary narrative for FDA emergency Authorization**
+- FDA emergency authorization of a vaccine/medicinal treatment, by law, cannot be administered if an existing medication is provably effective in reducing the risks associated with the disease/virus.
 
 ### Psyop
 
