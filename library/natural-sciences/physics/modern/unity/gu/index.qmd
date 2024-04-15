@@ -17,7 +17,7 @@ Edward Witten gave 3 main insights/assumptions, they correspond to the 3 great e
 
 That arena is a manifold `x` together with some kind of semi-Riemannian metric structure: something that allows us to take length and angle, so that we can perform measurements at everypoint in spacetime or higher dimensional structure.
 
-The equation associated with this is the [Einstein Field Equation](../relativity/index.qmd#einstein-field-equation).
+The equation associated with this is the Einstein Field Equation.
 
 $$ R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8 \pi G}{c^4} T_{\mu\nu} $$
 
@@ -57,7 +57,7 @@ $$ \phi_A \psi = \mu \psi $$
 
 > This equation has applications in several areas of physics, such as quantum field theory and condensed matter physics. For example, in condensed matter physics, $\phi_A$ can represent the Hamiltonian of a system, and $\psi$ can represent a wave function that describes the state of the system. The equation then describes how the system evolves over time.
 
-One of the great insights: the reason for the lightness of matter in the natural mass scale of physics has to do with the fact that the psi should have 2 components and the differential operator should map to one component on the other side fo the equation but the mass operator should map to another. So if one of the components is missing, if the equation is intrinsically lobsided (ciral / assymetric), then the amss term and the differential term have difficulty interacting, which is overcompensating for the mass scale of the universe so you get to a point where you have to define a massless equation. Just like overshooting a putt, it's easier to knock it back by putting in a Higgs Field in order to generate an "as-if" fundamental mass through the [Yukawa couplings](../particle/index.qmd#yukawa-coupling).
+One of the great insights: the reason for the lightness of matter in the natural mass scale of physics has to do with the fact that the psi should have 2 components and the differential operator should map to one component on the other side fo the equation but the mass operator should map to another. So if one of the components is missing, if the equation is intrinsically lobsided (ciral / assymetric), then the amss term and the differential term have difficulty interacting, which is overcompensating for the mass scale of the universe so you get to a point where you have to define a massless equation. Just like overshooting a putt, it's easier to knock it back by putting in a Higgs Field in order to generate an "as-if" fundamental mass through the Yukawa couplings.
 
 **Edward Witten went on to say one more thing**
 

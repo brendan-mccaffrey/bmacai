@@ -10,11 +10,7 @@ table-of-contents: true
 - [X-65 | Control of Revolutionary Aircraft with Novel Effectors (CRANE)](https://www.darpa.mil/program/control-of-revolutionary-aircraft-with-novel-effectors)
 - [An Evening With Director of National Intelligence Avril Haines](https://www.youtube.com/watch?v=0q4F1aGC59A)
 - [The new Schumer-Rounds Amendment ("UAP Disclosure Act") was added to the FY 2024 National Defense Authorization Act (S. 2226) without objection.](https://douglasjohnson.ghost.io/senate-intelligence-bill-gives-holders-of-non-earth-origin-six-months/)
-- [Pentagon Unable To Confirm Or Deny Discovery Of Materials Originating From Non-Human Intelligences Or Unknown Origin Within Secretive Programs](pentagon/pleads-fifth-exotic-materials.qmd)
 
-## Exotic Material
-
-- [Pentagon pleads the fifth](./pentagon/pleads-fifth-exotic-materials.qmd)
 
 ## Remote Viewing
 
