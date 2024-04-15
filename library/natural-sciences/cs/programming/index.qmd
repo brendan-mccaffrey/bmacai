@@ -1,9 +1,10 @@
 ---
-title: Prpgramming
+title: Programming
 ---
 
 ## Resources
 
+- [Peter Norvig Blog](https://norvig.com/)
 - [Tech Yourself Programming in 10 Years](https://norvig.com/21-days.html)
 
 ### Tools

@@ -5,7 +5,7 @@ page-layout: full
 table-of-contents: true
 ---
 
-## Resources
+## Basics
 
 ### Forums 
 
@@ -14,7 +14,7 @@ table-of-contents: true
 - [Flashbots Collective Forum](https://collective.flashbots.net/)
 - [Ethereum Youtube: Community calls and such](https://www.youtube.com/@EthereumProtocol/videos)
 
-### Ethereum Virtual Machine
+### The Virtual Machine (EVM)
 
 - [Eth2Book: A lot of Good Info on Ethereum](https://eth2book.info/)
 - [The Hitchhiker's Guide to Ethereum](https://members.delphidigital.io/reports/the-hitchhikers-guide-to-ethereum/)
@@ -22,14 +22,16 @@ table-of-contents: true
 - [Ethereum Data Structures](https://arxiv.org/pdf/2108.05513.pdf)
 - [Solidity Lang Docs](https://docs.soliditylang.org/en/v0.8.21/)
 
-#### **fhEVMs**
-
-- [fhEVMs: How do they work?](https://medium.com/@whaleslee/fhevms-how-do-they-work-c13ea8a4d4c0)
-
 #### **Data**
 
 - [EIP-1153: Transient Storage](https://eips.ethereum.org/EIPS/eip-1153)
 - [Merkle Patricia Tree: storage proof Implementation](https://github.com/mixbytes/zkllvm-mpt-proofs)
+
+#### **fhEVMs**
+
+- [fhEVMs: How do they work?](https://medium.com/@whaleslee/fhevms-how-do-they-work-c13ea8a4d4c0)
+
+
 
 ## Events / Issues
 
@@ -63,7 +65,7 @@ table-of-contents: true
 - [100 Days After the Merge](https://www.galaxy.com/research/insights/100-days-after-the-merge/)
 - [Withdrawals after Shanghai](https://dataalways.substack.com/p/partial-withdrawals-after-the-shanghai)
 - [Official Merge Announcement](https://blog.ethereum.org/2022/08/24/mainnet-merge-announcement/)
-- [Exploring Inequality in Proof of Stake](https://ethereum.github.io/beaconrunner/notebooks/naiveurn.html) by Barnabe Monnot (RIG/EF)
+- [Exploring Inequality in Proof of Stake](https://ethereum.github.io/beaconrunner/notebooks/naiveurn.html)
 - [What Happens After Finality in eth2](https://hackmd.io/@prysmaticlabs/finality) by Raul Jordan (Prysmatic)
 - [Rocketpool Post-Merge research](https://github.com/rocket-pool/rocketpool-research/tree/master/Post%20Merge)
 
@@ -119,6 +121,7 @@ table-of-contents: true
 - [Single Secret Leader Election](https://eprint.iacr.org/2020/025.pdf) Boneh et al. (2020)
 - [Current CrList Proposal](https://notes.ethereum.org/@fradamt/H1ZqdtrBF) by Francesco D'Amato
 - [(Un-)Timeliness in PoS Ethereum](https://notes.ethereum.org/@casparschwa/ByHu1XZUq) by Caspar Schwarz-Schilling (RIG/EF)
+- [ePBS: Bypassing Relayer](https://hackmd.io/@ttsao/bypassing-relayer)
 
 ### Censorship (Resistance)
 

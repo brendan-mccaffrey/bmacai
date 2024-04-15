@@ -8,12 +8,12 @@ title: Regulation
 
 ## Privacy
 
-**OG Tornado**
+- [Blockchain Privacy and Regulatory Compliance: Towards a Practical Equilibrium](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4563364)
+- [Tornado Cash and Blockchain Privacy: A Primer for Economists and Policymakers](https://research.stlouisfed.org/publications/review/2023/02/03/tornado-cash-and-blockchain-privacy-a-primer-for-economists-and-policymakers)
+
+### Protocols
 
 - [Tornado Cash](https://twitter.com/tornadocash?lang=en)
-
-**Second Generation**
-
 - [Railway](https://www.railway.xyz/)
 - [Nocturne](https://app.nocturne.xyz/welcome)
 - [Lunarpunk and the Dark Side of Crypto](https://www.youtube.com/watch?v=BerscJiALiE)
@@ -25,9 +25,9 @@ title: Regulation
 
 - [SEC Comissioner Hester M. Peirce, on the Kraken Suit](https://www.sec.gov/news/statement/peirce-statement-kraken-020923)
 - [SEC Charges Terraform (Luna) with Fraud](https://www.sec.gov/news/press-release/2023-32)
-- FBI Confirms [Lazarus Group Cyber Actors Responsible for Harmony's Horizon Bridge Currency Theft](https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft)
-- U.S. Attorney Damian Williams [announces](https://twitter.com/SDNYnews/status/1678780204062490626) the first-ever criminal case involving an attack on a smart contract operated by a decentralized cryptocurrency exchange.
-- [Tornado Cash and Blockchain Privacy: A Primer for Economists and Policymakers](https://research.stlouisfed.org/publications/review/2023/02/03/tornado-cash-and-blockchain-privacy-a-primer-for-economists-and-policymakers)
+- [FBI: Lazarus Group Responsible for Harmony Bridge Theft](https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft)
+- [First criminal case of attack on smart contract](https://twitter.com/SDNYnews/status/1678780204062490626), U.S. Attorney Damian Williams 
+- [SEC issues wells notice to Uniswap](https://cointelegraph.com/news/sec-issues-wells-notice-defi-protocol-uniswap)
 
 ## Compliance Research
 
