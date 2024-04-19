@@ -1,7 +1,7 @@
 ---
 title: Geopolitics
 subtitle: World Order
-type: Resource
+# type: Resource
 ---
 
 ## General

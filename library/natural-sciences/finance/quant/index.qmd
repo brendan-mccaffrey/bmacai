@@ -20,6 +20,10 @@ title: Quantitative Finance
 - [Spoofing and Price Manipulation in Order Driven Markets](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3431139)
 - [End-To-End Resource Analysis for Quantum Interior-Point Methods and Portfolio Optimization](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.4.040325)
 
-Early RenTech
+
+## Renaissance Technologies
+
+- The Man Who Solved the Market: Good Book
 - [A Maximization Technique Occuring in the Statistical Anlysis of Probabilistic Functions of Markov Chains](https://www.biostat.wisc.edu/~kbroman/teaching/statgen/2004/refs/baum.pdf)
-- Classified: "probabilistic models for and prediction of stock market behavior 1964"
+- Unable to Find (Classified by the Institute of Defense Analyses): "probabilistic models for and prediction of stock market behavior 1964"
+- [The Code Breaker: Bloomberg 2008 Article](https://math.berkeley.edu/~berlek/pubs/bloomberg.pdf)
