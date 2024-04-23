@@ -122,6 +122,7 @@ table-of-contents: true
 - [Current CrList Proposal](https://notes.ethereum.org/@fradamt/H1ZqdtrBF) by Francesco D'Amato
 - [(Un-)Timeliness in PoS Ethereum](https://notes.ethereum.org/@casparschwa/ByHu1XZUq) by Caspar Schwarz-Schilling (RIG/EF)
 - [ePBS: Bypassing Relayer](https://hackmd.io/@ttsao/bypassing-relayer)
+- [ePBS Annotated Validator Spec](https://hackmd.io/@ttsao/epbs-annotated-validator)
 
 ### Censorship (Resistance)
 
