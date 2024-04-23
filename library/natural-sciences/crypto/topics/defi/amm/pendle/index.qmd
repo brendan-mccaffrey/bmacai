@@ -2,13 +2,15 @@
 title: Pendle
 ---
 
-## YT
+## Research
+
+#### **YT**
 
 Profit from YT = Ave real future yield - APY from price of YT
 
 profit from YT USDe = APY from shards - (price of YT USDe / time to maturity)
 
-## PT
+#### **PT**
 
 Profit from PT = Current fixed yield - Ave real future yield
 
@@ -16,7 +18,7 @@ profit from PT USDe = Pendle PT fixed yield - APY from shards that could have be
 
 *you can sell PT prematurely at market price*
 
-## Generic Yield Generating Pool (GYGP)
+#### **Generic Yield Generating Pool (GYGP)**
 
 A(t) is total assets in pool at time t
 S(t) is total shares of pool at time t
@@ -25,7 +27,7 @@ E(t) is exchange rate A(t)/S(t)
 
 Standardized Yield (SY) interface implements these rules
 
-##  Standardized Yield Stripping (SYS)
+#### **Standardized Yield Stripping (SYS)**
 
 SYS splits SY token into Yield Token (YT) and Principle Token (PT)
 
@@ -37,7 +39,7 @@ reward tokens accrue to YT over time
 
 Mint YT and PT by sending in d_{sy} SY token, worth d_a assets to mint d_a PT and d_a YT out. Redemption is the same with -d_{sy} burning YT and PT. Can only redeem min of PT and YT balance.
 
-## AMM for trading fixed yield
+#### **AMM for trading fixed yield**
 
 proportion of of PTs in the pool = y / (x+y)
 
