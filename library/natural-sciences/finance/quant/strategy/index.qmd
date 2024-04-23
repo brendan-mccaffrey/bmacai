@@ -1,0 +1,7 @@
+---
+title: Quant Strategy
+---
+
+## Pairs Trading
+
+- [Pairs trading strategy list thread](https://x.com/quant_arb/status/1782805392625745966)
