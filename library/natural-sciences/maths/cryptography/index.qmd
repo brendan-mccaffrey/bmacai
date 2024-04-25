@@ -35,20 +35,6 @@ description: Where the value lies.
 - [Digital Signatures](https://en.wikipedia.org/wiki/Digital_signature)
 - [Asymmetric (Public/Private Key) Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography)
 
-## Attacks
-
-- [Shucking Attacks](https://superuser.com/questions/1561434/how-do-i-crack-a-double-encrypted-hash/1561612#1561612)
-- [Breaking Elliptic Curve - How to compute a 256-bit elliptic curve private key with only 50 million Toffoli gates](https://arxiv.org/abs/2306.08585)
-
-## Topics
-
-- [Polynomial Commitment Schemes Multiproofs using Random Evaluation](https://dankradfeist.de/ethereum/2021/06/18/pcs-multiproofs.html#evaluating-a-polynomial-in-evaluation-form-on-a-point-outside-the-domain)
-
-### Secret Sharing
-
-- Pederson Commitments [Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing](https://link.springer.com/chapter/10.1007/3-540-46766-1_9)
-    - ZCash and Monero use these to shield transaction amounts
-
 ### BLS
 
 Boneh-Lynn-Shacham Signature Scheme
@@ -57,6 +43,11 @@ Boneh-Lynn-Shacham Signature Scheme
 - [BLS Signature Scheme](https://tools.ietf.org/id/draft-boneh-bls-signature-00.txt)
 - [Pragmatic signature aggregation with BLS](https://ethresear.ch/t/pragmatic-signature-aggregation-with-bls/2105?u=benjaminion)
 - [BLS Signature for Busy People](https://gist.github.com/paulmillr/18b802ad219b1aee34d773d08ec26ca2)
+
+## Attacks
+
+- [Shucking Attacks](https://superuser.com/questions/1561434/how-do-i-crack-a-double-encrypted-hash/1561612#1561612)
+- [Breaking Elliptic Curve - How to compute a 256-bit elliptic curve private key with only 50 million Toffoli gates](https://arxiv.org/abs/2306.08585)
 
 ## Proofs
 
