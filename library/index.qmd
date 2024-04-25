@@ -22,7 +22,7 @@ If you are curious to see what my vision for this is in the future, I would reco
 
 ## Areas to explore
 
-**[Ethereum](./natural-sciences/crypto/blockchain/ethereum/index.qmd)**
+**[Ethereum](./natural-sciences/crypto/chains/ethereum/index.qmd)**
 
 **[Physics](/library/natural-sciences/physics/index.qmd)**
 

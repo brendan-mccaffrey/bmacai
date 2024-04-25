@@ -45,6 +45,3 @@ The first full-scale thermonuclear test was carried out by the United States in 
 
 Modern fusion weapons consist essentially of two main components: a nuclear fission primary stage (fueled by $^{235}U$ or $^{239}Pu$) and a separate nuclear fusion secondary stage containing thermonuclear fuel: the heavy hydrogen isotopes deuterium and tritium, or in modern weapons lithium deuteride. For this reason, thermonuclear weapons are often colloquially called hydrogen bombs or H-bombs.
 
-## DARPA 
-
-- [Fellows 2023](./darpa/fellows.qmd)
