@@ -36,7 +36,7 @@ subtitle: Zero Knowledge
 
 ## Technical Deep Dives
 
-![Landscape](https://vitalik.eth.limo/images/plonk-files/Tradeoffs.png)
+![](https://vitalik.eth.limo/images/plonk-files/Tradeoffs.png)
 
 ### General
 
@@ -73,9 +73,8 @@ subtitle: Zero Knowledge
 - [PLONK ePrint](https://eprint.iacr.org/2019/953.pdf)
 - [PLONK implemented, from scratch, in python](https://github.com/tarassh/zkSNARK-under-the-hood/blob/main/plonk2.ipynb)
 
-## Concept
 
-## **Example: The 3-Color Graph Coloring Problem**
+## Example: The 3-Color Graph Coloring Problem
 
 A Zero-Knowledge Proof (ZKP) allows a prover to demonstrate knowledge of some secret without revealing the secret itself. Let's illustrate this using a graph coloring problem.
 

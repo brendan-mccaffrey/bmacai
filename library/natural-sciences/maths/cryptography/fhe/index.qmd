@@ -1,6 +1,6 @@
 ---
 title: FHE
-subtitle: Fully Homomorphic Encryption
+description: Fully Homomorphic Encryption
 ---
 
 ## Reads

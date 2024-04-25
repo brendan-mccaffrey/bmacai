@@ -1,5 +1,5 @@
 ---
-title: Quantum Cryptography
+title: Quantum 
 ---
 
 ## Resources

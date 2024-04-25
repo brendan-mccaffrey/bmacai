@@ -9,15 +9,15 @@ title: Solana MEV
 
 ## Resources
 
-### Jito
+- [Validator Workshop Presentation](https://drive.google.com/file/d/167xk5uwR8mIpa_Rrh7yjVZ0Cc6nQ_hrj/view)
+- [Solana Internals, Part 1](https://medium.com/@metaproph3t/solana-internals-part-1-449ee68cb4f4)
+- [Discovering Raydium Pairs](https://github.com/patrulek/Writings/blob/main/Discovering%20Raydium%20Pairs.md)
+- [ammagg repo](https://github.com/brendan-mccaffrey/ammagg)
 
-Foundation
+### Jito
 
 - [Jito Solana](https://github.com/jito-foundation/jito-solana/tree/v1.17-fast-replay)
 - [Geyser gRPC Plugin](https://github.com/jito-foundation/geyser-grpc-plugin)
-
-Labs
-
 - [Jito-rs](https://github.com/jito-labs/jito-rs)
 - [Jito MEV Protos](https://github.com/jito-labs/mev-protos/blob/master/json_rpc/http.md)
 - [Shredstream Docs](https://jito-labs.gitbook.io/mev/searcher-services/shredstream)
@@ -28,39 +28,29 @@ Labs
 
 ### BloXroute
 
-- [docs](https://docs.bloxroute.com/solana/trader-api-v2/front-running-protection-and-transaction-bundle)
-- [solana-trader-client-go](https://github.com/bloXroute-Labs/solana-trader-client-go)
+- [solana trader docs](https://docs.bloxroute.com/solana/trader-api-v2)
 - [solana-trader-proto](https://github.com/bloXroute-Labs/solana-trader-proto)
+- [solana trader client](https://github.com/bloXroute-Labs/solana-trader-client-go)
 
 ### Golang
 
-- [Jito Go SDK](https://pkg.go.dev/github.com/weeaa/jito-go)
-
-### Advanced
-
-- [ammagg repo](https://github.com/brendan-mccaffrey/ammagg)
+- [Solana Go gagliardetto](https://github.com/gagliardetto/solana-go)
+- [Solana Go Blocto Docs](https://blocto.github.io/solana-go-sdk/)
+- [Jito SDK](https://pkg.go.dev/github.com/weeaa/jito-go)
+- [bloXroute client](https://github.com/bloXroute-Labs/solana-trader-client-go)
+- [Serum-go (depreciated?)](https://github.com/gagliardetto/serum-go)
+- [Raydium](https://pkg.go.dev/github.com/patrulek/rayscan)
+- [Jupiter Go](https://github.com/ilkamo/jupiter-go)
+- [anchor-go: Gen go clients from IDLs](https://github.com/gagliardetto/anchor-go)
 
 ### AMMS
 
-#### **Raydium**
-
-- [Dev Docs](https://docs.raydium.io/raydium/protocol/developers)
-
-## Learn
-
-- [Validator Workshop Presentation](https://drive.google.com/file/d/167xk5uwR8mIpa_Rrh7yjVZ0Cc6nQ_hrj/view)
-- [Solana Internals, Part 1](https://medium.com/@metaproph3t/solana-internals-part-1-449ee68cb4f4)
-
-## Accounts
-
-- [SonicObamaLockheedMartin69Inu Sandwicher](https://solscan.io/account/7XNxvZYFSdbkrywkja57wMRMxn7z11KwamEjnrsiHZx2#splTransfers)
-- [Massive MEV bot: Made 10mm+ in past week (as of Mar 5)](https://solscan.io/account/QQqQ5ij5HbJ6goGJDVEpSA3G6a9HTrZeuSiAe84nXs6)
+- [Raydium Dev Docs](https://docs.raydium.io/raydium/protocol/developers)
 
 
+## Notes
 
-## Jito 
-
-### Notes
+#### **Jito** 
 
 - use `confirmed` or `finalized` blockhash
 

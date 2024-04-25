@@ -2,22 +2,28 @@
 title: "Solana"
 ---
 
-## Websites
+## Sites
 
+- [Solana Beach](https://solanabeach.io/)
+- [Stakenet](https://www.jito.network/stakenet/)
+- [Solscan](https://solscan.io/)
+- [Solana.fm](https://solana.fm/)
 - [Shyft Explorer](https://translator.shyft.to/)
-
-## Tools
-
-- [photon](https://photon-sol.tinyastro.io/)
+- [Solana Stack Exchange](https://solana.stackexchange.com/)
+- [Solana Forum](https://forum.solana.com/)
 
 ## Tech
 
 ### Core
 
+- [Visa: A deep dive on Solana, a high performance blockchain network](https://usa.visa.com/solutions/crypto/deep-dive-on-solana.html)
 - [Solana: An Auditor's Introduction](https://osec.io/blog/2022-03-14-solana-security-intro)
 - [Solana Internals, Part 1](https://medium.com/@metaproph3t/solana-internals-part-1-449ee68cb4f4)
 - [Jumping Around the VM](https://osec.io/blog/2023-12-11-jumping-around-in-the-vm)
 - [Solana Validator 101: Transaction Processing](https://www.jito.wtf/blog/solana-validator-101-transaction-processing/)
+- [Firedancer: A New Client by Jump](https://jumpcrypto.com/jump-crypto-sets-out-to-build-new-validator-client-for-the-solana-blockchain-to-increase-the-throughput-and-reliability-of-the-network/)
+- [Validator Economics on Solana](https://medium.com/chorus-one/exploring-validator-economics-on-solana-cb1498a3aef6)
+- [Jito Validator Economics Spreadsheet](https://docs.google.com/spreadsheets/d/1JhgBLvZInSGA91GDWYFg_-6CIevCv8RUOe3kgSTm5_M/edit#gid=2134008686)
 
 ### Advanced
 
@@ -27,19 +33,3 @@ title: "Solana"
 - [SIMD: Asynchronous Program Execution and Broadcast](https://github.com/solana-foundation/solana-improvement-documents/pull/45)
 - [Priority Fees Github Issue](https://github.com/solana-labs/solana/issues/22820)
 - [Dune Query: % of Sol Txs with Fee above base](https://dune.com/queries/1111217/1898826)
-
-### Validation
-
-- [Solana Validator 101: Transaction Processing](https://www.jito.wtf/blog/solana-validator-101-transaction-processing/)
-- [Firedancer: A New Client by Jump](https://jumpcrypto.com/jump-crypto-sets-out-to-build-new-validator-client-for-the-solana-blockchain-to-increase-the-throughput-and-reliability-of-the-network/)
-- [Validator Economics on Solana](https://medium.com/chorus-one/exploring-validator-economics-on-solana-cb1498a3aef6)
-- [Jito Validator Economics Spreadsheet](https://docs.google.com/spreadsheets/d/1JhgBLvZInSGA91GDWYFg_-6CIevCv8RUOe3kgSTm5_M/edit#gid=2134008686)
-
-## News
-
-- [Visa expands stablecoin settlement capabilities with Circle's USDC utilizing the Solana blockchain.](https://www.businesswire.com/news/home/20230905549860/en/Visa-Expands-Stablecoin-Settlement-Capabilities-to-Merchant-Acquirers)
-- [Visa: A deep dive on Solana, a high performance blockchain network](https://usa.visa.com/solutions/crypto/deep-dive-on-solana.html)
-
-## Projects
-
-- [IO.net: GPU DePIN](https://io.net/)

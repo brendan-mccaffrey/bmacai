@@ -2,22 +2,27 @@
 title: Commitments
 ---
 
+## Resources
+
+- [Definition](https://cseweb.ucsd.edu/classes/fa19/cse206A-a/LecCommit.pdf)
+- [Commitment scheme - Wikipedia](https://en.wikipedia.org/wiki/Commitment_scheme)
+- [Cryptographic Commitments](https://findora.org/faq/techniques/cryptographic-commitments/)
+- [Polynomial Commitment Schemes Multiproofs using Random Evaluation](https://dankradfeist.de/ethereum/2021/06/18/pcs-multiproofs.html#evaluating-a-polynomial-in-evaluation-form-on-a-point-outside-the-domain)
+- [Pederson Commitments: Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing](https://link.springer.com/chapter/10.1007/3-540-46766-1_9)
+
+
 ## Summary
 
 A commitment scheme is a cryptographic primitive that allows one party to commit to a chosen value while keeping it hidden from others, with the ability to reveal the committed value later. The two main security properties of commitment schemes are:
 
 1. Hiding: The commitment itself should not reveal any information about the committed value to the receiver. This can be either perfect/statistical (even unbounded receivers learn nothing) or computational (bounded receivers learn nothing).
-
 2. Binding: The sender should not be able to open the commitment to a different value than the one they committed to. This can also be perfect/statistical or computational.
 
 The main types of commitment schemes are:
 
 1. Hash-based commitments: The sender hashes the value along with some randomness. To open, the sender reveals the value and randomness, which the receiver hashes to verify the commitment. These are computationally hiding and binding.
-
 2. Encryption-based commitments: The sender encrypts the value using a public key. To open, the sender reveals the value and encryption randomness. These are computationally hiding and binding.
-
 3. Pedersen commitments: Based on the discrete log problem, these allow homomorphic operations on committed values. They are perfectly hiding and computationally binding.
-
 4. Vector commitments: Allow committing to a vector of values in such a way that the sender can later open the commitment at specific positions[3].
 
 Commitment schemes are used as building blocks in many cryptographic protocols like zero-knowledge proofs, secure multiparty computation, and verifiable secret sharing. They allow a party to bind themselves to a value without revealing it prematurely.
@@ -25,8 +30,6 @@ Commitment schemes are used as building blocks in many cryptographic protocols l
 **Resources**
 
 - [Commitment Scheme Wiki](https://en.wikipedia.org/wiki/Commitment_scheme)
-- [Definition](https://cseweb.ucsd.edu/classes/fa19/cse206A-a/LecCommit.pdf)
-- [Cryptographic Commitments](https://findora.org/faq/techniques/cryptographic-commitments/)
 - [Reference Work Entry](https://link.springer.com/referenceworkentry/10.1007/978-1-4419-5906-5_239)
 - [Video Lecture on Committment Schemes](https://www.youtube.com/watch?v=kQC4gesed0k)
 - [Another Video Lecture on Committment Schemes](https://www.youtube.com/watch?v=IkNZWJFcfcU)
@@ -35,6 +38,7 @@ Commitment schemes are used as building blocks in many cryptographic protocols l
 - [Commitments Overview](https://www.redshiftzero.com/post/commitments/)
 - [Lecture on Commitment Schemes](https://piazza.com/class_profile/get_resource/iiauye4zvj2hu/inhhhsyt9x74kl)
 - [Commitment Schemes and ZK Protocols](https://homepages.cwi.nl/~schaffne/courses/crypto/2014/papers/ComZK08.pdf)
+
 
 ## Pederson Commitments 
 
@@ -65,7 +69,6 @@ Some advantages of Pedersen commitments are perfect hiding, homomorphic properti
 - [Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing](https://link.springer.com/chapter/10.1007/3-540-46766-1_9)
 Here are the citations reformatted as titled markdown links:
 - [What is a Pedersen Commitment? - Cryptography Stack Exchange](https://crypto.stackexchange.com/questions/64437/what-is-a-pedersen-commitment)
-- [Commitment scheme - Wikipedia](https://en.wikipedia.org/wiki/Commitment_scheme)
 - [Pedersen Commitment with Elliptic Curves - Findora](https://findora.org/faq/crypto/pedersen-commitment-with-elliptic-curves/)
 - [Pedersen Commitments - Computerphile - YouTube](https://www.youtube.com/watch?v=J9SOk9dIOCk)
 - [Pedersen Commitment - A Security Site](https://asecuritysite.com/encryption/ped)

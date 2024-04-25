@@ -8,30 +8,9 @@ title: Solana Development
 - [Interactive Rust Book](https://rust-book.cs.brown.edu/)
 - [Anchor Documentation](https://www.anchor-lang.com/docs/intro-to-solana)
 - [Solana Playground](https://beta.solpg.io/https://github.com/solana-developers/anchor-examples/tree/main/account-constraints/token)
-
 - [AccountInfo Spec](https://docs.rs/solana-program/latest/solana_program/account_info/struct.AccountInfo.html)
-
-
-## Token 2022
-
-
-### Extensions
-
-#### **Metadata**
-
-- [defition](https://github.com/solana-labs/solana-program-library/blob/03519632f8d8abd0669a3798c284b0b01a2f083b/token-metadata/js/src/state.ts#L16-L29)
-
-#### **Transfer Hook**
-
-- [docs](https://spl.solana.com/token-2022/extensions#transfer-hook)
-- [solana_developers example github](https://github.com/solana-developers/anchor-transfer-hook/blob/main/tests/transfer-hook.ts)
-- [community anchor example github](https://github.com/0ximalice/spl-token-2022-transfer-hook-anchor/blob/main/programs/transferhook/src/lib.rs)
-
-#### **Permanent Delegate**
-
-- [docs](https://spl.solana.com/token-2022/extensions#permanent-delegate)
-- [using permanent delegate](https://solana.com/developers/guides/token-extensions/permanent-delegate#getting-started)
 
 ## Security
 
 - [Hitchhiker's Guide to Solana Program Security](https://www.helius.dev/blog/a-hitchhikers-guide-to-solana-program-security)
+
