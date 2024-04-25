@@ -1,5 +1,5 @@
 ---
-title: Artificial Intelligence
+title: AI
 --- 
 
 ## High Level

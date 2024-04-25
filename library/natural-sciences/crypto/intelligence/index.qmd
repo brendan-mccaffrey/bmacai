@@ -1,5 +1,5 @@
 ---
-title: Blockchain Intelligence
+title: Intelligence
 ---
 
 ## On Chain Entities

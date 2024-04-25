@@ -1,0 +1,77 @@
+---
+title: Networking
+description: Validator networking on the solana blockchain
+---
+
+## Context
+
+Solana has been experiencing high congestion in Q1 2024 due to high blockspace demand. This page is to explore the problem and potential solutions.
+
+## Information
+
+1. **SWQOS Design**: SWQOS likely stands for "Software Quality of Service." This refers to mechanisms within the software that prioritize network traffic to ensure that critical transactions and data are processed efficiently and without unnecessary delay.
+2. **NIC Saturation**: NIC stands for "Network Interface Controller," which is a hardware component that connects a computer to a network. The person points out that the design of the Solana network does not prevent an attacker from overwhelming the NIC of a validator machine. This means that an excessive amount of network traffic could potentially saturate the NIC, leading to delays or disruptions in processing transactions.
+3. **iptables and Post-NIC**: iptables is a utility program that allows a system administrator to configure the tables provided by the Linux kernel firewall. The mention of "post NIC" suggests that iptables operates after the network traffic has already passed through the NIC. Therefore, if the NIC is saturated, iptables would not be effective in mitigating this issue because it only filters traffic that has already entered the machine.
+
+## Shane <> Toly
+
+[THREAD](https://twitter.com/aeyakovenko/status/1783333228960772152)
+
+- Shane: Solana validators hastily blocking IPs and unstaked nodes in order to receive as few txs as possible, instead of trying to receive more fee-paying txs.
+
+    - Toly: Have you tried paying the validators? What’s cool with swqos, is pay any % of the stake to take your txs and they will forward them to the current leader.
+
+    - Shane: Unfortunately that’s a) a lot of effort and time for one person and b) like running a CME trading strat from your basement. People running trading strats on solana will sadly go to extreme measures to send direct to leader. (my suggestion - set 500 unstaked to 10k to reduce handshake spam!)
+
+    - Toly: Get all these people that are running trading strats from their basement (totally awesome) to build a an on chain staked connection market if the current one is inefficient.
+
+    - Shane: I'm just warning that entities who are trying to trade (ie extreme time preference; get in the next 2 slots) will go to extreme lengths to send direct to the leader. Sending to a validator -- forward is way too slow. This will inevitably lead to massive handshake spam at the leader, thus exacerbating the problem.
+
+    - Toly: “Extreme time preference” is exactly the kind of thing that should be paid for.  Find a high performance staked node in each region and optimize it to be a hyper fast forwarder and pay it for the service.
+
+    - Shane: No validator is gonna let me run custom software on their server, or have any access to their keys. Isn't this just regressing to the same shenanigans that Nasdaq / CME etc play? Pay to play. I'm in crypto specifically beacuse it is *not* pay-to-play.
+
+    - Toly: Rpc swqos override doesn’t need custom software. It’s a config change.
+
+    - Shane: Think about all the future devs that will get the ick and leave Solana when they download the solana CLI and try to deploy their newly minted Anchor program 20 times (with 0 successes) on mainnet using the CLI.
+
+- Andrew: Wouldn’t extreme time preference be within current slot? Even brianlong‘s ping thing is landing within 2 slots last I checked
+
+- Shane: Oh wow the official solana rpc provider who also has a 1.8M SOL staked node can land in 2 slots? Everything appears to be solved I guess
+
+- Toly: stake size doesn't impact priority, it should only impact the max allocated PPS at the leader. There is a practical lower end limit because a block is only 400ms, and it doesn't make sense to pull less than 1pps per 100ms
+
+- Shane: What % of packets in and out of leader during leader slots involve handshakes? My guess is 95%.
+
+- Toly: Staked connections are cached. So should be next to zero handshakes.  It should probably be a reverse connection protocol anyways, leader should be connecting to all the staked nodes before its leader slot
+
+- Shane: Measure total network bandwidth around 1.6s a node is leader: What % of it do you think is wasted on unnecessary QUIC handshakes with unstaked nodes? This whole congestion thing can be short-term solved IMO by setting unstaked connections (by IP) to 20k. Long-term need sentry txn processor load balancer doing basic checks (+ a load balanced firewall)
+
+- Toly: 20k unstaked would probably not fall over.  The problem is that any sort of qos would throttle each IP to at most like 20pps. Attackers will quickly figure out how to get a ton of IPs.  Any kind of business logic heuristic for qos belongs on a layer above - aka sentry/firewall.
+
+    - Shane: Nothing about the SWQOS design precludes "attackers" in your words from saturating the NIC of a validator machine. Even iptables is post NIC. People aren't attacking Solana leaders, they're just legitimate actors trying to get their txs in. If people were actually DOSing solana things would be 100x worse.
+    
+    - Toly: Those kinds of deficiencies are addressable in the future.  Leader should be establishing the connection to the staked nodes that it will allow to forward. And yea, people were dosing solana during the nft bot wars.  Leaders would get 10gbps+ of traffic at the nic
+    
+    - Shane: I believe it - but that's a completely diff issue that could still happen now and high-performance load-balanced firewalls or txn sentries are needed to solve that.
+    
+    - Toly: same issue can't happen now.  bots can only send quic handshake requests, not txs, nor can they spoof IPs like they did with raw udp.  so the kind of firewall that is necesssary is different.  if a sw node exceeds qos it loses the connection and it has to re-establish the connection.  connection requests themsevles can be dropped at line rate.
+
+- Toly: My public heuristic for txs is going to work and create a ton of high priority profitable txs. - Great! Build an rpc with a public end point, set it up in NA/EU so your latency to the leader is negligible and a ton of validators will add it as a staked override.
+
+- Shane: SWQOS is also fundamentally flawed - why would I as a leader forward a fee-paying txn to another leader when I can just keep it to myself and use it in my next slot.
+
+- Toly: That’s fine! Do that.  But some validators will sell their bandwidth instead.   Since the ingress capacity to schedule txs at the leader is 100x the block capacity, only 1% of sw nodes need to forward to fill the block.
+
+- Shane: In the steady state the leaders' NIC will always be 100% saturated (bc of handshake spam). If I send -> RPC -> staked validator -> leader, let's say that packet is dropped 80% of the time. So I need to send it 20 times to make sure it's 98% in the leader. (Along with other people competing for the same bandwidth). But if they don't include it, they need to forward to the next leader (whose NIC is also saturated so this will fail). So once the next validator becomes leader, repeat the same process. A user trying to send one txn ends up having to send it 20-60 times unnecessarily.
+
+- Toly: hm, no, it will just tombstone the IP
+
+- Shane: What IP sorry?
+
+- Toly: unstaked IPs that handshakes/open connection requests beyond a resonable rate should get throttled for an epoch
+
+- Shane: IMO the TX ingest server at the leader should be a one-way TCP connection with one IP. You're right - it shouldn't be the Fdns job to build these tx ingesters. This forces people to build fast/load-balanced colocated relayers, or sell them as a service to validators. That should be the "bandwidth market".
+
+- Toly: Love it! With swqos you don’t need ALL the validators to agree to support this and allocate capacity to this service.  Any % of the stake can sign up and this service will get a proportional amount of bandwidth.
+

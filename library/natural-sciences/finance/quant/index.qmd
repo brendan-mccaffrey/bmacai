@@ -15,6 +15,7 @@ title: Quantitative Finance
 - [dynamic risk managament using rolling stock price metrics in python](https://medium.com/@crisvelasquez/dynamic-risk-management-using-rolling-stock-price-metrics-in-python-5d6ffcbf5ba)
 - [maximizing profits with spy options trading using genetic algorithm based 1 minute trend detection](https://wire.insiderfinance.io/maximizing-profits-with-spy-options-trading-using-genetic-algorithm-based-1-minute-trend-detection-f20b602e9b96)
 
+
 ### Advanced Theory
 
 - [Spoofing and Price Manipulation in Order Driven Markets](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3431139)

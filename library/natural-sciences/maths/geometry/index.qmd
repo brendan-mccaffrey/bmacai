@@ -1,0 +1,11 @@
+---
+title: Geometry
+---
+
+## Reads
+
+- [New approaches to Circle Packing in a Square](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e5bde5f6ca9eb85435908376d63d5f7f634f9309)
+- [Introduction to Homotopy Theory - Martin Arkowitz](https://www.researchgate.net/publication/251415308_Introduction_to_Homotopy_Theory)
+- [Differential Forms in Algebraic Topology](https://www.maths.ed.ac.uk/~v1ranick/papers/botttu.pdf)
+- [Quaternion Algebras - John Voight](https://math.dartmouth.edu/~jvoight/quat-book.pdf)
+- [Perfectoid Spaces](https://arxiv.org/abs/1111.4914)
