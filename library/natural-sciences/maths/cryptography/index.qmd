@@ -29,6 +29,9 @@ description: Where the value lies.
 - [Applied Cryptography](https://crypto.stanford.edu/~dabo/cryptobook/BonehShoup_0_4.pdf)
 - [NSA: tor Stinks](https://cryptome.org/2013/10/nsa-tor-stinks.pdf)
 - [Complete Knowledge: Preventing Encumbrance of Cryptographic Secrets](https://www.arijuels.com/wp-content/uploads/2023/01/Complete_Knowledge.pdf)
+- [Binius: highly efficient proofs over binary fields](https://vitalik.eth.limo/general/2024/04/29/binius.html)
+    - [implementation](https://github.com/ethereum/research/tree/master/binius)
+- [Succint Arguments over Towers of Binary Fields](https://eprint.iacr.org/2023/1784)
 
 ## Primitives
 
@@ -50,6 +53,8 @@ Boneh-Lynn-Shacham Signature Scheme
 - [Breaking Elliptic Curve - How to compute a 256-bit elliptic curve private key with only 50 million Toffoli gates](https://arxiv.org/abs/2306.08585)
 
 ## Proofs
+
+
 
 A cryptographic proof must be **complete** and **sound**.
 

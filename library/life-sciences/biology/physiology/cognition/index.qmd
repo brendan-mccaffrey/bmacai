@@ -8,9 +8,12 @@ page-layout: full
 
 - [Chimera states in brain networks: empirical neural vs. modular fractal connectivity](https://arxiv.org/abs/1710.08219)
 - [Neurological Activity of Lion’s Mane (Hericium erinaceus)](https://restorativemedicine.org/journal/neurological-activity-lions-mane-hericium-erinaceus/)
-
-Semax Peptide for the Brain
-- [tweet](https://x.com/BowTiedUM/status/1714786005142610008?s=20)
+- [Semax Peptide for the Brain](https://x.com/BowTiedUM/status/1714786005142610008?s=20)
+- [Degeneracy in the brain](https://x.com/prmshra/status/1784816045867385262)
+- [These Cells Spark Electricity in the Brain. They’re Not Neurons.](https://www.quantamagazine.org/these-cells-spark-electricity-in-the-brain-theyre-not-neurons-20231018/)
+    - Non-neuron cells can spark electricity. An astrocyte, a subtype of glial cell, has been proven capable of sending signals.
+- [What does the cerebellum do anyway?](https://sarahconstantin.substack.com/p/what-does-the-cerebellum-do-anyway)
+- [ADHD Megathread](https://x.com/QiaochuYuan/status/1757634307139707020?s=20)
 
 ### Olfactory enrichment
 
