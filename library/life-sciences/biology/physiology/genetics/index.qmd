@@ -5,3 +5,4 @@ title: Genetics
 ## Resources
 
 - [The Social Life of Genes](https://psmag.com/social-justice/the-social-life-of-genes-64616)
+- [The Simons Genome Diversity Project: 300 Genomes from 142 diverse populations](https://www.nature.com/articles/nature18964)
