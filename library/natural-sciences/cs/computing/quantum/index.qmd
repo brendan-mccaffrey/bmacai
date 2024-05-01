@@ -67,3 +67,8 @@ The blog post, written by Terry Rudolph from PsiQuantum & Imperial College Londo
 **7. Applications:** The author provides an example of breaking elliptic curve cryptosystems on a quantum computer using Shor’s algorithm. He shows that a photonic quantum computer with an active-volume architecture can perform the computation significantly faster than a superconducting qubit machine.
 
 **8. Conclusion:** The author concludes that the logical gate speed of a photonic quantum computer is not solely determined by the physical timescales of the machine. Instead, it is influenced by the unique properties of photonics and the efficient parallelization achieved through long-range connections in the photonic active-volume device.
+
+
+## Security
+
+Can use quantum computing to generate classical keys
