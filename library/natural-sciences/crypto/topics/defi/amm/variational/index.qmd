@@ -1,0 +1,35 @@
+---
+title: Variational
+---
+
+## Overview
+
+Variational is building decentralized infrastructure to make bilateral trading safe and seamless. Variational is a protocol that enables peer to peer leveraged trading for perps and other derivatives on any underlying token.
+
+They currently have two products on top of the Variational Protocol: Omni, a retail-focused platform for permissionless perps trading, and Pro, a platform catering to advanced traders of nonlinear derivatives.
+
+- [docs](https://docs.variational.io/)
+
+We are looking at this specifically through the lens of an early LP.
+
+- [OLP docs](https://docs.variational.io/variational-omni/omni-liquidity-provider-olp)
+
+## Background
+
+- Raised 2022: "We are going to be rec generating, gonna get a niche in trading things prop, fnding rate arbs, etc, while they explore a longer term option as they build out infra."" 
+- Lost YTD profits and some in FTX collapse, but not enough to ruin the company.
+- Beginning of last year, got more agressive on looking for the product side stuff.
+- No one has solved RFQ and bilateral trading. Most OTC stuff happens over the phone, etc, but smart contracts are inherently. Paradigm(?) exists for BTC and ETH options. This is their pro platform. Targeting institutional investors, real time liquidations, etc.
+
+## Memecoin Era
+
+permissionless perps has demand. Build retail platform - OMNI. Give best UX
+
+- gasless
+- taking lessons from Jupiter
+- 
+
+
+## Questions
+
+- 

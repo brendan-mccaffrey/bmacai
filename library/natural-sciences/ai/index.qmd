@@ -11,25 +11,17 @@ Want to see how AI is being used to produce research articles, search on google 
 - [Asymptotically Unambitious Artificial General Intelligence](https://arxiv.org/abs/1905.12186)
 - We Still Don't Understand the Models We've Built
   - ["Glitch Token"](https://www.alignmentforum.org/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation)
-
 - [Wolfram Alpha x ChatGPT](https://writings.stephenwolfram.com/2023/01/wolframalpha-as-the-way-to-bring-computational-knowledge-superpowers-to-chatgpt/)
-
 - [Whisper: OpenAI Speech Recognition](https://arxiv.org/abs/2212.04356)
     - [blog](https://openai.com/blog/whisper/)
     - [github](https://github.com/openai/whisper)
-
 - [ChatGPT Political Biases](https://davidrozado.substack.com/p/political-bias-chatgpt)
-
 - [Galactica: A Large Language Model for Science](https://galactica.org/static/paper.pdf)
 - [Deep Learning and Computational Physics (Lecture Notes)](https://arxiv.org/abs/2301.00942v1)
-
 - [Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook)
     - [tweet](https://twitter.com/zacharynado/status/1616133152438910976)
-
 - [Detecting Watermarks on GPT](https://twitter.com/tomgoldsteincs/status/1618287665006403585?s=20&t=M3iFtvAjzAXtua_e1l-WzQ)
-
 - [Liquid AI](https://www.liquid.ai/)
-
 - [BlackMamba](https://github.com/Zyphra/BlackMamba)
     - [paper](https://www.zyphra.com/blackmamba)
 
@@ -41,3 +33,10 @@ Title: "Objective Driven AI: Towards Machines that can Learn, Reason, and Plan"
 - [slides](https://drive.google.com/file/d/1e6EtQPQMCreP3pwi5E9kKRsVs2NbWPrY/view)
 - [video](https://www.youtube.com/watch?v=d_bdU3LsLzE)
 - [A Path towards autonomous machine intelligence](https://openreview.net/forum?id=BZ5a1r-kVsf)
+
+## Fundamental Innovations
+
+- [KAN: Kolmogorov-Arnold Networks](https://twitter.com/ZimingLiu11/status/1785483967719981538)
+- [paper](https://arxiv.org/abs/2404.19756)
+- [Github](https://github.com/KindXiaoming/pykan)
+- [Docs](https://kindxiaoming.github.io/pykan/)
