@@ -1,0 +1,37 @@
+---
+title: Quantum Internet
+---
+
+## Overview
+
+Def. A network of quantum nodes that generates and makes use of entanglement over long distances to transmit quantum information.
+
+The idea is to gain advantages from quantum properties of the electron.
+
+Benefits
+
+- Security: entanglement (can't intercept) and no-cloning theorem: someone intercepting cannot re-emit qubit 
+- Bandwitch capability: Each bit transferred is now a qubit - exponential speedeup?
+- Performance: Quantum repeaters enhance transmission reliability and rates over long distances without traditional signal amplification methods in classical networks.
+- Backwards compatible: can work on existing fiber optic networks
+
+If we have quantum computers, we need them to communicate. We cannot go quantum to classical to quantum.
+
+## Network
+
+- Hub
+- Photonic Link
+- Quantum Repeater
+
+## Resources
+
+- [Qunnect](https://www.qunnect.inc/products)
+- [Qu-Src](https://www.qunnect.inc/files/qu-source.pdf)
+- [Qu-Mem](https://www.qunnect.inc/files/qu-memory.pdf)
+- Qu-APC: Regardless of the qubit type, large scale quantum networking is not possible without optimally compensating for the optical fibers’ polarization drift. Our Automated Polarization Compensating devices are low loss, fast modules to compensate for any polarization drift caused by fiber optics while allowing for high network uptime.
+- Qu-Val: Qu-Val is designed to monitor the quality of distributed entangled photons between remote nodes in real time, providing essential statistics for practical quantum networks.
+- Qu-LSR: Scalable quantum networks require locally precise wavelength references. Qu-LSR provides Near-IR and Telecom wavelength lasers simultaneously stabilized to an atomic reference for a turnkey solution to drive QU-SRC.
+- [Qunnect Raises $8mm Series A](https://www.prnewswire.com/news-releases/qunnect-raises-8m-in-series-a-funding-led-by-airbus-ventures-301641331.html)
+- [Traversing Qubit across 34km NY fiber](https://thequantuminsider.com/2024/04/19/qunnect-team-generates-distributes-preserves-entangled-photons-over-34-kilometers-of-gothamq-network-fiber/)
+    - Distributed and preserved 500,000 polarization-entangled pairs per second in commercial-grade fiber channels with 17dB of transmission loss
+    - Maintained a quantum bit error rate below 2.5%
