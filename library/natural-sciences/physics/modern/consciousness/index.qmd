@@ -1,0 +1,41 @@
+---
+title: Consciousness
+---
+
+## General
+
+- [What is Life? Erwin Shrodinger](http://strangebeautiful.com/other-texts/schrodinger-what-is-life-mind-matter-auto-sketches.pdf)
+
+## Orch OR Theory
+
+Stuart Hameroff’s research pursued microtubule information processing and anesthetic action. In the mid-1990s he teamed with eminent British physicist and Nobel Laureate Sir Roger Penrose to develop a controversial quantum theory of consciousness (‘orchestrated objective reduction’, ‘Orch OR’) based on microtubule quantum computing. Harshly criticized initially, Orch OR is now supported by experimental results including anesthetic action. In 2017, with Sir Roger Penrose, James Tagg, Ivette Fuentes and Erik Viierre, Hameroff co-founded the Penrose Institute, intended to support research based on the various works of Sir Roger (cosmology, quantum mechanics, general relativity, black holes, geometry and consciousness).
+
+- Microtubules are the things pulling chromosomes apart in mitosis
+- General anesthetics temporarily turn off consciousness: theory that anesthetics turn off the microtubules
+- many types of microtubules
+- its not just quantum mechanics: nearly all of chemistry is quantum, photosynthesis is quantum mechanics. Penrose is saying something more outrageous than that. You must go even beyond quantum computing.
+- Dirac says quantum mechanics is a provisional theory. We need something that explains the collapse of the wave function.
+
+**Original Paper**
+
+- [Orchestrated reduction of quantum coherence in brain microtubules: A model for consciousness](https://www.sciencedirect.com/science/article/abs/pii/0378475496804769)
+- [pdf](https://www.esalq.usp.br/lepse/imgs/conteudo_thumb/Orchestrated-Objective-Reduction-of-Quantum-Coherence-in-Brain-Microtubules.pdf)
+
+### Videos
+
+- [Lex Roger Penrose](https://www.youtube.com/watch?v=hXgqik6HXc0)
+- [Roger Penrose - Quantum Physics of Consciousness](https://www.youtube.com/watch?v=43vuOpJY46s)
+- [Penrose: "Cosciousness must be beyond computable physics"](https://www.youtube.com/watch?v=TfouEFuB-co)
+
+### Research
+
+- [Roger Penrose on Why Consciousness does not Compute](https://nautil.us/roger-penrose-on-why-consciousness-does-not-compute-236591/)
+- [Consciousness, Cognition and the Neuronal Cytoskeleton – A New Paradigm Needed in Neuroscience](https://www.frontiersin.org/articles/10.3389/fnmol.2022.869935/full)
+- [The finer scale of consciousness: quantum theory](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6861790/)
+- [Quantum computation in brain microtubules? The Penrose–Hameroff ‘Orch OR’ model of consciousness](https://legacy.cs.indiana.edu/classes/b629-sabr/QuantumComputationInBrainMicrotubules.pdf)
+- [Quantum Decoherence in Microtubules](https://arxiv.org/pdf/2304.06518)
+
+### Books
+
+- [The Emperor's New Mind]
+- [Consciousness and Quantum Mechanics](https://academic.oup.com/book/44484)
