@@ -1,0 +1,37 @@
+---
+title: Topics
+description: Topics in quantum computing and quantum networking
+---
+
+
+
+## Photonic Quantum Computer, Logical Gate Speed
+
+- [What is the logical gate speed of a photonic quantum computer?](https://quantumfrontiers.com/2023/06/21/what-is-the-logical-gate-speed-of-a-photonic-quantum-computer/)
+
+**Summary**
+
+The blog post, written by Terry Rudolph from PsiQuantum & Imperial College London, discusses the logical gate speed of a photonic quantum computer. The author argues that photonic quantum computers can perform computations orders of magnitude faster than superconducting qubit machines, even if every physical timescale of the photonic machine was slower. This is due to the unique properties of photonics, such as the ability to store/delay photons in long lengths of optical fiber with very low error rates, and the potential for active-volume architectures that can perform non-trivial computational gates more efficiently.
+
+**Notes**
+
+**1. Photonic Quantum Computers:** Photonic quantum computers use light (photons) to carry out quantum computations. They have the potential to perform computations faster than superconducting qubit machines due to their unique properties.
+
+**2. Logical Gate Speed:** The logical gate speed of a quantum computer is determined by the rate at which it can perform quantum logic gates. In photonic quantum computers, this is influenced by the rate of entangled photon production and the speed of optical switches.
+
+**3. Interleaving:** Photonic quantum computers can use a technique called interleaving, where many resource states are produced by a single resource state generator. This is possible due to the ability to store/delay photons in long lengths of optical fiber with very low error rates.
+
+**4. Active-Volume Architectures:** Active-volume architectures in photonic quantum computers can eliminate the majority of resource consumption expended on idling qubits by performing non-trivial computational gates. This is possible due to the ability to perform a limited number of non-nearest neighbor fusions between photons.
+
+**5. Resource State Generation:** The speed and scale of resource state generation is a critical factor in determining the logical gate speed of a photonic quantum computer. High repetition rates have been achieved in the production of single photons via a probabilistic parametric process.
+
+**6. Future of Quantum Computing:** The author believes that the long-term future of quantum computing is ultimately photonic due to the potential for high-speed resource state generation and the unique properties of photonics.
+
+**7. Applications:** The author provides an example of breaking elliptic curve cryptosystems on a quantum computer using Shor’s algorithm. He shows that a photonic quantum computer with an active-volume architecture can perform the computation significantly faster than a superconducting qubit machine.
+
+**8. Conclusion:** The author concludes that the logical gate speed of a photonic quantum computer is not solely determined by the physical timescales of the machine. Instead, it is influenced by the unique properties of photonics and the efficient parallelization achieved through long-range connections in the photonic active-volume device.
+
+
+## Security
+
+Can use quantum computing to generate classical keys

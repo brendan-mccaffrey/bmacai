@@ -36,7 +36,16 @@ Title: "Objective Driven AI: Towards Machines that can Learn, Reason, and Plan"
 
 ## Fundamental Innovations
 
-- [KAN: Kolmogorov-Arnold Networks](https://twitter.com/ZimingLiu11/status/1785483967719981538)
-- [paper](https://arxiv.org/abs/2404.19756)
+### Kolmogorov-Arnold Networks
+
+- [(original paper) KAN: Kolmogorov-Arnold Networks](https://arxiv.org/abs/2404.19756)
+- [Tweet Introducing KAN](https://twitter.com/ZimingLiu11/status/1785483967719981538)
 - [Github](https://github.com/KindXiaoming/pykan)
 - [Docs](https://kindxiaoming.github.io/pykan/)
+- [Author's Note](https://github.com/KindXiaoming/pykan/blob/master/README.md#authors-note)
+
+Efficiency Improvements
+
+- [EfficientKAN](https://github.com/Blealtan/efficient-kan)
+- [FourierKAN](https://github.com/GistNoesis/FourierKAN/)
+- [Notes and Research Questions](https://sscardapane.notion.site/Kolmogorov-Arnold-Networks-KANs-b3749e1fd48d4bfdb78f5b05d45b5f1b)

@@ -1,0 +1,35 @@
+---
+title: Post Quantum Cryptography
+---
+
+## Resources
+
+- [Vitalik on Post-Quantum](https://ethresear.ch/t/how-to-hard-fork-to-save-most-users-funds-in-a-quantum-emergency/18901)
+
+### Quantum Computing
+
+- [Quantum Computation and Quantum Information | M. A. Nielsen and I. L. Chuang.](https://profmcruz.files.wordpress.com/2017/08/quantum-computation-and-quantum-information-nielsen-chuang.pdf)
+
+### Shor's 
+
+- [Algorithms for quantum computation: discrete logarithms and factoring](https://ieeexplore.ieee.org/document/365700)
+- [Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer](https://arxiv.org/pdf/quant-ph/9508027)
+
+- [Shor's on RSA vs DH/DSA vs ECC](https://research.kudelskisecurity.com/2021/08/24/quantum-attack-resource-estimate-using-shors-algorithm-to-break-rsa-vs-dh-dsa-vs-ecc/)
+
+### RSA
+
+- [How to factor 2048 bit RSA integers in 8 hours using 20 million noisy qubits](https://arxiv.org/pdf/1905.09749)
+
+### Elliptic Curve
+
+- [Improved quantum circuits for elliptic curve discrete logarithms](https://arxiv.org/pdf/2001.09580)
+- [Shor’s discrete logarithm quantum algorithm for elliptic curves](https://arxiv.org/pdf/quant-ph/0301141)
+- [Quantum attacks on elliptic curve cryptography](https://www.cs.umd.edu/~amchilds/teaching/w08/l03.pdf)
+- [Approximate quantum Fourier transform with O(n log(n)) T gates](https://www.nature.com/articles/s41534-020-0257-5)
+- [Quantum resource estimates for computing elliptic curve discrete logarithms](https://www.microsoft.com/en-us/research/publication/quantum-resource-estimates-computing-elliptic-curve-discrete-logarithms/)
+- [Speeding-Up Elliptic Curve Cryptography Algorithms](https://eprint.iacr.org/2022/1458)
+
+## Enhancements
+
+- [Machine Learning Algorithms with Elliptic Curve Cryptography for Enhanced Security and Privacy](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4752859)
