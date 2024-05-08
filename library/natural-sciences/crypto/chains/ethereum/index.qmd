@@ -172,6 +172,8 @@ Danksharding is how Ethereum becomes a truly scalable blockchain, but there are 
 - [ERC-4337: Account Abstraction Using Alt Mempool](https://eips.ethereum.org/EIPS/eip-4337)
 - [Account Abstraction in a Multichain Landscape - Part 1: Addresses](https://safe.mirror.xyz/4GcGAOFno-suTCjBewiYH4k4yXPDdIukC5woO5Bjc4w)
 - [What's in an Account?](https://erc4337.mirror.xyz/vYwclVbG6CR1o8DOCWDj8cFVfFSJ07FhWTDgQ5NQROY)
+- [EIP-7702](https://github.com/ethereum/EIPs/blob/9e04cf1094eae64172ce04e0a04ec40f1edbdc5d/EIPS/eip-7702.md)
+- [EIP-7702 Discussion](https://ethereum-magicians.org/t/eip-set-eoa-account-code-for-one-transaction/19923)
 
 
 
