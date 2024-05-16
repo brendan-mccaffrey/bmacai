@@ -1,0 +1,9 @@
+---
+title: Sun
+---
+
+## Resources
+
+- [Solar Storm Risk to the North American Electric Grid](https://web.archive.org/web/20140311142740/https://www.lloyds.com/~/media/lloyds/reports/emerging%20risk%20reports/solar%20storm%20risk%20to%20the%20north%20american%20electric%20grid.pdf)
+- [How the Sun could wipe us out](https://unherd.com/2021/07/how-the-sun-could-wipe-us-out/)
+- [Rapid geomagnetic changes inferred from Earth observations and numerical simulations](https://www.nature.com/articles/s41467-020-16888-0)

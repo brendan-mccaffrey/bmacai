@@ -55,3 +55,7 @@ A Reasonably optimized, extensible smart account.
 ### fhEVM
 
 - [fhEVM: Confidential EVM Smart Contracts using Fully Homomorphic Encryption](https://github.com/zama-ai/fhevm/blob/main/fhevm-whitepaper.pdf)
+
+## Security
+
+- [Trapdoor Tokens on Uniswap](https://twitter.com/0xflashmine/status/1781417942954938526)

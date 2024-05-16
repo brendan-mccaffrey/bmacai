@@ -2,7 +2,15 @@
 title: Automated Market Makers
 ---
 
-## Providing Liquidity
+## Markets
+
+### CFMM
+
+### Orderbooks
+
+- [zkLighter](https://assets.lighter.xyz/whitepaper.pdf)
+
+## LP Research
 
 - [Impermanent Loss and JIT Liquidity in Uniswap ETH/USDC 0.3% Pool](https://crocswap.medium.com/impermanent-loss-and-jit-liquidity-in-the-uniswap-eth-usdc-0-3-pool-8fc58c755d7)
 - [Usage of Markout to Calculate LP Profitability in Uniswap V3](https://crocswap.medium.com/usage-of-markout-to-calculate-lp-profitability-in-uniswap-v3-e32773b1a88e)

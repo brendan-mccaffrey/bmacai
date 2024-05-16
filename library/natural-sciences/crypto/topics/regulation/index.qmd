@@ -28,6 +28,8 @@ title: Regulation
 - [FBI: Lazarus Group Responsible for Harmony Bridge Theft](https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft)
 - [First criminal case of attack on smart contract](https://twitter.com/SDNYnews/status/1678780204062490626), U.S. Attorney Damian Williams 
 - [SEC issues wells notice to Uniswap](https://cointelegraph.com/news/sec-issues-wells-notice-defi-protocol-uniswap)
+- [Two Brothers Arrested for Attacking Ethereum Blockchain](https://www.justice.gov/opa/pr/two-brothers-arrested-attacking-ethereum-blockchain-and-stealing-25m-cryptocurrency)
+    - [Indictment](https://www.justice.gov/opa/media/1351996/dl)
 
 ## Compliance Research
 

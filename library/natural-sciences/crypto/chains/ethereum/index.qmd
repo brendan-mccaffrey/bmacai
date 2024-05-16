@@ -46,6 +46,8 @@ table-of-contents: true
 
 ### General
 
+- [Updated Ethereum Roadmap, by Vitalik](https://twitter.com/VitalikButerin/status/1466411377107558402?s=20)
+- [A Rollup Centric Ethereum Roadmap](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698)
 - [Vitalik: the roads not taken](https://vitalik.ca/general/2022/03/29/road.html)
 - [Endgame, by Vitalik](https://vitalik.ca/general/2021/12/06/endgame.html)
 - [State of Testnets](https://twitter.com/TimBeiko/status/1628819200696516608?s=20)
@@ -53,11 +55,7 @@ table-of-contents: true
 - [Client Bootnode Concerns](https://ethresear.ch/t/execution-consensus-client-bootnodes/14588)
 - [Proof of Solvency](https://ethresear.ch/t/snarked-merkle-sum-tree-a-practical-proof-of-solvency-protocol-based-on-vitaliks-proposal/14405)
 - [How to Raise the Gas Limit](https://www.paradigm.xyz/2024/03/how-to-raise-the-gas-limit-1)
-
-### Roadmap Updates
-
-- [Updated Ethereum Roadmap, by Vitalik](https://twitter.com/VitalikButerin/status/1466411377107558402?s=20)
-- [A Rollup Centric Ethereum Roadmap](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698)
+- [Multidimensional Gas Pricing](https://vitalik.eth.limo/general/2024/05/09/multidim.html)
 - [Ethereum has blobs. Where do we go from here?](https://vitalik.eth.limo/general/2024/03/28/blobs.html)
 
 ### Proof of Stake

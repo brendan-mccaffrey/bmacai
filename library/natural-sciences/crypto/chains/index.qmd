@@ -20,3 +20,7 @@ title: Chains
 
 - [Nightshade: Near Protocol Sharding Design 2.0](https://near.org/files/nightshade.pdf)
 - [Stateless Validation in a Sharded Blockchain](https://ethresear.ch/t/stateless-validation-in-a-sharded-blockchain/18763)
+
+## Tools
+
+- [Blocksec Chain Explorer](https://app.blocksec.com/explorer/)
