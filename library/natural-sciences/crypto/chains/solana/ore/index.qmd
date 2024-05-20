@@ -1,0 +1,23 @@
+---
+title: Ore
+---
+
+
+## General
+
+- [website](https://ore.supply/)
+- [twitter](https://x.com/OreSupply)
+- [dev twitter](https://x.com/HardhatChad)
+
+## Code
+
+- [ore](https://github.com/HardhatChad/ore)
+- [Drillx: PoW Algo for Smart Contract based mining](https://github.com/HardhatChad/drillx)
+- [Ore CLI](https://github.com/HardhatChad/ore-cli)
+- [efficient solana entrypoint function](https://github.com/HardhatChad/solana-nostd-entrypoint)
+
+## PoW Algorithm
+
+- [Drillx](https://github.com/HardhatChad/drillx)
+
+[Tor DoS protection for onion services](https://gitlab.torproject.org/tpo/core/tor/-/blob/main/src/ext/equix/devlog.md)
