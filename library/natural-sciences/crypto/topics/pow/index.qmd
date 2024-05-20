@@ -1,0 +1,33 @@
+--- 
+title: Proof of Work
+---
+
+## General
+
+Client puzzles were proposed to combat [email spam in 1997](https://cypherpunks.venona.com/date/1997/03/msg00774.html), and there have been proposals to add PoW client [puzzles to TLS](https://datatracker.ietf.org/doc/html/draft-nygren-tls-client-puzzles-02). 
+
+- [DoS protection for onion services: from RandomX to Equi-X](https://gitlab.torproject.org/tpo/core/tor/-/blob/main/src/ext/equix/devlog.md#equi-x)
+
+### Suitable Puzzle
+
+The main issue is to find a suitable puzzle. There are three main requirements that the algorithm must meet:
+
+1. The solution proof must be smaller than about 200 bytes.
+2. Solution verification must be fast.
+3. GPUs and FPGAs should not provide a large advantage for solving the puzzle.
+
+### RandomX
+
+[RandomX](https://web.getmonero.org/resources/moneropedia/randomx.html) was a CPU-friendly pow algo used by Monero. However main focus was CPU friendliness so it has high solution verification demands: 2Gib memory and 2ms to verify a hash, or 256Mib and 15ms.
+
+[RandomX-Tor](https://github.com/tevador/RandomX/tree/tor-pow) was the result of slimming this down, but still not fast enough and mem req too high.
+
+Alternatives included [Argon2](https://github.com/p-h-c/phc-winner-argon2) and [Yespower][https://www.openwall.com/yespower/], which are "GPU-resistant" password hashing algorithms, but these have slower verification than Randomx-Tor and run faster on GPUs.
+
+[Equihash](https://eprint.iacr.org/2015/946.pdf) is an asymmetric client puzzle offering very fast solution verification, but runs 100x faster on GPUs.
+
+- [SuperscalarHash](https://github.com/tevador/RandomX/blob/master/doc/specs.md#6-superscalarhash) is a part of RandomX used only to initialize the DAG, dev made improvements and calls it HashX
+
+- [EquiX](https://gitlab.torproject.org/tpo/core/tor/-/blob/main/src/ext/equix/devlog.md#equi-x): Take Equihash (memory-hard algo), and replace Blake2b hash in default impl with HashX.
+
+- [Drillx] adds a Blake3 hashing step on top of Equix to guarantee a difficulty distribution of $p(Z) = 2^{-Z}$ where $Z$ is the number of leading zeros on the hash. 

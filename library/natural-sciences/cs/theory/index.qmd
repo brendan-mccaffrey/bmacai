@@ -2,6 +2,10 @@
 title: Computational Theory
 ---
 
+## General
+
+- [A Generalized Birthday Problem](https://www.iacr.org/archive/crypto2002/24420288/24420288.pdf)
+
 ## Shannon Hartley Theorem
 
 The Shannon-Hartley theorem states that the maximum channel capacity C (in bits per second) for a continuous-time analog communication channel subject to Gaussian noise is given by the formula:

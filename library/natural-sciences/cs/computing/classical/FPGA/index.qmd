@@ -1,0 +1,15 @@
+---
+title: FPGAs
+---
+
+FPGA stands for Field-Programmable Gate Array. It's a type of integrated circuit that can be programmed or configured by the user after manufacturing. Here are some key points about FPGAs:
+
+1. **Reconfigurability**: Unlike traditional fixed-function hardware, FPGAs can be reconfigured to perform different tasks, making them highly versatile.
+
+2. **Parallelism**: FPGAs can perform many operations in parallel, which makes them well-suited for tasks that can be broken down into smaller, simultaneous processes.
+
+3. **Performance**: For certain applications, FPGAs can offer performance advantages over general-purpose CPUs because they can be tailored to the specific needs of the task.
+
+4. **Application**: They are commonly used in applications where high performance and flexibility are required, such as in signal processing, cryptography, and hardware acceleration.
+
+In the context of Proof-of-Work (PoW) client puzzles for DoS protection, the requirement that GPUs and FPGAs should not provide a large advantage aims to ensure fairness. If these hardware types provided a significant advantage, it would mean that attackers with access to such hardware could solve puzzles more quickly, undermining the effectiveness of the DoS protection.
