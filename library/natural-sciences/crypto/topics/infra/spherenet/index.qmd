@@ -1,0 +1,62 @@
+---
+title: Sphere Labs
+---
+
+## Resources
+
+- [(Simple) Deck](https://docsend.com/view/gg7y3hiqx8vwdi86) (pw: stlucia)
+- [(In-Depth) Deck](https://docsend.com/view/8vvc358y8jekjfiu) (pw: wise2)
+- [(1-Pager) Sphere](https://docsend.com/view/whp4ds55ztt54ttq)
+- [(1-Pager) Spherenet](https://docsend.com/view/yv4mh7exr7icxqd6)
+- [Whitepaper (v1 - no figures)](https://docsend.com/view/vag5jntisszm6y7y) (pw: bwoods3)
+
+### 1st Meeting
+
+Arnold - CEO cofounder. sphere b2b payments platform. BTC 2009. Did online surveys to pay for WoW. Was paid in bitcoins, did that for 3 months, got a $15 gift card for WoW. Runescape, digital money. Silk road, people buying fakes and drugs. Met cofounder luigi undergrad columbia. 
+
+Arnold Korean 
+Luigi Carribiean
+
+building tg since 2015
+2020 defi summer
+2021 building on solana
+spring 2022 started sphere
+
+bonded over internet and math, did eth ico stuff.
+
+Luigi went down finance path, arnold went down IOT path.
+
+They came back together to build something on-chain. Ethereum was too expensive, saw solana was under $0.01 and thought it was able to scale. Only people that were willing to pay were from all over the place, hard to get payments. Wanted an accounting system - is this wallet from kenya or india?
+
+arnold was about to go back to school and luigi was about to work at drift
+
+won hackathon. 
+
+> it was a light version of shopify
+> depracated it for the API
+> last summer 
+
+crypto payments has failed over and over, pitched to raise money with no volume.
+
+in first yr
+
+100 users, 10,000 wallets, 100,000 payments
+
+started as stripe for crypto, then got into on/offramp
+
+banks and shops outside of the USA are willing to talk. They want on/offramps, kyc
+
+
+- realizing there are hard limits to what they are doing. 
+- **TONS of friction**
+- 8 figure wire needs permissions, needs explanation, you may not get it through
+- bankers may not speak english
+- a lot of trust involved
+- no automatic way to find experts within foreign countries
+
+now they are creating a blockchain
+
+permissioned solana cluster (subcluster)
+privacy preserving solana fork
+running on frankendancer from day 1
+its a matching engine to connect you with others 
