@@ -60,3 +60,14 @@ V2 is L2 as a solver
 
 - do u anticipate most interactions going through your frontend, other frontends plugging in ur api, or tg bot?
     - miniapp tech in tg
+
+## Shogun | Investment Memo 
+
+Shogun is an intent-centric infrastructure protocol for modular blockchains, designed to radically improve the multi-chain user experience. By leveraging cross-chain intents, Shogun enables traders to execute gas-less, cross-chain trades seamlessly, abstracting away the complexities of wallets, bridges, and gas tokens. Shogun’s execution layer batches trades across multiple blockchains and optimizes for maximum trader surplus through off-chain solvers. This approach eliminates slippage, price impact, and MEV, enabling efficient, one-click trading across diverse ecosystems. The protocol’s modular architecture and Shogun-SDK further extend its utility, allowing seamless integration into various DeFi applications, initially compatible with EVM, Celestia/IBC, and Axelar-compatible blockchains.
+
+Selected as part of Binance Labs’ Season 6 Incubation Program, Shogun was among the few projects to receive a pre-seed investment. In addition to a strong working relationship with Binance, Shogun has developed strategic partnerships with Celestia, Berachain, Movement Labs, and Neutron.
+
+User experience has long been one of the primary pain points in crypto. With the proliferation of modular blockchains and various layer rollups, there is a tremendous opportunity for a protocol that can abstract underlying components to offer seamless and liquid interoperability. Shoku believes Shogun is well-positioned to capture this role.
+
+We are excited to offer Shoku’s Shokudo allocation in Shogun’s seed round, where you will be investing alongside Polychain, Cobie, Arthur Hayes, Ansem, and Shoku himself. The structure is a SAFE + Token Warrant at a $69mm FDV with 10% carry. Investors will have a 1-month cliff and a 24-month linear vesting period.
+
