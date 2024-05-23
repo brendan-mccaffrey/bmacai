@@ -1,0 +1,34 @@
+---
+title: Alpen Labs
+---
+
+## Resources
+
+- [twitter](https://x.com/AlpenLabs)
+- [website](https://www.alpenlabs.io/)
+- [podcast](https://open.spotify.com/episode/4P4oD87oBDZ1fu85vbclkY?si=2ImsmDfcRJ-Fltd9Jv4sxg&context=spotify%3Ashow%3A7mmXdvUYQSSE6kyx0mceEQ)
+
+## Overview
+
+
+
+## Reads
+
+[Company Intro Blog](https://www.alpenlabs.io/blog/alpen-at-the-convergence-of-two-revolutions)
+
+- Mission: Bring turing-completeness to Bitcoin
+- Intersection of money revolution (bitcoin) and computing revolution (zk)
+- Our first step towards this goal will be a ZK-enabled rollup ecosystem on bitcoin that settles natively through the bitcoin network and provides secure access to BTC.
+- In the long term, we believe that a confluence of ZK, native scaling solutions, and innovations on the base layer can bring forth private, scalable and programmable bitcoin-based payments and financial systems that are built directly on bitcoin.
+
+- [The Rise of Snarks](https://www.alpenlabs.io/blog/the-rise-of-snarks)
+
+- Bitcoin is most resilient and accessible global settlement layer for internet, but limited by scripting language, Script.
+- SNARKs present opportunity to scale bitcoin
+- Unlike traditional axiomatic proofs, zk method (interactive proof) is concept of back-and-forth between prover and verifier
+- why interactive proofs?
+    - reduce communication complexity below cost of the witness
+    - convice verifier of correctness without disclosing solution itself
+
+
+- [Introducing Snarknado](https://www.alpenlabs.io/blog/snarknado-practical-round-efficient-snark-verifier-on-bitcoin)
