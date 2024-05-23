@@ -14,14 +14,16 @@ title: Alpen Labs
 
 ## Reads
 
-[Company Intro Blog](https://www.alpenlabs.io/blog/alpen-at-the-convergence-of-two-revolutions)
+### [Company Intro Blog](https://www.alpenlabs.io/blog/alpen-at-the-convergence-of-two-revolutions)
 
 - Mission: Bring turing-completeness to Bitcoin
 - Intersection of money revolution (bitcoin) and computing revolution (zk)
 - Our first step towards this goal will be a ZK-enabled rollup ecosystem on bitcoin that settles natively through the bitcoin network and provides secure access to BTC.
 - In the long term, we believe that a confluence of ZK, native scaling solutions, and innovations on the base layer can bring forth private, scalable and programmable bitcoin-based payments and financial systems that are built directly on bitcoin.
 
-- [The Rise of Snarks](https://www.alpenlabs.io/blog/the-rise-of-snarks)
+### [The Rise of Snarks](https://www.alpenlabs.io/blog/the-rise-of-snarks)
+
+**Intro** 
 
 - Bitcoin is most resilient and accessible global settlement layer for internet, but limited by scripting language, Script.
 - SNARKs present opportunity to scale bitcoin
@@ -29,6 +31,39 @@ title: Alpen Labs
 - why interactive proofs?
     - reduce communication complexity below cost of the witness
     - convice verifier of correctness without disclosing solution itself
+- 1985, concept where verifier is convinced of a statements truth without revealing solution
+- 1992, shown power of interactive proofs beyond NP statements
+- 1992, class of problems verifiable in polynomial time == PSPACE, including problems in P, NP, coNP, and beyond
 
+**From Interactive Proof to SNARK**
 
-- [Introducing Snarknado](https://www.alpenlabs.io/blog/snarknado-practical-round-efficient-snark-verifier-on-bitcoin)
+- statistically sound IP systems unlikely to have communication improvements beyond size of witness. But we can do better if we relax soundness from statistical to computational.
+- computationally sound proof system (argument system) can generate a succint argument poly-logarithmic in size of statement and the witness.
+- Probabilistically Checkable Proof (PCP) theorem: every decision problem in NP has a proof that can be verified with a high degree of confidence by looking at only a constant number of bits from the proof, chosen at random.
+- practical apps of IP need to minimize interactions, hence concept of "common random string": 
+    - idea: pre-establish shared basis for proof generation and verification
+    - later generalized to "common reference string" and "universal reference string"
+    - consolidate all interactions into a pre-processing step
+- PCP verifier only needs to check tiny portion of proof, proof can be large
+- The shortest PCPs known today are still quite lengthy (growing quasilinearly with the input size)
+- Finding a linear size PCP still remains an open challenge for researchers.
+- This limitation led to Interactive Oracle Proofs (IOPs); essentially Interactive Proofs, where the verifier has a PCP-like (oracle) access to prover’s messages. Allow compact (practical) proofs, they dont improve soundness
+- Advancements such as these—reducing proof sizes, minimizing verification computations, eliminating interactive steps, and integrating knowledge soundness—have collectively contributed to the development of what is now known as SNARK, or **Succinct Non-Interactive ARgument of Knowledge**.
+
+**Generating a SNARK**
+
+- encode computation into a series of polynomial equations that encapsulate underlying logic
+- polynomial of degree $d$ can have at most $d$ roots. 
+    - prover could theoretically deceive verifier by claiming to know a polynomial of degree d if verifier only checks at those d specific points - no more.
+    - prob of successful cheat is $d/x$ where x is all possible "solutions" (>> d)
+- one way to generate polynomial is by writing computation as arithmetic circuit: which performs ops over a finite field. Circuit compiled to Quadratic Arithmetic Program (QAP) which converts circuits ops into a set of polynomial equations.
+- This conversion leverages power of NP-completess; any NP problem can be reduced to this format
+
+**Present Day**
+
+- Development of SNARKs has been fueled by two fundamental limitations of present-day blockchains: privacy and scalability. 
+- Pinocchio [PHGR13] marked the first practical implementation of zk-SNARKs and was originally used by Zcash to implement its shielded transaction protocol. 
+- In 2016, Jens Groth enhanced this protocol, leading to the development of what is now known as Groth16. 
+- Since then, the landscape has seen a rapid proliferation of diverse SNARK implementations.
+
+### [Introducing Snarknado](https://www.alpenlabs.io/blog/snarknado-practical-round-efficient-snark-verifier-on-bitcoin)

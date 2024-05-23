@@ -5,6 +5,31 @@ subtitle: Zero Knowledge
 
 ## Reads
 
+#### **Foundational Papers**
+
+- [New Directions in Cryptography, 1976](https://t.co/xqjkEf7TEV)
+- [The Knowledge Complexity of Interactive Proof Systems, 1985](https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Proof%20Systems/The_Knowledge_Complexity_Of_Interactive_Proof_Systems.pdf)
+    - Pioneered foundation concept where a verifier is convinced of a statement's truth through interactions without the solution being revealed.
+- [Algebraic Methods for Interactive Proof Systems, 1992](https://dl.acm.org/doi/pdf/10.1145/146585.146605)
+    - Underscored the power of interactive proofs beyond NP statements.
+    - Showed an unbounded prover can convince a polynomial-time verifier that a Boolean forumula is unsatisfiable.
+    - Implies coNP problems (like UNSAT) can be verified with an efficient verifier, a feat not acheivable under the static proof model without the strong assumption that coNP = NP
+- [IP = PSPACE](https://dl.acm.org/doi/pdf/10.1145/146585.146609)
+    - Showed that the class of problems verifiable in polynomial time through interactive proofs aligns exactly with PSPACE
+    - This class includes decision problems solvable in polynomial space, enveloping a broad spectrum of classes including P, NP, coNP, and beyond.
+- [A note on efficient zer-knowledge proofs and arguements](https://people.csail.mit.edu/vinodv/6892-Fall2013/efficientargs.pdf)
+    - Leveraged Probabilistically Checkable Proofs (PCPs)
+    - Showed computationally sound (as opposed to statistically sound) proof system (argument system) can generate a succint argument poly-logarithmic in size of statement and the witness.
+    - Soon a landmark result followed in the form of the PCP theorem, which stated that every decision problem in NP has a proof that can be verified with a high degree of confidence by looking at only a constant number of bits from the proof, chosen at random.
+
+
+#### **Papers**
+
+- [Public-coin zero-knowledge arguments with (almost) minimal time and space overheads, 2020](https://t.co/odrV7LZdIy)
+- [A method for obtaining digital signatures and public-key cryptosystems](https://people.csail.mit.edu/rivest/Rsapaper.pdf)
+- [Proofs, Arguments, and Zero-Knowledge](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
+- [A Zero Knowledge Sumcheck and its Applications](https://eprint.iacr.org/2017/305.pdf)
+
 #### **Educational Resources**
 
 - [Rareskills Book of Zero Knwledge](https://www.rareskills.io/zk-book)
@@ -21,12 +46,7 @@ subtitle: Zero Knowledge
 - [Youtube RiscZero Study Club](https://www.youtube.com/watch?v=v4HIwaqmIxk&list=PLcPzhUaCxlCirUkJY0ltpjdtzWcz5U_6y&index=3)
 - [Introduction to Zero Knowledge: Video Tutorial](https://www.youtube.com/watch?v=6uGimDYZPMw&list=PL8Vt-7cSFnw29cLUVqAIuMlg1QJ-szV0K&index=1)
 
-#### **Foundational Papers**
 
-- [New Directions in Cryptography, 1976](https://t.co/xqjkEf7TEV)
-- [Public-coin zero-knowledge arguments with (almost) minimal time and space overheads, 2020](https://t.co/odrV7LZdIy)
-- [A method for obtaining digital signatures and public-key cryptosystems](https://people.csail.mit.edu/rivest/Rsapaper.pdf)
-- [Proofs, Arguments, and Zero-Knowledge](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
 
 ### Practical Applications
 
