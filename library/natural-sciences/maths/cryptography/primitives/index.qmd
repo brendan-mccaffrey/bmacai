@@ -16,11 +16,12 @@ title: Primitives
 3.	Verifying a Signature:
     - The verifier hashes each value in the signature and compares it to the corresponding value in the public key. If all values match, the signature is valid.
 
-### Example in the Context of BitVM2
+### Lamport Signature Example
 
 Let's consider the excerpt's context where each script in BitVM2 must share state with other scripts using Lamport signatures.
 
 #### Key Generation
+
 1. **Private Key:**
    - Private key for a script consists of two sets of random values:
      - Set 1: $\{ sk_{0,0}, sk_{0,1}, \ldots, sk_{0,255} \} $
@@ -32,6 +33,7 @@ Let's consider the excerpt's context where each script in BitVM2 must share stat
      - Set 2: $\{ pk_{1,0} = H(sk_{1,0}), pk_{1,1} = H(sk_{1,1}), \ldots, pk_{1,255} = H(sk_{1,255}) \}$
 
 #### Signing a Message
+
 - Suppose a script needs to sign the message "Transaction X from script A to script B."
 - First, hash the message to get a bit string:
   - $H(\text{"Transaction X from script A to script B"}) = 101010\ldots$ (256 bits)
@@ -41,14 +43,17 @@ Let's consider the excerpt's context where each script in BitVM2 must share stat
   - Signature: $\{ sk_{1,0}, sk_{0,1}, sk_{1,2}, sk_{0,3}, \ldots \}$
 
 #### Verifying a Signature
+
 - The verifier hashes each value in the signature and compares it to the corresponding value in the public key:
   - If the bit is 0, check $H(sk_{0,i})$ against $pk_{0,i}$.
   - If the bit is 1, check $H(sk_{1,i})$ against $pk_{1,i}$.
 
 #### BitVM2 Context
+
 In BitVM2, each script needs to prove the integrity of its inputs and outputs to other scripts. If two scripts equivocate (i.e., provide conflicting information about their inputs and outputs), a fraud proof can be presented using the Lamport signature.
 
 **Example:**
+
 - Script A and Script B are part of a larger transaction process.
 - Script A produces an output $O_A$ and signs it using its Lamport signature.
 - Script B consumes $O_A$ as its input and produces an output $O_B$, also signing it with its Lamport signature.

@@ -4,6 +4,10 @@ description: "All praise lord Satoshi"
 page-layout: full
 ---
 
+## Tools
+
+- [Explorer](https://mempool.space/)
+
 ## Resources
 
 - [Bitcoin: A Peer to Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
@@ -11,20 +15,81 @@ page-layout: full
 - [BitVM: Compute Anything on Bitcoin](https://bitvm.org/bitvm.pdf)
 - [BitVM-js](https://github.com/BitVM/bitvm-js)
 
-## Tangents
+## Bitcoin Core
 
-- [Bitcoin Lightning Network](https://lightning.network/lightning-network-paper.pdf)
 - [Segregated Witness Benefits](https://bitcoincore.org/en/2016/01/26/segwit-benefits/#efficiency-gains-when-not-verifying-signatures)
 
+## Ecosystem
 
+- [Bitcoin Lightning Network](https://lightning.network/lightning-network-paper.pdf)
+- [BitVM](https://bitvm.org/bitvm.pdf)
+- [BitVM-js](https://github.com/BitVM/bitvm-js)
+- [BitVM2](https://bitvm.org/bitvm2)
+- [BitSNARK & Grail](https://assets-global.website-files.com/661e3b1622f7c56970b07a4c/662a7a89ce097389c876db57_BitSNARK__Grail.pdf)
+
+## Security & Events
 
 - [Vulnerability](https://invdos.net/paper/CVE-2018-17145.pdf) | [tweet](https://twitter.com/pcaversaccio/status/1627631035017052163?s=20)
 
 
 
-## Tools
 
-- [Explorer](https://mempool.space/)
+## TapTree
+
+A **TapTree** is a data structure used in the Taproot upgrade of Bitcoin. Taproot is a significant upgrade to the Bitcoin protocol that aims to enhance privacy, scalability, and flexibility of Bitcoin transactions. The TapTree is a part of this upgrade, providing a way to commit to multiple spending conditions in a more efficient and private manner.
+
+### How a TapTree Works
+
+A TapTree is essentially a Merkle tree, where each leaf node represents a different script or condition that can be used to spend a Bitcoin output. Here’s a detailed breakdown:
+
+1. **Merkle Tree Structure:**
+   - A Merkle tree is a binary tree where each leaf node contains a hash of a script or data, and each internal node contains the hash of its two child nodes. This structure allows for compact proofs of inclusion for any leaf node.
+
+2. **Taproot and TapTree Integration:**
+   - Taproot uses a single public key to commit to a TapTree. This means that a single public key can represent multiple possible scripts or conditions.
+   - When spending the Bitcoin output, if the top-level condition (typically a single-sig condition) is met, only the public key and a signature need to be revealed.
+   - If one of the alternative conditions is used (one of the leaves of the TapTree), the spender must reveal the relevant leaf script and a Merkle proof to show its inclusion in the TapTree.
+
+3. **Privacy and Efficiency Benefits:**
+   - If the top-level condition is used, the existence of alternative conditions is hidden, enhancing privacy.
+   - The TapTree allows complex spending conditions without needing to reveal all possible conditions on the blockchain, reducing on-chain data and improving efficiency.
+
+### Example in the Context of BitVM2
+
+In BitVM2, the use of a TapTree allows for the distribution of the smaller scripts across the tree's leaves. This helps in managing the limitations on script size and stack size by breaking down a large Bitcoin script into smaller, manageable chunks.
+
+#### Benefits in BitVM2
+
+- **Efficient Script Execution:**
+  - Only the necessary scripts (or leaves) are revealed when executing a transaction, reducing the amount of data that needs to be processed on-chain.
+
+- **Fraud Proofs:**
+  - By having Lamport signatures for all data inputs and outputs, and placing scripts in a TapTree, BitVM2 ensures that any equivocation can be detected. If two scripts provide conflicting information, the Merkle proof and the associated Lamport signatures can be used to prove fraud.
+
+- **On-Chain Data Management:**
+  - Although it is necessary to put all Lamport signature data on-chain (which scales linearly with the number of chunks), the TapTree structure helps minimize the on-chain footprint by only revealing the relevant parts of the scripts and their proofs when needed.
+
+### Summary
+
+A TapTree in the context of BitVM2 is a mechanism to efficiently manage and execute multiple smaller Bitcoin scripts by leveraging the structure of a Merkle tree. It enhances privacy, reduces on-chain data, and ensures the integrity of script execution through Lamport signatures and fraud proofs.
+
+
+
+A TapTree is a data structure used in the Taproot upgrade of Bitcoin. Taproot is a significant upgrade to the Bitcoin protocol that aims to enhance privacy, scalability, and flexibility of Bitcoin transactions. The TapTree is a part of this upgrade, providing a way to commit to multiple spending conditions in a more efficient and private manner.
+
+How a TapTree Works
+
+A TapTree is essentially a Merkle tree, where each leaf node represents a different script or condition that can be used to spend a Bitcoin output. Here’s a detailed breakdown:
+
+	1.	Merkle Tree Structure:
+	•	A Merkle tree is a binary tree where each leaf node contains a hash of a script or data, and each internal node contains the hash of its two child nodes. This structure allows for compact proofs of inclusion for any leaf node.
+	2.	Taproot and TapTree Integration:
+	•	Taproot uses a single public key to commit to a TapTree. This means that a single public key can represent multiple possible scripts or conditions.
+	•	When spending the Bitcoin output, if the top-level condition (typically a single-sig condition) is met, only the public key and a signature need to be revealed.
+	•	If one of the alternative conditions is used (one of the leaves of the TapTree), the spender must reveal the relevant leaf script and a Merkle proof to show its inclusion in the TapTree.
+	3.	Privacy and Efficiency Benefits:
+	•	If the top-level condition is used, the existence of alternative conditions is hidden, enhancing privacy.
+	•	The TapTree allows complex spending conditions without needing to reveal all possible conditions on the blockchain, reducing on-chain data and improving efficiency.
 
 
 {{< include _tx_versions.qmd >}}

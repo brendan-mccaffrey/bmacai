@@ -1,3 +1,7 @@
+---
+title: Tx Versions
+---
+
 ## Bitcoin Transaction Versions
 
 Bitcoin transactions have undergone various upgrades to improve scalability, security, and functionality. This document aims to elucidate the differences among different Bitcoin transaction versions, focusing on cryptographic aspects such as address formats and transaction input/output (tx I/O) variations.

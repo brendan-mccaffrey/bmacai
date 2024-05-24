@@ -36,6 +36,7 @@ subtitle: Zero Knowledge
 - [ZKP Illustrated Primer Part 1](https://blog.cryptographyengineering.com/2014/11/27/zero-knowledge-proofs-illustrated-primer/)
 - [ZKP Illustrated Primer Part 2](https://blog.cryptographyengineering.com/2017/01/21/zero-knowledge-proofs-an-illustrated-primer-part-2/)
 - [ZkIntro](https://zkintro.com/articles/friendly-introduction-to-zero-knowledge)
+- [17 Misconceptions about SNARKs](https://a16zcrypto.com/posts/article/17-misconceptions-about-snarks/)
 
 #### **Resource Compilations**
 

@@ -11,16 +11,14 @@ title: Alpen Labs
 - [BitVM-js](https://github.com/BitVM/bitvm-js)
 - [BitVM2](https://bitvm.org/bitvm2)
 
-## Reads
-
-### [Company Intro Blog](https://www.alpenlabs.io/blog/alpen-at-the-convergence-of-two-revolutions)
+## [Company Intro Blog](https://www.alpenlabs.io/blog/alpen-at-the-convergence-of-two-revolutions)
 
 - Mission: Bring turing-completeness to Bitcoin
 - Intersection of money revolution (bitcoin) and computing revolution (zk)
 - Our first step towards this goal will be a ZK-enabled rollup ecosystem on bitcoin that settles natively through the bitcoin network and provides secure access to BTC.
 - In the long term, we believe that a confluence of ZK, native scaling solutions, and innovations on the base layer can bring forth private, scalable and programmable bitcoin-based payments and financial systems that are built directly on bitcoin.
 
-### [The Rise of Snarks](https://www.alpenlabs.io/blog/the-rise-of-snarks)
+## [The Rise of Snarks](https://www.alpenlabs.io/blog/the-rise-of-snarks)
 
 **Intro** 
 
@@ -65,7 +63,7 @@ title: Alpen Labs
 - In 2016, Jens Groth enhanced this protocol, leading to the development of what is now known as Groth16. 
 - Since then, the landscape has seen a rapid proliferation of diverse SNARK implementations.
 
-### [Introducing Snarknado](https://www.alpenlabs.io/blog/snarknado-practical-round-efficient-snark-verifier-on-bitcoin)
+## [Introducing Snarknado](https://www.alpenlabs.io/blog/snarknado-practical-round-efficient-snark-verifier-on-bitcoin)
 
 **Overview** 
 
@@ -90,3 +88,22 @@ title: Alpen Labs
     - only a small predetermined set of parties can initiate a challenge
     - bisection protocol can take a large (>32) number of rounds to terminate
     - "Each of these rounds is subject to a delay, to ensure that the counterparty cannot DoS the bitcoin mempool to prevent the next phase of the protocol. If each round takes a week, running BitVM on a RISC-V program for verifying a SNARK will take over half a year."
+
+**BitVM2**
+
+- loosely related to BitVM for same goal: proving arbitrary ciruit satisfiability on bitcoin
+- overcomes BitVMs primary limitation in that it allows permissionless challenging
+- does not use bisection, thus reducing number of rounds as well
+- currently does not implement a RISC-V VM. 
+- under active development, faces significant challenges before it can be deployed for SNARK verification
+- a single large bitcoin script is broken down into a number of smaller scripts that fit within bitcoin’s limitations on script size and stack size
+    - each of these must somehow share state with the other scripts
+    - accomplishes this with lamport signature for all data input and output for each script
+- put scripts as leaves in TapTree to avoid putting all on chain
+- unfortunately have to put all lamport signatures onchain; linear in number of chunks we break the trace into
+- left with following tradeoffs
+    - onchain data costs scale linearly w number of chunks (vs log for BitVM)
+    - chunks cannot be $>4mb$ and cannot accept more than 1000 'inputs'
+    - each input limited to small number of bits because onchain costs grow exponentially w number of bits of each input; consequence of the OTS schemes 
+    - Robin’s solution to reduce onchain cost increases set up cost exponentially in the factor of reduction
+- together, these limitation require too much onchain communication to verify a pairing based SNARK or to verify a STARK w certain params (large amounts of [grinding](https://eprint.iacr.org/2021/582.pdf))
