@@ -29,9 +29,11 @@ subtitle: Zero Knowledge
 - [A method for obtaining digital signatures and public-key cryptosystems](https://people.csail.mit.edu/rivest/Rsapaper.pdf)
 - [Proofs, Arguments, and Zero-Knowledge](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
 - [A Zero Knowledge Sumcheck and its Applications](https://eprint.iacr.org/2017/305.pdf)
+- [On Proving Pairings](https://eprint.iacr.org/2024/640.pdf)
 
 #### **Educational Resources**
 
+- [ZK Jargon Decoder](https://nmohnblatt.github.io/zk-jargon-decoder/foreword.html)
 - [Rareskills Book of Zero Knwledge](https://www.rareskills.io/zk-book)
 - [ZKP Illustrated Primer Part 1](https://blog.cryptographyengineering.com/2014/11/27/zero-knowledge-proofs-illustrated-primer/)
 - [ZKP Illustrated Primer Part 2](https://blog.cryptographyengineering.com/2017/01/21/zero-knowledge-proofs-an-illustrated-primer-part-2/)
@@ -68,6 +70,10 @@ subtitle: Zero Knowledge
 - [Fast Amortized KZG Proofs](https://eprint.iacr.org/2023/033.pdf)
 - [ZK Development Playground](https://zkrepl.dev/)
 - [Beginner Intro to Coding ZK Proofs](https://dev.to/spalladino/a-beginners-intro-to-coding-zero-knowledge-proofs-c56)
+
+### PIOP
+
+- [Polynomial Interactive Oracle Proof](https://nmohnblatt.github.io/zk-jargon-decoder/definitions/polynomial_interactive_oracle_proof.html)
 
 ### STARKs
 

@@ -115,3 +115,50 @@ title: Alpen Labs
 - allows drastic reduction in number of rounds
 - PIOPs ar edefined over finite fields, align better w SNARK verifiers
 - rather than implement finite field op in higher level lang, compile to RISC-V, and verify instruction in Script; just verify ops in Script directly
+
+PIOP
+
+- By “PIOP” we mean that the prover will represent the statement that they wish to prove using relations of polynomials.
+- This is in contrast to a sequence of opcodes as in a VM or directly as a circuit. 
+- given a univariate polynomial relation, we will check that it holds at a random point. 
+- This is sound if the point is drawn from a sufficiently large domain.
+- to check that $a(X)x(X) - c(X) = z(X)q(X)$ it is sufficient to check it at a random challenge which we can compute by hashing the polynomials
+- challenge can be computed from the Merkle tree that commits to the witness
+- Given the evaluations the challenger checks two things: 
+    - that the polynomial relation holds and 
+        - The former is relatively simple as it does not scale with the degree of the polynomials involved. 
+    - that the polynomial evaluations were carried out correctly. 
+        - The latter is where one would usually use a Polynomial Commitment Scheme (PCS) and where we will use bisection.
+
+SNARKs in SNARKnado
+
+- SNARKnado will be used to verify SNARKs with small proof sizes on bitcoin. 
+- Minimizing proof size is important because we need to bit-commit to the proof onchain. 
+- In practice, two SNARKs are used for onchain verification: *Groth16 and fflonk*; both pairing based SNARKs with trusted setups and very small proof sizes.
+    - groth16 smaller but more expensive to verify
+    - fflonk larger but cheaper to verify
+    - both based on pairings and require trusted setup
+
+Putting it Together
+
+- to prove fflonk using SNARKnado, prover will first commit to the proof onchain with a hash of the SNARKnado witness
+- given a SNARK protocol (PLONK) this witness consists of a set of merkle roots for the polynomials, challenges, and polynomial opening values
+- when prover is challenged, they will open this hash revealing all the openings, challenges, and potentially some levels of the polynomial tree
+- prover will also provide the sub-polynomial evaluations
+- consistency of this level is satisfied if
+    - the gate equation for the SNARK is satisfied, 
+    - challenges are all correctly constructed, and 
+    - the polynomial tree levels are consistent
+- can generate the challenges using the Fiat-Shamir transformation using the polynomial merkle roots as prover messages
+- the protocol will continue bisecting the polynomial evaluations until it reaches an inconsistent level or a leaf. Once we have reached a leaf, the polynomial evaluation must fail or the challenger was fraudulent
+
+Estimates: how much does it cost?
+
+1. how much does in-circuit pairing verification cost
+    - rough estimates suggest that the multi-pairing verification will cost approximately 20 to 50,000 field multiplications
+    - there are degrees of freedom that may let us bring this down, but conservative estimate on the order of 100,000 gates in the PIOP
+2. how much does the bisection protocol cost
+    - 1 translates into bisection protocl over a tree of no more than $2^20$ leaves
+    - using reasonable branching factor 32, this requires 4 rounds of bisection and each round would commit to around 5000 bits of leaf data 
+    - require double this in total to verify faults in the leaves, bringing this to 200,000 bytes per level
+    - with one week round time, total bisection time under one month
