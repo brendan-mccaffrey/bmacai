@@ -77,3 +77,16 @@ title: Alpen Labs
     - replace RISC-V abstraction of BitVM with circuit like protocol based on PLONK (specific type of SNARK)
     - estimate reducing number of challenge-response rounds to 4 (8x improvement on BitVM RISC-V)
     - however, doesn't support permissionless challenging
+
+**BitVM**
+
+- refers to permissioned bisection protocol introduced by Robin Linus AND instantiation of this protocol for a RISC-V VM
+- enables arbitrary optimistic circuit verification "on bitcoin"
+- happy path: prover posts small amt of data; e.g. a Lamport signature of a SNARK
+- unhappy path: challenger challenges prover. one of two parties has committed fraud
+    - if prover has lied, they must have carried out some step in computational trace incorrectly. bisection protocol allows challenger to perform binary search over the trace to identify precisely the first location where the prover has lied
+    - if prover is honest, this will be impossible for challenger and thus prover is proven innocent
+- main shortcomings
+    - only a small predetermined set of parties can initiate a challenge
+    - bisection protocol can take a large (>32) number of rounds to terminate
+    - "Each of these rounds is subject to a delay, to ensure that the counterparty cannot DoS the bitcoin mempool to prevent the next phase of the protocol. If each round takes a week, running BitVM on a RISC-V program for verifying a SNARK will take over half a year."
