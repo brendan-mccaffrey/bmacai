@@ -107,3 +107,11 @@ title: Alpen Labs
     - each input limited to small number of bits because onchain costs grow exponentially w number of bits of each input; consequence of the OTS schemes 
     - Robin’s solution to reduce onchain cost increases set up cost exponentially in the factor of reduction
 - together, these limitation require too much onchain communication to verify a pairing based SNARK or to verify a STARK w certain params (large amounts of [grinding](https://eprint.iacr.org/2021/582.pdf))
+
+**SNARKnado**
+
+- same primitives and trust model as BitVM, but removes RISC-V abstraction
+- replace it with an abstraction based on Polynomial Interactive Oracle Proofs (PIOPs) which underly many popular SNARK constructions like STARK and PLONK
+- allows drastic reduction in number of rounds
+- PIOPs ar edefined over finite fields, align better w SNARK verifiers
+- rather than implement finite field op in higher level lang, compile to RISC-V, and verify instruction in Script; just verify ops in Script directly
