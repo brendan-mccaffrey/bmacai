@@ -1,0 +1,11 @@
+---
+title: Reading List
+---
+
+## Reads
+
+- [Paul Graham Essays](https://paulgraham.com/articles.html)
+- [Is it Worth Being Wise?](https://paulgraham.com/wisdom.html)
+- [Having Kids](https://paulgraham.com/kids.html)
+- [How to Lose Time and Money](https://paulgraham.com/selfindulgence.html)
+- [The Bus Ticket Theory of Genius](https://paulgraham.com/genius.html)

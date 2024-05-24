@@ -66,3 +66,14 @@ title: Alpen Labs
 - Since then, the landscape has seen a rapid proliferation of diverse SNARK implementations.
 
 ### [Introducing Snarknado](https://www.alpenlabs.io/blog/snarknado-practical-round-efficient-snark-verifier-on-bitcoin)
+
+**Overview** 
+
+- Bitcoin is designed to verify computation, not execute it 
+- SNARK efficiency overcomes limitations of Script
+- allows bridging smart contracts on bitcoin which enable moving BTC to L2s
+- BitVM showed its possible to optimistically verify computation if at least 1 of N validators is honest
+- SNARKnado is a new bisection protocol based on BitVM and BitVM2 for verifying SNARKs on bitcoin.
+    - replace RISC-V abstraction of BitVM with circuit like protocol based on PLONK (specific type of SNARK)
+    - estimate reducing number of challenge-response rounds to 4 (8x improvement on BitVM RISC-V)
+    - however, doesn't support permissionless challenging

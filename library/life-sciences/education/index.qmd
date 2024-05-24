@@ -1,0 +1,8 @@
+---
+title: Education
+---
+
+## Resources
+
+- [Paul Graham: News from the Front](https://paulgraham.com/colleges.html)
+- [Paul Graham: Undergraduation](https://paulgraham.com/college.html)
