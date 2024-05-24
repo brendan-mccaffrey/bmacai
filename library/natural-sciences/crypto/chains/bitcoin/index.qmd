@@ -14,6 +14,15 @@ page-layout: full
 - [Bitcoin as a global broadcast consensus mechanism](https://web.archive.org/web/20160208053809/https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/)
 - [BitVM: Compute Anything on Bitcoin](https://bitvm.org/bitvm.pdf)
 - [BitVM-js](https://github.com/BitVM/bitvm-js)
+- [btc research](https://cdecker.github.io/btcresearch/)
+
+**2011** 
+
+- [Bitcoin: Tempering the Digital Ring of Gyges or Implausible Pecuniary Privacy](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1937769)
+- [Bitcoin & Gresham's Law - the economic inevitability of Collapse](https://iang.org/papers/BitcoinBreachesGreshamsLaw.pdf)
+- [On Bitcoin and Red Balloons](https://arxiv.org/pdf/1111.2626v1.pdf)
+- [Analysis of Bitcoin Pooled Mining Reward Systems](https://arxiv.org/pdf/1112.4980v1.pdf)
+- [Formaleuros, Formalbitcoins, and Virtual Monies](https://arxiv.org/pdf/1008.0616.pdf)
 
 ## Bitcoin Core
 
@@ -31,6 +40,8 @@ page-layout: full
 
 - [Vulnerability](https://invdos.net/paper/CVE-2018-17145.pdf) | [tweet](https://twitter.com/pcaversaccio/status/1627631035017052163?s=20)
 
+
+## Transaction Versions
 
 
 
