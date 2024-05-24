@@ -102,5 +102,3 @@ A TapTree is essentially a Merkle tree, where each leaf node represents a differ
 	•	If the top-level condition is used, the existence of alternative conditions is hidden, enhancing privacy.
 	•	The TapTree allows complex spending conditions without needing to reveal all possible conditions on the blockchain, reducing on-chain data and improving efficiency.
 
-
-{{< include _tx_versions.qmd >}}
