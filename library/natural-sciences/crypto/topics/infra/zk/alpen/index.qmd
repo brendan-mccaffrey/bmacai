@@ -10,6 +10,7 @@ title: Alpen Labs
 - [BitVM](https://bitvm.org/bitvm.pdf)
 - [BitVM-js](https://github.com/BitVM/bitvm-js)
 - [BitVM2](https://bitvm.org/bitvm2)
+- [BitVM Transaction Graph V2](https://raw.githubusercontent.com/BitVM/bitvm-js/8d75c02ed4c5aa2e937a9481d340ed6df55cb9b0/docs/bitVM_graph_v2.svg)
 
 ## [Company Intro Blog](https://www.alpenlabs.io/blog/alpen-at-the-convergence-of-two-revolutions)
 
