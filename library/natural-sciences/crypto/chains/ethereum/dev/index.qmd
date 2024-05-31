@@ -3,6 +3,10 @@ title: Dev Tools
 description: Resources and tooling for EVM development
 ---
 
+## Clients
+
+- [Helios: Ethereum light client](https://github.com/a16z/helios)
+
 ## Multichain
 
 - [Mesc](https://paradigmxyz.github.io/mesc/what_is_mesc.html)
