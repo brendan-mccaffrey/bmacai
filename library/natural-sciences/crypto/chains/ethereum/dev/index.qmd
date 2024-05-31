@@ -6,6 +6,7 @@ description: Resources and tooling for EVM development
 ## Clients
 
 - [Helios: Ethereum light client](https://github.com/a16z/helios)
+- [Beerus: Light client for Starknet](https://github.com/eigerco/beerus)
 
 ## Multichain
 

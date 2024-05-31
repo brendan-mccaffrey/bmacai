@@ -181,7 +181,7 @@ Danksharding is how Ethereum becomes a truly scalable blockchain, but there are 
 ### Cross Chain & Intents
 
 - [ERC-7683: Cross Chain Intents](https://www.erc7683.org/)
-
+- [Keystore Rollup](https://safe.global/blog/keystore-rollup-smart-account-interoperability)
 
 
  
