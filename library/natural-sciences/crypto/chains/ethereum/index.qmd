@@ -5,14 +5,18 @@ page-layout: full
 table-of-contents: true
 ---
 
-## Basics
 
-### Forums 
+## Forums / Resources 
 
 - [Ethereum Research Forum](https://ethresear.ch/)
 - [Eth R&D Discord](https://discord.com/invite/qGpsxSA)
 - [Flashbots Collective Forum](https://collective.flashbots.net/)
 - [Ethereum Youtube: Community calls and such](https://www.youtube.com/@EthereumProtocol/videos)
+- [Protocol Guild](https://protocol-guild.readthedocs.io/en/latest/)
+
+## High Level Reads
+
+- [Absolute Essentials of Ethereum, Excerpt](https://www.coindesk.com/consensus-magazine/2024/02/07/absolute-essentials-of-ethereum-by-paul-dylan-ennis-an-excerpt/), Paul Dylan-Ennis [FULL](https://www.routledge.com/Absolute-Essentials-of-Ethereum/Dylan-Ennis/p/book/9781032334189)
 
 ### Ethereum Virtual Machine (EVM)
 
@@ -52,6 +56,7 @@ table-of-contents: true
 - [Multidimensional Gas Pricing](https://vitalik.eth.limo/general/2024/05/09/multidim.html)
 - [Ethereum has blobs. Where do we go from here?](https://vitalik.eth.limo/general/2024/03/28/blobs.html)
 - [Encapsulated vs ystemic complexity in protocol design](https://vitalik.eth.limo/general/2022/02/28/complexity.html)
+- [The near and mid-term future of improving the Ethereum network's permissionlessnes and decentralization](https://vitalik.eth.limo/general/2024/05/17/decentralization.html)
 
 ### Proof of Stake
 
@@ -67,10 +72,12 @@ table-of-contents: true
 - [How do layer 2s really differ from execution sharding?](https://vitalik.eth.limo/general/2024/05/23/l2exec.html)
 - [L2s as cultural extensions of Ethereum](https://vitalik.eth.limo/general/2024/05/29/l2culture.html)
 
-### Data Availability
+### Data 
 
 - [A note on data availability and erasure coding](https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding)
-
+- [PeerDAS: a simpler DAS approach using battle-tested p2p components](https://ethresear.ch/t/peerdas-a-simpler-das-approach-using-battle-tested-p2p-components/16541)
+- [Verkle Trees for Statelessness](https://verkle.info/)
+- [EIP-4444: Bound Historical Data in Execution Clients](https://eips.ethereum.org/EIPS/eip-4444)
 
 ## Consensus
 

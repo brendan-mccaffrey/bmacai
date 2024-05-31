@@ -5,6 +5,10 @@ title: Regulation
 ## Governance
 
 - [DBA: Proof of Governance](https://dba.mirror.xyz/UTPfxWe65dYrUu_RJX-5VkAJypFRyw3AZh6m0dRXYZk)
+- [Quadratic Payments: A Primer](https://vitalik.eth.limo/general/2019/12/07/quadratic.html)
+- [Quadratic Voting](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2003531)
+- [Quadtratic Funding](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243656)
+- [Quadratic Attention Purchase](https://kortina.nyc/essays/speech-is-free-distribution-is-not-a-tax-on-the-purchase-of-human-attention-and-political-power/)
 
 ## Privacy
 

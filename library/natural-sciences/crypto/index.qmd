@@ -3,6 +3,12 @@ title: Crypto
 description: Blockchains and cryptographic applications
 ---
 
+## General
+
+- [The most important scarce resource is legitimacy](https://vitalik.eth.limo/general/2021/03/23/legitimacy.html)
+- [Hard forks, soft forks, defaults and coercion](https://vitalik.eth.limo/general/2017/03/14/forks_and_markets.html)
+- [Concave and convex dispositions](https://vitalik.eth.limo/general/2020/11/08/concave.html)
+
 ## Ethos
 
 - [The Soveriegn Individual](https://en.wikipedia.org/wiki/The_Sovereign_Individual)
@@ -22,3 +28,7 @@ description: Blockchains and cryptographic applications
 - [Arthur Hayes August '23: Why Fed will be forced to print](https://cryptohayes.substack.com/p/kite-or-board)
 - [Fiscal Dominance and the Return of Sero-Interest Bank Reserve Requirements](https://files.stlouisfed.org/files/htdocs/publications/review/2023/06/02/fiscal-dominance-and-the-return-of-zero-interest-bank-reserve-requirements.pdf)
 
+
+## History
+
+- [Powerful actors in EOS ecosystem siphoned away lots of money raised for community](https://www.theblock.co/post/243852/eos-network-foundation-calls-on-community-to-reject-block-ones-22-million-settlement)

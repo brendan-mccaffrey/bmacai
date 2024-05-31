@@ -15,6 +15,7 @@ page-layout: full
 - [BitVM: Compute Anything on Bitcoin](https://bitvm.org/bitvm.pdf)
 - [BitVM-js](https://github.com/BitVM/bitvm-js)
 - [btc research](https://cdecker.github.io/btcresearch/)
+- [A brief and incomplete history of censorship in /r/Bitcoin](https://medium.com/@johnblocke/a-brief-and-incomplete-history-of-censorship-in-r-bitcoin-c85a290fe43)
 
 **2011** 
 
@@ -40,10 +41,19 @@ page-layout: full
 
 - [Vulnerability](https://invdos.net/paper/CVE-2018-17145.pdf) | [tweet](https://twitter.com/pcaversaccio/status/1627631035017052163?s=20)
 
+## The Block Wars
 
-## Transaction Versions
+- [Vitalik: Some reflections on the Bitcoin block size war](https://vitalik.eth.limo/general/2024/05/31/blocksize.html)
+- Jonathan Bier's ["The Blocksize War"](https://www.amazon.com/Blocksize-War-controls-Bitcoins-protocol/dp/B08YQMC2WM), tells the story from a pro-small-block perspective
+- Roger Ver and Steve Patterson's ["Hijacking Bitcoin"](https://www.hijackingbitcoin.com/), tells the story from a pro-big-block perspective
+- "Eventually big blockers also ended up throwing away 'clean and simple' and going with ideas like [Bitcoin Unlimited's adaptive block size increase](https://www.reddit.com/r/btc/comments/15ax3jy/chip202301_adaptive_blocksize_limit_algorithm_for/?_)"
+- [Vitalik 2014: On Transaction fees, and the fallacy of market-based solutions](https://blog.ethereum.org/2014/02/01/on-transaction-fees-and-the-fallacy-of-market-based-solutions)
 
+## Lightning
 
+- [Why the lightning network doesnt work](https://unboundedcapital.com/blog/why-lightning-doesnt-work)
+- [Overpromised and underdelivering](https://www.linkedin.com/pulse/lightning-network-overpromised-underdelivering-stefano-virgilli-dp5tf/)
+- [Lightning network technical issue chronology](https://github.com/davidshares/Lightning-Network)
 
 ## TapTree
 
