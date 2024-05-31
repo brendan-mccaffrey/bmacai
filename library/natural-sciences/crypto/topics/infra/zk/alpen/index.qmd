@@ -163,3 +163,14 @@ Estimates: how much does it cost?
     - using reasonable branching factor 32, this requires 4 rounds of bisection and each round would commit to around 5000 bits of leaf data 
     - require double this in total to verify faults in the leaves, bringing this to 200,000 bytes per level
     - with one week round time, total bisection time under one month
+
+
+## Call with Founder
+
+- strategic round at 200 before raising big one (200 already kinda big tho)
+
+- tps... limits there?
+    - DA first limit
+    - client implementation
+
+- relationship with bitVM team
