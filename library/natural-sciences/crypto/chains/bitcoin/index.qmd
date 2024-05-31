@@ -17,6 +17,10 @@ page-layout: full
 - [btc research](https://cdecker.github.io/btcresearch/)
 - [A brief and incomplete history of censorship in /r/Bitcoin](https://medium.com/@johnblocke/a-brief-and-incomplete-history-of-censorship-in-r-bitcoin-c85a290fe43)
 
+## Lore
+
+- [cult of Craig Write]
+
 **2011** 
 
 - [Bitcoin: Tempering the Digital Ring of Gyges or Implausible Pecuniary Privacy](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1937769)
