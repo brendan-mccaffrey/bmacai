@@ -2,15 +2,16 @@
 title: Layer 2 Rollups
 ---
 
-### Resources
+## Resources
 
 - [L2Beat](https://l2beat.com/scaling/summary)
 
-### Rollup List
+## Rollup List
 
 - [Arbitrum](https://arbitrum.io/)
 - [Optimism](https://www.optimism.io/)
 - [Scroll](https://scroll.io/)
+- [Aztec](https://aztec.network/)
 - [zkSync](https://zksync.io/)
 - [Base](https://base.org/)
 - [Kakarot](https://www.kakarot.org/)
@@ -22,9 +23,11 @@ title: Layer 2 Rollups
 - [Immutable](https://www.immutable.com/)
 - [Loopring](https://loopring.org/#/)
 - [Linea](https://linea.build/)
+- [Intmax Plasma Next](https://www.intmax.io/plasmanext)
 
-### Reads
+## Reads
 
+- [Vitalik 2015 paper on scaling: Notes on Scalable Blockchain Protocols](https://github.com/vbuterin/scalability_paper/blob/master/scalability.pdf)
 - [Vitalik: An Incomplete Guide to Rollups](https://vitalik.ca/general/2021/01/05/rollup.html)
 - [A Rollup-Centric Ethereum Roadmap](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698)
 - [Arbitrum: Scalable, Private Smart Contracts](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-kalodner.pdf)
@@ -36,10 +39,17 @@ title: Layer 2 Rollups
 - [Deeper dive on cross-L2 reading for wallets and other use cases](https://vitalik.ca/general/2023/06/20/deeperdive.html)
 - [Exit games for EVM validiums: the return of plasma](https://vitalik.ca/general/2023/11/14/neoplasma.html)
 - [Proposed milestones for rollups taking off training wheels](https://ethereum-magicians.org/t/proposed-milestones-for-rollups-taking-off-training-wheels/11571)
+- [Validium](https://ethereum.org/en/developers/docs/scaling/validium/)
+- [Arbitrum Stylus: adds 2nd VM based on WASM alongside EVM](https://docs.arbitrum.io/stylus/stylus-gentle-introduction)
+- [What kind of layer 3s make sense?](https://vitalik.eth.limo/general/2022/09/17/layer_3.html)
 
-### Data Availability
+## Preconfirmations
 
-- [A note on data availability and erasure coding](https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding)
+To provide this higher speed, L2s rely on preconfirmation mechanisms: the L2's own validators digitally sign a promise to include the transaction at a particular time, and if the transaction does not get included, they can be penalized. 
+
+- A mechanism called [StakeSure](https://arxiv.org/abs/2401.05797) generalizes this further.
+
+
 
 #### Deep Dive: Different Types of Layer 2s
 

@@ -49,7 +49,11 @@ subtitle: Zero Knowledge
 - [Youtube RiscZero Study Club](https://www.youtube.com/watch?v=v4HIwaqmIxk&list=PLcPzhUaCxlCirUkJY0ltpjdtzWcz5U_6y&index=3)
 - [Introduction to Zero Knowledge: Video Tutorial](https://www.youtube.com/watch?v=6uGimDYZPMw&list=PL8Vt-7cSFnw29cLUVqAIuMlg1QJ-szV0K&index=1)
 
+## Proof Systems
 
+- [Binius](https://vitalik.eth.limo/general/2024/04/29/binius.html)
+- [Circle STARKs](https://eprint.iacr.org/2024/278)
+- [Jolt: SNARKs for Virtual Machines via Lookups](https://eprint.iacr.org/2023/1217)
 
 ### Practical Applications
 

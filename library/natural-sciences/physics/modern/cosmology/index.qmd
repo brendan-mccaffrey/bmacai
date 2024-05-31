@@ -1,9 +1,9 @@
 ---
-title: Astrophysics
+title: Cosmology
 description: Astrophysics and Cosmology
 ---
 
-## Cosmology
+## General
 
 - [The Pseudo-Conformal Universe: Scale Invariance from Spontaneous Breaking of Conformal Symmetry](https://arxiv.org/abs/1106.1428)
 - [Einstein, Barcelona, Symmetry & Cosmology: The Birth of an Equation for the Universe](https://arxiv.org/pdf/2309.02477.pdf)
@@ -18,8 +18,13 @@ description: Astrophysics and Cosmology
 - [10 galaxies that existed just 830 million years after the Big Bang](https://esawebb.org/images/aspire1/)
 The seven galaxies highlighted in [this image](https://esawebb.org/images/protocluster-1/) from the NASA/ESA/CSA Telescope have been confirmed to be at a distance that astronomers refer to as redshift 7.9, which correlates to 650 million years after the big bang. This makes them the earliest galaxies yet to be spectroscopically confirmed as part of a developing cluster.
 
-### Dark Matter and Dark Energy
+## Dark Matter and Dark Energy
 
 - [Interacting Dark Matter - Phenomenology and Implications for Cosmology](https://www.youtube.com/watch?v=lzUNr-0E8Us)
 - [New shape of parity-violating graviton non-Gaussianity](https://arxiv.org/abs/2303.05178) | [Explainer](https://twitter.com/MMylova/status/1634015492775002112?s=20)
 - [Cosmic Dark Matter Web Detected in Coma Cluster](https://subarutelescope.org/en/results/2024/02/07/3367.html)
+
+## Big Bang
+
+- [Mathematicians Attempt to Glimpse Past the Big Bang](https://www.quantamagazine.org/mathematicians-attempt-to-glimpse-past-the-big-bang-20240531/)
+- [On the initial singularity and the extendability of flat quasi-de Sitter spacetimes](https://link.springer.com/article/10.1007/JHEP10(2023)182)
