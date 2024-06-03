@@ -10,6 +10,18 @@ title: Learn AI
 - [Geoffrey Hinton, Intro to NNs and ML, CSC321](https://www.dropbox.com/scl/fi/7bzpik2hhblb431cnfe9a/hintonlecturesmerged.pdf?rlkey=r0kht5s1byqswslrt125dkope&dl=0)
 - [Little Book of Deep Learning](https://fleuret.org/public/lbdl.pdf)
 
+## Lecture Series
+
+- [Stanford Machine Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rNyWOpJg_Yh4NSqI4Z4vOYy) and corresponding [notes](https://cs229.stanford.edu/main_notes.pdf)
+- [Stanford Transformers](https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM)
+- [Stanford generative models including diffusion](https://www.youtube.com/playlist?list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8)
+- [Stanford Deep Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rOABXSygHTsbvUz4G_YQhOb)
+- [Karpathy Neural Networks Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
+- [Stanford NLP with Deep Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rMFqRtEuo6SGjY4XbRIVRd4)
+- [MIT Deep Learning](https://www.youtube.com/playlist?list=PLTZ1bhP8GBuTCqeY19TxhHyrwFiot42_U)
+- [Stanford Meta Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rNjRoawgt72BBNwL2V7doGI)
+- [Stanford Methods in AI](https://www.youtube.com/playlist?list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX)
+
 ### Maths
 
 - [Gradient Descent does not Always Converge](https://twitter.com/gabrielpeyre/status/1750760482028519635)

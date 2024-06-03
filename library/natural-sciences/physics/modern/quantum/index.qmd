@@ -25,6 +25,7 @@ title: Quantum Physics
 - [Why Bohr was wrong in his response to EPR](https://arxiv.org/abs/2305.06859)
 - [Richard Feynman: Simulating physics with computers (quantum)](https://link.springer.com/article/10.1007/BF02650179)
 - [A New Century of Quantum Physics](https://www.nature.com/articles/s42254-023-00600-4)
+- [Stanford Quantum Mechanics Course](https://theoreticalminimum.com/courses/quantum-mechanics/2012/winter)
 
 
 ### Standard Dirac Equation

@@ -16,6 +16,9 @@ This page provides a brief overview of each subdomain of physics. Each header is
 - [Ed Witten Interview](https://www.joachim-herz-stiftung.de/en/about-us/prices/hamburg-prize-for-theoretical-physics/edward-witten)
 - [Unitarity](https://www.quantamagazine.org/physicists-rewrite-a-quantum-rule-that-clashes-with-our-universe-20220926/)
 - [Differentiable Physics: Optimizing Neural Models of Complex Systems](https://twitter.com/afshawnl/status/1745900664708866357)
+- [Stanford Courses](https://theoreticalminimum.com/courses)
+- [Sean Carroll Physics Playlist](https://www.youtube.com/playlist?list=PLrxfgDEc2NxZJcWcrxH3jyjUUrJlnoyzX)
+- [Elegant Structural Overview of Modern Theoretical Physics](https://www.youtube.com/watch?v=2bi5G6plWCI)
 
 ## [Classical Physics](classical/mechanics/index.qmd)
 
