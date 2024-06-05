@@ -4,4 +4,6 @@ title: Quantum Mechanics
 
 ## Resources
 
+- [History of Quantum Mechanics](https://mathshistory.st-andrews.ac.uk/HistTopics/The_Quantum_age_begins/)
 - [Advanced Quantum Mechanics - Ben Simons, Cambridge](http://www.tcm.phy.cam.ac.uk/~bds10/aqp.html)
+    - [Wave mechanics and Shrodinger Equation](http://www.tcm.phy.cam.ac.uk/~bds10/aqp/handout_foundations.pdf)

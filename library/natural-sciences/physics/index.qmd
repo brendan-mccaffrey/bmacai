@@ -9,6 +9,7 @@ This page provides a brief overview of each subdomain of physics. Each header is
 ## General Resources
 
 - [Newton's Papers](https://cudl.lib.cam.ac.uk/collections/newton/1)
+- [Principia History](http://www.damtp.cam.ac.uk/user/tong/talks/newton.pdf)
 - [Cambridge Courses](http://www.damtp.cam.ac.uk/user/tong/teaching.html)
 - [Stanford Courses](https://theoreticalminimum.com/courses)
 - [Dan Fleisch](https://www.danfleisch.com/)
