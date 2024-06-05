@@ -1,5 +1,5 @@
 ---
-title: Derivatives Trading
+title: Derivatives
 ---
 
 ## Research

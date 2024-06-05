@@ -54,8 +54,6 @@ Boneh-Lynn-Shacham Signature Scheme
 
 ## Proofs
 
-
-
 A cryptographic proof must be **complete** and **sound**.
 
 Alice wants to prove knowledge of something (she holds a secret key, for example) to Bob

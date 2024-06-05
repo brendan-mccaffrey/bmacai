@@ -11,6 +11,7 @@ description: Fully Homomorphic Encryption
 - [Vitalik on FHE](https://vitalik.ca/general/2020/07/20/homomorphic.html)
 - [Exploring the Recent Rise of FHE in the Blockchain Industry](https://medium.com/@mustafa.hourani/explaining-the-recent-rise-of-fully-homomorphic-encryption-in-the-blockchain-industry-c7081fa05458)
 - [fhEVMs: How do they work?](https://medium.com/@whaleslee/fhevms-how-do-they-work-c13ea8a4d4c0)
+- [ArkStream Capital: Why we invest in the FHE track](https://www.coinlive.com/news/arkstream-capital-why-we-invest-in-the-fhe-track)
 
 ### Timeline
 

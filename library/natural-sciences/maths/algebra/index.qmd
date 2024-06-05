@@ -1,0 +1,16 @@
+---
+title: Algebra
+---
+
+## General
+
+
+### Lie Algebras in Particle Physics
+
+- [Lie Algebras in Particle Physics](https://library.oapen.org/handle/20.500.12657/50876)
+
+Lie Algebras in particle physics are mathematical structures that help to describe and classify physical systems, particularly those involving symmetries and transformations. In essence, a Lie algebra is a vector space equipped with a certain kind of product, called the Lie bracket, that captures the essential information about continuous transformations and symmetries. When applied to particle physics, Lie algebras offer a robust framework for understanding the fundamental particles and forces that govern the universe. 
+
+The concept of Lie algebras originated in the late 19th century with the work of Norwegian mathematician Sophus Lie. Originally developed to study continuous transformation groups, the scope of Lie algebras has expanded to diverse areas of mathematics and physics. Their application in particle physics became increasingly significant during the 20th century, especially after the development of quantum mechanics and quantum field theory. The SU(3) Lie algebra, for example, was crucial in predicting the existence of particles like the omega-minus baryon before it was experimentally discovered.
+
+Lie algebras offer a theoretical structure that is essential for formulating the Standard Model of particle physics, which describes electromagnetic, weak, and strong forces. Because Lie algebras are tightly connected to symmetry principles, they enable physicists to simplify complex systems and make predictions about particle interactions.

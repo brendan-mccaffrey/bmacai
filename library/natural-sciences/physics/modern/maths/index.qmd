@@ -1,50 +1,11 @@
 ---
-title: Maths x Physics
+title: Maths
 ---
+
 
 ## General
 
 - [My Encounters - as a Physicist - with Mathematics](https://pubs.aip.org/physicstoday/article-abstract/49/2/28/408873/My-Encounters-as-a-Physicist-with?redirectedFrom=fulltext)
-
-### Donaldson Theory
-
-Donaldson theory is a branch of mathematics that is concerned with the topology of four-dimensional manifolds. It is named after Simon Donaldson, a British mathematician who made significant contributions to the field in the 1980s.
-
-The central problem in Donaldson theory is to understand the topology of four-dimensional manifolds using differential geometry and algebraic topology. Specifically, the theory focuses on the study of vector bundles and connections on these manifolds, and how they can be used to classify different types of four-dimensional manifolds.
-
-One of the key results in Donaldson theory is Donaldson's theorem, which states that the intersection form of a smooth, closed, simply-connected four-dimensional manifold can be recovered from its Seiberg-Witten invariants. The Seiberg-Witten invariants are a set of numbers that can be associated with a four-dimensional manifold and its spin-c structure. They were introduced by Edward Witten and Nathan Seiberg in the mid-1990s and have proven to be a powerful tool in the study of four-dimensional manifolds.
-
-Donaldson theory has applications in a variety of fields, including physics, where it has been used to study the topology of spacetime in string theory and other areas of theoretical physics. It has also had significant impact in pure mathematics, inspiring further research in the fields of algebraic geometry, topology, and differential geometry.
-
-### Fourier Transformations
-
-The Fourier Transform is a mathematical technique that transforms a function of time, a signal, into a function of frequency. It's a way to represent a signal in terms of its constituent frequencies, much like a musical chord can be expressed as the amplitudes of its constituent notes. 
-
-The Fourier Transform can be applied to a wide variety of fields, including physics, engineering, signal processing, image analysis, and data compression.
-
-Formally, for a continuous signal, the Fourier Transform `F(w)` of a function `f(t)` is given by the integral:
-
-```
-F(w) = ∫ f(t) e^-iwt dt
-```
-
-Here:
-
-- `w` is the frequency,
-- `t` is time,
-- `i` is the imaginary unit, 
-- `e` is the base of the natural logarithm,
-- and `∫` denotes integration over all time from `-∞` to `+∞`.
-
-The inverse Fourier Transform, which transforms back from the frequency domain to the time domain, is given by:
-
-```
-f(t) = (1/2π) ∫ F(w) e^iwt dw
-```
-
-Note that in practice, many signals are discrete rather than continuous, and the Discrete Fourier Transform (DFT) or its faster version, the Fast Fourier Transform (FFT), are used.
-
-The Fourier Transform and its variants are used in a wide variety of applications. For example, in audio processing, it can be used to identify the different frequencies present in a sound. In image processing, it can be used for operations like blurring an image or removing noise. In physics, it can be used to solve differential equations.
 
 ### Lie Algebras in Particle Physics
 
