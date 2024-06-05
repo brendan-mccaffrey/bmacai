@@ -8,17 +8,23 @@ This page provides a brief overview of each subdomain of physics. Each header is
 
 ## General Resources
 
+- [Newton's Papers](https://cudl.lib.cam.ac.uk/collections/newton/1)
+- [Cambridge Courses](http://www.damtp.cam.ac.uk/user/tong/teaching.html)
+- [Stanford Courses](https://theoreticalminimum.com/courses)
 - [Dan Fleisch](https://www.danfleisch.com/)
+- [Ed Witten Interview](https://www.joachim-herz-stiftung.de/en/about-us/prices/hamburg-prize-for-theoretical-physics/edward-witten)
+- [Sean Carroll Physics Playlist](https://www.youtube.com/playlist?list=PLrxfgDEc2NxZJcWcrxH3jyjUUrJlnoyzX)
+- [Elegant Structural Overview of Modern Theoretical Physics](https://www.youtube.com/watch?v=2bi5G6plWCI)
+
+**Random**
+
 - [TASI 2023: Aspects of Symmetry](https://www.youtube.com/playlist?list=PL1TnhG8zyyNxnhHGZze1tAlYrXTXwxhn0)
 - [The 8 Fallacies of Assembly Theory](https://hectorzenil.medium.com/test-8f0be54817c4)
 - [Physics of the Analytic S-Matrix](https://arxiv.org/abs/2306.05395)
 - [World from Eyes, Reconstruct 3D Scene from Someone's Eyeball](https://t.co/zoqliCEews)
-- [Ed Witten Interview](https://www.joachim-herz-stiftung.de/en/about-us/prices/hamburg-prize-for-theoretical-physics/edward-witten)
-- [Unitarity](https://www.quantamagazine.org/physicists-rewrite-a-quantum-rule-that-clashes-with-our-universe-20220926/)
 - [Differentiable Physics: Optimizing Neural Models of Complex Systems](https://twitter.com/afshawnl/status/1745900664708866357)
-- [Stanford Courses](https://theoreticalminimum.com/courses)
-- [Sean Carroll Physics Playlist](https://www.youtube.com/playlist?list=PLrxfgDEc2NxZJcWcrxH3jyjUUrJlnoyzX)
-- [Elegant Structural Overview of Modern Theoretical Physics](https://www.youtube.com/watch?v=2bi5G6plWCI)
+- [Unitarity](https://www.quantamagazine.org/physicists-rewrite-a-quantum-rule-that-clashes-with-our-universe-20220926/)
+
 
 ## [Classical Physics](classical/mechanics/index.qmd)
 

@@ -1,0 +1,7 @@
+---
+title: Quantum Mechanics
+---
+
+## Resources
+
+- [Advanced Quantum Mechanics - Ben Simons, Cambridge](http://www.tcm.phy.cam.ac.uk/~bds10/aqp.html)

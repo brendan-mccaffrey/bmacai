@@ -3,6 +3,12 @@ title: Tech
 subtitle: Good ol' Hardware Technology Devices
 ---
 
+## General
+
+- [Information (Technology), Market Performance, and Welfare in the South Indian Fisheries Sector](https://www.jstor.org/stable/25098864)
+    - TLDR: Three different regions of Kerala encountered phone adotpion at different times. Each region saw adoption go from 0% to 60% within ~10 weeks. The effects on the fishing market were crystal clear and significant. Fish price volatility dropped by magnitudes, displaying the enablement of information transfer.
+- [Desalination twitter thread](https://x.com/Jordan_W_Taylor/status/1740363166603968637?s=20)
+
 ## Hardtech Software
 
 #### [XLB](https://github.com/Autodesk/XLB) 2D/3D Lattice Boltzmann Simulator
@@ -33,4 +39,3 @@ cq_warehouse offers a Python-based alternative to traditional mechanical CAD sof
 
 ## Topics
 
-- [Desalination twitter thread](https://x.com/Jordan_W_Taylor/status/1740363166603968637?s=20)

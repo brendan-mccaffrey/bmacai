@@ -6,6 +6,7 @@ table-of-contents: true
 
 ### Resources
 
+- [Relativity: The Special and General Theory](https://www.marxists.org/reference/archive/einstein/works/1910s/relative/relativity.pdf)
 - [Lecture Notes on Holographic Renomalization](https://arxiv.org/abs/hep-th/0209067)
 - [AdS/CFT correspondence and Geometry (Hamilton-Jacobi approach to holographic renormalization)](https://arxiv.org/abs/hep-th/0404176)
 - [EPFL Lectures on General Relativity as a Quantum Field Theory](https://arxiv.org/abs/1702.00319)

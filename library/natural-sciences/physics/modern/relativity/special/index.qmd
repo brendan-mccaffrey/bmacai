@@ -10,3 +10,69 @@ Special relativity, published by Einstein in 1905, deals with the physics of mot
 2. The speed of light in a vacuum is the same for all observers, regardless of the motion of the light source or observer.
 
 Special relativity introduced the concept that space and time are intertwined into a single continuum known as spacetime. It led to several groundbreaking conclusions, such as time dilation (time slows down for objects in motion relative to a stationary observer), length contraction (objects in motion contract in the direction of motion from the viewpoint of a stationary observer), and the equivalence of mass and energy, expressed by the famous equation $$E=mc^2$$.
+
+
+## Bmac Notes
+
+**notes from first 53 pages of [Einstein's Relativity](https://www.marxists.org/reference/archive/einstein/works/1910s/relative/relativity.pdf), first 53 pages**
+
+
+> we see that it will be advantageous if, in the description of position, it should be possible by means of numerical measures to make ourselves independent of the existence of marked positions (possessing names) on the rigid body of reference. In the physics of measurement this is attained by the application of the Cartesian system of co-ordinates.
+
+> In practice, the rigid surfaces which constitute the system of co-ordinates are generally not available ; furthermore, the magnitudes of the co-ordinates are not actually determined by constructions with rigid rods, but by indirect means. If the results of physics and astronomy are to maintain their clearness, the physical meaning of specifications of position must always be sought in accordance with the above considerations.
+
+Example 1: dropping stone from railway car. "dropper" sees stone travel straight down (ignore air friction), observer see parabola motion of stone... thus must replace "position" in "space" with "motion relative to practically rigid *body of reference/system of coordinates*"
+
+*complete* description of motion must specify position change in relation to *time*. Time must be supplemented in a definition such that they can be used as magnitudes (results of measurements) capable of observation
+
+Intros example with bird, 3rd party moving in "straight line". straight line observed by onlooker implies straight line observed by passenger
+
+> If K is a Galileian co-ordinate system. then every other coordinate system K' is a Galileian one, when, in relation to K, it is
+in a condition of uniform motion of translation. Relative to K1 the mechanical laws of Galilei-Newton hold good exactly as they do with respect to K.
+
+**He notes the formal name of the concept I struggled with when I was 14**
+
+> The Theorem of the Addition of Velocities Employed in Classical Mechanics. Person walking at velocity $w$ on train traveling at $v$. Relative to person at velocity 0 (relative to earth rigid body), he is not traveling at exactly $w + v$
+
+
+### The *principle of relativity* (in the restricted sense)
+
+> the tenet thus: If, relative to K, K1 is a uniformly moving co-ordinate system devoid of rotation, then natural phenomena run their course with respect to K1 according to exactly the same general laws as with respect to K
+
+We start with:
+
+1. the "completed rigid body": the rigid body, to which the location identification/place specification is referred, is supplemented such that the object of concern is reached by
+2. we use number(s) to define location from reference, instead of designated points of reference (ie coordnates)
+
+### Idea of Time in Physics
+
+"events A and B occurred simultaneously". Easy to say there is sense in this statement, but if one must explain the sense more precisely it reveals itself more difficult than first thought.
+
+good back and forth about 1. its a logical circle, then 2. no, its neither a supposition nor hypothesis, but a stipulation which I can make of my own freewill in order to arrive at a definition of simultaneity
+
+### The Relativity of Simulatneity
+
+reconsidering railway and embankment, show simultaneity (of events A and B) with reference to the embankment $\Rightarrow$ no simulataneity with reference to railway
+
+### On the Relativity of the Conception of Distance
+
+trivial. if i walk path of train embarkment guy says i traversed a different (greater) distance
+
+### Lorentz Transformation
+
+We had two bad classical mechanics assumtpions
+
+1. The time-interval (time) between two events is independent of the condition of motion of the body of reference.
+2. The space-interval (distance) between two points of a rigid body is independent of the condition of motion of the body of reference.
+
+Dropping these eliminates dilemma i struggled with at 14 (cant simply add velocities of reference). This also allows us to recover constant speed of light in vacuum.
+
+Given place and time of event A wrt reference embankment, can we derive place and time wrt rail? More precisely, can we conceive of a relation between place and time of the individual events relative to both reference-bodies, such that every ray of light possesses the velocity of transmission c relative to the embankment and relative to the train ?
+
+Good news, we can... Lorentz Transformation
+
+### Summary to now
+
+on one hand, priciple of relativity holds true; on the other hand speed of light == constant c. we united these, obtaining the Lorentz transformation
+
+### Minkowski's Four-Dimensional Space

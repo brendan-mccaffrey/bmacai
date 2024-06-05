@@ -1,23 +1,16 @@
 ---
-title: CompSci
+title: Computer Science
 ---
-
-## Tools
-
-[Open Source Remote Desktop](https://twitter.com/rustdesk)
 
 ## General
 
+- [Teach Yourself Computer Science](https://teachyourselfcs.com/)
 - [From the Transistor to the Web Browser: Understanding the Modern Computer Stack from First Principles](https://github.com/geohot/fromthetransistor)
 - [Leslie Lamport's works](https://lamport.azurewebsites.net/pubs/pubs.html?from=https://research.microsoft.com/users/lamport/pubs/pubs.html&type=path)
-- [Information (Technology), Market Performance, and Welfare in the South Indian Fisheries Sector](https://www.jstor.org/stable/25098864)
-    - TLDR: Three different regions of Kerala encountered phone adotpion at different times. Each region saw adoption go from 0% to 60% within ~10 weeks. The effects on the fishing market were crystal clear and significant. Fish price volatility dropped by magnitudes, displaying the enablement of information transfer.
 - [Network Effects Bible](https://www.nfx.com/post/network-effects-bible)
 
-## Accelerationism
+## Etc
 
 - [bci/acc: A Pragmatic path to compete with artificial superintelligence](https://medium.com/@trentmc0/bci-acc-a-path-to-balance-ai-superintelligence-80bb6f32e39c)
-
-## Firmware
-
+- [Open Source Remote Desktop](https://twitter.com/rustdesk)
 - [Reverse Engineering Qualcomm Baseband Scripts](https://github.com/mzakocs/qualcomm_baseband_scripts)
