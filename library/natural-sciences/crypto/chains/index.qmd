@@ -16,10 +16,15 @@ title: Chains
 - [The Spacemesh Protocol](https://drive.google.com/file/d/18I9GPebWqgpvusI1kMnAB9nayBbL-1qN/view)
 - [TON: The Open Network](https://ton.org/whitepaper.pdf)
 
+## Early Timeline
+
+- [The Digital Path](https://papers.agoric.com/assets/pdf/papers/digital-path.pdf)
+
 ## Other Research
 
 - [Nightshade: Near Protocol Sharding Design 2.0](https://near.org/files/nightshade.pdf)
 - [Stateless Validation in a Sharded Blockchain](https://ethresear.ch/t/stateless-validation-in-a-sharded-blockchain/18763)
+- [Credible Mechanisms](https://web.stanford.edu/~mohamwad/CredibleMechanisms.pdf)
 
 ## Tools
 

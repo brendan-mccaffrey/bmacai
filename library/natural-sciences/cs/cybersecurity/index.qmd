@@ -23,25 +23,23 @@ Sim Swap Protectins
 
 ## Articles
 
-EthClipper: A Clipboard Meddling Attack on Hardware Wallets with Address Verification Evasion
-- [paper](https://arxiv.org/pdf/2108.14004.pdf)
+- [EthClipper: A Clipboard Meddling Attack on Hardware Wallets with Address Verification Evasion](https://arxiv.org/pdf/2108.14004.pdf)
+- [Only Safe Way to Store Crypto](https://officercia.mirror.xyz/p1ieZdxQWH4yHCNOXNPHyT8So1cY0X_wMGKwdmavi7s)
+- [Tempest: Spying on information systems through leaking emanations](https://en.wikipedia.org/wiki/Tempest_(codename))
 
-Only Safe Way to Store Crypto
-- [article](https://officercia.mirror.xyz/p1ieZdxQWH4yHCNOXNPHyT8So1cY0X_wMGKwdmavi7s)
 
-Tempest: Spying on information systems through leaking emanations
-- [wiki](https://en.wikipedia.org/wiki/Tempest_(codename))
 
-Apple M Series Chips Sidechannel
+### Apple 
+
+- [Post Quantum iMessage](https://security.apple.com/blog/imessage-pq3/)
+- [Private Cloud Compute: A new frontier for AI privacy in the cloud](https://security.apple.com/blog/private-cloud-compute/)
+M Series Sidechannel Attack
 - [Unpatchable vulnerability in Apple chip leaks secret encryption keys](https://arstechnica.com/security/2024/03/hackers-can-extract-secret-encryption-keys-from-apples-mac-chips/)
 - [paper](https://gofetch.fail/files/gofetch.pdf)
 - [background video](https://www.youtube.com/watch?v=ARuU2s63Yhs)
 - [background paper](https://ieeexplore.ieee.org/document/9833570)
 - Relevant: [arm64 for apple platforms](https://developer.apple.com/documentation/xcode/writing-arm64-code-for-apple-platforms#Enable-DIT-for-constant-time-cryptographic-operations)
 
-### Apple Post Quantum iMessage
-
-- [article](https://security.apple.com/blog/imessage-pq3/)
 
 ## Events
 
