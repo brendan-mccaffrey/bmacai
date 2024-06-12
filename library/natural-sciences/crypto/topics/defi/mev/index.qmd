@@ -70,6 +70,8 @@ title: MEV
 - [Automated Market Making and Loss-Versus-Rebalancing](https://arxiv.org/pdf/2208.06046)
 - [The Orderflow Auction Design Space](https://frontier.tech/the-orderflow-auction-design-space)
 - [Automated Market Making and Arbitrage Profits in the Presence of Fees](https://moallemi.com/ciamac/papers/lvr-fee-model-2023.pdf)
+- [Leaderless Auctions](https://www.paradigm.xyz/2024/02/leaderless-auctions)
+- [Multiplicity: A Gadget for Multiple Concurrent Block Proposers](https://ethresear.ch/t/multiplicity-a-gadget-for-multiple-concurrent-block-proposers/14962)
 
 ### Videos & Talks
 
