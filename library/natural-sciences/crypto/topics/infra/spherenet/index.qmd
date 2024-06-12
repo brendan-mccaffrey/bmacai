@@ -60,3 +60,29 @@ permissioned solana cluster (subcluster)
 privacy preserving solana fork
 running on frankendancer from day 1
 its a matching engine to connect you with others 
+
+
+
+
+closed feb/march last year, got in contact with TCG later, who ended up coleading
+2.5 @ 10
+
+
+Current round
+
+pyth
+robot
+
+- raising 15-30
+- 7-8 comitted
+- max dilution 20-25%
+- token based, 3 token warrants - one of them is stable, warrant is yield over some time
+
+
+bpf loader - program stuff
+vote acct initiation - governance/consensus side
+bank module - meat of it, safety layer
+
+once u get past permissioning, it gets easier. you can force things to happen. if theres one particular version of token program, u cant use an alternative
+
+if u hold govt token, people deployign programs will have to pay you. buy and lock govt token to deploy
