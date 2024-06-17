@@ -6,6 +6,16 @@ title: Computational Theory
 
 - [A Generalized Birthday Problem](https://www.iacr.org/archive/crypto2002/24420288/24420288.pdf)
 
+## Landauer's Principle
+
+Landauer's principle is a physical principle pertaining to the lower theoretical limit of energy consumption of computation. It holds that an irreversible change in information stored in a computer, such as merging two computational paths, dissipates a minimum amount of heat to its surroundings. The principle was first proposed by Rolf Landauer in 1961.
+
+Landauer's principle states that the minimum energy needed to erase one bit of information is proportional to the temperature at which the system is operating. More specifically, the energy needed for this computational task is given by
+
+$$ E \leq k_B T \ln 2 $$
+
+where $𝑘_B$ is the Boltzmann constant. At room temperature, the Landauer limit represents an energy of approximately 0.018 eV (2.9×10−21 J). Modern computers use about a billion times as much energy per operation.
+
 ## Shannon Hartley Theorem
 
 The Shannon-Hartley theorem states that the maximum channel capacity C (in bits per second) for a continuous-time analog communication channel subject to Gaussian noise is given by the formula:

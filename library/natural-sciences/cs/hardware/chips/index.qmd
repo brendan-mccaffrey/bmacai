@@ -3,3 +3,8 @@ title: Chips
 description: Semiconductors
 ---
 
+## Resources
+
+- [To the Digital Age: The rise of MOS technology]
+- [The Transitior that Won the World](https://www.youtube.com/watch?v=k8cdByDa3oA)
+
