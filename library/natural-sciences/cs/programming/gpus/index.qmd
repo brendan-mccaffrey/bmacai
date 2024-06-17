@@ -1,85 +1,38 @@
 ---
-title: Compute Hardware
-table-of-contents: true
+title: Programming GPUs
 ---
 
-## Origin
 
-### Von Neumann Architecture
+## Resources
 
-Von Neumann architecture, also known as the von Neumann model or Princeton architecture, is a fundamental computer architecture design that was proposed by John von Neumann in 1945. It outlines a general framework for the construction of a stored-program digital computer. The key components and principles of the von Neumann architecture are:
+- [Github of Resources](https://github.com/arpitingle/gpu-alpha?tab=readme-ov-file)
 
-#### **Components**
+### Articles
 
-1. **Central Processing Unit (CPU)**: This consists of the following sub-components:
-   - Arithmetic Logic Unit (ALU): Performs arithmetic and logical operations
-   - Control Unit (CU): Fetches instructions from memory and coordinates operations
-   - Registers: High-speed storage areas for data and instructions
-2. **Memory Unit**: Stores both data and instructions in the same memory space.
-3. **Input/Output (I/O) Devices**: Interfaces for receiving input data and sending output data.
-4. **System Bus**: A communication pathway that transfers data between the CPU, memory, and I/O devices.
+- [GPU Programming](https://enccs.github.io/gpu-programming/)
+- [History of NVIDIA Stream Multiprocessor](https://fabiensanglard.net/cuda/)
+- [Parallel Thread Execution](https://docs.nvidia.com/cuda/parallel-thread-execution/index.html)
+- [Making Deep Learning Go Brrrr From First Principles](https://horace.io/brrr_intro.html)
+- [CUDA Matrix Multiplication Optimization](https://leimao.github.io/article/CUDA-Matrix-Multiplication-Optimization/)
 
-#### **Key Principles**
+### Tutorials
 
-1. **Stored Program Concept**: Both data and instructions are stored in the same memory unit, treated equally by the CPU.
-2. **Sequential Execution**: Instructions are fetched and executed sequentially by the CPU.
-3. **Von Neumann Bottleneck**: The CPU can only access one piece of data from memory at a time, creating a potential bottleneck in data transfer between CPU and memory.
+- [Intro to Parallel Progamming](https://developer.nvidia.com/udacity-cs344-intro-parallel-programming)
 
-The von Neumann architecture laid the foundation for modern computer systems and is still widely used today, although various enhancements and modifications have been made to improve performance and overcome the von Neumann bottleneck, such as caching, pipelining, and parallel processing.
+### Videos
 
-## Companies
+- [How GPU Computing Works](https://www.youtube.com/watch?v=3l10o0DYJXg)
+- [Getting Started with CUDA for Python Programmers](https://www.youtube.com/watch?v=nOxKexn3iBo)
+- [CUDA Training Series](https://www.youtube.com/playlist?app=desktop&list=PL6RdenZrxrw-zNX7uuGppWETdxt_JxdMj&si=ZqKCQgFef-v3JBv8)
+- [Programming Parallel Computers](https://www.youtube.com/playlist?list=PL2RY7P3JxZN-Pz1nwvnoJ9uEHmOmv4jmi)
+- [GPU Programming](https://www.youtube.com/playlist?list=PL3xCBlatwrsXCGW4SfEoLzKiMSUCE7S_X)
+- [CUDA from Scratch](https://www.youtube.com/playlist?list=PLxNPSjHT5qvvwoy6KXzUbLaF5A8NdJvuo)
 
-- [Fabric: Custom Silicon general purpose processor for cryptography](https://www.fabriccryptography.com/about)
-- [Etched: Hardware accelerator for transformer inference](https://fundomo.notion.site/Etched-memo-157efba8575a478fab53ef9e58c7185f)
+### Books
 
-## CPUs v GPUs
+- [RDNA3 Instruction Set Architecture](https://www.amd.com/content/dam/amd/en/documents/radeon-tech-docs/instruction-set-architectures/rdna3-shader-instruction-set-architecture-feb-2023_0.pdf)
 
-CPUs are designed for serialized execution: fault tolerant, low latency. A CPU has a large control unit, a few ALUs, and usually only 8 to 16 cores. A GPU, on the other hand, can feature 11,000 cores.
-
-Graphics Processing Units are designed for parallel procesing: high throughout, less control logic.
-
-Apple's GPU cores are split into 16 execution units, where each of these has 8 algorithmic logic units (ALUs). When NVIDIA says they have "8960 CUDA Cores" this is referring to ALUs. ALUs are the fundamental operating units.
-
-CUDA is a software framework by NVIDIA to simplify parallelization.
-
-#### **NVIDIA **
-
-[Supercut Presentation, July 2023](https://www.youtube.com/watch?v=0EIwhvqCX1c)
-
-The HGX H100 H100 has 35,000 components and 8 Hopper GPUs. It weighs 60 pounds, and costs $200,000. The compute tray is the first computer with a transformer engine in it.
-
-There's 2 fundamental trends: CPU scaling has ended, and AI has begun (accelerated computing). the tipping point, NVIDIA GPU utilization is high.
-
-**Comparison: $10mm**
-
-- 960 CPUs, consumes 11GWh, 1x LLM
-- 48 GPUs, consumes 3.2 GWh, 44x LLM (performance)
-
-## RISC Architecture
-
-RISC (Reduced Instruction Set Computer) is a design philosophy for CPUs, emphasizing a small and simple set of instructions that execute in a single clock cycle. RISC-V, on the other hand, is a specific, open-standard instruction set architecture (ISA) based on the RISC principles.
-
-While RISC and RISC-V are primarily associated with CPUs, the concepts and ISAs can be applied elsewhere. In fact, with the advent of more versatile computing platforms and the demand for specialized hardware accelerators, the lines between CPUs, GPUs, and other processing units can sometimes blur.
-
-**GPUs and RISC**
-
-GPUs (Graphics Processing Units) have a different historical design lineage than CPUs. While CPUs are designed for general-purpose tasks and can handle a wide variety of operations in sequence, GPUs are designed for parallelism, optimized for executing the same operation on a large number of data elements simultaneously. This design is especially suitable for graphics rendering tasks, where, for instance, the same shading operation might be applied to millions of pixels.
-
-That said, modern GPUs have evolved and can handle more general-purpose tasks. This field, known as GPGPU (General-Purpose computing on Graphics Processing Units), has grown in prominence, especially with applications in scientific computing, machine learning, etc. 
-
-The instruction set architectures for GPUs are typically proprietary to the manufacturer:
-- NVIDIA GPUs use an architecture known as **CUDA** (Compute Unified Device Architecture).
-- AMD GPUs use architectures like **GCN** (Graphics Core Next) or RDNA.
-
-While these architectures might share some high-level concepts with RISC — like the importance of efficiency and streamlined operations — they're not RISC architectures in the traditional sense.
-
-**RISC-V and GPUs**
-
-RISC-V, given its open nature, is seeing exploration beyond traditional CPUs. There are projects and discussions around using RISC-V principles in GPU design or other specialized hardware accelerators. However, as of my last training data in September 2021, RISC-V's primary traction is in the CPU space, from microcontrollers to more powerful processors.
-
-In conclusion, while RISC and RISC-V are primarily associated with CPUs, the principles and architectures are versatile. The GPU world has its architectures optimized for its specific tasks, but the lines between these domains are evolving, and there's potential for overlap in the future.
-
-### Designing a VM for GPUs
+## Designing a VM for GPUs
 
 Designing a virtual machine (VM) specifically optimized for GPUs and AI operations is not just a sensible idea, but it's also a direction in which some sectors of the tech industry are heading. Let's explore why this is a compelling notion and what features or characteristics such a VM might possess.
 
@@ -106,7 +59,7 @@ Designing a virtual machine (VM) specifically optimized for GPUs and AI operatio
 
 In essence, the idea of a virtual machine optimized for GPUs and AI operations seeks to bridge the gap between high-level AI frameworks and the raw power of GPU hardware. While creating such a VM is a non-trivial task and demands deep integration between software and hardware, the potential benefits in terms of performance, security, and portability make it a compelling direction for the future of AI infrastructure.
 
-As of my last update in September 2021, there isn't a mainstream "virtual machine" tailored explicitly for GPUs in the same way that the Java Virtual Machine (JVM) or the Ethereum Virtual Machine (EVM) are for their respective domains. However, there are platforms and runtime environments optimized for GPU operations, especially in the context of AI/ML.
+There isn't a mainstream "virtual machine" tailored explicitly for GPUs in the same way that the Java Virtual Machine (JVM) or the Ethereum Virtual Machine (EVM) are for their respective domains. However, there are platforms and runtime environments optimized for GPU operations, especially in the context of AI/ML.
 
 Some of these platforms and their unique features include:
 
@@ -151,5 +104,22 @@ These platforms are more akin to runtime environments than traditional "virtual 
 
 However, it's essential to understand that while these platforms provide the tools and runtime for GPU-optimized operations, they don't function as "virtual machines" in the traditional sense of emulating a complete computing environment. They are closer to specialized compilers and runtime environments.
 
+## GPUs and RISC
 
+GPUs (Graphics Processing Units) have a different historical design lineage than CPUs. While CPUs are designed for general-purpose tasks and can handle a wide variety of operations in sequence, GPUs are designed for parallelism, optimized for executing the same operation on a large number of data elements simultaneously. This design is especially suitable for graphics rendering tasks, where, for instance, the same shading operation might be applied to millions of pixels.
+
+That said, modern GPUs have evolved and can handle more general-purpose tasks. This field, known as GPGPU (General-Purpose computing on Graphics Processing Units), has grown in prominence, especially with applications in scientific computing, machine learning, etc. 
+
+The instruction set architectures for GPUs are typically proprietary to the manufacturer:
+
+- NVIDIA GPUs use an architecture known as **CUDA** (Compute Unified Device Architecture).
+- AMD GPUs use architectures like **GCN** (Graphics Core Next) or RDNA.
+
+While these architectures might share some high-level concepts with RISC — like the importance of efficiency and streamlined operations — they're not RISC architectures in the traditional sense.
+
+### RISC-V & GPUs
+
+RISC-V, given its open nature, is seeing exploration beyond traditional CPUs. There are projects and discussions around using RISC-V principles in GPU design or other specialized hardware accelerators. However, as of my last training data in September 2021, RISC-V's primary traction is in the CPU space, from microcontrollers to more powerful processors.
+
+In conclusion, while RISC and RISC-V are primarily associated with CPUs, the principles and architectures are versatile. The GPU world has its architectures optimized for its specific tasks, but the lines between these domains are evolving, and there's potential for overlap in the future.
 

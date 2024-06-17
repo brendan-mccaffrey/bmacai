@@ -3,8 +3,6 @@ title: Topics
 description: Topics in quantum computing and quantum networking
 ---
 
-
-
 ## Photonic Quantum Computer, Logical Gate Speed
 
 - [What is the logical gate speed of a photonic quantum computer?](https://quantumfrontiers.com/2023/06/21/what-is-the-logical-gate-speed-of-a-photonic-quantum-computer/)

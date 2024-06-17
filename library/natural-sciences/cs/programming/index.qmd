@@ -7,14 +7,11 @@ title: Programming
 - [Peter Norvig Blog](https://norvig.com/)
 - [Tech Yourself Programming in 10 Years](https://norvig.com/21-days.html)
 
-### Tools
+## Reads
 
-- [jscpd: cl tool that finds copy/pasted code and reports duplicates](https://twitter.com/housecor/status/1751269325313355971)
+- [The Fifth Epoch of Distirbuted Computing](https://cloud.google.com/blog/topics/systems/the-fifth-epoch-of-distributed-computing)
 
-### Concepts & Practices
+### Low Level
 
-- [Asynchronous I/O Programming under Linux](https://unixism.net/loti/index.html)
-
-### Project-Specific
-
-- [Chrome Extension From Scratch - Inject JavaScript And CSS](https://www.youtube.com/watch?v=mgFo3fxuUyA)
+- [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- [Memory Performance in a Nutshell](https://www.intel.com/content/www/us/en/developer/articles/technical/memory-performance-in-a-nutshell.html)

@@ -1,0 +1,14 @@
+---
+title: Quantum Software
+---
+
+## Software
+
+**Shor's Algorithm**
+
+- 1994, [Algorithms for Quantum Computation: Discrete Logarithms and Factoring](https://ieeexplore.ieee.org/document/365700)
+- 2023, Regev's Algorithm - An improvement on Shor's
+    - [Thirty Years Later, a Speed Boost for Quantum Factoring](https://www.quantamagazine.org/thirty-years-later-a-speed-boost-for-quantum-factoring-20231017)
+    - [An Efficient Quantum Factoring Algorithm](https://arxiv.org/abs/2308.06572)
+- 2023, A memory improvement on Regev's
+    - [Optimizing Space in Regev's Factoring Algorithm](https://arxiv.org/abs/2310.00899)

@@ -2,15 +2,14 @@
 title: Computer Science
 ---
 
-## General
+## Resources
 
 - [Teach Yourself Computer Science](https://teachyourselfcs.com/)
 - [From the Transistor to the Web Browser: Understanding the Modern Computer Stack from First Principles](https://github.com/geohot/fromthetransistor)
+
+## Reads
+
 - [Leslie Lamport's works](https://lamport.azurewebsites.net/pubs/pubs.html?from=https://research.microsoft.com/users/lamport/pubs/pubs.html&type=path)
-- [Network Effects Bible](https://www.nfx.com/post/network-effects-bible)
 
-## Etc
 
-- [bci/acc: A Pragmatic path to compete with artificial superintelligence](https://medium.com/@trentmc0/bci-acc-a-path-to-balance-ai-superintelligence-80bb6f32e39c)
-- [Open Source Remote Desktop](https://twitter.com/rustdesk)
-- [Reverse Engineering Qualcomm Baseband Scripts](https://github.com/mzakocs/qualcomm_baseband_scripts)
+

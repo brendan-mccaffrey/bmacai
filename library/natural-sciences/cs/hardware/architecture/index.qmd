@@ -1,0 +1,33 @@
+---
+title: Architecture
+table-of-contents: true
+---
+
+## Von Neumann Architecture
+
+Von Neumann architecture, also known as the von Neumann model or Princeton architecture, is a fundamental computer architecture design that was proposed by John von Neumann in 1945. It outlines a general framework for the construction of a stored-program digital computer. The key components and principles of the von Neumann architecture are:
+
+#### **Components**
+
+1. **Central Processing Unit (CPU)**: This consists of the following sub-components:
+   - Arithmetic Logic Unit (ALU): Performs arithmetic and logical operations
+   - Control Unit (CU): Fetches instructions from memory and coordinates operations
+   - Registers: High-speed storage areas for data and instructions
+2. **Memory Unit**: Stores both data and instructions in the same memory space.
+3. **Input/Output (I/O) Devices**: Interfaces for receiving input data and sending output data.
+4. **System Bus**: A communication pathway that transfers data between the CPU, memory, and I/O devices.
+
+#### **Key Principles**
+
+1. **Stored Program Concept**: Both data and instructions are stored in the same memory unit, treated equally by the CPU.
+2. **Sequential Execution**: Instructions are fetched and executed sequentially by the CPU.
+3. **Von Neumann Bottleneck**: The CPU can only access one piece of data from memory at a time, creating a potential bottleneck in data transfer between CPU and memory.
+
+The von Neumann architecture laid the foundation for modern computer systems and is still widely used today, although various enhancements and modifications have been made to improve performance and overcome the von Neumann bottleneck, such as caching, pipelining, and parallel processing.
+
+## RISC Architecture
+
+RISC (Reduced Instruction Set Computer) is a design philosophy for CPUs, emphasizing a small and simple set of instructions that execute in a single clock cycle. RISC-V, on the other hand, is a specific, open-standard instruction set architecture (ISA) based on the RISC principles.
+
+While RISC and RISC-V are primarily associated with CPUs, the concepts and ISAs can be applied elsewhere. In fact, with the advent of more versatile computing platforms and the demand for specialized hardware accelerators, the lines between CPUs, GPUs, and other processing units can sometimes blur.
+

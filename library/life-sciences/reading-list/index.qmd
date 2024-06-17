@@ -9,3 +9,4 @@ title: Reading List
 - [Having Kids](https://paulgraham.com/kids.html)
 - [How to Lose Time and Money](https://paulgraham.com/selfindulgence.html)
 - [The Bus Ticket Theory of Genius](https://paulgraham.com/genius.html)
+- [Network Effects Bible](https://www.nfx.com/post/network-effects-bible)
