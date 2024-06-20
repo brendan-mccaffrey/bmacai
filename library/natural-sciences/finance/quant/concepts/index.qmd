@@ -49,3 +49,45 @@ For a deeper understanding of the Campbell-Shiller decomposition and its applica
 These works provide the foundational theory and empirical evidence supporting the use of the Campbell-Shiller decomposition in financial analysis and forecasting.
 
 In summary, the Campbell-Shiller decomposition is a powerful tool for understanding the dynamics of asset prices and for making informed forecasts about future returns. It is highly relevant for both academics and practitioners in the field of finance.
+
+## Price-Earnings Decomposition
+
+### Overview
+Price-earnings (P/E) decomposition is a method used to break down the P/E ratio into its fundamental components to understand the drivers behind a stock's valuation. The P/E ratio is a widely recognized valuation metric that measures a company's current share price relative to its per-share earnings. By decomposing the P/E ratio, analysts can gain insights into the factors influencing a company's valuation, such as growth opportunities, risk premiums, and earnings stability.
+
+### Mathematical Formulation
+The P/E ratio can be expressed using the Gordon Growth Model (GGM):
+
+$$ \frac{P_0}{E_0} = \frac{(1 - b)(1 + g)}{r - g} $$
+
+where:
+- $P_0$ is the current price.
+- $E_0$ is the current earnings.
+- $b$ is the retention ratio.
+- $g$ is the growth rate of earnings.
+- $r$ is the required rate of return.
+
+This formula shows that the P/E ratio is influenced by the dividend payout ratio ($1 - b$), the growth rate of earnings ($g$), and the required rate of return ($r$).
+
+### Interpretation
+The decomposition of the P/E ratio helps in understanding:
+1. **Growth Opportunities**: Higher growth rates ($g$) lead to higher P/E ratios, indicating that investors expect future earnings to grow.
+2. **Risk Premiums**: Higher required rates of return ($r$) lower the P/E ratio, reflecting higher perceived risk.
+3. **Earnings Stability**: The dividend payout ratio ($1 - b$) affects the P/E ratio, with higher payouts generally leading to higher P/E ratios if growth expectations are stable.
+
+### Differences from Campbell-Shiller Decomposition
+While the Campbell-Shiller decomposition focuses on breaking down the price-dividend ratio into expected future dividend growth and expected future returns, the P/E decomposition focuses on the relationship between price and earnings. The Campbell-Shiller model is more concerned with the present value of expected future dividends and discount rates, whereas the P/E decomposition is more directly tied to earnings growth and risk premiums.
+
+### Summary of References
+
+#### 1. **"Price and earnings momentum: An explanation using return decomposition" by Mao Mike Qinghao and Wei K.C. John** [1]
+This paper decomposes stock returns into expected return, cash flow news, and discount rate news. It highlights how winners experience higher discount rate news, which results in lower ex-ante returns. This decomposition helps in understanding the momentum in stock prices and earnings.
+
+#### 2. **"A five-factor asset pricing model" by Fama Eugene F. and French Kenneth R.** [18]
+This study introduces a five-factor model that includes size, value, profitability, and investment patterns in average stock returns. It connects these factors to the dividend discount model, providing a comprehensive framework for understanding stock returns beyond the traditional three-factor model.
+
+#### 3. **"The Dividend-Price Ratio and Expectations of Future Dividends and Discount Factors" by Campbell, John Y., and Shiller, Robert J.** [8]
+This classic paper introduces the Campbell-Shiller decomposition, which breaks down the price-dividend ratio into expected future dividend growth and expected future returns. It provides a foundational understanding of how stock prices reflect future cash flows and discount rates.
+
+### Conclusion
+The price-earnings decomposition and the Campbell-Shiller decomposition are both valuable tools for understanding the drivers of stock prices. The P/E decomposition focuses on earnings growth and risk premiums, while the Campbell-Shiller decomposition emphasizes the present value of expected future dividends and discount rates. Both methods provide critical insights for investors and analysts in evaluating stock valuations and making informed investment decisions.
