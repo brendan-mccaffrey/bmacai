@@ -13,10 +13,25 @@ title: MEV
 - [Solana Internals, Part 1](https://medium.com/@metaproph3t/solana-internals-part-1-449ee68cb4f4)
 - [Discovering Raydium Pairs](https://github.com/patrulek/Writings/blob/main/Discovering%20Raydium%20Pairs.md)
 - [ammagg repo](https://github.com/brendan-mccaffrey/ammagg)
+- [SolanaMevBot.com](https://docs.solanamevbot.com/home/fundamentals/bot-configurations)
+- [self-hosted Jupiter V6 Swap API](https://station.jup.ag/docs/apis/self-hosted)
+- [rpcpool yellowstone grpc](https://github.com/rpcpool/yellowstone-grpc)
+- [yellowstone/geyser/grpc docs](https://docs.triton.one/project-yellowstone/introduction)
+
+## Tools
+
+- [solana rpc benchmark tool](https://github.com/Cetipoo/solana-rpc-benchmark-tool)
+- [thorlabs rpc benchmark](https://github.com/thorlabsDev/rpc-benchmark)
+- [memobench full tx lifecycle rpc benchmarking tool](https://github.com/benjiewheeler/memobench)
+- [transactioner send sol back and forth as rpc healthcheck](https://github.com/kristianfreeman/transactioner)
+- [solanamevbot performance tuning docs](https://docs.solanamevbot.com/home/fundamentals/performance-tuning)
 
 ## Info
 
 - [arc: top sandwicher](https://solscan.io/account/arsc4jbDnzaqcCLByyGo7fg7S2SmcFsWUzQuDtLZh2y)
+- "He literally transferred SOL to all the new signers from the arsc wallet and he's even the authority wallet on their new program, I don't think that they are trying to hide at all.
+KKKK (aka ooo/ppp)'s brother is also back on their latest program T1PM32 or whatever. The other two guys have disappeared, probably lost stake."
+- [mf arc got licked](https://x.com/LetsCodeWeb3/status/1803155149076001262)
 
 
 ### BloXroute
