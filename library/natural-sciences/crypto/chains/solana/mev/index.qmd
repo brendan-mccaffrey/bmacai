@@ -1,5 +1,5 @@
 ---
-title: Solana MEV
+title: MEV
 ---
 
 ## Dashboards
@@ -14,17 +14,10 @@ title: Solana MEV
 - [Discovering Raydium Pairs](https://github.com/patrulek/Writings/blob/main/Discovering%20Raydium%20Pairs.md)
 - [ammagg repo](https://github.com/brendan-mccaffrey/ammagg)
 
-### Jito
+## Info
 
-- [Jito Solana](https://github.com/jito-foundation/jito-solana/tree/v1.17-fast-replay)
-- [Geyser gRPC Plugin](https://github.com/jito-foundation/geyser-grpc-plugin)
-- [Jito-rs](https://github.com/jito-labs/jito-rs)
-- [Jito MEV Protos](https://github.com/jito-labs/mev-protos/blob/master/json_rpc/http.md)
-- [Shredstream Docs](https://jito-labs.gitbook.io/mev/searcher-services/shredstream)
-- [Shredstream Proxy Github](https://github.com/jito-labs/shredstream-proxy)
-- [Block Engine Simple](https://github.com/jito-labs/block_engine_simple)
-- [Jito MEV Bot](https://github.com/jito-labs/mev-bot)
-- [Mainnet Addresses](https://jito-labs.gitbook.io/mev/searcher-resources/block-engine/mainnet-addresses)
+- [arc: top sandwicher](https://solscan.io/account/arsc4jbDnzaqcCLByyGo7fg7S2SmcFsWUzQuDtLZh2y)
+
 
 ### BloXroute
 
@@ -47,79 +40,6 @@ title: Solana MEV
 
 - [Raydium Dev Docs](https://docs.raydium.io/raydium/protocol/developers)
 
-
-## Notes
-
-#### **Jito** 
-
-- use `confirmed` or `finalized` blockhash
-
-**Fast Replay**
-
-- We just open sourced our fast replay algorithm, which finishes blocks ~100ms faster than the current replay algorithm. When combined with Jito's ShredStream product, you will be finishing blocks with the lowest latency behind the block producer.
-- [repo](https://github.com/jito-foundation/jito-solana/tree/v1.17-fast-replay)
-- recommend using flag `--replay-slots-concurrently`
-
-**Monitor Tip Rate**
-
-- New resources to monitor tip levels to help inform your trading:
-- Endpoint: `ws://bundles-api-rest.jito.wtf/api/v1/bundles/tip_stream`
-
-**JSON-RPC Endpoint**
-
-- We recently shipped the JSON-RPC endpoint version of our gRPC API. This will enable wallets and front-ends to send bundles. This endpoint does not require an API key but has a strict global rate limit. 
-- [docs](https://github.com/jito-labs/mev-protos/blob/6f7529b1526944884c94f31b44d0bd880c9bd460/json_rpc/http.md)
-
-**Running a Relayer**
-
-- [docs](https://jito-foundation.gitbook.io/mev/jito-relayer/running-a-relayer)
-- [repo](https://github.com/jito-foundation/jito-relayer)
-
-**Searcher Auth**
-
-- this only needs to be run every ~30min [token_auth](https://github.com/jito-labs/searcher-examples/blob/cefcd5a8ac18d3287f639f6cc4952602a179d6a7/searcher_client/src/token_authenticator.rs#L130)
-- this only needs to be run every 3000 minutes (~2 days) [token_auth](https://github.com/jito-labs/searcher-examples/blob/cefcd5a8ac18d3287f639f6cc4952602a179d6a7/searcher_client/src/token_authenticator.rs#L114)
-
-If you haven't already, please switch from using this (https://github.com/jito-labs/mev-protos/blob/master/searcher.proto#L104) endpoint to using this (https://github.com/jito-labs/mev-protos/blob/master/searcher.proto#L107) endpoint.
-
-
-### ShredStream
-
-- [Jito Shredstream](https://jito-labs.gitbook.io/mev/searcher-services/shredstream)
-
-Average Speedup for Slot Completion
-
-- Amsterdam: 46ms
-- Frankfurt: 45ms
-- NY: 28ms
-- Tokyo: 25ms
-
-Bandwidth: Shredstream requires 4MiB/s or 32Mbit/s per stream. Streaming from multiple regions is supported.
-
-Shredstream provides the lowest latency shreds to any RPC or validator on the network. It can save hundreds of milliseconds when trading on Solana and provides a redundant shred path for servers in remote locations.
-
-Shreds are fractions of blocks that are made by a block producer on Solana. One can compare shreds to the individual picture frames in a video stream. Other nodes on the network receive these shreds and replay them on-the-fly, meaning state is always changing on Solana vs. Ethereum where state is paused intra-slot.
-
-Shreds are distributed to the nwtork in a tree-like manner. The number of hops a shred takes to reach a server is related to a stake-weighted shuffle; servers with high stake are likely to be 0 or 1 hops away whil RPC servers are likely to be 1 or 2 hops.
-
-
-#### **Running ShredStream**
-
-- [Docs](https://jito-labs.gitbook.io/mev/searcher-services/shredstream#running-shredstream)
-
-### MempoolStream
-
-Solana has a unique architecture because there's no mempool! Transactions are sent directly to leaders in what's called [Gulf Stream](https://medium.com/solana-labs/gulf-stream-solanas-mempool-less-transaction-forwarding-protocol-d342e72186ad). Between this and the streaming nature of Solana, the mempool looks more like a river than a pool. 
-
-Jito's unique architecture allows searchers to receive a stream of pending transactions called a mempool stream so they can inspect and bundle them to be executed sequentially and atomically on the validator.
-
-Jito Validators connect to a relayer and tells the network through gossip to send transactions to the relayer instead of directly to the validator. The relayer will filter and deduplicate transactions before immediately forwarding them to Jito's Block Engine. the block engine will then send transactions to searchers where searchers can bundle the trades and submit them to the block engine to be included in the current block.
-
-The Relayer holds transactions for at most 200ms before forwarding them to the validator. This means searchers have at most 200ms to construct bundles before the packets beat them to the validator.
-
-The 200ms delay maximizes the fairness for searchers to contruct bundles, doesn't impact the validator's block packing ability, doesn't impact Solana's UX, and allows for efficient MEV.
-
-The mempool can be accessed through the block engine. After getting access to the block engine, one can run searcher_client in the searcher-examples repository to inspect the mempool. Please look at the README.md in the repository for the most up-to-date instructions on listening to the mempool.
 
 
 ## Protocol Specific
