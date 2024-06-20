@@ -2,16 +2,13 @@
 title: AI Projects
 ---
 
-### General
-
-- [Meta: CICERO](https://ai.facebook.com/research/cicero/) 
-    - The first AI to play at a human level in Diplomacy, a strategy game that requires building trust, negotiating and cooperating with multiple players.
+### Text
 
 - [Lumentis:](https://github.com/hrishioa/lumentis) Generate beautiful docs from your transcripts and unstructured information with a single command.
+- [NotebookLM](https://notebooklm.google/)
 
 ### Images
 
-- [Lumiere: Video inpainting, image-to-video, video-gen](https://lumiere-video.github.io/)
 - [Replace Anything: Image inpainting](https://huggingface.co/spaces/modelscope/ReplaceAnything)
 - [Genie 1.0: Text-to-3D](https://twitter.com/LumaLabsAI/status/1744778363330535860)
 - [Pix2Pix](https://arxiv.org/pdf/2211.09800.pdf)
@@ -29,6 +26,7 @@ title: AI Projects
 
 - [Anything is Any Scene: Photorealistic Video Insertion](https://anythinginanyscene.github.io/)
 - [Make-A-Video: Text-to-Video Generation without Text-Video Data](https://arxiv.org/abs/2209.14792)
+- [Lumiere: Video inpainting, image-to-video, video-gen](https://lumiere-video.github.io/)
 
 ### Sound
 

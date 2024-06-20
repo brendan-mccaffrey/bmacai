@@ -50,6 +50,8 @@ description: Unorganized list of AI Research
 - [BLIP-2: Image to Text](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)
     - [tweet](https://twitter.com/LiJunnan0409/status/1621649677543440384?s=20&t=OdX-rH843kQC2bO6FvbRdw)
     - [huggingface](https://huggingface.co/spaces/Salesforce/BLIP2)
+- [Meta: CICERO](https://ai.facebook.com/research/cicero/) 
+    - The first AI to play at a human level in Diplomacy, a strategy game that requires building trust, negotiating and cooperating with multiple players.
 - [Seven Failure Points When Engineering a Retrieval Augmented Generation System](https://arxiv.org/abs/2401.05856)
 - [Beyond $A^*$: Better Planning with Transformers via Search Dynamics Bootstrapping](https://arxiv.org/pdf/2402.14083.pdf)
 - [Hallucination is Inevitable: An Innate Limitation of Large Language Models](https://arxiv.org/abs/2401.11817)
