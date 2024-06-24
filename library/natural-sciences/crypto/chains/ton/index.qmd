@@ -1,6 +1,6 @@
 --- 
 title: TON
-subtitle: The Open Network, by Telegram founder Dr. Nikolai Durov
+subtitle: The Open Network
 ---
 
 ## Resources
@@ -11,6 +11,69 @@ subtitle: The Open Network, by Telegram founder Dr. Nikolai Durov
 - [TON Blockchain Whitepaper](https://docs.ton.org/tblkch.pdf)
 - [Catchain Consensus Whitepaper](https://docs.ton.org/catchain.pdf)
 
-## Brief History
+## Overview
 
 Founder: [Dr. Nikolai Durov](https://en.wikipedia.org/wiki/Nikolai_Durov)
+
+The Open Network is a decentralized open internet platform made up of several components: TON blockchain, TON DNS, TON Storage, TON sites. The blockchain is the core protocol that connects all the underlying infrastructure.
+
+
+## Dev Resources
+
+- [TON Overview](https://docs.ton.org/learn/introduction)
+- [Blockchain of Blockchains](https://docs.ton.org/learn/overviews/ton-blockchain)
+
+## Concepts
+
+A sequence of txs pertaining to one smart contract is an AccountChain. Storing multiple AccountChains together yields a ShardChain. You can cut ShardChains into ShardBlocks. An aggregation of all shards which contains all accounts behaving by one set of rules is called a Blockchain. TON support many rulesets and thus many blockchains. TON has two workchains: BaseChain and MasterChain.
+
+### Addresses
+
+TON features raw addresses and user-friendly
+
+**tools**
+
+- [ton.org/address](https://ton.org/address/)
+- [dton.io API method](https://dton.io/api/address/0:867ac2b47d1955de6c8e23f57994fad507ea3bcfe2a7d76ff38f29ec46729627)
+- [toncenter API methods in mainnet](https://toncenter.com/api/v2/#/accounts/pack_address_packAddress_get)
+- [toncenter API methods in testnet](https://testnet.toncenter.com/api/v2/#/accounts/pack_address_packAddress_get)
+
+### Data
+
+TON data is stored in cells: up to 1023 bits and 4 references to other cells (bits and refs stored separately). 5 Types of cells: ordinary, pruned branch, library reference, merkle proof, merkle update
+
+read more on [cell (de)serialization](https://docs.ton.org/develop/data-formats/cell-boc)
+
+### Networking
+
+Abstract Datagram Network Layer (ADNL) protocol is the cornerstone of TON networking. [implementation here](https://github.com/ton-blockchain/ton/tree/master/adnl)
+
+**ADNL**
+
+- UDP on IPv4. with optional TCP fallback
+- IP Addresses and Ports are hidden by the ADNL Protocol.
+- ADNL address is 256-bit, essentially equivalent to 256-bit ECC public key.
+
+[Low-Level ADNL here](https://docs.ton.org/learn/networking/low-level-adnl)
+
+**Overlay Subnetworks** establish "semi-permanent links" by which messages are forwarded. It does not support sending datagrams to other arbitrary nodes like ADNL.
+
+**RDLP Protocol** is built on top of ADNL and is used instead of TCP-like protocol for RPC queries and such.
+
+**TON DHT Service**: The Kademlia-like Distributed Hash Table is important for networking and locating other nodes in the network.
+
+### Virtual Machine
+
+TVM is implemented in C++ [here](https://github.com/ton-blockchain/ton/tree/master/crypto/vm).
+
+Transactions are split into 5 stages:
+
+1. storage phase
+2. credit phase
+3. compute phase
+4. action phase
+5. bounce phase
+
+### Randomness
+
+[TON Random Number Generator](https://docs.ton.org/develop/smart-contracts/guidelines/random-number-generation)

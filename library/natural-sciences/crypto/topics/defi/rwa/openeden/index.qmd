@@ -10,3 +10,10 @@ title: OpenEden
     - *latest audit unavailable*
 - **token issuer**: Hill Lights International Limited, the Token Issuer, is a registered professional fund established under the British Virgin Islands Securities and Investment Business Act 2010 and regulated by the British Virgin Islands Financial Services Commission.
 - **investment manager**: Adam Eve Capital is a registered fund management company regulated by the Monetary Authority of Singapore with an investment mandate for short-dated U.S. T-Bills. The sole purpose of the Investment Manager is to invest the Fund’s assets in segregated accounts with tier-one, regulated, and qualified custodians.
+
+- [mainnet token tracker](https://etherscan.io/address/0xdd50C053C096CB04A3e3362E2b622529EC5f2e8a)
+- [KYC Manager](https://etherscan.io/address/0x51Be497AcEd1a2C19f6151064301e356B020D947)
+- [TBill Price Oracle](https://etherscan.io/address/0xCe9a6626Eb99eaeA829D7fA613d5D0A2eaE45F40#code)
+- [Underlying is USDC](https://etherscan.io/address/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48)
+- [treasury](https://etherscan.io/address/0xdF596281875feB7837351c70D11F2338c7e45435)
+- [qTreasury](https://etherscan.io/address/0x7566A094651CC826D99B57b3046EaB156269e94C)
