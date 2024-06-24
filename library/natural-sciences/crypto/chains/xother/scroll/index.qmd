@@ -1,0 +1,23 @@
+---
+title: Scroll
+---
+
+## Resources
+
+- [Ethereum and Scroll Differences](https://docs.scroll.io/en/developers/ethereum-and-scroll-differences/)
+
+
+## Ecosystem
+
+- [Nuri Exchange](https://x.com/nuriexchange)
+    - [app](https://www.nuri.exchange/swap)
+    - [docs](https://docs.nuri.exchange/introduction-to-nuri/what-is-nuri/why-scroll)
+    - [twitter](https://x.com/nuriexchange)
+    - it is a fork of [ramses](https://docs.ramses.exchange/)
+    - [ramses github](https://github.com/RamsesExchange)
+    - [ramses audit](https://reports.yaudit.dev/reports/06-2023-RAMSES/)
+
+- [Rho Markets](https://www.rhomarkets.xyz/)
+    - [twitter](https://x.com/rhomarketshq)
+    - [audit report](https://github.com/rhomarkets/Rho_Audit_Report/blob/main/Rho%20Markets%20Report.pdf)
+    - it is a fork of moonwell which is a fork of compoundV2 with some changes
