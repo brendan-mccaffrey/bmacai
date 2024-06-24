@@ -6,3 +6,4 @@ title: OpenEden
 
 - [website](https://openeden.com/)
 - [docs](https://docs.openeden.com/)
+- [Audit by Hacken](https://hacken.io/audits/openeden/)
