@@ -15,7 +15,7 @@ title: Layer 2 Rollups
 - [zkSync](https://zksync.io/)
 - [Base](https://base.org/)
 - [Kakarot](https://www.kakarot.org/)
-- [Starknet](https://www.starknet.io/en)
+- [Starknet](https://www.starknet.io/en) : [Beerus: Light client for Starknet](https://github.com/eigerco/beerus)
 - [dYdX](https://dydx.exchange/)
 - [Fuel](https://www.fuel.network/)
 - [Taiko](https://taiko.xyz/)
