@@ -2,12 +2,12 @@
 title: AI Projects
 ---
 
-### Text
+## Text
 
 - [Lumentis:](https://github.com/hrishioa/lumentis) Generate beautiful docs from your transcripts and unstructured information with a single command.
 - [NotebookLM](https://notebooklm.google/)
 
-### Images
+## Images
 
 - [Replace Anything: Image inpainting](https://huggingface.co/spaces/modelscope/ReplaceAnything)
 - [Genie 1.0: Text-to-3D](https://twitter.com/LumaLabsAI/status/1744778363330535860)
@@ -22,12 +22,22 @@ title: AI Projects
 - [DALL-E: Zero-Shot Text-to-Image Generation](https://arxiv.org/abs/2102.12092)
 
 
-### Video
+## Video
 
 - [Anything is Any Scene: Photorealistic Video Insertion](https://anythinginanyscene.github.io/)
 - [Make-A-Video: Text-to-Video Generation without Text-Video Data](https://arxiv.org/abs/2209.14792)
 - [Lumiere: Video inpainting, image-to-video, video-gen](https://lumiere-video.github.io/)
 - [Higgsfield AI](https://higgsfield.ai/)
+
+### Deepfakes
+
+- [Deepfake Model Collection](https://github.com/MitchellX/deepfake-models)
+- [DeepFaceLab Guides and Tutorials](https://github.com/iperov/DeepFaceLab?tab=readme-ov-file#guides-and-tutorials)
+- [Service provider forum](https://mrdeepfakes.com/forums/forums/deepfake-service-providers.94/)
+- [Colab Guide](https://mrdeepfakes.com/forums/threads/guide-deepfacelab-2-0-google-colab-guide.1340/)
+- [Colab](https://colab.research.google.com/github/chervonij/DFL-Colab/blob/master/DFL_Colab.ipynb)
+
+
 
 ### Sound
 

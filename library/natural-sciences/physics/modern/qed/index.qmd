@@ -5,6 +5,10 @@ title: Quantum Electrodynamics
 ## Resources
 
 - [QED: Richard Feynman]
+- [Photon turnstile dynamically regulated by one atom](https://pubmed.ncbi.nlm.nih.gov/18292335/)
+- [Supersolid formation in a quantum gas breaking a continuous translational symmetry](https://www.nature.com/articles/nature21067)
+- [Cavity Quantum Materials](https://arxiv.org/abs/2112.15018)
+- [Tuning quantum vacuum forces from attractive to repulsive](https://phys.org/news/2019-03-tuning-quantum-vacuum-repulsive.html)
 
 ### How can engineered light-matter coupling be used to control or enhance quantum materials by harnessing vacuum effects or few-photon external drives?
 
