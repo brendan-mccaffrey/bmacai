@@ -33,3 +33,11 @@ title: "Solana"
 - [SIMD: Asynchronous Program Execution and Broadcast](https://github.com/solana-foundation/solana-improvement-documents/pull/45)
 - [Priority Fees Github Issue](https://github.com/solana-labs/solana/issues/22820)
 - [Dune Query: % of Sol Txs with Fee above base](https://dune.com/queries/1111217/1898826)
+
+### Features
+
+#### Actions and Blinks (blockchain links)
+
+- [webpage](https://solana.com/solutions/actions)
+- [docs](https://solana.com/docs/advanced/actions)
+- [dialect](https://www.dialect.to/)

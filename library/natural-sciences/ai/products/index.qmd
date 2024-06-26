@@ -27,6 +27,7 @@ title: AI Projects
 - [Anything is Any Scene: Photorealistic Video Insertion](https://anythinginanyscene.github.io/)
 - [Make-A-Video: Text-to-Video Generation without Text-Video Data](https://arxiv.org/abs/2209.14792)
 - [Lumiere: Video inpainting, image-to-video, video-gen](https://lumiere-video.github.io/)
+- [Higgsfield AI](https://higgsfield.ai/)
 
 ### Sound
 
