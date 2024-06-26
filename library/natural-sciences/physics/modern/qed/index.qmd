@@ -1,0 +1,106 @@
+---
+title: Quantum Electrodynamics
+---
+
+## Resources
+
+- [QED: Richard Feynman]
+
+### How can engineered light-matter coupling be used to control or enhance quantum materials by harnessing vacuum effects or few-photon external drives?
+
+Key insights on how engineered light-matter coupling can be used to control or enhance quantum materials:
+
+1. Cavity-enhanced interactions: High-finesse optical cavities can significantly enhance light-matter interactions, allowing for precise control of quantum degrees of freedom in atoms and materials. This has been demonstrated with cold atoms to control photon transport and induce new quantum phases of matter[1][3].
+
+2. Quantum geometry effects: In flat-band and moiré materials, light couples to quantum geometric properties of the electronic wavefunctions, even when band velocities and curvatures vanish. The intraband quantum metric enables diamagnetic coupling within flat bands, while the interband Berry connection governs dipole transitions between flat and dispersive bands[4][5].
+
+3. Non-reciprocal energy transfer: Researchers have demonstrated a non-reciprocal, diode-like device that rectifies energy transfer mediated by quantum vacuum fluctuations between two micromechanical oscillators. This opens up possibilities for creating functional devices based on the Casimir effect[8].
+
+4. Tunable quantum vacuum forces: By inserting chiral materials between plates, the Casimir force can be tuned from attractive to repulsive and its magnitude can be controlled by adjusting the distance between plates or applying external magnetic fields[10].
+
+5. Vacuum energy effects: The coupling of materials to the quantum vacuum can lead to observable effects like spontaneous emission, the Casimir effect, and the Lamb shift. These phenomena can influence material properties and behavior at the quantum level[12].
+
+6. Few-photon control: Recent advances in nanophotonics with subwavelength field confinement allow for controlling materials using vacuum fluctuations or very few photons. This enables entering the regime of strong light-matter coupling where hybrid light-matter systems emerge[1].
+
+7. Quantum phase transitions: Light-matter coupling can be used to induce or modify quantum phase transitions in materials, potentially creating or enhancing phases like superconductivity, ferroelectricity, and magnetism[1].
+
+8. Exciton physics modification: Engineered light-matter coupling can alter semiconductor exciton physics, which is relevant for quantum information device applications[1].
+
+9. Topological systems: Light-matter interactions can be used to modify topologically ordered systems, which are of interest for quantum information processing[1].
+
+10. Vacuum decay observation: Researchers have observed vacuum decay bubbles in supercooled atomic gases, providing insights into quantum field theory and potentially shedding light on early universe physics[14].
+
+These insights demonstrate the wide-ranging potential of engineered light-matter coupling for controlling and enhancing quantum materials, from fundamental physics to practical applications in quantum information processing and sensing.
+
+Citations:
+[1] https://www.darpa.mil/ARC/QUAMELEON
+[2] https://www.nature.com/articles/s41377-024-01380-x
+[3] https://www.militaryaerospace.com/computers/article/14304741/quantum-materials-computing-sensors
+[4] https://arxiv.org/abs/2103.04967v4
+[5] https://journals.aps.org/prb/abstract/10.1103/PhysRevB.104.064306
+[6] https://www.southampton.ac.uk/study/postgraduate-research/projects/light-matter-interaction-for-quantum-materials-engineering
+[7] https://govtribe.com/opportunity/federal-contract-opportunity/quantum-materials-engineering-using-electromagnetic-fields-quameleon-darpaea240103
+[8] https://www.physics.purdue.edu/news/2021/1213_li_quantumvacuum.html
+[9] https://arxiv.org/abs/2309.07454
+[10] https://phys.org/news/2019-03-tuning-quantum-vacuum-repulsive.html
+[11] https://www.science.org/content/blog-post/chemistry-quantum-vacuum-no-really
+[12] https://en.wikipedia.org/wiki/Vacuum_energy
+[13] https://www.youtube.com/watch?v=-dsXpfHwb5Y
+[14] https://www.spacedaily.com/reports/Quantum_Field_theory_breakthrough_First_observation_of_vacuum_decay_bubbles_999.html
+[15] https://opg.optica.org/abstract.cfm?uri=josab-37-2-420
+[16] https://twitter.com/DARPA/status/1787579645795176455
+[17] https://link.aps.org/doi/10.1103/PhysRevX.9.021049
+[18] https://twitter.com/simenona
+[19] https://www.trdf.co.il/eng/kolkoreinfo.php?id=10782
+[20] https://arxiv.org/html/2402.12568v1
+
+## Cavity QED
+
+- [Cavity Quantum Materials](https://arxiv.org/abs/2112.15018)
+
+Prerequisite concepts:
+
+1. Cavity Quantum Electrodynamics (Cavity QED): This is a subfield of QED that studies the interaction between light and matter in confined spaces, typically optical cavities.
+
+2. Strong coupling regime: In cavity QED, this refers to a situation where the interaction between atoms and photons in a cavity is stronger than the dissipation rates.
+
+3. Polaritons: These are hybrid light-matter quasiparticles resulting from the strong coupling between photons and electronic excitations in a material.
+
+4. Quantum materials: These are materials whose properties are governed by quantum mechanical effects, often exhibiting exotic collective behaviors.
+
+Now, let's summarize the key points of the paper "Cavity Quantum Materials" by Johannes Knolle and Dante M. Kennes:
+
+1. The paper introduces the emerging field of cavity quantum materials, which combines concepts from cavity QED and quantum materials science.
+
+2. It explores how strong light-matter coupling in cavities can be used to manipulate and control the properties of quantum materials.
+
+3. The authors discuss various experimental platforms for realizing cavity quantum materials, including optical cavities, circuit QED systems, and plasmonic cavities.
+
+4. They review recent theoretical proposals and experimental demonstrations of cavity-induced modifications to material properties, such as:
+   - Enhanced superconductivity
+   - Modified electronic phase diagrams
+   - Cavity-controlled magnetism
+   - Light-induced topology
+
+5. The paper highlights the potential of cavity quantum materials for creating novel non-equilibrium phases of matter and controlling quantum many-body systems.
+
+6. It discusses the challenges and opportunities in this field, including the need for new theoretical tools to describe strongly correlated systems coupled to quantum light.
+
+7. The authors emphasize the interdisciplinary nature of this research, bridging quantum optics, condensed matter physics, and materials science.
+
+8. They outline future directions for the field, including the exploration of cavity-mediated interactions in quantum materials and the development of novel quantum technologies based on these hybrid light-matter systems.
+
+In summary, this paper provides an overview of the emerging field of cavity quantum materials, discussing how the principles of cavity QED can be applied to quantum materials to create new states of matter and control material properties. It serves as a roadmap for researchers interested in exploring this interdisciplinary area at the intersection of quantum optics and condensed matter physics.
+
+Citations:
+[1] https://arxiv.org/abs/2112.15018v2
+[2] https://qs3.mit.edu/images/pdf/5_Haroche_and_Kleppner_CQED_1989.pdf
+[3] https://www.sciencedirect.com/topics/physics-and-astronomy/cavity-quantum-electrodynamics
+[4] https://link.springer.com/chapter/10.1007/978-94-009-1657-9_1
+[5] https://www.scientificamerican.com/article/cavity-quantum-electrodynamics/
+[6] https://www.mpq.mpg.de/4939125/qed
+[7] https://www.phy.cam.ac.uk/research/research-groups/tcm/cqp
+[8] https://www.moore.org/initiative-strategy-detail?initiativeId=emergent-phenomena-in-quantum-systems
+[9] https://cse.umn.edu/research/wanggroup/collective-quantum-phenomena
+[10] https://www.fz-juelich.de/en/jcns/jcns-2
+[11] https://www.tcm.phy.cam.ac.uk/research/collective.html

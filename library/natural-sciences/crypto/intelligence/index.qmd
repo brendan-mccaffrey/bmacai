@@ -11,7 +11,5 @@ title: Intelligence
 ## News
 
 - [Ethereum Foundation Under Investigation by 'State Authority'](https://www.coindesk.com/business/2024/03/20/ethereum-foundation-under-investigation-by-state-authority/?utm_term=organic&utm_source=twitter&utm_campaign=coindesk_main&utm_content=editorial&utm_medium=social)
+- [Mt. Gox Repayment Notice June 24, 2024](https://www.mtgox.com/img/pdf/20240624_announcement_en.pdf)
 
-## Onchain Signals
-
-Bot trader 7grEJpUaWyNnXj4ZZherbv59Zc94SgD6T2b6S8YtXALB on solana [link](https://x.com/SOLWookie/status/1773085498614956218?s=20)
