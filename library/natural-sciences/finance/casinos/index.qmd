@@ -1,0 +1,18 @@
+---
+title: Beat the Casinos
+---
+
+# Principles
+
+- Voltility is your friend. The casinos win in the long run, so take the short run and get out when you're up
+
+- House edge varies across games and in-game bets (pass vs double 3s in craps, for example)
+
+- Understand the difference between theory and practice. There are real life considerations and risks beyond the rules of the games themselves.
+
+- House rules matter. Bet on the banker has lower house edge than the player in baccarat, for example. Some casinos mitigate this with a 5% comission, and some only pay 1.5 to 1 if the winning banker hand is a 6, for example. These rules matter.
+
+## Resources
+
+- [High-Tech Casino Advantage Play: Legislative Approaches to the Threat of Predictive Devices](https://scholars.law.unlv.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1045&context=glj) 
+- [Beat the Dealer](https://archive.org/details/beatdealerwinnin0000thor/page/n7/mode/2up)
