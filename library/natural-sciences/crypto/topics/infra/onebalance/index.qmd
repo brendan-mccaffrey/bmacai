@@ -11,11 +11,76 @@ title: One Balance
 
 ## Meeting
 
+Team
+
+- stephan
+- daniel worsley: non custodial exchange, mev in arbitrage/liquidations defi cartel, then flashbots, then frontier research
+- euclid: space in 2016/17, btc broker. bank shut them down joined trading side, first dex on starkex
+- 15 people on the team total
+
+
+Fundraising and incentivised deposit campaign
+
+Currently focused on pre-registrations
+
+- separate fulfillment speed from settlement speed
+    - do the cost issues will multichain execution still remain? user signing a base tx from mainnet requires solver to take on the burden of bridging/settlement, have to forward this to the user in terms of slippage or something
+
+- credible accounts
+- RFQs
+
+- Credible Stack
+
+Current
+- built registration
+- got traction from partners to integrate
+- cross chain accounts mid august
+- build their own wallet, and also integrate with other wallets: telegram bots, etc. Allow tg bots to provide their service with self-custody
+- wallet as a service will ride 4337, expect people to use them more in the future
+
+Go to market
+- boostrap credible commitment machine
+
 
 
 ### Questions
 
+- credible accounts, resource locks (RFQs)
+    - what exactly do you mean by credible account
+
+- who needs to buy in from the ecosystem. wallets for example... who else
+    - working with RPC providers, walletconnect
+
 - trusted execution environment? what does the product actually looke like
 - monetization / business plan?
-- who needs to buy in from the ecosystem. wallets for example... who else
+
 - cake solvers dont participate in on-chain ordering, correct?
+
+- which chains will you be supporting
+
+- business plan: 
+    - abstract away gas, take a cut on gas fee
+    - initially will not be chargin for this
+
+
+- how do you view the centralization of solvers / bots. PBS ended up with centralization issues.
+
+
+- mev/solvers
+    - goal is to minimize risk
+    - make it impossible to equivocate
+
+
+
+Fundraising
+- 50mm equity & 100mm
+
+Deposits
+
+- number of accounts created
+- volume
+- value
+
+
+want 1 billion a couple months after launch
+incentivized / precommitments: 300m
