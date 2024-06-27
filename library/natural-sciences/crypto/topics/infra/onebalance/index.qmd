@@ -8,3 +8,14 @@ title: One Balance
 - [Research Day Presentation](https://www.youtube.com/watch?v=okDSIm7PE6I)
 - [CAKE Framework](https://frontier.tech/the-cake-framework)
 - [Eth Research Introduction](https://ethresear.ch/t/introducing-onebalance/19557)
+
+## Meeting
+
+
+
+### Questions
+
+- trusted execution environment? what does the product actually looke like
+- monetization / business plan?
+- who needs to buy in from the ecosystem. wallets for example... who else
+- cake solvers dont participate in on-chain ordering, correct?
