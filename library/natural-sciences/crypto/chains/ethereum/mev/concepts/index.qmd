@@ -1,0 +1,39 @@
+---
+title: MEV Concepts
+---
+
+## LVR
+
+LVR stands for **"Loss Versus Rebalancing"**. It refers to the losses that liquidity providers in automated market makers (AMMs) like Uniswap incur due to arbitrage bots constantly rebalancing liquidity pools.
+
+Key points about LVR:
+
+1. It's a metric that compares passive liquidity provision to actively rebalancing a portfolio of assets.
+
+2. LVR is similar to the continuous hedging of options - it represents an optimal scenario that's difficult to achieve with non-zero gas costs and slippage.
+
+3. Research suggests that liquidity providers for major token pairs can lose 5-7% of their liquidity due to LVR.
+
+4. LVR is considered a significant form of MEV (Maximal Extractable Value) that grows superlinearly with time, which is why it's mentioned in the context of multi-block MEV strategies.
+
+5. The superlinear growth of LVR over multiple blocks is what makes multi-block MEV extraction potentially more profitable than single-block strategies, incentivizing builders to try to control consecutive blocks.
+
+LVR is used as an example of why builders might be incentivized to pursue multi-block MEV strategies, as the potential profits from LVR extraction grow faster than the linear cost of purchasing consecutive block slots. This creates a scenario where censoring transactions in earlier blocks to extract more value in later blocks becomes an attractive strategy for builders, potentially undermining the effectiveness of inclusion lists in preventing transaction censorship.
+
+Citations:
+[1] https://panoptic.xyz/research/demystifying-IL-LVR-JIT-MEV
+[2] https://anthonyleezhang.github.io/pdfs/lvr.pdf
+[3] https://ethresear.ch/t/lvr-minimization-in-uniswap-v4/15900
+[4] https://www.archetype.fund/media/mev-the-evolution-of-crypto-exchanges-part-i
+[5] https://blog.cow.fi/cow-dao-launches-the-first-mev-capturing-amm-bc7199e217a3?gi=cdb18a9541f5
+[6] https://arxiv.org/abs/2303.04430v2
+[7] https://collective.flashbots.net/t/multi-block-mev/457
+[8] https://arxiv.org/pdf/2303.04430.pdf
+[9] https://www.chainsecurity.com/blog/oracle-manipulation-after-merge
+[10] https://ethresear.ch/t/cumulative-non-expiring-inclusion-lists/16520
+[11] https://ethresear.ch/t/fun-and-games-with-inclusion-lists/16557
+[12] https://notes.ethereum.org/%40mikeneuder/il-spec-overview
+[13] https://us.beyondbullsandbears.com/2023/08/30/dimensions-insights-blockchain-and-fintech-expand-with-diversity-and-inclusion/
+[14] https://ethresear.ch/t/the-price-is-right-realigning-proposer-builder-incentives-with-predictive-mev-burn/18656
+[15] https://www.galaxy.com/insights/research/mev-the-rise-of-the-builders/
+[16] https://research.numeus.xyz/p/mev
