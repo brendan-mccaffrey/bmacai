@@ -1,0 +1,17 @@
+---
+title: Ekubo
+---
+
+## General
+
+- [docs](https://docs.ekubo.org/)
+
+Ekubo is an AMM on Starknet with gas efficiency, concentrated liquidity, extensions, and a withdrawal fee.
+
+## Gas Efficiency
+
+Singletone and Till Pattern (and flash accounting) combine to allow most efficient "net" transfers of tokens at the end of the block.
+
+- **[Till Pattern](https://docs.ekubo.org/integration-guides/till-pattern)**
+- [EthCC Introduction](https://www.youtube.com/watch?v=xFp8RlRq0qU)
+- [described here](https://github.com/OpenZeppelin/openzeppelin-contracts/issues/4361#issuecomment-1595095135)
