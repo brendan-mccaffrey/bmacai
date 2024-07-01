@@ -41,3 +41,9 @@ title: "Solana"
 - [webpage](https://solana.com/solutions/actions)
 - [docs](https://solana.com/docs/advanced/actions)
 - [dialect](https://www.dialect.to/)
+
+### FTX Estate Liquidation
+
+- Auction 1: btw 25-30mm SOL @ $64, [Aug 5 2024](https://www.bloomberg.com/news/articles/2024-04-05/ftx-s-solana-sale-galaxy-pantera-buy-tokens-at-64-sol?embedded-checkout=true)
+- Auction 2: 1.8mm SOL ~ $100 ($95+), [April 25, 2024](https://www.theblock.co/post/291702/ftx-estate-wraps-up-second-tranche-of-locked-solana-sales-with-bids-around-100)
+- Auction 3: unknown amt SOL
