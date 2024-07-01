@@ -15,3 +15,83 @@ Singletone and Till Pattern (and flash accounting) combine to allow most efficie
 - **[Till Pattern](https://docs.ekubo.org/integration-guides/till-pattern)**
 - [EthCC Introduction](https://www.youtube.com/watch?v=xFp8RlRq0qU)
 - [described here](https://github.com/OpenZeppelin/openzeppelin-contracts/issues/4361#issuecomment-1595095135)
+
+## Meeting Notes
+
+Ian (from Uniswap) initially said Moody was top dev from uniswap. We've had convos w stark protocol about helping with TVL
+
+Protocol is similar to uniV3. Without using extensions, its like v3 with smaller ticks
+
+Farming
+
+- stark will floor at 30%. They plan to increase over time, but moody thinks that should stay flat and incentives should adjust accordingly.
+- bridge wstETH, deposit 1 sided liqudity ETH/wstETH
+- farming changes on realized vol and such: https://mainnet-api.ekubo.org/volatility/strk/usdc?numDays=30&fromDate=2024-07-01T00:00:00
+- 30 day vol matters
+
+Is moody comitted to starknet?
+
+he likes cairo, AA, doesnt have to build approve buttons into code. he can batch positions together, etc. zksync has it too but people with mm and EOAs make it unusable. 
+waiting for 0.13.2 upgrade to make blocks faster, expect more volume and 2s block confirmations.
+also looking forward to the bitcoin stuff. they could also integrate privacy chains and stuff.
+ekubo has 6mm stark grant
+
+Audit stuff
+
+- got [nethermind audit](https://315464330-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FTLfgXtzlwI2fzDVFEifT%2Fuploads%2FQRpaG8UbUhVThiOUpCEo%2FNM0123_EKUBO_FINAL_PUBLIC.pdf?alt=media&token=f985eb7a-5b04-49fa-908a-558d090a93c3)
+
+Trying to increase extensions ecosystem
+- has oracle extension open source
+- room to build protocols on top of it 
+- trying to get parallelized borrow lend on top of twap
+- governance tooling, make it self sufficient
+
+- the foundation is willing to step in in case of critical exploit
+
+Cairo
+
+- dont have to worry about inheritence
+- no magic happening behind the scenes, can see how the "add" op works with specific types easily for example.
+- cant deploy contract of latest lang version
+- asdf, scar, cairo tough at first
+
+
+MEV
+- moody wrote an atomic arb bot, hit quoting api and sometimes found arbs
+- some people could make money off the bot even though it sucks
+- most people use alchemy rpc can get better with validator
+- they havent shared typescript impl of 
+
+- hard to get people to download argent wallet
+
+
+Ekubo token
+- airdrop is massive % of token
+- whatever u give users, they not gonna get more than that
+- DAO not very effective at distributing tokens, dont think it should be just holding assets treasury style. It should be run like a business that pays dividends. 
+- want the team to never have to sell tokens, business sustained by rev to tokens. tokens should be asset on balance sheet
+- thinks FDV is insane rn (low), protocol will have a few mm in treasury.
+
+Borrow lend protocols: 
+- nostro has some tvl, he doesnt know how legit they are - seems like they extracting value
+- zklend seems a bit more serious
+- a lot of mercenary devs on stark
+
+
+
+Other good teams
+- catridge,
+- avenue 
+- argent is good wallet
+
+
+Farming
+
+
+### Questions
+
+- how has development of extensions been going. 
+- have you seen early hints of MEV ecosystem?
+
+- whats major bridge, 7 day withdrawal?
+
