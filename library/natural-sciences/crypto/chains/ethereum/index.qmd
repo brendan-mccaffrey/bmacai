@@ -16,7 +16,7 @@ table-of-contents: true
 
 ## High Level Reads
 
-- [Absolute Essentials of Ethereum, Excerpt](https://www.coindesk.com/consensus-magazine/2024/02/07/absolute-essentials-of-ethereum-by-paul-dylan-ennis-an-excerpt/), Paul Dylan-Ennis [FULL](https://www.routledge.com/Absolute-Essentials-of-Ethereum/Dylan-Ennis/p/book/9781032334189)
+
 
 ### Ethereum Virtual Machine (EVM)
 
@@ -44,6 +44,7 @@ table-of-contents: true
 
 ## General Research
 
+- [Absolute Essentials of Ethereum, Excerpt](https://www.routledge.com/Absolute-Essentials-of-Ethereum/Dylan-Ennis/p/book/9781032334189)
 - [Updated Ethereum Roadmap, by Vitalik](https://twitter.com/VitalikButerin/status/1466411377107558402?s=20)
 - [A Rollup Centric Ethereum Roadmap](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698)
 - [Vitalik: the roads not taken](https://vitalik.ca/general/2022/03/29/road.html)
