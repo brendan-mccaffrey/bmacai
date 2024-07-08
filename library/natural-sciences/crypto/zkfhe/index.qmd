@@ -71,6 +71,10 @@ table-of-contents: true
 - [documentation](https://docs.zama.ai/concrete)
 - [The architecture of concrete](https://www.zama.ai/post/the-architecture-of-concrete-zama-fully-homomorphic-encryption-compiler-leveraging-mlir)
 
+**Concrete ML**
+
+- [github](https://github.com/zama-ai/concrete-ml)
+
 **Zama fhEVM**
 
 - [fhEVM](https://github.com/zama-ai/fhevm/blob/main/fhevm-whitepaper.pdf)

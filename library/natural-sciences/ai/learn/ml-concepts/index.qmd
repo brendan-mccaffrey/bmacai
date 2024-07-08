@@ -1,0 +1,154 @@
+---
+title: ML Concepts
+---
+
+# Linear Models
+
+## Linear Regression
+
+Linear regression is a supervised machine learning algorithm used for predicting continuous numerical values. It models the relationship between one or more independent variables and a dependent variable by fitting a linear equation to the observed data[1].
+
+**Technical Description:**
+The linear regression model can be represented as:
+
+$$y = β_0 + β_1x_1 + β_2x_2 + ... + β_nx_n + ε$$
+
+Where:
+- y is the dependent variable (target)
+- x1, x2, ..., xn are independent variables (features)
+- β0 is the y-intercept (constant term)
+- β1, β2, ..., βn are the coefficients for each independent variable
+- ε is the error term
+
+The goal is to find the best values for the coefficients (β) that minimize the sum of squared differences between the predicted and actual values[1].
+
+**Real-World Application:**
+A powerful yet simple example of linear regression in real life is predicting house prices. By using features such as square footage, number of bedrooms, location, and age of the house, a linear regression model can estimate the price of a house. This application is widely used in the real estate industry for property valuation and market analysis[1].
+
+## Logistic Regression
+
+Logistic regression is a supervised machine learning algorithm used for binary classification problems. Despite its name, it's a classification algorithm rather than a regression algorithm[2].
+
+**Technical Description:**
+The logistic regression model uses the logistic function (sigmoid function) to transform its output to a probability value between 0 and 1. The model can be represented as:
+
+$$P(y=1|x) = \frac{1}{1 + e^{-(β_0 + β_1x_1 + β_2x_2 + ... + β_nx_n)}}$$
+
+Where:
+- P(y=1|x) is the probability of the positive class given the input x
+- x1, x2, ..., xn are independent variables (features)
+- β0, β1, β2, ..., βn are the coefficients
+
+The goal is to find the best values for the coefficients (β) that maximize the likelihood of the observed data[2].
+
+**Real-World Application:**
+A prominent example of logistic regression in real life is credit scoring in the financial industry. Banks and credit card companies use logistic regression models to predict the probability of a customer defaulting on a loan or credit card payment. The model considers factors such as income, credit history, employment status, and existing debts to classify applicants as either likely to repay (low risk) or likely to default (high risk)[2].
+
+
+## LinearSVC (Linear Support Vector Classification)
+
+**Technical Description:**
+LinearSVC is a linear support vector classifier that implements an "one-vs-the-rest" multi-class strategy. It uses a linear kernel and is optimized for large-scale classification tasks. The model can be represented as:
+
+$$f(x) = w^T x + b$$
+
+Where w is the weight vector, x is the input feature vector, and b is the bias term. The goal is to find the hyperplane that best separates the classes while maximizing the margin.
+
+**Real-World Example:**
+LinearSVC is widely used in text classification tasks, such as spam detection in emails. By converting email text into numerical features (e.g., using TF-IDF), LinearSVC can efficiently classify emails as spam or not spam based on their content[1].
+
+## LinearSVR (Linear Support Vector Regression)
+
+**Technical Description:**
+LinearSVR is the regression counterpart of LinearSVC. It aims to find a linear function that approximates the relationship between input features and the target variable while tolerating a certain amount of error. The model can be represented similarly to LinearSVC:
+
+$$f(x) = w^T x + b$$
+
+The difference is in the loss function, which is typically ε-insensitive loss for SVR.
+
+**Real-World Example:**
+LinearSVR can be used in real estate price prediction. By considering features like square footage, number of bedrooms, location, and age of the house, LinearSVR can estimate house prices, providing a robust prediction that's less sensitive to outliers compared to traditional linear regression.
+
+## PoissonRegressor
+
+**Technical Description:**
+PoissonRegressor is used for modeling count data. It assumes that the target variable follows a Poisson distribution. The model uses the log link function:
+
+$$\log(E[y|x]) = w^T x + b$$
+
+Where E[y|x] is the expected value of y given x.
+
+**Real-World Example:**
+PoissonRegressor is often used in epidemiology to model the number of disease occurrences in a population. For instance, it can predict the number of new COVID-19 cases in a region based on factors like population density, vaccination rates, and social distancing measures.
+
+## TweedieRegressor
+
+**Technical Description:**
+TweedieRegressor is a generalized linear model for the Tweedie distribution, which includes Gaussian, Poisson, and Gamma as special cases. The model uses the power link function:
+
+$$E[y|x]^{(1-p)} = w^T x + b$$
+
+Where p is the power parameter that determines the specific distribution.
+
+**Real-World Example:**
+TweedieRegressor is particularly useful in insurance for modeling claim amounts. It can predict the expected cost of insurance claims based on policyholder characteristics, considering both the frequency and severity of claims in a single model.
+
+## GammaRegressor
+
+**Technical Description:**
+GammaRegressor is used for modeling continuous, positive target variables with variance increasing with the mean. It uses the log link function:
+
+$$\log(E[y|x]) = w^T x + b$$
+
+**Real-World Example:**
+GammaRegressor is often used in finance to model the distribution of loan amounts or insurance claim sizes. For instance, it can predict the size of an insurance claim based on factors like the type of policy, policyholder age, and claim history.
+
+## Lasso (Least Absolute Shrinkage and Selection Operator)
+
+**Technical Description:**
+Lasso is a linear regression method that performs both variable selection and regularization. It adds an L1 penalty term to the ordinary least squares objective:
+
+$$\min_{w} \frac{1}{2n} ||y - Xw||_2^2 + \alpha ||w||_1$$
+
+Where α is the regularization parameter.
+
+**Real-World Example:**
+Lasso is widely used in genomics for identifying relevant genes associated with a particular trait or disease. By analyzing gene expression data and phenotypic information, Lasso can select a subset of genes most strongly related to the trait of interest.
+
+## Ridge Regression
+
+**Technical Description:**
+Ridge regression is similar to Lasso but uses an L2 penalty instead:
+
+$$\min_{w} \frac{1}{2n} ||y - Xw||_2^2 + \alpha ||w||_2^2$$
+
+This regularization helps prevent overfitting and multicollinearity.
+
+**Real-World Example:**
+Ridge regression is often used in marketing to predict consumer behavior. It can analyze various factors like demographics, past purchase history, and online behavior to predict a customer's likelihood of making a purchase, even when these factors are highly correlated.
+
+## ElasticNet
+
+**Technical Description:**
+ElasticNet combines both L1 and L2 penalties of Lasso and Ridge regression:
+
+$$\min_{w} \frac{1}{2n} ||y - Xw||_2^2 + \alpha \rho ||w||_1 + \frac{\alpha(1-\rho)}{2} ||w||_2^2$$
+
+Where ρ controls the mix of L1 and L2 penalties.
+
+**Real-World Example:**
+ElasticNet is useful in recommender systems, such as those used by streaming services. It can predict user ratings for movies or TV shows based on user demographics, viewing history, and content features, effectively handling situations with many features and potentially correlated predictors.
+
+## SGDRegressor (Stochastic Gradient Descent Regressor)
+
+**Technical Description:**
+SGDRegressor is a linear model optimized using stochastic gradient descent. It can implement various loss functions and penalties, making it versatile for different regression tasks. The general update rule is:
+
+$$w_{t+1} = w_t - \eta_t \nabla L(w_t, x_t, y_t)$$
+
+Where η_t is the learning rate at step t, and L is the loss function.
+
+**Real-World Example:**
+SGDRegressor is particularly useful in online learning scenarios, such as predicting stock prices in real-time. It can continuously update its predictions as new market data becomes available, adapting to changing trends and patterns in financial markets.
+
+These linear models offer a range of tools for different prediction tasks, each with its own strengths and suitable applications in various real-world scenarios.

@@ -21,6 +21,7 @@ description: Blockchains and cryptographic applications
 - [Cyberspace Declaration of Independence](https://www.eff.org/cyberspace-independence)
 - [Crypto Anarchist Manifesto](https://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/may-crypto-manifesto.html)
 - [Blockchains as sovereign communities: a manifesto - Mustafa from Celestia](https://forum.celestia.org/t/blockchains-as-sovereign-communities-a-manifesto/1721)
+- [Autonomous TEE Manifesto](https://poeticte.ch/posts/autonomous-TEEs-manifesto.html)
 
 
 ## High Level Crypto Money

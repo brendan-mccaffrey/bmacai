@@ -1,0 +1,15 @@
+---
+title: Ritual x Zama Project
+---
+
+## Resources
+
+- [Zama Docs](https://docs.zama.ai/concrete-ml/get-started/getting-started)
+- [Convert Pre-trained Models to FHE](https://docs.zama.ai/concrete-ml/built-in-models/linear#pre-trained-models)
+
+
+## Idea
+
+Serve linear regression model.
+
+Linear regression example: predicting house prices. By using features such as square footage, number of bedrooms, location, and age of the house, a linear regression model can estimate the price of a house. This application is widely used in the real estate industry for property valuation and market analysis

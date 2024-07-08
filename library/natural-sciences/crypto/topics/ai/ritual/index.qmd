@@ -2,9 +2,68 @@
 title: Ritual
 ---
 
+## Resources
+
+- [Infernet Container Starter Repo](https://github.com/ritual-net/infernet-container-starter/)
+- [Containers Documentation](https://docs.ritual.net/infernet/node/containers)
+
 ## Running a Node
 
 - [registerNode() on BaseScan](https://basescan.org/tx/0x183505af52c1af31ec069885b7650dc616eddf7994aa1745e8a71be98b9da88b)
 - [activateNode() on BaseScan](https://basescan.org/tx/0x71c43d03278b089998389944ecbfc3a2f164639a0635d48ef32118c9e9810659)
 
 Deploy with [Terraform Labs and AWS CLI](https://docs.ritual.net/infernet/node/deployment)
+
+
+
+## Ritual Application Options
+
+LSTM Forecaster
+
+- LSTM model pre-trained on financial data (crypto, tradfi, forex, etc) to predict crypto prices
+- pros:
+    - relatively easy 
+    - option to integrate axiom, making it more complex but allowing native forecasting on any onchain asset
+- cons: 
+    - model will not be good
+    - probably not exciting for users
+- options: make it FHE (using zama), easy from pre-trained "regular" model
+
+LSTM Tournament
+
+- create a dapp that registers, evaluates, and serves LSTM forecasting model
+- inspired by initial exploration into LSTM model, better to outsource/create competition around model, and capture all
+- pros: 
+    - dont have to compete on NN/training
+    - moat if successful
+    - at time t, evaluate all predictions made by models at/before t-1
+- cons: 
+    - difficult to design updates / control proper training (no)
+    - much like numerai
+    - hard to incentivize participation
+- options: doesn't have to be LSTM
+
+
+AGI Race 
+
+- dapp that queries all the "frontier models" and displays the results side-by-side
+- queries happen simply with API key, not serving actual models
+- post-response, offer everyone ability to vote on best/preferred
+- goal: 
+    - become defacto place to subjectively compare models
+    - can compare prompt injection techniques, censorship, etc
+- pros: 
+    - easy on the AI side
+    - much like gpt4 example, just repeat for other APIs
+- cons: 
+    - ritual_ml utils don't support all the frontier APIs (can we get around that) [see here](https://github.com/ritual-net/infernet-monorepo/blob/main/libraries/infernet_ml/src/infernet_ml/utils/css_mux.py#L50)
+    - not unlocking anything, but making what's already possible simple and verifiable
+    - must continuously update as new models released
+
+
+## AI Resources
+
+### LSTM Examples
+
+- [stock prediction LSTM](https://www.youtube.com/watch?v=CbTU92pbDKw)
+- [linreg in pytorch](https://machinelearningmastery.com/training-a-linear-regression-model-in-pytorch/)
