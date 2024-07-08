@@ -109,6 +109,7 @@ table-of-contents: true
 - [Vitalik: Sticking to 8192 signatures per slot post-SSF](https://ethresear.ch/t/sticking-to-8192-signatures-per-slot-post-ssf-how-and-why/17989)
 - [Solo Stakers: The backbone of Ethereum](https://blog.rated.network/blog/solo-stakers)
 - [Collecting Signatures for Faster Finality](https://ethresear.ch/t/horn-collecting-signatures-for-faster-finality/14219)
+- [Maximum Viable Security: A New Framing for Ethereum Issuance](https://ethresear.ch/t/maximum-viable-security-a-new-framing-for-ethereum-issuance/19992)
 
 **May 12, 2023, Ethereum Consensus Issues**
 

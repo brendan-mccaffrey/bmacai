@@ -28,6 +28,7 @@ title: Consensus
 - [PoS vs Proof of Spacetime](https://spacemesh.io/blog/proof-of-stake-vs-proof-of-space-time/)
 - [Practical Byzantine Fault Tolerance](https://pmg.csail.mit.edu/papers/osdi99.pdf)
 - [The latest gossip on BFT Consensus](https://arxiv.org/abs/1807.04938)
+- [Mysticeti: Reaching the Limits of Latency with Uncertified DAGs](https://arxiv.org/abs/2310.14821)
 
 ## Censorship
 
