@@ -1,0 +1,11 @@
+---
+title: Ore
+---
+
+## Resources
+
+Repos
+
+- [ore](https://github.com/regolith-labs/ore)
+- [ore-cli](https://github.com/regolith-labs/ore-cli)
+- [drillx](https://github.com/regolith-labs/drillx/tree/master)

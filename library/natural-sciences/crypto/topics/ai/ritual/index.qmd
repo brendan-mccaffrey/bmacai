@@ -60,6 +60,27 @@ AGI Race
     - not unlocking anything, but making what's already possible simple and verifiable
     - must continuously update as new models released
 
+Sybil Classifier
+
+- dapp: given 2 addresses, classify if they are sybil (together/coordinated)
+- pros:
+    - super cool
+    - concept would be useful as its done well
+    - would utilize axiom to access archive data in contract
+    - would likely be utilized
+- cons:
+    - difficult to make accurate (not enough data for training)
+    - need a lot of data (hard)
+    - would only have 1 chain's data for reference
+
+AI Song platform
+
+- dapp that does sound inference
+- create onchain spotify
+
+
+
+
 
 ## AI Resources
 
