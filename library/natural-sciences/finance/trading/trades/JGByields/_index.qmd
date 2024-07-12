@@ -1,9 +1,0 @@
----
-title: "JGB Rates"
-description: "Bank of Japan Rates and Japanese Government Bond Yields"
-page-layout: full
----
-
-## Resources
-
-- [Bloomberg Page](https://www.bloomberg.com/markets/rates-bonds/government-bonds/japan)

@@ -6,6 +6,7 @@ title: AI Projects
 
 - [Lumentis:](https://github.com/hrishioa/lumentis) Generate beautiful docs from your transcripts and unstructured information with a single command.
 - [NotebookLM](https://notebooklm.google/)
+- [Text to CAD](https://zoo.dev/text-to-cad)
 
 ## Images
 

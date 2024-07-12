@@ -6,14 +6,12 @@ title: Options
 
 - [Options Greeks](https://steadyoptions.com/articles/ep-options-greeks/)
 - [Options Gamma](https://steadyoptions.com/articles/ep-options-gamma/)
-
-### Case Studies
-
 - [Delta Hedging: NVDA and the effect of Vanna & Charm](https://www.menthorq.com/guide/delta-hedging-nvda-and-the-effect-of-vanna-charm/)
+
 
 ## Greeks
 
-#### First Order
+### First Order
 
 **Delta:** Estimate of how much an options premium may change given a $1 move in the underlying.
 
@@ -25,7 +23,7 @@ title: Options
 
 - Long term options are more sensitive to changes in interest rates, ie have a higher Rho.
 
-#### Second Order
+### Second Order
 
 **Gamma:** The sensistivity of delta to changes in stock price. 
 

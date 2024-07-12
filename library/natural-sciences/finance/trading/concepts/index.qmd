@@ -1,9 +1,6 @@
 ---
-title: Quant Concepts
+title: Trading Concepts
 ---
-
-## Resources
-
 
 ## Campbell Shiller Decomposition
 
