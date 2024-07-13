@@ -16,6 +16,32 @@ Singletone and Till Pattern (and flash accounting) combine to allow most efficie
 - [EthCC Introduction](https://www.youtube.com/watch?v=xFp8RlRq0qU)
 - [described here](https://github.com/OpenZeppelin/openzeppelin-contracts/issues/4361#issuecomment-1595095135)
 
+## Token Sale
+
+**[Token Page](https://app.ekubo.org/$EKUBO)**
+
+- [governor](https://voyager.online/contract/0x053499f7aa2706395060fe72d00388803fb2dcc111429891ad7b2d9dcea29acd#tokenTransfers)
+- [eth pool](https://app.ekubo.org/dca?inputCurrency=ETH&outputCurrency=EKUBO&startTime=1716518912&duration=5242880&showOrders=active)
+- [strk pool](https://app.ekubo.org/dca?inputCurrency=STRK&outputCurrency=EKUBO&startTime=1716518912&duration=5242880)
+- [usdc pool](https://app.ekubo.org/dca?inputCurrency=USDC&outputCurrency=EKUBO&startTime=1716518912&duration=5242880)
+- [token tweet](https://x.com/EkuboProtocol/status/1805249075882713581)
+
+Airdrop: 
+- 33.3% supply for claim by users based on points
+- allocation ~= $points^{boost} / SUM(points^{boost})$, where $boost$ is
+    - 1.01 for volunteer moderators
+    - 1.001 for active translators
+    - 1.0001 for everyone else
+
+Sale:
+- 33.3% of supply is sold via DCA orders on following pools
+    - EKUBO/ETH 5%
+    - EKUBO/STRK 5%
+    - EKUBO/USDC 5%
+- executing over 2 months, beginning 5/23/24 @ 10:48 pm and ending 7/23/24
+- proceeds are owned by the ["governor" aka the DAO](https://voyager.online/contract/0x053499f7aa2706395060fe72d00388803fb2dcc111429891ad7b2d9dcea29acd)
+
+
 ## Meeting Notes
 
 Ian (from Uniswap) initially said Moody was top dev from uniswap. We've had convos w stark protocol about helping with TVL
