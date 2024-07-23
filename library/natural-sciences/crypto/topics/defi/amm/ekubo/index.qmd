@@ -4,7 +4,7 @@ title: Ekubo
 
 ## General
 
-- [docs](https://docs.ekubo.org/)
+- [docs](https://docs.ekubo.org/) 
 
 Ekubo is an AMM on Starknet with gas efficiency, concentrated liquidity, extensions, and a withdrawal fee.
 

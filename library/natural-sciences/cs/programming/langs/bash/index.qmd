@@ -80,6 +80,14 @@ du -sh /path/to/directory/*
 caffeinate -t 3600 &
 # keep awake until command finishes
 caffeinate -i long_running_script.sh
+
+##########################
+### SSH 
+ssh-copy-id -i ~/.ssh/IDENTITY_KEY ubuntu@remote_ip
+
+##########################
+### Block Devices
+lsblk -o NAME,FSTYPE,LABEL,MOUNTPOINT,SIZE,MODEL
 ```
 
 

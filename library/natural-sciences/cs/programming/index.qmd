@@ -2,6 +2,10 @@
 title: Programming
 ---
 
+## Tools
+
+- [Godbolt: Compiler Explorer](https://godbolt.org/)
+
 ## Resources
 
 - [Peter Norvig Blog](https://norvig.com/)
