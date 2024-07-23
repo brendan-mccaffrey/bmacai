@@ -74,3 +74,4 @@ description: Unorganized list of AI Research
 - [Chameleon: Mixed-Modal Early-Fusion Foundation Models](http://arxiv.org/abs/2405.09818)
 - [Transformers Can Do Arithmetic with the Right Embeddings](http://arxiv.org/abs/2405.17399)
 - [Scalable MatMul-free Language Modeling](http://arxiv.org/abs/2406.02528)
+- [Deep Learning for Economists](https://arxiv.org/abs/2407.15339) and [github repo](https://econdl.github.io/)
