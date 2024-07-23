@@ -34,6 +34,10 @@ title: "Solana"
 - [Priority Fees Github Issue](https://github.com/solana-labs/solana/issues/22820)
 - [Dune Query: % of Sol Txs with Fee above base](https://dune.com/queries/1111217/1898826)
 
+### SVM
+
+- [Anza's new SVM API](https://www.anza.xyz/blog/anzas-new-svm-api)
+
 ### Features
 
 #### Actions and Blinks (blockchain links)
