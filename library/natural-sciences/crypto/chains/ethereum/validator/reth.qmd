@@ -127,12 +127,16 @@ RUST_LOG=info ./reth node --full \
 ```bash
 ./lighthouse bn \
   --execution-endpoint http://localhost:8551 \
-  --execution-jwt $HOME/.local/share/reth/mainnet/jwt.hex \
+  --execution-jwt /home/ubuntu/.local/share/reth/mainnet/jwt.hex \ 
   --checkpoint-sync-url https://mainnet.checkpoint.sigp.io \
   --disable-deposit-contract-sync
 ```
 
 Congratulations. You are now running an Ethereum client. Expect the syncing process to take ~50 hours, after which you may query the Ethereum blockchain (and submit transactions) directly from your node.
+
+### Verify the chain is growing
+
+[see here](https://reth.rs/run/mainnet.html#verify-the-chain-is-growing)
 
 ## Part B: External RPC Serving
 
