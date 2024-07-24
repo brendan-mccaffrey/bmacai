@@ -10,9 +10,8 @@ description: Resources and tooling for EVM development
 
 ## EVM Tools 
 
-**Multichain**
-
-- [Mesc](https://paradigmxyz.github.io/mesc/what_is_mesc.html)
+- [Mesc: multichain tool](https://paradigmxyz.github.io/mesc/what_is_mesc.html)
+- [Deterministic deloyment proxy](https://github.com/Arachnid/deterministic-deployment-proxy)
 
 **Testnet Resources**
 

@@ -13,3 +13,7 @@ title: AI Models
 - [The Llama 3 Herd of Models](https://ai.meta.com/research/publications/the-llama-3-herd-of-models/)
 - [Open Source is the path forward](https://www.facebook.com/4/posts/10115716861061241/?rdid=VE0wPWaJDdF21j32)
 - [Karpathy post about it](https://x.com/karpathy/status/1815842603377779140)
+
+### July 24, 2024 | Mistral
+
+- [Announcing Mistral Large 2](https://mistral.ai/news/mistral-large-2407/)
