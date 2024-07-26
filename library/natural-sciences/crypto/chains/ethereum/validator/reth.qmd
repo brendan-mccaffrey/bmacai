@@ -3,6 +3,124 @@ title: Reth
 subtitle: Running a Rust Ethereum (Reth) node, and serving a private rpc.
 ---
 
+## New
+
+Fresh Ubuntu machine, let's get it.
+
+Install rust
+
+```bash
+# system update
+sudo apt update
+# install rust
+sudo apt install rustc
+```
+
+Install [latest version](https://github.com/paradigmxyz/reth/releases) of reth
+
+```bash
+# download
+wget -c https://github.com/paradigmxyz/reth/releases/download/v1.0.3/reth-v1.0.3-x86_64-unknown-linux-gnu.tar.gz
+
+# open 
+tar -xzf reth-v1.0.3-x86_64-unknown-linux-gnu.tar.gz
+
+# move to bin 
+mv reth /usr/bin/reth 
+```
+
+Do the same with the [latest version](https://github.com/sigp/lighthouse/releases) of lighthouse
+
+```bash
+# download
+wget -c https://github.com/sigp/lighthouse/releases/download/v5.2.1/lighthouse-v5.2.1-x86_64-unknown-linux-gnu.tar.gz
+
+# open 
+tar -xzf lighthouse-v5.2.1-x86_64-unknown-linux-gnu.tar.gz
+
+# move to bin 
+mv lighthouse /usr/bin/lighthouse 
+```
+
+For each, run in new screen
+
+```bash
+# new screen
+screen -S el 
+
+# run
+RUST_LOG=info reth node --full \
+--http --http.corsdomain "*" --http.api all \
+--ws --ws.origins "*" --ws.api all 
+
+# ctrl-A + D to exit
+
+# new screen
+screen -S cl 
+
+# run
+lighthouse bn \
+  --execution-endpoint http://localhost:8551 \
+  --execution-jwt /home/ubuntu/.local/share/reth/mainnet/jwt.hex \ 
+  --checkpoint-sync-url https://mainnet.checkpoint.sigp.io \
+  --disable-deposit-contract-sync
+
+# ctrl-A + D to exit
+```
+
+Check its been installed by navigating to the IP address in the browser.
+
+Install Nginx
+
+```bash
+sudo apt update
+sudo apt install nginx 
+```
+
+Navigate to `/etc/nginx/conf.d`
+
+Create a file called `reth.conf`
+
+```bash
+sudo nano reth.conf 
+```
+
+Paste this 
+
+```conf
+server {
+
+  listen 80;
+  listen [::]:80;
+  server_name 40.ip.example.16 site.example.com;
+
+  listen 443 ssl;
+  listen [::]:443 ssl;
+  ssl_certificate /etc/nginx/ssl/site.example.com.crt;
+  ssl_certificate_key /etc/nginx/ssl/site.example.com.key;
+
+  location /xws {
+      proxy_http_version 1.1;
+      proxy_set_header Upgrade $http_upgrade;
+      proxy_set_header Connection "Upgrade";
+      proxy_set_header Host $host;
+      proxy_pass   http://127.0.0.1:8546/;
+  }
+
+  location /xrpc {
+      proxy_redirect off;
+      proxy_pass    http://127.0.0.1:8545/;
+  }
+}
+```
+
+And paste cloudflare origin certificates at locations 
+- `/etc/nginx/ssl/site.example.com.crt`
+- `/etc/nginx/ssl/site.example.com.key`
+
+
+## OLD
+
 ## Overview
 
 Running an Ethereum node post-merge consists of running a client for both the execution layer (EL) and consensus layer (CL).

@@ -18,6 +18,37 @@ title: MEV Research
 - [MEV by Galaxy Digital, Pt 2](https://www.galaxy.com/research/whitepapers/mev-the-rise-of-the-builders/)
 - [Someone's MEV Mega-resource](https://thedailyape.notion.site/MEV-8713cb4c2df24f8483a02135d657a221)
 - [Monoceros MEV Book](https://www.monoceros.com/insights/maximal-extractable-value-book)
+- [MEV Supply Chain](https://flashbots.mirror.xyz/bqCakwfQZkMsq63b50vib-nibo5eKai0QuK7m-Dsxpo)
+
+## Block Building
+
+- [Who wins Ethereum Block Building Auctions and Why?](https://arxiv.org/abs/2407.13931)
+- [Commit-Boost: Proposer Platform to Safely Make Commitments](https://ethresear.ch/t/commit-boost-proposer-platform-to-safely-make-commitments/20107)
+- [Commit-Boost](https://github.com/Commit-Boost/)
+- [FBAs (frequent batch auctions) are a nerd snipe](https://twitter.com/0x94305/status/1597019084667117569?s=20)
+- [Time to Bribe: Measuring Block Construction Markets](https://eprint.iacr.org/2023/760.pdf)
+- [A Framework for Building Searchers](https://mirror.xyz/0x00000a2A02540A0D92e209F9f5F7e104745e06Ba/hB-XeiOfkV5neiwX34lBD0uLHlWdefbGX6oBz1B4o7w)
+- [MEV in Fixed Price Auctions](https://arxiv.org/abs/2303.04242)
+- [How self-built blocks unintentionally introduce base fee volatility](https://www.blocknative.com/blog/how-self-built-blocks-unintentionally-introduce-base-fee-volatility)
+
+## Layer 2s
+
+- [Decentralizing Rollups](https://collective.flashbots.net/t/decentralising-rollups/3680)
+- [Based Preconfirmations with Multi-round MEV-Boost](https://ethresear.ch/t/based-preconfirmations-with-multi-round-mev-boost/20091)
+- [Strawmanning based preconfirmations](https://ethresear.ch/t/strawmanning-based-preconfirmations/19695)
+- [Epochs and Slots all the way down: ways to give Ethereum users faster preconfirmation times](https://vitalik.eth.limo/general/2024/06/30/epochslot.html)
+
+## Automated Market Makers
+
+- [Automated Market Making and Arbitrage Profits in the Presence of Fees](https://moallemi.com/ciamac/papers/lvr-fee-model-2023.pdf)
+- [MEV Capturing AMM](https://ethresear.ch/t/mev-capturing-amm-mcamm/13336)
+- [SAMM: Shared Automated Market Makers](https://arxiv.org/abs/2406.05568)
+- [The future of DEX trading](https://blog.variant.fund/the-future-of-dex-trading)
+
+
+## Intents
+
+- [Intents Newsletter Volume 2](https://research.anoma.net/t/intents-newsletter-volume-2/691)
 
 ## General
 
@@ -26,12 +57,8 @@ title: MEV Research
 - [Studying Flash Loan Attacks](https://t.co/PpoqupGAe1)
 - [Modular MEV Write-up](https://t.co/4mHc6NuVtm)
 - [Performant routing and latency benchmarking for Ethereum RPC and Relay Service Providers](https://hackmd.io/@manifoldx/draft-perf-relay)
-- [MEV in Fixed Price Auctions](https://arxiv.org/abs/2303.04242)
+
 - [MEV Boost Capella Upgrades](https://flashbots.notion.site/MEV-Boost-Capella-Upgrades-00cea01704794f6eb4f792c55b69c441)
-- [Automated Market Making and Arbitrage Profits in the Presence of Fees](https://moallemi.com/ciamac/papers/lvr-fee-model-2023.pdf)
-- [MEV Capturing AMM](https://ethresear.ch/t/mev-capturing-amm-mcamm/13336)
-- [Time to Bribe: Measuring Block Construction Markets](https://eprint.iacr.org/2023/760.pdf)
-- [A Framework for Building Searchers](https://mirror.xyz/0x00000a2A02540A0D92e209F9f5F7e104745e06Ba/hB-XeiOfkV5neiwX34lBD0uLHlWdefbGX6oBz1B4o7w)
 - [How to Fix Ethereum's MEV Problem](https://www.coindesk.com/markets/2021/07/27/how-to-fix-ethereums-mev-problem-and-give-traders-the-best-price/)
 - [MEV in ETH2 - An Early Exploration](https://hackmd.io/@flashbots/mev-in-eth2)
 - [MEV in eth2](https://writings.flashbots.net/research/mev-eth2/) ([associated repo](https://github.com/flashbots/eth2-research)) by Alex Obadia & Taarush Vemulapalli (Flashbots)
@@ -39,10 +66,12 @@ title: MEV Research
 - [Towards a Theory of MEV I](https://people.eecs.berkeley.edu/~ksk/files/MEV_CFMM.pdf)
 - [Commitee-driven MEV smoothing](https://ethresear.ch/t/committee-driven-mev-smoothing/10408) by Francesco D'Amato (EF)
 - [Latency Arms Race](https://ethresear.ch/t/latency-arms-race-concerns-in-blockspace-markets/14957)
-- [FBAs (frequent batch auctions) are a nerd snipe](https://twitter.com/0x94305/status/1597019084667117569?s=20)
 - [MEV Driven Centralization in Ethereum: Part 1](https://simbro.medium.com/mev-driven-centralization-in-ethereum-ec829a214f18)
 - [Exploration of MEV Latencies](https://frontier.tech/exploration-of-mev-latencies)
 - [Illuminate the Orderflow](https://writings.flashbots.net/illuminate-the-order-flow)
+- [On sybil-proof mechanisms](https://arxiv.org/abs/2407.14485)
+- [Execution Tickets](https://ethresear.ch/t/execution-tickets/17944)
+- [Enshrined Harberger Lease for Execution Tickets](https://mirror.xyz/0x03c29504CEcCa30B93FF5774183a1358D41fbeB1/TO_fODV1R1QampX9FVGOYP6m9WZAKckFsZjaj1dizTI)
 
 ### Videos & Talks
 

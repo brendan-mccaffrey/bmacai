@@ -14,9 +14,6 @@ table-of-contents: true
 - [Ethereum Youtube: Community calls and such](https://www.youtube.com/@EthereumProtocol/videos)
 - [Protocol Guild](https://protocol-guild.readthedocs.io/en/latest/)
 
-## High Level Reads
-
-
 
 ### Ethereum Virtual Machine (EVM)
 
@@ -72,6 +69,11 @@ table-of-contents: true
 
 - [How do layer 2s really differ from execution sharding?](https://vitalik.eth.limo/general/2024/05/23/l2exec.html)
 - [L2s as cultural extensions of Ethereum](https://vitalik.eth.limo/general/2024/05/29/l2culture.html)
+
+## Preconfirmations
+
+- [Based Preconfirmations with Multi-round MEV-Boost](https://ethresear.ch/t/based-preconfirmations-with-multi-round-mev-boost/20091)
+- [Strawmanning Based Preconfirmations](https://ethresear.ch/t/strawmanning-based-preconfirmations/19695)
 
 ### Data 
 
@@ -186,13 +188,20 @@ Danksharding is how Ethereum becomes a truly scalable blockchain, but there are 
 - [EIP-7702 Discussion](https://ethereum-magicians.org/t/eip-set-eoa-account-code-for-one-transaction/19923)
 
 
+### Chain Abstraction
 
-### Cross Chain & Intents
-
+- [Chain abstraction landscape](https://newsletter.asxn.xyz/p/chain-abstraction-landscape)
 - [ERC-7683: Cross Chain Intents](https://www.erc7683.org/)
 - [Keystore Rollup](https://safe.global/blog/keystore-rollup-smart-account-interoperability)
+
+
 
 
  
 
 
+
+
+## TEEs
+
+- [Build FHE Coprocessor on TEE](https://collective.flashbots.net/t/build-fhe-coprocessor-on-tee/3697)

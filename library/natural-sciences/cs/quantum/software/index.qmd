@@ -12,3 +12,6 @@ title: Quantum Software
     - [An Efficient Quantum Factoring Algorithm](https://arxiv.org/abs/2308.06572)
 - 2023, A memory improvement on Regev's
     - [Optimizing Space in Regev's Factoring Algorithm](https://arxiv.org/abs/2310.00899)
+
+
+- [Solving the Travelling Salesman Problem Using a Single Qubit](https://arxiv.org/abs/2407.17207)

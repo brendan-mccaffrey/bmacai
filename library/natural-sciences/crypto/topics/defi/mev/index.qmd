@@ -72,6 +72,20 @@ title: MEV
 - [Automated Market Making and Arbitrage Profits in the Presence of Fees](https://moallemi.com/ciamac/papers/lvr-fee-model-2023.pdf)
 - [Leaderless Auctions](https://www.paradigm.xyz/2024/02/leaderless-auctions)
 - [Multiplicity: A Gadget for Multiple Concurrent Block Proposers](https://ethresear.ch/t/multiplicity-a-gadget-for-multiple-concurrent-block-proposers/14962)
+- [On Sybil Proof Mechanisms](https://arxiv.org/abs/2407.14485)
+
+## Block Auctions
+
+- [Who wins Ethereum Block Auctions and Why](https://arxiv.org/abs/2407.13931)
+
+## Automated Market Makers
+
+
+
+### PBS Foundation
+
+- [Intro to the PBS Foundation](https://pbsfoundation.notion.site/Intro-to-the-PBS-Foundation-1f835f1446a54ab78e1c0884c3202803)
+- [Learn More about PBS Foundation](https://pbsfoundation.notion.site/Learn-more-about-PBS-Foundation-68382efd786e450f937ab550ffaa4a96)
 
 ### Videos & Talks
 
