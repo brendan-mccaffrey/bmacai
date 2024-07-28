@@ -24,6 +24,7 @@ title: Learn AI
 
 ### Maths
 
+- [The Matrix Calculus You Need For Deep Learning](https://explained.ai/matrix-calculus/)
 - [Gradient Descent does not Always Converge](https://twitter.com/gabrielpeyre/status/1750760482028519635)
 
 
