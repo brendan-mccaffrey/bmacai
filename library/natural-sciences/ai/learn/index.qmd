@@ -27,14 +27,12 @@ title: Learn AI
 - [The Matrix Calculus You Need For Deep Learning](https://explained.ai/matrix-calculus/)
 - [Gradient Descent does not Always Converge](https://twitter.com/gabrielpeyre/status/1750760482028519635)
 
+## Build
 
-### Backpropogation
+- [Karpathy Youtube: Let's Reproduce GPT-2](https://youtu.be/l8pRSuU81PU?si=8MKrSuP8iIoVzQAV)
+- [Let's Build GPT: from scratch, in code, spelled out](https://www.youtube.com/watch?v=kCc8FmEb1nY)
+- [GPT in 60 Lines of Numpy](https://jaykmody.com/blog/gpt-from-scratch/)
 
-Backpropogation is an algorithm for training neural-networks, used to update its weights to minimize the 'loss'
 
-1. Network makes a prediction on a batch of input data
-2. Loss is calculated between predicted and actual output
-3. Gradient of the loss with respect to the weights are calculated using the chain rule of differentiation
-4. The gradients are used to update the weights in the opposite direction of the gradient, reducing the loss
-5. Repeat the process until the loss reaches a satisfactory level or a maximum number of iterations
+
 

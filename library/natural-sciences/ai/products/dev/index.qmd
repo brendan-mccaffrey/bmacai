@@ -1,5 +1,5 @@
 ---
-title: AI Tools
+title: AI Dev Tools
 ---
 
 ## AI Tools For Developers

@@ -86,3 +86,11 @@ bank module - meat of it, safety layer
 once u get past permissioning, it gets easier. you can force things to happen. if theres one particular version of token program, u cant use an alternative
 
 if u hold govt token, people deployign programs will have to pay you. buy and lock govt token to deploy
+
+
+
+Terms:
+
+Equity with token warrant to company reserve
+company reserve 50% of fair launch
+effectively 2:1, and 

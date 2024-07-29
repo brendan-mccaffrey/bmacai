@@ -1,0 +1,134 @@
+---
+title: AI Concepts
+table-of-contents: true
+---
+
+
+## Backpropogation
+
+Backpropogation is an algorithm for training neural-networks, used to update its weights to minimize the 'loss'
+
+1. Network makes a prediction on a batch of input data
+2. Loss is calculated between predicted and actual output
+3. Gradient of the loss with respect to the weights are calculated using the chain rule of differentiation
+4. The gradients are used to update the weights in the opposite direction of the gradient, reducing the loss
+5. Repeat the process until the loss reaches a satisfactory level or a maximum number of iterations
+
+## Prompting
+
+- [example prompt challenge response](https://twitter.com/niemerg/status/1777162301679800329) 
+- [github](https://t.co/Ebtp6KQvo7)
+
+## Attention: A Huge Leap
+
+In 2014, an Attention mechanism was introduced by Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. This became the foundation for the Transformer.
+
+- [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
+- [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/abs/1508.04025)
+
+The attention mechanism allows the model to assign different weights or importance to different parts of the input sequence when making predictions or generating output. Instead of relying solely on fixed-length vector representations or encoding the entire input sequence into a fixed-length representation, the attention mechanism enables the model to dynamically attend to relevant parts of the input at each step of the computation.
+
+In a typical attention mechanism, there are three main components:
+
+1. Query: A query represents the current step or position in the output generation process. It is used to compare against different parts of the input sequence to determine their relevance.
+
+2. Key: The keys are representations of the different parts of the input sequence. These keys are compared to the query to measure their similarity or relevance.
+
+3. Value: The values are additional information associated with the input sequence parts. They provide the context or content that the model focuses on.
+
+The attention mechanism computes a similarity score between the query and each key, which determines the relevance or attention assigned to the corresponding value. These similarity scores are typically computed using dot products, additive or multiplicative operations, or neural networks.
+
+The resulting attention weights are used to weight the values associated with the input sequence parts. This weighted information is then combined or aggregated to provide a context-aware representation for the current step, allowing the model to focus more on relevant parts of the input.
+
+By incorporating attention mechanisms into deep learning models, they can effectively capture dependencies between different elements of the input sequence, improve performance on sequential tasks, and handle long-range dependencies more effectively than traditional fixed-length representations.
+
+## The Transformer
+
+### Resources
+
+- [Attention is all you need, video paper](https://www.youtube.com/watch?v=iDulhoQ2pro)
+- Gen AI Visualization by FT: [Generative AI exists because of the transformer](https://ig.ft.com/generative-ai/)
+- [Illustrated Guide to Transformers](https://www.youtube.com/watch?v=4Bdc55j80l8)
+- [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+- [Transformers from Scratch](https://e2eml.school/transformers.html)
+- [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+
+### Introduction of the Transformer: "Attention is All You Need"
+
+Paper published by a team at Google Brain.
+
+- [Attention is All You Need](https://arxiv.org/abs/1706.03762)
+
+The Transformer architecture is built on the idea of self-attention or scaled dot-product attention, which can be seen as an extension of the attention mechanism. In traditional sequence-to-sequence models, such as recurrent neural networks (RNNs), sequential information is processed step by step, which can be computationally expensive and hinder parallelization.
+
+The key innovation of the Transformer is that it replaces recurrent layers with self-attention layers. Self-attention allows the model to compute the relationships between all positions in the input sequence simultaneously. This means that each position can attend to any other position, capturing global dependencies in the sequence. By doing so, the Transformer can process inputs in parallel and handle long-range dependencies more effectively.
+
+The Transformer architecture consists of two main components: the encoder and the decoder. The encoder takes an input sequence and generates a sequence of contextualized representations, while the decoder takes the encoder's output and generates the final output sequence.
+
+Within the encoder and decoder, the Transformer uses multi-head self-attention mechanisms. Instead of a single self-attention mechanism, multiple attention heads are employed to capture different types of information and attend to different parts of the input sequence simultaneously. This allows the model to focus on different aspects of the input and learn more diverse and expressive representations.
+
+The Transformer also introduces positional encoding, which provides information about the position of each element in the input sequence. Since self-attention lacks the notion of position, positional encoding enables the model to incorporate sequential information into its computations.
+
+The dominance of the Transformer architecture in modern AI can be attributed to several factors:
+
+1. Parallelization: The self-attention mechanism in the Transformer enables parallel processing of inputs, making it highly efficient for training on modern hardware, such as graphics processing units (GPUs) or tensor processing units (TPUs).
+
+2. Long-range dependencies: The self-attention mechanism allows the Transformer to capture dependencies between distant positions in the input sequence, making it more effective in modeling long-range relationships compared to traditional recurrent architectures.
+
+3. Expressiveness: By employing multiple attention heads and capturing different types of information, the Transformer can learn more expressive and rich representations of the input data.
+
+4. Transferability: The Transformer has shown strong performance across a wide range of NLP tasks, such as machine translation, language understanding, text generation, and more. Its effectiveness and versatility have made it a popular choice and a basis for many state-of-the-art models.
+
+Overall, the Transformer's ability to model global dependencies, parallelize computations, and learn expressive representations has contributed to its dominance in modern AI, particularly in the field of natural language processing.
+
+## RAG: Retreival Augmented Generation
+
+RAG is utilized to ensure responsiveness of LLMs, enrich the model's context, and ground output in factual information.
+
+- [RAG Demo on Groq LPU Inference Engine](https://www.youtube.com/watch?v=QE-JoCg98iU)
+
+
+## Context Windows
+
+### Resources
+
+- [GLam: Mixture of Experts](https://arxiv.org/pdf/2112.06905.pdf)
+- [Switch Transformer](https://arxiv.org/pdf/2101.03961.pdf)
+- [Routed Language Models](https://arxiv.org/pdf/2202.01169.pdf)
+- [Branch-Train-Merge](https://arxiv.org/pdf/2208.03306.pdf)
+- [Scaling Laws of Expert Networks](https://arxiv.org/pdf/2202.01169.pdf)
+- [Combining Knowledge Domains in MoE Nets](https://arxiv.org/pdf/2303.14177.pdf)
+- [Hyena Paper](https://arxiv.org/abs/2302.10866)
+- [Hyena Blogs](https://hazyresearch.stanford.edu/blog)
+
+### The Evolution of Context Windows
+
+The context window—the maximum sequence length that a model can process in a single pass—is a hot topic in the field of large language models. It serves as a critical constraint for tasks that require understanding or generating longer sequences of text. From OpenAI's ambitious goal of one million tokens to Magic's announcement of a 5M token model, and Anthropic's 100K context window model, we're witnessing a context-length party. But why stop there? This article explores novel techniques and architectures that aim to stretch or even potentially eliminate these limitations.
+
+#### **TL;DR**
+
+- Context window length limitations have been a bottleneck in the performance of large language models.
+- Various tricks like SuperHOT, and architectures like RWKV and Hyena, are breaking these limitations.
+- Each approach comes with its trade-offs, but the direction is clear: larger context windows are inevitable.
+
+#### **The SuperHOT Method**
+
+An innovative trick called SuperHOT surfaced on 4-chan. The user claimed that dividing the model's positional encoding by 4 could trick the model into working with lengths 4 times longer than its original setting. The trick gained enough traction to be cited in academic papers. Following this, an anonymous Reddit user improved upon the idea, using non-linear interpolation to further enhance the performance of these "stretched" models. However, such tricks are not without drawbacks; performance dips and hyperparameter tuning are among the issues.
+
+#### **Infinite Context with RWKV**
+
+RWKV, known as the largest LSTM network in the world, is unique in its ability to theoretically offer an infinite context length. It ranks among the five best models in the Vicuna table and is one of the most used models on Huggingface. It's not just good—it's also cheap to run, operating at a lower computational cost than its Transformer counterparts.
+
+#### **GPT-4: A Tangent on Architecture**
+
+The latest in the line of OpenAI's GPT models, GPT-4 is a behemoth with eight different transformers and 220 billion parameters. Its architecture has sparked theories and speculation, some even suggesting that the model can dynamically change while running. It remains a remarkable but expensive framework, leading us to consider alternative architectures that can handle longer sequences more efficiently.
+
+#### **Goodbye Transformers, Hello Hyena**
+
+Enter Hyena, a convolution-based architecture that recently outperformed a larger Transformer model. It promises monstrous sequence lengths, faster computation, and possibly even higher accuracy. Hyena's secret sauce is its ability to learn a map from position encoding to filter values, enabling more context-aware processing without the computational intensity of Transformers.
+
+**The Core Trick in Hyena:** Hyena generates filters based on positional encoding. These filters are then applied in a Toeplitz matrix, which mimics the function of a convolution operation. This unique architecture allows Hyena to be as "data-controlled" as possible, similar to how attention layers work in Transformers but at a fraction of the computational cost.
+
+#### **Conclusion**
+
+From tweaking positional encodings in the SuperHOT method to adopting entirely different architectures like RWKV and Hyena, the pursuit of longer context windows in large language models is more alive than ever. As we move forward, we can expect even more groundbreaking innovations that push the boundaries, opening new possibilities for applications that require understanding vast swaths of data in a single glance.

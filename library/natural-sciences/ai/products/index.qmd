@@ -4,9 +4,7 @@ title: AI Projects
 
 ## Text
 
-- [Lumentis:](https://github.com/hrishioa/lumentis) Generate beautiful docs from your transcripts and unstructured information with a single command.
-- [NotebookLM](https://notebooklm.google/)
-- [Text to CAD](https://zoo.dev/text-to-cad)
+- [Galactica: A Large Language Model for Science](https://galactica.org/static/paper.pdf)
 
 ## Images
 
@@ -40,18 +38,25 @@ title: AI Projects
 
 
 
-### Sound
+## Audio
 
-- [SonicVidionLM: Generate sound effects for videos](https://yusiissy.github.io/SonicVisionLM.github.io/)
-- [MAGNeT: Text-to-music and test-to-sound](https://pages.cs.huji.ac.il/adiyoss-lab/MAGNeT/)
-
-- [Google MusicLM](https://twitter.com/nonmayorpete/status/1618996491649171457?s=20&t=zYURx0HbIgrKRcnPSRb4MQ)
+### Voice
 
 - [VALL-E: Generate voice snippets with only a few seconds of input audio](https://arxiv.org/abs/2301.02111)
     - [Website](https://valle-demo.github.io/)
-
 - [Whisper: OpenAI Speech Recognition](https://arxiv.org/abs/2212.04356)
     - [blog](https://openai.com/blog/whisper/)
     - [github](https://github.com/openai/whisper)
 
+### Music
+
+- [SonicVidionLM: Generate sound effects for videos](https://yusiissy.github.io/SonicVisionLM.github.io/)
+- [MAGNeT: Text-to-music and text-to-sound](https://pages.cs.huji.ac.il/adiyoss-lab/MAGNeT/)
+- [Google MusicLM](https://twitter.com/nonmayorpete/status/1618996491649171457?s=20&t=zYURx0HbIgrKRcnPSRb4MQ)
 - [Suno.ai](https://twitter.com/tobi/status/1775684945257611286)
+
+## Other
+
+- [Lumentis:](https://github.com/hrishioa/lumentis) Generate beautiful docs from your transcripts and unstructured information with a single command.
+- [NotebookLM](https://notebooklm.google/)
+- [Text to CAD](https://zoo.dev/text-to-cad)

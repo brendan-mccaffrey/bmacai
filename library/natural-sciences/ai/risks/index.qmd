@@ -2,6 +2,10 @@
 title: AI Risks
 ---
 
+## Resources
+
+- [ChatGPT Political Biases](https://davidrozado.substack.com/p/political-bias-chatgpt)
+
 ## Artificial Liars
 
 Perhaps the greatest near term risk of AI is models that lie. This seems to happen because of the political leanings of the small teams that work on and manage the leading models.

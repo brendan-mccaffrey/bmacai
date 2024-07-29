@@ -1,8 +1,0 @@
----
-title: Prompting
----
-
-## Resources
-
-- [example prompt challenge response](https://twitter.com/niemerg/status/1777162301679800329) 
-- [github](https://t.co/Ebtp6KQvo7)

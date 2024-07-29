@@ -9,3 +9,7 @@ Repos
 - [ore](https://github.com/regolith-labs/ore)
 - [ore-cli](https://github.com/regolith-labs/ore-cli)
 - [drillx](https://github.com/regolith-labs/drillx/tree/master)
+
+Popular Fork
+
+- [ore-cli/extended_stats](https://github.com/pmcochrane/ore-cli/tree/extended_stats)

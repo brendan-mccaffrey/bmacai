@@ -1,0 +1,8 @@
+---
+title: Web Dev
+---
+
+## Tooling
+
+- [Bookish: xml-ish + markdown format for books and articles that can convert to html and latex](https://github.com/parrt/bookish)
+- [Quarto: Open-source publishing system](https://quarto.org/)

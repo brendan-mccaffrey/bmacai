@@ -1,8 +1,7 @@
 ---
-title: ML Concepts
+title: ML Methods
+table-of-contents: true
 ---
-
-# Linear Models
 
 ## Linear Regression
 
