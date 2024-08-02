@@ -3,9 +3,49 @@ title: Chips
 description: Semiconductors
 ---
 
-## Resources
+## High Level Semiconductor Lore
 
-- [To the Digital Age: The rise of MOS technology]
+- [The First Transistors](https://www.youtube.com/watch?v=Pzy_KOBddRA&list=PLKtxx9TnH76SXumAiJX3N7Y36G2Gxi8zc&index=9)
+- [How the First Transistor Worked](https://spectrum.ieee.org/transistor-history)
+- [TSMC's First Breakthrough: The Copper/Low-K Interconnect Transition](https://www.youtube.com/watch?v=XHrQ-Pmvwao&list=PLKtxx9TnH76SXumAiJX3N7Y36G2Gxi8zc&index=2)
+- [TSMC's Renegade Genius](https://www.youtube.com/watch?v=XHrQ-Pmvwao&list=PLKtxx9TnH76SXumAiJX3N7Y36G2Gxi8zc&index=4)
+- ["The Decision of the Century": Choosing EUV Lithography](https://www.youtube.com/watch?v=Pzy_KOBddRA&list=PLKtxx9TnH76SXumAiJX3N7Y36G2Gxi8zc&index=10)
 - [The Transitior that Won the World](https://www.youtube.com/watch?v=k8cdByDa3oA)
+- [An Infamous Transistor Dilemma: Gate First or Gate Last?](https://youtube.com/watch?v=c1MdNHJltNc)
 
+## Books and Papers
+
+- [Electrons and Holes in Semiconductors: William Shockley](https://pearl-hifi.com/06_Lit_Archive/14_Books_Tech_Papers/Shockley_William/Electrons_and_Holes_in_Semiconductors_(To_Pg_400).pdf)
+- [The Transistor: Selected Reference Material on Characteristics & Applications]
  
+
+ ## Transistors
+
+ ### The First
+
+ AT&T long wanted a replacement for the vacuum tube. In 40s and 50s, a single transcontinental phone call involved 12,000 vacuum tubes, acting as amplifiers for phone signals that weakened through a copper line. 
+ Copper Oxide rectifier converts (straightens) AC to DC. They worked similar to vacuum tubes, can we get them to act as amplifiers?
+ Late 30s, Bell Labs: Shockley (turned down Yale, GE),
+
+ December 16, 1947: The point-contact transistor experiment
+ - the first solid-state amplifier
+
+ News went out on June 30, 1948
+
+ Shockley: The Joint Transistor. N-type, P-type, N-type materials in that order (can also be PNP).
+
+ ### Metal Oxide Field Effect Transistor (MOFET)
+
+ - A tiny piece of checmically altered silicon that can switch between a conducting and non-conducting state
+ - Four main components:
+    - Source and drain, silicon doped with other elements to send or receive electrons
+    - Gate: apply voltage, create electric field, attract electrons or electron holes up from semiconductor, create conducting layer btw source and drain (channel)
+    - Gate dialectric/Gate oxide: thin layer between gate and transistor, help create EM field
+
+- 1960s: Gate: aluminimum, Gate oxide: silicon dioxide; hard to manufacture
+- Bell labs: heavily doped polysilicon gate instead of aluminium
+
+- Planar Transistors
+- Tri-Gate Transistors
+
+2011: Intel Moved to FinFET 

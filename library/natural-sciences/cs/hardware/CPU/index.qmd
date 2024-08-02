@@ -1,0 +1,7 @@
+---
+title: CPUs
+---
+
+## Resources
+
+- [I don;t know how CPUs work so I simulated one](https://djharper.dev/post/2019/05/21/i-dont-know-how-cpus-work-so-i-simulated-one-in-code/)

@@ -10,8 +10,11 @@ description: Resources and tooling for EVM development
 
 ## EVM Tools 
 
+- [EVM.monster](https://evm.monster/)
+- [abi decoder](https://evm.monster/decoder)
 - [Mesc: multichain tool](https://paradigmxyz.github.io/mesc/what_is_mesc.html)
 - [Deterministic deloyment proxy](https://github.com/Arachnid/deterministic-deployment-proxy)
+- [Parallel-EVM Visualizer](https://par.tryghost.xyz/)
 
 **Testnet Resources**
 
