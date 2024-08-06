@@ -33,6 +33,14 @@ title: MEV
 KKKK (aka ooo/ppp)'s brother is also back on their latest program T1PM32 or whatever. The other two guys have disappeared, probably lost stake."
 - [mf arc got licked](https://x.com/LetsCodeWeb3/status/1803155149076001262)
 
+### Jito
+
+- [Jito-rs: rust code to communicate with jito block engine](https://github.com/jito-labs/jito-rs)
+- [jito-solana: validator fork](https://github.com/jito-foundation/jito-solana/tree/v1.18.20-jito?tab=readme-ov-file)
+- [jito-solana gitbook](https://jito-foundation.gitbook.io/mev/jito-solana/building-the-software)
+- [jito mev protos](https://github.com/jito-labs/mev-protos/blob/master/json_rpc/http.md)
+- [documentation](https://jito-labs.gitbook.io/mev/searcher-services/shredstream)
+- [simple block engine, used for testing bundles](https://github.com/jito-labs/block_engine_simple)
 
 ### BloXroute
 
