@@ -15,6 +15,7 @@ title: Calculus
 
 - [MIT Multivariable Calculus](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010)
 - [UPenn Math 240 (Multi Variable Calculus)](https://www.youtube.com/watch?v=Y6SYkfVdoio&list=PL6UiEGS6WoUk42atmsXOWkohKJA3UbvDL)
+- [Calculus II Youtube Playlist](https://www.youtube.com/watch?v=i4c8n4S-Sp0&list=PLHXZ9OQGMqxc4ySKTIW19TLrT91Ik9M4n)
 
 ### Differential Equations
 

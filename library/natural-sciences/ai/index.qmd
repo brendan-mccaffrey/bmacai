@@ -1,10 +1,9 @@
 ---
-title: AI
-description: Unorganized list of research
+title: AI Research
 --- 
 
 
-## Resources
+## Unorganized Resources
 
 - [Retreival-Enhanced Large Language Models](https://arxiv.org/abs/2301.00303)
     - [Tweet](https://twitter.com/omarsar0/status/1610469384224473088?s=20&t=ooKBDOSX4f3N4fzPDNLjSw)

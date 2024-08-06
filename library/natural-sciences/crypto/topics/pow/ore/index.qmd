@@ -9,7 +9,26 @@ Repos
 - [ore](https://github.com/regolith-labs/ore)
 - [ore-cli](https://github.com/regolith-labs/ore-cli)
 - [drillx](https://github.com/regolith-labs/drillx/tree/master)
+- Popular Fork [ore-cli/extended_stats](https://github.com/pmcochrane/ore-cli/tree/extended_stats)
 
-Popular Fork
+- [Ore tutorial chrobak](https://ore.danielchrobak.software/)
 
-- [ore-cli/extended_stats](https://github.com/pmcochrane/ore-cli/tree/extended_stats)
+V2 Contract Address: `oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp`
+
+## Mining
+
+Configuration
+
+RPCs
+
+- https://mainnet.helius-rpc.com/?api-key=d18cd0e6-40ee-4378-9cf9-c5faed6f74e8
+- https://solana-mainnet.g.alchemy.com/v2/6OULWUHuAHJp4M2RmpmhIET7Umu0RCoV
+
+Devnet
+
+- https://api.devnet.solana.com
+
+mine.sh
+```sh 
+ore mine --rpc https://solana-mainnet.g.alchemy.com/v2/6OULWUHuAHJp4M2RmpmhIET7Umu0RCoV --keypair ~/miner.json --priority-fee 500000 --threads 192 --buffer-time 6
+```

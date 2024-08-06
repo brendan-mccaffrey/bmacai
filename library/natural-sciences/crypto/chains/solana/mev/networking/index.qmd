@@ -1,6 +1,5 @@
 ---
 title: Networking
-description: Validator networking on the solana blockchain
 ---
 
 ## Context
