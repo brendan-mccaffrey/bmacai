@@ -7,6 +7,7 @@ description: Fully Homomorphic Encryption
 
 ### General
 
+- [The highest-level overview](https://www.jeremykun.com/2024/05/04/fhe-overview/#the-highest-level-view)
 - [First Ever Fully Homomorphic Encryption Scheme](https://crypto.stanford.edu/craig/craig-thesis.pdf)
 - [Vitalik on FHE](https://vitalik.ca/general/2020/07/20/homomorphic.html)
 - [Exploring the Recent Rise of FHE in the Blockchain Industry](https://medium.com/@mustafa.hourani/explaining-the-recent-rise-of-fully-homomorphic-encryption-in-the-blockchain-industry-c7081fa05458)
