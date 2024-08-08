@@ -26,6 +26,13 @@ title: "Solana"
 - [Validator Economics on Solana](https://medium.com/chorus-one/exploring-validator-economics-on-solana-cb1498a3aef6)
 - [Jito Validator Economics Spreadsheet](https://docs.google.com/spreadsheets/d/1JhgBLvZInSGA91GDWYFg_-6CIevCv8RUOe3kgSTm5_M/edit#gid=2134008686)
 
+### Topics
+
+- [Helius Blog: Solana and QUIC](https://www.helius.dev/blog/all-you-need-to-know-about-solana-and-quic)
+- [Helius Blog: SWQoS](https://www.helius.dev/blog/stake-weighted-quality-of-service-everything-you-need-to-know)
+- [Durable Nonces](https://solana.com/developers/guides/advanced/introduction-to-durable-nonces)
+- [Solana Gulf Stream: Helius](https://www.helius.dev/blog/solana-gulf-stream)
+
 ### Advanced
 
 - [How will Solana Improve its Stability?](https://medium.com/chorus-one/how-will-solana-improve-its-stability-6d4b0ba41866)
@@ -34,6 +41,7 @@ title: "Solana"
 - [SIMD: Asynchronous Program Execution and Broadcast](https://github.com/solana-foundation/solana-improvement-documents/pull/45)
 - [Priority Fees Github Issue](https://github.com/solana-labs/solana/issues/22820)
 - [Dune Query: % of Sol Txs with Fee above base](https://dune.com/queries/1111217/1898826)
+- [Multiple Concurrent Leaders](https://x.com/aeyakovenko/status/1810222589991583922)
 
 ### SVM
 

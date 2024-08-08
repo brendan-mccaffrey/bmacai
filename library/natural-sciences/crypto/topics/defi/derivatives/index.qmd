@@ -18,3 +18,12 @@ title: Derivatives
 - [Hyperliquid](https://hyperliquid.xyz)
 - [Infinity Pools](https://docs.infinitypools.finance/)
 - [Marginal](https://docsend.com/view/rc6sv24758cwxu9j)
+
+### Ostium
+
+Non-custodial RWA perps on Arbitrum
+
+- [docs](https://ostium-labs.gitbook.io/ostium-docs)
+- [app](https://ostium.app/?from=USD&to=JPY)
+- [the imbalance score](https://www.ostium.io/blog/the-imbalance-score-a-novel-metric-for-rwa-focused-perpetual-dexes)
+- [the imbalance score: a novel metric for rwa-focused perp DEXes](https://docsend.com/view/xs4dbwr9xvysaquq)

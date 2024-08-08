@@ -40,21 +40,17 @@ crypto payments has failed over and over, pitched to raise money with no volume.
 
 in first yr
 
-100 users, 10,000 wallets, 100,000 payments
-
-started as stripe for crypto, then got into on/offramp
-
-banks and shops outside of the USA are willing to talk. They want on/offramps, kyc
-
-
+Arnold - CEO cofounder. sphere b2b payments platform. BTC 2009. Did online surveys to pay for WoW. Was paid in bitcoins, did that for 3 months, got a $15 gift card for WoW. Runescape, digital money. Silk road, people buying fakes and drugs. Met cofounder luigi undergrad columbia. 
+- won solana hackathon 
+- first year: 100 users, 10,000 wallets, 100,000 payments
+- started as stripe for crypto, then got into on/offramp
+- banks and shops outside of the USA are willing to talk. They want on/offramps, kyc
 - realizing there are hard limits to what they are doing. 
-- **TONS of friction**
+- TONS of friction
 - 8 figure wire needs permissions, needs explanation, you may not get it through
 - bankers may not speak english
 - a lot of trust involved
 - no automatic way to find experts within foreign countries
-
-now they are creating a blockchain
 
 permissioned solana cluster (subcluster)
 privacy preserving solana fork

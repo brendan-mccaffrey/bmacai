@@ -18,6 +18,11 @@ title: MEV
 - [rpcpool yellowstone grpc](https://github.com/rpcpool/yellowstone-grpc)
 - [yellowstone/geyser/grpc docs](https://docs.triton.one/project-yellowstone/introduction)
 
+## Reads
+
+- [Solana MEV: An Introduction](https://www.helius.dev/blog/solana-mev-an-introduction)
+- [Solana Gulf Stream: Helius](https://www.helius.dev/blog/solana-gulf-stream)
+
 ## Tools
 
 - [solana rpc benchmark tool](https://github.com/Cetipoo/solana-rpc-benchmark-tool)
