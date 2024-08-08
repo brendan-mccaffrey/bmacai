@@ -1,0 +1,15 @@
+---
+title: Widow Maker
+---
+
+## The Carry Trade
+
+A carry trade is when you borrow one currency, at a low interest rate, and use it to buy financial assets (or lend) in another currency that yield a higher rate. Some people in this trade hedge the currency, but for those who don't, their payoff is affected by the appreciation/depreciation of the borrowed currency.
+
+Due to the BOJ, JGB yields are extremely low: 10yr around 0.77% currently (August '24). The largest asset of the BOJ is foreign securities, a primary holder being the Government Investment Pension Fund (GPIF), which has $1.4 trillion AUM.
+
+Japan likes this trade, because they make a lot of money on foreign assets. Yen depreciation further helps the Nikkei market to rise. But the Yen got too weak, domestic inflation is raging. The BOJ aims to exit this trade slowly. Ueda-domo took over as governor of the BOJ in April 2023 from Kuroda-domo, who architected this massive trade.
+
+To unwind, the BOJ needs to raise rates by ceasing to purchase JGBs and instead selling them back into the market. The market demand will be no lower than inflation, June 2024 YoY CPI at 2.8%. Allowing interest rates to rise will require the BOJ to pay billions of Yen per annum to fund its position.
+
+Banks must purchase these unattractive JGBs, which they can do as they've been unlevered after the 1989 stock and property market bubble burst. The banks need money for this though, so they will be selling foreign assets, and buying JGB. Yen strengthens and JGB yields rise only modestly.
