@@ -1,0 +1,174 @@
+---
+title: System Oracle Query
+---
+
+## query_system_oracle.py
+
+System oracle query example in python
+
+```py
+from web3 import Web3
+
+# Connect to the JSON-RPC endpoint
+rpc_url = "https://api.hyperliquid-testnet.xyz/evm"
+web3 = Web3(Web3.HTTPProvider(rpc_url))
+# Verify connection
+if not web3.is_connected():
+    raise Exception("Failed to connect to the Ethereum network")
+
+# Define the smart contract address and ABI
+contract_address = "0x1111111111111111111111111111111111111111"
+contract_abi = [
+        {
+      "inputs": [],
+      "name": "getMarkPxs",
+      "outputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getOraclePxs",
+      "outputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getSpotPxs",
+      "outputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "markPxs",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "oraclePxs",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_sysBlockNumber",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "_markPxs",
+          "type": "uint256[]"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "_oraclePxs",
+          "type": "uint256[]"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "_spotPxs",
+          "type": "uint256[]"
+        }
+      ],
+      "name": "setValues",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "spotPxs",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "sysBlockNumber",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+]
+
+# Get the contract instance
+contract = web3.eth.contract(address=contract_address, abi=contract_abi)
+
+# Call the function
+try:
+    sys_block_number = contract.functions.sysBlockNumber().call()
+    mark_pxs = contract.functions.getMarkPxs().call()
+    oracle_pxs = contract.functions.getOraclePxs().call()
+    spot_pxs = contract.functions.getSpotPxs().call()
+    print(f"sysBlockNumber: {sys_block_number} markPxs: {mark_pxs} oraclePxs: {oracle_pxs} spotPxs: {spot_pxs}")
+
+except Exception as e:
+    print(f"An error occurred: {e}")
+```

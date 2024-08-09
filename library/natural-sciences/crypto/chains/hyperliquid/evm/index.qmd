@@ -1,0 +1,49 @@
+---
+title: Hyperliquid EVM
+---
+
+## EVM
+
+The Hyperliquid EVM is available on testnet. Features coming soon include EVM block explorer, JSON-RPC queries with non-latest block number, and integration with other L1 state (in progress)
+
+- JSON-RPC endpoint is `https://api.hyperliquid-testnet.xyz/evm`
+- Chain ID is `998`
+- native token faucet
+    ```bash
+    curl -X POST --header "Content-Type: application/json" --data '{"type":"ethFaucet", "user": "..."}' https://api.hyperliquid-testnet.xyz/info
+    ```
+
+### Native Transfers
+
+You can send spot assets between "native" and "EVM" L1. The system address `0x2222222222222222222222222222222222222222` must have the total non-system balance on the other side. 
+
+Once this is done, deployer needs to send spot deploy action to link token to the EVM
+
+```ts
+/**
+ * @param token - The token index to link
+ * @param address - The address of the ERC20 contract on the evm.
+ * @param evmExtraWeiDecimals - The difference in Wei decimals between native and EVM spot. E.g. native PURR has 5 weiDecimals but EVM PURR has 18, so this would be 13. EVM wei decimals should be at least native wei decimals.
+ */
+interface SetEvmContract {
+  type: “setEvmContract”;
+  token: number;
+  Address: address;
+  evmExtraWeiDecimals: number;
+}
+```
+
+There are currently no checks that the system address has sufficient supply or that the contract is a valid ERC20, so be careful when sending funds.
+
+EVM PURR has been deployed as `0x8cDE56336E289c028C8f7CF5c20283fF02272182`
+
+Sample script for deploying an ERC20 token to the EVM and linking it to a native spot token can be found here: [ERC20_example](_files/erc20_example.qmd)
+
+### System Contract
+
+Address `0x1111111111111111111111111111111111111111`, has methods for querying L1 block number and oracle prices. L1 block production directly updates system smart contract values, so the values are guaranteed to match L1 state at time of EVM block construction.
+
+
+- [System Oracle Solidity Contract](_files/system-oracle-contract.qmd)
+- [System Oracle Json](_files/system-oracle-json.qmd)
+- [System Oracle Query Example](_files/system-oracle-query.qmd)

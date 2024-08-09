@@ -1,0 +1,8 @@
+---
+title: HIP-1
+---
+
+## Resources
+
+- [HIP-1: Native Token Standard](https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-1-native-token-standard)
+- [Testnet Deploy Spot](https://app.hyperliquid-testnet.xyz/deploySpot)

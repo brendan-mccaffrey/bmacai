@@ -1,0 +1,41 @@
+---
+title: Hyperliquid
+---
+
+## Resources
+
+**Official**
+
+- [App](https://app.hyperliquid.xyz/trade)
+- [Testnet App](https://app.hyperliquid-testnet.xyz/trade)
+- [Documentation](https://hyperliquid.gitbook.io/hyperliquid-docs)
+- [Explorer](https://app.hyperliquid-testnet.xyz/explorer)
+- [Python SDK](https://github.com/hyperliquid-dex/hyperliquid-python-sdk)
+- [Rust SDK](https://github.com/hyperliquid-dex/hyperliquid-rust-sdk)
+- [Arbitrum Contracts](https://github.com/hyperliquid-dex/contracts)
+
+**Community**
+
+- [Elixir Library / API](https://github.com/skedzior/hyperliquid)
+- [Hypurrscan.io](https://hypurrscan.io/dashboard)
+    - [hypurrscan api swagger](https://api.hypurrscan.io/ui/)
+    - https://abc.hypurrscan.io/pastAuctions
+- [hypurr.fun](https://hypurr.fun/)
+    - [Hypurrfun erc20 github](https://github.com/Hypurr-Fun/hypurr-erc20)
+
+### Perps
+
+Historical data is zipped using LZ4 compression format and uploaded to S3 in the bucket `hyperliquid-archive`
+
+- [Docs: Historical Data](https://hyperliquid.gitbook.io/hyperliquid-docs/historical-data)
+
+### Spot
+
+- [Testnet Deploy Spot Page](https://app.hyperliquid-testnet.xyz/deploySpot)
+- [Api for deploying HIP-1 and HIP-2 assets](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/deploying-hip-1-and-hip-2-assets)
+
+### Node
+
+You can currently run a permissionless non-validating node on testnet. Run in Tokyo for the lowest latency.
+
+- [Github](https://github.com/hyperliquid-dex/node)
