@@ -1,0 +1,131 @@
+---
+title: Energy Thesis
+---
+
+## Thesis
+
+The enxt decade will see an unprecedented energy build-out. The global installed capacity for electricity is approximately 8,000 gigawatts. Installed capacity must double very shortly. The world has to more than double capacity while replacing around half of existing infrastructure.
+
+Given your investment thesis on increasing global energy consumption and focus on the United States, your research should indeed extend beyond traditional energy commodities to encompass the broader energy infrastructure landscape. Here's a structured approach to organizing your research, with historical examples and key areas to focus on:
+
+### Verticals
+
+1. Energy Sources
+2. Transmission and Distribution
+3. Storage and Grid Management
+4. End-Use Technologies
+5. Supporting Services and Equipment
+
+## Historical Examples and Key Players
+
+### 1. Energy Sources
+
+During the oil boom of the early 20th century, companies like Standard Oil (now ExxonMobil) and Gulf Oil (now part of Chevron) saw significant growth. In more recent times, the shale revolution in the 2000s led to the rise of companies like EOG Resources and Pioneer Natural Resources[1].
+
+**Key Questions:**
+- Which companies are at the forefront of renewable energy production?
+- Are there emerging technologies in traditional energy extraction?
+
+**Companies to Watch:** 
+- NextEra Energy (NEE) for renewables
+- EOG Resources (EOG) for oil and gas
+- Cameco Corporation (CCJ) for uranium
+
+**Key Metrics:** 
+- Production growth rates
+- Reserve replacement ratios
+- Cost per unit of energy produced
+
+### 2. Transmission and Distribution
+
+The Rural Electrification Act of 1936 led to a massive buildout of electrical infrastructure across the U.S. Companies like General Electric played a significant role. Today, companies like American Electric Power and Duke Energy are major players in power transmission[2].
+
+**Key Questions:**
+- Which companies are investing in grid modernization?
+- How are transmission companies adapting to distributed energy resources?
+
+**Companies to Watch:**
+- American Electric Power (AEP)
+- Quanta Services (PWR) for infrastructure construction
+
+**Key Metrics:**
+- Miles of transmission lines
+- Capital expenditure on grid modernization
+- Reliability metrics (e.g., SAIDI, SAIFI)
+
+### 3. Storage and Grid Management
+
+While not a historical example, the current push for energy storage is reminiscent of past infrastructure buildouts. Companies like Tesla with its Powerwall and utility-scale batteries are at the forefront.
+
+**Key Questions:**
+- Which companies are leading in grid-scale energy storage?
+- How are smart grid technologies being implemented?
+
+**Companies to Watch:**
+- Tesla (TSLA) for battery technology
+- Stem Inc. (STEM) for AI-driven energy storage
+
+**Key Metrics:**
+- Storage capacity deployed
+- Efficiency rates
+- Integration with renewable sources
+
+### 4. End-Use Technologies
+
+The proliferation of household appliances in the mid-20th century led to increased energy demand and infrastructure needs. Companies like General Electric and Westinghouse were major beneficiaries.
+
+**Key Questions:**
+- Which companies are leading in energy-efficient appliances and systems?
+- How is the electric vehicle market impacting energy infrastructure?
+
+**Companies to Watch:**
+- Generac (GNRC) for backup power systems
+- ChargePoint Holdings (CHPT) for EV charging infrastructure
+
+**Key Metrics:**
+- Market share in energy-efficient products
+- Growth in EV charging stations
+- Energy savings from new technologies
+
+### 5. Supporting Services and Equipment
+
+During past energy booms, companies providing equipment and services often saw significant growth. For example, Schlumberger grew substantially during the oil boom of the 1970s[4].
+
+**Key Questions:**
+- Which companies provide critical equipment for renewable energy projects?
+- Are there emerging technologies in energy efficiency services?
+
+**Companies to Watch:**
+- Schlumberger (SLB) for energy services
+- First Solar (FSLR) for solar panel manufacturing
+
+**Key Metrics:**
+- Order backlog
+- R&D spending
+- Patent filings in energy-related technologies
+
+## Investment Strategy Considerations
+
+1. **Diversification**: Consider spreading investments across different layers of the energy infrastructure to mitigate risks.
+
+2. **Long-term Horizon**: Energy infrastructure projects often take years to complete and generate returns.
+
+3. **Regulatory Environment**: Stay informed about energy policies and regulations that could impact investments.
+
+4. **Technological Disruption**: Be aware of emerging technologies that could disrupt traditional energy infrastructure.
+
+5. **ESG Factors**: Consider the environmental, social, and governance aspects of energy companies, as these factors are increasingly important to investors and regulators.
+
+To best capture your thesis, focus on companies that are well-positioned to benefit from increased energy consumption and the necessary infrastructure buildout. Look for those with strong balance sheets, proven track records in project execution, and clear strategies for adapting to the changing energy landscape.
+
+Remember to conduct thorough due diligence on any potential investments and consider consulting with a financial advisor to ensure alignment with your overall investment strategy and risk tolerance.
+
+Citations:
+[1] https://www.eia.gov/todayinenergy/detail.php?id=62444
+[2] https://infrastructurereportcard.org/cat-item/energy-infrastructure/
+[3] https://money.usnews.com/investing/articles/the-best-energy-stocks-to-buy-this-year
+[4] https://www.morningstar.com/stocks/best-energy-stocks-buy
+[5] https://www.sourcescrub.com/post/fastest-growing-energy-infrastructure-companies-list
+[6] https://www.fidelity.com/learning-center/trading-investing/outlook-energy
+[7] https://www.vicinityenergy.us/blog/the-top-7-questions-to-ask-when-selecting-an-energy-provider/
+[8] https://www.morganstanley.com/articles/decarbonization-renewable-energy-investment-ideas

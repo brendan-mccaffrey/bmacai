@@ -1,0 +1,49 @@
+solana-validator \
+    --identity /home/ubuntu/val-kp.json \
+    --geyser-plugin-config /home/ubuntu/geyser.json \
+    --no-voting \
+    --account-index program-id \
+    --account-index-exclude-key TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA \
+    --account-index-exclude-key kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6 \
+    --known-validator 5D1fNXzvv5NjV1ysLjirC4WY92RNsVH18vjmcszZd8on \
+    --known-validator Ft5fbkqNa76vnsjYNwjDZUXoTWpP7VYm3mtsaQckQADN \
+    --known-validator DtdSSG8ZJRZVv5Jx7K1MeWp7Zxcu19GD5wQRGRpQ9uMF \
+    --known-validator HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU \
+    --known-validator CW9C7HBwAMgqNdXkNgFg9Ujr3edR2Ab9ymEuQnVacd1A \
+    --known-validator q9XWcZ7T1wP4bW9SB4XgNNwjnFEJ982nE8aVbbNuwot \
+    --known-validator Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk \
+    --known-validator DWvDTSh3qfn88UoQTEKRV2JnLt5jtJAVoiCo3ivtMwXP \
+    --entrypoint entrypoint.mainnet-beta.solana.com:8001 \
+    --entrypoint entrypoint2.mainnet-beta.solana.com:8001 \
+    --entrypoint entrypoint3.mainnet-beta.solana.com:8001 \
+    --entrypoint entrypoint4.mainnet-beta.solana.com:8001 \
+    --entrypoint entrypoint5.mainnet-beta.solana.com:8001 \
+    --ledger /var/solana/data \
+    --limit-ledger-size 100000000 \
+    --accounts /var/solana/accounts \
+    --rpc-bind-address 127.0.0.1 \
+    --private-rpc \
+    --rpc-port 8899 \
+    --full-rpc-api \
+    --block-engine-url https://amsterdam.mainnet.block-engine.jito.wtf \
+    --relayer-url http://amsterdam.mainnet.relayer.jito.wtf:8100 \
+    --shred-receiver-address 74.118.140.240:1002
+
+
+    --enable-rpc-transaction-history \
+    --limit-ledger-size 100000000 \
+    --enable-cpi-and-log-storage \
+    --accounts /solana/accounts \
+    --ledger /solana/ledger \
+    --snapshots /snapshots/snapshot \
+    --full-snapshot-interval-slots 1577880000 \
+    --incremental-snapshot-archive-path /snapshots/snapshot \
+    --incremental-snapshot-interval-slots 788940000 \
+    --expected-genesis-hash 5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d \
+    --log - \
+    --enable-rpc-bigtable-ledger-storage \
+    --rpc-bigtable-timeout 300 \
+    --enable-bigtable-ledger-upload \
+    --no-snapshot-fetch \
+    --replay-slots-concurrently \
+    --use-snapshot-archives-at-startup when-newest

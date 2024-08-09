@@ -1,0 +1,16 @@
+[Unit]
+Description=bmac RPC Node
+Requires=network-online.target
+After=network-online.target
+ConditionPathExists=/home/ubuntu/geyser.json
+
+[Service]
+Type=exec
+Restart=on-failure
+LimitNOFILE=1000000
+ExecStop=solana-validator -l /solana/ledger exit -f
+TimeoutStopSec=30
+ExecStart=/home/ubuntu/validator.sh
+
+[Install]
+WantedBy=multi-user.target

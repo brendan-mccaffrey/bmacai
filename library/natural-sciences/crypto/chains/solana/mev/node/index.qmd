@@ -1,0 +1,286 @@
+---
+title: Jito RPC
+---
+
+- [solana yellowstone rpc guide](https://medium.com/coinmonks/solana-yellowstone-geyser-plugin-ac56bb54b81b)
+- [geyser plugins](https://www.helius.dev/blog/solana-geyser-plugins-streaming-data-at-the-speed-of-light)
+
+## Logs for myself
+
+1. Build software as explained [here](https://jito-foundation.gitbook.io/mev/jito-solana/building-the-software)
+    - I am running export TAG=v1.18.20-jito
+
+## Preparing the machine
+
+I bought a big server, I need to configure it for the node.
+
+I have two 1.7TB NVME disks, which I have to format and mount. I can format to either XFS or EXT4. Chosing XFS because Claude said this:
+
+1. **High Performance for Large Files**: XFS excels in handling large files and high I/O rates[1][4], which is beneficial for blockchain data that can grow significantly over time.
+2. **Parallel I/O Operations**: XFS supports parallel input/output operations[5], which can be crucial for high-frequency trading where quick read and write operations are essential.
+3. **Scalability**: XFS can handle extremely large file systems (up to 8 exabytes) and supports files up to 8 exabytes in size[2], providing room for future growth.
+4. **Reduced Fragmentation**: XFS uses delayed allocation and other techniques to reduce file fragmentation[1], which can help maintain performance over time.
+5. **Designed for High-Performance Computing**: Originally developed for high-performance computing environments[2], XFS is well-suited for demanding applications like trading systems.
+6. **Better Performance with High Thread Counts**: Benchmarks have shown XFS to perform better than ext4 at high thread counts[2], which is relevant for a system handling multiple concurrent operations.
+
+Okay, let's go 
+
+1. Format the disks:
+   ```
+   sudo mkfs.xfs /dev/nvme2n1
+   sudo mkfs.xfs /dev/nvme3n1
+   ```
+
+2. Create mount points (if not already done):
+   ```
+   sudo mkdir -p /var/solana/data /var/solana/accounts
+   ```
+
+3. Mount the disks:
+   ```
+   sudo mount /dev/nvme2n1 /var/solana/data
+   sudo mount /dev/nvme3n1 /var/solana/accounts
+   ```
+
+4. For permanent mounting, edit `/etc/fstab`:
+   ```
+   sudo nano /etc/fstab
+   ```
+   Add these lines:
+   ```
+   /dev/nvme2n1  /var/solana/data     xfs    defaults,noatime  0  2
+   /dev/nvme3n1  /var/solana/accounts xfs    defaults,noatime  0  2
+   ```
+
+5. Apply the fstab changes:
+   ```
+   sudo mount -a
+   ```
+
+6. Verify the mounts:
+   ```
+   df -h
+   ```
+
+These steps will format your disks with XFS and mount them appropriately. The `noatime` option in fstab can help improve performance by reducing write operations.
+
+
+
+### Jito Config
+
+> Should RPC servers or other non-voting validators run Jito-Solana?
+> RPC servers can run Jito-Solana if they want to use Jito-specific calls like SimulateBundle. However, only nodes on the Solana leader schedule can connect to the Jito Block Engine.
+
+First of all, need `BLOCK_ENGINE_URL`, `RELAYER_URL`, and `SHRED_RECEIVER_ADDR`
+
+I pinged to double check which region is best for me.
+
+```bash
+ubuntu@giga:~/jito-solana$ ping ny.mainnet.block-engine.jito.wtf
+PING ny.mainnet.block-engine.jito.wtf (141.98.216.81) 56(84) bytes of data.
+64 bytes from 141.98.216.81: icmp_seq=1 ttl=51 time=73.9 ms
+64 bytes from 141.98.216.81: icmp_seq=2 ttl=51 time=73.8 ms
+64 bytes from 141.98.216.81: icmp_seq=3 ttl=51 time=73.9 ms
+64 bytes from 141.98.216.81: icmp_seq=4 ttl=51 time=73.8 ms
+64 bytes from 141.98.216.81: icmp_seq=5 ttl=51 time=73.9 ms
+64 bytes from 141.98.216.81: icmp_seq=6 ttl=51 time=73.9 ms
+64 bytes from 141.98.216.81: icmp_seq=7 ttl=51 time=73.9 ms
+64 bytes from 141.98.216.81: icmp_seq=8 ttl=51 time=73.8 ms
+64 bytes from 141.98.216.81: icmp_seq=9 ttl=51 time=73.9 ms
+64 bytes from 141.98.216.81: icmp_seq=10 ttl=51 time=73.8 ms
+^C
+--- ny.mainnet.block-engine.jito.wtf ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 12698ms
+rtt min/avg/max/mdev = 73.787/73.858/73.916/0.041 ms
+ping frankfurt.mainnet.block-engine.jito.wtf
+PING frankfurt.mainnet.block-engine.jito.wtf (208.91.106.46) 56(84) bytes of data.
+64 bytes from 208.91.106.46: icmp_seq=1 ttl=50 time=12.6 ms
+64 bytes from 208.91.106.46: icmp_seq=2 ttl=50 time=12.7 ms
+64 bytes from 208.91.106.46: icmp_seq=3 ttl=50 time=12.7 ms
+64 bytes from 208.91.106.46: icmp_seq=4 ttl=50 time=12.7 ms
+64 bytes from 208.91.106.46: icmp_seq=5 ttl=50 time=12.6 ms
+64 bytes from 208.91.106.46: icmp_seq=6 ttl=50 time=12.7 ms
+64 bytes from 208.91.106.46: icmp_seq=7 ttl=50 time=12.6 ms
+^C
+--- frankfurt.mainnet.block-engine.jito.wtf ping statistics ---
+7 packets transmitted, 7 received, 0% packet loss, time 6010ms
+rtt min/avg/max/mdev = 12.562/12.641/12.689/0.049 ms
+ubuntu@giga:~/jito-solana$ ping amsterdam.mainnet.block-engine.jito.wtf
+PING amsterdam.mainnet.block-engine.jito.wtf (74.118.139.132) 56(84) bytes of data.
+64 bytes from 74.118.139.132: icmp_seq=1 ttl=51 time=6.07 ms
+64 bytes from 74.118.139.132: icmp_seq=2 ttl=51 time=6.16 ms
+64 bytes from 74.118.139.132: icmp_seq=3 ttl=51 time=6.16 ms
+64 bytes from 74.118.139.132: icmp_seq=4 ttl=51 time=6.15 ms
+64 bytes from 74.118.139.132: icmp_seq=5 ttl=51 time=6.13 ms
+64 bytes from 74.118.139.132: icmp_seq=6 ttl=51 time=6.17 ms
+64 bytes from 74.118.139.132: icmp_seq=7 ttl=51 time=6.15 ms
+64 bytes from 74.118.139.132: icmp_seq=8 ttl=51 time=6.16 ms
+64 bytes from 74.118.139.132: icmp_seq=9 ttl=51 time=6.14 ms
+^C
+--- amsterdam.mainnet.block-engine.jito.wtf ping statistics ---
+9 packets transmitted, 9 received, 0% packet loss, time 8010ms
+rtt min/avg/max/mdev = 6.066/6.143/6.169/0.029 ms
+```
+
+Amsterdam certainly best, 6ms should be good enough.
+
+```bash
+BLOCK_ENGINE_URL=https://amsterdam.mainnet.block-engine.jito.wtf
+SHRED_RECEIVER_ADDR=74.118.140.240:1002
+RELAYER_URL=http://amsterdam.mainnet.relayer.jito.wtf:8100
+```
+
+### Flags of Interest
+
+`--full-rpc-api` enables all rpc operations
+`--no-voting`
+`--private-rpc` does not publish the validators open RPC port in the `solana gossip` command
+
+Example testnet rpc `validator.sh` file
+
+```sh 
+#!/bin/bash
+exec solana-validator \
+    --identity /home/sol/validator-keypair.json \
+    --known-validator 5D1fNXzvv5NjV1ysLjirC4WY92RNsVH18vjmcszZd8on \
+    --known-validator dDzy5SR3AXdYWVqbDEkVFdvSPCtS9ihF5kJkHCtXoFs \
+    --known-validator eoKpUABi59aT4rR9HGS3LcMecfut9x7zJyodWWP43YQ \
+    --known-validator 7XSY3MrYnK8vq693Rju17bbPkCN3Z7KvvfvJx4kdrsSY \
+    --known-validator Ft5fbkqNa76vnsjYNwjDZUXoTWpP7VYm3mtsaQckQADN \
+    --known-validator 9QxCLckBiJc783jnMvXZubK4wH86Eqqvashtrwvcsgkv \
+    --only-known-rpc \
+    --full-rpc-api \
+    --no-voting \
+    --ledger /mnt/ledger \
+    --accounts /mnt/accounts \
+    --log /home/sol/solana-rpc.log \
+    --rpc-port 8899 \
+    --rpc-bind-address 0.0.0.0 \
+    --private-rpc \
+    --dynamic-port-range 8000-8020 \
+    --entrypoint entrypoint.testnet.solana.com:8001 \
+    --entrypoint entrypoint2.testnet.solana.com:8001 \
+    --entrypoint entrypoint3.testnet.solana.com:8001 \
+    --expected-genesis-hash 4uhcVJyU9pJkvQyS88uRDiswHXSCkY3zQawwpjk2NsNY \
+    --wal-recovery-mode skip_any_corrupted_record \
+    --limit-ledger-size
+```
+
+`solana-validator [FLAGS] [OPTIONS] --ledger <DIR> [SUBCOMMAND]`
+
+--cuda
+
+--full-rpc-api YES
+
+--no-voting YES
+
+--only-known-rpc                          
+    Use the RPC service of known validators only
+
+--private-rpc                             
+    Do not publish the RPC port for use by others
+
+--rpc-pubsub-enable-block-subscription 
+    Enable the unstable RPC PubSub `blockSubscribe` subscription
+
+--rpc-send-transaction-also-leader
+    With `--rpc-send-transaction-tpu-peer HOST:PORT`, also send to the current leader
+
+--trust-block-engine-packets YES?
+    Skip signature verification on block engine packets. Not recommended unless the block engine is trusted.
+
+--trust-relayer-packets YES?
+    Skip signature verification on relayer packets. Not recommended unless the relayer is trusted.
+
+--accounts YES /var/solana/accounts
+
+--block-engine-url YES
+
+--entrypoint ??
+
+--geyser-plugin-config ???
+
+--identity YES
+
+--ledger YES /var/solana/data
+
+--relayer-url YES
+
+--rpc-port YES 8899
+
+--rpc-send-retry-ms YES? 1000
+
+--shred-receiver-address YES
+
+
+Jito
+```
+[Unit]
+Description=Runs the validator with a geyser plugin
+Requires=network-online.target
+After=network-online.target
+ConditionPathExists=/etc/solana/geyser.json
+
+[Service]
+Type=exec
+Restart=on-failure
+LimitNOFILE=1000000
+ExecStop=solana-validator -l /solana/ledger exit -f
+TimeoutStopSec=30
+ExecStart=solana-validator \
+          --identity /etc/solana/identity.json \
+          --geyser-plugin-config /etc/solana/geyser.json \
+          --no-voting \
+          --account-index program-id \
+          --account-index-exclude-key TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA \
+          --account-index-exclude-key kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6 \
+          --entrypoint entrypoint.mainnet-beta.solana.com:8001 \
+          --entrypoint entrypoint2.mainnet-beta.solana.com:8001 \
+          --entrypoint entrypoint3.mainnet-beta.solana.com:8001 \
+          --entrypoint entrypoint4.mainnet-beta.solana.com:8001 \
+          --entrypoint entrypoint5.mainnet-beta.solana.com:8001 \
+          --trusted-validator ... \
+          --rpc-bind-address 127.0.0.1 \
+          --private-rpc \
+          --rpc-port 8899 \
+          --full-rpc-api \
+          --enable-rpc-transaction-history \
+          --limit-ledger-size 100000000 \
+          --enable-cpi-and-log-storage \
+          --accounts /solana/accounts \
+          --ledger /solana/ledger \
+          --snapshots /snapshots/snapshot \
+          --full-snapshot-interval-slots 1577880000 \
+          --incremental-snapshot-archive-path /snapshots/snapshot \
+          --incremental-snapshot-interval-slots 788940000 \
+          --expected-genesis-hash 5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d \
+          --log - \
+          --enable-rpc-bigtable-ledger-storage \
+          --rpc-bigtable-timeout 300 \
+          --enable-bigtable-ledger-upload \
+          --no-snapshot-fetch \
+          --replay-slots-concurrently \
+          --use-snapshot-archives-at-startup when-newest
+
+[Install]
+WantedBy=multi-user.target
+```
+
+
+### Download yellowstone
+
+```bash
+git clone https://github.com/rpcpool/yellowstone-grpc
+
+cd yellowstone-grpc
+
+git checkout v1.15.0+solana.1.18.21
+
+cargo install
+
+cargo build --release
+```
+
+### My Commands
+
+```bash
