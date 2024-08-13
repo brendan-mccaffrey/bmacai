@@ -17,3 +17,9 @@ title: AI Models
 ### July 24, 2024 | Mistral
 
 - [Announcing Mistral Large 2](https://mistral.ai/news/mistral-large-2407/)
+
+### August 13, 2024 | Sakana
+
+- [The AI Scientist](https://sakana.ai/ai-scientist/)
+- [The AI Scientist: Towards Automated Open-Ended Scientific Discovery](https://arxiv.org/abs/2408.06292)
+- [github](https://github.com/SakanaAI/AI-Scientist)

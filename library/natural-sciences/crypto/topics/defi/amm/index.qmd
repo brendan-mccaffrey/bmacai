@@ -2,9 +2,12 @@
 title: Automated Market Makers
 ---
 
-## Markets
+## Dark Pools
 
-### CFMM
+- [Renegade Whitepaper](https://whitepaper.renegade.fi/)
+- [Renegade](https://trade.renegade.fi/)
+
+## CFMM
 
 ### Orderbooks
 

@@ -4,6 +4,8 @@ title: Jito RPC
 
 - [solana yellowstone rpc guide](https://medium.com/coinmonks/solana-yellowstone-geyser-plugin-ac56bb54b81b)
 - [geyser plugins](https://www.helius.dev/blog/solana-geyser-plugins-streaming-data-at-the-speed-of-light)
+- [running solana rpc knox tutorial](https://www.youtube.com/watch?v=deGn_lABy14)
+- [overclocking CPUs](https://www.youtube.com/watch?v=gD35hERGdZo)
 
 ## Logs for myself
 

@@ -9,6 +9,7 @@ title: AI Dev Tools
 - [Julius AI: GPT for CSVs/Excel](https://julius.ai/chat)
 - [Modular: Programming Language](https://www.modular.com/?utm_content=268229477&utm_medium=social&utm_source=twitter&hss_channel=tw-1483918307484848132)
 - [Copilot++](https://x.com/amanrsanger/status/1762955829710594493?s=20)
+- [OpenArtifacts](https://mayfer.github.io/open-artifacts/)
 
 #### Rawdog: A natural language CLI tool.
 
