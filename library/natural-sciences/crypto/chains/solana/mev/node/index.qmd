@@ -286,3 +286,20 @@ cargo build --release
 ### My Commands
 
 ```bash
+
+
+
+
+known validators
+
+
+helius he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk
+binance DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy
+p2p DWvDTSh3qfn88UoQTEKRV2JnLt5jtJAVoiCo3ivtMwXP
+jito1 CXPeim1wQMkcTvEHx9QdhgKREYYJD8bnaCCqPRwJ1to1
+jito2 A4hyMd3FyvUJSRafDUSwtLLaQcxRP4r1BRC9w2AJ1to2
+jup JupRhwjrF5fAcs6dFhLH59r3TJFvbcyLP2NRM8UGH9H
+coinbase XkCriyrNwS3G4rzAXtG5B1nnvb5Ka1JtCku93VqeKAr
+shinobi Ninja1spj6n9t5hVYgF3PdnYz2PLnkt7rvaw3firmjs
+juicy juicQdAnksqZ5Yb8NQwCLjLWhykvXGktxnQCDvMe6Nx
+laine LA1NEzryoih6CQW3gwQqJQffK2mKgnXcjSQZSRpM3wc
