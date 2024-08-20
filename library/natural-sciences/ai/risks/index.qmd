@@ -5,6 +5,8 @@ title: AI Risks
 ## Resources
 
 - [ChatGPT Political Biases](https://davidrozado.substack.com/p/political-bias-chatgpt)
+- [Situational Awareness](https://situational-awareness.ai/)
+    - [PDF](https://situational-awareness.ai/wp-content/uploads/2024/06/situationalawareness.pdf)
 
 ## Artificial Liars
 

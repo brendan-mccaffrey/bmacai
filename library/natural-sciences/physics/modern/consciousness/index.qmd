@@ -5,6 +5,7 @@ title: Consciousness
 ## General
 
 - [What is Life? Erwin Shrodinger](http://strangebeautiful.com/other-texts/schrodinger-what-is-life-mind-matter-auto-sketches.pdf)
+- [Entangled biphoton generation in myelin sheath](https://arxiv.org/pdf/2401.11682)
 
 ## Orch OR Theory
 

@@ -26,6 +26,9 @@ title: Hyperliquid
     - https://abc.hypurrscan.io/pastAuctions
 - [hypurr.fun](https://hypurr.fun/)
     - [Hypurrfun erc20 github](https://github.com/Hypurr-Fun/hypurr-erc20)
+- [Liquidstart](https://app.liquidstart.xyz/home)
+- [hlbridge](https://docs.hlbridge.com/faq)
+- [hyperscanner](https://www.hyperscanner.app/)
 
 ### Consensus
 

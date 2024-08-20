@@ -77,6 +77,9 @@ table-of-contents: true
 
 - [Based Preconfirmations with Multi-round MEV-Boost](https://ethresear.ch/t/based-preconfirmations-with-multi-round-mev-boost/20091)
 - [Strawmanning Based Preconfirmations](https://ethresear.ch/t/strawmanning-based-preconfirmations/19695)
+- [Bolt Protocol](https://boltprotocol.xyz/)
+    - [Documentation](https://chainbound.github.io/bolt-docs/)
+    - [Github Repository](https://github.com/chainbound/bolt)
 
 ### Data 
 
