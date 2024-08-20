@@ -37,3 +37,8 @@ title: Consensus
 - [State of research: increasing censorship resistance of transactions under PBS](https://notes.ethereum.org/s3JToeApTx6CKLJt8AbhFQ#Hybrid-PBS-can-we-use-proposers-only-for-inclusion-of-last-resort)
 - [PBS Censorship-Resistance Alternatives](https://notes.ethereum.org/@fradamt/H1TsYRfJc)
 - [Current crList Proposal](https://notes.ethereum.org/Dh7NaB59TnuUW5545msDJQ)
+
+
+## Execution
+
+- [Block-STM: Scaling blockchain execution by turning ordering curse to a performance blessing](https://arxiv.org/abs/2203.06871) 

@@ -1,0 +1,12 @@
+---
+title: Hyperliquid Quant Trading Resources
+---
+
+## Resources
+
+- [CCXT](https://github.com/ccxt/ccxt)
+
+
+### Best MMs
+
+- [tweet](https://x.com/chameleon_jeff/status/1736021376111161368)

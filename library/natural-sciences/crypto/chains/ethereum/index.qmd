@@ -24,6 +24,9 @@ table-of-contents: true
 - [Solidity Lang Docs](https://docs.soliditylang.org/en/v0.8.21/)
 - [EIP-1153: Transient Storage](https://eips.ethereum.org/EIPS/eip-1153)
 - [Merkle Patricia Tree: storage proof Implementation](https://github.com/mixbytes/zkllvm-mpt-proofs)
+- [Rust Implementation of the EVM](https://github.com/bluealloy/revm)
+- [REVM gitbook](https://bluealloy.github.io/revm/)
+- [Brontes: blockchain analytics pipeline on top of Reth](https://github.com/SorellaLabs/brontes)
 
 #### **Other**
 

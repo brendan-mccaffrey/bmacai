@@ -2,6 +2,10 @@
 title: Hyperliquid
 ---
 
+## Ethos
+
+- [No Insiders](https://x.com/chameleon_jeff/status/1751692534483505649)
+
 ## Resources
 
 **Official**
@@ -23,11 +27,21 @@ title: Hyperliquid
 - [hypurr.fun](https://hypurr.fun/)
     - [Hypurrfun erc20 github](https://github.com/Hypurr-Fun/hypurr-erc20)
 
+### Consensus
+
+Originally used their own rust implementation of Tendermint. They now use [HyperBFT](https://x.com/chameleon_jeff/status/1787140092735185365), "a custom consensus algorithm written from the ground up".
+
 ### Perps
 
 Historical data is zipped using LZ4 compression format and uploaded to S3 in the bucket `hyperliquid-archive`
 
 - [Docs: Historical Data](https://hyperliquid.gitbook.io/hyperliquid-docs/historical-data)
+
+#### Liquidations
+
+> On Hyperliquid enjoy liquidation flow as if you were a privileged DMM. On other exchanges the liquidation flow is internalized by either the exchange itself or by insiders. On Hyperliquid the liquidations are sent to the book so that all users can compete fairly for this good flow. It's not fair to show these liquidations on the chart because on other venues the internal liquidations are not shown on the chart either. However the UI will be updated to show an explanation for these fills where you matched against the liquidation of another user.
+
+- [thread](https://x.com/chameleon_jeff/status/1713551132855840871)
 
 ### Spot
 
@@ -39,3 +53,7 @@ Historical data is zipped using LZ4 compression format and uploaded to S3 in the
 You can currently run a permissionless non-validating node on testnet. Run in Tokyo for the lowest latency.
 
 - [Github](https://github.com/hyperliquid-dex/node)
+
+### Protocol Ideas
+
+- Using EVM / System contracts, can we allow people to short Spot tokens?

@@ -84,7 +84,7 @@ title: AI Research
 - [Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook) and corresponding [tweet](https://twitter.com/zacharynado/status/1616133152438910976)
 - [Evolutionary Model Merge](https://sakana.ai/evolutionary-model-merge/)
 - [The AI Scientist: Towards Automated Open-Ended Scientific Discovery](https://arxiv.org/abs/2408.06292)
-
+- [Situational Awareness](https://situational-awareness.ai/wp-content/uploads/2024/06/situationalawareness.pdf)
 
 ### Yann LeCun
 

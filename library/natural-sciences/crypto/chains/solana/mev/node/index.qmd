@@ -303,3 +303,36 @@ coinbase XkCriyrNwS3G4rzAXtG5B1nnvb5Ka1JtCku93VqeKAr
 shinobi Ninja1spj6n9t5hVYgF3PdnYz2PLnkt7rvaw3firmjs
 juicy juicQdAnksqZ5Yb8NQwCLjLWhykvXGktxnQCDvMe6Nx
 laine LA1NEzryoih6CQW3gwQqJQffK2mKgnXcjSQZSRpM3wc
+```
+
+
+
+
+### Now NGINX
+
+```conf
+server {
+
+  listen 80;
+  listen [::]:80;
+  server_name 162.19.102.207 jito.bmac.ai;
+
+  listen 443 ssl;
+  listen [::]:443 ssl;
+  ssl_certificate /etc/nginx/ssl/jito.bmac.ai.crt;
+  ssl_certificate_key /etc/nginx/ssl/jito.bmac.ai.key;
+
+  location /xws {
+      proxy_http_version 1.1;
+      proxy_set_header Upgrade $http_upgrade;
+      proxy_set_header Connection "Upgrade";
+      proxy_set_header Host $host;
+      proxy_pass   http://127.0.0.1:8900/;
+  }
+
+  location /xrpc {
+      proxy_redirect off;
+      proxy_pass    http://127.0.0.1:8899/;
+  }
+}
+```

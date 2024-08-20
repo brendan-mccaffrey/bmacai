@@ -1,0 +1,32 @@
+---
+title: Movement
+---
+
+## Resources
+
+- [Movement Testnet](https://testnet.movementlabs.xyz/)
+- [Movement Docs](https://docs.movementnetwork.xyz/)
+- [Movement Github](https://github.com/movementlabsxyz)
+- Movement Labs, bring Move language to Eth through L2 "make blockchain security sexy again"
+- 38mm Series A led by Polychain
+- Founders: Rushi Manche (21) and Cooper Scanlon (24)
+
+## Meeting with Cooper
+
+- was previously at fund of funds, solidity/security was a obstacle for funds putting money on chain
+- move language better for reentrancy, verifiable security, object orientation
+- built structured products on move language yield aggregator using Move, hard to onboard users + liq
+- pivoted to build movement, launched testnet 2-3 weeks ago
+- 30mm testnet txs, 40 live apps, 1.4mm active users, mainnet launch in 2-3 months
+- focuses
+    - defi, btc focused: solvbtc, huang + lou family office, bitvm, large tvl commited
+    - nexeo bitcoin rollup on top, echo btc lending + staking
+    - consumer apps, rwa: hashnote, juritsu
+    - want global presence: need africa, south america, oceania
+
+TVL Terms
+- 12mo commitment: .1% per 10mm, 4yr vest 1yr cliff, restricted by MFNs
+
+Incentives / Farming
+- separate into guilds, diff buckets of rewards
+- spartans are onchain folks, spartan guild rewards, and general tx rewards
