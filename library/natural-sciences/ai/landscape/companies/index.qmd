@@ -1,0 +1,36 @@
+---
+title: Companies
+---
+
+## Low Level
+
+- TSMC
+- ASML
+- Tokyo Electron
+
+## High Level Hardware
+
+- [NVIDIA](https://www.nvidia.com/)
+- [Groq](https://groq.com/)
+
+## Foundational Model
+
+- [Google](https://www.google.com/)
+- [Meta](https://meta.com/)
+- [Mistral](https://mistral.ai/)
+- [OpenAI](https://openai.com/)
+- [Anthropic](https://www.anthropic.com/)
+- [DeepMind](https://www.deepmind.com/)
+- [xAI](https://xai.com/)
+- [Sakana](https://sakana.ai/)
+- [Black Forest Labs](https://blackforestlabs.ai/)
+
+## Infrastructure
+
+[Replicate](https://replicate.com/)
+
+The easiest way to run a model, plug and play API.
+
+[ComfyUI](https://www.comfy.org/)
+
+ComfyUI is a modular stable diffusion GUI and backend. This ui will let you design and execute advanced stable diffusion pipelines using a graph/nodes/flowchart based interface, checkout the [github here](https://github.com/comfyanonymous/ComfyUI)

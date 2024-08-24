@@ -15,6 +15,7 @@ description: Resources and tooling for EVM development
 - [Mesc: multichain tool](https://paradigmxyz.github.io/mesc/what_is_mesc.html)
 - [Deterministic deloyment proxy](https://github.com/Arachnid/deterministic-deployment-proxy)
 - [Parallel-EVM Visualizer](https://par.tryghost.xyz/)
+- [Sim Studio: JIT LP UniV3](https://studio.sim.io/tal/canvases/06216600-4ba4-4b7f-be7d-6fce27d6482c)
 
 **Testnet Resources**
 

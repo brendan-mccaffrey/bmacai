@@ -29,6 +29,19 @@ title: Hyperliquid
 - [Liquidstart](https://app.liquidstart.xyz/home)
 - [hlbridge](https://docs.hlbridge.com/faq)
 - [hyperscanner](https://www.hyperscanner.app/)
+- [pvp.trade](https://pvp.trade/)
+- [guess, prediction market on hyperliquid](https://pvp.trade/)
+
+### Good Jeff Tweets
+
+- [Megathread on building crypto HFT system](https://x.com/chameleon_jeff/status/1650868903114067968)
+- [Why Bitget is sketchy](https://x.com/chameleon_jeff/status/1643610595848261632)
+- [Hyperliquid scope has 10x'd twice since inception](https://x.com/chameleon_jeff/status/1784592436792275221)
+- [Dealing with market manipulation attacks](https://x.com/chameleon_jeff/status/1726091053491470408)
+- [Avoid getting wrecked by a spoofer in market manipulations](https://x.com/chameleon_jeff/status/1640008280457248768)
+- [How to improve latency on your HFT strategy](https://x.com/chameleon_jeff/status/1649770610711580672)
+- [Latency alpha, upbit and binance](https://x.com/chameleon_jeff/status/1642198518319452160)
+- [Advice for starting out as a quant](https://x.com/chameleon_jeff/status/1637986806749872128)
 
 ### Consensus
 

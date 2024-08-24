@@ -1,0 +1,28 @@
+---
+title: Landscape
+---
+
+## Overview
+
+- [Artificial Analysis: AI Model and Hosting Provider Analysis](https://artificialanalysis.ai/)
+- [LLMPerf Leaderboard](https://github.com/ray-project/llmperf-leaderboard?mkt_tok=NjQxLUtFQy05NzQAAAGQkOlgXauDOopfc5GG0rONdqPE7T8Tdz_cE7SPz8iB8TF9zcnd497QESNu9F4XGCxLXtDeurO8Ki_l16wlFN3QQzItVVZnyLto6kAsvmA)
+
+### July 23, 2024 | Meta
+
+- [Paper](https://scontent-lga3-2.xx.fbcdn.net/v/t39.2365-6/452387774_1036916434819166_4173978747091533306_n.pdf?_nc_cat=104&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=t6egZJ8QdI4Q7kNvgH-IGNy&_nc_ht=scontent-lga3-2.xx&oh=00_AYB7sXFadLPtVktdG0JM6BazZEkUCBK2zyQtilI1-rAqWQ&oe=66A6EB8D)
+- [Download Models](https://llama.meta.com/llama-downloads)
+- [Introducing Llama 3.1](https://ai.meta.com/blog/meta-llama-3-1/)
+- [Wang post about it](https://x.com/alexandr_wang/status/1815775286195331411)
+- [The Llama 3 Herd of Models](https://ai.meta.com/research/publications/the-llama-3-herd-of-models/)
+- [Open Source is the path forward](https://www.facebook.com/4/posts/10115716861061241/?rdid=VE0wPWaJDdF21j32)
+- [Karpathy post about it](https://x.com/karpathy/status/1815842603377779140)
+
+### July 24, 2024 | Mistral
+
+- [Announcing Mistral Large 2](https://mistral.ai/news/mistral-large-2407/)
+
+### August 13, 2024 | Sakana
+
+- [The AI Scientist](https://sakana.ai/ai-scientist/)
+- [The AI Scientist: Towards Automated Open-Ended Scientific Discovery](https://arxiv.org/abs/2408.06292)
+- [github](https://github.com/SakanaAI/AI-Scientist)

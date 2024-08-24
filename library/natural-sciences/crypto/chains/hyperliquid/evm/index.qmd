@@ -41,7 +41,7 @@ Sample script for deploying an ERC20 token to the EVM and linking it to a native
 
 ### System Contract
 
-Address `0x1111111111111111111111111111111111111111`, has methods for querying L1 block number and oracle prices. L1 block production directly updates system smart contract values, so the values are guaranteed to match L1 state at time of EVM block construction.
+The testnet EVM now provides a system contract that allows querying native L1 information. Address `0x1111111111111111111111111111111111111111`, has methods for querying L1 block number and oracle prices. L1 block production directly updates system smart contract values, so the values are guaranteed to match L1 state at time of EVM block construction.
 
 
 - [System Oracle Solidity Contract](_files/system-oracle-contract.qmd)
