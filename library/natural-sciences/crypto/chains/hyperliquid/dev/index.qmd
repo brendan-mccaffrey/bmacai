@@ -1,0 +1,19 @@
+---
+title: Dev
+---
+
+## Dev Stuff
+
+## Web UI
+
+#### Unlisted Pages
+- [Funding Comparison](https://app.hyperliquid.xyz/fundingComparison)
+- [Deploy Spot](https://app.hyperliquid.xyz/deploySpot)
+
+#### Backend
+Based on twitter forensics, it looks like the team is likely using [dbos-transact](https://github.com/dbos-inc/dbos-transact) for their backend. You may find documentation [here](https://docs.dbos.dev/)
+
+
+### Consensus
+
+Originally used their own rust implementation of Tendermint. They now use [HyperBFT](https://x.com/chameleon_jeff/status/1787140092735185365), "a custom consensus algorithm written from the ground up".

@@ -2,6 +2,10 @@
 title: Automated Market Makers
 ---
 
+## CFMM
+
+- [Thorough mathematical modeling and analysis of Uniswap v3](https://hal.science/hal-04214315v2/document)
+
 ## Dark Pools
 
 - [Renegade Whitepaper](https://whitepaper.renegade.fi/)
@@ -24,3 +28,10 @@ title: Automated Market Makers
 - [Discrimination of Toxic Flow in Uniswap: Part 4](https://crocswap.medium.com/discrimination-of-toxic-flow-in-uniswap-v3-part-4-c09656ec016e)
 - [Is Uniswap V2 still a good deal for LPs?](https://atise.medium.com/uniswap-v2-still-a-good-deal-for-liquidity-providers-a-retrospective-of-2023-11475e9d8610)
 - [TWAP Oracle Attacks: Easier Done than Said?](https://eprint.iacr.org/2022/445.pdf)
+- [Loss-Versus-Rebalancing](https://www.youtube.com/watch?v=q5vyJJb-Uyw)
+- [AMM and Arbitrage Profits in the Presence of Fees](https://arxiv.org/pdf/2305.14604)
+- [AMM and LVR](https://arxiv.org/pdf/2208.06046)
+
+## Intents
+
+- [Intents-based architectures and their risks](https://www.paradigm.xyz/2023/06/intents)

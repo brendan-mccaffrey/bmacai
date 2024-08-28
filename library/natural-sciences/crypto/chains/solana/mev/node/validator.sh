@@ -33,7 +33,7 @@ solana-validator \
     --private-rpc \
     --rpc-bind-address 127.0.0.1 \
     --full-rpc-api \
-    --rpc-send-retry-ms 1000 \
+    --rpc-send-retry-ms 500 \
     --block-engine-url https://amsterdam.mainnet.block-engine.jito.wtf \
     --trust-block-engine-packets \
     --relayer-url http://amsterdam.mainnet.relayer.jito.wtf:8100 \
@@ -65,10 +65,12 @@ solana-validator \
     --geyser-plugin-config /home/ubuntu/geyser.json \
     --no-voting \
     --account-index program-id \
+    --accounts-index-threads 32 \
     --account-index-exclude-key TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA \
     --account-index-exclude-key kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6 \
     --account-index-exclude-key cndy3Z4yapfJBmL3ShUp5exZKqR3z33thTzeNMm2gRZ \
     --account-index-exclude-key metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s \
+    --account-index-exclude-key oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp \
     --entrypoint entrypoint.mainnet-beta.solana.com:8001 \
     --entrypoint entrypoint2.mainnet-beta.solana.com:8001 \
     --entrypoint entrypoint3.mainnet-beta.solana.com:8001 \
@@ -91,7 +93,34 @@ solana-validator \
     --private-rpc \
     --rpc-bind-address 127.0.0.1 \
     --full-rpc-api \
+    --rpc-send-retry-ms 500 \
+    --block-engine-url https://amsterdam.mainnet.block-engine.jito.wtf \
+    --trust-block-engine-packets \
+    --relayer-url http://amsterdam.mainnet.relayer.jito.wtf:8100 \
+    --trust-relayer-packets \
+    --shred-receiver-address 74.118.140.240:1002 \
+    --log ~/jitorpc/logs/rpc.log \
+    --limit-ledger-size 100000000 \
+    --ledger /var/solana/data \
+    --accounts /var/solana/accounts \
+    --snapshots ~/jitorpc/snapshots/snapshot \
+    --full-snapshot-interval-slots 1577880000 \
+    --incremental-snapshot-archive-path ~/jitorpc/snapshots/snapshot \
+    --incremental-snapshot-interval-slots 788940000 \
+    --replay-slots-concurrently \
+    --use-snapshot-archives-at-startup when-newest
     
+
+
+    --account-index whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc \
+    CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK \
+    675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 \
+    JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 \
+    2wT8Yq49kHgDzXuPxZSaeLaH1qbmGXtEyPy64bL7aD3c \
+    H8W3ctz92svYg6mkn1UtGfu2aQr2fnUFHM1RhScEtQDt \
+    LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo \ # meteora dlmm
+    opnb2LAfJYbRMAHHvqjCwQxanZn7ReEHp1k81EohpZb \
+    2wT8Yq49kHgDzXuPxZSaeLaH1qbmGXtEyPy64bL7aD3c \ lfinity
     --rpc-send-retry-ms 1000 \
     --block-engine-url https://amsterdam.mainnet.block-engine.jito.wtf \
     --trust-block-engine-packets \

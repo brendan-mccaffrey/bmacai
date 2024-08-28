@@ -1,0 +1,65 @@
+---
+title: Heding LP Positions
+---
+
+## Resources
+
+- [Unified Approach for Heding Impermanent Loss of Liquidity Provision](https://papers.ssrn.com/sol3/Delivery.cfm/4887298.pdf?abstractid=4887298&mirid=1&type=2)
+- [Automated Market Making and Loss-Versus Rebalancing](https://arxiv.org/pdf/2208.06046)
+
+
+
+## Research
+
+I apologize for not providing the exact methods and formulas in my previous response. Let me explain the hedging strategy in more detail, focusing on the specific formulas presented in the paper.
+
+## Optimal Execution Strategy
+
+The paper considers an investor who wants to execute a limit order of size $L$ on an AMM to sell $x_0$ units of asset $X$ at a price $P$ or better. The investor also has the option to hedge their position by trading a correlated asset $Y$ on a CEX.
+
+The optimal execution strategy involves splitting the order into an aggressive market order of size $x_M$ and a passive limit order of size $x_L$, such that $x_0 = x_M + x_L$. The optimal split is determined by solving the following optimization problem:
+
+$$
+\min_{x_M, x_L} \mathbb{E}[C(x_M, x_L)] + \gamma \text{Var}[C(x_M, x_L)]
+$$
+
+where $C(x_M, x_L)$ is the total execution cost, $\gamma$ is the investor's risk aversion coefficient, and the optimization is subject to the constraint $x_0 = x_M + x_L$.
+
+## Hedging Strategy
+
+To hedge the AMM position, the investor trades $\beta$ units of asset $Y$ on the CEX, where $\beta$ is the hedge ratio. The optimal hedge ratio is given by:
+
+$$
+\beta^* = -\frac{\text{Cov}(P_X, P_Y)}{\text{Var}(P_Y)} \cdot \frac{x_L}{x_0}
+$$
+
+where $P_X$ and $P_Y$ are the prices of assets $X$ and $Y$, respectively.
+
+The hedged execution cost is then given by:
+
+$$
+C_H(x_M, x_L, \beta) = C(x_M, x_L) + \beta \cdot (P_Y - \mathbb{E}[P_Y])
+$$
+
+The optimal split $(x_M^*, x_L^*)$ and hedge ratio $\beta^*$ are obtained by solving the following optimization problem:
+
+$$
+\min_{x_M, x_L, \beta} \mathbb{E}[C_H(x_M, x_L, \beta)] + \gamma \text{Var}[C_H(x_M, x_L, \beta)]
+$$
+
+subject to $x_0 = x_M + x_L$.
+
+## Practical Implementation for HFT Firms
+
+1. **Market Monitoring**: Continuously estimate the following market parameters:
+   - $\mu_X, \sigma_X$: drift and volatility of asset $X$ on the AMM
+   - $\mu_Y, \sigma_Y$: drift and volatility of asset $Y$ on the CEX
+   - $\rho$: correlation between the returns of assets $X$ and $Y$
+
+2. **Optimal Split and Hedge Calculation**: Solve the optimization problem to obtain the optimal split $(x_M^*, x_L^*)$ and hedge ratio $\beta^*$ based on the current market parameters and the investor's risk aversion $\gamma$.
+
+3. **Order Execution**: Execute the market order of size $x_M^*$ and submit the limit order of size $x_L^*$ on the AMM. Simultaneously, execute the hedge trade of $\beta^* \cdot x_L^*$ units of asset $Y$ on the CEX.
+
+4. **Dynamic Adjustment**: Continuously update the market parameters and re-solve the optimization problem to adjust the limit order pricing, sizing, and hedging as market conditions change.
+
+The key limitations and considerations mentioned in the previous response, such as liquidity, correlation stability, fees, competition, and AMM-specific risks, still apply to this more detailed explanation of the strategy.

@@ -11,6 +11,10 @@ description: All things finánce
 
 - [Portfolio Allocation and Asset Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4698165)
 
+## Liquidity
+
+- [Essays on the Liquidity of Financial Markets](https://www.cmu.edu/tepper/programs/phd/program/assets/dissertations/2021-financial-economics-pfeiffer-dissertation.pdf)
+
 ## Books
 
 - **The Intelligent Investor**

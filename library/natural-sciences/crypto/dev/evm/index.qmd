@@ -1,0 +1,8 @@
+---
+title: EVM Development
+---
+
+## Resources
+
+- [Foundry Book](https://book.getfoundry.sh/)
+- [Remix IDE](https://remix.ethereum.org/)

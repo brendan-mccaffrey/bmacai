@@ -7,6 +7,11 @@ title: Quantitative Finance
 - [Free Trading Resources Notion Doc](https://milksandmatcha.notion.site/Free-Trading-Resources-v2-4456ae906000487181f3486dbd0dd631)
 - [The Quant Roadmap](https://roadmap-bucket-sa.s3.us-east-2.amazonaws.com/Roadmap_2024_UltimateEd_draft11.pdf)
 
+## Papers
+
+- [Optimal Trading with Signals and Stochastic Price Impact](https://arxiv.org/pdf/2101.10053)
+- [Double Deep Q-Learning for Optimal Execution](https://arxiv.org/pdf/1812.06600)
+
 ## Reads
 
 - [the perfect way to smooth your noisy data](https://towardsdatascience.com/the-perfect-way-to-smooth-your-noisy-data-4f3fe6b44440)
