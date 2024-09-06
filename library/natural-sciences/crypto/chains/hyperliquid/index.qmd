@@ -20,6 +20,8 @@ title: Hyperliquid
 
 **Community**
 
+- [HypurrCollective Ecosystem Map](https://east-opal-e86.notion.site/74646ecaa49847728c908d5c60760e4a?v=8bc8b966688941dda454f44bdba1702b)
+- [HypurrCollective Ecosystem Map Submission Form](https://noteforms.com/forms/hyperliquid-ecosystem-map-by-hypurrcollective-cgctdx)
 - [Elixir Library / API](https://github.com/skedzior/hyperliquid)
 - [Hypurrscan.io](https://hypurrscan.io/dashboard)
     - [hypurrscan api swagger](https://api.hypurrscan.io/ui/)

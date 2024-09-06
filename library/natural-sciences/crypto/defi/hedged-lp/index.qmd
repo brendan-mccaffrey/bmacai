@@ -1,0 +1,19 @@
+---
+title: Hedged LP
+---
+
+## Concept
+
+
+## Protocols of Interest
+
+- [Ekubo](https://app.ekubo.org/defi-spring)
+- [Cetus](https://app.cetus.zone/)
+
+## Research
+
+- [Delta hedging liquidity positions on AMMs](https://arxiv.org/pdf/2208.03318)
+- [Automated market making and loss-versus-rebalancing](https://arxiv.org/pdf/2208.06046)
+- [Unified approach for hedgin impermanent loss of liquidity provision](https://arxiv.org/pdf/2407.05146) | [july 7 version](https://elsevier-ssrn-document-store-prod.s3.amazonaws.com/2024/7/7/4887298.pdf?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBUaCXVzLWVhc3QtMSJHMEUCIQDodC3tfPrcSBjnnv%2F%2FCzbDT9L0cYGcgN%2BTTB4VD%2B6biQIgUq0VZsEoujxirPg5RRAWbVpV4mtTsuMONlPCOAtClnsqvgUILhAEGgwzMDg0NzUzMDEyNTciDHByWKcYf6eWe0iyTyqbBXucoVonNkH0VmFhZoKU0kDh87UfLkfZKPte69RUPnvYiobBxrTO%2BPgWjvzPvYnfKxt5GcDEBcMrdUsQ5IaGr%2Fs%2BsxiyuDaYrtSGeNm5BckfvegyPu8RH%2FXh99Dc%2F%2BiaHyjOthJrxSeqHUkicHTeDX%2BCqlfJcSnSk4wCrnuUix4KXI5YTWs8aCOTwgr7yP6g8pz3ZRN3bqWXR3qUtriOGL8pwgG9BcoYe5z9Tzi261pLtAshOI1ZTM7tiz3Sjv8vnnYa0RAfT9ZlQUQhmRllE%2BiOsXXNqp9h5gFJAMbhEfB9QWXvAk3IX9ny1tq31OJll%2FaisHqChacbp%2BaK7EM4YFna2TtVTJuFO08zY%2BHs6nARXebWJTCQuVD4a%2BeU3LDd01qJq67VulwOF47kEUAO8BUh6a%2Fz5rOgGgLIPScL3VxLeqDDZDSRnMw6SJEm6MT0UbX4j2gYY2nud05XzpfakZVMoQviCPxPfCOj67DyF%2BhucKyDjtTjMsWHUzCbEksI5%2Fyev45O2U%2B4kwJ7uYvOGxJ%2FxBcvcY%2FjX6AvmB5vbW7kbCSC1IfmoTbb52HggbxYRUkPVH0rCLrSLTUuGdO8vFJgsIepPVl2Qk5QzcXIRQ50Tfj%2BeP3nwHkOg2tgLpwUY6UsFvtxx4Y%2FWVq%2BbOvw%2Fl8msogy1TZjs%2FYzTBAtEaHDisv4Sb6GP%2FdZMfKXfEcK%2F6nNIKu159XCKrU3RJRkyAOWfw6eeHXZ6m%2BfVtuZMDmIUEkPwtXdL4P%2BT1K2Hog4DUjHzZAK4Z8omWJN9TFZ5hrG5j8y1lW60qQvljcWlCkZzdUs%2BECKTJtimnxyv1MTu7cPt2KGPzRwH3dILrJM2Snx768T252P7da3s6dtstsn0T%2FsnLSqHJol%2Bv4wp7m8tgY6sQHUwlmdoQvTrccch%2FuGuwdzB3fd2WgpuqDZi4WLjSYmjx9g5sOhYV7EiabgI6WHtEqMovSaUFgcF4Oga%2Fvxe%2BlKYPQqvdyvJm4Zs8R7fW%2BkIfDWtlMJ1TANxsIQ9gu%2Bajh44qUELUnVWsoXiYB%2B%2FYFSW4t8SJYRXrPBdvQPvWO1y1vi6JsLkltYbQy0OFAKHEg7lJ8TEDVa%2BzH2mmDhN6U3tZu7s2oEwFm6obs62%2Fh%2Bl1Y%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240828T140226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAUPUUPRWETFMJ4CSC%2F20240828%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=0bcf5934f1265c512ac8c5eb83524811ec6a057645779dede77ad07aeb3aa1c2#page=26&zoom=100,58,478)
+- [The Pricing and hedging of constant function market makers](https://arxiv.org/pdf/2306.11580)
+- [Thorough mathematical modelling and analysis of Uniswap V3](https://hal.science/hal-04214315v2/document)

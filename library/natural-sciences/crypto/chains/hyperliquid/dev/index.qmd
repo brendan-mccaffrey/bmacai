@@ -17,3 +17,11 @@ Based on twitter forensics, it looks like the team is likely using [dbos-transac
 ### Consensus
 
 Originally used their own rust implementation of Tendermint. They now use [HyperBFT](https://x.com/chameleon_jeff/status/1787140092735185365), "a custom consensus algorithm written from the ground up".
+
+
+## General Q&A Info
+
+- Debug tracing not enabled by node
+- Use revm and some of the reth stack under the hood, but rpc implementation is mostly custom
+- ethers V6 / batch requests now supported
+- go get active twaps, parsing every block, for historical theres an endpoint
