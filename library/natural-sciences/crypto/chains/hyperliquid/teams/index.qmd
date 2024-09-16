@@ -1,0 +1,29 @@
+---
+title: Hyperliquid Teams
+---
+
+## Wendy - Hyperloan
+
+- Sharing here the risk managemnet framework we adopted to ensure long-term sustabibility of the protocol  https://docsend.com/view/g5ss6i8bw4uw47f2
+
+At a high level, we employ 
+
+1. extensive risk monitoring for observations and alerting 
+2. simulations across various market conditions for prevention 
+3. supply and withdraw cap to minimize the risk of bad debt and maintain protocol integrity.
+
+Got few questions for the integrations listed below, mostly in 3 categories.
+
+1. How do they plan to tokenize HLP position
+2. As a lending protocol, we need to offer gudiance for LTV for each collateral0-loan pair. For example, for each HLP position as collateral, the protocol needs to set LTV for HLP-USDC pair, HLP-ETH pair. For that we need to understand the correlation between HLP -USDC and HLP-ETH, the historical distribution of HLP(variation, p1, p5), especially in regrads of HyperLiquid TVL.
+3. To make sure liquidation works efficiently, we need to understand how price feed for HLP token, ETH and other tokens works
+
+There are some more questions re:how hyperliquid plans to build the community for the L1, would be helpful to get context on both early next week!
+
+
+- permissionless pool creation
+- can borrow/lend LP positions
+- strategies on top of that
+
+
+## 

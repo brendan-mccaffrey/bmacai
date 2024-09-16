@@ -7,10 +7,13 @@ title: Dev
 ## Web UI
 
 #### Unlisted Pages
+
 - [Funding Comparison](https://app.hyperliquid.xyz/fundingComparison)
 - [Deploy Spot](https://app.hyperliquid.xyz/deploySpot)
 
+
 #### Backend
+
 Based on twitter forensics, it looks like the team is likely using [dbos-transact](https://github.com/dbos-inc/dbos-transact) for their backend. You may find documentation [here](https://docs.dbos.dev/)
 
 
@@ -25,3 +28,20 @@ Originally used their own rust implementation of Tendermint. They now use [Hyper
 - Use revm and some of the reth stack under the hood, but rpc implementation is mostly custom
 - ethers V6 / batch requests now supported
 - go get active twaps, parsing every block, for historical theres an endpoint
+
+
+Mainnet Metamask Signature:
+`
+HyperliquidTransaction:SpotSend
+
+Destination:
+0xff4976930ef1e4cf177e2085ba846352bb09d414
+Token:
+USDC:0x6d1e7cde53ba9467b783cb7c530ce054
+Amount:
+500
+Time:
+1725800355227
+HyperliquidChain:
+Mainnet
+`

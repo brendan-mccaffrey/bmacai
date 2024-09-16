@@ -1,5 +1,5 @@
 ---
-title: "Hyperliquid"
+title: Early Research
 description: "Hyperliquid is an orderbook perpetual futures app-chain DEX, designed to function like a CEX."
 page-layout: full
 ---

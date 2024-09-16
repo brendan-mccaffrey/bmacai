@@ -2,6 +2,29 @@
 title: Hyperliquid Node
 ---
 
+## Overview
+
+[Repository Link](https://github.com/hyperliquid-dex/node)
+
+- need to open ports `8000`, `9000`, `3001` (validating node also requires 4,5,6,7000)
+
+## Resources
+
+- [Testnet geographical distribution](https://validao.xyz/#maps-hyperliquid-testnet)
+    - "The way it works right now is passive network monitoring over 2 read-only nodes -- so we index all IPs communicating with our read-only nodes on the p2p ports, filtering for more than than X packets observed to filter out random scanners"
+- [Hyperliquid Testnet Notion Guide](https://firstset.notion.site/Hyperliquid-Testnet-ce49a7996be24eb5803661447349a427?pvs=4)
+
+## Walkthrough
+
+Command: `~/hl-visor run-non-validator`, Flags
+
+- `--write-order-statuses` will write every L1 order status to `~/hl/data/node_order_statuses/hourly/{date}/{hour}`
+- `--evm` will enable EVM rpc, you can send evm post requests to localhost port 3001
+
+### Join Network
+
+`~/hl-node --chain Testnet send-signed-action '{"type": "CValidatorAction", "register": {"profile": {"node_ip": {"Ip": "3.112.124.130"}, "name": "HyperShoku", "description": "Validating a pretty good L1" }}}' <node-wallet-key>`
+
 ## Walkthrough
 
 Purchase EC2 in tokyo running ubuntu 24.04, need 4 CPU cores, 16 gb RAM, and 50 gb disk.

@@ -1,7 +1,0 @@
----
-title: Liquid HLP
----
-
-## Reference
-
-- [LayerZero V2 Architecture](https://docs.layerzero.network/v2/home/v2-overview)

@@ -1,5 +1,5 @@
 ---
-title: Data
+title: Historical Data
 ---
 
 ## Data
@@ -8,69 +8,65 @@ title: Data
 
 > it would be nice to have the entire chain history in an s3 bucket. That would help third party tool developers. A lot of people DIY scrape it, but that's annoying.
 
+## hyperliquid-archive
 
-## Live
+Folders
 
-technique for purrburn.fun 
+- stats_website
+- market_data
+- asset_ctxs
 
-```ts
-import { useEffect, useState } from 'react';
-
-interface MessageContext {
-  prevDayPx: string;
-  dayNtlVlm: string;
-  markPx: string;
-  midPx: string;
-  circulatingSupply: string;
-}
-
-interface MessageData {
-  channel: string;
-  data: {
-    coin: string;
-    ctx?: MessageContext;
-  };
-}
-
-const useWebSocketData = () => {
-  const [data, setData] = useState<MessageContext | undefined>();
-
-  useEffect(() => {
-    const socket = new WebSocket('wss://api-ui.hyperliquid.xyz/ws');
-
-    // Listen for the connection to open and send the message
-    socket.addEventListener('open', () => {
-      // Send the message to the server
-      socket.send(
-        JSON.stringify({
-          method: 'subscribe',
-          subscription: { type: 'activeAssetCtx', coin: 'PURR/USDC' },
-        }),
-      );
-    });
-
-    // Listen for messages
-    socket.addEventListener('message', (event) => {
-      const messageData: MessageData = JSON.parse(event.data);
-
-      if (messageData.data.ctx) {
-        setData(messageData.data.ctx);
-      }
-    });
-
-    // Handle any errors that occur
-    socket.addEventListener('error', (error) => {
-      console.error('WebSocket Error: ', error);
-    });
-
-    // Clean up function
-    return () => {
-      socket.close();
-    };
-  }, []);
-
-  return data;
-};
-
-export default useWebSocketData;
+Get basic info from each with
+```bash
+# market data
+aws s3 ls s3://hyperliquid-archive/market_data/ --recursive --human-readable --summarize --no-sign-request 
+# asset ctxs
+aws s3 ls s3://hyperliquid-archive/asset_ctxs/ --recursive --human-readable --summarize --no-sign-request 
+# stats website
+aws s3 ls s3://hyperliquid-archive/stats_website/ --recursive --human-readable --summarize --no-sign-request
 ```
+
+### hyperliquid-archive/stats-website  
+
+```
+2024-05-07 02:46:27    4.5 MiB stats_website/asset_ctxs
+2024-05-07 02:47:02   22.4 KiB stats_website/cumulative_hlp_liquidator_pnl
+2024-05-07 02:47:05   23.4 KiB stats_website/cumulative_inflow
+2024-05-07 02:46:53   21.0 KiB stats_website/cumulative_liquidated_notional
+2024-05-07 02:47:57   28.0 KiB stats_website/cumulative_new_users
+2024-05-07 02:48:27   19.2 KiB stats_website/cumulative_trades
+2024-05-07 02:45:53   21.3 KiB stats_website/cumulative_usd_volume
+2024-05-07 02:47:07   22.7 KiB stats_website/cumulative_user_pnl
+2024-05-07 02:47:04   19.8 KiB stats_website/daily_inflow
+2024-05-07 02:47:00 1011.1 KiB stats_website/daily_notional_liquidated_by_coin
+2024-05-06 12:53:37  943.5 KiB stats_website/daily_notional_liquidated_by_coin.json
+2024-05-07 02:46:58   28.8 KiB stats_website/daily_notional_liquidated_by_leverage_type
+2024-05-07 02:46:57   25.6 KiB stats_website/daily_notional_liquidated_total
+2024-05-07 02:48:01   19.2 KiB stats_website/daily_trades
+2024-05-07 02:48:06    1.8 MiB stats_website/daily_trades_by_coin
+2024-05-07 02:48:09   49.3 KiB stats_website/daily_trades_by_crossed
+2024-05-07 02:48:24  454.3 KiB stats_website/daily_trades_by_user
+2024-05-07 02:47:58   19.5 KiB stats_website/daily_unique_users
+2024-05-07 02:47:56    3.1 MiB stats_website/daily_unique_users_by_coin
+2024-05-07 02:45:56   23.2 KiB stats_website/daily_usd_volume
+2024-05-07 02:46:01    2.2 MiB stats_website/daily_usd_volume_by_coin
+2024-05-07 02:46:04   57.6 KiB stats_website/daily_usd_volume_by_crossed
+2024-05-07 02:46:19  432.5 KiB stats_website/daily_usd_volume_by_user
+2024-05-07 02:46:22    2.1 MiB stats_website/funding_rate
+2024-05-07 02:46:50   20.9 KiB stats_website/hlp_liquidator_pnl
+2024-05-07 02:46:24    2.6 MiB stats_website/hlp_positions
+2024-05-07 02:48:36   75.8 KiB stats_website/largest_liquidated_notional_by_user
+2024-05-07 02:48:35   78.2 KiB stats_website/largest_user_depositors
+2024-05-07 02:48:42   73.9 KiB stats_website/largest_user_trade_count
+2024-05-07 02:48:33   82.4 KiB stats_website/largest_users_by_usd_volume
+2024-05-07 02:47:13    8.7 MiB stats_website/liquidity_by_coin
+2024-05-07 02:45:50    2.1 MiB stats_website/open_interest
+2024-05-07 02:45:42   38 Bytes stats_website/total_deposits
+2024-05-07 02:45:46   49 Bytes stats_website/total_notional_liquidated
+2024-05-07 02:45:39   23 Bytes stats_website/total_users
+2024-05-07 02:45:48    2.0 MiB stats_website/total_volume
+2024-05-07 02:45:43   42 Bytes stats_website/total_withdrawals
+2024-05-07 02:47:09   21.0 KiB stats_website/user_pnl
+```
+
+

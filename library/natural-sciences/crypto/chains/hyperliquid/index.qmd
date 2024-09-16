@@ -17,6 +17,7 @@ title: Hyperliquid
 - [Python SDK](https://github.com/hyperliquid-dex/hyperliquid-python-sdk)
 - [Rust SDK](https://github.com/hyperliquid-dex/hyperliquid-rust-sdk)
 - [Arbitrum Contracts](https://github.com/hyperliquid-dex/contracts)
+- [Status Page](https://hyperliquid.statuspage.io/)
 
 **Community**
 

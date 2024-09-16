@@ -1,0 +1,196 @@
+---
+title: API Stuff
+---
+
+## Official API
+
+
+## Unofficial API-UI
+
+**Get All Vaults**
+```bash
+curl 'https://api-ui.hyperliquid-testnet.xyz/info' \
+  --data-raw '{"type":"vaults","user":"0x99999999666044E4947cB725715e2a19762E15fE"}'
+```
+Response
+```json
+[
+    {...},
+    {
+        "name": "Hyperliquidity Provider (HLP)",
+        "vaultAddress": "0xa15099a30bbf2e68942d6f4c43d70d04faeab0a0",
+        "leader": "0x3c83a5cae32a05e88ca6a0350edb540194851a76",
+        "pnls": [...]
+    }
+]
+```
+
+**Vault Details**
+```bash
+curl 'https://api-ui.hyperliquid-testnet.xyz/info' \
+  --data-raw '{"type":"vaultDetails","user":"0x3c83a5cae32a05e88ca6a0350edb540194851a76","vaultAddress":"0xa15099a30bbf2e68942d6f4c43d70d04faeab0a0"}'
+```
+Python Dataclass for Response
+```py
+from dataclasses import dataclass, field, asdict
+from typing import List, Tuple
+import pandas as pd
+import json
+
+
+@dataclass
+class HistoryValue:
+    timestamp: int
+    value: str
+
+
+@dataclass
+class PortfolioPeriod:
+    account_value_history: List[HistoryValue]
+    pnl_history: List[HistoryValue]  
+    vlm: str
+
+    @classmethod
+    def from_list(cls, data):
+        print(data)
+        period_name, period_data = data
+        return cls(
+            account_value_history=[
+                HistoryValue(*value) for value in period_data["accountValueHistory"]
+            ],
+            pnl_history=[HistoryValue(*value) for value in period_data["pnlHistory"]],
+            vlm=period_data["vlm"],
+        )
+
+
+@dataclass
+class Portfolio:
+    day: PortfolioPeriod
+    week: PortfolioPeriod
+    month: PortfolioPeriod
+    allTime: PortfolioPeriod
+    perpDay: PortfolioPeriod
+    perpWeek: PortfolioPeriod
+    perpMonth: PortfolioPeriod
+    perpAllTime: PortfolioPeriod
+
+    @classmethod
+    def from_list(cls, data):
+        return cls(
+            day=PortfolioPeriod.from_list(data[0]),
+            week=PortfolioPeriod.from_list(data[1]),
+            month=PortfolioPeriod.from_list(data[2]),
+            allTime=PortfolioPeriod.from_list(data[3]),
+            perpDay=PortfolioPeriod.from_list(data[4]),
+            perpWeek=PortfolioPeriod.from_list(data[5]),
+            perpMonth=PortfolioPeriod.from_list(data[6]),
+            perpAllTime=PortfolioPeriod.from_list(data[7]),
+        )
+
+
+@dataclass
+class VaultFollower:
+    user: str
+    vaultEquity: str
+    pnl: str
+    allTimePnl: str
+    daysFollowing: int
+    vaultEntryTime: int
+    lockupUntil: int
+
+
+@dataclass
+class VaultDetails:
+    name: str
+    vaultAddress: str
+    leader: str
+    description: str
+    portfolio: Portfolio
+    apr: float
+    followerState: str
+    leaderFraction: float
+    leaderCommission: float
+    followers: List[VaultFollower]  # = field(default_factory=list)
+    maxDistributable: float
+    maxWithdrawable: float
+    isClosed: bool
+    relationship: dict
+    allowDeposits: bool
+    alwaysCloseOnWithdraw: bool
+
+    @classmethod
+    def from_dict(cls, data):
+        data["portfolio"] = Portfolio.from_list(data["portfolio"])
+        data["followers"] = [
+            VaultFollower(**follower) for follower in data["followers"]
+        ]
+        return cls(**data)
+
+hlp_details = VaultDetails.from_dict(data)
+```
+
+## Purrburn.fun technique
+
+technique for purrburn.fun 
+
+```ts
+import { useEffect, useState } from 'react';
+
+interface MessageContext {
+  prevDayPx: string;
+  dayNtlVlm: string;
+  markPx: string;
+  midPx: string;
+  circulatingSupply: string;
+}
+
+interface MessageData {
+  channel: string;
+  data: {
+    coin: string;
+    ctx?: MessageContext;
+  };
+}
+
+const useWebSocketData = () => {
+  const [data, setData] = useState<MessageContext | undefined>();
+
+  useEffect(() => {
+    const socket = new WebSocket('wss://api-ui.hyperliquid.xyz/ws');
+
+    // Listen for the connection to open and send the message
+    socket.addEventListener('open', () => {
+      // Send the message to the server
+      socket.send(
+        JSON.stringify({
+          method: 'subscribe',
+          subscription: { type: 'activeAssetCtx', coin: 'PURR/USDC' },
+        }),
+      );
+    });
+
+    // Listen for messages
+    socket.addEventListener('message', (event) => {
+      const messageData: MessageData = JSON.parse(event.data);
+
+      if (messageData.data.ctx) {
+        setData(messageData.data.ctx);
+      }
+    });
+
+    // Handle any errors that occur
+    socket.addEventListener('error', (error) => {
+      console.error('WebSocket Error: ', error);
+    });
+
+    // Clean up function
+    return () => {
+      socket.close();
+    };
+  }, []);
+
+  return data;
+};
+
+export default useWebSocketData;
+```
