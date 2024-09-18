@@ -12,3 +12,7 @@ Newtonian mechanics provides the foundation for classical physics, Lagrangian me
 - [Langrangian and Hamiltonian Mechanics](https://www.youtube.com/watch?v=0DHNGtsmmH8)
 - [Cambridge Dynamics and Relativity](http://www.damtp.cam.ac.uk/user/tong/relativity.html)
 - [Cambridge Classical Dynamics](http://www.damtp.cam.ac.uk/user/tong/dynamics.html)
+
+## Entropy
+
+- [What is Entropy?](https://arxiv.org/abs/2409.09232)
