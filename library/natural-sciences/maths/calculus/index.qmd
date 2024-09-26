@@ -2,7 +2,7 @@
 title: Calculus
 ---
 
-## Resources
+## Calculus
 
 - [Calculus Made Easy](http://calculusmadeeasy.org/1.html)
 
