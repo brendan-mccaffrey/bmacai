@@ -1,0 +1,38 @@
+---
+title: Probability and Statistics
+---
+
+## Probability and Statistics
+
+### Random Matrix Theory
+
+- ["Topics in Random Matrix Theory" - Terence Tao](https://www.google.com/search?q=%22Topics+in+Random+Matrix+Theory%22+-+Terence+Tao)
+- ["Random Matrices, Volume 142, Third Edition (Pure and Applied Mathematics)" - Madan Lal Mehta](https://www.google.com/search?q=%22Random+Matrices%2C+Volume+142%2C+Third+Edition+%28Pure+and+Applied+Mathematics%29%22+-+Madan+Lal+Mehta)
+- ["Free Probability and Random Matrices" - James A. Mingo & Roland Speicher](https://www.google.com/search?q=%22Free+Probability+and+Random+Matrices%22+-+James+A.+Mingo+%26+Roland+Speicher)
+
+### Stochastic Processes
+
+- ["Stochastic Differential Equations: An Introduction With Applications" - Bernt Oksendal](https://www.google.com/search?q=%22Stochastic+Differential+Equations%3A+An+Introduction+With+Applications%22+-+Bernt+Oksendal)
+- ["The Fokker-Planck Equation: Methods of Solution and Applications" - Hannes Risken](https://www.google.com/search?q=%22The+Fokker-Planck+Equation%3A+Methods+of+Solution+and+Applications%22+-+Hannes+Risken)
+- ["Nonlinear Fokker-Planck Equations: Fundamentals and Applications" - T. D. Frank](https://www.google.com/search?q=%22Nonlinear+Fokker-Planck+Equations%3A+Fundamentals+and+Applications%22+-+T.+D.+Frank)
+- ["Upper and Lower Bounds for Stochastic Processes: Modern Methods and Classical Problems" - Michel Talagrand](https://www.google.com/search?q=%22Upper+and+Lower+Bounds+for+Stochastic+Processes%3A+Modern+Methods+and+Classical+Problems%22+-+Michel+Talagrand)
+- ["The Generic Chaining: Upper and Lower Bounds of Stochastic Processes" - Michel Talagrand](https://www.google.com/search?q=%22The+Generic+Chaining%3A+Upper+and+Lower+Bounds+of+Stochastic+Processes%22+-+Michel+Talagrand)
+- ["Random Fields and Geometry" - R. J. Adler & Jonathan E. Taylor](https://www.google.com/search?q=%22Random+Fields+and+Geometry%22+-+R.+J.+Adler+%26+Jonathan+E.+Taylor)
+
+### Statistical Mechanics
+
+- ["Statistical Mechanics: Rigorous Results" - David Ruelle](https://www.google.com/search?q=%22Statistical+Mechanics%3A+Rigorous+Results%22+-+David+Ruelle)
+- ["Mean Field Models for Spin Glasses: Volume II: Advanced Replica-Symmetry and Low Temperature" - Michel Talagrand](https://www.google.com/search?q=%22Mean+Field+Models+for+Spin+Glasses%3A+Volume+II%3A+Advanced+Replica-Symmetry+and+Low+Temperature%22+-+Michel+Talagrand)
+- ["Mean Field Models for Spin Glasses: Volume I: Basic Examples" - Michel Talagrand](https://www.google.com/search?q=%22Mean+Field+Models+for+Spin+Glasses%3A+Volume+I%3A+Basic+Examples%22+-+Michel+Talagrand)
+
+### Percolation
+
+- ["Percolation" - Geoffrey Grimmett](https://www.google.com/search?q=%22Percolation%22+-+Geoffrey+Grimmett)
+
+### Complex Systems
+
+- ["Complexity and Criticality" - Kim Christensen & Nicholas R. Moloney](https://www.google.com/search?q=%22Complexity+and+Criticality%22+-+Kim+Christensen+%26+Nicholas+R.+Moloney)
+
+### Probability in Computer Science
+
+- ["Probability and Computing: Randomized Algorithms and Probabilistic Analysis" - Michael Mitzenmacher & Eli Upfal](https://www.google.com/search?q=%22Probability+and+Computing%3A+Randomized+Algorithms+and+Probabilistic+Analysis%22+-+Michael+Mitzenmacher+%26+Eli+Upfal)

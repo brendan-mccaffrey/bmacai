@@ -5,6 +5,7 @@ description: The universal language
 
 ## General
 
+- [Does one have to be a genius to do maths?](https://terrytao.wordpress.com/career-advice/does-one-have-to-be-a-genius-to-do-maths/)
 - [Advice to a Young Mathematician](https://assets.press.princeton.edu/releases/gowers/gowers_VIII_6.pdf)
 - [Explained from First Principles](https://explained-from-first-principles.com/)
 - [The Periodic Table of Primes](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4742238)
@@ -41,14 +42,6 @@ description: The universal language
 
 - [Topology and modern analysis](https://online.fliphtml5.com/avac/ixfy/#p=4)
 
-### Graph Theory
-
-
-
-
-### Group Theory
-
-
 
 ### Synchronization
 
@@ -63,6 +56,8 @@ description: The universal language
 Synchronization is a phenomenon in which multiple oscillating or rhythmic elements lock into a single rhythm. Scientists have discovered new forms of synchronization, called chimeras, that are more complex and intricate than previously known patterns. Chimeras are characterized by the coexistence of synchronized and unsynchronized regions in a single system. The discovery of chimeras has opened up new possibilities for understanding and controlling synchronization in a wide range of real-world systems. For example, chimeras could be used to design new communication networks that are more robust to noise and disruptions. The article also discusses the history of synchronization research and the challenges that scientists face in understanding and predicting the behavior of synchronized systems. It concludes by discussing the potential applications of chimeras in a variety of fields, including biology, engineering, and economics.
 
 The discovery of chimeras was made possible by advances in computational power and mathematical modeling. Chimeras have been observed in a variety of natural systems, including fireflies, heart cells, and neural networks. Scientists are still learning about the rules that govern the formation and behavior of chimeras. Chimeras have the potential to be used to design new communication networks, control traffic flow, and improve the efficiency of energy systems.
+
+
 
 
 

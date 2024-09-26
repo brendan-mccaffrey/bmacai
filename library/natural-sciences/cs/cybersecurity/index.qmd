@@ -26,6 +26,7 @@ Sim Swap Protectins
 - [EthClipper: A Clipboard Meddling Attack on Hardware Wallets with Address Verification Evasion](https://arxiv.org/pdf/2108.14004.pdf)
 - [Only Safe Way to Store Crypto](https://officercia.mirror.xyz/p1ieZdxQWH4yHCNOXNPHyT8So1cY0X_wMGKwdmavi7s)
 - [Tempest: Spying on information systems through leaking emanations](https://en.wikipedia.org/wiki/Tempest_(codename))
+- [gaining access to anyones browser without them even visiting a website](https://kibty.town/blog/arc/)
 
 ### Apple 
 

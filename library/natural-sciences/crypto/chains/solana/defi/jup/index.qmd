@@ -1,0 +1,12 @@
+---
+title: Jupiter Exchange
+---
+
+## Resources
+
+
+### JLP
+
+- [JLP Guide](https://station.jup.ag/guides/jlp/JLP)
+- [How it works](https://station.jup.ag/guides/jlp/How-JLP-Works)
+- [Exploring Jupiter’s Perpetual Futures: A Comprehensive Research Analysis](https://skribr.io/app/article/exploring-jupiters-perpetual-futures-a-comprehensive-research-analysis/)

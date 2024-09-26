@@ -2,41 +2,69 @@
 title: Hyperliquid
 ---
 
-## Ethos
-
-- [No Insiders](https://x.com/chameleon_jeff/status/1751692534483505649)
-
 ## Resources
 
-**Official**
-
-- [App](https://app.hyperliquid.xyz/trade)
-- [Testnet App](https://app.hyperliquid-testnet.xyz/trade)
+- [Hyperliquid App](https://app.hyperliquid.xyz/trade)
+- [Hyperliquid Testnet App](https://app.hyperliquid-testnet.xyz/trade)
+- [Hyperliquid Status Page](https://hyperliquid.statuspage.io/)
 - [Documentation](https://hyperliquid.gitbook.io/hyperliquid-docs)
-- [Explorer](https://app.hyperliquid-testnet.xyz/explorer)
+- [ASXN Hyperliquid Screener](https://hyperliquid.asxn.xyz/all_metrics)
+
+## Testnet 
+
+- [Testnet Explorer](https://app.hyperliquid-testnet.xyz/explorer)
+- [Testnet EVM Explorer](https://explorer.hyperlend.finance/)
+- [Validao Testnet Dashboard](https://validao.xyz/#maps-hyperliquid-testnet)
+- [hyperscanner](https://www.hyperscanner.app/)
+- [Hypurrscan.io](https://hypurrscan.io/dashboard)
+    - [api swagger](https://api.hypurrscan.io/ui/)
+    - [view actions](https://abc.hypurrscan.io/pastAuctions)
+
+## Dev Resources
+
+- [Documentation](https://hyperliquid.gitbook.io/hyperliquid-docs)
 - [Python SDK](https://github.com/hyperliquid-dex/hyperliquid-python-sdk)
 - [Rust SDK](https://github.com/hyperliquid-dex/hyperliquid-rust-sdk)
 - [Arbitrum Contracts](https://github.com/hyperliquid-dex/contracts)
-- [Status Page](https://hyperliquid.statuspage.io/)
+- [Elixir Library / API](https://github.com/skedzior/hyperliquid)
 
-**Community**
+## Ecosystem
 
 - [HypurrCollective Ecosystem Map](https://east-opal-e86.notion.site/74646ecaa49847728c908d5c60760e4a?v=8bc8b966688941dda454f44bdba1702b)
 - [HypurrCollective Ecosystem Map Submission Form](https://noteforms.com/forms/hyperliquid-ecosystem-map-by-hypurrcollective-cgctdx)
-- [Elixir Library / API](https://github.com/skedzior/hyperliquid)
-- [Hypurrscan.io](https://hypurrscan.io/dashboard)
-    - [hypurrscan api swagger](https://api.hypurrscan.io/ui/)
-    - https://abc.hypurrscan.io/pastAuctions
+
+### Trading
+
+- [Liquidstart Dashboard](https://app.liquidstart.xyz/home)
+- [Katoshi AI](https://x.com/KatoshiAI)
+- [pvp.trade](https://pvp.trade/)
 - [hypurr.fun](https://hypurr.fun/)
     - [Hypurrfun erc20 github](https://github.com/Hypurr-Fun/hypurr-erc20)
-- [Liquidstart](https://app.liquidstart.xyz/home)
+
+### Infra
+
+- [JEFF to USDC converter](https://www.heyjeff.fun/)
 - [hlbridge](https://docs.hlbridge.com/faq)
-- [hyperscanner](https://www.hyperscanner.app/)
-- [pvp.trade](https://pvp.trade/)
-- [guess, prediction market on hyperliquid](https://pvp.trade/)
 
-### Good Jeff Tweets
+### Other
 
+- guess, prediction market
+
+## Research
+
+- [Hyperliquid: The Hyperoptimized Order Book L1](https://newsletter.asxn.xyz/p/hyperliquid-the-hyperoptimized-order)
+
+## Partnerships
+
+- [Privy](https://x.com/HyperliquidX/status/1737898490834092251)
+- [Tradestream](https://x.com/tradestream_xyz/status/1823734377937015184)
+- [STFX](https://stfx.io/trade)
+
+## Tweets
+
+### Jeff
+
+- [Ethos No Insiders](https://x.com/chameleon_jeff/status/1751692534483505649)
 - [Megathread on building crypto HFT system](https://x.com/chameleon_jeff/status/1650868903114067968)
 - [Why Bitget is sketchy](https://x.com/chameleon_jeff/status/1643610595848261632)
 - [Hyperliquid scope has 10x'd twice since inception](https://x.com/chameleon_jeff/status/1784592436792275221)
@@ -46,9 +74,11 @@ title: Hyperliquid
 - [Latency alpha, upbit and binance](https://x.com/chameleon_jeff/status/1642198518319452160)
 - [Advice for starting out as a quant](https://x.com/chameleon_jeff/status/1637986806749872128)
 
-## Partnerships
+### Community
 
-- [Privy](https://x.com/HyperliquidX/status/1737898490834092251)
+- [HyperEVM](https://x.com/abhiii53/status/1821234175212667080)
+
+
 
 ## Points Analysis
 

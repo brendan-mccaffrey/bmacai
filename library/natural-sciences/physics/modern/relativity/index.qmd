@@ -15,7 +15,7 @@ table-of-contents: true
 - [Harmonic Springs and Gravity](https://twitter.com/gabrielpeyre/status/1646015289023422464?s=20)
 - [The Role of Gravitation in Physics](https://edition-open-sources.org/media/sources/5/Sources5.pdf)
 - [Spacetime is Right-handed v. 2.0 and Some Notes on Spinors and Twistors](https://www.math.columbia.edu/~woit/wordpress/?p=13704)
-
+- ["Gravity: An Introduction to Einstein's General Relativity, Pearson New International Edition" - James B. Hartle](https://www.google.com/search?q=%22Gravity%3A+An+Introduction+to+Einstein%27s+General+Relativity%2C+Pearson+New+International+Edition%22+-+James+B.+Hartle)
 
 ### Einstein Field Equation
 

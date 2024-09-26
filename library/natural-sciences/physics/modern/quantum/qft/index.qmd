@@ -12,6 +12,10 @@ title: Field Theory
 - [General Relativity as a Perturbative Quantum Field Theory](https://blogs.umass.edu/grqft/)
 - [EPFL Lectures on General Relativity as a Quantum Field Theory](https://arxiv.org/abs/1702.00319)
 
+- ["Quantum Physics: A Functional Integral Point of View" - James Glimm & Arthur Jaffe](https://www.google.com/search?q=%22Quantum+Physics%3A+A+Functional+Integral+Point+of+View%22+-+James+Glimm+%26+Arthur+Jaffe)
+- ["Introduction to Conformal Field Theory: With Applications to String Theory (Lecture Notes in Physics)" - Ralph Blumenhagen & Erik Plauschinn](https://www.google.com/search?q=%22Introduction+to+Conformal+Field+Theory%3A+With+Applications+to+String+Theory+%28Lecture+Notes+in+Physics%29%22+-+Ralph+Blumenhagen+%26+Erik+Plauschinn)
+- ["What Is a Quantum Field Theory?" - Michel Talagrand](https://www.google.com/search?q=%22What+Is+a+Quantum+Field+Theory%3F%22+-+Michel+Talagrand)
+
 ### Gauge Groups
 
 In physics and mathematics, a gauge group is a group of transformations that preserves the fundamental properties of a physical or mathematical system. Gauge groups are important in both classical and quantum field theories, as well as in the study of differential geometry and topology.

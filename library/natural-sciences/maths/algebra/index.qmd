@@ -1,16 +1,45 @@
 ---
-title: Algebra
+title: Algebra & Combinatorics
 ---
 
-## General
+## Resources
 
+- ["Algebra, 1st ed" - Michael Artin](https://www.google.com/search?q=%22Algebra%2C+1st+ed%22+-+Michael+Artin)
+- ["Abstract Algebra" - David S. Dummit & Richard M. Foote](https://www.google.com/search?q=%22Abstract+Algebra%22+-+David+S.+Dummit+%26+Richard+M.+Foote)
+- ["Representation Theory: A First Course" - William Fulton & Joe Harris](https://www.google.com/search?q=%22Representation+Theory%3A+A+First+Course%22+-+William+Fulton+%26+Joe+Harris)
+- ["Algebraic Number Theory" - J.S. Milne](https://www.google.com/search?q=%22Algebraic+Number+Theory%22+-+J.S.+Milne)
+- ["Algebraic Number Theory" - Jürgen Neukirch](https://www.google.com/search?q=%22Algebraic+Number+Theory%22+-+J%C3%BCrgen+Neukirch)
+- ["Algebraic Theory of Numbers: Translated From the French by Allan J. Silberger" - Pierre Samuel](https://www.google.com/search?q=%22Algebraic+Theory+of+Numbers%3A+Translated+From+the+French+by+Allan+J.+Silberger%22+-+Pierre+Samuel)
+- ["Commutative Algebra With a View Toward Algebraic Geometry" - David Eisenbud](https://www.google.com/search?q=%22Commutative+Algebra+With+a+View+Toward+Algebraic+Geometry%22+-+David+Eisenbud)
+- ["Introduction to Commutative Algebra" - Michael Atiyah, Ian G. Macdonald](https://www.google.com/search?q=%22Introduction+to+Commutative+Algebra%22+-+Michael+Atiyah+%26+Ian+G.+Macdonald)
+- ["Algebraic Geometry" - Robin Hartshorne](https://www.google.com/search?q=%22Algebraic+Geometry%22+-+Robin+Hartshorne)
+- ["Algebraic Geometry: A First Course (Graduate Texts in Mathematics 133)" - Joe Harris](https://www.google.com/search?q=%22Algebraic+Geometry%3A+A+First+Course+%28Graduate+Texts+in+Mathematics+133%29%22+-+Joe+Harris)
+- ["Algebraic Geometry and Commutative Algebra" - Siegfried Bosch](https://www.google.com/search?q=%22Algebraic+Geometry+and+Commutative+Algebra%22+-+Siegfried+Bosch)
+- ["Algebraic Complexity Theory" - Peter Bürgisser & Michael Clausen & Amin Shokrollahi](https://www.google.com/search?q=%22Algebraic+Complexity+Theory%22+-+Peter+B%C3%BCrgisser+%26+Michael+Clausen+%26+Amin+Shokrollahi)
+- ["A Concise Introduction to Mathematical Logic" - Wolfgang Rautenberg](https://www.google.com/search?q=%22A+Concise+Introduction+to+Mathematical+Logic%22+-+Wolfgang+Rautenberg)
 
-### Lie Algebras in Particle Physics
+### Linear Algebra
 
-- [Lie Algebras in Particle Physics](https://library.oapen.org/handle/20.500.12657/50876)
+- ["Linear Algebra Done Right Second Edition" - Sheldon Axler](https://www.google.com/search?q=%22Linear+Algebra+Done+Right+Second+Edition%22+-+Sheldon+Axler)
+- ["A First Course in Linear Algebra" - Robert A. Beezer](https://www.google.com/search?q=%22A+First+Course+in+Linear+Algebra%22+-+Robert+A.+Beezer)
 
-Lie Algebras in particle physics are mathematical structures that help to describe and classify physical systems, particularly those involving symmetries and transformations. In essence, a Lie algebra is a vector space equipped with a certain kind of product, called the Lie bracket, that captures the essential information about continuous transformations and symmetries. When applied to particle physics, Lie algebras offer a robust framework for understanding the fundamental particles and forces that govern the universe. 
+### Combinatorics
 
-The concept of Lie algebras originated in the late 19th century with the work of Norwegian mathematician Sophus Lie. Originally developed to study continuous transformation groups, the scope of Lie algebras has expanded to diverse areas of mathematics and physics. Their application in particle physics became increasingly significant during the 20th century, especially after the development of quantum mechanics and quantum field theory. The SU(3) Lie algebra, for example, was crucial in predicting the existence of particles like the omega-minus baryon before it was experimentally discovered.
+- ["Additive Combinatorics" - Terence Tao](https://www.google.com/search?q=%22Additive+Combinatorics%22+-+Terence+Tao)
+- ["The Probabilistic Method" - Noga Alon & Joel H. Spencer](https://www.google.com/search?q=%22The+Probabilistic+Method%22+-+Noga+Alon+%26+Joel+H.+Spencer)
 
-Lie algebras offer a theoretical structure that is essential for formulating the Standard Model of particle physics, which describes electromagnetic, weak, and strong forces. Because Lie algebras are tightly connected to symmetry principles, they enable physicists to simplify complex systems and make predictions about particle interactions.
+### Representation Theory
+
+- ["Lie Groups: An Approach Through Invariants and Representations (Universitext)" - Claudio Procesi](https://www.google.com/search?q=%22Lie+Groups%3A+An+Approach+Through+Invariants+and+Representations+%28Universitext%29%22+-+Claudio+Procesi)
+- ["Representation Theory of Finite Monoids" - Benjamin Steinberg](https://www.google.com/search?q=%22Representation+Theory+of+Finite+Monoids%22+-+Benjamin+Steinberg)
+
+### Algebraic Geometry
+
+- ["Introduction to Toric Varieties" - William Fulton](https://www.google.com/search?q=%22Introduction+to+Toric+Varieties%22+-+William+Fulton)
+- ["Toric Varieties" - David Cox, John Little, Hal Schenck](https://www.google.com/search?q=%22Toric+Varieties%22+-+David+Cox%2C+John+Little%2C+Hal+Schenck)
+- ["Algebraic Geometry in Coding Theory and Cryptography" - Harald Niederreiter & Chaoping Xing](https://www.google.com/search?q=%22Algebraic+Geometry+in+Coding+Theory+and+Cryptography%22+-+Harald+Niederreiter+%26+Chaoping+Xing)
+
+### Matroid Theory
+
+- ["Oriented Matroids" - Anders Björner, Michel Las Vergnas, Bernd Sturmfels, Neil White, Günter M. Ziegler](https://www.google.com/search?q=%22Oriented+Matroids%22+-+Anders+Bj%C3%B6rner%2C+Michel+Las+Vergnas%2C+Bernd+Sturmfels%2C+Neil+White%2C+G%C3%BCnter+M.+Ziegler)
+

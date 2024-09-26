@@ -1,0 +1,11 @@
+---
+title: Number Theory
+---
+
+## Number Theory
+
+- ["Exponential Sums and Their Applications" - N. M. Korobov](https://www.google.com/search?q=%22Exponential+Sums+and+Their+Applications%22+-+N.+M.+Korobov)
+- ["A Course in P-Adic Analysis" - Alain M. Robert](https://www.google.com/search?q=%22A+Course+in+P-Adic+Analysis%22+-+Alain+M.+Robert)
+- ["Transcendental and Algebraic Numbers" - A. O. Gelfond & Leo F. Boron](https://www.google.com/search?q=%22Transcendental+and+Algebraic+Numbers%22+-+A.+O.+Gelfond+%26+Leo+F.+Boron)
+- ["Introduction to Analytic Number Theory" - Tom M. Apostol](https://www.google.com/search?q=%22Introduction+to+Analytic+Number+Theory%22+-+Tom+M.+Apostol)
+- ["Algebraic Geometry in Coding Theory and Cryptography" - Harald Niederreiter & Chaoping Xing](https://www.google.com/search?q=%22Algebraic+Geometry+in+Coding+Theory+and+Cryptography%22+-+Harald+Niederreiter+%26+Chaoping+Xing)

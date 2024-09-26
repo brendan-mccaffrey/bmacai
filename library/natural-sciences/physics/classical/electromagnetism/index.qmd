@@ -7,10 +7,8 @@ table-of-contents: true
 
 ## Resources
 
-- [Faraday, Maxwell, and the Electromagnetic Field](https://www.goodreads.com/en/book/show/18240286)
 - [Dr. Salvatore Pais | Intuitive Science, Conscious Universe & The Philosophy of Physics](https://www.youtube.com/watch?v=7aCrznDR6mw)
-
-
+- ["Faraday, Maxwell, and the Electromagnetic Field: How Two Men Revolutionized Physics" - Nancy Forbes & Basil Mahon](https://www.google.com/search?q=%22Faraday%2C+Maxwell%2C+and+the+Electromagnetic+Field%3A+How+Two+Men+Revolutionized+Physics%22+-+Nancy+Forbes+%26+Basil+Mahon)
 
 ## Magnetohydrodynamics
 

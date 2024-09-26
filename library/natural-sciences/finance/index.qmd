@@ -6,6 +6,7 @@ description: All things finánce
 ## Papers
 
 - [Trading on Terror](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4652027)
+- ["Introduction to Finance: Markets, Investments, and Financial Management, 16th Edition" - Ronald W. Melicher & Edgar A. Norton](https://www.google.com/search?q=%22Introduction+to+Finance%3A+Markets%2C+Investments%2C+and+Financial+Management%2C+16th+Edition%22+-+Ronald+W.+Melicher+%26+Edgar+A.+Norton)
 
 ## Portfolio Allocation
 
@@ -14,39 +15,3 @@ description: All things finánce
 ## Liquidity
 
 - [Essays on the Liquidity of Financial Markets](https://www.cmu.edu/tepper/programs/phd/program/assets/dissertations/2021-financial-economics-pfeiffer-dissertation.pdf)
-
-## Books
-
-- **The Intelligent Investor**
-- **Flash Boys**: History of HFT, frontrunning, etc
-- **Liars Poker**: Solomon Brothers and the real start of bond trading
-- **Beat the Dealer**
-- **Alchemy of Finance**: Soros' Reflexivity theory of markets
-- **When Genius Failed**: The rise and fall of Long Term Capital Management
-- **Exotic Options and Hybrids**: Vol. models, correlation, barriers, ATRs, etc.
-- **The Smartest Guys in the Room**: The massive fraud of Enron
-- **Reminiscences of a Stock Operator**: An absolute classic on stock trading
-- **More Money than God**: On the hedge fund industry
-- **The Changing World Order**: Ray Dalio's macro book
-- **The Black Swan**
-- **Beat the Market**: Highly coveted book by some iconic quants
-- **The Art of Currency Trading: A Professional's Guide to the Foreign Exchange Market**
-- **The Disciplined Trader**
-- **Trader Vic II: Principles of Professional Speculation**
-- **Learn to Trade Momentum Stocks**
-- **The Bond and Money Markets**
-- **Trading in the Zone**
-- **Bollinger on Bollinger Bands**
-- **Adventures of a Currency Trader**
-- **Ace the Trading Systems Developer Interview (C++ Edition)**
-- **Professional Automated Trading: Theory and Practice**
-- **Trading Systems Performance Unleashed: Mastering Latency and Efficiency in High-Frequency Trading**
-- **Security Analysis**
-- **Quality of Earnings**
-- **Beating the Street**
-- **The Intelligent Investor**
-- **Essays of Warren Buffet**
-- **Margin of Safety**
-- **You can be a Stock Market Genius**
-- **The Warren Buffet Way**
-- **One Up on Wall Street**

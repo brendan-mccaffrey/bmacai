@@ -1,0 +1,29 @@
+---
+title: Logic
+---
+
+## Math Logic
+
+- ["A Concise Introduction to Mathematical Logic" - Wolfgang Rautenberg](https://www.google.com/search?q=%22A+Concise+Introduction+to+Mathematical+Logic%22+-+Wolfgang+Rautenberg)
+- ["Handbook of Mathematical Logic" - Jon Barwise](https://www.google.com/search?q=%22Handbook+of+Mathematical+Logic%22+-+Jon+Barwise)
+- ["Mathematical Logic" - Joseph R. Shoenfield](https://www.google.com/search?q=%22Mathematical+Logic%22+-+Joseph+R.+Shoenfield)
+- ["A Course in Mathematical Logic for Mathematicians" - Yu. I. Manin & Neal Koblitz & B. Zilber](https://www.google.com/search?q=%22A+Course+in+Mathematical+Logic+for+Mathematicians%22+-+Yu.+I.+Manin+%26+Neal+Koblitz+%26+B.+Zilber)
+- ["Proofs and Types" - Jean-Yves Girard](https://www.google.com/search?q=%22Proofs+and+Types%22+-+Jean-Yves+Girard)
+- ["Set Theory" - Thomas Jech](https://www.google.com/search?q=%22Set+Theory%22+-+Thomas+Jech)
+- ["Model Theory: An Introduction" - David Marker](https://www.google.com/search?q=%22Model+Theory%3A+An+Introduction%22+-+David+Marker)
+- ["Logical Foundations of Proof Complexity" - Stephen Cook, Phuong Nguyen](https://www.google.com/search?q=%22Logical+Foundations+of+Proof+Complexity%22+-+Stephen+Cook+%26+Phuong+Nguyen)
+- ["Categorical Logic and Type Theory" - Bart Jacobs](https://www.google.com/search?q=%22Categorical+Logic+and+Type+Theory%22+-+Bart+Jacobs)
+
+### Proof Theory
+
+- ["Proofs and Types" - Jean-Yves Girard](https://www.google.com/search?q=%22Proofs+and+Types%22+-+Jean-Yves+Girard)
+- ["Proof Theory" - Gaisi Takeuti](https://www.google.com/search?q=%22Proof+Theory%22+-+Gaisi+Takeuti)
+- ["Basic Proof Theory" - A. S. Troelstra & H. Schwichtenberg](https://www.google.com/search?q=%22Basic+Proof+Theory%22+-+A.+S.+Troelstra+%26+H.+Schwichtenberg)
+
+### Set Theory
+
+- ["Naive Set Theory" - Paul R Halmos](https://www.google.com/search?q=%22Naive+Set+Theory%22+-+Paul+R+Halmos)
+- ["Set Theory" - Thomas Jech](https://www.google.com/search?q=%22Set+Theory%22+-+Thomas+Jech)
+- ["Handbook of Set Theory" - Matthew Foreman & Akihiro Kanamori](https://www.google.com/search?q=%22Handbook+of+Set+Theory%22+-+Matthew+Foreman+%26+Akihiro+Kanamori)
+- ["Handbook of Mathematical Logic" - Jon Barwise](https://www.google.com/search?q=%22Handbook+of+Mathematical+Logic%22+-+Jon+Barwise)
+- ["Model Theory: An Introduction" - David Marker](https://www.google.com/search?q=%22Model+Theory%3A+An+Introduction%22+-+David+Marker)

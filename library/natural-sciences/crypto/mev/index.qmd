@@ -1,0 +1,7 @@
+---
+title: MEV
+---
+
+## Resources
+
+- [Statistical arbitrage on AMMs and block building on Ethereum – Part 1](https://greenfield.xyz/2024/09/10/statistical-arbitrage-on-amms-and-block-building-on-ethereum-part-1/)

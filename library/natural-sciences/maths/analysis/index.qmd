@@ -1,0 +1,57 @@
+---
+title: Analysis
+---
+
+## Resources
+
+- ["The Principles of Mathematical Analysis" - Walter Rudin](https://www.google.com/search?q=%22The+Principles+of+Mathematical+Analysis%22+-+Walter+Rudin)
+- ["Math 55 Notes" - Curtis McMullen](https://www.google.com/search?q=%22Math+55+Notes%22+-+Curtis+McMullen)
+- ["Complex Analysis, 2nd ed" - Lars Ahlfors](https://www.google.com/search?q=%22Complex+Analysis%2C+2nd+ed%22+-+Lars+Ahlfors)
+- ["Complex Analysis, 3rd ed" - Lars Ahlfors](https://www.google.com/search?q=%22Complex+Analysis%2C+3rd+ed%22+-+Lars+Ahlfors)
+- ["Functional Analysis: Introduction to Further Topics in Analysis" - Elias M. Stein & Rami Shakarchi](https://www.google.com/search?q=%22Functional+Analysis%3A+Introduction+to+Further+Topics+in+Analysis%22+-+Elias+M.+Stein+%26+Rami+Shakarchi)
+- ["Real Analysis: Measure Theory, Integration, and Hilbert Spaces" - Elias M. Stein & Rami Shakarchi](https://www.google.com/search?q=%22Real+Analysis%3A+Measure+Theory%2C+Integration%2C+and+Hilbert+Spaces%22+-+Elias+M.+Stein+%26+Rami+Shakarchi)
+- ["Elements of Information Theory (Wiley Series in Telecommunications and Signal Processing) (Hardcover)" - Thomas M. Cover](https://www.google.com/search?q=%22Elements+of+Information+Theory+%28Wiley+Series+in+Telecommunications+and+Signal+Processing%29+%28Hardcover%29%22+-+Thomas+M.+Cover)
+- ["Elements of the Theory of Functions and Functional Analysis, vol I" - A. N. Kolmogorov & S. V. Fomin](https://www.google.com/search?q=%22Elements+of+the+Theory+of+Functions+and+Functional+Analysis%2C+vol+I%22+-+A.+N.+Kolmogorov+%26+S.+V.+Fomin)
+- ["Elements of the Theory of Functions and Functional Analysis, vol II" - A. N. Kolmogorov & S. V. Fomin](https://www.google.com/search?q=%22Elements+of+the+Theory+of+Functions+and+Functional+Analysis%2C+vol.+II%22+-+A.+N.+Kolmogorov+%26+S.+V.+Fomin)
+- ["Introductory Functional Analysis With Applications" - Erwin Kreyszig](https://www.google.com/search?q=%22Introductory+Functional+Analysis+With+Applications%22+-+Erwin+Kreyszig)
+- ["Introduction to Functional Analysis" - Reinhold Meise & Dietmar Vogt](https://www.google.com/search?q=%22Introduction+to+Functional+Analysis%22+-+Reinhold+Meise+%26+Dietmar+Vogt)
+- ["Functional Analysis" - Walter Rudin](https://www.google.com/search?q=%22Functional+Analysis%22+-+Walter+Rudin)
+- ["Real and Complex Analysis" - Walter Rudin](https://www.google.com/search?q=%22Real+and+Complex+Analysis%22+-+Walter+Rudin)
+- ["Analysis of Boolean Functions" - Ryan O'Donnell](https://www.google.com/search?q=%22Analysis+of+Boolean+Functions%22+-+Ryan+O'Donnell)
+- ["Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering" - Steven Henry Strogatz](https://www.google.com/search?q=%22Nonlinear+Dynamics+and+Chaos%3A+With+Applications+to+Physics%2C+Biology%2C+Chemistry%2C+and+Engineering%22+-+Steven+Henry+Strogatz)
+
+### Real Analysis
+
+- ["The Principles of Mathematical Analysis" - Walter Rudin](https://www.google.com/search?q=%22The+Principles+of+Mathematical+Analysis%22+-+Walter+Rudin)
+- ["Real Analysis: Measure Theory, Integration, and Hilbert Spaces" - Elias M. Stein & Rami Shakarchi](https://www.google.com/search?q=%22Real+Analysis%3A+Measure+Theory%2C+Integration%2C+and+Hilbert+Spaces%22+-+Elias+M.+Stein+%26+Rami+Shakarchi)
+
+### Complex Analysis
+
+- ["Complex Analysis, 2nd ed" - Lars Ahlfors](https://www.google.com/search?q=%22Complex+Analysis%2C+2nd+ed%22+-+Lars+Ahlfors)
+- ["Complex Analysis, 3rd ed" - Lars Ahlfors](https://www.google.com/search?q=%22Complex+Analysis%2C+3rd+ed%22+-+Lars+Ahlfors)
+- ["Complex Analysis" - Elias M. Stein & Rami Shakarchi](https://www.google.com/search?q=%22Complex+Analysis%22+-+Elias+M.+Stein+%26+Rami+Shakarchi)
+- ["Complex Analysis" - Serge Lang](https://www.google.com/search?q=%22Complex+Analysis%22+-+Serge+Lang)
+- ["Functions of One Complex Variable" - John B Conway](https://www.google.com/search?q=%22Functions+of+One+Complex+Variable%22+-+John+B+Conway)
+
+### Fourier Analysis
+
+- ["Higher Order Fourier Analysis" - Terence Tao](https://www.google.com/search?q=%22Higher+Order+Fourier+Analysis%22+-+Terence+Tao)
+
+### Geometric Measure Theory
+
+- ["Geometric Measure Theory: A Beginner's Guide" - Frank Morgan](https://www.google.com/search?q=%22Geometric+Measure+Theory%3A+A+Beginner%27s+Guide%22+-+Frank+Morgan)
+- ["Geometric Measure Theory" - Herbert Federer](https://www.google.com/search?q=%22Geometric+Measure+Theory%22+-+Herbert+Federer)
+- ["Lectures on Geometric Measure Theory" - Leon Simon & Australian National University. Centre For Mathematical Analysis](https://www.google.com/search?q=%22Lectures+on+Geometric+Measure+Theory%22+-+Leon+Simon+%26+Australian+National+University.+Centre+For+Mathematical+Analysis)
+- ["Geometry of Sets and Measures in Euclidean Spaces: Fractals and Rectifiability" - Pertti Mattila](https://www.google.com/search?q=%22Geometry+of+Sets+and+Measures+in+Euclidean+Spaces%3A+Fractals+and+Rectifiability%22+-+Pertti+Mattila)
+
+### Measure Theory
+
+- ["Measure Theory and Fine Properties of Functions, Revised Edition" - Lawrence Craig Evans & Ronald F. Gariepy](https://www.google.com/search?q=%22Measure+Theory+and+Fine+Properties+of+Functions%2C+Revised+Edition%22+-+Lawrence+Craig+Evans+%26+Ronald+F.+Gariepy)
+
+### Functional Analysis
+
+- ["Geometric Aspects of Functional Analysis: Israel Seminar (GAFA) 2014–2016" - Bo'az Klartag & Emanuel Milman](https://www.google.com/search?q=%22Geometric+Aspects+of+Functional+Analysis%3A+Israel+Seminar+%28GAFA%29+2014%E2%80%932016%22+-+Bo%27az+Klartag+%26+Emanuel+Milman)
+
+### Optimal Transport
+
+- ["Optimal Transport: Old and New" - Cédric Villani](https://www.google.com/search?q=%22Optimal+Transport%3A+Old+and+New%22+-+C%C3%A9dric+Villani)

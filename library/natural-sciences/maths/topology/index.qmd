@@ -1,0 +1,47 @@
+---
+title: Topology
+---
+
+## Topology
+
+- ["Topology" - James R. Munkres](https://www.google.com/search?q=%22Topology%22+-+James+R.+Munkres)
+- ["Differential Topology" - Victor Guillemin & Alan Pollack](https://www.google.com/search?q=%22Differential+Topology%22+-+Victor+Guillemin+%26+Alan+Pollack)
+- ["Algebraic Topology" - Allen Hatcher](https://www.google.com/search?q=%22Algebraic+Topology%22+-+Allen+Hatcher)
+- ["Homotopy Limit Functors on Model Categories and Homotopical Categories" - William G. Dwyer & Philip S. Hirschhorn & Daniel M. Kan & Jeffrey H. Smith](https://www.google.com/search?q=%22Homotopy+Limit+Functors+on+Model+Categories+and+Homotopical+Categories%22+-+William+G.+Dwyer+%26+Philip+S.+Hirschhorn+%26+Daniel+M.+Kan+%26+Jeffrey+H.+Smith)
+- ["Introduction to Smooth Manifolds" - John M. Lee](https://www.google.com/search?q=%22Introduction+to+Smooth+Manifolds%22+-+John+M.+Lee)
+- ["An Introduction to Manifolds" - Loring W. Tu](https://www.google.com/search?q=%22An+Introduction+to+Manifolds%22+-+Loring+W.+Tu)
+- ["Topology and Geometry" - Glen E. Bredon](https://www.google.com/search?q=%22Topology+and+Geometry%22+-+Glen+E.+Bredon)
+- ["Differential Forms in Algebraic Topology" - Raoul Bott & Loring W. Tu](https://www.google.com/search?q=%22Differential+Forms+in+Algebraic+Topology%22+-+Raoul+Bott+%26+Loring+W.+Tu)
+- ["An Introduction to Algebraic Topology" - Joseph Rotman](https://www.google.com/search?q=%22An+Introduction+to+Algebraic+Topology%22+-+Joseph+Rotman)
+- ["A Concise Course in Algebraic Topology" - J. P. May](https://www.google.com/search?q=%22A+Concise+Course+in+Algebraic+Topology%22+-+J.+P.+May)
+- ["Topology via Logic" - Steven Vickers](https://www.google.com/search?q=%22Topology+via+Logic%22+-+Steven+Vickers)
+- ["General Topology" - Ryszard Engelking](https://www.google.com/search?q=%22General+Topology%22+-+Ryszard+Engelking)
+- ["Topology: Volume II (Volume 2)" - K. Kuratowski](https://www.google.com/search?q=%22Topology%3A+Volume+II+%28Volume+2%29%22+-+K.+Kuratowski)
+- ["Topology: Volume I (Volume 1)" - K. Kuratowski](https://www.google.com/search?q=%22Topology%3A+Volume+I+%28Volume+1%29%22+-+K.+Kuratowski)
+
+### General Topology
+
+- ["Topology" - James R. Munkres](https://www.google.com/search?q=%22Topology%22+-+James+R.+Munkres)
+- ["General Topology" - Ryszard Engelking](https://www.google.com/search?q=%22General+Topology%22+-+Ryszard+Engelking)
+- ["Topology: Volume I (Volume 1)" - K. Kuratowski](https://www.google.com/search?q=%22Topology%3A+Volume+I+%28Volume+1%29%22+-+K.+Kuratowski)
+- ["Topology: Volume II (Volume 2)" - K. Kuratowski](https://www.google.com/search?q=%22Topology%3A+Volume+II+%28Volume+2%29%22+-+K.+Kuratowski)
+- ["Topology via Logic" - Steven Vickers](https://www.google.com/search?q=%22Topology+via+Logic%22+-+Steven+Vickers)
+
+### Algebraic Topology
+
+- ["Algebraic Topology" - Allen Hatcher](https://www.google.com/search?q=%22Algebraic+Topology%22+-+Allen+Hatcher)
+- ["An Introduction to Algebraic Topology" - Joseph Rotman](https://www.google.com/search?q=%22An+Introduction+to+Algebraic+Topology%22+-+Joseph+Rotman)
+- ["A Concise Course in Algebraic Topology" - J. P. May](https://www.google.com/search?q=%22A+Concise+Course+in+Algebraic+Topology%22+-+J.+P.+May)
+- ["Differential Forms in Algebraic Topology" - Raoul Bott & Loring W. Tu](https://www.google.com/search?q=%22Differential+Forms+in+Algebraic+Topology%22+-+Raoul+Bott+%26+Loring+W.+Tu)
+
+### Differential Topology
+
+- ["Differential Topology" - Victor Guillemin & Alan Pollack](https://www.google.com/search?q=%22Differential+Topology%22+-+Victor+Guillemin+%26+Alan+Pollack)
+- ["Introduction to Smooth Manifolds" - John M. Lee](https://www.google.com/search?q=%22Introduction+to+Smooth+Manifolds%22+-+John+M.+Lee)
+
+### Homotopy Theory
+
+- ["Homotopy Limit Functors on Model Categories and Homotopical Categories" - William G. Dwyer & Philip S. Hirschhorn & Daniel M. Kan & Jeffrey H. Smith](https://www.google.com/search?q=%22Homotopy+Limit+Functors+on+Model+Categories+and+Homotopical+Categories%22+-+William+G.+Dwyer+%26+Philip+S.+Hirschhorn+%26+Daniel+M.+Kan+%26+Jeffrey+H.+Smith)
+- ["Homotopy type theory and Voevodsky's univalent foundations" - Álvaro Pelayo & Michael A. Warren](https://www.google.com/search?q=%22Homotopy+type+theory+and+Voevodsky's+univalent+foundations%22+-+Álvaro+Pelayo+%26+Michael+A.+Warren)
+- ["Higher Topos Theory" - Jacob Lurie](https://www.google.com/search?q=%22Higher+Topos+Theory%22+-+Jacob+Lurie)
+- ["Homotopy Theory of Higher Categories: From Segal Categories to N-Categories and Beyond (New Mathematical Monographs)" - Carlos Simpson](https://www.google.com/search?q=%22Homotopy+Theory+of+Higher+Categories%3A+From+Segal+Categories+to+N-Categories+and+Beyond+%28New+Mathematical+Monographs%29%22+-+Carlos+Simpson)
