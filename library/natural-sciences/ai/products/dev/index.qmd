@@ -5,6 +5,7 @@ title: AI Dev Tools
 ## AI Tools For Developers
 
 - [Cursor frontend workflow ](https://x.com/mckaywrigley/status/1827833269259530275)
+- [repo2txt for LLm prompting](https://github.com/abinthomasonline/repo2txt?tab=readme-ov-file)
 
 #### General 
 

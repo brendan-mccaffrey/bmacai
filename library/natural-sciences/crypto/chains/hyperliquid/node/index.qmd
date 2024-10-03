@@ -29,7 +29,6 @@ Command: `~/hl-visor run-non-validator`, Flags
 
 Purchase EC2 in tokyo running ubuntu 24.04, need 4 CPU cores, 16 gb RAM, and 50 gb disk.
 
-
 ### Setup / Install Docker
 
 ```bash
@@ -67,12 +66,85 @@ git clone https://github.com/hyperliquid-dex/node.git
 # configure chain to testnet 
 echo '{"chain": "Testnet"}' > ~/visor.json
 
-# download config file, will not be necessary in the future
-curl https://binaries.hyperliquid.xyz/Testnet/non_validator_config.json > ~/non_validator_config.json
+### OLD COMMAND
+# # download config file, will not be necessary in the future
+# curl https://binaries.hyperliquid.xyz/Testnet/non_validator_config.json > ~/non_validator_config.json
 
 # download the visor binary, which will spawn and manage the child node process
 curl https://binaries.hyperliquid.xyz/Testnet/hl-visor > ~/hl-visor && chmod a+x ~/hl-visor
 ```
+
+## Setup env
+
+```bash
+nano ~/.env
+```
+enter env variables
+
+`.env.example`
+```bash
+export USER_PK=
+export USER_ADDRESS=
+export MY_IP=
+export VAL_NAME=
+export VAL_DESCRIPTION=
+```
+
+```bash
+chmod 600 ~/.env
+
+nano ~/.bashrc
+# add source ~/.env here 
+
+source ~/.bashrc
+```
+
+## Run the node
+
+```bash
+screen -S hypernode
+
+~/hl-visor run-non-validator --evm
+
+# exit screen
+```
+
+## Setup val config
+
+```bash
+echo "{\"key\": \"$USER_PK\"}" > ~/hl/hyperliquid_data/node_config.json
+```
+
+## Make cmds
+
+```bash
+mkdir cmd 
+
+nano cmd/listvals.sh 
+```
+
+`curl -X POST --header "Content-Type: application/json" --data '{ "type": "validatorSummaries"}' https://api.hyperliquid-testnet.xyz/info  | jq -r '(["Name", "Validator", "Description", "Recent Blocks", "Stake", "Jailed"] | (., map(length*"-"))), (.[] | [.name, .validator, .description, .nRecentBlocks, .stake, .isJailed]) | @tsv' | column -t -s $'\t' | awk 'BEGIN{print "+"FS"-"FS"+"} NR==1{gsub(/[^|]/,"-",$0); print "+"FS$0FS"+"}; NR>1{print "|"FS$0FS"|"}; END{print "+"FS"-"FS"+"}'`
+
+```bash
+chmod a+x cmd/listvals.sh 
+
+nano cmd/valaddress.sh 
+```
+
+`~/hl-node --chain Testnet --key $USER_PK print-address`
+
+```bash
+chmod a+x cmd/valaddress.sh 
+
+nano cmd/joinnetwork.sh
+```
+
+`~/hl-node --chain Testnet --key "$USER_PK" send-signed-action '{"type": "CValidatorAction", "register": {"profile": {"node_ip": {"Ip": "'"$MY_IP"'"}, "name": "'"$VAL_NAME"'", "description": "'"$VAL_DESCRIPTION"'" }}}'`
+
+```bash
+chmod a+x cmd/joinnetwork.sh 
+```
+
 
 ### Run
 
